@@ -16,3 +16,7 @@ annotating chunks 6..10
 === chunk 009  20:14  (ledger: 400) ===
   claude rc=0 subtype=success  quota: 5h=0.26 7d=0.13
   +50 records
+  committed
+=== chunk 010  20:33  (ledger: 450) ===
+  claude rc=0 subtype=success  quota: 5h=0.37 7d=0.14
+  +50 records
