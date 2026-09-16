@@ -1,5 +1,10 @@
-# Materials Project dump: 35 MB, CC-BY 4.0, fetched rather than tracked.
-# See data/reference/README.md for provenance.
+# Reference datasets are NOT redistributed here -- each is fetched by the user
+# from its source. Run `python scripts/fetch_reference_data.py` for instructions.
+#
+# TEDesignLab states citation requirements but no redistribution licence, so the
+# file is deliberately untracked and has been purged from this repository's
+# history. Materials Project is CC-BY 4.0 but too large to track usefully.
+data/reference/tedesignlab-complete-data.xlsx
 data/reference/mp_190822.csv
 
 __pycache__/

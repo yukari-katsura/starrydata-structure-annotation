@@ -5,8 +5,8 @@ measured structures and to resolve database ids offline.
 
 | file | rows | tracked | what it gives |
 |---|---:|---|---|
-| `tedesignlab-complete-data.xlsx` | 2,701 (1,837 compounds) | yes | ICSD id + experimentally determined space group per compound, plus computed thermoelectric quantities: band gap, κ_L, β quality factor (p,n), effective masses, valley degeneracy, bulk modulus, average coordination number, Grüneisen parameter |
-| `mp_190822.csv` | 119,570 | **no** (35 MB, gitignored) | Materials Project dump of 2019-08-22: `material_id`, formula, space group symbol, `e_above_hull`, band gap, ICSD cross-references |
+| `tedesignlab-complete-data.xlsx` | 2,701 (1,837 compounds) | **no** — fetch it | ICSD id + experimentally determined space group per compound, plus computed thermoelectric quantities: band gap, κ_L, β quality factor (p,n), effective masses, valley degeneracy, bulk modulus, average coordination number, Grüneisen parameter |
+| `mp_190822.csv` | 119,570 | **no** — fetch it (35 MB) | Materials Project dump of 2019-08-22: `material_id`, formula, space group symbol, `e_above_hull`, band gap, ICSD cross-references |
 
 Together they make stage 2 possible without hitting the Materials Project API,
 and they are the only evidence in this project that does not come from a
@@ -15,6 +15,22 @@ language model.
 **Citation: see [CITATIONS.md](CITATIONS.md).** TEDesignLab must be cited as
 Gorai et al., *Comput. Mater. Sci.* **112**, 368-376 (2016),
 doi:10.1016/j.commatsci.2015.11.006, whenever these data are used.
+
+## Getting these files
+
+Neither is redistributed with this repository. TEDesignLab states citation
+requirements but no redistribution licence, so it is untracked and has been
+removed from the git history; the Materials Project dump is CC BY 4.0 but too
+large to track usefully.
+
+```bash
+python scripts/fetch_reference_data.py
+```
+
+prints the source URL for each, the terms attached to it, where to save it, and
+verifies the TEDesignLab checksum against the copy the committed outputs were
+built from. Nothing is downloaded automatically: both are fetched by hand so
+whoever runs the pipeline has seen the terms.
 
 ## Derived index
 

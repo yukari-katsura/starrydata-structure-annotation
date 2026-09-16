@@ -54,6 +54,10 @@ systems cover 47% of samples.
 ```bash
 pip install -r requirements.txt
 
+# The two structure-reference datasets are not redistributed here.
+# This prints where to get them and the terms attached to each:
+python scripts/fetch_reference_data.py
+
 python scripts/merge_taxonomy_v3.py            # build the taxonomy
 python scripts/generate_annotation_data.py     # host systems + chunk files
 python scripts/build_structure_reference.py    # index ICSD/MP references
@@ -63,7 +67,10 @@ python scripts/build_annotated_samples.py      # join down to samples
 ```
 
 Everything is deterministic and safe to re-run. `data/processed/` ships the two
-Starrydata inputs so the pipeline runs without the parent repository.
+Starrydata inputs, so the pipeline runs without the parent repository — but
+`build_structure_reference.py` needs the TEDesignLab and Materials Project files
+you fetch yourself, and will stop with instructions if they are absent. The
+committed annotation outputs do not depend on re-running it.
 
 ## Limitations
 
@@ -105,11 +112,11 @@ Read these before treating the output as reference data.
 
 Not yet resolved; settle these before making the repository public.
 
-- [ ] **TEDesignLab redistribution.** The citation is settled (Gorai et al.
-      2016, see `data/reference/CITATIONS.md`), but the page states no licence
-      or redistribution terms and `tedesignlab-complete-data.xlsx` is tracked
-      here. Either confirm redistribution is permitted, or replace the file
-      with a download script and a checksum.
+- [x] **TEDesignLab redistribution.** Resolved: the file is not redistributed.
+      It is untracked, purged from the git history, and users fetch it
+      themselves via `scripts/fetch_reference_data.py`, which states the
+      citation requirements. Citations are recorded in
+      `data/reference/CITATIONS.md`.
 - [ ] **Starrydata terms.** Confirm that shipping `data/processed/*.parquet`
       is consistent with how the dataset is released.
 - [ ] **Copyright holder** in `LICENSE` and `LICENSE-DATA` — currently

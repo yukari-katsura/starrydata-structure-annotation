@@ -71,7 +71,21 @@ def sg_number(symbol):
         return None
 
 
+def require_references():
+    """Neither reference dataset ships with this repository; fail helpfully."""
+    missing = [p for p in (TEDL, MP) if not os.path.exists(p)]
+    if not missing:
+        return
+    for p in missing:
+        print(f'MISSING: {p}')
+    print('\nReference datasets are not redistributed with this repository.')
+    print('Run:  python scripts/fetch_reference_data.py')
+    print('for the source URLs, the terms attached to each, and where to save them.')
+    sys.exit(1)
+
+
 def main():
+    require_references()
     hosts = pd.read_parquet(OUT + 'df_host_systems.parquet')
     known = set(hosts.host_system)
     rows = []
