@@ -326,6 +326,26 @@ re-sorted or re-issued.
 Excel's row gutter, which is one higher because row 1 is the header. Both are
 kept so neither has to be worked out.
 
+**Why the key uses the ICSD code and not an mp_id.** Materials Project is open
+and ICSD is licensed, so an mp_id is the friendlier identifier -- but it cannot
+be the key: **356 of 2,701 entries (13%) have no mp_id by any route**, and a key
+that is absent for an eighth of the table is not a key. The ICSD code is also
+what TEDesignLab itself publishes, so it is the column you can see in the
+downloaded file, and collection codes are never reused.
+
+An `mp_id` column is provided instead, for open lookup, with `mp_id_source`
+saying how it was obtained:
+
+| source | entries | |
+|---|---:|---|
+| MP `icsd_ids` cross-reference | 2,268 | Materials Project asserting the link itself |
+| formula + space group | 77 | our inference; can pick the wrong polymorph |
+| none | 356 | not in the 2019 snapshot |
+
+Note the first route: **MP publishes the ICSD cross-reference**, so an ICSD code
+is resolvable without an ICSD licence for 84% of entries. It is a
+cross-reference, not a dead end.
+
 Row numbers are only meaningful for the file they came from.
 `scripts/fetch_reference_data.py` records the SHA-256 of the copy these outputs
 were built from and warns if a fresh download differs -- if it does, re-run

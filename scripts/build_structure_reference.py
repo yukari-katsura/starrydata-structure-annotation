@@ -84,7 +84,47 @@ def require_references():
     sys.exit(1)
 
 
-def build_tedl_entries(t):
+def tedl_mp_crosswalk(t, mp):
+    """Attach an openly-resolvable mp_id to each TEDesignLab entry.
+
+    The key stays ICSD-based: that is the identifier TEDesignLab publishes, it
+    is present for all 2,701 entries, and collection codes are never reused. An
+    mp_id cannot serve as the key because 13% of entries have none.
+
+    But ICSD is a licensed database, so an mp_id is added for open lookup. Two
+    routes, better one first:
+      1. Materials Project's own icsd_ids cross-reference (84% of entries).
+         This is MP asserting the link, not us inferring it.
+      2. reduced formula + space group (a further 3%).
+    mp_id_source records which, because route 2 is our inference and can be
+    wrong where a formula has several polymorphs.
+    """
+    import re as _re
+    icsd_to_mp, hull = {}, {}
+    for r in mp.itertuples():
+        hull[r.material_id] = r.e_above_hull
+        for n in _re.findall(r'\d+', str(r.icsd_ids)):
+            icsd_to_mp.setdefault(int(n), []).append(r.material_id)
+
+    sym_num, by_fs = {}, {}
+    for r in mp.itertuples():
+        red, _, _ = keys_for(r.pretty_formula)
+        if not red:
+            continue
+        if r.spacegroup not in sym_num:
+            sym_num[r.spacegroup] = sg_number(r.spacegroup)
+        n = sym_num[r.spacegroup]
+        if n is None:
+            continue
+        k = (red, int(n))
+        prev = by_fs.get(k)
+        if prev is None or (r.e_above_hull == r.e_above_hull
+                            and r.e_above_hull < hull.get(prev, 9e9)):
+            by_fs[k] = r.material_id
+    return icsd_to_mp, by_fs, hull
+
+
+def build_tedl_entries(t, mp=None):
     """TEDesignLab rows as a feature table, keyed by a stable tedl_id.
 
     Kept separate from mp_id and icsd_id because it answers a different
@@ -118,6 +158,10 @@ def build_tedl_entries(t):
         except (TypeError, ValueError):
             return None
 
+    icsd_to_mp, by_fs, hull = ({}, {}, {})
+    if mp is not None:
+        icsd_to_mp, by_fs, hull = tedl_mp_crosswalk(t, mp)
+
     rows = []
     for n, r in enumerate(t.itertuples(), start=1):
         d = {'tedl_id': f'{n}-{r.compound}-{int(r.icsd)}',
@@ -130,6 +174,17 @@ def build_tedl_entries(t):
              'tedl_group': getattr(r, 'comment', None)}
         red, _, _ = keys_for(r.compound)
         d['reduced_formula'] = red
+        # MP's own cross-reference first; our formula+sg match only as fallback
+        cands = icsd_to_mp.get(int(r.icsd))
+        if cands:
+            d['mp_id'] = sorted(cands, key=lambda m: hull.get(m, 9e9))[0]
+            d['mp_id_source'] = 'MP icsd_ids cross-reference'
+        elif red and r.sg == r.sg and (red, int(r.sg)) in by_fs:
+            d['mp_id'] = by_fs[(red, int(r.sg))]
+            d['mp_id_source'] = 'formula+spacegroup match (inferred)'
+        else:
+            d['mp_id'] = None
+            d['mp_id_source'] = None
         row = t.loc[r.Index]
         for col, name in SINGLE.items():
             d[name] = num(row.get(col))
@@ -153,10 +208,6 @@ def main():
     print(f'Reading {TEDL} ...')
     t = pd.read_excel(TEDL)
     print(f'  {len(t)} rows, {t.compound.nunique()} distinct compounds')
-    tedl = build_tedl_entries(t)
-    tedl.to_parquet(OUT + 'df_tedl_entries.parquet', index=False, engine='pyarrow')
-    print(f'  -> {OUT}df_tedl_entries.parquet  ({len(tedl)} entries, '
-          f'{len(tedl.columns)} columns, {tedl.reduced_formula.nunique()} formulas)')
     for _, r in t.iterrows():
         red, full, host = keys_for(r['compound'])
         if red is None:
@@ -190,6 +241,16 @@ def main():
                                  'nelements', 'spacegroup', 'e_above_hull',
                                  'band_gap', 'icsd_ids'], low_memory=False)
     print(f'  {len(m)} entries')
+    # built here rather than with the TEDesignLab read: the crosswalk needs the
+    # Materials Project table, which is loaded above.
+    tedl = build_tedl_entries(t, m)
+    tedl.to_parquet(OUT + 'df_tedl_entries.parquet', index=False, engine='pyarrow')
+    n_mp = int(tedl.mp_id.notna().sum())
+    print(f'  -> {OUT}df_tedl_entries.parquet  ({len(tedl)} entries, '
+          f'{len(tedl.columns)} columns, {tedl.reduced_formula.nunique()} formulas)')
+    print(f'     {n_mp} carry an mp_id ({n_mp/len(tedl)*100:.0f}%); '
+          f'{len(tedl)-n_mp} have none by any route')
+
     sym_cache = {}
     for _, r in m.iterrows():
         red, full, host = keys_for(r['pretty_formula'])
