@@ -527,19 +527,30 @@ caffeinate -i ./run_chunks.sh 5 10
 releases it on exit. Display and disk sleep do not stop computation and are left
 alone. On a laptop the lid must stay open; a closed lid sleeps regardless.
 
-The script runs one `claude -p` per chunk rather than one for the whole range,
-so each chunk is a bounded task and a failure stops the loop with everything
-before it already committed. After each chunk it rebuilds the derived tables,
-runs the gate, and **stops without committing if the gate fails**. It commits
-locally but does not push.
+**Run it from your own terminal, not from inside a Claude Code session.** A
+session that runs this spawns a second Claude which also draws on your quota and
+contributes nothing while the subprocess works.
 
-`--permission-mode acceptEdits` lets it write files without prompting while
-still refusing anything more dangerous. `bypassPermissions` would also work and
-is not worth the risk for this.
+One `claude -p` per chunk rather than one for the whole range, so each chunk is
+bounded and a failure stops the loop with everything before it committed. After
+each chunk it rebuilds the derived tables, runs the gate, and **stops without
+committing if the gate fails**. It commits locally and never pushes.
 
-Two things it cannot do: notice that a whole chunk is subtly wrong in a way no
-invariant covers, and verify anything in a host with no structure reference --
-which is a third of assignments now and rises down the tail.
+Four guards, each from something that actually went wrong in a dry run:
+
+| guard | why |
+|---|---|
+| `< /dev/null` on the `claude -p` call | it otherwise stalls 3s per chunk waiting for stdin that never arrives |
+| `--output-format stream-json` | output is buffered until exit, so a hung chunk and a working one look identical for twenty minutes |
+| ledger must grow by >=40 records | a quota limit, a refusal and a crash all look the same from outside: the ledger did not grow. Without this the loop runs every remaining chunk doing nothing and reports success |
+| stop at 85% of the five-hour quota window | `stream-json` reports `rate_limit_event` utilisation per chunk. A chunk takes ~20 minutes, so starting one at 95% means it dies partway rather than not starting |
+
+On a quota stop it exits 0 and prints the resume command, since that is an
+orderly end rather than a failure.
+
+Two things it still cannot do: notice that a whole chunk is subtly wrong in a
+way no invariant covers, and verify anything in a host with no structure
+reference -- a third of assignments now, rising down the tail.
 
 ### Checking an assignment against the paper
 

@@ -15,3 +15,7 @@ __pycache__/
 *.pyc
 .venv/
 .DS_Store
+
+# unattended-run logs and raw stream-json output
+run_chunks.*.log
+run_chunks.*.jsonl
