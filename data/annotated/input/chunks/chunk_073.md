@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Pr-Rh
 - rank 3601 | 1 samples | 1 papers | 1 compositions
 - compositions: Pr7Rh3 (1)
+- sample form: Polycrystal (1)
 - measured range: 10-288 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): PrRh2 Fd-3m (227) mp-2529 [hull=0.000, icsd=2, PRIMARY]; Pr3Rh2 R-3 (148) mp-1104158 [hull=0.000, icsd=1, PRIMARY]; Pr7Rh3 P6_3mc (186) mp-1106086 [hull=0.000, icsd=1, PRIMARY]; PrRh Cmcm (63) mp-999305 [hull=0.000, icsd=1, PRIMARY]; Pr4Rh Fd-3m (227) mp-1209468 [hull=0.417, PRIMARY]
 - papers: https://doi.org/10.1016/s0925-8388(98)00458-7 (Magnetic and electrical properties of the intermetallic compounds R7Rh...)
@@ -28,12 +29,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Pr-Ru-Sb
 - rank 3602 | 1 samples | 1 papers | 1 compositions
 - compositions: PrRu4Sb12 (1)
+- sample form: SingleCrystal (1)
 - measured range: 20-262 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1088/0953-8984/14/45/317 (Transport properties in the filled-skutterudite compounds RERu4Sb12 (R...)
 
 ## Pr-Ru-Sn
 - rank 3603 | 1 samples | 1 papers | 1 compositions
 - compositions: PrRuSn3 (1)
+- sample form: Polycrystal (1)
 - measured range: 10-297 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): PrSn3Ru Pm-3n (223) mp-1198507 [hull=0.000, icsd=2, PRIMARY]; PrSnRu Pnma (62) mp-21010 [hull=0.000, icsd=1, PRIMARY]; Pr3Sn13Ru4 Pm-3n (223) mp-1210053 [hull=0.000, PRIMARY]; Pr(Sn3Ru2)2 I-42m (121) mp-1206351 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1088/0953-8984/3/45/014 (Transport and magnetic properties of RERuSn3(RE=La, Ce, Pr, Nd, Sm): a...)
@@ -48,6 +51,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Pr-Te-Tl
 - rank 3605 | 1 samples | 1 papers | 1 compositions
 - compositions: Tl9PrTe6 (1)
+- sample form: Bulk (1)
 - measured range: 315-550 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): PrTlTe2 R-3m (166) mp-999288 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2015.01.025 (Thermoelectric properties of hot-pressed Tl9LnTe6 (Ln=La, Ce, Pr, Nd, ...)
@@ -69,6 +73,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Pt-Sn-U
 - rank 3608 | 1 samples | 1 papers | 1 compositions
 - compositions: U3Pt3Sn4 (1)
+- sample form: Polycrystal (1)
 - measured range: 13-349 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): USnPt P-62m (189) mp-1080562 [hull=0.000, icsd=1, PRIMARY]; U2SnPt2 P4/mbm (127) mp-1080130 [hull=0.038, icsd=1, PRIMARY]; U3Sn4Pt3 I-43d (220) mp-1189480 [hull=0.005, icsd=1, PRIMARY]; USnPt2 P6_3/mmc (194) mp-1078970 [hull=0.075, icsd=1, PRIMARY]; USnPt F-43m (216) mp-30848 [hull=0.084, icsd=1]
 - papers: https://doi.org/10.1063/1.5128593 (Uranium-based materials for thermoelectric applications)
@@ -76,6 +81,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Pt-Sn-Yb
 - rank 3609 | 1 samples | 1 papers | 1 compositions
 - compositions: Yb2Pt3Sn5 (1)
+- sample form: Bulk (1)
 - measured range: 10-497 K (5th-95th pct of 3 curves; full span incl. outliers 10-545 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbSnPt P-62m (189) mp-22779 [hull=0.000, icsd=2, PRIMARY]; Yb2Sn5Pt3 Pnma (62) mp-21820 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1143/jpsj.72.1745 (Magnetic and Thermoelectric Properties of a Heterogeneous Mixed-Valenc...)
@@ -125,12 +131,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Rh-Sn-Te
 - rank 3616 | 1 samples | 1 papers | 1 compositions
 - compositions: RhSn1.5Te1.5 (1)
+- sample form: Bulk (1)
 - measured range: 71-874 K (5th-95th pct of 4 curves; full span incl. outliers 71-979 K)
 - papers: https://doi.org/10.1063/1.4926479 (Electronic structure and thermoelectric properties of pnictogen-substi...)
 
 ## Rh-Sn-U
 - rank 3617 | 1 samples | 1 papers | 1 compositions
 - compositions: U2Rh2Sn (1)
+- sample form: Bulk (1)
 - measured range: 11-50 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): U2SnRh2 P4/mbm (127) mp-639876 [hull=0.000, icsd=3, PRIMARY]; USnRh P-62m (189) mp-1079696 [hull=0.000, icsd=3, PRIMARY]; U3Sn13Rh4 Pm-3n (223) mp-12717 [hull=0.040, icsd=1, PRIMARY]; USnRh2 Pnma (62) mp-1207880 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/0921-4526(96)00234-7 (Low-temperature transport properties of U2Rh2Sn and U2Fe2Sn)
@@ -146,6 +154,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ru-Sb-Zn
 - rank 3619 | 1 samples | 1 papers | 1 compositions
 - compositions: Ru9Zn7Sb8 (1)
+- sample form: Other (1)
 - measured range: 16-300 K (5th-95th pct of 2 curves; full span incl. outliers 16-675 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Zn7Sb8Ru9 Fm-3m (225) mp-981247 [hull=0.000, icsd=1, PRIMARY]; Zn11SbRu3 Ama2 (40) mp-1215721 [hull=0.008, PRIMARY]; ZnSbRu2 Immm (71) mp-1093589 [hull=2.794, PRIMARY]
 - papers: https://doi.org/10.1021/ic1015669 (Ru9Zn7Sb8: A Structure with a 2 × 2 × 2 Supercell of the Half-Heusler ...)
@@ -160,6 +169,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ru-Sn-Th
 - rank 3621 | 1 samples | 1 papers | 1 compositions
 - compositions: Th2Ru2Sn (1)
+- sample form: Polycrystal (1)
 - measured range: 10-301 K (5th-95th pct of 2 curves; full span incl. outliers 10-377 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Th3Sn13Ru4 Pm-3n (223) mp-1211693 [hull=0.015, PRIMARY]; ThSnRu2 Fm-3m (225) mp-865944 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.67.075111 (Magnetic, thermodynamic, NMR, and transport properties of the heavy-fe...)
@@ -168,6 +178,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3622 | 1 samples | 1 papers | 1 compositions
 - compositions: YbRu2Zn20 (1)
 - dopant candidates (<5% at.): Yb (1)
+- sample form: SingleCrystal (1)
 - measured range: 12-299 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Zn3Ru I4/mmm (139) mp-1380 [hull=0.000, icsd=3, PRIMARY]; U(Zn10Ru)2 Fd-3m (227) mp-1199869 [hull=0.000, icsd=1, PRIMARY]; Y(Zn10Ru)2 Fd-3m (227) mp-640315 [hull=0.000, icsd=1, PRIMARY]; Zn6Ru P4_132 (213) mp-1205290 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.86.115110 (Thermoelectric power of the YbT2Zn20(T=Fe, Ru, Os, Ir, Rh, and Co) hea...)
@@ -181,6 +192,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## S-Sm-Tl
 - rank 3624 | 1 samples | 1 papers | 1 compositions
 - compositions: TlSmS2 (1)
+- sample form: SingleCrystal (1)
 - measured range: 350-782 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SmTlS2 R-3m (166) mp-999138 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1134/s0020168510120058 (Phase diagram of the TlSe-SmSe system and transport properties of TlSm...)
@@ -188,6 +200,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## S-Ta-Ti
 - rank 3625 | 1 samples | 1 papers | 1 compositions
 - compositions: Ti0.6Ta0.4S2 (1)
+- sample form: Bulk (1)
 - measured range: 299-699 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1063/1.4863141 (Thermoelectric properties in the series Ti1-xTaxS2)
 
@@ -208,12 +221,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Sb-Se-Sn-Te
 - rank 3628 | 1 samples | 1 papers | 1 compositions
 - compositions: Sn0.839Sb0.107Te0.839Se0.161 (1)
+- sample form: Bulk (1)
 - measured range: 297-812 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1021/acsami.0c13651 (Achieving Enhanced Thermoelectric Performance in (SnTe)1-x(Sb2Te3)x an...)
 
 ## Sb-Se-U
 - rank 3629 | 1 samples | 1 papers | 1 compositions
 - compositions: USbSe (1)
+- sample form: SingleCrystal (1)
 - measured range: 13-287 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): USbSe P4/nmm (129) mp-9937 [hull=0.000, icsd=2, PRIMARY]; U2SbSe2 P4/mmm (123) mp-1207046 [hull=1.301, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2005.02.042 (Electrical transport properties of USbSe and USbTe)
@@ -222,6 +237,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3630 | 1 samples | 1 papers | 1 compositions
 - compositions: (Cu3SbSe4)0.11Zn4Sb3 (1)
 - dopant candidates (<5% at.): Cu (1)
+- sample form: Bulk (1)
 - measured range: 299-650 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2013.11.049 (Enhanced thermoelectric performance of β-Zn4Sb3 based composites incor...)
 
@@ -242,6 +258,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Sc-Sr-Te
 - rank 3633 | 1 samples | 1 papers | 1 compositions
 - compositions: SrSc2Te4 (1)
+- sample form: SingleCrystal (1)
 - measured range: 161-294 K (5th-95th pct of 2 curves; full span incl. outliers 161-425 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr(ScTe2)2 Pnma (62) mp-18660 [hull=0.019, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.intermet.2006.08.006 (Thermoelectric properties of the new tellurides SrSc2Te4 and BaSc2Te4 ...)
@@ -249,6 +266,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Sc-Te
 - rank 3634 | 1 samples | 1 papers | 1 compositions
 - compositions: Sc2Te3 (1)
+- sample form: compact (1)
 - measured range: 301-1099 K (5th-95th pct of 6 curves)
 - [ref 1] TEDesignLab / ICSD: Sc2Te3 Fddd (70) mp-12383 [hull=0.022, icsd=1, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: ScTe P6_3/mmc (194) mp-10026 [hull=0.000, icsd=1, PRIMARY]; Sc2Te Pnma (62) mp-21576 [hull=0.000, icsd=1, PRIMARY]; Sc9Te2 Cmc2_1 (36) mp-1197413 [hull=0.000, icsd=1, PRIMARY]; Sc3Te P6_3/mmc (194) mp-1186975 [hull=0.195, PRIMARY]; Sc3Te4 R3m (160) mp-1219373 [hull=0.052, PRIMARY]
@@ -257,6 +275,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Se-Sm-Tl
 - rank 3635 | 1 samples | 1 papers | 1 compositions
 - compositions: TlSmSe2 (1)
+- sample form: SingleCrystal (1)
 - measured range: 315-714 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SmTlSe2 R-3m (166) mp-999137 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1134/s0020168510120058 (Phase diagram of the TlSe-SmSe system and transport properties of TlSm...)
@@ -285,6 +304,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Se-Tl-V
 - rank 3639 | 1 samples | 1 papers | 1 compositions
 - compositions: TlV5Se8 (1)
+- sample form: Bulk (1)
 - measured range: 12-672 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Tl3VSe4 I-43m (217) mp-1025549 [hull=0.000, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1039/c5tc01766a (The solid solution series Tl(V1−xCrx)5Se8: crystal structure, magnetic...)
@@ -292,6 +312,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Se-Zr
 - rank 3640 | 1 samples | 1 papers | 1 compositions
 - compositions: ZrSe2 (1)
+- sample form: SingleCrystal (1)
 - measured range: 12-292 K (5th-95th pct of 3 curves)
 - [ref 1] TEDesignLab / ICSD: ZrSe3 P2_1/m (11) mp-1683 [hull=0.000, icsd=5, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: ZrSe2 P-3m1 (164) mp-2076 [hull=0.000, icsd=9, PRIMARY]; Zr2Se Pnnm (58) mp-22642 [hull=0.000, icsd=3, PRIMARY]; Zr2Se3 C2/m (12) mp-1215598 [hull=0.000, PRIMARY]; Zr3Se P6_3/mmc (194) mp-1188055 [hull=0.432, PRIMARY]; Zr3Se4 Cmmm (65) mp-1215400 [hull=0.075, PRIMARY]
@@ -333,6 +354,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Tb-Te-Tl
 - rank 3646 | 1 samples | 1 papers | 1 compositions
 - compositions: Tl9TbTe6 (1)
+- sample form: Bulk (1)
 - measured range: 312-552 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TbTlTe2 R-3m (166) mp-999121 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2015.01.025 (Thermoelectric properties of hot-pressed Tl9LnTe6 (Ln=La, Ce, Pr, Nd, ...)
@@ -347,6 +369,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Te-U
 - rank 3648 | 1 samples | 1 papers | 1 compositions
 - compositions: UTe2 (1)
+- sample form: SingleCrystal (1)
 - measured range: 12-68 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): UTe2 Immm (71) mp-666 [hull=0.000, icsd=18, PRIMARY]; UTe Fm-3m (225) mp-912986 [hull=0.098, icsd=10, PRIMARY]; U2Te3 Pnma (62) mp-619501 [hull=0.014, icsd=4, PRIMARY]; U3Te4 I-43d (220) mp-20520 [hull=0.026, icsd=4, PRIMARY]; UTe5 Pnma (62) mp-28500 [hull=0.002, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1103/physrevlett.124.086601 (Fermi-Surface Instability in the Heavy-Fermion Superconductor \n<mml:m...)

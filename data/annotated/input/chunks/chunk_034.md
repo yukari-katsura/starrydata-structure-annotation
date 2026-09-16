@@ -22,6 +22,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1651 | 3 samples | 1 papers | 3 compositions
 - compositions: CeRu2 (1); (Ce0.9Nd0.1)Ru2 (1); (Ce0.9La0.1)Ru2 (1)
 - dopant candidates (<5% at.): Nd (1), La (1)
+- sample form: Polycrystal (3)
 - measured range: 14-294 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeRu2 Fd-3m (227) mp-607 [hull=0.000, icsd=16, PRIMARY]; Ce7Ru3 P6_3mc (186) mp-31164 [hull=0.002, icsd=2, PRIMARY]; Ce3Ru Pnma (62) mp-672261 [hull=0.032, icsd=1, PRIMARY]; Ce4Ru Fd-3m (227) mp-1214027 [hull=0.485, PRIMARY]
 - papers: https://doi.org/10.1016/0921-4526(94)00430-4 (Transport properties of (Ce1−xRx)Ru2 (R  La, Nd))
@@ -30,6 +31,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1652 | 3 samples | 1 papers | 3 compositions
 - compositions: CeTe2 (1); CeTe1.95Sb0.05 (1); CeTe1.9Sb0.1 (1)
 - dopant candidates (<5% at.): Sb (2)
+- sample form: SingleCrystal (3)
 - measured range: 100-299 K (5th-95th pct of 9 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeTe Fm-3m (225) mp-1525 [hull=0.000, icsd=7, PRIMARY]; Ce3Te4 I-43d (220) mp-22422 [hull=0.000, icsd=5, PRIMARY]; Ce10Te19 P4_2/n (86) mp-645273 [hull=0.000, icsd=1, PRIMARY]; Ce2Te5 Cmcm (63) mp-1104233 [hull=0.056, icsd=1, PRIMARY]; Ce2Te3 Pnma (62) mp-1188216 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1063/1.4756911 (Dimensional crossover of charge density wave and thermoelectric proper...)
@@ -37,12 +39,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Cu-Gd
 - rank 1653 | 3 samples | 1 papers | 3 compositions
 - compositions: Gd(Co0.9Cu0.1)3 (1); Gd(Co0.7Cu0.3)3 (1); Gd(Co0.8Cu0.2)3 (1)
+- sample form: Bulk (3)
 - measured range: 10-298 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1063/1.3549597 (Thermoelectric power of Gd4(Co1-xCux)3 compounds)
 
 ## Co-Cu-Na-O
 - rank 1654 | 3 samples | 3 papers | 2 compositions
 - compositions: Na(Co0.8Cu0.2)2O4 (2); Na0.6Cu0.4Co2O4 (1)
+- sample form: Bulk (2)
 - measured range: 573-1074 K (5th-95th pct of 7 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2005.08.081 (Influence of partial substitution of Cu for Co on the thermoelectric p...) | https://doi.org/10.1021/cm300159w (Thermoelectric Solid-Oxide Fuel Cells with Extra Power Conversion from...) | https://doi.org/10.1109/ict.2005.1519899 (Microstructure and high-temperature thermoelectric properties of Cu-do...)
 
@@ -56,6 +60,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Fe-In-S-Sn
 - rank 1656 | 3 samples | 1 papers | 3 compositions
 - compositions: Co2.5Fe0.5Sn1.6In0.4S2 (1); Co2.5Fe0.5Sn1.5In0.5S2 (1); Co2.5Fe0.5Sn1.4In0.6S2 (1)
+- sample form: Bulk (3)
 - measured range: 297-626 K (5th-95th pct of 15 curves)
 - papers: https://doi.org/10.1021/acsaem.9b02272 (Improved Thermoelectric Performance through Double Substitution in Sha...)
 
@@ -63,6 +68,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1657 | 3 samples | 1 papers | 3 compositions
 - compositions: LaCo0.25Fe0.25Ni0.25Mn0.25O3 (1); La0.9Sr0.1Co0.25Fe0.25Ni0.25Mn0.25O3 (1); La0.8Sr0.2Co0.25Fe0.25Ni0.25Mn0.25O3 (1)
 - dopant candidates (<5% at.): Sr (2)
+- sample form: rod-shaped (3)
 - measured range: 923-1073 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1016/j.ceramint.2023.06.275 (A medium-entropy perovskite oxide La0.7Sr0.3Co0.25Fe0.25Ni0.25Mn0.25O3...)
 
@@ -70,6 +76,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1658 | 3 samples | 1 papers | 3 compositions
 - compositions: Pr1.8Sr0.2CoFeO6 (1); Pr2CoFeO6 (1); Pr1.6Sr0.4CoFeO6 (1)
 - dopant candidates (<5% at.): Sr (2)
+- sample form: Bulk (3)
 - measured range: 301-777 K (5th-95th pct of 15 curves)
 - papers: https://doi.org/10.1016/j.cej.2021.130668 (Double perovskite Pr2CoFeO6 thermoelectric oxide: Roles of Sr-doping a...)
 
@@ -106,6 +113,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Ga-Th
 - rank 1663 | 3 samples | 1 papers | 1 compositions
 - compositions: ThCoGa4 (3)
+- sample form: SingleCrystal (3)
 - measured range: 10-315 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ThGa4Co Cmcm (63) mp-22767 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1088/0953-8984/16/30/005 (The crystal structure, transport and thermodynamic properties of ThCoG...)
@@ -113,6 +121,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Ge-Sb-Te
 - rank 1664 | 3 samples | 2 papers | 3 compositions
 - compositions: (CoSb2Ge0.5Te0.5)2(GeTe)10.5Sb2Te3 (1); Co4Sb8Ge1.9Te2.1 (1); Co4Sb9Ge1.4Te1.6 (1)
+- sample form: Bulk (2); Other (1)
 - measured range: 296-776 K (5th-95th pct of 13 curves)
 - papers: https://doi.org/10.1039/c5tc01509j (Heterostructures of skutterudites and germanium antimony tellurides – ...) | https://doi.org/10.1007/s11664-010-1457-0 (Effects of Double Substitution with Ge and Te on Thermoelectric Proper...)
 
@@ -126,6 +135,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Hf-Rh-Sb-Sn-Zr
 - rank 1666 | 3 samples | 1 papers | 3 compositions
 - compositions: Zr0.5Hf0.5Co0.4Rh0.6Sb0.6Sn0.4 (1); Zr0.5Hf0.5Co0.4Rh0.6Sb0.8Sn0.2 (1); Zr0.5Hf0.5Co0.4Rh0.6Sb0.75Sn0.25 (1)
+- sample form: Bulk (3)
 - measured range: 269-775 K (5th-95th pct of 18 curves)
 - papers: https://doi.org/10.1016/j.jssc.2013.03.024 (Thermoelectric performance of nanostructured p-type Zr0.5Hf0.5Co0.4Rh0...)
 
@@ -133,6 +143,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1667 | 3 samples | 1 papers | 3 compositions
 - compositions: IFe0.3Co3.7Sb12 (1); IFe0.5Co3.5Sb12 (1); IFe0.7Co3.3Sb12 (1)
 - dopant candidates (<5% at.): Fe (3)
+- sample form: Bulk (3)
 - measured range: 296-601 K (5th-95th pct of 12 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co5Sb15I C2/m (12) mp-1226477 [hull=0.064, PRIMARY]
 - papers: https://doi.org/10.1016/j.matlet.2014.10.072 (Iodine-filled FexCo4−xSb12 polycrystals: Synthesis, structure, and the...)
@@ -146,6 +157,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Ni
 - rank 1669 | 3 samples | 1 papers | 3 compositions
 - compositions: Co39Ni61 (1); Co71Ni29 (1); Co24Ni76 (1)
+- sample form: Wire (3)
 - measured range: 56-288 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co3Ni Pm-3m (221) mp-1008349 [hull=0.000, icsd=1, PRIMARY]; CoNi Pm-3m (221) mp-1006883 [hull=0.156, icsd=1, PRIMARY]; CoNi3 P6_3/mmc (194) mp-1183785 [hull=0.019, PRIMARY, AMBIGUOUS]; Co3Ni P6_3/mmc (194) mp-1183837 [hull=0.000]; Co3Ni P-6m2 (187) mp-1226559 [hull=0.025]
 - papers: https://doi.org/10.1063/1.4819949 (Magneto-thermopower and magnetoresistance of single Co-Ni alloy nanowires)
@@ -159,6 +171,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-O-Si
 - rank 1671 | 3 samples | 1 papers | 3 compositions
 - compositions: (CoSi)0.85(SiO2)0.15 (1); (CoSi)0.9(SiO2)0.1 (1); (CoSi)0.925(SiO2)0.075 (1)
+- sample form: Bulk (3)
 - measured range: 298-982 K (5th-95th pct of 13 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co2SiO4 Pnma (62) mp-25474 [hull=0.000, icsd=8, PRIMARY]; CoSiO3 Pbca (61) mp-699575 [hull=0.018, icsd=1, PRIMARY]; CoSiO4 Pna2_1 (33) mp-633897 [hull=0.189, PRIMARY]; KNaCaCo5(SiO3)8 P1 (1) mp-1223618 [hull=0.028, PRIMARY]; Co2SiO4 Imma (74) mp-18941 [hull=0.035, icsd=2]
 - papers: https://doi.org/10.1007/s11664-014-3213-3 (Structural Characterization and Thermoelectric Properties of Hot-Press...)
@@ -175,12 +188,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1673 | 3 samples | 1 papers | 3 compositions
 - compositions: Co4Sn6Se6 (1); Co3.6Ru0.4Sn6Se6 (1); Co3.8Ni0.2Sn6Se6 (1)
 - dopant candidates (<5% at.): Ru (1), Ni (1)
+- sample form: Bulk (3)
 - measured range: 301-804 K (5th-95th pct of 9 curves)
 - papers: https://doi.org/10.1007/s11664-009-1067-x (Thermoelectric Properties of Co4Sn6Se6 Ternary Skutterudites)
 
 ## Co-Y
 - rank 1674 | 3 samples | 3 papers | 1 compositions
 - compositions: YCo2 (3)
+- sample form: SingleCrystal (1)
 - measured range: 11-496 K (5th-95th pct of 5 curves; full span incl. outliers 11-996 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YCo2 Fd-3m (227) mp-1077486 [hull=0.000, icsd=28, PRIMARY]; YCo3 R-3m (166) mp-2588 [hull=0.000, icsd=27, PRIMARY]; YCo5 P6/mmm (191) mp-1077022 [hull=0.017, icsd=21, PRIMARY]; Y3Co Pnma (62) mp-1105598 [hull=0.000, icsd=6, PRIMARY]; Y2Co17 R-3m (166) mp-1106140 [hull=0.000, icsd=5, PRIMARY]
 - papers: https://doi.org/10.1016/s0921-4526(97)00157-9 (Transport phenomena in spin fluctuations systems) | https://doi.org/10.1088/0953-8984/7/33/008 (The transport properties of RCo2compounds) | https://doi.org/10.1016/s0921-4526(96)00583-2 (Transport properties in CeCo2 single crystal)
@@ -188,6 +203,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cr-Fe-Mg-O
 - rank 1675 | 3 samples | 1 papers | 3 compositions
 - compositions: MgFeCrO4 (1); MgFe0.5Cr1.5O4 (1); MgFe1.5Cr0.5O4 (1)
+- sample form: Bulk (3)
 - measured range: 322-697 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg14CrFeO16 Pmmm (47) mp-1035602 [hull=0.035, PRIMARY]; Mg30CrFeO32 P4/mmm (123) mp-1037531 [hull=0.018, PRIMARY]; Mg3Cr8FeO16 R3m (160) mp-1222216 [hull=0.071, PRIMARY]; Mg6CrFeO8 P4/mmm (123) mp-1032130 [hull=0.121, PRIMARY]; MgCr4FeO8 F-43m (216) mp-1222043 [hull=0.186, PRIMARY]
 - papers: https://doi.org/10.1016/j.solidstatesciences.2009.09.005 (Effect of sintering temperature and thermoelectric power studies of th...)
@@ -205,6 +221,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1677 | 3 samples | 1 papers | 1 compositions
 - compositions: Si0.8Ge0.2B0.016(CrSi2)0.091 (3)
 - dopant candidates (<5% at.): B (3)
+- sample form: Bulk (3)
 - measured range: 293-1142 K (5th-95th pct of 12 curves)
 - papers: https://doi.org/10.1063/1.4764919 (Comparison of thermoelectric properties of p-type nanostructured bulk ...)
 
@@ -218,6 +235,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cs-N-Si
 - rank 1679 | 3 samples | 1 papers | 1 compositions
 - compositions: Si NCs (3)
+- sample form: Bulk (1)
 - measured range: 321-449 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.1039/c4nr04688a (Pseudo-direct bandgap transitions in silicon nanocrystals: effects on ...)
 
@@ -266,6 +284,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Ge-S-Se-Zn
 - rank 1686 | 3 samples | 1 papers | 3 compositions
 - compositions: Cu2ZnGeSe2S2 (1); Cu2ZnGeSe3S (1); Cu2ZnGeSe1S3 (1)
+- sample form: Bulk (3)
 - measured range: 298-676 K (5th-95th pct of 9 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZnCu2Ge(SeS)2 Pmn2_1 (31) mp-1215417 [hull=0.006, PRIMARY, AMBIGUOUS]; ZnCu2Ge(SeS)2 Fmm2 (42) mp-1215643 [hull=0.015]
 - papers: https://doi.org/10.1021/ja410753k (Effect of Isovalent Substitution on the Thermoelectric Properties of t...)
@@ -273,6 +292,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Ge-Yb
 - rank 1687 | 3 samples | 3 papers | 1 compositions
 - compositions: YbCu2Ge2 (3)
+- sample form: Other (1); SingleCrystal (1)
 - measured range: 16-350 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Yb(CuGe)2 I4/mmm (139) mp-13401 [hull=0.000, icsd=3, PRIMARY]; YbCuGe P6_3/mmc (194) mp-5111 [hull=0.000, icsd=2, PRIMARY]; Yb3(CuGe)4 Immm (71) mp-1095653 [hull=0.000, icsd=2, PRIMARY]; Yb2CuGe6 C2/m (12) mp-1189806 [hull=0.000, icsd=1, PRIMARY]; YbCuGe F-43m (216) mp-13306 [hull=0.163, icsd=1]
 - papers: https://doi.org/10.1063/1.4847455 (Influence of rare earth doping on thermoelectric properties of SrTiO3 ...) | https://doi.org/10.1063/1.4916786 (Interplay of chemical expansion, Yb valence, and low temperature therm...) | https://doi.org/10.1143/jpsj.78.084711 (de Haas–van Alphen Effect and Fermi Surface Properties in High-Quality...)
@@ -280,12 +300,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Hg-Se-Sn-Te
 - rank 1688 | 3 samples | 1 papers | 3 compositions
 - compositions: Cu2HgSnSe0.8Te3.2 (1); Cu2HgSnSe3.2Te0.8 (1); Cu2HgSnSe2Te2 (1)
+- sample form: Bulk (3)
 - measured range: 295-576 K (5th-95th pct of 14 curves)
 - papers: https://doi.org/10.1007/s11664-014-3075-8 (Thermoelectric Properties of Cu2HgSnSe4-Cu2HgSnTe4 Solid Solution)
 
 ## Cu-In-U
 - rank 1689 | 3 samples | 1 papers | 1 compositions
 - compositions: UCu5In (3)
+- sample form: SingleCrystal (3)
 - measured range: 11-299 K (5th-95th pct of 9 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): UInCu5 Pnma (62) mp-1208657 [hull=0.029, PRIMARY]
 - papers: https://doi.org/10.1016/s0921-4526(01)01322-9 (Single crystal study on a dense Kondo antiferromagnet UCu5In)
@@ -327,12 +349,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Ni-Si-Yb
 - rank 1695 | 3 samples | 1 papers | 3 compositions
 - compositions: Yb(Ni0.125Cu0.875)2Si2 (1); Yb(Ni0.375Cu0.625)2Si2 (1); Yb(Ni0.625Cu0.375)2Si2 (1)
+- sample form: Polycrystal (3)
 - measured range: 10-298 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1023/a:1021801903961 (Thermopower of Yb Heavy Fermion Compounds at High Pressure)
 
 ## Cu-O-Sb-Se-Sr
 - rank 1696 | 3 samples | 1 papers | 1 compositions
 - compositions: SrOCuSbSe2 (3)
+- sample form: Polycrystal (2); SingleCrystal (1)
 - measured range: 140-851 K (5th-95th pct of 11 curves)
 - papers: https://doi.org/10.1021/acs.chemmater.8b02651 (Observation of High Seebeck Coefficient and Low Thermal Conductivity i...)
 
@@ -346,6 +370,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-P-Se
 - rank 1698 | 3 samples | 2 papers | 1 compositions
 - compositions: Cu7PSe6 (3)
+- sample form: Bulk (2)
 - measured range: 305-575 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cu3PSe4 Pmn2_1 (31) mp-5756 [hull=0.000, icsd=3, PRIMARY]; Cu7PSe6 Pna2_1 (33) mp-29823 [hull=0.061, icsd=1, PRIMARY]; CuPSe2 P3m1 (156) mp-1225697 [hull=0.162, PRIMARY]; Cu7PSe6 P2_13 (198) mp-1201955 [hull=0.081, icsd=1]; Cu7PSe6 P1 (1) mp-676863 [hull=0.079]
 - papers: https://doi.org/10.1021/ja5056092 (Thermoelectric Transport in Cu7PSe6with High Copper Ionic Mobility) | https://doi.org/10.1021/acs.chemmater.7b00767 (High Electron Mobility and Disorder Induced by Silver Ion Migration Le...)
@@ -353,11 +378,13 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-S-Sc-Ti
 - rank 1699 | 3 samples | 1 papers | 3 compositions
 - compositions: Cu2ScTi3S8 (1); Cu2Sc1.5Ti2.5S8 (1); Cu2Sc2Ti2S8 (1)
+- sample form: Bulk (3)
 - measured range: 301-752 K (5th-95th pct of 15 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2021.159548 (A comparative study of thermoelectric Cu2TrTi3S8 (Tr = Co and Sc) thio...)
 
 ## Cu-S-Te
 - rank 1700 | 3 samples | 1 papers | 3 compositions
 - compositions: Cu2S0.50Te0.50 (1); Cu2S0.52Te0.48 (1); Cu2S0.54Te0.46 (1)
+- sample form: Bulk (3)
 - measured range: 296-1012 K (5th-95th pct of 15 curves)
 - papers: https://doi.org/10.1002/adma.201501030 (Ultrahigh Thermoelectric Performance in Mosaic Crystals)

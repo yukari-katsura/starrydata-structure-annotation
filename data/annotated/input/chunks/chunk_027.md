@@ -22,6 +22,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1301 | 4 samples | 1 papers | 4 compositions
 - compositions: (Bi0.48Sb1.52Te3)72.83B27.17 (1); (Bi0.48Sb1.517In0.003Te3 )72.83B27.17 (1); (Bi0.48Sb1.515In0.005Te3 )72.83B27.17 (1); (Bi0.48Sb1.513In0.007Te3 )72.83B27.17 (1)
 - dopant candidates (<5% at.): In (3)
+- sample form: Bulk (4)
 - measured range: 303-497 K (5th-95th pct of 20 curves)
 - papers: https://doi.org/10.1016/j.cej.2021.130381 (Synergistic effects of B-In codoping in zone-melted Bi0.48Sb1.52Te3-ba...)
 
@@ -35,6 +36,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## B-S
 - rank 1303 | 4 samples | 1 papers | 4 compositions
 - compositions: B6S0.599 (1); B6S0.609 (1); B6S0.62 (1); B6S0.628 (1)
+- sample form: Bulk (4)
 - measured range: 325-812 K (5th-95th pct of 7 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): B2S3 I4_1/a (88) mp-1199451 [hull=0.000, icsd=1, PRIMARY]; BS2 P2_1/c (14) mp-1200183 [hull=0.421, icsd=1, PRIMARY]; B12S R3m (160) mp-1228640 [hull=0.076, PRIMARY]; B2S3 R-3c (167) mp-866066 [hull=0.098]
 - papers: https://doi.org/10.1016/j.scriptamat.2012.10.044 (An α-rhombohedral boron-related compound with sulfur: Synthesis, struc...)
@@ -82,12 +84,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Co-Fe-Gd-O
 - rank 1309 | 4 samples | 2 papers | 4 compositions
 - compositions: GdBaCo1.4Fe0.6O5 (1); GdBaCo1.2Fe0.8O5 (1); GdBaCoFeO5 (1); GdBaFeCoO5 (1)
+- sample form: Bulk (3)
 - measured range: 298-1016 K (5th-95th pct of 5 curves; full span incl. outliers 298-1065 K)
 - papers: https://doi.org/10.1007/s10854-013-1216-0 (Thermoelectric properties of GdBaCo2−x Fe x O5+δ ceramics) | https://doi.org/10.1134/s0020168513030084 (Synthesis and properties of LnBaFeCoO5 + δ (Ln = Nd, Sm, Gd))
 
 ## Ba-Co-Ho-O
 - rank 1310 | 4 samples | 3 papers | 3 compositions
 - compositions: HoBaCo2O5.5 (2); BaHoCo4O7 (1); HoBaCo4O7 (1)
+- sample form: Bulk (1)
 - measured range: 13-997 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaHoCo4O7 P6_3mc (186) mp-19620 [hull=0.022, icsd=6, PRIMARY]; Ba2Ho2Co4O11 Pmma (51) mp-25731 [hull=0.111, icsd=4, PRIMARY]; BaHo(CoO3)2 Pmmm (47) mp-1105900 [hull=0.158, icsd=1, PRIMARY, AMBIGUOUS]; BaHo(CoO3)2 P4/mmm (123) mp-1079686 [hull=0.159, icsd=1]; Ba2Ho2Co4O11 Pmmm (47) mp-604411 [hull=0.118]
 - papers: https://doi.org/10.1063/1.3663526 (Structural and thermoelectric properties of BaRCo4O7 (R = Dy, Ho, Er, ...) | https://doi.org/10.1016/j.physb.2006.03.089 (Electronic transport and thermoelectric properties of RBaCo4O7 (R=Dy, ...) | https://doi.org/10.1103/physrevlett.93.026401 (Thermoelectric Power ofHoBaCo2O5.5: Possible Evidence of the Spin Bloc...)
@@ -111,6 +115,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1313 | 4 samples | 1 papers | 4 compositions
 - compositions: Ba2HoCu2.7Co0.3O6 (1); Ba2HoCu2.5Co0.5O6 (1); Ba2HoCu2.6Co0.4O6 (1); Ba2HoCu2.4Co0.6O6 (1)
 - dopant candidates (<5% at.): Co (4)
+- sample form: Bulk (4)
 - measured range: 10-396 K (5th-95th pct of 16 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2Ho(CuO2)4 Cmmm (65) mp-6205 [hull=0.001, icsd=5, PRIMARY]; Ba2HoCu3O7 Pmmm (47) mp-6616 [hull=0.024, icsd=2, PRIMARY]; BaHo2CuO5 Pnma (62) mp-17878 [hull=0.033, icsd=1, PRIMARY]; Ba2Ho(CuO2)3 P4/mmm (123) mp-616166 [hull=0.004, icsd=1, PRIMARY]; Ba10Ho5(Cu5O11)3 P-1 (2) mp-1229045 [hull=0.025, PRIMARY]
 - papers: https://doi.org/10.1063/1.3078810 (Thermoelectric and structural characterization of Ba2Ho(Cu3−xCox)O6+y)
@@ -134,6 +139,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1316 | 4 samples | 1 papers | 4 compositions
 - compositions: BaInFe3.7Co0.3Sb13.92 (1); BaInFe3.7Co0.3Sb12.72 (1); BaInFe3.7Co0.3Sb12.96 (1); BaInFe3.7Co0.3Sb13.44 (1)
 - dopant candidates (<5% at.): Co (4)
+- sample form: Bulk (4)
 - measured range: 296-805 K (5th-95th pct of 20 curves)
 - papers: https://doi.org/10.1007/s11664-012-2029-2 (Effects of Excess Sb on Thermoelectric Properties of Barium and Indium...)
 
@@ -171,6 +177,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Ho-Pd
 - rank 1321 | 4 samples | 3 papers | 2 compositions
 - compositions: HoPdBi (3); HoPd2Bi (1)
+- sample form: Bulk (1)
 - measured range: 13-297 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ho5Bi2Pd Pnma (62) mp-1196727 [hull=0.000, icsd=1, PRIMARY]; HoBiPd F-43m (216) mp-1009132 [hull=0.000, icsd=1, PRIMARY]; Ho5BiPd2 I4/mcm (140) mp-1212221 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1109/ict.2005.1519966 (Physical properties of rare-earth-based Heusler phases REPdZ and REPd/...) | https://doi.org/10.1103/physrevb.72.094409 (Magnetic and transport properties of the rare-earth-based Heusler phas...) | https://doi.org/10.1103/physrevb.84.035208 (Magnetic and transport properties of rare-earth-based half-Heusler pha...)
@@ -184,12 +191,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-La-Li-Mn-O
 - rank 1323 | 4 samples | 1 papers | 1 compositions
 - compositions: La2BiLiMn4O12 (4)
+- sample form: Bulk (4)
 - measured range: 12-301 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1007/s00339-016-9731-5 (Effect of bismuth doping on the physical properties of La–Li–Mn–O mang...)
 
 ## Bi-La-Mn-O-Sr
 - rank 1324 | 4 samples | 3 papers | 2 compositions
 - compositions: Bi0.25La0.25Sr0.5MnO3 (3); La0.45Bi0.25Sr0.3MnO3 (1)
+- sample form: Bulk (2)
 - measured range: 11-596 K (5th-95th pct of 7 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2014.08.005 (Electrical, thermal and magnetic properties of Bi doped La0.7−xBixSr0....) | https://doi.org/10.1063/1.2938033 (Magnon drag effect as the dominant contribution to the thermopower in ...) | https://doi.org/10.1088/0953-8984/19/29/296205 (Evidence of the Bi3+ lone-pair effect on the charge-ordering state: re...)
 
@@ -219,6 +228,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1328 | 4 samples | 1 papers | 1 compositions
 - compositions: Fe0.693C0.0966Si0.0180Mn0.0459Cr0.0776V0.0693 (4)
 - dopant candidates (<5% at.): Mn (4), Si (4)
+- sample form: Bulk (4)
 - measured range: 307-1063 K (5th-95th pct of 16 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2016.01.030 (Improvement of thermoelectric power of n-type earth-abundant iron rich...)
 
@@ -226,12 +236,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1329 | 4 samples | 1 papers | 2 compositions
 - compositions: Cu55Ni45SeC10.6 (3); Cu55Ni45SeC16 (1)
 - dopant candidates (<5% at.): Se (4)
+- sample form: Bulk (4)
 - measured range: 298-875 K (5th-95th pct of 18 curves)
 - papers: https://doi.org/10.1016/j.mtphys.2020.100311 (Enhancing the thermoelectric performance of Cu–Ni alloys by introducin...)
 
 ## C-Fe-Zn
 - rank 1330 | 4 samples | 1 papers | 4 compositions
 - compositions: ZnC1.2Fe3 (1); ZnC1.5Fe3 (1); ZnC1.3Fe3 (1); ZnC1.4Fe3 (1)
+- sample form: Bulk (4)
 - measured range: 11-350 K (5th-95th pct of 7 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZnFe3C Pm-3m (221) mp-10266 [hull=0.021, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1063/1.3653828 (The magnetic, electrical transport and thermal transport properties of...)
@@ -253,6 +265,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1333 | 4 samples | 1 papers | 4 compositions
 - compositions: Mg3Sb2C0.32 (1); Mg3Sb2C0.43 (1); Mg3Sb2C0.66 (1); Mg3Sb1.8Bi0.2C0.3 (1)
 - dopant candidates (<5% at.): Bi (1)
+- sample form: Bulk (4)
 - measured range: 317-778 K (5th-95th pct of 20 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg14SbC Amm2 (38) mp-1026465 [hull=0.239, PRIMARY]; Mg6SbC Amm2 (38) mp-1017117 [hull=0.442, PRIMARY]; Mg14SbC P-6m2 (187) mp-1026411 [hull=0.313]
 - papers: https://doi.org/10.1039/c4ra15456h (Graphene boosts thermoelectric performance of a Zintl phase compound)
@@ -267,6 +280,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Co-Na-O
 - rank 1335 | 4 samples | 2 papers | 2 compositions
 - compositions: Ca1.55Na0.45Co2O5 (3); (Ca3Co4O9)2.2(Na0.75CoO2)3.2 (1)
+- sample form: Bulk (1)
 - measured range: 301-1052 K (5th-95th pct of 7 curves)
 - papers: https://doi.org/10.1016/j.physb.2007.10.010 (Preparation and characterization of the new oxides Ca2−xNaxCo2O5) | https://doi.org/10.1016/j.ceramint.2021.01.008 (Improved environmental stability of thermoelectric ceramics based on i...)
 
@@ -311,6 +325,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1341 | 4 samples | 2 papers | 3 compositions
 - compositions: La0.7Ca0.3Ti0.5Mn0.4Ni0.1O3 (2); La0.4Ca0.6Ti0.6Mn0.4O3 (1); La0.4Ca0.6Ti0.4Mn0.6O3 (1)
 - dopant candidates (<5% at.): Ni (2)
+- sample form: rod-shaped (2)
 - measured range: 723-1172 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca9LaTi4Mn6O30 P1 (1) mp-744380 [hull=0.010, PRIMARY]; Ca9LaTi6Mn4O30 P1 (1) mp-706246 [hull=0.008, PRIMARY]; Ca9LaTi8Mn2O30 P1 (1) mp-694916 [hull=0.009, PRIMARY]; Ca9LaTi9MnO30 Pm (6) mp-694954 [hull=0.008, PRIMARY]; CaLaTiMnO6 Pc (7) mp-40866 [hull=0.026, PRIMARY]
 - papers: https://doi.org/10.1016/j.jpowsour.2013.07.010 (Manganese-doped lanthanum calcium titanate as an interconnect for flat...) | https://doi.org/10.1016/j.jpowsour.2020.227723 (A-site cation influences on performance, structure and conductivity of...)
@@ -326,6 +341,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-La-Te
 - rank 1343 | 4 samples | 1 papers | 4 compositions
 - compositions: La2.2Ca0.8Te4 (1); La1.9Ca1.1Te4 (1); La2.5Ca0.5Te4 (1); La0.9Ca2.1Te4 (1)
+- sample form: Bulk (4)
 - measured range: 293-1276 K (5th-95th pct of 15 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca(LaTe2)2 I-42d (122) mp-36031 [hull=0.015, PRIMARY]
 - papers: https://doi.org/10.1039/c5tc01648g (Mechanochemical synthesis and high temperature thermoelectric properti...)
@@ -334,6 +350,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1344 | 4 samples | 2 papers | 3 compositions
 - compositions: CaO (2); Ca3O4O9 (1); Ca3O3.9Re0.1O9 (1)
 - dopant candidates (<5% at.): Re (1)
+- sample form: Bulk (4)
 - measured range: 300-1274 K (5th-95th pct of 2 curves; full span incl. outliers 300-1412 K)
 - [ref 1] TEDesignLab / ICSD: CaO Fm-3m (225) mp-2605 [hull=0.000, icsd=14, PRIMARY]; CaO2 I4/mmm (139) mp-634859 [hull=0.007, icsd=2]; CaO Fd-3m (227) mp-1181903 [hull=2.732]; CaO (186)
 - [ref 2] MP, ranked by ICSD evidence: CaO2 P-3m1 (164) mp-1062228 [hull=0.483, icsd=9, PRIMARY]; CaO10 P4/mcc (124) mp-1182382 [hull=0.094, icsd=2, PRIMARY]; Ca3SiCSO24 P2_1 (4) mp-1196628 [hull=0.927, icsd=1, PRIMARY]; Ca2O3 P1 (1) mp-1120811 [hull=0.221, PRIMARY]; Ca3MnCSO25 P6_3 (173) mp-1195426 [hull=0.784, PRIMARY]
@@ -342,6 +359,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-O-Ru-Sr
 - rank 1345 | 4 samples | 2 papers | 4 compositions
 - compositions: Ca0.4Sr0.6RuO3 (1); Ca0.6Sr0.4RuO3 (1); Ca0.5Sr0.5RuO3 (1); Ca1.5Sr0.5RuO4 (1)
+- sample form: Bulk (3)
 - solid-solution axis: Ca/(Ca+Sr) spans 0.40-0.75 (median 0.60) over 4 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 12-1167 K (5th-95th pct of 13 curves)
@@ -352,6 +370,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1346 | 4 samples | 2 papers | 3 compositions
 - compositions: (Ca2SiO4)0.86(Ca3P2O8)0.14 (2); (Ca2SiO4)0.84(Ca3P2O8)0.1(Fe2SiO4)0.05 (1); Ca3SiO (1)
 - dopant candidates (<5% at.): P (3), Fe (1)
+- sample form: Bulk (4)
 - measured range: 13-1722 K (5th-95th pct of 6 curves)
 - [ref 1] TEDesignLab / ICSD: CaSiO3 Pm-3m (221) mp-5893 [hull=0.245, icsd=25, PRIMARY]; Ca2SiO4 P2_1/c (14) mp-4180 [hull=0.035, icsd=19, PRIMARY]; CaSiO3 I4/mcm (140) mp-3387 [hull=0.242, icsd=16]; CaSiO3 Imma (74) mp-5096 [hull=0.242, icsd=15]; Ca2SiO4 Pnma (62) mp-4481 [hull=0.000, icsd=12]
 - [ref 2] MP, ranked by ICSD evidence: Ca6Si6O19 P2/c (13) mp-1200566 [hull=0.080, icsd=3, PRIMARY]; Ca3SiO5 P-1 (2) mp-641754 [hull=0.020, icsd=2, PRIMARY]; Ca3Si2O7 P2_1/c (14) mp-3932 [hull=0.009, icsd=2, PRIMARY]; Ca5(SiO5)2 P2_1/c (14) mp-1197843 [hull=0.070, icsd=2, PRIMARY]; CaSiO3 P2_1/c (14) mp-5733 [hull=0.000, icsd=4]
@@ -367,6 +386,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Co-Cu-Ge
 - rank 1348 | 4 samples | 1 papers | 3 compositions
 - compositions: Ce(Cu0.4Co0.6)2Ge2 (2); Ce(Cu0.8Co0.2)2Ge2 (1); Ce(Cu0.6Co0.4)2Ge2 (1)
+- sample form: Polycrystal (4)
 - measured range: 11-300 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1103/physrevb.98.165136 (Non-Fermi-liquid behavior at the antiferromagnetic quantum critical po...)
 
@@ -381,6 +401,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Cu-Ni-Si
 - rank 1350 | 4 samples | 2 papers | 4 compositions
 - compositions: Ce2Ni2.5Cu0.5Si (1); Ce(Ni0.4Cu0.6)2Si2 (1); Ce(Ni0.25Cu0.75)2Si2 (1); Ce(Ni0.75Cu0.25)2Si2 (1)
+- sample form: Bulk (3)
 - measured range: 11-399 K (5th-95th pct of 12 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeCuSi2Ni I-4m2 (119) mp-1226605 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/s0925-8388(99)00483-1 (Thermoelectric properties of the intermediate valent cerium intermetal...) | https://doi.org/10.1016/j.jallcom.2013.06.080 (Competing energy scales in the compounds Ce(Ni1−xCux)2(Si2))

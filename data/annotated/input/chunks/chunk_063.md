@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-La-O-Ru
 - rank 3101 | 1 samples | 1 papers | 1 compositions
 - compositions: LaCu3Ru4O12 (1)
+- sample form: Bulk (1)
 - measured range: 14-911 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaCu3(RuO3)4 Im-3 (204) mp-680690 [hull=0.035, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1080/14686996.2021.1951593 (Thermoelectric materials taking advantage of spin entropy: lessons fro...)
@@ -28,6 +29,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-La-O-Se-Sr
 - rank 3102 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.8Sr0.2CuOSe (1)
+- sample form: Bulk (1)
 - measured range: 369-665 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1063/1.1646438 (Thermoelectric properties of layered oxyselenides La1−xSrxCuOSe (x=0 t...)
 
@@ -41,6 +43,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-La-Sb
 - rank 3104 | 1 samples | 1 papers | 1 compositions
 - compositions: La3Cu3Sb4 (1)
+- sample form: Polycrystal (1)
 - measured range: 12-391 K (5th-95th pct of 3 curves; full span incl. outliers 12-468 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La3Cu3Sb4 I-43d (220) mp-1105594 [hull=0.000, icsd=1, PRIMARY]; LaCuSb2 P4/nmm (129) mp-1079103 [hull=0.000, icsd=1, PRIMARY]; La4Cu3Sb8 I-42m (121) mp-1223074 [hull=0.000, PRIMARY]; La4Cu5Sb8 P4mm (99) mp-1223235 [hull=0.025, PRIMARY]; La6CuSb15 Cm (8) mp-1223212 [hull=0.035, PRIMARY]
 - papers: https://doi.org/10.1063/1.367018 (Magnetic and thermoelectric properties of R3Cu3Sb4 (R=La, Ce, Gd, Er))
@@ -48,6 +51,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-La-Sn
 - rank 3105 | 1 samples | 1 papers | 1 compositions
 - compositions: La5CuSn3 (1)
+- sample form: Bulk (1)
 - measured range: 11-282 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La(CuSn)2 P4/nmm (129) mp-636264 [hull=0.000, icsd=4, PRIMARY]; LaCuSn P6_3/mmc (194) mp-20024 [hull=0.000, icsd=1, PRIMARY]; La2CuSn4 Amm2 (38) mp-1223589 [hull=0.000, PRIMARY]; LaCu5Sn Pnma (62) mp-1211431 [hull=0.000, PRIMARY]; LaCu9Sn4 I4/mcm (140) mp-1212245 [hull=0.152, PRIMARY]
 - papers: https://doi.org/10.1007/s10582-004-0413-8 (Formation of Heavy-fermion State in Ce5-xLaxCuSn3)
@@ -55,6 +59,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Li-O
 - rank 3106 | 1 samples | 1 papers | 1 compositions
 - compositions: LiCu2O2 (1)
+- sample form: SingleCrystal (1)
 - measured range: 130-299 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Li2CuO2 Immm (71) mp-4711 [hull=0.000, icsd=9, PRIMARY]; LiCuO I4/mmm (139) mp-5127 [hull=0.000, icsd=4, PRIMARY]; Li(CuO)2 Pnma (62) mp-18162 [hull=0.011, icsd=3, PRIMARY]; LiCuO2 C2/m (12) mp-9158 [hull=0.000, icsd=1, PRIMARY]; Li3CuO3 P4_2/mnm (136) mp-19970 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1023/b:inma.0000012177.38378.10 (Crystal Growth, Thermal Stability, and Electrical Properties of LiCu2O2)
@@ -82,12 +87,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Mn-O-Sr-Te
 - rank 3110 | 1 samples | 1 papers | 1 compositions
 - compositions: Sr2MnCu2Te2O2 (1)
+- sample form: Bulk (1)
 - measured range: 322-762 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1039/c8tc04506b (Synthesis and the physical properties of layered copper oxytellurides ...)
 
 ## Cu-Mn-P-Yb
 - rank 3111 | 1 samples | 1 papers | 1 compositions
 - compositions: YbMnCuP2 (1)
+- sample form: Bulk (1)
 - measured range: 310-977 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbMnCuP2 P3m1 (156) mp-1215514 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1088/0022-3727/44/15/155406 (High Seebeck coefficientAMXP2(A= Ca and Yb;M,X= Zn, Cu and Mn) Zintl p...)
@@ -95,6 +102,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Mn-S-Sn
 - rank 3112 | 1 samples | 1 papers | 1 compositions
 - compositions: Cu2MnSnS4 (1)
+- sample form: Bulk (1)
 - measured range: 299-702 K (5th-95th pct of 4 curves)
 - [ref 1] TEDesignLab / ICSD: MnCu2SnS4 I-42m (121) mp-19722 [hull=0.000, icsd=6, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: MnCu2Sn3S8 R-3m (166) mp-1221928 [hull=0.005, PRIMARY]
@@ -103,6 +111,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Mn-S-Ti
 - rank 3113 | 1 samples | 1 papers | 1 compositions
 - compositions: CuMn0.5Ti1.5S4 (1)
+- sample form: Bulk (1)
 - measured range: 14-326 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ti3Mn(CuS4)2 R-3m (166) mp-1217139 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1080/14686996.2021.1951593 (Thermoelectric materials taking advantage of spin entropy: lessons fro...)
@@ -117,6 +126,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Na-O-Ru
 - rank 3115 | 1 samples | 1 papers | 1 compositions
 - compositions: NaCu3Ru4O12 (1)
+- sample form: Bulk (1)
 - measured range: 30-284 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NaCu3(RuO3)4 Im-3 (204) mp-22305 [hull=0.014, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1080/14686996.2021.1951593 (Thermoelectric materials taking advantage of spin entropy: lessons fro...)
@@ -124,6 +134,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Na-Se
 - rank 3116 | 1 samples | 1 papers | 1 compositions
 - compositions: Na0.162Cu2.03Se (1)
+- sample form: Bulk (1)
 - measured range: 323-673 K (5th-95th pct of 5 curves)
 - [ref 1] TEDesignLab / ICSD: NaCuSe P4/nmm (129) mp-7433 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.3390/app8010012 (Na-Doping Effects on Thermoelectric Properties of Cu2−xSe Nanoplates)
@@ -131,6 +142,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Nd-P-Zn
 - rank 3117 | 1 samples | 1 papers | 1 compositions
 - compositions: NdCuZnP2 (1)
+- sample form: Bulk (1)
 - measured range: 303-792 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1039/d0mh01112f (Experimental validation of high thermoelectric performance in RECuZnP2...)
 
@@ -145,6 +157,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Ni-S
 - rank 3119 | 1 samples | 1 papers | 1 compositions
 - compositions: Cu10.4Ni4S13 (1)
+- sample form: Bulk (1)
 - measured range: 301-692 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CuNi3S8 R-3 (148) mp-1225702 [hull=0.012, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2015.02.045 (Structural stability of the synthetic thermoelectric ternary and nicke...)
@@ -152,6 +165,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Ni-S-Sn
 - rank 3120 | 1 samples | 1 papers | 1 compositions
 - compositions: Cu2NiSnS4 (1)
+- sample form: Bulk (1)
 - measured range: 302-440 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cu2NiSn3S8 R-3m (166) mp-1225853 [hull=0.013, PRIMARY]; Cu2NiSnS4 I-4 (82) mp-1225842 [hull=0.027, PRIMARY]; CuNi3(SnS4)2 Imm2 (44) mp-1225814 [hull=0.062, PRIMARY]
 - papers: https://doi.org/10.1016/j.matlet.2015.03.083 (Optical and thermoelectric properties of chalcogenide based Cu2NiSnS4 ...)
@@ -159,6 +173,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Ni-Sn-Ti
 - rank 3121 | 1 samples | 1 papers | 1 compositions
 - compositions: TiNiCu0.20Sn (1)
+- sample form: Bulk (1)
 - measured range: 308-774 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1016/j.scriptamat.2020.09.010 (Fast synthesis of n-type half-heusler TiNiSn thermoelectric material)
 
@@ -186,12 +201,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-O-Sr-Te-Zn
 - rank 3125 | 1 samples | 1 papers | 1 compositions
 - compositions: Sr2ZnCu2Te2O2 (1)
+- sample form: Bulk (1)
 - measured range: 326-754 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1039/c8tc04506b (Synthesis and the physical properties of layered copper oxytellurides ...)
 
 ## Cu-P-Pr-Zn
 - rank 3126 | 1 samples | 1 papers | 1 compositions
 - compositions: PrCuZnP2 (1)
+- sample form: Bulk (1)
 - measured range: 303-790 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1039/d0mh01112f (Experimental validation of high thermoelectric performance in RECuZnP2...)
 
@@ -205,6 +222,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-P-Yb-Zn
 - rank 3128 | 1 samples | 1 papers | 1 compositions
 - compositions: YbCuZnP2 (1)
+- sample form: Bulk (1)
 - measured range: 311-982 K (5th-95th pct of 5 curves; full span incl. outliers 311-1073 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbZnCuP2 P3m1 (156) mp-1215494 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1088/0022-3727/44/15/155406 (High Seebeck coefficientAMXP2(A= Ca and Yb;M,X= Zn, Cu and Mn) Zintl p...)
@@ -219,12 +237,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Pb-Se-Te
 - rank 3130 | 1 samples | 1 papers | 1 compositions
 - compositions: PbTe(Cu2Se)0.12 (1)
+- sample form: Bulk (1)
 - measured range: 304-754 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1088/0022-3727/49/6/065302 (Thermoelectric transport properties of PbTe-based composites incorpora...)
 
 ## Cu-Ru-Sn
 - rank 3131 | 1 samples | 1 papers | 1 compositions
 - compositions: CuRu4Sn6 (1)
+- sample form: Polycrystal (1)
 - measured range: 10-98 K (5th-95th pct of 4 curves; full span incl. outliers 10-265 K)
 - papers: https://doi.org/10.1016/j.physb.2005.01.111 (Electronic properties of semiconducting)
 
@@ -259,6 +279,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Sb-Sr-Zn
 - rank 3136 | 1 samples | 1 papers | 1 compositions
 - compositions: SrZn0.25Cu0.5Sb (1)
+- sample form: Bulk (1)
 - measured range: 301-971 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2019.152508 (Structure transition and thermoelectric properties related to AZn(1-x)...)
 
@@ -266,12 +287,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3137 | 1 samples | 1 papers | 1 compositions
 - compositions: (Cu4Te3)0.5(Bi0.5Sb1.5Te3)0.5 (1)
 - dopant candidates (<5% at.): Bi (1)
+- sample form: Bulk (1)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CuSbTe2 R3m (160) mp-1225707 [hull=1.065, PRIMARY]
 - papers: https://doi.org/10.1063/1.2745413 (High thermoelectric properties of p-type pseudobinary (Cu4Te3)x–(Bi0.5...)
 
 ## Cu-Sb-U
 - rank 3138 | 1 samples | 1 papers | 1 compositions
 - compositions: UCu0.9Sb2 (1)
+- sample form: SingleCrystal (1)
 - measured range: 10-282 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): U3Cu3Sb4 I-43d (220) mp-1188951 [hull=0.135, icsd=2, PRIMARY]; U3Cu2Sb3 P6_3/mmc (194) mp-30070 [hull=0.060, icsd=1, PRIMARY]; UCuSb2 P4/nmm (129) mp-1079070 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2005.05.027 (Single-crystalline study of the ferromagnetic kondo compound UCu0.9Sb2)
@@ -286,6 +309,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Sb-Yb
 - rank 3140 | 1 samples | 1 papers | 1 compositions
 - compositions: YbCu0.52Sb (1)
+- sample form: SingleCrystal (1)
 - measured range: 307-838 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbCuSb P6_3mc (186) mp-11701 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; YbCuSb2 P4/nmm (129) mp-1078982 [hull=0.035, icsd=1, PRIMARY]; Yb2CuSb3 P4/mmm (123) mp-1206807 [hull=2.805, PRIMARY]; YbCuSb P6_3/mmc (194) mp-9439 [hull=0.001, icsd=1]
 - papers: https://doi.org/10.1016/j.jallcom.2020.156551 (YbCu0.52(2)Sb: Mixed-valent compound with a layered structure)
@@ -293,6 +317,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Se-Sm
 - rank 3141 | 1 samples | 1 papers | 1 compositions
 - compositions: Cu5SmSe4 (1)
+- sample form: Bulk (1)
 - measured range: 91-373 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SmCuSe2 P2_1/c (14) mp-11793 [hull=0.000, icsd=3, PRIMARY]; Sm31(CuSe16)3 P1 (1) mp-1173540 [hull=0.046, PRIMARY]; Sm3CuSe6 Pca2_1 (29) mp-1219332 [hull=0.026, PRIMARY]; Sm5CuSe8 I-4 (82) mp-38162 [hull=0.076, PRIMARY]
 - papers: https://doi.org/10.1134/s0020168513010123 (Transport properties of Cu5SmSe4)
@@ -300,12 +325,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Se-Sn-Te-Zn
 - rank 3142 | 1 samples | 1 papers | 1 compositions
 - compositions: Cu2.2Zn0.8SnSe3.6Te0.4 (1)
+- sample form: Bulk (1)
 - measured range: 298-697 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1039/c5dt00910c (Synthesis, crystal structure, and transport properties of Cu2.2Zn0.8Sn...)
 
 ## Cu-Se-V
 - rank 3143 | 1 samples | 1 papers | 1 compositions
 - compositions: Cu3VSe4 (1)
+- sample form: Bulk (1)
 - measured range: 324-572 K (5th-95th pct of 5 curves)
 - [ref 1] TEDesignLab / ICSD: VCu3Se4 P-43m (215) mp-21855 [hull=0.000, icsd=4, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2021.160387 (Thermoelectric properties of p-Type Cu3VSe4 with high seebeck coeffici...)
@@ -313,6 +340,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Sm-Te
 - rank 3144 | 1 samples | 1 papers | 1 compositions
 - compositions: Cu3SmTe3 (1)
+- sample form: Bulk (1)
 - measured range: 297-899 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sm(CuTe)3 R-3 (148) mp-1219189 [hull=0.044, PRIMARY]; Sm2CuTe4 P2_1 (4) mp-1219248 [hull=0.030, PRIMARY]
 - papers: https://doi.org/10.1021/acsami.0c09918 (Ternary Compounds Cu3RTe3 (R = Y, Sm, and Dy): A Family of New Thermoe...)
@@ -327,6 +355,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Te-Tm
 - rank 3146 | 1 samples | 1 papers | 1 compositions
 - compositions: TmCuTe2 (1)
+- sample form: Bulk (1)
 - measured range: 298-872 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Tm(CuTe)3 Pmn2_1 (31) mp-640889 [hull=0.000, icsd=1, PRIMARY]; TmCuTe2 P3m1 (156) mp-1216671 [hull=0.031, PRIMARY]; Tm(CuTe)3 R-3 (148) mp-1216875 [hull=0.054]; TmCuTe2 P-3m1 (164) mp-1206396 [hull=0.099]
 - papers: https://doi.org/10.1002/chem.201404453 (Chemical Modification and Energetically Favorable Atomic Disorder of a...)
@@ -334,6 +363,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Te-Y
 - rank 3147 | 1 samples | 1 papers | 1 compositions
 - compositions: Cu3YTe3 (1)
+- sample form: Bulk (1)
 - measured range: 298-899 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Y(CuTe)3 R-3 (148) mp-1216225 [hull=0.029, PRIMARY]; Y4CuTe8 Pc (7) mp-675009 [hull=0.000, PRIMARY]; YCuTe2 P2/m (10) mp-945184 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1021/acsami.0c09918 (Ternary Compounds Cu3RTe3 (R = Y, Sm, and Dy): A Family of New Thermoe...)
@@ -341,6 +371,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Y
 - rank 3148 | 1 samples | 1 papers | 1 compositions
 - compositions: YCu2 (1)
+- sample form: Polycrystal (1)
 - measured range: 12-274 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YCu Pm-3m (221) mp-712 [hull=0.021, icsd=7, PRIMARY]; YCu2 Imma (74) mp-2698 [hull=0.000, icsd=4, PRIMARY]; YCu5 P6/mmm (191) mp-2797 [hull=0.000, icsd=4, PRIMARY]; Y2Cu3 Cmcm (63) mp-1190402 [hull=0.620, icsd=1, PRIMARY]; Y4Cu19Pb R3m (160) mp-1216359 [hull=0.028, PRIMARY]
 - papers: https://doi.org/10.1088/0305-4608/15/9/015 (CeCu2: a new Kondo lattice showing magnetic order)
@@ -348,6 +379,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Zn
 - rank 3149 | 1 samples | 1 papers | 1 compositions
 - compositions: Zn58.71Cu41.29 (1)
+- sample form: Bulk (1)
 - measured range: 10-338 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Zn8Cu5 I-43m (217) mp-1368 [hull=0.000, icsd=6, PRIMARY]; ZnCu Pm-3m (221) mp-987 [hull=0.007, icsd=3, PRIMARY]; Zr(Zn10Cu)2 Fd-3m (227) mp-1195710 [hull=0.000, icsd=1, PRIMARY]; Zn3Cu P6_3/mmc (194) mp-972042 [hull=0.001, PRIMARY]; Zn35Cu17 P1 (1) mp-1216020 [hull=0.004, PRIMARY]
 - papers: https://doi.org/10.1063/1.3043884 (Correlation between structural and low-temperature thermoelectric prop...)

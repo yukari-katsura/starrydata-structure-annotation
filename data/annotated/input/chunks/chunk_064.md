@@ -27,6 +27,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Dy-Er-Gd-O-Si-Y-Yb
 - rank 3152 | 1 samples | 1 papers | 1 compositions
 - compositions: (Yb0.2Er0.2Y0.2Dy0.2Gd0.2)2SiO5 (1)
+- sample form: Bulk (1)
 - measured range: 300-1273 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.jeurceramsoc.2021.07.029 (Improved thermophysical properties of rare-earth monosilicates applied...)
 
@@ -39,12 +40,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Dy-Er-Ho-O-Si-Y-Yb
 - rank 3154 | 1 samples | 1 papers | 1 compositions
 - compositions: (Yb0.2Er0.2Ho0.2Y0.2Dy0.2)2SiO5 (1)
+- sample form: Bulk (1)
 - measured range: 301-1273 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.jeurceramsoc.2021.07.029 (Improved thermophysical properties of rare-earth monosilicates applied...)
 
 ## Dy-Er-O-Si
 - rank 3155 | 1 samples | 1 papers | 1 compositions
 - compositions: DyErSiO5 (1)
+- sample form: Bulk (1)
 - measured range: 293-293 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.actamat.2020.06.012 (Tailoring thermal properties of multi-component rare earth monosilicates)
 
@@ -57,12 +60,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Dy-Eu-O-Sm-Zr
 - rank 3157 | 1 samples | 1 papers | 1 compositions
 - compositions: (Sm0.33Eu0.33Dy0.33)2Zr2O7 (1)
+- sample form: Bulk (1)
 - measured range: 297-1272 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.scriptamat.2019.12.006 (Multicomponent high-entropy zirconates with comprehensive properties f...)
 
 ## Dy-Ga
 - rank 3158 | 1 samples | 1 papers | 1 compositions
 - compositions: DyGa2 (1)
+- sample form: Polycrystal (1)
 - measured range: 16-289 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): DyGa2 P6/mmm (191) mp-20064 [hull=0.000, icsd=8, PRIMARY]; DyGa Cmcm (63) mp-30604 [hull=0.000, icsd=7, PRIMARY]; DyGa3 P6_3/mmc (194) mp-865103 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; DyGa6 P4/nbm (125) mp-1104534 [hull=0.012, icsd=1, PRIMARY]; Dy3Ga Pm-3m (221) mp-984713 [hull=0.079, PRIMARY]
 - papers: https://doi.org/10.1088/0953-8984/4/20/009 (Thermoelectric power and resistivity studies in the Kondo-lattice syst...)
@@ -77,6 +82,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Dy-Ge-Ni
 - rank 3160 | 1 samples | 1 papers | 1 compositions
 - compositions: Dy2NiGe6 (1)
+- sample form: Bulk (1)
 - measured range: 12-283 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): DyNiGe2 Cmcm (63) mp-1078577 [hull=0.000, icsd=2, PRIMARY]; Dy(NiGe)2 I4/mmm (139) mp-21415 [hull=0.000, icsd=2, PRIMARY]; DyNiGe Pnma (62) mp-1102455 [hull=0.000, icsd=2, PRIMARY]; DyNiGe3 Cmmm (65) mp-1087478 [hull=0.000, icsd=1, PRIMARY]; Dy3Ni11Ge4 P6_3/mmc (194) mp-1213533 [hull=0.060, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2007.04.286 (Electric transport in R2MGe6 ternary compounds (R=La, Ce, Gd, Tb, Dy, ...)
@@ -98,12 +104,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Dy-Ge-Si
 - rank 3163 | 1 samples | 1 papers | 1 compositions
 - compositions: Dy5Si2Ge2 (1)
+- sample form: Bulk (1)
 - measured range: 19-301 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.jmmm.2006.07.002 (Magnetic and electrical transport properties of DyxGd5−xSi2Ge2 (x=0.0,...)
 
 ## Dy-Ge-Sn
 - rank 3164 | 1 samples | 1 papers | 1 compositions
 - compositions: DySnGe (1)
+- sample form: Bulk (1)
 - measured range: 11-197 K (5th-95th pct of 2 curves; full span incl. outliers 11-300 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): DySnGe Cmcm (63) mp-1080405 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2014.11.123 (A comparative study of HoSn1.1Ge0.9 and DySn1.1Ge0.9 compounds using m...)
@@ -117,6 +125,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Dy-In
 - rank 3166 | 1 samples | 1 papers | 1 compositions
 - compositions: DyIn3 (1)
+- sample form: SingleCrystal (1)
 - measured range: 12-274 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): DyIn3 Pm-3m (221) mp-20236 [hull=0.000, icsd=6, PRIMARY]; Dy2In P6_3/mmc (194) mp-21351 [hull=0.000, icsd=3, PRIMARY]; DyIn Pm-3m (221) mp-257 [hull=0.000, icsd=2, PRIMARY]; Dy3In Pm-3m (221) mp-20786 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/0038-1098(91)90402-h (Resistivity and thermopower of monocrystalline TbIn3 and DyIn3)
@@ -175,6 +184,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Dy-Nb-O
 - rank 3175 | 1 samples | 1 papers | 1 compositions
 - compositions: Dy3NbO7 (1)
+- sample form: Bulk (1)
 - measured range: 292-1271 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): DyNbO4 I4_1/a (88) mp-1095234 [hull=0.002, icsd=21, PRIMARY]; Dy2Nb2O7 Fd-3m (227) mp-754120 [hull=0.092, PRIMARY]; Dy3NbO7 P1 (1) mp-676951 [hull=0.068, PRIMARY]; DyNbO4 P2/c (13) mp-1178380 [hull=0.006]; DyNbO4 C2/m (12) mp-768227 [hull=0.072]
 - papers: https://doi.org/10.1002/adma.201808222 (Diffused Lattice Vibration and Ultralow Thermal Conductivity in the Bi...)
@@ -189,12 +199,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Dy-O-Sc-Si
 - rank 3177 | 1 samples | 1 papers | 1 compositions
 - compositions: DyScSiO5 (1)
+- sample form: Bulk (1)
 - measured range: 293-293 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.actamat.2020.06.012 (Tailoring thermal properties of multi-component rare earth monosilicates)
 
 ## Dy-O-Si
 - rank 3178 | 1 samples | 1 papers | 1 compositions
 - compositions: Dy2SiO5 (1)
+- sample form: Bulk (1)
 - measured range: 293-293 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Dy2Si2O7 P-1 (2) mp-17062 [hull=0.003, icsd=2, PRIMARY]; Dy2SiO5 C2/c (15) mp-768317 [hull=0.000, PRIMARY]; Dy5Si2BO13 Pm (6) mp-1225574 [hull=0.025, PRIMARY]; Dy2Si2O7 P1 (1) mp-1225780 [hull=0.004]; Dy2SiO5 P2_1/c (14) mp-752405 [hull=0.022]
 - papers: https://doi.org/10.1016/j.actamat.2020.06.012 (Tailoring thermal properties of multi-component rare earth monosilicates)
@@ -202,6 +214,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Dy-O-Sr-Ti
 - rank 3179 | 1 samples | 1 papers | 1 compositions
 - compositions: Sr0.90Dy1.00TiO3 (1)
+- sample form: Bulk (1)
 - measured range: 373-968 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1007/s11664-012-2219-y (Thermoelectric Properties of Dy-Doped SrTiO3 Ceramics)
 
@@ -214,6 +227,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Dy-Se-Sn
 - rank 3181 | 1 samples | 1 papers | 1 compositions
 - compositions: DySnSe2 (1)
+- sample form: Bulk (1)
 - measured range: 346-674 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1134/s0020168514030029 (Phase relations and properties of alloys in the SnSe-DySe system)
 
@@ -227,6 +241,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Er-Gd-Lu-O-Si-Y
 - rank 3183 | 1 samples | 1 papers | 1 compositions
 - compositions: (Lu0.2Y0.2Er0.2Y0.2Gd0.2)2SiO5 (1)
+- sample form: Bulk (1)
 - measured range: 300-1273 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.jeurceramsoc.2021.07.029 (Improved thermophysical properties of rare-earth monosilicates applied...)
 
@@ -239,6 +254,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Er-Ho-Lu-O-Si-Y
 - rank 3185 | 1 samples | 1 papers | 1 compositions
 - compositions: (Lu0.2Y0.2Er0.2Ho0.2Y0.2)2SiO5 (1)
+- sample form: Bulk (1)
 - measured range: 300-1273 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.jeurceramsoc.2021.07.029 (Improved thermophysical properties of rare-earth monosilicates applied...)
 
@@ -251,6 +267,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Er-In
 - rank 3187 | 1 samples | 1 papers | 1 compositions
 - compositions: ErIn3 (1)
+- sample form: Bulk (1)
 - measured range: 11-48 K (5th-95th pct of 2 curves; full span incl. outliers 11-293 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ErIn3 Pm-3m (221) mp-1291 [hull=0.000, icsd=5, PRIMARY]; Er2In P6_3/mmc (194) mp-877 [hull=0.000, icsd=3, PRIMARY]; Er5In3 P6_3/mcm (193) mp-1189039 [hull=0.021, icsd=1, PRIMARY]; Er3In5 Cmcm (63) mp-1106153 [hull=0.000, icsd=1, PRIMARY]; ErIn Pm-3m (221) mp-11370 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/0038-1098(89)90423-7 (Thermoelectric power of the REIn3 single crystals where RE = La, Ce, P...)
@@ -258,6 +275,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Er-La-O-Ru-Sr
 - rank 3188 | 1 samples | 1 papers | 1 compositions
 - compositions: (Sr0.7La0.3)2ErRuO6 (1)
+- sample form: Bulk (1)
 - measured range: 193-782 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1063/1.4757632 (High-temperature thermoelectric properties of the double-perovskite ru...)
 
@@ -278,12 +296,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Er-Mo-Nd-O
 - rank 3191 | 1 samples | 1 papers | 1 compositions
 - compositions: (Nd0.6Er0.4)2MoO7 (1)
+- sample form: Bulk (1)
 - measured range: 87-267 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/0022-3697(86)90030-2 (Thermoelectric power of RE2Mo2O7 pyrochlores)
 
 ## Er-Nb-O
 - rank 3192 | 1 samples | 1 papers | 1 compositions
 - compositions: Er3NbO7 (1)
+- sample form: Bulk (1)
 - measured range: 294-1271 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ErNbO4 C2/c (15) mp-5370 [hull=0.000, icsd=2, PRIMARY]; Er2Nb2O7 Fd-3m (227) mp-756393 [hull=0.094, PRIMARY]; ErNbO2 I4_1/amd (141) mp-1213215 [hull=0.650, PRIMARY]; ErNbO4 P2/c (13) mp-756457 [hull=0.024]
 - papers: https://doi.org/10.1002/adma.201808222 (Diffused Lattice Vibration and Ultralow Thermal Conductivity in the Bi...)
@@ -304,6 +324,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Er-O-Si
 - rank 3195 | 1 samples | 1 papers | 1 compositions
 - compositions: Er2SiO5 (1)
+- sample form: Bulk (1)
 - measured range: 293-293 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Er2Si2O7 C2/m (12) mp-7064 [hull=0.000, icsd=3, PRIMARY]; BaEr4Si5O17 P2_1/m (11) mp-1195598 [hull=0.000, icsd=1, PRIMARY]; Er2SiO5 P2_1/c (14) mp-16993 [hull=0.025, icsd=1, PRIMARY]; Er2Si2O7 P2_1/c (14) mp-7624 [hull=0.003, icsd=1]
 - papers: https://doi.org/10.1016/j.actamat.2020.06.012 (Tailoring thermal properties of multi-component rare earth monosilicates)
@@ -311,6 +332,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Er-O-Si-Yb
 - rank 3196 | 1 samples | 1 papers | 1 compositions
 - compositions: YbErSiO5 (1)
+- sample form: Bulk (1)
 - measured range: 293-293 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.actamat.2020.06.012 (Tailoring thermal properties of multi-component rare earth monosilicates)
 

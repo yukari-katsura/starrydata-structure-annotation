@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## C-Cl-H-N
 - rank 2801 | 1 samples | 1 papers | 1 compositions
 - compositions: C6H7NCl (1)
+- sample form: pellets (1)
 - measured range: 280-320 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): FeH12C2(NCl2)2 P4_2/ncm (138) mp-1194613 [hull=0.050, icsd=19, PRIMARY]; Sb2H30C9(NCl3)3 Pc (7) mp-709030 [hull=0.065, icsd=4, PRIMARY]; HgH20C6(NCl2)2 P2_1/c (14) mp-1197209 [hull=0.082, icsd=2, PRIMARY]; H24PdC8(NCl2)2 P4_2/mnm (136) mp-707284 [hull=0.095, icsd=2, PRIMARY]; FeH16C4(NCl2)2 P2_1/c (14) mp-709074 [hull=0.060, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1016/j.synthmet.2014.01.007 (Investigating thermoelectric properties of doped polyaniline nanowires)
@@ -49,6 +50,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## C-Cu-H-O
 - rank 2805 | 1 samples | 1 papers | 1 compositions
 - compositions: Cu3(CO3)2(OH)2 (1)
+- sample form: SingleCrystal (1)
 - measured range: 12-147 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cu3H2(CO4)2 P2_1/c (14) mp-23733 [hull=0.007, icsd=5, PRIMARY]; Cu2H4CO5 P2_1 (4) mp-1192779 [hull=0.170, icsd=1, PRIMARY]; Cu3H10(C4O7)2 P2_1/c (14) mp-1204488 [hull=0.237, icsd=1, PRIMARY]; CuH2(CO2)2 P2_1/c (14) mp-643934 [hull=0.228, icsd=1, PRIMARY]; CuH3C3O4 P2_1/c (14) mp-1194779 [hull=0.193, icsd=1, PRIMARY]
 - papers: https://doi.org/10.7566/jpsj.85.034715 (Thermal Conductivity and Spin State of the Spin Diamond-Chain System A...)
@@ -63,6 +65,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## C-Cu-Se-Sn
 - rank 2807 | 1 samples | 1 papers | 1 compositions
 - compositions: C0.33Cu2SnSe3 (1)
+- sample form: Bulk (1)
 - measured range: 300-700 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.3390/ma9080629 (Enhanced Thermoelectric Performance of Cu2SnSe3-Based Composites Incor...)
 
@@ -92,6 +95,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## C-H-I-P
 - rank 2811 | 1 samples | 1 papers | 1 compositions
 - compositions: PCDIPT (1)
+- sample form: Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 293-403 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): P2H19C6I7N P-1 (2) mp-1196394 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1002/aelm.201900945 (Doping High‐Mobility Donor–Acceptor Copolymer Semiconductors with an O...)
@@ -106,6 +110,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## C-H-O-S-Se
 - rank 2813 | 1 samples | 1 papers | 1 compositions
 - compositions: (C4H2Se)(C6H4O2S) (1)
+- sample form: Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 145-305 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1007/s11664-016-5197-7 (Thermoelectric Properties of Poly(selenophene-co-3, 4-ethylenedioxythi...)
 
@@ -113,6 +118,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2814 | 1 samples | 1 papers | 1 compositions
 - compositions: (C4H2Se)2(C6H4O2S) (1)
 - dopant candidates (<5% at.): S (1)
+- sample form: Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 145-305 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): H6C2SeO P-1 (2) mp-1189850 [hull=0.258, icsd=1, PRIMARY]; U2H18C4Se3N2O17 P2_12_12_1 (19) mp-1195410 [hull=0.324, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1007/s11664-016-5197-7 (Thermoelectric Properties of Poly(selenophene-co-3, 4-ethylenedioxythi...)
@@ -121,6 +127,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2815 | 1 samples | 1 papers | 1 compositions
 - compositions: (HSC6H4OH)39.14(Sb2Te3)60.86 (1)
 - dopant candidates (<5% at.): S (1), O (1)
+- sample form: multilayer film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 298-499 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.1002/sstr.202400201 (An Organic–Inorganic Superlattice with Nanocrystal‐Amorphous Composite...)
 
@@ -167,6 +174,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## C-S-W
 - rank 2822 | 1 samples | 1 papers | 1 compositions
 - compositions: WS2C0.2 (1)
+- sample form: Bulk (1)
 - measured range: 290-780 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.3390/cryst10020140 (Enhanced Thermoelectric Properties of WS2/Single-Walled Carbon Nanohor...)
 
@@ -188,6 +196,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Ce-O
 - rank 2825 | 1 samples | 1 papers | 1 compositions
 - compositions: CaCeO3 (1)
+- sample form: Bulk (1)
 - measured range: 580-1460 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca2CeO4 Pbam (55) mp-755597 [hull=0.021, PRIMARY]; CaCeO3 Pnma (62) mp-756365 [hull=0.059, PRIMARY]; Ca2CeO4 Pbca (61) mp-770977 [hull=0.065]
 - papers: https://doi.org/10.1016/s0022-3115(01)00474-3 (Thermophysical properties of BaUO3)
@@ -208,11 +217,13 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Co-I-O
 - rank 2828 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3Co3.9I40.1O9 (1)
+- sample form: Bulk (1)
 - papers: https://doi.org/10.1111/jace.12676 (Strengthening of Thermoelectric Performance via Ir Doping in Layered C...)
 
 ## Ca-Co-Mg-O
 - rank 2829 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca2.2Mg0.8Co4O9 (1)
+- sample form: EpitaxialFilm (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 303-992 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca7Mg(Co2O5)4 P1 (1) mp-1076526 [hull=0.044, PRIMARY]; Ca7Mg(CoO3)8 Pm-3m (221) mp-1076128 [hull=0.209, PRIMARY]; CaMg14CoO16 Pmmm (47) mp-1036443 [hull=0.035, PRIMARY, AMBIGUOUS]; CaMg30CoO32 P4/mmm (123) mp-1038117 [hull=0.016, PRIMARY]; CaMg6CoO8 P4/mmm (123) mp-1032957 [hull=0.113, PRIMARY]
 - papers: https://doi.org/10.1063/1.1489706 (Cation substituted (Ca2CoO3)xCoO2 films and their thermoelectric prope...)
@@ -239,6 +250,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Co-O-Sm
 - rank 2833 | 1 samples | 1 papers | 1 compositions
 - compositions: Sm0.6Ca0.4CoO3 (1)
+- sample form: rod-shaped (1)
 - measured range: 522-1225 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CaSmCoO4 Cmc2_1 (36) mp-1227147 [hull=0.039, PRIMARY]
 - papers: https://doi.org/10.1016/j.memsci.2014.03.047 (Comparative investigation of dual-phase membranes containing cobalt an...)
@@ -246,6 +258,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Co-O-Y
 - rank 2834 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca2YCo4O9 (1)
+- sample form: Bulk (1)
 - measured range: 11-295 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca9Y3(CoO6)4 P1 (1) mp-1227804 [hull=0.055, PRIMARY]
 - papers: https://doi.org/10.1016/j.ceramint.2013.10.090 (Enhanced thermoelectric properties induced by chemical pressure in Ca3...)
@@ -253,6 +266,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Cr-Gd-O
 - rank 2835 | 1 samples | 1 papers | 1 compositions
 - compositions: Gd0.70Ca0.30CrO3 (1)
+- sample form: Bulk (1)
 - measured range: 63-312 K (5th-95th pct of 2 curves; full span incl. outliers 63-390 K)
 - papers: https://doi.org/10.1016/j.ceramint.2015.07.195 (Magnetic and transport properties of Gd1−xCaxCrO3 (x=0.0–0.3): Effect ...)
 
@@ -265,6 +279,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Cr-Na-O
 - rank 2837 | 1 samples | 1 papers | 1 compositions
 - compositions: Na0.5Ca0.5Cr2O4 (1)
+- sample form: Bulk (1)
 - measured range: 11-370 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1063/1.4810855 (Electronic, thermoelectric, and magneto-dielectric properties of Ca1−x...)
 
@@ -278,12 +293,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Cu-Sb-Zn
 - rank 2839 | 1 samples | 1 papers | 1 compositions
 - compositions: CaZn0.25Cu0.5Sb (1)
+- sample form: Bulk (1)
 - measured range: 301-971 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2019.152508 (Structure transition and thermoelectric properties related to AZn(1-x)...)
 
 ## Ca-Dy-O-Sb
 - rank 2840 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca2Dy7Sb5O5 (1)
+- sample form: Bulk (1)
 - measured range: 12-369 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca2Dy3Sb3O14 C2/c (15) mp-1227760 [hull=0.010, PRIMARY]
 - papers: https://doi.org/10.1016/j.jssc.2016.04.015 (Investigation of the transport properties and compositions of the Ca2R...)
@@ -291,6 +308,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Fe-La-Ni-O
 - rank 2841 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.6Ca0.4Fe0.7Ni0.3O3 (1)
+- sample form: rod-shaped (1)
 - measured range: 773-1073 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.jpowsour.2008.12.009 (Synthesis and electrochemical performance of La0.6Ca0.4Fe1−xNixO3 (x=0...)
 
@@ -309,6 +327,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Ga
 - rank 2844 | 1 samples | 1 papers | 1 compositions
 - compositions: CaGa4 (1)
+- sample form: SingleCrystal (1)
 - measured range: 17-286 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CaGa4 I4/mmm (139) mp-1976 [hull=0.000, icsd=4, PRIMARY]; CaGa2 P6_3/mmc (194) mp-11284 [hull=0.000, icsd=4, PRIMARY]; CaGa Cmcm (63) mp-6914 [hull=0.000, icsd=3, PRIMARY]; Ca3Ga8 Immm (71) mp-12611 [hull=0.011, icsd=2, PRIMARY]; Ca11Ga7 Fm-3m (225) mp-30474 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2015.08.193 (Characteristic Fermi surfaces and charge density wave in SrAl4 and rel...)
@@ -316,6 +335,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Gd-O-Sb
 - rank 2845 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca2Gd7Sb5O5 (1)
+- sample form: Bulk (1)
 - measured range: 11-374 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1016/j.jssc.2016.04.015 (Investigation of the transport properties and compositions of the Ca2R...)
 
@@ -328,6 +348,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Ge-O
 - rank 2847 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3GeO (1)
+- sample form: Bulk (1)
 - measured range: 10-392 K (5th-95th pct of 3 curves)
 - [ref 1] TEDesignLab / ICSD: CaGeO3 Pnma (62) mp-8130 [hull=0.108, icsd=19, PRIMARY]; CaGe2O5 C2/c (15) mp-3707 [hull=0.006, icsd=9, PRIMARY]; Ca2GeO4 I4/mmm (139) mp-13650 [hull=0.146, icsd=1, PRIMARY]; Ca2GeO4 P-3m1 (164) mp-1019561 [hull=0.189, icsd=1]; CaGe2O5 (1)
 - [ref 2] MP, ranked by ICSD evidence: Ca3GeO Pm-3m (221) mp-9721 [hull=0.001, icsd=2, PRIMARY]; Ca2Ge7O16 P-4b2 (117) mp-29273 [hull=0.000, icsd=2, PRIMARY]; Ca5(GeO5)2 P2_1/c (14) mp-1197278 [hull=0.075, icsd=1, PRIMARY]; CaGe2O5 Pbam (55) mp-4279 [hull=0.005, icsd=2]; CaGeO3 P-1 (2) mp-17761 [hull=0.000, icsd=1]

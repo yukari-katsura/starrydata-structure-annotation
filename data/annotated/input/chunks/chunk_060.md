@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Cu-Fe-Li-O
 - rank 2951 | 1 samples | 1 papers | 1 compositions
 - compositions: Li0.4Cu0.6Co0.4Fe0.6O3 (1)
+- sample form: pellets (1)
 - measured range: 623-1023 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Li4Fe2Co3Cu3O16 Cm (8) mp-767234 [hull=0.036, PRIMARY]; Li4Fe3Co2Cu3O16 Cm (8) mp-763163 [hull=0.079, PRIMARY]; Li4Fe3Co3(CuO8)2 Cm (8) mp-777062 [hull=0.055, PRIMARY]
 - papers: https://doi.org/10.1016/j.ceramint.2020.01.031 (Structural and electrochemical characterization of low-cost LixCu1-xCo...)
@@ -34,6 +35,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Cu-Li-O
 - rank 2953 | 1 samples | 1 papers | 1 compositions
 - compositions: LiCo0.8Cu0.2O2 (1)
+- sample form: Bulk (1)
 - measured range: 14-1178 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Li2CoCuO4 Imma (74) mp-767275 [hull=0.047, PRIMARY]; Li3Co(CuO2)4 C2/m (12) mp-770184 [hull=0.043, PRIMARY]; Li3Co2Cu3O10 P-1 (2) mp-764235 [hull=0.068, PRIMARY]; Li3Co2CuO6 C2/m (12) mp-767299 [hull=0.105, PRIMARY]; Li3Co3CuO8 R-3m (166) mp-769624 [hull=0.142, PRIMARY]
 - papers: https://doi.org/10.7567/jjap.56.021101 (Thermoelectric properties of LiCo1−xMxO2(M = Cu, Mg, Ni, Zn): Comparis...)
@@ -41,12 +43,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Cu-O-Sr-Te
 - rank 2954 | 1 samples | 1 papers | 1 compositions
 - compositions: Sr2CoCu2Te2O2 (1)
+- sample form: Bulk (1)
 - measured range: 322-768 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1039/c8tc04506b (Synthesis and the physical properties of layered copper oxytellurides ...)
 
 ## Co-Cu-S-Sn
 - rank 2955 | 1 samples | 1 papers | 1 compositions
 - compositions: Cu2CoSnS4 (1)
+- sample form: Bulk (1)
 - measured range: 298-700 K (5th-95th pct of 3 curves)
 - [ref 1] TEDesignLab / ICSD: CoCu2SnS4 I-42m (121) mp-11770 [hull=0.060, icsd=1, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: Co3Cu(SnS4)2 Imm2 (44) mp-1226500 [hull=0.086, PRIMARY]; CoCu2Sn3S8 R-3m (166) mp-1226085 [hull=0.019, PRIMARY]; MnCo4Cu10(SnS4)5 I-4 (82) mp-1222130 [hull=0.046, PRIMARY]
@@ -69,6 +73,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Dy-Fe-Sb
 - rank 2958 | 1 samples | 1 papers | 1 compositions
 - compositions: Dy0.9Co2.5Fe1.5Sb12 (1)
+- sample form: Bulk (1)
 - measured range: 323-773 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1021/acsaem.0c00794 (p-type High Temperature Thermoelectric Behavior of Dy Filled CoSb3 and...)
 
@@ -82,12 +87,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Dy-Mn-Sn
 - rank 2960 | 1 samples | 1 papers | 1 compositions
 - compositions: Co2Dy0.5Mn0.5Sn (1)
+- sample form: Bulk (1)
 - measured range: 10-377 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1002/adfm.201102792 (Thermomagnetic Properties Improved by Self-Organized Flower-Like Phase...)
 
 ## Co-Dy-Sn
 - rank 2961 | 1 samples | 1 papers | 1 compositions
 - compositions: Co8Dy3Sn4 (1)
+- sample form: Bulk (1)
 - measured range: 19-373 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): DyCoSn Pnma (62) mp-22228 [hull=0.000, icsd=3, PRIMARY]; Dy12Co5Sn Immm (71) mp-1105331 [hull=0.000, icsd=1, PRIMARY]; Dy3Co6Sn5 Immm (71) mp-20703 [hull=0.018, icsd=1, PRIMARY]; DyCoSn2 Cmcm (63) mp-20579 [hull=0.064, icsd=1, PRIMARY]; Dy5(CoSn3)6 I4_1/acd (142) mp-1201480 [hull=0.023, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1002/adfm.201102792 (Thermomagnetic Properties Improved by Self-Organized Flower-Like Phase...)
@@ -135,6 +142,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Fe-La-Mn-Ni-O-Sr
 - rank 2968 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.7Sr0.3Co0.25Fe0.25Ni0.25Mn0.25O3 (1)
+- sample form: rod-shaped (1)
 - measured range: 923-1073 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.ceramint.2023.06.275 (A medium-entropy perovskite oxide La0.7Sr0.3Co0.25Fe0.25Ni0.25Mn0.25O3...)
 
@@ -166,6 +174,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Ge-La
 - rank 2973 | 1 samples | 1 papers | 1 compositions
 - compositions: LaCoGe2 (1)
+- sample form: Polycrystal (1)
 - measured range: 11-299 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La(CoGe)2 I4/mmm (139) mp-19939 [hull=0.000, icsd=3, PRIMARY]; LaCoGe3 I4mm (107) mp-19973 [hull=0.000, icsd=3, PRIMARY]; LaCoGe P4/nmm (129) mp-20761 [hull=0.000, icsd=2, PRIMARY]; LaCoGe2 Cmcm (63) mp-1095134 [hull=0.000, icsd=2, PRIMARY]; La5CoGe3 P6_3/mcm (193) mp-1211797 [hull=0.034, PRIMARY]
 - papers: https://doi.org/10.1088/0953-8984/26/25/255601 (Electrical and thermal transport properties of intermetallicRCoGe2(R= ...)
@@ -179,6 +188,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Ge-Te
 - rank 2975 | 1 samples | 1 papers | 1 compositions
 - compositions: CoGe1.5Te1.5 (1)
+- sample form: Bulk (1)
 - measured range: 80-298 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co2(GeTe)3 R-3 (148) mp-2994 [hull=0.000, icsd=2, PRIMARY]; CoGeTe Pbca (61) mp-3715 [hull=0.000, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1016/j.jssc.2006.04.004 (Structure and thermoelectric properties of the ordered skutterudite Co...)
@@ -219,12 +229,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Li-O-Zn
 - rank 2981 | 1 samples | 1 papers | 1 compositions
 - compositions: LiCo0.8Zn0.2O2 (1)
+- sample form: Bulk (1)
 - measured range: 14-1176 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.7567/jjap.56.021101 (Thermoelectric properties of LiCo1−xMxO2(M = Cu, Mg, Ni, Zn): Comparis...)
 
 ## Co-Mn-Na-O
 - rank 2982 | 1 samples | 1 papers | 1 compositions
 - compositions: NaCo2.5Mn0.5O4 (1)
+- sample form: Bulk (1)
 - measured range: 103-600 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/s0025-5408(00)00441-4 (Magnetic and thermoelectric properties of NaCo2−xMxO4 (M = Mn, Ru))
 
@@ -238,6 +250,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2984 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.1Sr0.9Co0.7Mn0.3O3 (1)
 - dopant candidates (<5% at.): La (1)
+- sample form: rod-shaped (1)
 - measured range: 772-1173 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr9Mn5Co2O21 R-3c (167) mp-1197208 [hull=0.036, icsd=3, PRIMARY]; Sr4Mn2CoO9 P321 (150) mp-706805 [hull=0.027, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.ssi.2006.05.023 (Synthesis and characterization of the double-substituted perovskites L...)
@@ -251,6 +264,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Na-O-Sr
 - rank 2986 | 1 samples | 1 papers | 1 compositions
 - compositions: Sr0.32Na0.21CoO2 (1)
+- sample form: EpitaxialFilm (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 10-291 K (5th-95th pct of 3 curves; full span incl. outliers 10-397 K)
 - papers: https://doi.org/10.1063/1.2178768 (Fabrication and thermoelectric properties of layered cobaltite, γ-Sr0....)
 
@@ -276,6 +290,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Ni-Sb-Sn
 - rank 2990 | 1 samples | 1 papers | 1 compositions
 - compositions: Co0.75Ni0.25Sb2.75Sn0.25 (1)
+- sample form: Other (1)
 - measured range: 304-772 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1007/s12613-012-0545-y (Enhanced thermoelectric properties of Co1−x−y Ni x+y Sb3−x Sn x materials)
 
@@ -301,6 +316,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-O-Pb
 - rank 2994 | 1 samples | 1 papers | 1 compositions
 - compositions: PbCoO3 (1)
+- sample form: Bulk (1)
 - measured range: 96-468 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CoPbO3 R-3 (148) mp-1178420 [hull=0.081, PRIMARY]; CoPbO3 Pnma (62) mp-770082 [hull=0.170]; CoPbO3 Pbam (55) mp-770488 [hull=0.184]
 - papers: https://doi.org/10.1021/jacs.7b01851 (A-Site and B-Site Charge Orderings in an s–d Level Controlled Perovski...)
@@ -328,6 +344,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-O-Tb
 - rank 2998 | 1 samples | 1 papers | 1 compositions
 - compositions: TbCoO3 (1)
+- sample form: Bulk (1)
 - measured range: 374-875 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TbCoO3 Pnma (62) mp-24881 [hull=0.009, icsd=5, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2009.04.100 (Influence of ionic sizes of rare earths on thermoelectric properties o...)
@@ -343,6 +360,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Sb-Sc
 - rank 3000 | 1 samples | 1 papers | 1 compositions
 - compositions: ScCoSb (1)
+- sample form: Other (1)
 - measured range: 239-380 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sc4Co3Sb4 Pm (6) mp-1219380 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2005.04.012 (Thermoelectric properties of ScCoSb, ScNi0.86Sb and MgNiSb compounds)

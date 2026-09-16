@@ -28,6 +28,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Lu-O-Zr
 - rank 3452 | 1 samples | 1 papers | 1 compositions
 - compositions: Lu2Zr2O7 (1)
+- sample form: Bulk (1)
 - measured range: 300-1272 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Lu4Zr3O12 P-1 (2) mp-1222825 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.scriptamat.2019.12.006 (Multicomponent high-entropy zirconates with comprehensive properties f...)
@@ -55,6 +56,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Lu-Si
 - rank 3456 | 1 samples | 1 papers | 1 compositions
 - compositions: Lu5Si3 (1)
+- sample form: Bulk (1)
 - measured range: 13-294 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Lu5Si3 P6_3/mcm (193) mp-11908 [hull=0.000, icsd=4, PRIMARY]; LuSi2 P6/mmm (191) mp-1103 [hull=0.098, icsd=4, PRIMARY]; LuSi Cmcm (63) mp-1001612 [hull=0.000, icsd=2, PRIMARY]; Lu3Si Pm-3m (221) mp-1185426 [hull=0.238, PRIMARY, AMBIGUOUS]; LuSi3 Pm-3m (221) mp-973668 [hull=0.234, PRIMARY]
 - papers: https://doi.org/10.7567/1347-4065/ab5b85 (Thermoelectric properties of Yb5Si3)
@@ -69,6 +71,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mg-Na-Pb
 - rank 3458 | 1 samples | 1 papers | 1 compositions
 - compositions: Na2Mg3Pb2 (1)
+- sample form: Bulk (1)
 - measured range: 299-597 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Na2MgPb P6_3/mmc (194) mp-1078372 [hull=0.003, icsd=1, PRIMARY]; NaMgPb2 Fm-3m (225) mp-865107 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.7567/jjap.54.07jc04 (Synthesis of Na2Mg3X2 (X = Sn, Pb) and Na4Mg4Sn3 and their crystal str...)
@@ -82,6 +85,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mg-Ni-Sb
 - rank 3460 | 1 samples | 1 papers | 1 compositions
 - compositions: MgNiSb (1)
+- sample form: Other (1)
 - measured range: 199-379 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MgNiSb F-43m (216) mp-15778 [hull=0.000, icsd=1, PRIMARY]; MgNi2Sb Fm-3m (225) mp-30773 [hull=0.072, icsd=1, PRIMARY]; Mg6NiSb Amm2 (38) mp-1099292 [hull=0.157, PRIMARY]; Mg14NiSb Amm2 (38) mp-1028357 [hull=0.079, PRIMARY, AMBIGUOUS]; Mg14NiSb P-6m2 (187) mp-1028340 [hull=0.080]
 - papers: https://doi.org/10.1016/j.jallcom.2005.04.012 (Thermoelectric properties of ScCoSb, ScNi0.86Sb and MgNiSb compounds)
@@ -96,6 +100,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3462 | 1 samples | 1 papers | 1 compositions
 - compositions: Zn0.8379Mg0.1596Al0.0025O (1)
 - dopant candidates (<5% at.): Al (1)
+- sample form: Bulk (1)
 - measured range: 286-1165 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg2ZnO3 P-3m1 (164) mp-1222123 [hull=0.047, PRIMARY]; Mg3ZnO4 Pm-3m (221) mp-1024045 [hull=0.032, PRIMARY, AMBIGUOUS]; MgZn2O3 P-3m1 (164) mp-1221931 [hull=0.095, PRIMARY]; MgZn3O4 Cm (8) mp-1221958 [hull=0.013, PRIMARY]; MgZn4O5 P3m1 (156) mp-1221986 [hull=0.013, PRIMARY]
 - papers: https://doi.org/10.1063/1.1489091 (Thermoelectric properties of (Zn1−yMgy)1−xAlxO ceramics prepared by th...)
@@ -123,12 +128,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mg-S-Si-Sn
 - rank 3466 | 1 samples | 1 papers | 1 compositions
 - compositions: Mg2Si0.5Sn0.5S (1)
+- sample form: Bulk (1)
 - measured range: 299-772 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1039/c1jm00025j (Flux synthesis and thermoelectric properties of eco-friendly Sb doped ...)
 
 ## Mg-Si-Yb
 - rank 3467 | 1 samples | 1 papers | 1 compositions
 - compositions: Yb2MgSi2 (1)
+- sample form: Bulk (1)
 - measured range: 12-300 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Yb2MgSi2 P4/mbm (127) mp-13357 [hull=0.082, icsd=1, PRIMARY]; YbMgSi Pnma (62) mp-864619 [hull=0.000, icsd=1, PRIMARY]; Yb7Mg3Si8 P2_1 (4) mp-1215837 [hull=0.083, PRIMARY]
 - papers: https://doi.org/10.1007/s00339-016-0300-8 (Thermoelectric and magnetic properties of Yb2MgSi2 prepared by spark p...)
@@ -144,12 +151,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mn-Mo-S
 - rank 3469 | 1 samples | 1 papers | 1 compositions
 - compositions: Mn1.3Mo6S8 (1)
+- sample form: Bulk (1)
 - measured range: 300-960 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1007/s11664-009-0975-0 (Thermoelectric Properties of Chevrel-Phase Sulfides M x Mo6S8 (M: Cr, ...)
 
 ## Mn-Na-Nd-O
 - rank 3470 | 1 samples | 1 papers | 1 compositions
 - compositions: Nd0.75Na0.25MnO3 (1)
+- sample form: Bulk (1)
 - measured range: 13-343 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1063/1.4826089 (Giant magnetothermopower in charge ordered Nd0.75Na0.25MnO3)
 
@@ -175,6 +184,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mn-O-Si-Sr
 - rank 3474 | 1 samples | 1 papers | 1 compositions
 - compositions: Sr0.7Si0.3MnO3 (1)
+- sample form: Bulk (1)
 - measured range: 773-1073 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaSr2Mn2(Si2O7)2 C2 (5) mp-19122 [hull=0.001, icsd=2, PRIMARY]; Sr2MnSi2O7 P-42_1m (113) mp-1191740 [hull=0.000, icsd=1, PRIMARY]; SrMn2(SiO5)2 P2_1/m (11) mp-1218300 [hull=0.207, PRIMARY, AMBIGUOUS]; SrMn2(SiO5)2 Cmcm (63) mp-1208671 [hull=0.215]
 - papers: https://doi.org/10.1016/j.powtec.2015.02.035 (Fabrication and thermoelectric properties of Sr1−xSixMnO3−δ)
@@ -210,6 +220,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mn-P-Rh
 - rank 3479 | 1 samples | 1 papers | 1 compositions
 - compositions: MnRhP (1)
+- sample form: Bulk (1)
 - measured range: 79-578 K (5th-95th pct of 2 curves; full span incl. outliers 79-627 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MnPRh P-62m (189) mp-1079405 [hull=0.298, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/s0925-8388(01)01793-5 (Electrical properties of the transition metal compound MnRhP)
@@ -233,6 +244,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mn-S-Te
 - rank 3482 | 1 samples | 1 papers | 1 compositions
 - compositions: MnTe0.9S0.1 (1)
+- sample form: Bulk (1)
 - measured range: 326-770 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1063/1.4868584 (Thermoelectric study of crossroads material MnTe via sulfur doping)
 
@@ -253,6 +265,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mn-Si-Tb
 - rank 3485 | 1 samples | 1 papers | 1 compositions
 - compositions: Tb2Mn3Si5 (1)
+- sample form: Bulk (1)
 - measured range: 18-300 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TbMnSi P4/nmm (129) mp-20822 [hull=0.000, icsd=4, PRIMARY]; Tb(MnSi)2 I4/mmm (139) mp-5677 [hull=0.000, icsd=2, PRIMARY]; Tb2Mn3Si5 P4/mnc (128) mp-639228 [hull=0.000, icsd=2, PRIMARY]; TbMnSi Pnma (62) mp-20597 [hull=0.065, icsd=2]
 - papers: https://doi.org/10.1016/s0925-8388(00)01451-1 (Multi-magnetic transitions in Tb2Mn3Si5)
@@ -260,6 +273,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mn-Si-Ti
 - rank 3486 | 1 samples | 1 papers | 1 compositions
 - compositions: TiMnSi2 (1)
+- sample form: Bulk (1)
 - measured range: 299-1110 K (5th-95th pct of 4 curves; full span incl. outliers 299-1180 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TiMnSi2 Pbam (55) mp-21606 [hull=0.000, icsd=3, PRIMARY]; Ti2Mn4Si5 Ibam (72) mp-17553 [hull=0.215, icsd=1, PRIMARY]; Ti2MnSi F-43m (216) mp-999047 [hull=0.228, icsd=1, PRIMARY]; TiMn2Si Fm-3m (225) mp-865652 [hull=0.000, PRIMARY]; TiMnSi4 P2 (3) mp-1216867 [hull=0.078, PRIMARY]
 - papers: https://doi.org/10.1007/s11664-009-1019-5 (Thermoelectric Properties of Zr3Mn4Si6 and TiMnSi2)
@@ -267,6 +281,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mn-Si-Zr
 - rank 3487 | 1 samples | 1 papers | 1 compositions
 - compositions: Zr3Mn4Si6 (1)
+- sample form: Bulk (1)
 - measured range: 303-1110 K (5th-95th pct of 4 curves; full span incl. outliers 303-1170 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZrMnSi Pnma (62) mp-22227 [hull=0.000, icsd=2, PRIMARY]; ZrMnSi2 Immm (71) mp-18059 [hull=0.007, icsd=1, PRIMARY, AMBIGUOUS]; Zr3(Mn2Si3)2 P4_2/mbc (135) mp-31310 [hull=0.002, icsd=1, PRIMARY]; Zr3Mn8Si P3m1 (156) mp-1215733 [hull=0.093, PRIMARY]; ZrMnSi2 Pbam (55) mp-1197723 [hull=0.013, icsd=1]
 - papers: https://doi.org/10.1007/s11664-009-1019-5 (Thermoelectric Properties of Zr3Mn4Si6 and TiMnSi2)
@@ -274,12 +289,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mn-Sn-Th
 - rank 3488 | 1 samples | 1 papers | 1 compositions
 - compositions: Th4Mn13Sn5 (1)
+- sample form: Bulk (1)
 - measured range: 11-297 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.intermet.2009.01.008 (The structure and magnetic properties of Th4Mn13Sn5)
 
 ## Mo-Nd-O-Y
 - rank 3489 | 1 samples | 1 papers | 1 compositions
 - compositions: (Nd0.6Y0.4)2Mo2O7 (1)
+- sample form: Bulk (1)
 - measured range: 17-279 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NdY3(Mo4O15)2 P1 (1) mp-1220215 [hull=0.015, PRIMARY]
 - papers: https://doi.org/10.1016/0022-3697(86)90030-2 (Thermoelectric power of RE2Mo2O7 pyrochlores)
@@ -293,6 +310,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mo-Ni-S
 - rank 3491 | 1 samples | 1 papers | 1 compositions
 - compositions: Ni2.0Mo6S8 (1)
+- sample form: Bulk (1)
 - measured range: 302-961 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NiMo3S4 P-1 (2) mp-685980 [hull=0.086, PRIMARY]
 - papers: https://doi.org/10.1007/s11664-009-0975-0 (Thermoelectric Properties of Chevrel-Phase Sulfides M x Mo6S8 (M: Cr, ...)
@@ -300,12 +318,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mo-Ni-Sb
 - rank 3492 | 1 samples | 1 papers | 1 compositions
 - compositions: Ni0.3Mo2.7Ni0.3Sb7 (1)
+- sample form: Bulk (1)
 - measured range: 314-905 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2013.04.196 (Effect of heavy doping of nickel in compound Mo3Sb7: Structure and the...)
 
 ## Mo-O-Rh
 - rank 3493 | 1 samples | 1 papers | 1 compositions
 - compositions: Rh2MoO6 (1)
+- sample form: Bulk (1)
 - measured range: 319-803 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mo(RhO3)2 P4_2/mnm (136) mp-25070 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.materresbull.2011.07.007 (Synthesis, magnetic and thermoelectric properties of Rh2MO6 (M=Mo, Te,...)
@@ -327,6 +347,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mo-O-Tb
 - rank 3496 | 1 samples | 1 papers | 1 compositions
 - compositions: Tb2Mo2O7 (1)
+- sample form: Bulk (1)
 - measured range: 12-281 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Tb2Mo2O7 Fd-3m (227) mp-19200 [hull=0.006, icsd=4, PRIMARY]; Tb2(MoO4)3 Pba2 (32) mp-19534 [hull=0.000, icsd=3, PRIMARY, AMBIGUOUS]; Tb5(MoO6)2 C2/m (12) mp-1105460 [hull=0.005, icsd=1, PRIMARY]; Tb4Mo4O11 Pbam (55) mp-32040 [hull=0.158, icsd=1, PRIMARY]; KTb2Cu(MoO4)4 C2/c (15) mp-699636 [hull=0.020, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/0022-3697(86)90030-2 (Thermoelectric power of RE2Mo2O7 pyrochlores)
@@ -348,6 +369,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mo-Pb-S
 - rank 3499 | 1 samples | 1 papers | 1 compositions
 - compositions: PbMo6S7.8 (1)
+- sample form: Bulk (1)
 - measured range: 307-852 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mo6PbS8 P-1 (2) mp-1104554 [hull=0.035, icsd=1, PRIMARY]; BiMo30(PbS10)4 P-1 (2) mp-1229231 [hull=0.040, PRIMARY]
 - papers: https://doi.org/10.2320/matertrans.e-m2011808 (Preparation of Single-Phase Pb-Filled Chevrel-Phase Sulfide and Its Th...)

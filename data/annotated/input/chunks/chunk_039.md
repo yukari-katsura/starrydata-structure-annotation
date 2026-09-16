@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Na-Sn
 - rank 1901 | 2 samples | 1 papers | 1 compositions
 - compositions: NaSn2As2 (2)
+- sample form: Polycrystal (2)
 - measured range: 302-369 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Na5SnAs3 P2_1/c (14) mp-5248 [hull=0.000, icsd=2, PRIMARY]; Na(SnAs)2 R-3m (166) mp-9378 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1063/5.0047469 (Axis-dependent carrier polarity in polycrystalline NaSn2As2)
@@ -28,6 +29,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-S-Th
 - rank 1902 | 2 samples | 1 papers | 1 compositions
 - compositions: ThAs1.23S0.77 (2)
+- sample form: Plate (2)
 - measured range: 12-321 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ThAsS P4/nmm (129) mp-1019358 [hull=0.000, icsd=1, PRIMARY]; Th2AsS2 P4/mmm (123) mp-1207041 [hull=2.147, PRIMARY]
 - papers: https://doi.org/10.1016/s0038-1098(02)00098-4 (Anomalous transport properties in thorium arsenosulphide crystals)
@@ -60,6 +62,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Au-Cu-Yb
 - rank 1907 | 2 samples | 2 papers | 2 compositions
 - compositions: YbCu4Au (1); YbAuCu4 (1)
+- sample form: Polycrystal (1)
 - measured range: 10-276 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbCu4Au F-43m (216) mp-1077165 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1007/bf02570277 (Low temperature hall effect and thermopower of YbCu4Au and YbCu4Pd) | https://doi.org/10.1016/s0304-8853(10)80217-3 (Thermoelectric power of YbMCu4 (M = Ag, Au and Pd) and YbPd2Si2)
@@ -67,6 +70,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Au-Yb
 - rank 1908 | 2 samples | 1 papers | 2 compositions
 - compositions: YbAu2 (1); YbAu3 (1)
+- sample form: Polycrystal (2)
 - measured range: 10-269 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbAu2 I4/mmm (139) mp-1668 [hull=0.000, icsd=5, PRIMARY]; YbAu Pm-3m (221) mp-2818 [hull=0.006, icsd=3, PRIMARY]; YbAu4 I4/m (87) mp-11262 [hull=0.000, icsd=2, PRIMARY]; YbAu3 P6_3/mmc (194) mp-979985 [hull=0.012, PRIMARY]; YbAu Pnma (62) mp-1084808 [hull=0.000, icsd=1]
 - papers: https://doi.org/10.1016/s0921-4526(98)01042-4 (Thermal conductivity and thermoelectric power of Yb–Au system)
@@ -95,6 +99,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## B-Ca-Sr
 - rank 1912 | 2 samples | 2 papers | 2 compositions
 - compositions: Ca0.5Sr0.5B6 (1); Ca0.5B3Sr0.5B3 (1)
+- sample form: Bulk (1)
 - measured range: 289-1074 K (5th-95th pct of 6 curves; full span incl. outliers 289-1121 K)
 - papers: https://doi.org/10.1016/j.jssc.2014.10.001 (High-pressure densified solid solutions of alkaline earth hexaborides ...) | https://doi.org/10.1109/ict.2005.1519977 (Reduction of thermal conductivity and origin of carrier in alkaline-ea...)
 
@@ -102,6 +107,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1913 | 2 samples | 1 papers | 2 compositions
 - compositions: CeCrB6 (1); Y0.05Ce0.95CrB6 (1)
 - dopant candidates (<5% at.): Y (1)
+- sample form: Bulk (2)
 - measured range: 11-806 K (5th-95th pct of 6 curves; full span incl. outliers 11-943 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce(CrB3)2 Immm (71) mp-2873 [hull=0.000, icsd=2, PRIMARY]; CeCrB4 Pbam (55) mp-1191927 [hull=0.003, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.103.195121 (Thermoelectricity and electronic properties of<mml:math xmlns:mml=\"ht...)
@@ -109,6 +115,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## B-Co-Ni
 - rank 1914 | 2 samples | 1 papers | 2 compositions
 - compositions: Ni0.1Co0.9B (1); Ni0.5Co0.5B (1)
+- sample form: Bulk (2)
 - measured range: 438-948 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1016/j.intermet.2003.07.005 (Seebeck coefficients of iron group elements borides)
 
@@ -130,6 +137,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1917 | 2 samples | 1 papers | 2 compositions
 - compositions: Fe74Co2.5Cr7.5B16 (1); Fe74Cr10B16 (1)
 - dopant candidates (<5% at.): Co (1)
+- sample form: Ribbon (2)
 - measured range: 312-602 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cr9FeB6 I4/m (87) mp-1226337 [hull=0.007, PRIMARY]; CrFe3B2 Fmm2 (42) mp-1226213 [hull=0.049, PRIMARY]; CrFeB2 Pmc2_1 (26) mp-1226310 [hull=0.042, PRIMARY]
 - papers: https://doi.org/10.1007/bf01794613 (Electrical resistivity and thermoelectric power of Fe74Co10−x Cr x B16...)
@@ -138,12 +146,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1918 | 2 samples | 1 papers | 1 compositions
 - compositions: (Fe57Cr15Nb4B20Si4)0.12(Y2O3)0.2(ZrO2)0.8 (2)
 - dopant candidates (<5% at.): Nb (2), Si (2), Y (2)
+- sample form: Film (2)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 374-873 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1021/acsami.0c22868 (Novel Fe-Based Amorphous Composite Coating with a Unique Interfacial L...)
 
 ## B-Cu-O
 - rank 1919 | 2 samples | 2 papers | 1 compositions
 - compositions: CuBO2 (2)
+- sample form: Bulk (1)
 - measured range: 306-973 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cu(BO2)2 I-42d (122) mp-4870 [hull=0.000, icsd=3, PRIMARY]; Cu2BO6 Pnma (62) mp-1196064 [hull=0.323, icsd=1, PRIMARY]; Cu3B7IO13 F-43c (219) mp-651682 [hull=0.024, icsd=1, PRIMARY]; Cu3(BO3)2 P2_1 (4) mp-1226691 [hull=0.050, PRIMARY]; Cu3B7ClO13 Pca2_1 (29) mp-1213325 [hull=0.012, PRIMARY]
 - papers: https://doi.org/10.1109/jictee.2014.6804067 (High temperature thermoelectric properties of delafossite CuBO<inf>2</...) | https://doi.org/10.1063/1.2778755 (Cu\n                B\n                  O\n                  2\n     ...)
@@ -158,6 +168,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## B-F-H-O-P
 - rank 1921 | 2 samples | 2 papers | 1 compositions
 - compositions: PBFDO (2)
+- sample form: Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 10-482 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.1038/s41586-022-05295-8 (A solution-processed n-type conducting polymer with ultrahigh conducti...) | https://doi.org/10.1002/admt.202400968 (A Scalable Fully Printed Organic Thermoelectric Generator for Harsh En...)
 
@@ -192,6 +203,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## B-Mo-Si
 - rank 1926 | 2 samples | 1 papers | 1 compositions
 - compositions: Mo5SiB2 (2)
+- sample form: Bulk (2)
 - measured range: 12-1062 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SiB2Mo5 I4/mcm (140) mp-4984 [hull=0.000, icsd=4, PRIMARY]
 - papers: https://doi.org/10.1016/j.intermet.2003.12.008 (Electrical and thermal properties of single crystalline Mo 5 X 3  (X=S...)
@@ -208,6 +220,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1928 | 2 samples | 1 papers | 1 compositions
 - compositions: (TiB2)9.7(ZnO)90.3 (2)
 - dopant candidates (<5% at.): Ti (2)
+- sample form: Bulk (2)
 - measured range: 179-843 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Zn4B6O13 I-43m (217) mp-4812 [hull=0.000, icsd=6, PRIMARY]; ZnB4O7 Pbca (61) mp-12233 [hull=0.000, icsd=2, PRIMARY]; Zn3B7ClO13 R3c (161) mp-23609 [hull=0.001, icsd=2, PRIMARY]; Zn3B7BrO13 Pca2_1 (29) mp-1179542 [hull=0.006, icsd=1, PRIMARY]; Zn4B6SeO12 I-43m (217) mp-14921 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1109/ict.2002.1190285 (Preparation and thermoelectric properties of ZnO-TiB/sub 2/ composites)
@@ -215,6 +228,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## B-Si
 - rank 1929 | 2 samples | 1 papers | 1 compositions
 - compositions: Si92B8 (2)
+- sample form: Bulk (2)
 - measured range: 286-1069 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SiB6 Pm-3m (221) mp-7700 [hull=0.477, icsd=1, PRIMARY]; Dy2Si9B36C Cm (8) mp-1225372 [hull=0.000, PRIMARY]; Si3B P6_3/mmc (194) mp-972733 [hull=0.923, PRIMARY]; Lu2Si9B36C Cm (8) mp-1222448 [hull=0.000, PRIMARY]; SiB P6_3mc (186) mp-978495 [hull=0.413, PRIMARY]
 - papers: https://doi.org/10.1063/1.4928463 (Thermoelectric properties of Si/SiB3 sub-micro composite prepared by m...)
@@ -243,6 +257,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Ca-Cu-O-Y
 - rank 1933 | 2 samples | 1 papers | 2 compositions
 - compositions: YBa0.8Ca1.2Cu3O7 (1); YBaCaCu3O7 (1)
+- sample form: pellets (2)
 - measured range: 63-302 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba10CaY4(Cu3O7)5 P-1 (2) mp-1228878 [hull=0.038, PRIMARY]; Ba8CaY3(CuO2)12 C2/m (12) mp-1228323 [hull=0.040, PRIMARY]
 - papers: https://doi.org/10.1016/s0921-4534(97)01439-1 (Metal-insulator transition in YBa2−xCaxCu3O7−δ system)
@@ -264,6 +279,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Co-Dy-O
 - rank 1936 | 2 samples | 2 papers | 2 compositions
 - compositions: BaDyCo4O7 (1); DyBaCo4O7 (1)
+- sample form: Bulk (1)
 - measured range: 300-997 K (5th-95th pct of 7 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaDy2CoO5 Pnma (62) mp-19364 [hull=0.000, icsd=2, PRIMARY]; BaDyCo4O7 P6_3mc (186) mp-18804 [hull=0.023, icsd=2, PRIMARY]; Ba2Dy2Co4O11 Pmmm (47) mp-1214700 [hull=0.108, PRIMARY]; BaDy2CoO5 Immm (71) mp-19164 [hull=0.016, icsd=1]
 - papers: https://doi.org/10.1063/1.3663526 (Structural and thermoelectric properties of BaRCo4O7 (R = Dy, Ho, Er, ...) | https://doi.org/10.1016/j.physb.2006.03.089 (Electronic transport and thermoelectric properties of RBaCo4O7 (R=Dy, ...)
@@ -271,6 +287,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Co-Er-O
 - rank 1937 | 2 samples | 2 papers | 2 compositions
 - compositions: BaErCo4O7 (1); ErBaCo4O7 (1)
+- sample form: Bulk (1)
 - measured range: 297-995 K (5th-95th pct of 7 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaEr2CoO5 Pnma (62) mp-25677 [hull=0.000, icsd=2, PRIMARY]; BaEr2CoO5 Immm (71) mp-18746 [hull=0.020, icsd=1]
 - papers: https://doi.org/10.1063/1.3663526 (Structural and thermoelectric properties of BaRCo4O7 (R = Dy, Ho, Er, ...) | https://doi.org/10.1016/j.physb.2006.03.089 (Electronic transport and thermoelectric properties of RBaCo4O7 (R=Dy, ...)
@@ -301,6 +318,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1941 | 2 samples | 1 papers | 2 compositions
 - compositions: La0.25Ba0.749Sb0.001Co0.5Ti0.5O3 (1); La0.35Ba0.6494Sb0.0006Co0.7Ti0.3O3 (1)
 - dopant candidates (<5% at.): Sb (2)
+- sample form: rod-shaped (2)
 - measured range: 296-513 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1557/proc-365-47 (Resistivity Control by Solid-State Reaction of Perovskite-Type Oxides)
 
@@ -315,6 +333,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Co-O-Sb
 - rank 1943 | 2 samples | 1 papers | 1 compositions
 - compositions: Ba3CoSb2O9 (2)
+- sample form: SingleCrystal (2)
 - measured range: 11-99 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba3CoSb2O9 P6_3/mmc (194) mp-19337 [hull=0.000, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1088/1742-6596/568/4/042014 (Thermal Conductivity in the Triangular-Lattice Antiferromagnet Ba3CoSb2O9)
@@ -336,6 +355,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Cu-K-Se
 - rank 1946 | 2 samples | 1 papers | 2 compositions
 - compositions: Ba0.7K0.3Cu2Se2 (1); Ba0.65K0.35Cu2Se2 (1)
+- sample form: Bulk (2)
 - measured range: 301-836 K (5th-95th pct of 8 curves)
 - papers: https://doi.org/10.1016/j.matlet.2015.03.098 (Enhancement of the thermoelectric properties of BaCu2Se2 by potassium ...)
 
@@ -349,6 +369,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Cu-O-Si
 - rank 1948 | 2 samples | 1 papers | 1 compositions
 - compositions: BaCuSi4O10 (2)
+- sample form: SingleCrystal (2)
 - measured range: 11-295 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaCu(Si2O5)2 P4/ncc (130) mp-6127 [hull=0.014, icsd=4, PRIMARY]; BaCu2Si2O7 Pnma (62) mp-22407 [hull=0.042, icsd=3, PRIMARY]; BaCu(SiO3)2 I4_1cd (110) mp-1197716 [hull=0.017, icsd=2, PRIMARY]; Ba2CuSi2O7 P-42_1m (113) mp-11613 [hull=0.040, icsd=1, PRIMARY]; BaCu(SiO3)2 P4_2/nmc (137) mp-1182662 [hull=0.027, icsd=1]
 - papers: https://doi.org/10.1016/j.jpcs.2015.04.021 (Heat capacity, thermal expansion and heat transport in the Han Blue (B...)

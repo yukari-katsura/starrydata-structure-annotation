@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-La-Te
 - rank 1601 | 3 samples | 2 papers | 3 compositions
 - compositions: La22.9Bi34.0Te43.1 (1); La3Te3.20Bi0.80 (1); La3Te3.35Bi0.65 (1)
+- sample form: Bulk (3)
 - measured range: 294-1273 K (5th-95th pct of 11 curves)
 - papers: https://doi.org/10.1016/j.matlet.2004.11.008 (Solvothermal synthesis and thermoelectric properties of lanthanum cont...) | https://doi.org/10.1103/physrevb.81.125205 (Electron and phonon scattering in the high-temperature thermoelectricL...)
 
@@ -34,6 +35,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Mn-S-Se
 - rank 1603 | 3 samples | 1 papers | 3 compositions
 - compositions: MnBi4S6.16Se0.70 (1); MnBi4S5.46Se1.40 (1); MnBi4S5.86Se1.00 (1)
+- sample form: Bulk (3)
 - measured range: 317-774 K (5th-95th pct of 11 curves)
 - papers: https://doi.org/10.1016/j.cej.2020.125219 (Thermoelectricity of n-type MnBi4S7-7xSe7x solid solution)
 
@@ -55,6 +57,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1606 | 3 samples | 2 papers | 2 compositions
 - compositions: (Bi0.2Sb0.8)2Te3(PbTe)0.3 (2); (Bi0.2Sb0.8)2Te3(Pb0.7Sn0.3Te)0.77 (1)
 - dopant candidates (<5% at.): Sn (1)
+- sample form: Bulk (2)
 - measured range: 298-623 K (5th-95th pct of 13 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2016.02.123 (Thermoelectric properties and extremely low lattice thermal conductivi...) | https://doi.org/10.1007/s11664-009-0707-5 (Thermoelectric Characteristics of p-Type (Bi,Sb)2Te3/(Pb,Sn)Te Functio...)
 
@@ -68,6 +71,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## C-Cl-Cu-H-O-S
 - rank 1608 | 3 samples | 1 papers | 1 compositions
 - compositions: CuCl2.2((CH3)2SO) (3)
+- sample form: SingleCrystal (3)
 - papers: https://doi.org/10.1063/1.4859975 (Low-temperature thermal conductivity of antiferromagnetic S = 1/2 chai...)
 
 ## C-Cu-Ga-Te
@@ -80,6 +84,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1610 | 3 samples | 2 papers | 3 compositions
 - compositions: TiS2(C6H16N)0.08(H2O)0.22(C2H6SO)0.03 (1); TiS2(C6H16N)0.08(H2O)0.22(C2H6OS)0.03 (1); TiS2((C4H9)4N)0.013(C6H16N)0.019 (1)
 - dopant candidates (<5% at.): N (3), O (2)
+- sample form: multilayer film (2); Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 299-413 K (5th-95th pct of 19 curves)
 - papers: https://doi.org/10.1038/nmat4251 (Flexible n-type thermoelectric materials by organic intercalation of l...) | https://doi.org/10.1038/s41467-017-01149-4 (Ultrahigh thermoelectric power factor in flexible hybrid inorganic-org...)
 
@@ -124,6 +129,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1616 | 3 samples | 2 papers | 3 compositions
 - compositions: Ca1Cd2Sb2 (1); Yb0.2Ca0.8Cd2Sb2 (1); CaCd2Sb2 (1)
 - dopant candidates (<5% at.): Yb (1)
+- sample form: Bulk (1)
 - measured range: 296-651 K (5th-95th pct of 14 curves)
 - [ref 1] TEDesignLab / ICSD: Ca(CdSb)2 P-3m1 (164) mp-7430 [hull=0.000, icsd=1, PRIMARY]; Ca2CdSb2 (62) [PRIMARY]
 - papers: https://doi.org/10.1063/1.3327443 (Zintl phase Yb1−xCaxCd2Sb2 with tunable thermoelectric properties indu...) | https://doi.org/10.1016/j.intermet.2009.07.011 (Synthesis and properties of CaCd2Sb2 and EuCd2Sb2)
@@ -150,6 +156,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1620 | 3 samples | 2 papers | 3 compositions
 - compositions: Na0.25Ca0.75Cr2O4 (1); CaCr2O4 (1); Ca2CrO4 (1)
 - dopant candidates (<5% at.): Na (1)
+- sample form: Bulk (2)
 - measured range: 11-381 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca5Cr3ClO12 P6_3/m (176) mp-1196512 [hull=0.007, icsd=2, PRIMARY]; CaCrO4 I4_1/amd (141) mp-19215 [hull=0.000, icsd=2, PRIMARY]; Ca2CrO8 Cm (8) mp-795621 [hull=0.333, icsd=1, PRIMARY]; Ca5Cr3O12 Pnma (62) mp-1198286 [hull=0.022, icsd=1, PRIMARY]; Ca2Cr2O5 Ima2 (46) mp-1105485 [hull=0.148, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1063/1.4810855 (Electronic, thermoelectric, and magneto-dielectric properties of Ca1−x...) | https://doi.org/10.1063/1.4949008 (High-pressure and high-temperature synthesis and physical properties o...)
@@ -164,6 +171,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-In-Sb-Sr
 - rank 1622 | 3 samples | 1 papers | 3 compositions
 - compositions: Ca3.75Sr1.25In2Sb6 (1); Ca1.25Sr3.75In2Sb6 (1); Ca2.5Sr2.5In2Sb6 (1)
+- sample form: Bulk (3)
 - measured range: 291-778 K (5th-95th pct of 8 curves)
 - papers: https://doi.org/10.1088/0953-8984/27/1/015801 (Thermoelectric properties and electronic structure of the Zintl phase ...)
 
@@ -177,6 +185,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Mn-O-Yb
 - rank 1624 | 3 samples | 1 papers | 3 compositions
 - compositions: CaMn0.7Yb0.3O3 (1); CaMn0.6Yb0.4O3 (1); CaMn0.5Yb0.5O3 (1)
+- sample form: Bulk (3)
 - measured range: 304-1057 K (5th-95th pct of 4 curves; full span incl. outliers 304-1114 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CaYb3Mn4O12 Pm (6) mp-1227162 [hull=0.010, PRIMARY]
 - papers: https://doi.org/10.1109/ict.2006.331291 (Effect of the Yb substitutions on the thermoelectric properties of CaMnO3)
@@ -185,6 +194,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1625 | 3 samples | 1 papers | 3 compositions
 - compositions: CaMnZnP2 (1); CaMnZn0.8Cu0.2P2 (1); CaMnZn0.9Cu0.1P2 (1)
 - dopant candidates (<5% at.): Cu (2)
+- sample form: Bulk (3)
 - measured range: 81-976 K (5th-95th pct of 11 curves)
 - papers: https://doi.org/10.1007/s11664-013-2895-2 (Thermoelectric Properties of Light-Element-Containing Zintl Compounds ...)
 
@@ -200,6 +210,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1627 | 3 samples | 1 papers | 3 compositions
 - compositions: Ca3PbO (1); Ca3Pb0.9Bi0.1O (1); Ca3Pb0.8Bi0.2O (1)
 - dopant candidates (<5% at.): Bi (2)
+- sample form: Bulk (3)
 - measured range: 15-297 K (5th-95th pct of 6 curves)
 - [ref 1] TEDesignLab / ICSD: Ca2PbO4 Pbam (55) mp-21137 [hull=0.000, icsd=1, PRIMARY]; CaPbO3 Pnma (62) mp-20079 [hull=0.003, icsd=1, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: Ca3PbO Pm-3m (221) mp-20273 [hull=0.000, icsd=1, PRIMARY]
@@ -224,6 +235,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1630 | 3 samples | 1 papers | 3 compositions
 - compositions: CdCr1.95Sb0.05Se4 (1); CdCr1.94Sb0.06Se4 (1); CdCr1.92Sb0.08Se4 (1)
 - dopant candidates (<5% at.): Sb (3)
+- sample form: SingleCrystal (3)
 - measured range: 275-472 K (5th-95th pct of 3 curves)
 - [ref 1] TEDesignLab / ICSD: Cr2CdSe4 Fd-3m (227) mp-22605 [hull=0.000, icsd=12, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2006.08.354 (On the n–p phase transition in CdCr2−xSbxSe4)
@@ -238,6 +250,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1632 | 3 samples | 1 papers | 3 compositions
 - compositions: Ag0.25Cd0.5In2.25Te4 (1); Ag0.1Cd0.8In2.1Te4 (1); Ag0.2Cd0.75In2.1Te4 (1)
 - dopant candidates (<5% at.): Ag (3)
+- sample form: Bulk (3)
 - measured range: 324-675 K (5th-95th pct of 3 curves)
 - [ref 1] TEDesignLab / ICSD: Cd(InTe2)2 I-4 (82) mp-21374 [hull=0.000, icsd=2, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: Cd3(InTe3)2 C2 (5) mp-1226986 [hull=0.016, PRIMARY]
@@ -253,6 +266,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1634 | 3 samples | 2 papers | 2 compositions
 - compositions: Cd3P2 (2); Cd3(P0.9As0.1)2 (1)
 - dopant candidates (<5% at.): As (1)
+- sample form: Bulk (1); SingleCrystal (1)
 - measured range: 71-526 K (5th-95th pct of 3 curves; full span incl. outliers 71-619 K)
 - [ref 1] TEDesignLab / ICSD: CdP2 P4_12_12 (92) mp-12112 [hull=0.000, icsd=3, PRIMARY, AMBIGUOUS]; CdP4 P2_1/c (14) mp-7904 [hull=0.009, icsd=2, PRIMARY]; CdP2 Pna2_1 (33) mp-402 [hull=0.001, icsd=3]; CdP2 P4_32_12 (96) mp-913 [hull=0.000, icsd=2]
 - [ref 2] MP, ranked by ICSD evidence: Cd3P2 P4_2/nmc (137) mp-2441 [hull=0.022, icsd=7, PRIMARY]; Cd7P10 Fdd2 (43) mp-29576 [hull=0.035, icsd=1, PRIMARY]; Cd3P Pm-3m (221) mp-1183632 [hull=0.270, PRIMARY]; Cd2P Pn-3m (224) mp-1213851 [hull=0.307, PRIMARY]; Cd3P2 Pn-3m (224) mp-21185 [hull=0.214, icsd=2]
@@ -281,6 +295,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Cu-Pd-Si
 - rank 1638 | 3 samples | 1 papers | 3 compositions
 - compositions: Ce(Pd0.75Cu0.25)2Si2 (1); Ce(Pd0.5Cu0.5)2Si2 (1); Ce(Pd0.15Cu0.85)2Si2 (1)
+- sample form: Bulk (3)
 - measured range: 10-298 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeCuSi2Pd I-4m2 (119) mp-1226625 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1007/s10909-014-1262-x (Low Temperature Thermoelectric Power of Ce(Pd $$_{1-x}$$ 1 - x Cu $$_x...)
@@ -288,18 +303,21 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Cu-Si-Y
 - rank 1639 | 3 samples | 1 papers | 3 compositions
 - compositions: Ce0.5Y0.5Cu2.05Si2 (1); Ce0.7Y0.3Cu2.05Si2 (1); Ce0.3Y0.7Cu2.05Si2 (1)
+- sample form: Polycrystal (3)
 - measured range: 10-303 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1103/physrevb.64.195107 (Transport properties of<mml:math xmlns:mml=\"http://www.w3.org/1998/Ma...)
 
 ## Ce-Eu-S
 - rank 1640 | 3 samples | 1 papers | 3 compositions
 - compositions: Ce2.6Eu0.4S4 (1); Ce2.4Eu0.6S4 (1); Ce2.2Eu0.8S4 (1)
+- sample form: Bulk (3)
 - measured range: 298-674 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.1016/s1002-0721(09)60013-2 (Preparation and thermoelectric properties of ternary rare earth sulfid...)
 
 ## Ce-Ga-Rh
 - rank 1641 | 3 samples | 3 papers | 3 compositions
 - compositions: CeRh2Ga2 (1); Ce2Rh3Ga9 (1); CeRh2Ga (1)
+- sample form: Polycrystal (2); SingleCrystal (1)
 - measured range: 10-309 K (5th-95th pct of 8 curves; full span incl. outliers 10-388 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeGaRh Pnma (62) mp-1102417 [hull=0.000, icsd=1, PRIMARY]; Ce2(Ga3Rh)3 Cmcm (63) mp-1213907 [hull=0.000, PRIMARY]; Ce3(GaRh)2 Pbcm (57) mp-1213977 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1088/1361-648x/aa5b5d (Kondo lattice heavy fermion behavior in CeRh<sub>2</sub>Ga<sub>2</sub>) | https://doi.org/10.1016/s0925-8388(98)00408-3 (Transport and magnetic properties of new ternary Ce2T3X9-compounds (T=...) | https://doi.org/10.1103/physrevb.69.014420 (Non-Fermi-liquid behavior in an undoped single crystal of<mml:math xml...)
@@ -307,12 +325,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Ga-Sn
 - rank 1642 | 3 samples | 1 papers | 3 compositions
 - compositions: Ce(Ga0.8Sn0.2)2 (1); Ce(Ga0.7Sn0.3)2 (1); Ce(Ga0.9Sn0.1)2 (1)
+- sample form: Polycrystal (3)
 - measured range: 10-262 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1088/0953-8984/4/20/009 (Thermoelectric power and resistivity studies in the Kondo-lattice syst...)
 
 ## Ce-Ge-Pd
 - rank 1643 | 3 samples | 3 papers | 1 compositions
 - compositions: CePdGe (3)
+- sample form: Bulk (2)
 - measured range: 11-299 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce(GePd)2 I4/mmm (139) mp-13467 [hull=0.000, icsd=2, PRIMARY]; Ce3Ge5Pd14 Pnma (62) mp-680221 [hull=0.012, icsd=1, PRIMARY]; Ce3(Ge3Pd10)2 Fm-3m (225) mp-672275 [hull=0.023, icsd=1, PRIMARY]; CeGePd2 Pnma (62) mp-1188948 [hull=0.019, icsd=1, PRIMARY]; CeGePd Pnma (62) mp-21647 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/s0921-4526(99)00869-8 (Thermoelectric power of CeTGe (T: Ni, Pd and Pt)) | https://doi.org/10.1016/s0925-8388(98)00744-0 (Electrical and magnetic properties of YbPdGe and YbPtGe) | https://doi.org/10.1016/s0304-8853(10)80151-9 (Magnetic, transport and specific heat measurements on CeTX (T = Pd and...)
@@ -320,6 +340,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-In
 - rank 1644 | 3 samples | 3 papers | 1 compositions
 - compositions: CeIn3 (3)
+- sample form: Bulk (2)
 - measured range: 11-295 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeIn3 Pm-3m (221) mp-20369 [hull=0.000, icsd=11, PRIMARY]; Ce3In Pm-3m (221) mp-20984 [hull=0.000, icsd=6, PRIMARY]; Ce2In P6_3/mmc (194) mp-19733 [hull=0.009, icsd=3, PRIMARY]
 - papers: https://doi.org/10.1016/0304-8853(85)90291-4 (Thermoelectric power and electrical resistivity of Ce(In1-xSnx)3 and (...) | https://doi.org/10.1016/0038-1098(89)90423-7 (Thermoelectric power of the REIn3 single crystals where RE = La, Ce, P...) | https://doi.org/10.1063/1.1654486 (Anomalously large thermoelectric cooling figure of merit in the Kondo ...)
@@ -327,6 +348,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-In-Pd
 - rank 1645 | 3 samples | 3 papers | 3 compositions
 - compositions: CePdIn (1); Ce2PdIn8 (1); Ce6Pd12In5 (1)
+- sample form: Polycrystal (2); Bulk (1)
 - measured range: 11-299 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeInPd P-62m (189) mp-991729 [hull=0.000, icsd=5, PRIMARY]; Ce(In2Pd)2 Pnma (62) mp-641911 [hull=0.000, icsd=1, PRIMARY]; Ce2In5Pd4 P2_1/m (11) mp-604594 [hull=0.016, icsd=1, PRIMARY]; Ce2In8Pd P4/mmm (123) mp-1102172 [hull=0.000, icsd=1, PRIMARY]; Ce6In5Pd12 P6_3/mcm (193) mp-641689 [hull=0.010, icsd=1, PRIMARY]
 - papers: https://doi.org/10.7567/jjaps.26s3.549 (Magnetic and Transport Properties of New Kondo Compounds CeTIn (T=Ni, ...) | https://doi.org/10.1103/physrevb.84.115110 (Quantum criticality in Ce2PdIn8: A thermoelectric study) | https://doi.org/10.1063/1.4967990 (Detailed investigation of thermal and electron transport properties in...)
@@ -334,6 +356,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-In-Pt
 - rank 1646 | 3 samples | 3 papers | 3 compositions
 - compositions: CePtIn (1); Ce3PtIn11 (1); Ce3Pt4In13 (1)
+- sample form: Bulk (1); SingleCrystal (1)
 - measured range: 13-308 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeInPt P-62m (189) mp-640922 [hull=0.000, icsd=3, PRIMARY]; CeIn7Pt2 I4/mmm (139) mp-1078439 [hull=0.000, icsd=1, PRIMARY]; Ce12InPt7 I4/mcm (140) mp-637609 [hull=0.000, icsd=1, PRIMARY]; Ce(InPt)2 P2_1/m (11) mp-602328 [hull=0.006, icsd=1, PRIMARY]; Ce2In8Pt P4/mmm (123) mp-1103614 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.7567/jjaps.26s3.549 (Magnetic and Transport Properties of New Kondo Compounds CeTIn (T=Ni, ...) | https://doi.org/10.1088/1742-6596/683/1/012005 (Quantum Critical Behavior and Superconductivity in new multi-site Ceri...) | https://doi.org/10.1103/physrevb.65.024401 (Unusual Kondo behavior in the indium-rich heavy-fermion antiferromagne...)
@@ -341,6 +364,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-La-Pd-Si
 - rank 1647 | 3 samples | 1 papers | 3 compositions
 - compositions: Ce0.7La0.3Pd2Si2 (1); Ce0.45La0.55Pd2Si2 (1); Ce0.3La0.7Pd2Si2 (1)
+- sample form: Bulk (3)
 - measured range: 10-285 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaCe(SiPd)4 P4/mmm (123) mp-1222952 [hull=0.009, PRIMARY]
 - papers: https://doi.org/10.1016/0921-4526(93)90623-e (Thermoelectric power on Ce1−xLaxPd2Si2)
@@ -348,6 +372,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Nd-Ru
 - rank 1648 | 3 samples | 1 papers | 3 compositions
 - compositions: (Ce0.6Nd0.4)Ru2 (1); (Ce0.4Nd0.6)Ru2 (1); (Ce0.8Nd0.2)Ru2 (1)
+- sample form: Polycrystal (3)
 - measured range: 10-289 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1016/0921-4526(94)00430-4 (Transport properties of (Ce1−xRx)Ru2 (R  La, Nd))
 

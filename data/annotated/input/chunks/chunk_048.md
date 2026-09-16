@@ -43,6 +43,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Pb-S-Ti
 - rank 2354 | 2 samples | 2 papers | 1 compositions
 - compositions: (PbS)1.18(TiS2)2 (2)
+- sample form: Bulk (1)
 - measured range: 321-774 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.1063/1.4918687 (Energy-filtering-induced high power factor in PbS-nanoparticles-embedd...) | https://doi.org/10.3390/ma3042606 (Low-Thermal-Conductivity (MS)1+x(TiS2)2 (M = Pb, Bi, Sn) Misfit Layer ...)
 
@@ -55,6 +56,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Pd-Si-Yb
 - rank 2356 | 2 samples | 2 papers | 2 compositions
 - compositions: Yb3Pd20Si6 (1); YbPd2Si2 (1)
+- sample form: Bulk (1); Polycrystal (1)
 - measured range: 10-276 K (5th-95th pct of 2 curves; full span incl. outliers 10-378 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Yb(SiPd)2 I4/mmm (139) mp-4633 [hull=0.000, icsd=3, PRIMARY]; YbSiPd2 Pnma (62) mp-1189833 [hull=0.000, icsd=1, PRIMARY]; Yb3(Si3Pd10)2 Fm-3m (225) mp-1207621 [hull=0.000, PRIMARY]; YbSi3Pd5 Pnma (62) mp-1207527 [hull=0.000, PRIMARY]; YbSiPd Pnma (62) mp-1207493 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2008.09.208 (Physical phenomena of the cage compounds RE3Pd20Si6 (RE=Yb, Lu)) | https://doi.org/10.1016/s0304-8853(10)80217-3 (Thermoelectric power of YbMCu4 (M = Ag, Au and Pd) and YbPd2Si2)
@@ -62,6 +64,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Pt-Sb-U
 - rank 2357 | 2 samples | 1 papers | 1 compositions
 - compositions: U3Pt3Sb4 (2)
+- sample form: Polycrystal (2)
 - measured range: 12-346 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): U3Sb4Pt3 I-43d (220) mp-1188604 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1063/1.5128593 (Uranium-based materials for thermoelectric applications)
@@ -105,6 +108,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2363 | 2 samples | 2 papers | 1 compositions
 - compositions: YbRh2Zn20 (2)
 - dopant candidates (<5% at.): Yb (2)
+- sample form: SingleCrystal (2)
 - measured range: 13-300 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): U(Zn10Rh)2 Fd-3m (227) mp-1198503 [hull=0.002, icsd=1, PRIMARY]; Zn11Rh2 I-43m (217) mp-13448 [hull=0.000, icsd=1, PRIMARY]; Zn13Rh C2/m (12) mp-13447 [hull=0.000, icsd=1, PRIMARY]; ZnRh Pm-3m (221) mp-6938 [hull=0.000, icsd=1, PRIMARY]; Zn3Rh I4/mmm (139) mp-865342 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.86.115110 (Thermoelectric power of the YbT2Zn20(T=Fe, Ru, Os, Ir, Rh, and Co) hea...) | https://doi.org/10.1126/sciadv.aaw6183 (Enhanced thermoelectric performance of heavy-fermion compounds YbTM2Zn...)
@@ -126,6 +130,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ru-Sm-Sn
 - rank 2366 | 2 samples | 2 papers | 1 compositions
 - compositions: SmRuSn3 (2)
+- sample form: SingleCrystal (1); Polycrystal (1)
 - measured range: 10-298 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sm(Sn3Ru2)2 I-42m (121) mp-20208 [hull=0.000, icsd=1, PRIMARY]; SmSn3Ru Pm-3n (223) mp-1201411 [hull=0.006, icsd=1, PRIMARY]; Sm3Sn13Ru4 Pm-3n (223) mp-1209813 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/0304-8853(92)90975-t (Transport and magnetic properties of a new valence fluctuating compoun...) | https://doi.org/10.1088/0953-8984/3/45/014 (Transport and magnetic properties of RERuSn3(RE=La, Ce, Pr, Nd, Sm): a...)
@@ -155,6 +160,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Sb-Sm-Yb
 - rank 2370 | 2 samples | 2 papers | 1 compositions
 - compositions: Yb3.6Sm0.4Sb3 (2)
+- sample form: Bulk (1)
 - measured range: 289-1278 K (5th-95th pct of 8 curves)
 - papers: https://doi.org/10.1039/b914712h (High-temperature transport properties of complex antimonides with anti...) | https://doi.org/10.1007/s11664-010-1274-5 (High-Temperature Transport Properties of Yb4−x Sm x Sb3)
 
@@ -168,6 +174,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Sb-U
 - rank 2372 | 2 samples | 1 papers | 1 compositions
 - compositions: USb (2)
+- sample form: SingleCrystal (2)
 - measured range: 10-21 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): USb Fm-3m (225) mp-519 [hull=0.076, icsd=9, PRIMARY]; U3Sb4 I-43d (220) mp-392 [hull=0.000, icsd=4, PRIMARY]; USb2 P4/nmm (129) mp-2707 [hull=0.000, icsd=3, PRIMARY]; U5Sb4 P6_3/mcm (193) mp-1207950 [hull=0.008, PRIMARY]; USb3 P6_3/mmc (194) mp-1187807 [hull=0.058, PRIMARY]
 - papers: https://doi.org/10.1016/s0921-4526(99)01187-4 (Single-ion-type Kondo resistivity and thermoelectric power in USb anti...)
@@ -175,6 +182,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Sm-Te-Tl
 - rank 2373 | 2 samples | 2 papers | 2 compositions
 - compositions: Tl9SmTe6 (1); TlSmTe2 (1)
+- sample form: Bulk (1); SingleCrystal (1)
 - measured range: 306-551 K (5th-95th pct of 6 curves; full span incl. outliers 306-682 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sm(Tl3Te2)3 I4/m (87) mp-1188848 [hull=0.007, icsd=1, PRIMARY]; SmTlTe2 R-3m (166) mp-999132 [hull=0.000, icsd=1, PRIMARY]; Sm3TlTe6 Cmmm (65) mp-1207249 [hull=2.269, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2015.01.025 (Thermoelectric properties of hot-pressed Tl9LnTe6 (Ln=La, Ce, Pr, Nd, ...) | https://doi.org/10.1134/s0020168510120058 (Phase diagram of the TlSe-SmSe system and transport properties of TlSm...)
@@ -182,12 +190,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Sm-Te-Zn
 - rank 2374 | 2 samples | 2 papers | 1 compositions
 - compositions: Sm2ZnTe (2)
+- sample form: Rod (1)
 - measured range: 220-374 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1103/physrev.95.1134 (Thermoelectric Power and Electron Scattering in Metal Alloys) | https://doi.org/10.1134/s0031918x13080085 (Thermoelectric properties of rare-earth alloys)
 
 ## Sm-Zn
 - rank 2375 | 2 samples | 2 papers | 1 compositions
 - compositions: SmZn (2)
+- sample form: Rod (1)
 - measured range: 214-374 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sm2Zn17 R-3m (166) mp-30712 [hull=0.000, icsd=2, PRIMARY]; SmZn12 I4/mmm (139) mp-30870 [hull=0.000, icsd=2, PRIMARY]; SmZn Pm-3m (221) mp-2165 [hull=0.000, icsd=2, PRIMARY]; SmZn2 Imma (74) mp-962 [hull=0.000, icsd=2, PRIMARY]; Sm3Zn11 Immm (71) mp-1103573 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1103/physrev.95.1134 (Thermoelectric Power and Electron Scattering in Metal Alloys) | https://doi.org/10.1134/s0031918x13080085 (Thermoelectric properties of rare-earth alloys)
@@ -195,6 +205,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Te-Tl-Zr
 - rank 2376 | 2 samples | 2 papers | 2 compositions
 - compositions: Tl4ZrTe4 (1); Tl2ZrTe3 (1)
+- sample form: Bulk (2)
 - measured range: 296-568 K (5th-95th pct of 8 curves)
 - papers: https://doi.org/10.1039/c0jm01363c (Syntheses, crystal structures and thermoelectric properties of two new...) | https://doi.org/10.1021/cm200994t (Structural, Thermal, and Physical Properties of the Thallium Zirconium...)
 
@@ -202,6 +213,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2377 | 2 samples | 1 papers | 2 compositions
 - compositions: (YbTe)0.95(YbSb)0.05 (1); (YbTe) (1)
 - dopant candidates (<5% at.): Sb (1)
+- sample form: Bulk (2)
 - measured range: 300-769 K (5th-95th pct of 2 curves; full span incl. outliers 300-820 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbTe Fm-3m (225) mp-1779 [hull=0.000, icsd=7, PRIMARY]; Yb2Te3 Fddd (70) mp-1189945 [hull=0.391, icsd=1, PRIMARY]; YbTe2 P4/nmm (129) mp-1077459 [hull=0.122, icsd=1, PRIMARY]; Yb2Te3 P4/mmm (123) mp-1206896 [hull=2.331]
 - papers: https://doi.org/10.1007/s11664-015-4202-x (Synthesis and Thermoelectric Properties of the YbTe-YbSb System)
@@ -209,6 +221,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## V
 - rank 2378 | 2 samples | 2 papers | 1 compositions
 - compositions: V (2)
+- sample form: Bulk (1)
 - measured range: 18-299 K (5th-95th pct of 2 curves; full span incl. outliers 18-1534 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): V Im-3m (229) mp-1056037 [hull=0.000, icsd=22, PRIMARY]; V Fm-3m (225) mp-8632 [hull=0.252, icsd=1]
 - papers: https://doi.org/10.1063/1.3698169 (Intrinsic thermoelectric power of group VB metals) | https://doi.org/10.1007/bf00988877 (Thermoelectric properties of vanadium)
@@ -216,6 +229,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-Au-Se
 - rank 2379 | 1 samples | 1 papers | 1 compositions
 - compositions: Ag3AuSe2 (1)
+- sample form: Bulk (1)
 - measured range: 321-498 K (5th-95th pct of 1 curves)
 - [ref 1] TEDesignLab / ICSD: Ag3AuSe2 I4_132 (214) mp-3172 [hull=0.000, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1021/acs.chemmater.6b02845 (Synthesis and Thermoelectric Properties of Noble Metal Ternary Chalcog...)
@@ -235,12 +249,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-Bi-Co-O-Sr
 - rank 2382 | 1 samples | 1 papers | 1 compositions
 - compositions: Ag1.2Bi2Sr2Co2O8.6 (1)
+- sample form: Bulk (1)
 - measured range: 332-973 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2012.11.107 (High temperature thermoelectric properties of Bi2Sr2Co2Oy/Ag composites)
 
 ## Ag-Bi-O-S
 - rank 2383 | 1 samples | 1 papers | 1 compositions
 - compositions: BiAgOS (1)
+- sample form: Other (1)
 - measured range: 303-313 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1021/acs.chemmater.7b04962 (Substituting Copper with Silver in the BiMOCh Layered Compounds (M = C...)
 
@@ -253,6 +269,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-Cd-In-Te
 - rank 2385 | 1 samples | 1 papers | 1 compositions
 - compositions: Ag0.4Cd0.5In2.2Te4 (1)
+- sample form: Bulk (1)
 - measured range: 325-674 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cd2In3Ag3Te8 P-4 (81) mp-1226985 [hull=0.007, PRIMARY]; Cd2InAgTe4 I-42m (121) mp-1226959 [hull=0.006, PRIMARY]; CdInAgTe3 Cm (8) mp-1226727 [hull=0.014, PRIMARY]
 - papers: https://doi.org/10.1021/acs.inorgchem.5b00433 (Silver Indium Telluride Semiconductors and Their Solid Solutions with ...)
@@ -260,6 +277,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-Ce-Ge
 - rank 2386 | 1 samples | 1 papers | 1 compositions
 - compositions: Ce3Ag4Ge4 (1)
+- sample form: Bulk (1)
 - measured range: 10-295 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce3(AgGe)4 Immm (71) mp-640597 [hull=0.000, icsd=3, PRIMARY]; Ce(AgGe)2 I4/mmm (139) mp-12063 [hull=0.000, icsd=2, PRIMARY]; CeAgGe P6_3mc (186) mp-11215 [hull=0.000, icsd=1, PRIMARY]; Ce2AgGe6 Amm2 (38) mp-1206886 [hull=0.091, PRIMARY]; Ce8Ag6Ge8O Pmc2_1 (26) mp-1229274 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.intermet.2005.11.004 (Magnetic, electronic and transport properties of the Ce3Ag4X4 (X=Ge, S...)
@@ -267,6 +285,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-Ce-Sn
 - rank 2387 | 1 samples | 1 papers | 1 compositions
 - compositions: Ce3Ag4Sn4 (1)
+- sample form: Bulk (1)
 - measured range: 11-297 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce5AgSn3 P6_3/mcm (193) mp-1213880 [hull=0.000, icsd=1, PRIMARY]; CeAgSn P6_3mc (186) mp-31420 [hull=0.000, icsd=1, PRIMARY]; Ce2AgSn Fm-3m (225) mp-1183725 [hull=0.085, PRIMARY]; CeAgSn P-3m1 (164) mp-1226708 [hull=0.163]
 - papers: https://doi.org/10.1016/j.intermet.2005.11.004 (Magnetic, electronic and transport properties of the Ce3Ag4X4 (X=Ge, S...)
@@ -280,12 +299,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-Cu-In
 - rank 2389 | 1 samples | 1 papers | 1 compositions
 - compositions: Ag0.32Cu0.43In0.25 (1)
+- sample form: Bulk (1)
 - measured range: 328-559 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.3390/ma11010099 (Compatibility between Co-Metallized PbTe Thermoelectric Legs and an Ag...)
 
 ## Ag-Eu-Sb
 - rank 2390 | 1 samples | 1 papers | 1 compositions
 - compositions: EuAgSb (1)
+- sample form: Bulk (1)
 - measured range: 303-782 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): EuAgSb P6_3/mmc (194) mp-22707 [hull=0.000, icsd=2, PRIMARY]; Eu(Ag2Sb)2 R-3m (166) mp-1078223 [hull=0.011, icsd=1, PRIMARY]; Eu2AgSb Fm-3m (225) mp-1183942 [hull=0.037, PRIMARY]
 - papers: https://doi.org/10.1021/acs.chemmater.0c02317 (Promising Zintl-Phase Thermoelectric Compound SrAgSb)
@@ -293,6 +314,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-Eu-Si
 - rank 2391 | 1 samples | 1 papers | 1 compositions
 - compositions: EuAg2Si2 (1)
+- sample form: Bulk (1)
 - measured range: 11-269 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Eu(SiAg)2 I4/mmm (139) mp-22653 [hull=0.000, icsd=2, PRIMARY]; Eu2Si3Ag Fddd (70) mp-1191372 [hull=0.000, icsd=1, PRIMARY]; EuSiAg P-6m2 (187) mp-1225142 [hull=0.081, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2004.12.035 (Interaction of the components in the systems Ce–Ag–Si at 500°C and Eu–...)
@@ -300,6 +322,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-Ga-S-Se
 - rank 2392 | 1 samples | 1 papers | 1 compositions
 - compositions: Ag9Ga(S0.85Se0.15)6 (1)
+- sample form: Bulk (1)
 - measured range: 298-804 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ga2Ag2Se3S C2 (5) mp-1224864 [hull=0.006, PRIMARY]; Ga2Ag2SeS3 C2 (5) mp-1224856 [hull=0.005, PRIMARY]; GaAgSeS Cc (9) mp-1224820 [hull=0.006, PRIMARY, AMBIGUOUS]; GaAgSeS I2_12_12_1 (24) mp-1224845 [hull=0.008]
 - papers: https://doi.org/10.1016/j.mtphys.2018.09.001 (Thermoelectric properties of Ag9GaS6 with ultralow lattice thermal con...)
@@ -307,6 +330,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-Ge-Nd
 - rank 2393 | 1 samples | 1 papers | 1 compositions
 - compositions: NdAg2Ge2 (1)
+- sample form: Bulk (1)
 - measured range: 12-296 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nd(AgGe)2 I4/mmm (139) mp-4229 [hull=0.000, icsd=4, PRIMARY]; Nd2AgGe6 Amm2 (38) mp-1206791 [hull=0.104, PRIMARY]; Nd3(AgGe)4 Immm (71) mp-1206903 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.intermet.2005.06.006 (Magnetic, electronic and transport properties of RAg2Ge2 (R=Pr, Nd) co...)
@@ -314,12 +338,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-Ge-Pb-Te
 - rank 2394 | 1 samples | 1 papers | 1 compositions
 - compositions: Ge0.77Ag0.11Pb0.12Te (1)
+- sample form: Polycrystal (1)
 - measured range: 299-801 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1126/science.abq5815 (High figure-of-merit and power generation in high-entropy GeTe-based t...)
 
 ## Ag-Ge-Pr
 - rank 2395 | 1 samples | 1 papers | 1 compositions
 - compositions: PrAg2Ge2 (1)
+- sample form: Bulk (1)
 - measured range: 11-295 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Pr(AgGe)2 I4/mmm (139) mp-5564 [hull=0.000, icsd=2, PRIMARY]; Pr2AgGe6 Amm2 (38) mp-1205983 [hull=0.104, PRIMARY]; Pr3(AgGe)4 Immm (71) mp-1205486 [hull=0.000, PRIMARY]; PrAgGe P6_3mc (186) mp-1206286 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.intermet.2005.06.006 (Magnetic, electronic and transport properties of RAg2Ge2 (R=Pr, Nd) co...)
@@ -332,6 +358,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-I
 - rank 2397 | 1 samples | 1 papers | 1 compositions
 - compositions: AgI (1)
+- sample form: Other (1)
 - measured range: 820-1050 K (5th-95th pct of 3 curves)
 - [ref 1] TEDesignLab / ICSD: AgI F-43m (216) mp-22925 [hull=0.000, icsd=11]
 - [ref 2] MP, ranked by ICSD evidence: AgI P6_3mc (186) mp-22894 [hull=0.001, icsd=16, PRIMARY]; AgI2 P-4m2 (115) mp-33154 [hull=0.137, PRIMARY]; AgI Fm-3m (225) mp-22919 [hull=0.092, icsd=6]; AgI Pm-3m (221) mp-22915 [hull=0.388, icsd=2]; AgI I-4m2 (119) mp-684580 [hull=0.002]
@@ -340,6 +367,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-In-Pr
 - rank 2398 | 1 samples | 1 papers | 1 compositions
 - compositions: PrInAg2 (1)
+- sample form: Bulk (1)
 - measured range: 13-291 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Pr2InAg P4/mmm (123) mp-1219894 [hull=0.000, PRIMARY, AMBIGUOUS]; Pr2InAg Fm-3m (225) mp-978100 [hull=0.002]
 - papers: https://doi.org/10.1016/j.jmmm.2006.10.047 (Non-enhancement of thermoelectric-power coefficient of at low temperat...)
@@ -347,6 +375,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-K-Mo-Se
 - rank 2399 | 1 samples | 1 papers | 1 compositions
 - compositions: Ag3K2Mo15Se19 (1)
+- sample form: SingleCrystal (1)
 - measured range: 299-793 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1021/acsaem.9b02488 (Unravelling the Beneficial Influence of Ag insertion on the Thermoelec...)
 

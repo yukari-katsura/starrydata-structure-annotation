@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## B-La-N-Ni
 - rank 2601 | 1 samples | 1 papers | 1 compositions
 - compositions: La3Ni2B2N3 (1)
+- sample form: Bulk (1)
 - measured range: 13-284 K (5th-95th pct of 2 curves; full span incl. outliers 13-759 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La3Ni2B2N3 I4/mmm (139) mp-6114 [hull=0.000, icsd=3, PRIMARY]; LaNiBN P4/nmm (129) mp-20881 [hull=0.000, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.83.115131 (Anderson lattice in the intermediate valence compound Ce3Ni2B2N3−δ)
@@ -42,6 +43,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## B-Lu-Ni-Yb
 - rank 2604 | 1 samples | 1 papers | 1 compositions
 - compositions: Lu0.66Yb0.34Ni2B2 (1)
+- sample form: SingleCrystal (1)
 - measured range: 11-291 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1080/14786430600651962 (Physical properties of Lu1−xYbxNi2B2C)
 
@@ -56,6 +58,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2606 | 1 samples | 1 papers | 1 compositions
 - compositions: (TiB2)18Si3N4 (1)
 - dopant candidates (<5% at.): Si (1)
+- sample form: Bulk (1)
 - measured range: 291-1167 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ti4B2N3 R3m (160) mp-1217108 [hull=0.805, PRIMARY]
 - papers: https://doi.org/10.1016/j.ceramint.2016.02.001 (Fabrication and contact resistivity of W–Si 3 N 4 /TiB 2 –Si 3 N 4 /p–...)
@@ -69,6 +72,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## B-Nb-Si
 - rank 2608 | 1 samples | 1 papers | 1 compositions
 - compositions: Nb5SiB2 (1)
+- sample form: Bulk (1)
 - measured range: 16-996 K (5th-95th pct of 3 curves; full span incl. outliers 16-1075 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nb5Si3B P6_3/mcm (193) mp-1106165 [hull=0.000, icsd=1, PRIMARY]; Nb10(SiB)3 Fmm2 (42) mp-1220752 [hull=0.011, PRIMARY]; Nb5SiB2 I4/mcm (140) mp-1209930 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.intermet.2003.12.008 (Electrical and thermal properties of single crystalline Mo 5 X 3  (X=S...)
@@ -83,6 +87,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## B-Ni
 - rank 2610 | 1 samples | 1 papers | 1 compositions
 - compositions: NiB (1)
+- sample form: Bulk (1)
 - measured range: 527-946 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ni2B I4/mcm (140) mp-2536 [hull=0.000, icsd=7, PRIMARY]; Ni3B Pnma (62) mp-2058 [hull=0.000, icsd=7, PRIMARY]; NiB Cmcm (63) mp-14019 [hull=0.005, icsd=2, PRIMARY]; Ni4B3 Pnma (62) mp-640067 [hull=0.000, icsd=2, PRIMARY]; Ni23B6 Fm-3m (225) mp-20962 [hull=0.025, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1016/j.intermet.2003.07.005 (Seebeck coefficients of iron group elements borides)
@@ -110,6 +115,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## B-Re-Tb
 - rank 2614 | 1 samples | 1 papers | 1 compositions
 - compositions: TbReB4 (1)
+- sample form: Bulk (1)
 - measured range: 12-349 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Tb2ReB6 Pbam (55) mp-1198929 [hull=0.000, icsd=1, PRIMARY]; Tb3ReB7 Cmcm (63) mp-972380 [hull=0.000, icsd=1, PRIMARY]; TbReB4 Pbam (55) mp-1192121 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1002/ejic.201501038 (Crystal Structure, Magnetic, Electronic, and Thermal Transport Propert...)
@@ -130,6 +136,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## B-Si-V
 - rank 2617 | 1 samples | 1 papers | 1 compositions
 - compositions: V5SiB2 (1)
+- sample form: Bulk (1)
 - measured range: 318-869 K (5th-95th pct of 2 curves; full span incl. outliers 318-1070 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): V5SiB2 I4/mcm (140) mp-10126 [hull=0.000, icsd=3, PRIMARY]; V5Si2B I4/mcm (140) mp-1188856 [hull=0.247, icsd=1, PRIMARY]; V5Si3B P6_3/mcm (193) mp-1188823 [hull=0.006, icsd=1, PRIMARY]; V10Si6B P-31m (162) mp-1216643 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.intermet.2003.12.008 (Electrical and thermal properties of single crystalline Mo 5 X 3  (X=S...)
@@ -159,6 +166,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2621 | 1 samples | 1 papers | 1 compositions
 - compositions: Bi1.975Na0.025Ba2Co2O8C0.8 (1)
 - dopant candidates (<5% at.): Na (1)
+- sample form: Bulk (1)
 - measured range: 304-950 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1016/j.ceramint.2017.01.113 (Enhanced thermoelectric properties of CNT dispersed and Na-doped Bi 2 ...)
 
@@ -166,6 +174,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2622 | 1 samples | 1 papers | 1 compositions
 - compositions: (Ca0.5Ba0.5)0.995Na0.005Mg2Bi1.98 (1)
 - dopant candidates (<5% at.): Na (1)
+- sample form: Bulk (1)
 - measured range: 298-873 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.34133/2020/5016564 (Achieving High Thermoelectric Performance in Rare-Earth Element-Free C...)
 
@@ -185,6 +194,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2625 | 1 samples | 1 papers | 1 compositions
 - compositions: BaFe0.5Sn0.2Bi0.3O3 (1)
 - dopant candidates (<5% at.): Sn (1)
+- sample form: rod-shaped (1)
 - measured range: 573-973 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2Fe4Bi2O11 P4mm (99) mp-1228508 [hull=0.121, PRIMARY]; BaFe5Bi4O15 Cc (9) mp-1228771 [hull=0.054, PRIMARY]
 - papers: https://doi.org/10.1021/acsaem.3c00014 (Improving Electrocatalytic Activity of Cobalt-Free Barium Ferrite-Base...)
@@ -193,6 +203,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2626 | 1 samples | 1 papers | 1 compositions
 - compositions: (Ca0.25Ba0.75)0.995Na0.005Mg2Bi1.98 (1)
 - dopant candidates (<5% at.): Ca (1), Na (1)
+- sample form: Bulk (1)
 - measured range: 298-873 K (5th-95th pct of 6 curves)
 - [ref 1] TEDesignLab / ICSD: Ba(MgBi)2 P-3m1 (164) mp-29209 [hull=0.000, icsd=1, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: BaMg14Bi Amm2 (38) mp-1026537 [hull=0.126, PRIMARY]; BaMg6Bi Amm2 (38) mp-1016607 [hull=0.225, PRIMARY]; BaMg14Bi P-6m2 (187) mp-1026527 [hull=0.179]
@@ -201,6 +212,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Bi-Mn
 - rank 2627 | 1 samples | 1 papers | 1 compositions
 - compositions: BaMn2Bi2 (1)
+- sample form: SingleCrystal (1)
 - measured range: 10-334 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba(MnBi)2 I4/mmm (139) mp-1068010 [hull=0.278, icsd=1, PRIMARY]; BaMnBi2 I4/mmm (139) mp-1079799 [hull=0.182, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1063/1.4828779 (Large thermopower in the antiferromagnetic semiconductor BaMn2Bi2)
@@ -233,6 +245,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Cd-Cu-O-S-Y
 - rank 2632 | 1 samples | 1 papers | 1 compositions
 - compositions: YBa2Cu2.2(CdS)0.8O7 (1)
+- sample form: Bulk (1)
 - measured range: 89-300 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1143/jjap.34.5592 (Thermopower of $\\bf YBa_{2}Cu_{3-{\\ninmbi z}}(CdS)_{\\ninmbi z}O_{7-...)
 
@@ -253,6 +266,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2635 | 1 samples | 1 papers | 1 compositions
 - compositions: BaZr0.4Ce0.4Y0.2O3 (1)
 - dopant candidates (<5% at.): Y (1)
+- sample form: rod-shaped (1)
 - measured range: 573-1173 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2CeZrO6 P4/mmm (123) mp-1228386 [hull=0.032, PRIMARY]; Ba5Ce4ZrO15 C2/m (12) mp-1228442 [hull=0.009, PRIMARY, AMBIGUOUS]; Ba5Ce4ZrO15 P-1 (2) mp-1228741 [hull=0.010]; Ba5Ce4ZrO15 Cmmm (65) mp-1228097 [hull=0.039]
 - papers: https://doi.org/10.1016/j.jpowsour.2018.03.029 (In situ formation of a 3D core-shell and triple-conducting oxygen redu...)
@@ -260,6 +274,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Co-Cu-Ho-O
 - rank 2636 | 1 samples | 1 papers | 1 compositions
 - compositions: Ba2HoCu2.0Co1.0O6 (1)
+- sample form: Bulk (1)
 - measured range: 271-392 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2HoCoCu2O7 Pmmm (47) mp-1214661 [hull=0.034, PRIMARY]
 - papers: https://doi.org/10.1063/1.3078810 (Thermoelectric and structural characterization of Ba2Ho(Cu3−xCox)O6+y)
@@ -294,6 +309,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2641 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.2Ba0.7988Sb0.0012Co0.4Ti0.6O3 (1)
 - dopant candidates (<5% at.): La (1), Sb (1)
+- sample form: rod-shaped (1)
 - measured range: 295-513 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1557/proc-365-47 (Resistivity Control by Solid-State Reaction of Perovskite-Type Oxides)
 
@@ -338,6 +354,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Cu-Fe-La-O-Sm
 - rank 2648 | 1 samples | 1 papers | 1 compositions
 - compositions: Sm0.5La0.5BaCuFeO5 (1)
+- sample form: Bulk (1)
 - measured range: 301-1021 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1016/j.materresbull.2014.10.046 (Thermoelectric properties of Sm1−xLaxBaCuFeO5 ceramics)
 

@@ -22,6 +22,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2051 | 2 samples | 2 papers | 2 compositions
 - compositions: Ca0.9Y0.1Mn0.75Fe0.25O3 (1); CaMn0.7Fe0.3O3 (1)
 - dopant candidates (<5% at.): Y (1)
+- sample form: Bulk (1)
 - measured range: 200-1173 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca2MnFeO5 Pnma (62) mp-619355 [hull=0.010, PRIMARY]; Ca4MnFe3O10 P2_1/c (14) mp-1227204 [hull=0.004, PRIMARY]; SrCa7Mn6(FeO10)2 P1 (1) mp-1077691 [hull=0.068, PRIMARY]; SrCa7Mn6(FeO12)2 Amm2 (38) mp-1077667 [hull=0.094, PRIMARY]
 - papers: https://doi.org/10.1007/s10853-012-6834-z (High-temperature thermoelectric properties of Ca0.9Y0.1Mn1−x Fe x O3 (...) | https://doi.org/10.1063/1.4770378 (Transport and magnetic properties of Fe doped CaMnO<sub>3</sub>)
@@ -30,6 +31,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2052 | 2 samples | 2 papers | 2 compositions
 - compositions: La0.18Nd0.32Ca0.26Ba0.24FeO3 (1); Nd0.6Ca0.4FeO3 (1)
 - dopant candidates (<5% at.): Ba (1), La (1)
+- sample form: rod-shaped (1)
 - measured range: 330-1073 K (5th-95th pct of 2 curves; full span incl. outliers 330-1223 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CaNdFeO4 Cmc2_1 (36) mp-1227142 [hull=0.049, PRIMARY]
 - papers: https://doi.org/10.1002/fuce.201000048 (Effect of the A Cation Size Disorder on the Properties of an Iron Pero...) | https://doi.org/10.1016/j.ceramint.2006.03.035 (Synthesis and electrical properties of Ln0.6Ca0.4FeO3−δ (LnPr, Nd, Sm)...)
@@ -37,6 +39,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Gd-Mn-O
 - rank 2053 | 2 samples | 2 papers | 2 compositions
 - compositions: CaGdMnO3 (1); Gd0.3Ca0.7MnO3 (1)
+- sample form: Bulk (1)
 - measured range: 41-700 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1100/2012/149670 (Thermoelectric Properties of Ca1−xGdxMnO3−δ(0.00, 0.02, and 0.05) Systems) | https://doi.org/10.1016/j.jmmm.2009.07.054 (The effect of Gd-doping on the charge ordering state of Bi0.3−xGdxCa0....)
 
@@ -56,6 +59,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Pt-Sn
 - rank 2056 | 2 samples | 1 papers | 1 compositions
 - compositions: Ca3Pt4Sn12 (2)
+- sample form: SingleCrystal (2)
 - measured range: 10-300 K (5th-95th pct of 10 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca2Sn5Pt3 Pnma (62) mp-21774 [hull=0.000, icsd=1, PRIMARY]; CaSnPt Pnma (62) mp-1102040 [hull=0.000, icsd=1, PRIMARY]; Ca3Sn13Pt4 Pm-3n (223) mp-1214141 [hull=0.008, PRIMARY]
 - papers: https://doi.org/10.1039/d4tc04812a (Large magnetoresistance and thermoelectric properties of a quasi-skutt...)
@@ -71,6 +75,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cd-Eu-Mn-Sb
 - rank 2058 | 2 samples | 1 papers | 2 compositions
 - compositions: EuCd1.6Mn0.4Sb2 (1); EuCd1.4Mn0.6Sb2 (1)
+- sample form: Bulk (2)
 - measured range: 312-678 K (5th-95th pct of 10 curves)
 - papers: https://doi.org/10.1016/s1002-0721(14)60531-7 (Effect of manganese doping on the thermoelectric properties of Zintl p...)
 
@@ -112,6 +117,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2064 | 2 samples | 1 papers | 2 compositions
 - compositions: Cd0.80Zn0.20TeIn0.0005 (1); Cd0.8Zn0.2Te (1)
 - dopant candidates (<5% at.): In (1)
+- sample form: SingleCrystal (2)
 - measured range: 292-1324 K (5th-95th pct of 5 curves)
 - [ref 1] TEDesignLab / ICSD: ZnCdTe2 I-42d (122) mp-971837 [hull=0.005, icsd=1, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: ZnCdTe Cc (9) mp-1232381 [hull=0.258, PRIMARY]; ZnCdTe2 R3m (160) mp-1215406 [hull=0.025]
@@ -132,6 +138,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Cu-Gd-O-Ru-Sr
 - rank 2067 | 2 samples | 1 papers | 1 compositions
 - compositions: RuSr2GdCeCu2O10 (2)
+- sample form: Bulk (2)
 - measured range: 55-250 K (5th-95th pct of 3 curves; full span incl. outliers 55-299 K)
 - papers: https://doi.org/10.1063/1.2784962 (Magnetothermopower and magnetoresistivity of RuSr2Gd2−xCexCu2O10+δ (x=...)
 
@@ -144,6 +151,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Cu-Se
 - rank 2069 | 2 samples | 1 papers | 2 compositions
 - compositions: Ce0.8Cu0.2Se2 (1); Ce0.7Cu0.3Se2 (1)
+- sample form: Bulk (2)
 - measured range: 309-922 K (5th-95th pct of 10 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeCuSe2 P2_1/c (14) mp-11791 [hull=0.026, icsd=3, PRIMARY]; Ce5CuSe8 I-4 (82) mp-675739 [hull=0.069, PRIMARY]
 - papers: https://doi.org/10.1063/1.3311558 (Thermoelectricity and localized f-band control by dp-hybridization on ...)
@@ -151,6 +159,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Cu-Sn
 - rank 2070 | 2 samples | 2 papers | 1 compositions
 - compositions: Ce5CuSn3 (2)
+- sample form: Bulk (1)
 - measured range: 10-294 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeCuSn P6_3/mmc (194) mp-22761 [hull=0.009, icsd=5, PRIMARY]; Ce(CuSn)2 P4/nmm (129) mp-1080173 [hull=0.000, icsd=3, PRIMARY]; Ce5CuSn3 P6_3/mcm (193) mp-1190264 [hull=0.011, icsd=1, PRIMARY]; CeCu5Sn Pnma (62) mp-637204 [hull=0.000, icsd=1, PRIMARY]; Ce2(CuSn)3 P4/mmm (123) mp-1206459 [hull=2.187, PRIMARY]
 - papers: https://doi.org/10.1007/s10582-004-0413-8 (Formation of Heavy-fermion State in Ce5-xLaxCuSn3) | https://doi.org/10.1016/j.jallcom.2004.04.054 (Magnetic, electronic transport and thermodynamic properties of Ce5CuSn3)
@@ -173,18 +182,21 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Gd-O-Zr
 - rank 2073 | 2 samples | 1 papers | 2 compositions
 - compositions: (Gd0.7Ce0.3)2Zr2O7.3 (1); (Gd0.5Ce0.5)2Zr2O7.5 (1)
+- sample form: Bulk (2)
 - measured range: 299-972 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1007/s10853-017-1212-5 (Ultralow thermal conductivity of cerium-doped Nd2Zr2O7 over a wide dop...)
 
 ## Ce-Ge-In-Rh
 - rank 2074 | 2 samples | 1 papers | 2 compositions
 - compositions: CeRh0.8Ge0.2In (1); CeRh0.7Ge0.3In (1)
+- sample form: Bulk (2)
 - measured range: 10-300 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1016/j.intermet.2014.09.001 (Electronic properties of CeRh1−xGexIn; evolution from an intermediate-...)
 
 ## Ce-Ge-Si
 - rank 2075 | 2 samples | 1 papers | 2 compositions
 - compositions: CeSi1.6Ge0.4 (1); CeSiGe (1)
+- sample form: Bulk (2)
 - measured range: 240-380 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce2SiGe Pmc2_1 (26) mp-1226899 [hull=0.016, PRIMARY]; CeSiGe Imma (74) mp-1226579 [hull=0.030, PRIMARY]; CeSiGe I4_1md (109) mp-1206173 [hull=0.051]
 - papers: https://doi.org/10.1016/j.jallcom.2005.07.053 (Thermoelectric properties of the solid solutions based on ThSi2-type C...)
@@ -192,6 +204,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Mn-O-Sr
 - rank 2076 | 2 samples | 2 papers | 1 compositions
 - compositions: Sr0.7Ce0.3MnO3 (2)
+- sample form: pellets (1)
 - measured range: 320-1270 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2CeMn3O9 C2/m (12) mp-1218910 [hull=0.024, PRIMARY]; Sr3CeMn4O12 Im-3m (229) mp-1218514 [hull=0.032, PRIMARY]; Sr4CeMn5O15 C2/m (12) mp-1218672 [hull=0.026, PRIMARY]
 - papers: https://doi.org/10.1023/a:1009936515152 ([]) | https://doi.org/10.1016/s0025-5408(00)00456-6 (Study on the structural and electrical properties of Sr1−xCexMnO3−α (x...)
@@ -207,6 +220,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Ni-Rh-Si
 - rank 2078 | 2 samples | 1 papers | 2 compositions
 - compositions: CeRh1.7Ni0.3Si2 (1); CeRh1.6Ni0.4Si2 (1)
+- sample form: Polycrystal (2)
 - measured range: 11-299 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1016/0038-1098(89)90175-0 (Thermoelectric power behaviour of CeRh2−xNixSi2 alloys)
 
@@ -228,6 +242,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2081 | 2 samples | 2 papers | 2 compositions
 - compositions: (ZrO2)0.5(Ce02)0.5 (1); (Nd0.2Ce0.8)2Zr2O7.8 (1)
 - dopant candidates (<5% at.): Nd (1)
+- sample form: Powder (1); Bulk (1)
 - measured range: 290-973 K (5th-95th pct of 2 curves; full span incl. outliers 290-1808 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeZrO4 P2_13 (198) mp-4843 [hull=0.062, icsd=3, PRIMARY]; Ce3Zr5O16 C222 (21) mp-1019589 [hull=0.046, icsd=1, PRIMARY]; Ce7ZrO16 P4/mmm (123) mp-1191683 [hull=0.022, icsd=1, PRIMARY]; Ce5Zr3O16 C222 (21) mp-1019595 [hull=0.040, icsd=1, PRIMARY]; CeZr3O8 C2/c (15) mp-1019600 [hull=0.045, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1007/s11666-997-0071-z (Thermal and mechanical properties of ZrO2-CeO2 plasma-sprayed coatings) | https://doi.org/10.1007/s10853-017-1212-5 (Ultralow thermal conductivity of cerium-doped Nd2Zr2O7 over a wide dop...)
@@ -235,6 +250,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Os
 - rank 2082 | 2 samples | 1 papers | 1 compositions
 - compositions: CeOs2 (2)
+- sample form: Bulk (1)
 - measured range: 11-297 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeOs2 Fd-3m (227) mp-2098 [hull=0.000, icsd=5, PRIMARY]; Ce3Os Pnma (62) mp-1188974 [hull=0.000, icsd=1, PRIMARY]; Ce4Os Fd-3m (227) mp-1213963 [hull=0.526, PRIMARY]; CeOs2 P6_3/mmc (194) mp-1102302 [hull=0.000, icsd=2]
 - papers: https://doi.org/10.1007/bf02570272 (Evidence of the different valence states in the C14 and C15 phases CeOs2)
@@ -242,6 +258,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Pb
 - rank 2083 | 2 samples | 2 papers | 1 compositions
 - compositions: CePb3 (2)
+- sample form: Polycrystal (1)
 - measured range: 10-252 K (5th-95th pct of 3 curves; full span incl. outliers 10-292 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CePb3 Pm-3m (221) mp-20225 [hull=0.000, icsd=4, PRIMARY]; Ce5Pb3 P6_3/mcm (193) mp-1190312 [hull=0.000, icsd=1, PRIMARY]; CePb2 I4/mmm (139) mp-1206707 [hull=0.252, PRIMARY]
 - papers: https://doi.org/10.1016/0304-8853(88)90399-x (Thermoelectric power of Ce(Pb1−xSnx)3) | https://doi.org/10.1016/0304-8853(87)90605-6 (Seebeck coefficient of heavy fermion compounds)
@@ -249,6 +266,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Rh
 - rank 2084 | 2 samples | 2 papers | 2 compositions
 - compositions: CeRh2 (1); Ce7Rh3 (1)
+- sample form: Polycrystal (1)
 - measured range: 11-297 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeRh3 Pm-3m (221) mp-1518 [hull=0.000, icsd=9, PRIMARY]; CeRh2 Fd-3m (227) mp-951 [hull=0.000, icsd=8, PRIMARY]; CeRh Cmcm (63) mp-1018117 [hull=0.000, icsd=2, PRIMARY]; Ce5Rh4 Pnma (62) mp-680602 [hull=0.024, icsd=2, PRIMARY]; Ce5Rh3 P4/ncc (130) mp-1200347 [hull=0.028, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1016/j.physb.2005.03.028 (Crossover in charge transport of CeM2) | https://doi.org/10.1016/s0925-8388(98)00458-7 (Magnetic and electrical properties of the intermetallic compounds R7Rh...)
@@ -263,6 +281,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Sb-Te
 - rank 2086 | 2 samples | 1 papers | 2 compositions
 - compositions: CeTe1.5Sb0.5 (1); CeTe1.75Sb0.25 (1)
+- sample form: SingleCrystal (2)
 - measured range: 100-300 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeSbTe P4/nmm (129) mp-917643 [hull=0.035, icsd=2, PRIMARY]; Ce2SbTe P4/mmm (123) mp-1226772 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1063/1.4756911 (Dimensional crossover of charge density wave and thermoelectric proper...)
@@ -325,6 +344,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Fe-Ga
 - rank 2095 | 2 samples | 2 papers | 2 compositions
 - compositions: Fe0.75Co0.25Ga3 (1); Fe0.5Co0.5Ga3 (1)
+- sample form: Bulk (1)
 - measured range: 12-395 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GaFeCo2 Fm-3m (225) mp-30551 [hull=0.000, icsd=2, PRIMARY]; GaFe2Co Fm-3m (225) mp-636212 [hull=0.130, icsd=1, PRIMARY]; Ga2FeCo P4/mmm (123) mp-1224867 [hull=0.058, PRIMARY]; GaFe2Co F-43m (216) mp-1224895 [hull=0.285]
 - papers: https://doi.org/10.3762/bjnano.4.54 (Structural and thermoelectric properties of TMGa3(TM = Fe, Co) thin films) | https://doi.org/10.1016/j.jallcom.2014.04.117 (Thermoelectric performance of intermetallic FeGa3 with Co doping)
@@ -332,6 +352,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Fe-Ga-Ge
 - rank 2096 | 2 samples | 1 papers | 2 compositions
 - compositions: Fe0.75Co0.25Ga2.65Ge0.35 (1); Fe0.50Co0.50Ga2.65Ge0.35 (1)
+- sample form: Bulk (2)
 - measured range: 83-874 K (5th-95th pct of 14 curves)
 - papers: https://doi.org/10.1063/1.4938474 (Improved thermoelectric properties in heavily doped FeGa3)
 
@@ -350,6 +371,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Fe-Mn-O
 - rank 2099 | 2 samples | 1 papers | 1 compositions
 - compositions: Mn0.5Co0.5Fe2O4 (2)
+- sample form: Bulk (2)
 - measured range: 471-974 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mn2Fe3Co3O16 Cm (8) mp-772328 [hull=0.109, PRIMARY]; Mn3Fe2Co3O16 Cm (8) mp-1176503 [hull=0.069, PRIMARY]; Mn3Fe3(CoO8)2 Cm (8) mp-770195 [hull=0.129, PRIMARY]
 - papers: https://doi.org/10.1109/ict.2006.331222 (Thermoelectric Properties of Sintered (MnyCo1-y) Fe2O4)

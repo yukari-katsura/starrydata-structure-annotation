@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## N-O-Si-Y
 - rank 3501 | 1 samples | 1 papers | 1 compositions
 - compositions: Y4Si2O7N5 (1)
+- sample form: Bulk (1)
 - measured range: 296-1272 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Y2Si3N4O3 P-42_1m (113) mp-6941 [hull=0.041, icsd=1, PRIMARY]; Y3Si5N9O Pbcm (57) mp-1207796 [hull=0.000, PRIMARY]; Y4Si2NO8 P2_1/c (14) mp-1207840 [hull=0.101, PRIMARY]
 - papers: https://doi.org/10.1111/jace.15504 (Thermophysical properties of rare earth barium aluminates)
@@ -48,6 +49,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Na-Nb-O-Te
 - rank 3505 | 1 samples | 1 papers | 1 compositions
 - compositions: (NaNbO3)(TeO2) (1)
+- sample form: Bulk (1)
 - measured range: 160-300 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2020.156630 (Effects of inorganic salt NaNbO3 composite on the thermoelectric prope...)
 
@@ -74,6 +76,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Nb-O-Y
 - rank 3509 | 1 samples | 1 papers | 1 compositions
 - compositions: Y3NbO7 (1)
+- sample form: Bulk (1)
 - measured range: 294-1273 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YNbO4 I4_1/a (88) mp-1095229 [hull=0.002, icsd=20, PRIMARY]; Y3NbO7 Cm (8) mp-676261 [hull=0.246, PRIMARY, AMBIGUOUS]; YNbO2 I4_1/amd (141) mp-1207699 [hull=0.644, PRIMARY]; YNbO4 C2/c (15) mp-5387 [hull=0.000, icsd=13]; Y3NbO7 Cmme (67) mp-1101623 [hull=0.254]
 - papers: https://doi.org/10.1002/adma.201808222 (Diffused Lattice Vibration and Ultralow Thermal Conductivity in the Bi...)
@@ -81,6 +84,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Nb-O-Yb
 - rank 3510 | 1 samples | 1 papers | 1 compositions
 - compositions: Yb3NbO7 (1)
+- sample form: Bulk (1)
 - measured range: 294-1273 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbNbO4 C2/c (15) mp-5466 [hull=0.000, icsd=2, PRIMARY]; YbNbO3 Pm-3m (221) mp-1187578 [hull=0.020, PRIMARY]
 - papers: https://doi.org/10.1002/adma.201808222 (Diffused Lattice Vibration and Ultralow Thermal Conductivity in the Bi...)
@@ -100,6 +104,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Nb-Si-Ta-Te
 - rank 3513 | 1 samples | 1 papers | 1 compositions
 - compositions: (Ta0.5Nb0.5)4SiTe4 (1)
+- sample form: SingleCrystal (1)
 - measured range: 10-298 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1063/1.5023427 (Large thermoelectric power factor in one-dimensional telluride Nb4SiTe...)
 
@@ -113,6 +118,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Nd-O-Si
 - rank 3515 | 1 samples | 1 papers | 1 compositions
 - compositions: Nd2SiO5 (1)
+- sample form: Bulk (1)
 - measured range: 293-293 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nd2Si2O7 P4_1 (76) mp-15225 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; KNd9(Si3O13)2 P3 (143) mp-1223480 [hull=0.000, PRIMARY]; La3Nd11(Si3O13)3 P6_3 (173) mp-1224647 [hull=0.000, PRIMARY]; NaNd9(Si3O13)2 P3 (143) mp-1221031 [hull=0.000, PRIMARY]; Nd4CdSi3O13 P6_3 (173) mp-1220265 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.actamat.2020.06.012 (Tailoring thermal properties of multi-component rare earth monosilicates)
@@ -120,6 +126,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Nd-O-Ta
 - rank 3516 | 1 samples | 1 papers | 1 compositions
 - compositions: NdTa3O9 (1)
+- sample form: Bulk (1)
 - measured range: 373-1073 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NdTaO4 C2/c (15) mp-4718 [hull=0.004, icsd=4, PRIMARY]; Nd3TaO7 Cmcm (63) mp-31417 [hull=0.000, icsd=2, PRIMARY]; NdTa3O9 P2_1/m (11) mp-28653 [hull=0.000, icsd=1, PRIMARY]; NdTa7O19 P-6c2 (188) mp-14676 [hull=0.000, icsd=1, PRIMARY]; NdTa2O6 P4/mmm (123) mp-1205976 [hull=0.062, PRIMARY]
 - papers: https://doi.org/10.1016/j.actamat.2021.117152 (Spontaneously formed nanostructures in double perovskite rare-earth ta...)
@@ -140,6 +147,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Nd-Os-Sb
 - rank 3519 | 1 samples | 1 papers | 1 compositions
 - compositions: NdOs4Sb12 (1)
+- sample form: SingleCrystal (1)
 - measured range: 13-247 K (5th-95th pct of 2 curves; full span incl. outliers 13-297 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nd(Sb3Os)4 Im-3 (204) mp-3569 [hull=0.000, icsd=4, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.72.014519 (Transport properties of the heavy-fermion superconductorPrOs4Sb12)
@@ -147,6 +155,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Nd-Rh
 - rank 3520 | 1 samples | 1 papers | 1 compositions
 - compositions: Nd7Rh3 (1)
+- sample form: Polycrystal (1)
 - measured range: 12-294 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NdRh2 Fd-3m (227) mp-2290 [hull=0.000, icsd=2, PRIMARY]; NdRh3 P6_3/mmc (194) mp-864699 [hull=0.000, icsd=1, PRIMARY]; Nd3Rh2 R-3 (148) mp-1104743 [hull=0.000, icsd=1, PRIMARY]; NdRh Cmcm (63) mp-999335 [hull=0.000, icsd=1, PRIMARY]; Nd4Rh Pm (6) mp-1220520 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/s0925-8388(98)00458-7 (Magnetic and electrical properties of the intermetallic compounds R7Rh...)
@@ -154,6 +163,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Nd-Ru
 - rank 3521 | 1 samples | 1 papers | 1 compositions
 - compositions: NdRu2 (1)
+- sample form: Polycrystal (1)
 - measured range: 12-289 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NdRu2 Fd-3m (227) mp-1781 [hull=0.000, icsd=6, PRIMARY]; Nd3Ru Pnma (62) mp-1106300 [hull=0.000, icsd=2, PRIMARY]; Nd5Ru2 C2/c (15) mp-1103979 [hull=0.000, icsd=2, PRIMARY]; NdRu3 P6/mmm (191) mp-1064690 [hull=0.624, icsd=1, PRIMARY]; Nd4Ru Fd-3m (227) mp-1209953 [hull=0.453, PRIMARY]
 - papers: https://doi.org/10.1016/0921-4526(94)00430-4 (Transport properties of (Ce1−xRx)Ru2 (R  La, Nd))
@@ -161,6 +171,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Nd-Ru-Sb
 - rank 3522 | 1 samples | 1 papers | 1 compositions
 - compositions: NdRu4Sb12 (1)
+- sample form: SingleCrystal (1)
 - measured range: 20-291 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nd(Sb3Ru)4 Im-3 (204) mp-1189354 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1088/0953-8984/14/45/317 (Transport properties in the filled-skutterudite compounds RERu4Sb12 (R...)
@@ -175,6 +186,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Nd-Ru-Sn
 - rank 3524 | 1 samples | 1 papers | 1 compositions
 - compositions: NdRuSn3 (1)
+- sample form: Polycrystal (1)
 - measured range: 16-297 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NdSn3Ru Pm-3n (223) mp-1198161 [hull=0.000, icsd=2, PRIMARY]; Nd(Sn3Ru2)2 I-42m (121) mp-1205655 [hull=0.000, PRIMARY]; Nd2Sn4Ru Amm2 (38) mp-1220534 [hull=0.029, PRIMARY]
 - papers: https://doi.org/10.1088/0953-8984/3/45/014 (Transport and magnetic properties of RERuSn3(RE=La, Ce, Pr, Nd, Sm): a...)
@@ -182,6 +194,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Nd-Te-Tl
 - rank 3525 | 1 samples | 1 papers | 1 compositions
 - compositions: Tl9NdTe6 (1)
+- sample form: Bulk (1)
 - measured range: 314-552 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NdTlTe2 R-3m (166) mp-999319 [hull=0.000, icsd=1, PRIMARY]; Nd3TlTe6 Cmmm (65) mp-1207323 [hull=2.277, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2015.01.025 (Thermoelectric properties of hot-pressed Tl9LnTe6 (Ln=La, Ce, Pr, Nd, ...)
@@ -203,6 +216,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ni-P-Yb
 - rank 3528 | 1 samples | 1 papers | 1 compositions
 - compositions: Yb2Ni12P7 (1)
+- sample form: SingleCrystal (1)
 - measured range: 10-289 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Yb(Ni2P)2 P4_2/mnm (136) mp-16066 [hull=0.000, icsd=2, PRIMARY]; Yb5Ni19P12 C2/m (12) mp-1201580 [hull=0.000, icsd=1, PRIMARY]; Yb6Ni20P13 P-6 (174) mp-1207641 [hull=0.000, PRIMARY]; Yb9(Ni13P6)2 P-6m2 (187) mp-1207845 [hull=0.000, PRIMARY]; YbNi5P3 Cmcm (63) mp-1207542 [hull=0.012, PRIMARY]
 - papers: https://doi.org/10.1088/0953-8984/26/42/425601 (Crossover between Fermi liquid and non-Fermi liquid behavior in the no...)
@@ -211,12 +225,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3529 | 1 samples | 1 papers | 1 compositions
 - compositions: Ti0.95Hf0.05Ni0.8Pd0.2Sn0.99Sb0.01 (1)
 - dopant candidates (<5% at.): Hf (1), Sb (1)
+- sample form: Bulk (1)
 - measured range: 305-948 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1016/j.intermet.2006.08.008 (High temperature thermoelectric properties of TiNiSn-based half-Heusle...)
 
 ## Ni-Pr-Sn
 - rank 3530 | 1 samples | 1 papers | 1 compositions
 - compositions: Pr9Ni24Sn49 (1)
+- sample form: Bulk (1)
 - measured range: 14-288 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): PrNiSn Pnma (62) mp-22164 [hull=0.000, icsd=3, PRIMARY]; PrNi5Sn P6_3/mmc (194) mp-1193428 [hull=0.000, icsd=2, PRIMARY]; Pr2Ni2Sn Immm (71) mp-1068489 [hull=0.000, icsd=1, PRIMARY]; Pr(Ni2Sn)2 I4/mcm (140) mp-1104946 [hull=0.000, icsd=1, PRIMARY]; Pr3Ni2Sn7 Cmmm (65) mp-1103584 [hull=0.471, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.intermet.2004.08.006 (Magnetic and electrical transport properties of RE9Ni24Sn49 compounds ...)
@@ -230,11 +246,13 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ni-Rb-Sn
 - rank 3532 | 1 samples | 1 papers | 1 compositions
 - compositions: Rb9Ni24Sn49 (1)
+- sample form: Bulk (1)
 - papers: https://doi.org/10.1016/j.intermet.2004.08.006 (Magnetic and electrical transport properties of RE9Ni24Sn49 compounds ...)
 
 ## Ni-S
 - rank 3533 | 1 samples | 1 papers | 1 compositions
 - compositions: NiS2 (1)
+- sample form: Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 302-622 K (5th-95th pct of 3 curves)
 - [ref 1] TEDesignLab / ICSD: NiS P6_3/mmc (194) mp-594 [hull=0.104, icsd=13]; NiS (186)
 - [ref 2] MP, ranked by ICSD evidence: NiS2 Pa-3 (205) mp-2282 [hull=0.000, icsd=16, PRIMARY]; NiS R3m (160) mp-1547 [hull=0.015, icsd=11, PRIMARY]; Ni3S2 R32 (155) mp-362 [hull=0.000, icsd=11, PRIMARY]; Ni3S4 Fd-3m (227) mp-1050 [hull=0.000, icsd=3, PRIMARY]; Ni9S8 I-42d (122) mp-1202035 [hull=0.101, icsd=1, PRIMARY]
@@ -250,6 +268,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ni-Se
 - rank 3535 | 1 samples | 1 papers | 1 compositions
 - compositions: NiSe (1)
+- sample form: Bulk (1)
 - measured range: 299-525 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NiSe P6_3/mmc (194) mp-662 [hull=0.048, icsd=11, PRIMARY]; NiSe2 Pa-3 (205) mp-20901 [hull=0.009, icsd=8, PRIMARY]; Ni3Se2 R32 (155) mp-2056 [hull=0.000, icsd=6, PRIMARY]; Ni3Se4 C2/m (12) mp-573 [hull=0.000, icsd=2, PRIMARY]; Ni19Se20 P-1 (2) mp-685124 [hull=0.040, PRIMARY]
 - papers: https://doi.org/10.1039/c3ta13456c (Understanding of the contact of nanostructured thermoelectric n-type B...)
@@ -257,6 +276,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ni-Si
 - rank 3536 | 1 samples | 1 papers | 1 compositions
 - compositions: Ni93.93Si6.07 (1)
+- sample form: Bulk (1)
 - measured range: 73-773 K (5th-95th pct of 2 curves; full span incl. outliers 73-836 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SiNi Pnma (62) mp-351 [hull=0.000, icsd=11, PRIMARY]; SiNi3 Pm-3m (221) mp-828 [hull=0.000, icsd=10, PRIMARY]; SiNi2 Pnma (62) mp-1118 [hull=0.000, icsd=9, PRIMARY]; Si2Ni Fm-3m (225) mp-2291 [hull=0.000, icsd=6, PRIMARY]; Si12Ni31 P321 (150) mp-27276 [hull=0.000, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1063/1.1722001 (Thermoelectric Power and Electrical Resistivity of Dilute Alloys of Si...)
@@ -264,6 +284,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ni-Sm-Sn
 - rank 3537 | 1 samples | 1 papers | 1 compositions
 - compositions: Sm9Ni24Sn49 (1)
+- sample form: Bulk (1)
 - measured range: 13-277 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SmNiSn Pnma (62) mp-1104463 [hull=0.000, icsd=2, PRIMARY]; Sm2NiSn4 Pnma (62) mp-645182 [hull=0.000, icsd=1, PRIMARY]; Sm(NiSn)2 P4/nmm (129) mp-1080144 [hull=0.000, icsd=1, PRIMARY]; Sm(Ni2Sn)2 I4/mcm (140) mp-1104730 [hull=0.000, PRIMARY]; Sm3(Ni3Sn2)2 P6_3mc (186) mp-1209076 [hull=0.130, PRIMARY]
 - papers: https://doi.org/10.1016/j.intermet.2004.08.006 (Magnetic and electrical transport properties of RE9Ni24Sn49 compounds ...)
@@ -278,6 +299,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ni-Sn-Tb
 - rank 3539 | 1 samples | 1 papers | 1 compositions
 - compositions: Tb9Ni24Sn49 (1)
+- sample form: Bulk (1)
 - measured range: 10-296 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TbNiSn Pnma (62) mp-22299 [hull=0.000, icsd=2, PRIMARY]; Tb2Ni2Sn Immm (71) mp-1068217 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; Tb6Ni2Sn Immm (71) mp-1105993 [hull=0.029, icsd=1, PRIMARY]; TbNiSn2 Pnma (62) mp-1198844 [hull=0.000, icsd=1, PRIMARY]; Tb9Ni24Sn49 C2/m (12) mp-1217867 [hull=0.025, PRIMARY]
 - papers: https://doi.org/10.1016/j.intermet.2004.08.006 (Magnetic and electrical transport properties of RE9Ni24Sn49 compounds ...)
@@ -285,6 +307,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ni-Sn-Th
 - rank 3540 | 1 samples | 1 papers | 1 compositions
 - compositions: ThNiSn (1)
+- sample form: Polycrystal (1)
 - measured range: 11-311 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ThNiSn F-43m (216) mp-22786 [hull=0.000, icsd=2, PRIMARY]; Th(NiSn)2 P4/nmm (129) mp-980110 [hull=0.000, icsd=1, PRIMARY]; Th3Ni3Sn4 I-43d (220) mp-1189639 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1143/jpsj.58.2495 (Anomalous Magnetic, Transport and Thermal Properties in the Half-Metal...)
@@ -305,6 +328,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ni-Sn-Y
 - rank 3543 | 1 samples | 1 papers | 1 compositions
 - compositions: Y9Ni24Sn49 (1)
+- sample form: Bulk (1)
 - measured range: 12-274 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YNiSn Pnma (62) mp-22617 [hull=0.000, icsd=3, PRIMARY]; YNiSn2 Pnma (62) mp-21981 [hull=0.000, icsd=2, PRIMARY]; Y2Ni2Sn Immm (71) mp-1068331 [hull=0.000, icsd=1, PRIMARY]; Y2Ni7Sn3 Cmce (64) mp-1203938 [hull=0.000, icsd=1, PRIMARY]; Y4NiSn8 Pmm2 (25) mp-1216215 [hull=0.030, PRIMARY]
 - papers: https://doi.org/10.1016/j.intermet.2004.08.006 (Magnetic and electrical transport properties of RE9Ni24Sn49 compounds ...)
@@ -319,6 +343,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ni-Y
 - rank 3545 | 1 samples | 1 papers | 1 compositions
 - compositions: YNi2 (1)
+- sample form: Bulk (1)
 - measured range: 11-982 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YNi2 Fd-3m (227) mp-1019 [hull=0.000, icsd=20, PRIMARY]; YNi5 P6/mmm (191) mp-2152 [hull=0.000, icsd=11, PRIMARY]; YNi Pnma (62) mp-1364 [hull=0.000, icsd=5, PRIMARY]; Y3Ni Pnma (62) mp-1105633 [hull=0.000, icsd=2, PRIMARY]; Y2Ni17 P6_3/mmc (194) mp-1196175 [hull=0.016, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1016/j.jmmm.2010.09.036 (Electrical properties and spin fluctuations studies of Y(Co1−xNix)2 co...)

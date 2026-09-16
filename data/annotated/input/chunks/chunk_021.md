@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cd-Hg-Te
 - rank 1001 | 6 samples | 3 papers | 3 compositions
 - compositions: Hg0.79Cd0.21Te (3); Hg0.788Cd0.212Te (2); Hg0.825Cd0.175Te (1)
+- sample form: Bulk (2)
 - measured range: 18-300 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CdHg3Te4 P-43m (215) mp-1120716 [hull=0.008, PRIMARY]; CdHg4Te5 Immm (71) mp-1226794 [hull=0.164, PRIMARY]; CdHgTe2 R3m (160) mp-1226741 [hull=0.010, PRIMARY]
 - papers: https://doi.org/10.1007/bf02653090 (Nondestructive characterization of Hg1−xCdxTe layers with n-p structur...) | https://doi.org/10.1063/1.357643 (Transport coefficients and thermoelectric figure of merit ofn‐Hg1−xCdxTe) | https://doi.org/10.1016/0022-0248(90)90804-t (Arsenic ion implantation in Hg1-xCdxTe)
@@ -36,6 +37,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1003 | 6 samples | 1 papers | 6 compositions
 - compositions: Sr0.9975Na0.0025Cd2Sb2 (1); Sr0.995Na0.005Cd2Sb2 (1); Sr0.98Na0.02Cd2Sb2 (1); SrCd2Sb2 (1); Sr0.999Na0.001Cd2Sb2 (1); Sr0.99Na0.01Cd2Sb2 (1)
 - dopant candidates (<5% at.): Na (5)
+- sample form: Bulk (6)
 - measured range: 298-701 K (5th-95th pct of 30 curves)
 - [ref 1] TEDesignLab / ICSD: Sr11(CdSb2)6 C2/m (12) mp-3195 [hull=0.000, icsd=2, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: Sr(CdSb)2 P-3m1 (164) mp-7432 [hull=0.000, icsd=1, PRIMARY]; Sr2CdSb2 Pm (6) mp-1218871 [hull=0.000, PRIMARY]
@@ -45,6 +47,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1004 | 6 samples | 2 papers | 5 compositions
 - compositions: CeFe4P12 (2); Ce0.999La0.001Fe4P12 (1); Ce0.99La0.01Fe4P12 (1); Ce0.95La0.05Fe4P12 (1); Ce0.9La0.1Fe4P12 (1)
 - dopant candidates (<5% at.): La (4)
+- sample form: SingleCrystal (4); Bulk (1)
 - measured range: 10-864 K (5th-95th pct of 13 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce(FeP3)4 Im-3 (204) mp-16272 [hull=0.000, icsd=2, PRIMARY]; Ce(FeP)2 I4/mmm (139) mp-6957 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.physb.2006.01.066 (Thermoelectric properties in) | https://doi.org/10.1063/1.1427141 (Preparation and thermoelectric properties of CeFe4As12)
@@ -52,6 +55,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-In-Ni
 - rank 1005 | 6 samples | 4 papers | 3 compositions
 - compositions: CeNiIn (4); CeNi4In (1); Ce2Ni2In (1)
+- sample form: Bulk (3); SingleCrystal (2); Polycrystal (1)
 - measured range: 10-300 K (5th-95th pct of 9 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeInNi P-62m (189) mp-21492 [hull=0.000, icsd=7, PRIMARY]; CeIn2Ni9 P4/mbm (127) mp-1193040 [hull=0.015, icsd=4, PRIMARY]; Ce11In9Ni4 Cmmm (65) mp-1192200 [hull=0.000, icsd=2, PRIMARY]; Ce2InNi2 P4/mbm (127) mp-640108 [hull=0.000, icsd=1, PRIMARY]; Ce(In2Ni)3 Pmmn (59) mp-1189631 [hull=0.014, icsd=1, PRIMARY]
 - papers: https://doi.org/10.7567/jjaps.26s3.549 (Magnetic and Transport Properties of New Kondo Compounds CeTIn (T=Ni, ...) | https://doi.org/10.1016/j.jallcom.2009.10.028 (Thermoelectric power in (, Ni; , Ga) compounds) | https://doi.org/10.1103/physrevb.39.6840 (Anisotropic Kondo effect in a valence-fluctuating system: CeNiIn)
@@ -59,6 +63,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Ir-Si
 - rank 1006 | 6 samples | 1 papers | 1 compositions
 - compositions: CeIrSi3 (6)
+- sample form: SingleCrystal (6)
 - measured range: 10-299 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce(SiIr)2 I4/mmm (139) mp-4433 [hull=0.012, icsd=4, PRIMARY]; Ce2Si5Ir3 Ibam (72) mp-1105703 [hull=0.000, icsd=1, PRIMARY]; CeSi2Ir Cmcm (63) mp-1079402 [hull=0.000, icsd=1, PRIMARY]; CeSi2Ir3 Imma (74) mp-13475 [hull=0.000, icsd=1, PRIMARY]; CeSi3Ir I4mm (107) mp-1068906 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1143/jpsjs.80sa.sa068 (Thermoelectric Power in a Single-Crystalline CeIrSi3)
@@ -89,12 +94,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cl-Na-Pb-Te
 - rank 1010 | 6 samples | 2 papers | 6 compositions
 - compositions: (NaCl)0.18PbTe (1); PbTe(NaCl)0.37 (1); PbTe(NaCl)0.64 (1); PbTe(NaCl)0.12 (1); PbTe(NaCl)0.24 (1); PbTe(NaCl)0.5 (1)
+- sample form: Bulk (6)
 - measured range: 303-774 K (5th-95th pct of 26 curves)
 - papers: https://doi.org/10.1155/2015/496739 (Reduction of Lattice Thermal Conductivity in PbTe Induced by Artificia...) | https://doi.org/10.1016/j.mtla.2020.100912 (Enhancement of thermoelectric performance of PbTe by embedding NaCl)
 
 ## Co-Cu-S-Sb
 - rank 1011 | 6 samples | 4 papers | 5 compositions
 - compositions: Cu10Co2Sb4S13 (2); Cu10.5Co1.5Sb4S13 (1); Cu10.0Co2.0Sb4S13 (1); Cu10.49Co1.51Sb4S13 (1); Cu10.3Co1.7Sb4S13 (1)
+- sample form: Other (3)
 - measured range: 11-691 K (5th-95th pct of 26 curves)
 - papers: https://doi.org/10.1016/j.actamat.2015.08.040 (Thermoelectric properties of Co substituted synthetic tetrahedrite) | https://doi.org/10.1143/apex.5.051201 (Thermoelectric Properties of Mineral Tetrahedrites Cu$_{10}$Tr$_{2}$Sb...) | https://doi.org/10.1021/cm404026k (Enhanced Thermoelectric Performance of Synthetic Tetrahedrites)
 
@@ -108,6 +115,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Fe-Ni-O
 - rank 1013 | 6 samples | 1 papers | 6 compositions
 - compositions: (Ni0.4Co0.6)0.9Fe2.1O4 (1); (Ni0.5Co0.5)1.0Fe2.0O4 (1); (Ni0.5Co0.5)1.1Fe1.9O4 (1); (Ni0.5Co0.5)0.9Fe2.1O4 (1); (Ni0.4Co0.6)1.0Fe2.0O4 (1); (Ni0.4Co0.6)1.1Fe1.9O4 (1)
+- sample form: Bulk (6)
 - measured range: 471-974 K (5th-95th pct of 12 curves)
 - papers: https://doi.org/10.1109/ict.2006.331228 (P-type thermoelectric properties of sintered (NiyCo1-y)xFe3-xO4 with s...)
 
@@ -127,6 +135,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Fe-Sn-Ti
 - rank 1016 | 6 samples | 2 papers | 6 compositions
 - compositions: Fe1.4Co0.6TiSn (1); FeCoTiSn (1); Fe1.8Co0.2TiSn (1); Fe1.6Co0.4TiSn (1); Fe1.2Co0.8TiSn (1); CoFeTiSn (1)
+- sample form: Bulk (5)
 - measured range: 29-559 K (5th-95th pct of 32 curves)
 - papers: https://doi.org/10.1007/s11595-021-2436-4 (Thermoelectric Properties of n-type Full-Heusler Fe2−2xCo2xTiSn Prepar...) | https://doi.org/10.1016/j.jmmm.2019.01.100 (Anomalous transport and magnetic behaviours of the quaternary Heusler ...)
 
@@ -134,6 +143,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1017 | 6 samples | 2 papers | 4 compositions
 - compositions: In0.5Co4Sb11Ge1 (3); Yb0.46Co4Ge0.86Sb11.13 (1); Yb0.49Co4Ge1.00Sb10.92 (1); Yb0.65Co4Ge0.96Sb11.21 (1)
 - dopant candidates (<5% at.): Yb (3), In (3)
+- sample form: Bulk (3)
 - measured range: 11-696 K (5th-95th pct of 24 curves)
 - papers: https://doi.org/10.1063/1.1927702 (Thermoelectric properties of Yb-filled Ge-compensated CoSb3 skutterudi...) | https://doi.org/10.1016/j.matlet.2011.10.035 (The thermoelectric properties of In0.5Co4Sb12−xGex alloys prepared by ...)
 
@@ -141,6 +151,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1018 | 6 samples | 5 papers | 4 compositions
 - compositions: HfCoSb0.8Sn0.2 (3); Ti0.15Hf0.85CoSb0.8Sn0.2 (1); Zr0.10Hf0.90CoSb0.7Sn0.3 (1); Hf0.9Ti0.1CoSb0.8Sn0.2 (1)
 - dopant candidates (<5% at.): Ti (2), Zr (1)
+- sample form: Bulk (1)
 - measured range: 16-1125 K (5th-95th pct of 21 curves)
 - papers: https://doi.org/10.1039/c5tc01196e (Fine tuning of thermoelectric performance in phase-separated half-Heus...) | https://doi.org/10.1039/c4cp02561j (Enhanced thermoelectric performance in the p-type half-Heusler (Ti/Zr/...) | https://doi.org/10.1063/1.2959103 ((Zr,Hf)Co(Sb,Sn) half-Heusler phases as high-temperature (>700°C) p-ty...)
 
@@ -162,6 +173,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1021 | 6 samples | 3 papers | 6 compositions
 - compositions: (ZnO)9.6(In0.2Co4Sb12)5.3 (1); (ZnO)14(In0.2Co4Sb12)5 (1); (CoSb3)68.82(ZnO)31.18 (1); (CoSb3)58.46(ZnO)41.54 (1); (ZnO)0.5CoSb3 (1); (ZnO)0.7CoSb3 (1)
 - dopant candidates (<5% at.): In (2)
+- sample form: Bulk (2)
 - measured range: 10-799 K (5th-95th pct of 28 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Zn3Co4(SbO6)2 P-1 (2) mp-1216036 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2013.11.204 (Thermoelectric properties of In0.2Co4Sb12 skutterudites with embedded ...) | https://doi.org/10.1007/s11664-011-1866-8 (Influence of ZnO Inclusions on the Low-Temperature Thermoelectric Prop...) | https://doi.org/10.1016/j.jallcom.2012.11.167 (Influence of ZnO nano-inclusions on the transport properties of the Co...)
@@ -169,12 +181,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Ru-Sb
 - rank 1022 | 6 samples | 1 papers | 6 compositions
 - compositions: Co0.5Ru0.5Sb2 (1); Co0.4Ru0.6Sb2 (1); Co0.8Ru0.2Sb2 (1); Co0.7Ru0.3Sb2 (1); Co0.6Ru0.4Sb2 (1); Co0.3Ru0.7Sb2 (1)
+- sample form: Bulk (6)
 - measured range: 78-622 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.1016/s0925-8388(00)01350-5 (Structural and electrical properties of Co1−xRuxSb2)
 
 ## Co-Sn-Ti
 - rank 1023 | 6 samples | 6 papers | 3 compositions
 - compositions: Co2TiSn (4); CoTiSn (1); TiCo1.5Sn (1)
+- sample form: Bulk (1)
 - measured range: 10-890 K (5th-95th pct of 16 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TiCo2Sn Fm-3m (225) mp-21467 [hull=0.000, icsd=9, PRIMARY]; TiCoSn F-43m (216) mp-1216949 [hull=0.068, icsd=2, PRIMARY]; Ti5CoSn3 P6_3/mcm (193) mp-1208283 [hull=0.000, PRIMARY]; Ti2Co3Sn2 R3m (160) mp-1217124 [hull=0.000, PRIMARY]; TiCo2Sn P4/mmm (123) mp-1216996 [hull=0.143]
 - papers: https://doi.org/10.1016/j.jallcom.2004.04.095 (High temperature thermoelectric properties of CoNb1−xMxSn half-Heusler...) | https://doi.org/10.1098/rsta.2011.0183 (Anomalous transport properties of the half-metallic ferromagnets Co2Ti...) | https://doi.org/10.1103/physrevb.81.064404 (Itinerant half-metallic ferromagnetsCo2TiZ(Z=Si, Ge, Sn):Ab initiocalc...)
@@ -182,6 +196,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cr-Ge-Te
 - rank 1024 | 6 samples | 2 papers | 2 compositions
 - compositions: Cr2Ge2Te6 (4); Cr1.94Ge2Te6 (2)
+- sample form: Bulk (4)
 - measured range: 12-834 K (5th-95th pct of 21 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CrGeTe3 R-3 (148) mp-1078220 [hull=0.005, icsd=4, PRIMARY]
 - papers: https://doi.org/10.1021/acs.chemmater.5b04895 (Cr2Ge2Te6: High Thermoelectric Performance from Layered Structure with...) | https://doi.org/10.48550/ARXIV.2305.13268 (Spin-phonon scattering-induced low thermal conductivity in a van der W...)
@@ -196,6 +211,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Mn-S-Sb
 - rank 1026 | 6 samples | 3 papers | 4 compositions
 - compositions: Cu10Mn2Sb4S13 (3); Cu10.5Mn1.5Sb4S13 (1); Cu10.6Mn1.5Sb4S13 (1); Cu10.2Mn1.8Sb4S13 (1)
+- sample form: Bulk (2); Other (1)
 - measured range: 13-730 K (5th-95th pct of 24 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mn2Cu10Sb4S13 I-42m (121) mp-1222021 [hull=0.032, PRIMARY]
 - papers: https://doi.org/10.1143/apex.5.051201 (Thermoelectric Properties of Mineral Tetrahedrites Cu$_{10}$Tr$_{2}$Sb...) | https://doi.org/10.1021/cm404026k (Enhanced Thermoelectric Performance of Synthetic Tetrahedrites) | https://doi.org/10.1039/c4cp04039b (Thermoelectric properties of a Mn substituted synthetic tetrahedrite)
@@ -203,6 +219,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Ni-S-Sb
 - rank 1027 | 6 samples | 4 papers | 2 compositions
 - compositions: Cu10Ni2Sb4S13 (4); Cu10.5Ni1.5Sb4S13 (2)
+- sample form: Other (1)
 - measured range: 27-708 K (5th-95th pct of 26 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CuNiSbS3 P2_12_12_1 (19) mp-1191203 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1143/apex.5.051201 (Thermoelectric Properties of Mineral Tetrahedrites Cu$_{10}$Tr$_{2}$Sb...) | https://doi.org/10.1021/cm404026k (Enhanced Thermoelectric Performance of Synthetic Tetrahedrites) | https://doi.org/10.1021/cm502570b (Increasing the Thermoelectric Figure of Merit of Tetrahedrites by Co-D...)
@@ -210,6 +227,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-S-Sb-Zn
 - rank 1028 | 6 samples | 5 papers | 2 compositions
 - compositions: Cu10Zn2Sb4S13 (4); Cu10.5Zn1.5Sb4S13 (2)
+- sample form: Other (1); Bulk (1)
 - measured range: 14-670 K (5th-95th pct of 17 curves; full span incl. outliers 14-722 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Zn2Cu10Sb4S13 I-42m (121) mp-1215797 [hull=0.042, PRIMARY]
 - papers: https://doi.org/10.1002/aenm.201200650 (High Performance Thermoelectricity in Earth-Abundant Compounds Based o...) | https://doi.org/10.1143/apex.5.051201 (Thermoelectric Properties of Mineral Tetrahedrites Cu$_{10}$Tr$_{2}$Sb...) | https://doi.org/10.1021/cm404026k (Enhanced Thermoelectric Performance of Synthetic Tetrahedrites)
@@ -217,6 +235,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Dy-Gd-Ge-Si
 - rank 1029 | 6 samples | 2 papers | 6 compositions
 - compositions: DyGd4Si2Ge2 (1); Dy3.5Gd1.5Si2Ge2 (1); Dy4.5Gd0.5Si2Ge2 (1); Dy1.5Gd3.5Si2Ge2 (1); Dy2.5Gd2.5Si2Ge2 (1); Dy3.0Gd2.0Si2Ge2 (1)
+- sample form: Bulk (6)
 - solid-solution axis: Dy/(Dy+Gd) spans 0.20-0.90 (median 0.60) over 6 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 19-299 K (5th-95th pct of 7 curves)
@@ -260,6 +279,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Ge
 - rank 1035 | 6 samples | 2 papers | 5 compositions
 - compositions: FeGe1.52 (2); Fe39.81Ge60.19 (1); Fe39.53Ge60.47 (1); Fe39.67Ge60.33 (1); FeGe (1)
+- sample form: Bulk (2)
 - measured range: 13-805 K (5th-95th pct of 12 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): FeGe2 I4/mcm (140) mp-1071018 [hull=0.020, icsd=9, PRIMARY]; FeGe P6/mmm (191) mp-22478 [hull=0.000, icsd=5, PRIMARY]; Fe3Ge P6_3/mmc (194) mp-1079030 [hull=0.006, icsd=4, PRIMARY, AMBIGUOUS]; Fe2Ge P6_3/mmc (194) mp-20432 [hull=0.077, icsd=4, PRIMARY]; Fe6Ge5 C2/m (12) mp-636946 [hull=0.030, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1021/acs.chemmater.5b03952 (Glass-like Lattice Thermal Conductivity and Thermoelectric Properties ...) | https://doi.org/10.1103/physrevb.90.024403 (Scattering mechanisms in textured FeGe thin films: Magnetoresistance a...)
@@ -268,6 +288,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1036 | 6 samples | 1 papers | 1 compositions
 - compositions: (Si0.8Ge0.2P0.02)0.9(FeSi2)0.1 (6)
 - dopant candidates (<5% at.): P (6)
+- sample form: Bulk (6)
 - measured range: 290-1177 K (5th-95th pct of 18 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): FeSiGe Cmce (64) mp-640075 [hull=0.149, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1007/s11664-016-4487-4 (Thermoelectric Properties of n-Type Si0,8Ge0,2-FeSi2 Multiphase Nanost...)
@@ -276,6 +297,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1037 | 6 samples | 5 papers | 6 compositions
 - compositions: La0.05Sm0.45Sr0.32Ba0.18FeO3 (1); Sm0.6Sr0.4Co0.2Fe0.8O3 (1); Sm0.6Sr0.4FeO3 (1); Sm0.5Sr0.5Fe0.8Cu0.2O3 (1); Sm0.5Sr0.5FeO3 (1); Sm0.5Sr0.45K0.05FeO3 (1)
 - dopant candidates (<5% at.): Ba (1), La (1), Co (1), Cu (1), K (1)
+- sample form: rod-shaped (1)
 - measured range: 318-1173 K (5th-95th pct of 6 curves; full span incl. outliers 318-1223 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr3Sm(FeO4)2 Amm2 (38) mp-1218432 [hull=0.018, PRIMARY]
 - papers: https://doi.org/10.1016/j.ssi.2011.07.019 (Characterization of Ln0.5M0.5FeO3–δ (Ln=La, Nd, Sm; M=Ba, Sr) perovski...) | https://doi.org/10.1016/j.jallcom.2006.04.005 (Structure, electrical conducting and thermal expansion properties of L...) | https://doi.org/10.1016/j.memsci.2011.12.027 (Design and experimental investigation of oxide ceramic dual-phase memb...)
@@ -283,6 +305,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Si-Ti
 - rank 1038 | 6 samples | 4 papers | 1 compositions
 - compositions: Fe2TiSi (6)
+- sample form: Film (2)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 10-380 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TiFeSi2 Pbam (55) mp-21662 [hull=0.000, icsd=5, PRIMARY]; TiFeSi Ima2 (46) mp-8648 [hull=0.000, icsd=2, PRIMARY]; TiFe2Si Fm-3m (225) mp-866141 [hull=0.000, PRIMARY]; Ti2FeSi F-43m (216) mp-1094030 [hull=0.295, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.90.085127 (Experimental realization of a semiconducting full-Heusler compound:Fe2...) | https://doi.org/10.1063/1.5141949 (Thermoelectric properties of single-phase full-Heusler alloy Fe2TiSi f...) | https://doi.org/10.1134/s1063782617070363 (Preparation and study of the thermoelectric properties of Fe2TiSn1–x\n...)
@@ -298,6 +321,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ga-Re-Se-Te
 - rank 1040 | 6 samples | 1 papers | 6 compositions
 - compositions: Re6Ga2Se2.4Te12.6 (1); Re6Ga2Se4.5Te10.5 (1); Re6Ga1.5Se7.5Te7.5 (1); Re6Ga1.5Se2.4Te12.6 (1); Re6Ga1.5Se4.5Te10.5 (1); Re6Ga2Se7.5Te7.5 (1)
+- sample form: Bulk (6)
 - solid-solution axis: Se/(Se+Te) spans 0.16-0.50 (median 0.30) over 6 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 10-323 K (5th-95th pct of 8 curves)
@@ -307,6 +331,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1041 | 6 samples | 3 papers | 3 compositions
 - compositions: Gd5(Si0.1Ge0.9)4 (4); Gd5Ge3 (1); Gd5Ge4 (1)
 - dopant candidates (<5% at.): Si (4)
+- sample form: Bulk (5); SingleCrystal (1)
 - measured range: 11-897 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Gd5Ge4 Pnma (62) mp-1198083 [hull=0.000, icsd=8, PRIMARY]; GdGe Cmcm (63) mp-19918 [hull=0.000, icsd=6, PRIMARY]; GdGe2 I4_1/amd (141) mp-1072982 [hull=0.075, icsd=1, PRIMARY]; GdGe2 Imma (74) mp-1212652 [hull=0.638]
 - papers: https://doi.org/10.2320/jinstmet.j2014005 (Thermoelectric Properties of RE5X3(RE=Gd, La, X=Si, Ge)) | https://doi.org/10.1063/1.1459612 (Thermopower behavior in the Gd5(Si0.1Ge0.9)4 magnetocaloric compound f...) | https://doi.org/10.1016/j.jmmm.2004.11.331 (Thermopower and electrical resistivity behavior near the martensitic t...)
@@ -335,6 +360,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## H-I
 - rank 1045 | 6 samples | 1 papers | 2 compositions
 - compositions: IIDT (3); IIDDT (3)
+- sample form: Film (6)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 303-353 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): HI C2/c (15) mp-697025 [hull=0.000, PRIMARY]; HI3 P-1 (2) mp-1184859 [hull=0.084, PRIMARY]
 - papers: https://doi.org/10.1021/acsnano.5b00589 (Seebeck Effects in N-Type and P-Type Polymers Driven Simultaneously by...)
@@ -342,6 +368,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## H-Ti
 - rank 1046 | 6 samples | 2 papers | 6 compositions
 - compositions: TiH1.53 (1); TiH1.66 (1); TiH1.75 (1); TiH1.7 (1); TiH2 (1); TiH0.82 (1)
+- sample form: Bulk (3)
 - measured range: 293-768 K (5th-95th pct of 12 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TiH2 Fm-3m (225) mp-24161 [hull=0.002, icsd=11, PRIMARY]; TiH P4_2/mmc (131) mp-690760 [hull=0.001, icsd=2, PRIMARY]; MgTi7H16 Fm-3m (225) mp-1191885 [hull=0.014, icsd=1, PRIMARY]; Ti2H Pn-3m (224) mp-1077045 [hull=0.046, icsd=1, PRIMARY]; Ti4H3 P-42m (111) mp-1078123 [hull=0.042, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2005.10.032 (Electrical and thermal properties of titanium hydrides) | https://doi.org/10.1007/bf00162965 (Thermal conductivity and heat capacity of titanium hydrides)
@@ -350,6 +377,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1047 | 6 samples | 1 papers | 3 compositions
 - compositions: Ti0.4Hf0.6Ni1.005Sb0.975Sn0.025 (2); Ti0.4Hf0.6Ni1.03Sb0.975Sn0.025 (2); Ti0.4Hf0.6Ni1.01Sb0.975Sn0.025 (2)
 - dopant candidates (<5% at.): Sn (6)
+- sample form: Bulk (6)
 - measured range: 302-776 K (5th-95th pct of 30 curves)
 - papers: https://doi.org/10.1039/c4ta00896k (Nanometer-scale interface engineering boosts the thermoelectric perfor...)
 
@@ -357,6 +385,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1048 | 6 samples | 2 papers | 5 compositions
 - compositions: Hf0.75Zr0.25NiSb0.99Sb0.01 (2); Zr2HfNi2.9Co0.1Sb4 (1); ZrHf2Ni2.9Co0.1Sb4 (1); ZrHf2Ni2.7Cu0.3Sb4 (1); Zr2HfNi2.7Cu0.3Sb4 (1)
 - dopant candidates (<5% at.): Co (2), Cu (2)
+- sample form: Other (4)
 - solid-solution axis: Hf/(Hf+Zr) spans 0.33-0.75 (median 0.67) over 5 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 326-867 K (5th-95th pct of 22 curves)
@@ -366,6 +395,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1049 | 6 samples | 1 papers | 6 compositions
 - compositions: In5SnSbO12 (1); In4.95Ga0.05SnSbO12 (1); In4.875Ga0.125SnSbO12 (1); In4.625Ga0.375SnSbO12 (1); In4.75Ga0.25SnSbO12 (1); In4.5Ga0.5SnSbO12 (1)
 - dopant candidates (<5% at.): Ga (5)
+- sample form: Bulk (6)
 - measured range: 291-977 K (5th-95th pct of 30 curves)
 - papers: https://doi.org/10.1007/s10853-018-2048-3 (Improved densification and thermoelectric performance of In5SnSbO12 vi...)
 

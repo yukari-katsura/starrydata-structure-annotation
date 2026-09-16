@@ -40,6 +40,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Cu-Ga-P
 - rank 2654 | 1 samples | 1 papers | 1 compositions
 - compositions: BaCuGaP2 (1)
+- sample form: SingleCrystal (1)
 - measured range: 11-669 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1039/d4ta01063a (BaCu<i>T</i>P<sub>2</sub> (<i>T</i> = Al, Ga, In): a semiconducting bl...)
 
@@ -52,6 +53,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Cu-Ge-Se
 - rank 2656 | 1 samples | 1 papers | 1 compositions
 - compositions: BaCu2GeSe4 (1)
+- sample form: Bulk (1)
 - measured range: 320-674 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaCu2GeSe4 P3_121 (152) mp-17252 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1039/c8ta09660k (Origins of ultralow thermal conductivity in 1-2-1-4 quaternary selenides)
@@ -59,6 +61,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Cu-In-P
 - rank 2657 | 1 samples | 1 papers | 1 compositions
 - compositions: BaCuInP2 (1)
+- sample form: SingleCrystal (1)
 - measured range: 23-300 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1039/d4ta01063a (BaCu<i>T</i>P<sub>2</sub> (<i>T</i> = Al, Ga, In): a semiconducting bl...)
 
@@ -72,6 +75,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Cu-S-Te
 - rank 2659 | 1 samples | 1 papers | 1 compositions
 - compositions: BaCu5.9STe6 (1)
+- sample form: Bulk (1)
 - measured range: 307-593 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba4Cu11(Te4S)2 Pm (6) mp-1228217 [hull=0.000, PRIMARY]; BaCu6Te6S P2 (3) mp-1228010 [hull=0.041, PRIMARY]
 - papers: https://doi.org/10.1021/ic502055z (Thermoelectric Properties of the Quaternary Chalcogenides BaCu5.9STe6a...)
@@ -85,6 +89,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Fe-Ir-O
 - rank 2661 | 1 samples | 1 papers | 1 compositions
 - compositions: Ba3Fe1.56Ir1.44O9 (1)
+- sample form: SingleCrystal (1)
 - measured range: 12-298 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1021/acs.inorgchem.8b01015 (Ba3Fe1.56Ir1.44O9: A Polar Semiconducting Triple Perovskite with Near ...)
 
@@ -118,6 +123,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Fe-O-Os
 - rank 2666 | 1 samples | 1 papers | 1 compositions
 - compositions: Ba2Fe1.12Os0.88O6 (1)
+- sample form: Bulk (1)
 - measured range: 110-301 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1021/acs.chemmater.6b04983 (High-Temperature Ferrimagnetism with Large Coercivity and Exchange Bia...)
 
@@ -130,6 +136,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Fe-O-Ti
 - rank 2668 | 1 samples | 1 papers | 1 compositions
 - compositions: BaFe0.7Ti0.3O3 (1)
+- sample form: Bulk (1)
 - measured range: 629-1201 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2Ti4Fe2O13 C2/m (12) mp-1214656 [hull=0.012, PRIMARY]; Ba2TiFeO6 P3m1 (156) mp-1228536 [hull=0.015, PRIMARY]; Ba3Ti(FeO4)2 Ama2 (40) mp-1228283 [hull=0.026, PRIMARY]; Ba3TiFe2O9 P6_3mc (186) mp-1228231 [hull=0.000, PRIMARY, AMBIGUOUS]; BaTi2Fe4O11 C2/c (15) mp-1227638 [hull=0.051, PRIMARY]
 - papers: https://doi.org/10.2109/jcersj2.121.706 (High-temperature thermoelectric properties of BaFexTi1^|^minus;xO3^|^m...)
@@ -145,6 +152,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Ga
 - rank 2670 | 1 samples | 1 papers | 1 compositions
 - compositions: BaGa4 (1)
+- sample form: SingleCrystal (1)
 - measured range: 16-284 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaGa4 I4/mmm (139) mp-335 [hull=0.000, icsd=4, PRIMARY]; BaGa2 P6/mmm (191) mp-1219 [hull=0.000, icsd=4, PRIMARY]; Ba10Ga Fd-3m (227) mp-30430 [hull=0.131, icsd=1, PRIMARY]; Ba8Ga7 P2_13 (198) mp-30429 [hull=0.000, icsd=1, PRIMARY]; Ba5Ga6 P6_3/m (176) mp-1228211 [hull=0.002, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2015.08.193 (Characteristic Fermi surfaces and charge density wave in SrAl4 and rel...)
@@ -183,12 +191,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Ge-Ni-Si
 - rank 2676 | 1 samples | 1 papers | 1 compositions
 - compositions: Ba8Ni3.4Si9.0Ge33.6 (1)
+- sample form: Bulk (1)
 - measured range: 308-821 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.3390/ma11060946 (Crystal Chemistry and Thermoelectric Properties of Type-I Clathrate Ba...)
 
 ## Ba-Ge-Rh
 - rank 2677 | 1 samples | 1 papers | 1 compositions
 - compositions: BaRhGe3 (1)
+- sample form: Bulk (1)
 - measured range: 20-296 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba(GeRh)2 I4/mmm (139) mp-10698 [hull=0.000, icsd=1, PRIMARY]; Ba3(Ge4Rh)4 I4/mmm (139) mp-1192163 [hull=0.000, icsd=1, PRIMARY]; BaGe3Rh I4mm (107) mp-1070247 [hull=0.038, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1021/ic302139r (Cage-Forming Compounds in the Ba–Rh–Ge System: From Thermoelectrics to...)
@@ -248,6 +258,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Ni-O-Ta
 - rank 2686 | 1 samples | 1 papers | 1 compositions
 - compositions: Ba3NiTa2O9 (1)
+- sample form: Bulk (1)
 - measured range: 475-1473 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba3Ta2NiO9 P-3m1 (164) mp-32310 [hull=0.000, icsd=1, PRIMARY]; Ba4Ta10NiO30 Imm2 (44) mp-1228660 [hull=0.006, PRIMARY]
 - papers: https://doi.org/10.1007/s11666-018-0796-x (High-Temperature Thermal Properties of Ba(Ni1/3Ta2/3)O3 Ceramic and Ch...)
@@ -275,6 +286,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-P-Si
 - rank 2690 | 1 samples | 1 papers | 1 compositions
 - compositions: Ba2Si3P6 (1)
+- sample form: Bulk (1)
 - measured range: 11-299 K (5th-95th pct of 4 curves)
 - [ref 1] TEDesignLab / ICSD: Ba3(Si2P3)2 P2_1/m (11) mp-27887 [hull=0.000, icsd=1, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: Ba4SiP4 P-43n (218) mp-14214 [hull=0.000, icsd=1, PRIMARY]
@@ -290,6 +302,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Sb-Se
 - rank 2692 | 1 samples | 1 papers | 1 compositions
 - compositions: Ba2Sb2Se5 (1)
+- sample form: Bulk (1)
 - measured range: 11-400 K (5th-95th pct of 2 curves; full span incl. outliers 11-772 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba(SbSe2)2 P2_1/c (14) mp-4727 [hull=0.000, icsd=1, PRIMARY]; Ba3Sb2Se7 C2/c (15) mp-1194583 [hull=0.000, icsd=1, PRIMARY]; Ba4Sb4Se11 Pnnm (58) mp-28238 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1039/c5tc01721a (Synthesis, crystal structure, and thermoelectric properties of two new...)
@@ -297,6 +310,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Sc-Te
 - rank 2693 | 1 samples | 1 papers | 1 compositions
 - compositions: BaSc2Te4 (1)
+- sample form: SingleCrystal (1)
 - measured range: 161-295 K (5th-95th pct of 2 curves; full span incl. outliers 161-545 K)
 - [ref 1] TEDesignLab / ICSD: Ba(ScTe2)2 Pnma (62) mp-17501 [hull=0.002, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.intermet.2006.08.006 (Thermoelectric properties of the new tellurides SrSc2Te4 and BaSc2Te4 ...)
@@ -304,6 +318,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Si-Sr
 - rank 2694 | 1 samples | 1 papers | 1 compositions
 - compositions: Sr0.81Ba0.19Si2 (1)
+- sample form: Bulk (1)
 - measured range: 10-387 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaSrSi4 C222_1 (20) mp-1227347 [hull=0.012, PRIMARY]; BaSrSi4 Pnma (62) mp-1227506 [hull=0.050]
 - papers: https://doi.org/10.1016/j.intermet.2020.106981 (Thermoelectric properties of cubic Ba-substituted strontium disilicide...)
@@ -311,12 +326,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Sn-Te
 - rank 2695 | 1 samples | 1 papers | 1 compositions
 - compositions: Ba2SnTe5 (1)
+- sample form: Bulk (1)
 - measured range: 180-295 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1109/ict.2005.1519948 (Exploratory synthesis of new heavy main group chalcogenides)
 
 ## Ba-Te-Y
 - rank 2696 | 1 samples | 1 papers | 1 compositions
 - compositions: BaY2Te4 (1)
+- sample form: SingleCrystal (1)
 - measured range: 185-297 K (5th-95th pct of 2 curves; full span incl. outliers 185-550 K)
 - [ref 1] TEDesignLab / ICSD: Ba(YTe2)2 Pnma (62) mp-17872 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.intermet.2006.08.006 (Thermoelectric properties of the new tellurides SrSc2Te4 and BaSc2Te4 ...)
@@ -331,6 +348,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Be-Ce-Pd
 - rank 2698 | 1 samples | 1 papers | 1 compositions
 - compositions: CePd3Be0.4 (1)
+- sample form: Bulk (1)
 - measured range: 13-348 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1088/0953-8984/28/16/165603 (Kondo effect and thermoelectric transport in CePd3Bex)
 

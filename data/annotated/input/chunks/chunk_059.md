@@ -21,12 +21,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Ga-H-Rh
 - rank 2901 | 1 samples | 1 papers | 1 compositions
 - compositions: CeRhGaH1.8 (1)
+- sample form: Bulk (1)
 - measured range: 15-298 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1021/cm0705338 (Hydrogenation of the Ce(Rh1-xIrx)Ga System:  Occurrence of Antiferroma...)
 
 ## Ce-Ga-Ir
 - rank 2902 | 1 samples | 1 papers | 1 compositions
 - compositions: Ce2Ir3Ga9 (1)
+- sample form: Polycrystal (1)
 - measured range: 11-308 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce2(Ga3Ir)3 Cmcm (63) mp-1213877 [hull=0.000, PRIMARY]; CeGaIr Pnma (62) mp-1213791 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/s0925-8388(98)00408-3 (Transport and magnetic properties of new ternary Ce2T3X9-compounds (T=...)
@@ -41,6 +43,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Ga-Ru
 - rank 2904 | 1 samples | 1 papers | 1 compositions
 - compositions: Ce2Ru3Ga9 (1)
+- sample form: Polycrystal (1)
 - measured range: 11-350 K (5th-95th pct of 2 curves; full span incl. outliers 11-390 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce2(Ga3Ru)3 Cmcm (63) mp-1214327 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2018.09.131 (Revisiting the physical properties of Ce2Ru3Ga9: Intermediate valence,...)
@@ -48,6 +51,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Ga-Si
 - rank 2905 | 1 samples | 1 papers | 1 compositions
 - compositions: CeSiGa (1)
+- sample form: Bulk (1)
 - measured range: 240-380 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeGaSi Imma (74) mp-1226572 [hull=0.000, PRIMARY]; CeGaSi I4_1md (109) mp-1206504 [hull=0.017]
 - papers: https://doi.org/10.1016/j.jallcom.2005.07.053 (Thermoelectric properties of the solid solutions based on ThSi2-type C...)
@@ -62,12 +66,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Ge-H-Ru
 - rank 2907 | 1 samples | 1 papers | 1 compositions
 - compositions: CeRuGeH (1)
+- sample form: Bulk (1)
 - measured range: 12-301 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1088/0953-8984/22/4/046003 (A study on the antiferromagnetic behavior of the hydride CeRuGeH adopt...)
 
 ## Ce-Ge-Mn
 - rank 2908 | 1 samples | 1 papers | 1 compositions
 - compositions: Ce2MnGe6 (1)
+- sample form: Bulk (1)
 - measured range: 16-283 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce(MnGe)2 I4/mmm (139) mp-21089 [hull=0.000, icsd=7, PRIMARY]; CeMnGe P4/nmm (129) mp-21399 [hull=0.049, icsd=3, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2007.04.286 (Electric transport in R2MGe6 ternary compounds (R=La, Ce, Gd, Tb, Dy, ...)
@@ -82,18 +88,21 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-H-In-Pd
 - rank 2910 | 1 samples | 1 papers | 1 compositions
 - compositions: CePdInH (1)
+- sample form: Bulk (1)
 - measured range: 12-280 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1088/0953-8984/18/5/026 (The Doniach diagram and hydrogenation of the ternary compounds CePdIn ...)
 
 ## Ce-H-Pd-Sn
 - rank 2911 | 1 samples | 1 papers | 1 compositions
 - compositions: CePdSnH (1)
+- sample form: Bulk (1)
 - measured range: 14-275 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1088/0953-8984/18/5/026 (The Doniach diagram and hydrogenation of the ternary compounds CePdIn ...)
 
 ## Ce-H-Rh-Sb
 - rank 2912 | 1 samples | 1 papers | 1 compositions
 - compositions: CeRhSbH0.2 (1)
+- sample form: Bulk (1)
 - measured range: 11-297 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1021/cm062168a (Inducing Magnetism in the Kondo Semiconductor CeRhSb through Hydrogena...)
 
@@ -119,6 +128,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-La-Ru
 - rank 2916 | 1 samples | 1 papers | 1 compositions
 - compositions: (Ce0.75La0.25)Ru2 (1)
+- sample form: Polycrystal (1)
 - measured range: 11-288 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaCeRu4 F-43m (216) mp-1222913 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/0921-4526(94)00430-4 (Transport properties of (Ce1−xRx)Ru2 (R  La, Nd))
@@ -126,6 +136,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Li
 - rank 2917 | 1 samples | 1 papers | 1 compositions
 - compositions: Ce7Li3 (1)
+- sample form: Bulk (1)
 - measured range: 12-277 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Li3Ce Fm-3m (225) mp-1185231 [hull=0.344, PRIMARY]; LiCe3 Pm-3m (221) mp-1185343 [hull=0.270, PRIMARY]
 - papers: https://doi.org/10.1016/s0925-8388(00)01129-4 (Electrical resistivity and thermoelectric power study of the heavy-fer...)
@@ -152,6 +163,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Nd-O-Zr
 - rank 2921 | 1 samples | 1 papers | 1 compositions
 - compositions: (Nd0.5Ce0.5)2Zr2O7.5 (1)
+- sample form: Bulk (1)
 - measured range: 298-973 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeNd4Zr3O14 R-3m (166) mp-1226623 [hull=0.022, PRIMARY]
 - papers: https://doi.org/10.1007/s10853-017-1212-5 (Ultralow thermal conductivity of cerium-doped Nd2Zr2O7 over a wide dop...)
@@ -159,12 +171,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Ni-Rh-Sn
 - rank 2922 | 1 samples | 1 papers | 1 compositions
 - compositions: CeRh0.75Ni0.25Sn (1)
+- sample form: Bulk (1)
 - measured range: 10-283 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/s0921-4526(02)02235-4 (Thermoelectric and magnetic properties of CeRh1$minus;xMxSn (M=Co, Ni,...)
 
 ## Ce-Ni-Sb
 - rank 2923 | 1 samples | 1 papers | 1 compositions
 - compositions: CeNiSb2 (1)
+- sample form: Bulk (1)
 - measured range: 12-287 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce(NiSb)2 P4/nmm (129) mp-1078924 [hull=0.000, icsd=4, PRIMARY]; CeNiSb2 P4/nmm (129) mp-22539 [hull=0.000, icsd=3, PRIMARY]; CeNiSb P-6m2 (187) mp-1226516 [hull=0.000, PRIMARY]; Ce(NiSb)2 I4/mmm (139) mp-1226918 [hull=0.164]
 - papers: https://doi.org/10.1016/0304-8853(94)01418-3 (Kondo lattice behaviour in CeTSb2 compounds (T  Ni, Cu and Ag))
@@ -206,12 +220,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Rh-Ru-Sn
 - rank 2929 | 1 samples | 1 papers | 1 compositions
 - compositions: CeRh0.75Ru0.25Sn (1)
+- sample form: Bulk (1)
 - measured range: 17-283 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/s0921-4526(02)02235-4 (Thermoelectric and magnetic properties of CeRh1$minus;xMxSn (M=Co, Ni,...)
 
 ## Ce-Ru-Sb-Sn
 - rank 2930 | 1 samples | 1 papers | 1 compositions
 - compositions: Ce3Ru4Sn11.05Sb1.95 (1)
+- sample form: Polycrystal (1)
 - measured range: 12-295 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1103/physrevb.94.235151 (Doping effect on the electronic structure and thermodynamic properties...)
 
@@ -239,6 +255,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Se-Sn
 - rank 2934 | 1 samples | 1 papers | 1 compositions
 - compositions: CeSe1.8Sn0.2 (1)
+- sample form: Bulk (1)
 - measured range: 13-301 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce2SnSe4 Pnma (62) mp-1006368 [hull=0.077, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2014.08.130 (Low-temperature thermoelectric properties of the CeSe2−xSnx compounds)
@@ -246,6 +263,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Si-Y
 - rank 2935 | 1 samples | 1 papers | 1 compositions
 - compositions: Y0.5Ce0.5Si2 (1)
+- sample form: Bulk (1)
 - measured range: 240-380 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce(YSi)4 P2_12_12_1 (19) mp-1227796 [hull=0.029, PRIMARY]; Ce2YSi2 P4/mbm (127) mp-1207182 [hull=0.018, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2005.07.053 (Thermoelectric properties of the solid solutions based on ThSi2-type C...)
@@ -260,6 +278,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Te-Tl
 - rank 2937 | 1 samples | 1 papers | 1 compositions
 - compositions: Tl9CeTe6 (1)
+- sample form: Bulk (1)
 - measured range: 316-551 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce(Tl3Te2)3 I4/m (87) mp-1106203 [hull=0.000, icsd=1, PRIMARY]; CeTlTe2 I4/mcm (140) mp-1079792 [hull=0.160, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2015.01.025 (Thermoelectric properties of hot-pressed Tl9LnTe6 (Ln=La, Ce, Pr, Nd, ...)
@@ -267,6 +286,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Zn
 - rank 2938 | 1 samples | 1 papers | 1 compositions
 - compositions: CeZn11 (1)
+- sample form: SingleCrystal (1)
 - measured range: 12-298 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeZn Pm-3m (221) mp-986 [hull=0.037, icsd=5, PRIMARY]; CeZn5 P6/mmm (191) mp-394 [hull=0.011, icsd=5, PRIMARY]; CeZn11 I4_1/amd (141) mp-640370 [hull=0.004, icsd=4, PRIMARY]; CeZn2 Imma (74) mp-1385 [hull=0.000, icsd=3, PRIMARY]; Ce3Zn22 I4_1/amd (141) mp-698212 [hull=0.008, icsd=3, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.88.054410 (Anisotropic transport and magnetic properties and magnetic-field tuned...)
@@ -296,6 +316,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cl-La-P-Zn
 - rank 2942 | 1 samples | 1 papers | 1 compositions
 - compositions: La3Zn4P6Cl (1)
+- sample form: SingleCrystal (1)
 - measured range: 10-401 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1021/acs.chemmater.6b01752 (Enclathration of X@La4 Tetrahedra in Channels of Zn–P Frameworks in La...)
 
@@ -323,12 +344,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2946 | 1 samples | 1 papers | 1 compositions
 - compositions: SnSe0.95(NbCl5)0.03 (1)
 - dopant candidates (<5% at.): Nb (1)
+- sample form: Bulk (1)
 - measured range: 309-816 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1039/d0tc02959a (Investigating the thermoelectric performance of n-type SnSe: the syner...)
 
 ## Co-Cr-Fe-Ni
 - rank 2947 | 1 samples | 1 papers | 1 compositions
 - compositions: CoCrFeNi (1)
+- sample form: Bulk (1)
 - measured range: 376-1158 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CrFeCoNi Pm (6) mp-1012640 [hull=0.060, PRIMARY]; CrFeCoNi P1 (1) mp-1096923 [hull=0.132]
 - papers: https://doi.org/10.1063/1.4935489 (High-entropy alloys as high-temperature thermoelectric materials)
@@ -343,6 +366,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2949 | 1 samples | 1 papers | 1 compositions
 - compositions: (Cr)18.92(W)1.13(C)1.72(Si)14.75(B)3.83(Ni)15(Co)44.64 (1)
 - dopant candidates (<5% at.): B (1), C (1), W (1)
+- sample form: Coating (1)
 - measured range: 573-872 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1007/s11666-017-0681-z (Intermetallic Al-, Fe-, Co- and Ni-Based Thermal Barrier Coatings Prep...)
 

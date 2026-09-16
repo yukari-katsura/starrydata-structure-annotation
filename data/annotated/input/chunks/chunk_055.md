@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Br-O
 - rank 2701 | 1 samples | 1 papers | 1 compositions
 - compositions: BiOBr (1)
+- sample form: SingleCrystal (1)
 - measured range: 11-260 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BiBrO P4/nmm (129) mp-23072 [hull=0.000, icsd=5, PRIMARY]; Bi4Br2O5 P2_1 (4) mp-23544 [hull=0.000, icsd=2, PRIMARY]; Bi3BrO4 Pnna (52) mp-29447 [hull=0.014, icsd=1, PRIMARY]; Bi12Br5O16 C2/m (12) mp-1214265 [hull=0.031, PRIMARY]; Bi2Br2O P4/mmm (123) mp-1206613 [hull=0.637, PRIMARY]
 - papers: https://doi.org/10.1063/1.4972047 (Influence of the reduced dimensionality on the thermodynamical and ele...)
@@ -29,12 +30,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2702 | 1 samples | 1 papers | 1 compositions
 - compositions: (Bi2Te3)88.56(C14H14O5S2)11.44 (1)
 - dopant candidates (<5% at.): S (1)
+- sample form: cylinder (1)
 - measured range: 299-555 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1021/acsami.3c11235 (Selective Charge Carrier Transport and Bipolar Conduction in an Inorga...)
 
 ## Bi-Ca-Ce
 - rank 2703 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3CeBi3 (1)
+- sample form: SingleCrystal (1)
 - measured range: 300-460 K (5th-95th pct of 2 curves; full span incl. outliers 300-600 K)
 - papers: https://doi.org/10.1039/d2dt00412g (Materials design, synthesis, and transport properties of disordered ra...)
 
@@ -54,6 +57,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Ca-Cu-Er-O-Sr
 - rank 2706 | 1 samples | 1 papers | 1 compositions
 - compositions: Bi2Sr2Ca2Cu2ErO10 (1)
+- sample form: Bulk (1)
 - measured range: 50-270 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2004.04.135 (Synthesis and characterization of Er-substituted Bi-2223 H-Tc glass–ce...)
 
@@ -61,12 +65,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2707 | 1 samples | 1 papers | 1 compositions
 - compositions: (Bi1.6Pb0.4)Sr2Ca3(Cu0.965Si0.35)4O12 (1)
 - dopant candidates (<5% at.): Pb (1)
+- sample form: Bulk (1)
 - measured range: 80-281 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1007/bf02562809 (Thermoelectric power of Si-doped (Bi,Pb)SrCaCuO superconducting system)
 
 ## Bi-Ca-Dy-O
 - rank 2708 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca2Dy7Bi5O5 (1)
+- sample form: Bulk (1)
 - measured range: 10-382 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1016/j.jssc.2016.04.015 (Investigation of the transport properties and compositions of the Ca2R...)
 
@@ -79,12 +85,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Ca-Er-Sb
 - rank 2710 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3ErBi1.5Sb1.5 (1)
+- sample form: pellets (1)
 - measured range: 302-600 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1039/d2dt00412g (Materials design, synthesis, and transport properties of disordered ra...)
 
 ## Bi-Ca-Fe-O
 - rank 2711 | 1 samples | 1 papers | 1 compositions
 - compositions: Bi0.7Ca0.3FeO3 (1)
+- sample form: rod-shaped (1)
 - measured range: 373-1074 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CaFe2BiO6 I4mm (107) mp-1227229 [hull=0.506, PRIMARY]
 - papers: https://doi.org/10.1039/d2ra06750a (Effect of calcium doping on the electrocatalytic activity of the Bi<su...)
@@ -92,12 +100,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Ca-Gd-O
 - rank 2712 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca2Gd7Bi5O5 (1)
+- sample form: Bulk (1)
 - measured range: 10-384 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1016/j.jssc.2016.04.015 (Investigation of the transport properties and compositions of the Ca2R...)
 
 ## Bi-Ca-Ho-Sb
 - rank 2713 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3HoBi1.5Sb1.5 (1)
+- sample form: pellets (1)
 - measured range: 301-599 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1039/d2dt00412g (Materials design, synthesis, and transport properties of disordered ra...)
 
@@ -110,24 +120,28 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Ca-La
 - rank 2715 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3LaBi3 (1)
+- sample form: SingleCrystal (1)
 - measured range: 300-460 K (5th-95th pct of 2 curves; full span incl. outliers 300-598 K)
 - papers: https://doi.org/10.1039/d2dt00412g (Materials design, synthesis, and transport properties of disordered ra...)
 
 ## Bi-Ca-La-Sb
 - rank 2716 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3LaBi1.5Sb1.5 (1)
+- sample form: pellets (1)
 - measured range: 301-598 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1039/d2dt00412g (Materials design, synthesis, and transport properties of disordered ra...)
 
 ## Bi-Ca-Lu-Sb
 - rank 2717 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3LuBi1.5Sb1.5 (1)
+- sample form: pellets (1)
 - measured range: 301-599 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1039/d2dt00412g (Materials design, synthesis, and transport properties of disordered ra...)
 
 ## Bi-Ca-Nd
 - rank 2718 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3NdBi3 (1)
+- sample form: SingleCrystal (1)
 - measured range: 300-460 K (5th-95th pct of 2 curves; full span incl. outliers 300-599 K)
 - papers: https://doi.org/10.1039/d2dt00412g (Materials design, synthesis, and transport properties of disordered ra...)
 
@@ -141,18 +155,21 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Ca-Pr
 - rank 2720 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3PrBi3 (1)
+- sample form: SingleCrystal (1)
 - measured range: 301-450 K (5th-95th pct of 2 curves; full span incl. outliers 301-600 K)
 - papers: https://doi.org/10.1039/d2dt00412g (Materials design, synthesis, and transport properties of disordered ra...)
 
 ## Bi-Ca-Sm
 - rank 2721 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3SmBi3 (1)
+- sample form: SingleCrystal (1)
 - measured range: 300-460 K (5th-95th pct of 2 curves; full span incl. outliers 300-599 K)
 - papers: https://doi.org/10.1039/d2dt00412g (Materials design, synthesis, and transport properties of disordered ra...)
 
 ## Bi-Cd-Cs-Se
 - rank 2722 | 1 samples | 1 papers | 1 compositions
 - compositions: CsCdBi3Se6 (1)
+- sample form: OrientedBulk (1)
 - measured range: 301-701 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1039/b516790f (A new chalcogenide homologous series A2[M5+nSe9+n] (A = Rb, Cs; M = Bi...)
 
@@ -165,6 +182,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Cd-Te
 - rank 2724 | 1 samples | 1 papers | 1 compositions
 - compositions: Cd4Bi2Te7 (1)
+- sample form: Bulk (1)
 - measured range: 201-299 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1039/c0cp00079e (Self-reorganization of CdTe nanoparticles into two-dimensional Bi2Te3/...)
 
@@ -178,6 +196,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Ce-Se-Te
 - rank 2726 | 1 samples | 1 papers | 1 compositions
 - compositions: Ce0.3Bi1.7Se0.3Te2.7 (1)
+- sample form: Bulk (1)
 - measured range: 298-473 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1002/pssa.201228589 (Thermoelectric properties of Ce-doped n-type CexBi2 − xTe2.7Se0.3nanoc...)
 
@@ -190,12 +209,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Cl-K-Se
 - rank 2728 | 1 samples | 1 papers | 1 compositions
 - compositions: (K2Bi8Se13)68.33(BiCl3)31.67 (1)
+- sample form: Bulk (1)
 - measured range: 303-874 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1021/jacs.6b09568 (Multiple Converged Conduction Bands in K2Bi8Se13: A Promising Thermoel...)
 
 ## Bi-Cl-O
 - rank 2729 | 1 samples | 1 papers | 1 compositions
 - compositions: BiOCl (1)
+- sample form: SingleCrystal (1)
 - measured range: 12-296 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BiClO P4/nmm (129) mp-22939 [hull=0.000, icsd=5, PRIMARY]; Bi4Cl2O5 Pnma (62) mp-651836 [hull=0.019, icsd=1, PRIMARY]; Bi3ClO4 C2/c (15) mp-29558 [hull=0.009, icsd=1, PRIMARY]; Bi12Cl5O16 C2/m (12) mp-766035 [hull=0.027, PRIMARY]; Bi2Cl2O P4/mmm (123) mp-1206832 [hull=0.755, PRIMARY]
 - papers: https://doi.org/10.1063/1.4972047 (Influence of the reduced dimensionality on the thermodynamical and ele...)
@@ -203,6 +224,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Cl-S
 - rank 2730 | 1 samples | 1 papers | 1 compositions
 - compositions: (Bi2S3)0.99(BiCl3) (1)
+- sample form: Plate (1)
 - measured range: 299-659 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BiSCl Pnma (62) mp-23318 [hull=0.000, icsd=2, PRIMARY]; Bi5(S2Cl)3 P1 (1) mp-675345 [hull=0.063, PRIMARY]; Bi7(S3Cl)3 Pm (6) mp-676611 [hull=0.171, PRIMARY]
 - papers: https://doi.org/10.1002/aenm.201100775 (Tellurium-Free Thermoelectric: The Anisotropic n-Type Semiconductor Bi2S3)
@@ -217,6 +239,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Co-Mg-O
 - rank 2732 | 1 samples | 1 papers | 1 compositions
 - compositions: Bi2Mg2CoO6 (1)
+- sample form: Bulk (1)
 - measured range: 304-1010 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg14CoBiO16 P4/mmm (123) mp-1034825 [hull=0.131, PRIMARY, AMBIGUOUS]; Mg30CoBiO32 P4/mmm (123) mp-1036911 [hull=0.061, PRIMARY]; Mg6CoBiO8 P4/mmm (123) mp-1031710 [hull=0.223, PRIMARY]; Mg14CoBiO16 Pmmm (47) mp-1035048 [hull=0.135]
 - papers: https://doi.org/10.1007/s10948-014-2786-7 (Synthesis and Development of Thermoelectric Properties in Layered Bi2A...)
@@ -230,12 +253,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Co-Sb-Sn-Zr
 - rank 2734 | 1 samples | 1 papers | 1 compositions
 - compositions: ZrCoBi0.60Sb0.20Sn0.20 (1)
+- sample form: Bulk (1)
 - measured range: 302-975 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1038/s41467-018-04958-3 (Discovery of ZrCoBi based half Heuslers with high thermoelectric conve...)
 
 ## Bi-Cs-Cu-S
 - rank 2735 | 1 samples | 1 papers | 1 compositions
 - compositions: Cs4Cu3Bi9S17 (1)
+- sample form: Polycrystal (1)
 - measured range: 297-774 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cs3Cu2(BiS2)5 Pnnm (58) mp-669419 [hull=0.009, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1021/acs.chemmater.6b05298 (The New Semiconductor Cs4Cu3Bi9S17)
@@ -243,12 +268,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Cs-Nb-O
 - rank 2736 | 1 samples | 1 papers | 1 compositions
 - compositions: CsBiNb2O7 (1)
+- sample form: EpitaxialFilm (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 98-599 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1063/1.3368120 (Low thermal conductivity of CsBiNb2O7 epitaxial layers)
 
 ## Bi-Cs-Se
 - rank 2737 | 1 samples | 1 papers | 1 compositions
 - compositions: CsBi3Se5 (1)
+- sample form: Bulk (1)
 - measured range: 301-700 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cs2Bi8Se13 P2_1/m (11) mp-680317 [hull=0.011, icsd=1, PRIMARY]; Cs3Bi7Se12 Cm (8) mp-650619 [hull=0.000, icsd=1, PRIMARY]; Cs2Bi4Se7 P2_1/m (11) mp-1229208 [hull=0.000, PRIMARY]; Cs3Bi11Se18 Pnma (62) mp-1227437 [hull=0.028, PRIMARY]; CsBi4Se7 C2/m (12) mp-1226121 [hull=0.039, PRIMARY]
 - papers: https://doi.org/10.1039/b516790f (A new chalcogenide homologous series A2[M5+nSe9+n] (A = Rb, Cs; M = Bi...)
@@ -269,6 +296,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Cu-Mg-O-Se
 - rank 2740 | 1 samples | 1 papers | 1 compositions
 - compositions: Bi0.8Mg0.2CuSeO (1)
+- sample form: Bulk (1)
 - measured range: 293-923 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1063/1.4799643 (Doping for higher thermoelectric properties in p-type BiCuSeO oxyselenide)
 
@@ -282,6 +310,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Cu-O-Se-Yb
 - rank 2742 | 1 samples | 1 papers | 1 compositions
 - compositions: Bi0.70Yb0.30CuSeO (1)
+- sample form: Bulk (1)
 - measured range: 298-872 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1039/c8tc02700e (Optimizing the thermoelectric transport properties of BiCuSeO via dopi...)
 
@@ -294,6 +323,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Eu-Mg-Sm
 - rank 2744 | 1 samples | 1 papers | 1 compositions
 - compositions: Sm0.5Eu0.5Mg2Bi1.99 (1)
+- sample form: Bulk (1)
 - measured range: 299-772 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1039/c9ta13224d (Achieving high-performance p-type SmMg2Bi2 thermoelectric materials th...)
 
@@ -307,6 +337,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Eu-Se
 - rank 2746 | 1 samples | 1 papers | 1 compositions
 - compositions: EuBiSe3 (1)
+- sample form: Other (1)
 - measured range: 80-290 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Eu(BiSe2)2 Pnma (62) mp-1193071 [hull=0.025, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1080/15567265.2019.1566937 (Thermoelectric Properties of Single Crystal EuBiSe3 Fiber)
@@ -328,6 +359,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Fe-La-Te
 - rank 2749 | 1 samples | 1 papers | 1 compositions
 - compositions: La22.3Bi35.3Te37.2Fe5.2 (1)
+- sample form: Bulk (1)
 - measured range: 294-466 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1016/j.matlet.2004.11.008 (Solvothermal synthesis and thermoelectric properties of lanthanum cont...)
 

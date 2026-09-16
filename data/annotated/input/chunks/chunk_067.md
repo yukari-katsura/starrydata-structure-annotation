@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Ho-Sn
 - rank 3301 | 1 samples | 1 papers | 1 compositions
 - compositions: HoSnGe (1)
+- sample form: Bulk (1)
 - measured range: 11-193 K (5th-95th pct of 2 curves; full span incl. outliers 11-297 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): HoSnGe Cmcm (63) mp-1077485 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2014.11.123 (A comparative study of HoSn1.1Ge0.9 and DySn1.1Ge0.9 compounds using m...)
@@ -28,12 +29,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-In-Sb
 - rank 3302 | 1 samples | 1 papers | 1 compositions
 - compositions: GeIn0.6Sb5.4 (1)
+- sample form: Bulk (1)
 - measured range: 303-712 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1063/1.4893236 (Enhanced thermoelectric performance of In-substituted GeSb6Te10 with h...)
 
 ## Ge-Ir-Y
 - rank 3303 | 1 samples | 1 papers | 1 compositions
 - compositions: Y3Ir4Ge13 (1)
+- sample form: Bulk (1)
 - measured range: 10-286 K (5th-95th pct of 2 curves; full span incl. outliers 10-355 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Y5(Ge5Ir2)2 P4/mbm (127) mp-1196414 [hull=0.016, icsd=2, PRIMARY]; YGeIr Pnma (62) mp-1102373 [hull=0.000, icsd=2, PRIMARY]; Y3Ge13Ir4 Pm-3n (223) mp-1200412 [hull=0.024, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1088/0953-8984/19/38/386205 (Thermal and transport properties of the cubic semimetal Y3Ir4Ge13: on ...)
@@ -53,6 +56,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-La-Mn
 - rank 3306 | 1 samples | 1 papers | 1 compositions
 - compositions: La2MnGe6 (1)
+- sample form: Bulk (1)
 - measured range: 11-280 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La(MnGe)2 I4/mmm (139) mp-22760 [hull=0.000, icsd=5, PRIMARY]; LaMnGe P4/nmm (129) mp-20195 [hull=0.128, icsd=3, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2007.04.286 (Electric transport in R2MGe6 ternary compounds (R=La, Ce, Gd, Tb, Dy, ...)
@@ -60,6 +64,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-La-Pt-Yb
 - rank 3307 | 1 samples | 1 papers | 1 compositions
 - compositions: (Yb0.7La0.3)PtGe (1)
+- sample form: Bulk (1)
 - measured range: 13-279 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/s0925-8388(98)00744-0 (Electrical and magnetic properties of YbPdGe and YbPtGe)
 
@@ -74,6 +79,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Li-Sb-Te
 - rank 3309 | 1 samples | 1 papers | 1 compositions
 - compositions: (GeTe)11(LiSbTe2)2 (1)
+- sample form: Bulk (1)
 - measured range: 293-722 K (5th-95th pct of 4 curves; full span incl. outliers 293-773 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Li2GeSb2Te5 R3m (160) mp-1222750 [hull=0.574, PRIMARY]; LiGe3SbTe5 R3m (160) mp-1222357 [hull=0.275, PRIMARY]; LiGeSbTe3 P3m1 (156) mp-1222311 [hull=0.451, PRIMARY]
 - papers: https://doi.org/10.1021/ic401516m (The Solid Solution Series (GeTe)x(LiSbTe2)2(1 ≤x≤ 11) and the Thermoel...)
@@ -102,6 +108,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Mn-Si
 - rank 3313 | 1 samples | 1 papers | 1 compositions
 - compositions: MnSi0.90Ge0.10 (1)
+- sample form: Bulk (1)
 - measured range: 14-295 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mn10(SiGe)3 P-62m (189) mp-1222206 [hull=0.052, PRIMARY]; Mn5Si2Ge Amm2 (38) mp-1221552 [hull=0.051, PRIMARY]
 - papers: https://doi.org/10.1016/j.jmmm.2006.02.066 (Substitutional effect on the transport properties of MnSi)
@@ -109,6 +116,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Mo
 - rank 3314 | 1 samples | 1 papers | 1 compositions
 - compositions: MoGe1.769 (1)
+- sample form: Bulk (1)
 - measured range: 299-973 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ge2Mo I4/mmm (139) mp-10201 [hull=0.022, icsd=3, PRIMARY]; GeMo3 Pm-3n (223) mp-494 [hull=0.000, icsd=3, PRIMARY]; Ge3Mo5 I4/mcm (140) mp-17094 [hull=0.038, icsd=2, PRIMARY]; Ge3Mo I4/mmm (139) mp-1184671 [hull=0.551, PRIMARY]; Ge2Mo Pnma (62) mp-13688 [hull=0.000, icsd=1]
 - papers: https://doi.org/10.1063/1.5065417 (Tuning valence electron concentration in the Mo13Ge23-Ru2Ge3 pseudobin...)
@@ -123,6 +131,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Ni-Tb
 - rank 3316 | 1 samples | 1 papers | 1 compositions
 - compositions: Tb2NiGe6 (1)
+- sample form: Bulk (1)
 - measured range: 11-280 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TbNiGe2 Cmcm (63) mp-4288 [hull=0.000, icsd=5, PRIMARY]; Tb(NiGe)2 I4/mmm (139) mp-3329 [hull=0.000, icsd=4, PRIMARY]; Tb3NiGe2 Pnma (62) mp-1191273 [hull=0.000, icsd=1, PRIMARY]; TbNiGe Pnma (62) mp-21424 [hull=0.000, icsd=1, PRIMARY]; TbNiGe3 Cmmm (65) mp-1087235 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2007.04.286 (Electric transport in R2MGe6 ternary compounds (R=La, Ce, Gd, Tb, Dy, ...)
@@ -151,6 +160,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Os-Pr
 - rank 3320 | 1 samples | 1 papers | 1 compositions
 - compositions: Pr3Os4Ge13 (1)
+- sample form: Bulk (1)
 - measured range: 11-295 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Pr3Ge13Os4 Pm-3n (223) mp-1197909 [hull=0.030, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1088/1361-648x/ab9da2 (Promising thermoelectric properties of heavy-fermion semimetal Pr3Os4Ge13)
@@ -181,6 +191,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Pd-Y
 - rank 3324 | 1 samples | 1 papers | 1 compositions
 - compositions: YPdGe (1)
+- sample form: Bulk (1)
 - measured range: 10-299 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YGePd2 Pnma (62) mp-1207627 [hull=0.000, icsd=1, PRIMARY]; YGePd Imm2 (44) mp-1190225 [hull=0.000, icsd=1, PRIMARY]; Y2Ge6Pd Amm2 (38) mp-1205800 [hull=0.042, PRIMARY]; YGe2Pd Immm (71) mp-1207628 [hull=0.000, PRIMARY]; Y2GePd Immm (71) mp-1093907 [hull=2.560, PRIMARY]
 - papers: https://doi.org/10.1016/s0925-8388(98)00744-0 (Electrical and magnetic properties of YbPdGe and YbPtGe)
@@ -188,6 +199,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Pd-Yb
 - rank 3325 | 1 samples | 1 papers | 1 compositions
 - compositions: YbPdGe (1)
+- sample form: Bulk (1)
 - measured range: 10-290 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Yb(GePd)2 I4/mmm (139) mp-3296 [hull=0.000, icsd=3, PRIMARY]; Yb2Ge6Pd Cmce (64) mp-10789 [hull=0.000, icsd=1, PRIMARY]; YbGe2Pd Immm (71) mp-1189703 [hull=0.000, icsd=1, PRIMARY]; Yb3(GePd)4 Immm (71) mp-10415 [hull=0.019, icsd=1, PRIMARY]; Yb2Ge3Pd Pmm2 (25) mp-1215854 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/s0925-8388(98)00744-0 (Electrical and magnetic properties of YbPdGe and YbPtGe)
@@ -195,6 +207,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Pr-Rh
 - rank 3326 | 1 samples | 1 papers | 1 compositions
 - compositions: Pr2Rh3Ge (1)
+- sample form: Polycrystal (1)
 - measured range: 11-298 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Pr(GeRh)2 I4/mmm (139) mp-2896 [hull=0.000, icsd=6, PRIMARY]; PrGe3Rh I4mm (107) mp-13072 [hull=0.000, icsd=2, PRIMARY]; Pr(Ge2Rh3)2 P-6m2 (187) mp-1102817 [hull=0.000, icsd=1, PRIMARY]; Pr2Ge5Rh3 Ibam (72) mp-975634 [hull=0.000, icsd=1, PRIMARY]; Pr2GeRh3 R-3m (166) mp-1077830 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1088/1361-648x/aa7e1d (A new ternary magnetically ordered heavy fermion compound Pr<sub>2</su...)
@@ -209,6 +222,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Pt-Y
 - rank 3328 | 1 samples | 1 papers | 1 compositions
 - compositions: YPtGe (1)
+- sample form: Bulk (1)
 - measured range: 14-297 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Y3Ge13Pt4 Cc (9) mp-1200879 [hull=0.061, icsd=1, PRIMARY, AMBIGUOUS]; Y(GePt)2 Pmn2_1 (31) mp-1084838 [hull=0.011, icsd=1, PRIMARY]; YGePt Pnma (62) mp-1095607 [hull=0.000, icsd=1, PRIMARY]; YGe2Pt Immm (71) mp-1105716 [hull=0.000, icsd=1, PRIMARY]; Y2(GePt3)3 C2/c (15) mp-1207911 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/s0925-8388(98)00744-0 (Electrical and magnetic properties of YbPdGe and YbPtGe)
@@ -216,6 +230,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Rh
 - rank 3329 | 1 samples | 1 papers | 1 compositions
 - compositions: Rh17Ge22 (1)
+- sample form: Bulk (1)
 - measured range: 338-983 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GeRh Pnma (62) mp-22239 [hull=0.000, icsd=2, PRIMARY]; GeRh2 Pnma (62) mp-22585 [hull=0.000, icsd=2, PRIMARY]; Ge3Rh5 Pbam (55) mp-624221 [hull=0.011, icsd=2, PRIMARY]; Ge4Rh P3_121 (152) mp-1104286 [hull=0.029, icsd=1, PRIMARY]; Ge22Rh17 I-42d (122) mp-1203373 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1557/jmr.2015.137 (Crystal structure and thermoelectric properties of the incommensurate ...)
@@ -223,6 +238,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Rh-Y
 - rank 3330 | 1 samples | 1 papers | 1 compositions
 - compositions: Y2Rh3Ge (1)
+- sample form: Polycrystal (1)
 - measured range: 19-298 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Y(GeRh)2 I4/mmm (139) mp-4889 [hull=0.000, icsd=2, PRIMARY]; Y(GeRh2)2 Pnma (62) mp-1192507 [hull=0.000, icsd=1, PRIMARY]; Y2Ge5Rh3 C2/c (15) mp-1106022 [hull=0.000, icsd=1, PRIMARY]; Y2GeRh3 R-3m (166) mp-10214 [hull=0.000, icsd=1, PRIMARY]; Y3Ge13Rh4 Pm-3n (223) mp-1195758 [hull=0.022, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1088/1361-648x/aa7e1d (A new ternary magnetically ordered heavy fermion compound Pr<sub>2</su...)
@@ -230,6 +246,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Ru-Sm
 - rank 3331 | 1 samples | 1 papers | 1 compositions
 - compositions: Sm3Ru4Ge13 (1)
+- sample form: Polycrystal (1)
 - measured range: 10-302 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SmGeRu Pnma (62) mp-20655 [hull=0.012, icsd=3, PRIMARY]; Sm(GeRu)2 I4/mmm (139) mp-21224 [hull=0.000, icsd=2, PRIMARY]; Sm3(GeRu)2 Pbcm (57) mp-1194691 [hull=0.000, icsd=2, PRIMARY]; Sm3Ge13Ru4 Pm-3n (223) mp-1200023 [hull=0.034, icsd=2, PRIMARY]; Sm2Ge2Ru C2/m (12) mp-22044 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2016.01.259 (Field-insensitive heavy fermion features and phase transition in the c...)
@@ -258,6 +275,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Sr
 - rank 3335 | 1 samples | 1 papers | 1 compositions
 - compositions: SrGe5.6 (1)
+- sample form: Bulk (1)
 - measured range: 17-296 K (5th-95th pct of 2 curves; full span incl. outliers 17-501 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SrGe2 Pnma (62) mp-1244 [hull=0.010, icsd=4, PRIMARY]; SrGe Cmcm (63) mp-2147 [hull=0.000, icsd=3, PRIMARY]; SrGe3 I4/mmm (139) mp-1105296 [hull=0.073, icsd=2, PRIMARY]; Sr2Ge Pnma (62) mp-2576 [hull=0.000, icsd=2, PRIMARY]; Sr5Ge3 I4/mcm (140) mp-17757 [hull=0.003, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1021/ic0485615 (High-Pressure Synthesis and Transport Properties of a New Binary Germa...)
@@ -308,12 +326,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3342 | 1 samples | 1 papers | 1 compositions
 - compositions: (PDPPSe)(FeCl3)0.012 (1)
 - dopant candidates (<5% at.): Cl (1), Fe (1)
+- sample form: Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 298-377 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1038/s41586-024-07724-2 (Multi-heterojunctioned plastics with high thermoelectric figure of merit)
 
 ## H-Pb-Sb-Te
 - rank 3343 | 1 samples | 1 papers | 1 compositions
 - compositions: Pb0.8TSb0.2Te1.1 (1)
+- sample form: Bulk (1)
 - measured range: 331-623 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1557/jmr.2011.441 (Largely enhanced thermoelectric properties of the binary-phased PbTe–S...)
 
@@ -321,12 +341,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3344 | 1 samples | 1 papers | 1 compositions
 - compositions: TiS2(C6H16N)0.025 (1)
 - dopant candidates (<5% at.): C (1), N (1)
+- sample form: multilayer film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 299-413 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1038/s41467-017-01149-4 (Ultrahigh thermoelectric power factor in flexible hybrid inorganic-org...)
 
 ## H-U-Zr
 - rank 3345 | 1 samples | 1 papers | 1 compositions
 - compositions: U23.87(ZrH1.6)76.13 (1)
+- sample form: Bulk (1)
 - measured range: 292-766 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/s0022-3115(01)00444-5 (Thermal properties of hydride fuel 45% U–ZrH1.6)
 
@@ -362,5 +384,6 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3350 | 1 samples | 1 papers | 1 compositions
 - compositions: Ti0.5Hf0.5Ni0.5Pd0.5Sn0.99Sb0.01 (1)
 - dopant candidates (<5% at.): Sb (1)
+- sample form: Bulk (1)
 - measured range: 300-946 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.1016/j.intermet.2006.08.008 (High temperature thermoelectric properties of TiNiSn-based half-Heusle...)

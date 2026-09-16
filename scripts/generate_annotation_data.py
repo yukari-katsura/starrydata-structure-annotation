@@ -294,6 +294,24 @@ def split_host_dopants(fracs, threshold=DOPANT_THRESHOLD):
     return host, dop
 
 
+# Morphology. Thin-film and epitaxial samples can hold metastable polymorphs
+# that never form in bulk -- rocksalt SnSe is epitaxially stabilised and never
+# appears on heating -- so Form is evidence about which polymorph is plausible,
+# not just descriptive metadata.
+FILM_FORMS = ('film', 'epitaxial', 'device', 'superlattice')
+
+
+def sample_form(sample_information):
+    """Pull the Form category out of the flattened sample_information."""
+    if not isinstance(sample_information, str) or 'Form' not in sample_information:
+        return None
+    m = re.search(r'\bForm\s*:\s*([^|]+)', sample_information)
+    if not m:
+        return None
+    v = re.sub(r'\s*\(.*$', '', m.group(1)).strip()
+    return v or None
+
+
 def hand_label(sample_information):
     """Pull the human-entered MaterialFamily out of the flattened sample_information.
 
@@ -324,6 +342,7 @@ def main():
           f'{df.composition.nunique()} unique composition strings')
 
     df['holdout_hand_label'] = df['sample_information'].map(hand_label)
+    df['form'] = df['sample_information'].map(sample_form)
 
     # --- Per-composition parse (once per unique string, not per sample) ------
     print('Parsing compositions ...')
@@ -363,7 +382,9 @@ def main():
                   example_title=('title', 'first'),
                   holdout_hand_label=('holdout_hand_label',
                                       lambda s: s.dropna().mode().iat[0]
-                                      if s.notna().any() else None))
+                                      if s.notna().any() else None),
+                  form=('form', lambda s: s.dropna().mode().iat[0]
+                        if s.notna().any() else None))
              .reset_index())
 
     df_comp = df_parsed.merge(agg, on='composition', how='left')
@@ -401,6 +422,10 @@ def main():
                 c[e] = c.get(e, 0) + 1
         return ', '.join(f'{e} ({n})' for e, n in
                          sorted(c.items(), key=lambda kv: -kv[1]))
+
+    def top_forms(g):
+        vc = g.dropna().value_counts()
+        return '; '.join(f'{v} ({n})' for v, n in vc.head(5).items())
 
     def top_families(g):
         vc = g.dropna().value_counts()
@@ -443,6 +468,7 @@ def main():
                         example_compositions=('composition', top_comps),
                         dopant_candidates=('dopant_candidates', top_dopants),
                         holdout_hand_labels=('holdout_hand_label', top_families),
+                        forms=('form', top_forms),
                         example_titles=('title', top_titles),
                         example_papers=('_doi_title', top_papers))
                    .reset_index())
@@ -568,6 +594,12 @@ def main():
             if h:
                 lines.append(f'- seed hypothesis (confirm): {", ".join(h)}'
                              + ('  <-- MIXED, split per composition' if len(h) > 1 else ''))
+            if getattr(r, 'forms', None):
+                line = f'- sample form: {r.forms}'
+                if any(k in str(r.forms).lower() for k in FILM_FORMS):
+                    line += ('   <-- film/epitaxial samples present: a metastable '
+                             'polymorph may be reachable here that never forms in bulk')
+                lines.append(line)
             ax = axes.get(r.host_system)
             if ax:
                 lines.append(

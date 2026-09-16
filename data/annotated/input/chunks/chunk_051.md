@@ -34,6 +34,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Au-Ce
 - rank 2503 | 1 samples | 1 papers | 1 compositions
 - compositions: CeAuAs2 (1)
+- sample form: Bulk (1)
 - measured range: 14-347 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeAs2Au P4/nmm (129) mp-1226657 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2007.04.108 (Intriguing magnetic and electrical transport behavior in novel CeTAs2 ...)
@@ -48,6 +49,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2505 | 1 samples | 1 papers | 1 compositions
 - compositions: Ba0.85La0.15As2 (1)
 - dopant candidates (<5% at.): La (1)
+- sample form: Bulk (1)
 - measured range: 14-269 K (5th-95th pct of 1 curves)
 - [ref 1] TEDesignLab / ICSD: BaAs2 Pc (7) mp-31243 [hull=0.000, icsd=1, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: Ba2As I4/mmm (139) mp-2768 [hull=0.079, icsd=2, PRIMARY]; Ba5As3 P6_3/mcm (193) mp-10045 [hull=0.008, icsd=1, PRIMARY]; Ba3As14 P2_1/c (14) mp-524 [hull=0.000, icsd=1, PRIMARY]; BaAs3 C2/m (12) mp-15325 [hull=0.000, icsd=1, PRIMARY]; Ba20As13 Fdd2 (43) mp-685008 [hull=0.000, PRIMARY]
@@ -69,6 +71,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Ca-Fe-O-Sc-Ti
 - rank 2508 | 1 samples | 1 papers | 1 compositions
 - compositions: (Fe2As2)Ca5(Sc0.5Ti0.5)4O11 (1)
+- sample form: Bulk (1)
 - measured range: 12-296 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1016/j.physc.2015.06.015 (Thermoelectric properties of FeAs based superconductors, with thick pe...)
 
@@ -94,6 +97,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Ce-Cu
 - rank 2512 | 1 samples | 1 papers | 1 compositions
 - compositions: CeCuAs2 (1)
+- sample form: Bulk (1)
 - measured range: 10-287 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2007.04.108 (Intriguing magnetic and electrical transport behavior in novel CeTAs2 ...)
 
@@ -141,6 +145,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2519 | 1 samples | 1 papers | 1 compositions
 - compositions: Cu10.5Fe1.5As3.6Sb0.4S13 (1)
 - dopant candidates (<5% at.): Sb (1)
+- sample form: Other (1)
 - measured range: 301-667 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1002/aenm.201200650 (High Performance Thermoelectricity in Earth-Abundant Compounds Based o...)
 
@@ -162,12 +167,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Er-Ni-Sb
 - rank 2522 | 1 samples | 1 papers | 1 compositions
 - compositions: ErNiSb0.8As0.2 (1)
+- sample form: Bulk (1)
 - measured range: 47-287 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1557/proc-545-421 (Observed Properties and Electronic Structure of RNiSb Compounds (R = H...)
 
 ## As-Eu-Ni
 - rank 2523 | 1 samples | 1 papers | 1 compositions
 - compositions: EuNi5As3 (1)
+- sample form: SingleCrystal (1)
 - measured range: 12-295 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Eu(NiAs)2 I4/mmm (139) mp-6992 [hull=0.000, icsd=1, PRIMARY]; EuNi5As3 Cmcm (63) mp-16838 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.95.024416 (Antiferromagnetism with divalent Eu in \n<mml:math xmlns:mml=\"http://...)
@@ -175,6 +182,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Eu-Sn
 - rank 2524 | 1 samples | 1 papers | 1 compositions
 - compositions: Eu5Sn2As6 (1)
+- sample form: Bulk (1)
 - measured range: 294-724 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Eu5(SnAs3)2 Pbam (55) mp-1194194 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1021/ic300308w (A5Sn2As6(A = Sr, Eu). Synthesis, Crystal and Electronic Structure, and...)
@@ -188,6 +196,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Fe-Gd-O
 - rank 2526 | 1 samples | 1 papers | 1 compositions
 - compositions: GdFeAsO (1)
+- sample form: Bulk (1)
 - measured range: 82-304 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GdFeAsO P4/nmm (129) mp-1078679 [hull=0.172, icsd=7, PRIMARY]
 - papers: https://doi.org/10.1016/j.physc.2009.04.013 (Thermoelectric power of RFeAsO (R=Ce, Pr, Nd, Sm and Gd))
@@ -208,6 +217,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Fe-O-Pr
 - rank 2529 | 1 samples | 1 papers | 1 compositions
 - compositions: PrFeAsO (1)
+- sample form: Bulk (1)
 - measured range: 78-307 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): PrFeAsO P4/nmm (129) mp-1079608 [hull=0.134, icsd=8, PRIMARY]; Pr2FeAs2O P4/mmm (123) mp-1209715 [hull=1.545, PRIMARY]
 - papers: https://doi.org/10.1016/j.physc.2009.04.013 (Thermoelectric power of RFeAsO (R=Ce, Pr, Nd, Sm and Gd))
@@ -236,6 +246,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2533 | 1 samples | 1 papers | 1 compositions
 - compositions: As14Ge14Se69Sb3 (1)
 - dopant candidates (<5% at.): Sb (1)
+- sample form: Bulk (1)
 - measured range: 401-450 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GeAsSe Pnna (52) mp-29249 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1039/c5dt02047f (Semiconducting quaternary chalcogenide glasses as new potential thermo...)
@@ -337,6 +348,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Th-U
 - rank 2548 | 1 samples | 1 papers | 1 compositions
 - compositions: (Th0.85U0.15)3As4 (1)
+- sample form: Bulk (1)
 - measured range: 14-292 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/0038-1098(79)90844-5 (Electronic properties of Th3As4U3As4 solid solutions)
 

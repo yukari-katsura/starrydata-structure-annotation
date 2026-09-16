@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Cu-Mg-O
 - rank 2451 | 1 samples | 1 papers | 1 compositions
 - compositions: CuAl0.8Mg0.2O2 (1)
+- sample form: Bulk (1)
 - measured range: 723-1073 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg14AlCuO16 Pmmm (47) mp-1036652 [hull=0.052, PRIMARY]; Mg30AlCuO32 P4/mmm (123) mp-1038308 [hull=0.024, PRIMARY]; Mg6AlCuO8 P4/mmm (123) mp-1033139 [hull=0.117, PRIMARY]; Mg14AlCuO16 P4/mmm (123) mp-1036556 [hull=0.067]
 - papers: https://doi.org/10.1016/j.jeurceramsoc.2007.02.030 (Microstructure and high-temperature thermoelectric properties of polyc...)
@@ -61,6 +62,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Er-O
 - rank 2457 | 1 samples | 1 papers | 1 compositions
 - compositions: Er3Al5O12 (1)
+- sample form: Bulk (1)
 - measured range: 298-1273 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Er3Al5O12 Ia-3d (230) mp-3384 [hull=0.000, icsd=4, PRIMARY]; ErAlO3 Pnma (62) mp-756458 [hull=0.018, PRIMARY]; ErAlO3 P6_3/mmc (194) mp-754184 [hull=0.086]; ErAlO3 Pm-3m (221) mp-1184150 [hull=0.186]
 - papers: https://doi.org/10.1002/adem.201100122 (Y3−xErxAl5O12 Aluminate Ceramics: Preparation, Thermal Properties and ...)
@@ -87,12 +89,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Fe-Ge-V
 - rank 2461 | 1 samples | 1 papers | 1 compositions
 - compositions: Fe2VAl0.80Ge0.20 (1)
+- sample form: Bulk (1)
 - measured range: 14-400 K (5th-95th pct of 2 curves; full span incl. outliers 14-996 K)
 - papers: https://doi.org/10.1103/physrevb.74.115115 (Thermal and transport properties of the Heusler-typeFe2VAl1−xGex(0≤x≤0...)
 
 ## Al-Fe-La-O-Sr
 - rank 2462 | 1 samples | 1 papers | 1 compositions
 - compositions: (La0.7Sr0.3)(Al0.7Fe0.3)O3 (1)
+- sample form: disk (1)
 - measured range: 374-1262 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1063/1.4883042 (Temperature-independent sensors based on perovskite-type oxides)
 
@@ -115,6 +119,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2465 | 1 samples | 1 papers | 1 compositions
 - compositions: Fe2VAl0.9SI0.1 (1)
 - dopant candidates (<5% at.): I (1)
+- sample form: Bulk (1)
 - measured range: 343-748 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1143/jjap.47.1512 (Development and Evaluation of High-Strength Fe2VAl Thermoelectric Module)
 
@@ -129,12 +134,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2467 | 1 samples | 1 papers | 1 compositions
 - compositions: Ce0.2La0.8Al2Ga2 (1)
 - dopant candidates (<5% at.): Ce (1)
+- sample form: Bulk (1)
 - measured range: 11-274 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1103/physrevb.43.3204 (Antiferromagnetism inCe1−xLaxAl2Ga2andCe1−yYyAl2Ga2Kondo-lattice systems)
 
 ## Al-Gd-O-Sr
 - rank 2468 | 1 samples | 1 papers | 1 compositions
 - compositions: Gd2SrAl2O7 (1)
+- sample form: Bulk (1)
 - measured range: 301-1276 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1111/jace.15504 (Thermophysical properties of rare earth barium aluminates)
 
@@ -154,6 +161,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Ir-La
 - rank 2471 | 1 samples | 1 papers | 1 compositions
 - compositions: La2Ir3Al9 (1)
+- sample form: Polycrystal (1)
 - measured range: 12-299 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La2(Al3Ir)3 Cmcm (63) mp-1211311 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2021.160925 (A new look at the ground state properties of Ce2Ir3Al9: Coexistence of...)
@@ -167,6 +175,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Ir-Yb
 - rank 2473 | 1 samples | 1 papers | 1 compositions
 - compositions: Yb2Ir3Al9 (1)
+- sample form: Polycrystal (1)
 - measured range: 11-309 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Yb2(Al3Ir)3 Cmcm (63) mp-1207613 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.60.1136 (Magnetic, transport, and thermal properties of<mml:math xmlns:mml=\"ht...)
@@ -174,6 +183,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-K-Sn
 - rank 2474 | 1 samples | 1 papers | 1 compositions
 - compositions: K8Al8Sn38 (1)
+- sample form: Bulk (1)
 - measured range: 106-394 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1088/0022-3727/45/45/455308 (Preparation and thermoelectric properties of sinteredn-type K8M8Sn38(M...)
 
@@ -199,6 +209,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-La-O-Ta
 - rank 2478 | 1 samples | 1 papers | 1 compositions
 - compositions: La2AlTaO7 (1)
+- sample form: Bulk (1)
 - measured range: 294-1473 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.ceramint.2016.10.005 (Thermal properties of La3TaO7 and La2AlTaO7 oxides)
 
@@ -226,6 +237,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Mn-Pd-Si
 - rank 2482 | 1 samples | 1 papers | 1 compositions
 - compositions: Al67.0Pd11.5Mn14.6Si6.9 (1)
+- sample form: Bulk (1)
 - measured range: 369-956 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1524/zkri.2009.1061 (Thermoelectric performance of Al–Pd–Mn quasicrystals: comparison with ...)
 
@@ -233,6 +245,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2483 | 1 samples | 1 papers | 1 compositions
 - compositions: YSmSi10.45Al1.55O1.3N14.7 (1)
 - dopant candidates (<5% at.): O (1), Y (1), Sm (1)
+- sample form: Bulk (1)
 - measured range: 299-1073 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YAl6Si18(N15O)2 P1 (1) mp-677127 [hull=0.092, PRIMARY]; YAl6Si30(N15O)3 P1 (1) mp-686618 [hull=0.066, PRIMARY]
 - papers: https://doi.org/10.1111/j.1551-2916.2007.01993.x (Experimental and Finite Element Study of the Thermal Conductivity of ?...)
@@ -240,6 +253,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Na-Sn
 - rank 2484 | 1 samples | 1 papers | 1 compositions
 - compositions: Na1.76Al1.76Sn4.24 (1)
+- sample form: Bulk (1)
 - measured range: 294-471 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1021/acs.chemmater.5b04239 (Synthesis, Crystal Structure, and Thermoelectric Properties of Na2+xAl...)
 
@@ -247,6 +261,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2485 | 1 samples | 1 papers | 1 compositions
 - compositions: TiAl48Nb6 (1)
 - dopant candidates (<5% at.): Ti (1)
+- sample form: Bulk (1)
 - measured range: 299-1074 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nb3Al Pm-3n (223) mp-796 [hull=0.050, icsd=19, PRIMARY]; NbAl3 I4/mmm (139) mp-1842 [hull=0.000, icsd=10, PRIMARY]; Nb2Al P4_2/mnm (136) mp-18427 [hull=0.000, icsd=6, PRIMARY]; Nb4Al Fmmm (69) mp-1220481 [hull=0.119, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2009.12.005 (Pore structures and thermal insulating properties of high Nb containin...)
@@ -254,6 +269,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Ni-Y
 - rank 2486 | 1 samples | 1 papers | 1 compositions
 - compositions: YNiAl4 (1)
+- sample form: Bulk (1)
 - measured range: 10-300 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Y3(AlNi3)2 Im-3m (229) mp-4577 [hull=0.000, icsd=3, PRIMARY]; YAlNi P-62m (189) mp-13095 [hull=0.000, icsd=3, PRIMARY]; YAl4Ni Cmcm (63) mp-3602 [hull=0.000, icsd=3, PRIMARY]; YAl2Ni Cmcm (63) mp-13094 [hull=0.000, icsd=3, PRIMARY]; YAl3Ni Pnma (62) mp-4054 [hull=0.000, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1088/0953-8984/18/46/004 (Intermediate valence behaviour of Yb in a new intermetallic compound Y...)
@@ -262,6 +278,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2487 | 1 samples | 1 papers | 1 compositions
 - compositions: (Al2O3)20(MgO)15(TiO2)9(SiO2)56 (1)
 - dopant candidates (<5% at.): Mg (1), Ti (1)
+- sample form: Bulk (1)
 - measured range: 293-1273 K (5th-95th pct of 1 curves)
 - [ref 1] TEDesignLab / ICSD: Al2Si4O11 P-1 (2) mp-707135 [hull=0.033, icsd=2, PRIMARY]; Al2SiO5 C2/c (15) mp-9515 [hull=0.100, icsd=1]; Al2SiO5 Cmcm (63) mp-9516 [hull=0.109, icsd=1]
 - [ref 2] MP, ranked by ICSD evidence: Al2SiO5 Pnnm (58) mp-4753 [hull=0.000, icsd=27, PRIMARY, AMBIGUOUS]; Ca2Al4Si8O33 C2/m (12) mp-1200127 [hull=0.367, icsd=6, PRIMARY]; Al2Si2O9 P1 (1) mp-1103547 [hull=0.311, icsd=5, PRIMARY]; CaAl2(Si3O10)2 Pc (7) mp-1197130 [hull=0.296, icsd=3, PRIMARY]; Al(SiO3)2 P-1 (2) mp-1105328 [hull=0.190, icsd=2, PRIMARY]
@@ -277,6 +294,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Pd-Pu
 - rank 2489 | 1 samples | 1 papers | 1 compositions
 - compositions: PuPd5Al2 (1)
+- sample form: Bulk (1)
 - measured range: 11-296 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): PuAl2Pd5 I4/mmm (139) mp-1091385 [hull=0.000, icsd=1, PRIMARY]; PuAl3Pd2 P6/mmm (191) mp-1206289 [hull=0.009, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.77.092405 (Magnetic and electronic properties of antiferromagneticPuPd5Al2)
@@ -305,6 +323,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Pt-Yb
 - rank 2493 | 1 samples | 1 papers | 1 compositions
 - compositions: Yb2Pt6Al15 (1)
+- sample form: SingleCrystal (1)
 - measured range: 11-199 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbAlPt Pnma (62) mp-1102117 [hull=0.000, icsd=1, PRIMARY]; Yb4(Al8Pt3)3 P-1 (2) mp-1207592 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1088/1367-2630/10/9/093017 (Investigation of Yb2Pt6Al15single crystals: heavy fermion system with ...)
@@ -318,12 +337,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Re-Ru-Si
 - rank 2495 | 1 samples | 1 papers | 1 compositions
 - compositions: Ru0.24Re0.73Si1.5364Al0.1336 (1)
+- sample form: Rod (1)
 - measured range: 313-968 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1016/j.actamat.2008.12.039 (Thermoelectric properties of ternary and Al-containing quaternary Ru1−...)
 
 ## Al-Rh-Yb
 - rank 2496 | 1 samples | 1 papers | 1 compositions
 - compositions: Yb2Rh3Al9 (1)
+- sample form: Polycrystal (1)
 - measured range: 11-304 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbAlRh Pnma (62) mp-1207572 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.60.1136 (Magnetic, transport, and thermal properties of<mml:math xmlns:mml=\"ht...)
@@ -353,6 +374,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2500 | 1 samples | 1 papers | 1 compositions
 - compositions: (YbAl3)0.95(Y5Sb3)0.05 (1)
 - dopant candidates (<5% at.): Sb (1)
+- sample form: pellets (1)
 - measured range: 300-673 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbYAl4 F-43m (216) mp-1215441 [hull=0.021, PRIMARY]; YbYAl6 P6_3/mmc (194) mp-1215596 [hull=0.032, PRIMARY]
 - papers: https://doi.org/10.1007/s11664-014-2997-5 (Effects of Second Phase Yb5Sb3 on the Thermoelectric Properties of YbAl3)

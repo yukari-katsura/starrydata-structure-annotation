@@ -41,6 +41,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ir-Rh-Sb
 - rank 3404 | 1 samples | 1 papers | 1 compositions
 - compositions: Ir0.5Rh0.5Sb3 (1)
+- sample form: Bulk (1)
 - measured range: 301-815 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1063/1.357750 (Some properties of semiconducting IrSb3)
 
@@ -89,6 +90,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## K-Mo-Se
 - rank 3411 | 1 samples | 1 papers | 1 compositions
 - compositions: K2Mo15Se19 (1)
+- sample form: SingleCrystal (1)
 - measured range: 297-791 K (5th-95th pct of 4 curves)
 - [ref 1] TEDesignLab / ICSD: K(MoSe)3 P6_3/m (176) mp-1104242 [hull=0.000, icsd=3, PRIMARY]; K2(MoSe6)3 (4) [PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: K2Mo15Se19 R-3c (167) mp-1204618 [hull=0.037, icsd=1, PRIMARY]; K3Mo3Se14 Cmc2_1 (36) mp-651347 [hull=0.023, icsd=1, PRIMARY]; K2InMo15Se19 P2_1/m (11) mp-1226012 [hull=0.031, PRIMARY]; K4Mo6Se25O Cm (8) mp-1224595 [hull=0.310, PRIMARY]
@@ -97,6 +99,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## K-O-Ta-W
 - rank 3412 | 1 samples | 1 papers | 1 compositions
 - compositions: KTaWO6 (1)
+- sample form: Bulk (1)
 - measured range: 372-980 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): KTaW2O9 P1 (1) mp-1223468 [hull=0.004, PRIMARY]; KTaWO6 Ima2 (46) mp-1223039 [hull=0.000, PRIMARY]; KTaWO7 Imma (74) mp-1223034 [hull=0.202, PRIMARY]
 - papers: https://doi.org/10.1007/s11664-012-2382-1 (Extremely Low Thermal Conductivity in Oxides with Cage-Like Crystal St...)
@@ -119,12 +122,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-Mn-Nd-O-Pb
 - rank 3415 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.4Nd0.3Pb0.3MnO3 (1)
+- sample form: rod-shaped (1)
 - measured range: 24-345 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1109/tmag.2005.854827 (Variation of magnetic and transport properties in magnetoresistive oxi...)
 
 ## La-Mn-O-Pb-Pr
 - rank 3416 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.4Pr0.3Pb0.3MnO3 (1)
+- sample form: rod-shaped (1)
 - measured range: 16-346 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1109/tmag.2005.854827 (Variation of magnetic and transport properties in magnetoresistive oxi...)
 
@@ -138,6 +143,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-Mn-O-Pr-Sr
 - rank 3418 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.3Pr0.3Sr0.4MnO3 (1)
+- sample form: rod-shaped (1)
 - measured range: 72-396 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.jssc.2004.03.017 (The effect of a cation radii on structural, magnetic and electrical pr...)
 
@@ -157,6 +163,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-Mn-O-Sr-Zn
 - rank 3421 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.6Sr0.4Mn0.7Zn0.3O3 (1)
+- sample form: disk (1)
 - measured range: 50-474 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2La2MnZnO8 Amm2 (38) mp-1218782 [hull=0.034, PRIMARY, AMBIGUOUS]; Sr2La2MnZnO8 C2/m (12) mp-1173272 [hull=0.036]; Sr2La2MnZnO8 P4/mmm (123) mp-1218735 [hull=0.082]
 - papers: https://doi.org/10.1016/j.ssc.2006.11.005 (Effects of Zn substitution on the magnetic and transport properties of...)
@@ -164,6 +171,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-Mo-Ni-O
 - rank 3422 | 1 samples | 1 papers | 1 compositions
 - compositions: LaNi0.75Mo0.25O3 (1)
+- sample form: cylinder (1)
 - measured range: 393-1073 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La2NiMoO6 Fm-3m (225) mp-1206064 [hull=0.284, PRIMARY]; La4Ni3MoO12 P4/mmm (123) mp-1223026 [hull=0.147, PRIMARY]
 - papers: https://doi.org/10.1021/cm9020518 (Defective Ni Perovskites as Cathode Materials in Intermediate-Temperat...)
@@ -196,6 +204,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-O-P
 - rank 3427 | 1 samples | 1 papers | 1 compositions
 - compositions: LaPO4 (1)
+- sample form: Bulk (1)
 - measured range: 301-1268 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaPO4 P2_1/c (14) mp-3962 [hull=0.000, icsd=5, PRIMARY]; La(PO3)3 C222_1 (20) mp-9646 [hull=0.000, icsd=1, PRIMARY]; LaP5O14 Pmna (53) mp-1204624 [hull=0.000, icsd=1, PRIMARY]; La2P4O13 C222_1 (20) mp-771240 [hull=0.003, PRIMARY, AMBIGUOUS]; La3PO7 Cm (8) mp-779590 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1111/jace.15504 (Thermophysical properties of rare earth barium aluminates)
@@ -230,12 +239,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-O-Y-Zr
 - rank 3432 | 1 samples | 1 papers | 1 compositions
 - compositions: (La0.76Y0.24)2(Zr0.94Y0.06)2O6.94 (1)
+- sample form: Bulk (1)
 - measured range: 455-1242 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.actamat.2012.08.063 (Glass-like thermal conductivities in (x=x1+x2, 0⩽x⩽1.0) solid solutions)
 
 ## La-Os-P
 - rank 3433 | 1 samples | 1 papers | 1 compositions
 - compositions: LaOs4P12 (1)
+- sample form: Other (1)
 - measured range: 13-301 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La(P3Os)4 Im-3 (204) mp-1021506 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1143/jpsjs.80sa.sa025 (Thermal Properties of Filled Skutterudite PrOs4P12)
@@ -243,6 +254,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-Rh
 - rank 3434 | 1 samples | 1 papers | 1 compositions
 - compositions: La7Rh3 (1)
+- sample form: Polycrystal (1)
 - measured range: 12-294 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaRh2 Fd-3m (227) mp-1702 [hull=0.000, icsd=6, PRIMARY]; La4Rh3 I-43d (220) mp-626 [hull=0.000, icsd=2, PRIMARY]; La5Rh4 Pnma (62) mp-1197877 [hull=0.014, icsd=2, PRIMARY]; LaRh Cmcm (63) mp-1002107 [hull=0.000, icsd=2, PRIMARY]; LaRh3 P6_3/mmc (194) mp-974030 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/s0925-8388(98)00458-7 (Magnetic and electrical properties of the intermetallic compounds R7Rh...)
@@ -250,6 +262,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-Rh-Si
 - rank 3435 | 1 samples | 1 papers | 1 compositions
 - compositions: LaRh2Si2 (1)
+- sample form: Bulk (1)
 - measured range: 17-300 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La(SiRh)2 I4/mmm (139) mp-5936 [hull=0.000, icsd=7, PRIMARY]; LaSi2Rh3 P6/mmm (191) mp-29726 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; La2Si3Rh P6_3/mmc (194) mp-1191810 [hull=0.000, icsd=1, PRIMARY]; La2Si5Rh3 Ibam (72) mp-8620 [hull=0.000, icsd=1, PRIMARY]; La3Si2Rh3 Pnma (62) mp-601852 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/0925-8388(94)90843-5 (Electrical resistivity and thermopower studies of Ce(Rh1−xRux)2Si2 com...)
@@ -257,6 +270,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-Ru
 - rank 3436 | 1 samples | 1 papers | 1 compositions
 - compositions: LaRu2 (1)
+- sample form: Polycrystal (1)
 - measured range: 11-280 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaRu2 Fd-3m (227) mp-2019 [hull=0.000, icsd=13, PRIMARY]; La3Ru Pnma (62) mp-1189592 [hull=0.000, icsd=3, PRIMARY]; La5Ru2 C2/c (15) mp-1104417 [hull=0.000, icsd=2, PRIMARY]; La7Ru3 Pnma (62) mp-1202486 [hull=0.000, icsd=1, PRIMARY]; La4Ru Fd-3m (227) mp-1211363 [hull=0.348, PRIMARY]
 - papers: https://doi.org/10.1016/0921-4526(94)00430-4 (Transport properties of (Ce1−xRx)Ru2 (R  La, Nd))
@@ -271,6 +285,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-S-Ti
 - rank 3438 | 1 samples | 1 papers | 1 compositions
 - compositions: La2Ti0.6S2.67 (1)
+- sample form: Bulk (1)
 - measured range: 291-952 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaTiS3 Pnma (62) mp-1211414 [hull=0.027, PRIMARY]
 - papers: https://doi.org/10.1063/1.1999845 (Thermoelectric properties of lanthanum sesquisulfide with Ti additive)
@@ -291,6 +306,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-Zn
 - rank 3441 | 1 samples | 1 papers | 1 compositions
 - compositions: LaZn11 (1)
+- sample form: SingleCrystal (1)
 - measured range: 15-298 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaZn Pm-3m (221) mp-2615 [hull=0.000, icsd=4, PRIMARY]; LaZn5 P6/mmm (191) mp-2424 [hull=0.000, icsd=4, PRIMARY]; LaZn13 Fm-3c (226) mp-1193170 [hull=0.000, icsd=2, PRIMARY]; La2Zn17 R-3m (166) mp-30709 [hull=0.000, icsd=2, PRIMARY]; LaZn4 Cmcm (63) mp-861620 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.88.054410 (Anisotropic transport and magnetic properties and magnetic-field tuned...)
@@ -319,12 +335,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Li-O-W
 - rank 3445 | 1 samples | 1 papers | 1 compositions
 - compositions: Li2WO4 (1)
+- sample form: Ribbon (1)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Li2WO4 R-3 (148) mp-18902 [hull=0.015, icsd=3, PRIMARY]; Li2W2O7 P-1 (2) mp-706504 [hull=0.050, icsd=1, PRIMARY]; Li14W7O32 P-43m (215) mp-1198827 [hull=0.530, icsd=1, PRIMARY]; Li(WO3)2 Immm (71) mp-774144 [hull=0.042, PRIMARY]; Li11Fe(WO4)7 Cm (8) mp-769470 [hull=0.081, PRIMARY]
 - papers: https://doi.org/10.1021/acssuschemeng.8b00656 (Environmental Friendly Approach for the Development of Ultra-Low-Firin...)
 
 ## Li-Se-Zr
 - rank 3446 | 1 samples | 1 papers | 1 compositions
 - compositions: LiZrSe2 (1)
+- sample form: Bulk (1)
 - measured range: 20-298 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiZrSe2 P-3m1 (164) mp-1001615 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1007/s11664-012-2410-1 (Thermoelectric Properties of Li-Intercalated ZrSe2 Single Crystals)
@@ -352,6 +370,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Lu-O-Si
 - rank 3450 | 1 samples | 1 papers | 1 compositions
 - compositions: Lu2SiO5 (1)
+- sample form: Bulk (1)
 - measured range: 297-1271 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Lu2Si2O7 C2/m (12) mp-7193 [hull=0.000, icsd=1, PRIMARY]; Lu2SiO5 C2/c (15) mp-16969 [hull=0.000, icsd=1, PRIMARY]; LuSiO3 Pm-3m (221) mp-973655 [hull=0.877, PRIMARY]; Lu2Si2O7 P4_12_12 (92) mp-18385 [hull=0.020, icsd=1]; Lu2Si2O7 P4_32_12 (96) mp-1202190 [hull=0.020, icsd=1]
 - papers: https://doi.org/10.1016/j.jeurceramsoc.2015.01.001 (Theoretical prediction and experimental determination of the low latti...)

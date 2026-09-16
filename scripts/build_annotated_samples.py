@@ -135,6 +135,7 @@ def main():
             'n_samples': r.n_samples,
             'n_papers': r.n_papers,
             'holdout_hand_label': r.holdout_hand_label,
+            'form': getattr(r, 'form', None),
             'chunk': rec.get('chunk'),
         })
     dfc = pd.DataFrame(rows)

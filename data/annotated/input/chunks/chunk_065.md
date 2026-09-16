@@ -28,6 +28,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Eu-Gd-S-Sm
 - rank 3202 | 1 samples | 1 papers | 1 compositions
 - compositions: SmEuGdS4 (1)
+- sample form: Bulk (1)
 - measured range: 302-934 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2009.04.076 (Synthesis of multinary rare-earth sulfides PrGdS3, NdGdS3, and SmEuGdS...)
 
@@ -41,6 +42,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Eu-In-O-Ta
 - rank 3204 | 1 samples | 1 papers | 1 compositions
 - compositions: Eu2InTaO7 (1)
+- sample form: pellets (1)
 - measured range: 293-1071 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.jeurceramsoc.2020.06.027 (Thermal and oxygen transport properties of complex pyrochlore RE2InTaO...)
 
@@ -61,6 +63,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Eu-Ir-Si
 - rank 3207 | 1 samples | 1 papers | 1 compositions
 - compositions: EuIr2Si2 (1)
+- sample form: SingleCrystal (1)
 - measured range: 11-294 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Eu(SiIr)2 I4/mmm (139) mp-21849 [hull=0.000, icsd=4, PRIMARY]; EuSi3Ir I4mm (107) mp-1069707 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.101.235106 (Valence effect on the thermopower of Eu systems)
@@ -75,6 +78,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Eu-Ni-P
 - rank 3209 | 1 samples | 1 papers | 1 compositions
 - compositions: EuNi2P2 (1)
+- sample form: SingleCrystal (1)
 - measured range: 10-293 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Eu(NiP)2 I4/mmm (139) mp-3758 [hull=0.000, icsd=2, PRIMARY]; Eu(Ni5P3)2 Cmce (64) mp-21672 [hull=0.007, icsd=1, PRIMARY]; Eu2Ni12P7 P-6 (174) mp-1191284 [hull=0.021, icsd=1, PRIMARY]; Eu2Ni12P5 P2_1/m (11) mp-1213550 [hull=0.000, PRIMARY]; Eu2Ni7P4 Pmn2_1 (31) mp-1213320 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.101.235106 (Valence effect on the thermopower of Eu systems)
@@ -82,6 +86,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Eu-O-Ta
 - rank 3210 | 1 samples | 1 papers | 1 compositions
 - compositions: EuTa2O6 (1)
+- sample form: Powder (1)
 - measured range: 10-396 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): EuTaO4 P2/c (13) mp-5957 [hull=0.000, icsd=2, PRIMARY, AMBIGUOUS]; EuTa2O6 P4/mmm (123) mp-20092 [hull=0.015, icsd=2, PRIMARY]; Eu2Ta2O7 Cmcm (63) mp-1191288 [hull=0.000, icsd=1, PRIMARY]; Eu3TaO6 Fm-3m (225) mp-21406 [hull=0.047, icsd=1, PRIMARY]; Eu5Ta4O15 P-3m1 (164) mp-1192440 [hull=0.019, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1063/1.4893011 (Structure and physical properties of EuTa2O6 tungsten bronze polymorph)
@@ -103,6 +108,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Eu-Sb-Se
 - rank 3213 | 1 samples | 1 papers | 1 compositions
 - compositions: EuSbSe3 (1)
+- sample form: Bulk (1)
 - measured range: 300-570 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Eu(SbSe2)2 Pnma (62) mp-1192961 [hull=0.042, icsd=3, PRIMARY]; Eu3Sb4Se9 Pnma (62) mp-1200385 [hull=0.017, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1021/ic501808y (Crystal Cluster Growth and Physical Properties of the EuSbSe3and EuBiS...)
@@ -135,12 +141,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## F-Sb-Sr-Zn
 - rank 3218 | 1 samples | 1 papers | 1 compositions
 - compositions: SrFZnSb (1)
+- sample form: Bulk (1)
 - measured range: 323-754 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2020.155497 (Thermoelectric properties and thermal expansion of quaternary layered ...)
 
 ## Fe-Ga-Ge-V
 - rank 3219 | 1 samples | 1 papers | 1 compositions
 - compositions: Fe2VGa0.8Ge0.2 (1)
+- sample form: Bulk (1)
 - measured range: 12-297 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1088/0953-8984/20/25/255233 (Effects of Ge substitution on the thermoelectric properties and pseudo...)
 
@@ -154,6 +162,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Ge-La
 - rank 3221 | 1 samples | 1 papers | 1 compositions
 - compositions: LaFeGe3 (1)
+- sample form: SingleCrystal (1)
 - measured range: 25-291 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La(FeGe)2 I4/mmm (139) mp-20527 [hull=0.008, icsd=3, PRIMARY]; LaFeGe3 I4mm (107) mp-19743 [hull=0.000, icsd=2, PRIMARY]; La15FeGe9 P6_3mc (186) mp-1201203 [hull=0.000, icsd=1, PRIMARY]; La5FeGe3 P6_3/mcm (193) mp-1211823 [hull=0.120, PRIMARY]; LaFeGe P-6m2 (187) mp-1222908 [hull=0.201, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.52.10136 (CeFeGe3: A concentrated Kondo compound with a stable valency and high ...)
@@ -181,6 +190,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Hf-Sn-Ti
 - rank 3225 | 1 samples | 1 papers | 1 compositions
 - compositions: Hf0.25Ti0.75Fe2Sn (1)
+- sample form: pellets (1)
 - measured range: 299-896 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.3390/inorganics12120322 (Effects of Ti and Sn Substitutions on Magnetic and Transport Propertie...)
 
@@ -209,6 +219,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3229 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.80Sr0.20Zn0.40Fe0.60O3 (1)
 - dopant candidates (<5% at.): Sr (1)
+- sample form: disk (1)
 - measured range: 573-873 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1039/d2nj04295a (Evaluation of La<sub><i>x</i></sub>Sr<sub>1−<i>x</i></sub>Zn<sub><i>y<...)
 
@@ -252,12 +263,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Mo-O-Sr-V
 - rank 3235 | 1 samples | 1 papers | 1 compositions
 - compositions: Sr2FeMo0.5V0.5O6 (1)
+- sample form: Bulk (1)
 - measured range: 27-313 K (5th-95th pct of 2 curves; full span incl. outliers 27-852 K)
 - papers: https://doi.org/10.1016/s0925-8388(03)00740-0 (Studies of electrical transport properties of Sr2Fe(Mo, V)O6 compound)
 
 ## Fe-Mo-S
 - rank 3236 | 1 samples | 1 papers | 1 compositions
 - compositions: Fe1.3Mo6S8 (1)
+- sample form: Bulk (1)
 - measured range: 296-957 K (5th-95th pct of 4 curves)
 - [ref 1] TEDesignLab / ICSD: Fe(MoS2)2 Cc (9) mp-1193219 [hull=0.145, icsd=4, PRIMARY]; FeMo3S4 P-1 (2) mp-27380 [hull=0.109, icsd=1, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: Fe(Mo3S4)2 R-3 (148) mp-1103998 [hull=0.127, icsd=1, PRIMARY]
@@ -298,12 +311,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Ni-Sb-Tl
 - rank 3242 | 1 samples | 1 papers | 1 compositions
 - compositions: TlFe2.5Ni1.5Sb12 (1)
+- sample form: Bulk (1)
 - measured range: 324-772 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1063/1.4861157 (Thermoelectric properties of Tl-filled Co-free p-type skutterudites: T...)
 
 ## Fe-O-Pb
 - rank 3243 | 1 samples | 1 papers | 1 compositions
 - compositions: PbFeO3 (1)
+- sample form: pellets (1)
 - measured range: 354-628 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Fe12PbO19 Cmcm (63) mp-1199651 [hull=0.064, icsd=1, PRIMARY]; FePbO3 Pm-3m (221) mp-973579 [hull=0.181, PRIMARY]; Fe12PbO19 P6_3/mmc (194) mp-640908 [hull=0.094]
 - papers: https://doi.org/10.1038/s41467-021-22064-9 (Observation of novel charge ordering and spin reorientation in perovsk...)
@@ -333,6 +348,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3247 | 1 samples | 1 papers | 1 compositions
 - compositions: Fe0.80Os0.20Si1.96Al0.04 (1)
 - dopant candidates (<5% at.): Al (1)
+- sample form: Bulk (1)
 - measured range: 299-899 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1021/acsami.0c00321 (Doubled Thermoelectric Figure of Merit in p-Type β-FeSi2 via Synergist...)
 
@@ -352,5 +368,6 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Sb-Sn-Te
 - rank 3250 | 1 samples | 1 papers | 1 compositions
 - compositions: FeSb2Te0.8Sn0.2 (1)
+- sample form: Bulk (1)
 - measured range: 297-683 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1007/s11664-015-4325-0 (The Influence of Sn Additions on the Thermoelectric and Transport Prop...)

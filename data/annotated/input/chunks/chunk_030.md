@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## In-N
 - rank 1451 | 4 samples | 2 papers | 1 compositions
 - compositions: InN (4)
+- sample form: Film (4)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 16-573 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): InN P6_3mc (186) mp-22205 [hull=0.000, icsd=12, PRIMARY]; InN3 Pm-3m (221) mp-975606 [hull=2.393, PRIMARY]; InN F-43m (216) mp-20411 [hull=0.010, icsd=5]; InN Fm-3m (225) mp-20812 [hull=0.210, icsd=2]
 - papers: https://doi.org/10.1063/1.3466913 (Pressure cycling of InN to 20 GPa: In situ transport properties and am...) | https://doi.org/10.1063/1.4875482 (Advantage of In- over N-polarity for disclosure of p-type conduction i...)
@@ -28,6 +29,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## In-Ni-O-Sn
 - rank 1452 | 4 samples | 1 papers | 4 compositions
 - compositions: In1.2Ni0.4Sn0.4O3 (1); InNi0.5Sn0.5O3 (1); In1.4Ni0.3Sn0.3O3 (1); In0.9Ni0.55Sn0.55O3 (1)
+- sample form: Bulk (4)
 - measured range: 10-321 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1063/1.2986148 (Enhancement of the thermoelectric performances of In2O3 by the coupled...)
 
@@ -42,6 +44,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1454 | 4 samples | 3 papers | 4 compositions
 - compositions: In4Se0.5Te2.5 (1); In2(Te0.90Se0.10)5 (1); Fe0.05In1.95(Te0.90Se0.10)5 (1); In4(Se0.83Te0.17)3 (1)
 - dopant candidates (<5% at.): Fe (1)
+- sample form: Bulk (2); SingleCrystal (2)
 - solid-solution axis: Se/(Se+Te) spans 0.10-0.83 (median 0.17) over 4 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 11-672 K (5th-95th pct of 19 curves)
@@ -50,6 +53,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ir-Na-O
 - rank 1455 | 4 samples | 1 papers | 2 compositions
 - compositions: Na3Ir3O8 (2); Na3.6Ir3O8 (2)
+- sample form: SingleCrystal (2)
 - measured range: 11-291 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Na2IrO3 C2/m (12) mp-754844 [hull=0.000, icsd=1, PRIMARY]; Na4IrO4 I4/m (87) mp-28698 [hull=0.000, icsd=1, PRIMARY]; NaIrO3 Cmcm (63) mp-1079568 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.91.075129 (Thermal conductivity across the metal-insulator transition in the sing...)
@@ -57,6 +61,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ir-Ni-Sn-Zr
 - rank 1456 | 4 samples | 2 papers | 4 compositions
 - compositions: Zr30.1Ni27.4Ir11.5Sn31.1 (1); Zr31.4Ni30.1Ir6.1Sn32.4 (1); Zr31.7Ni28.9Ir8.3Sn31.1 (1); ZrNiIr0.2Sn (1)
+- sample form: Bulk (3)
 - measured range: 304-1032 K (5th-95th pct of 21 curves)
 - papers: https://doi.org/10.1016/j.actamat.2010.04.028 (Vacancy site occupation by Co and Ir in half-Heusler ZrNiSn and conver...) | https://doi.org/10.1007/s11837-014-1233-3 (Ordered Structures and Thermoelectric Properties of MNiSn (M = Ti, Zr,...)
 
@@ -70,6 +75,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ir-Ru-Se
 - rank 1458 | 4 samples | 1 papers | 1 compositions
 - compositions: Ru0.8Ir0.2Se2 (4)
+- sample form: Bulk (4)
 - measured range: 10-301 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1063/1.4913919 (Enhanced thermoelectric power and electronic correlations in RuSe2)
 
@@ -82,6 +88,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-Li-Mn-O
 - rank 1460 | 4 samples | 1 papers | 1 compositions
 - compositions: La3LiMn4O12 (4)
+- sample form: Bulk (4)
 - measured range: 10-400 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiLa2Mn3O9 P-3m1 (164) mp-1222383 [hull=0.107, PRIMARY]; LiLa3MnO7 P2_1/c (14) mp-769464 [hull=0.000, PRIMARY, AMBIGUOUS]; LiLa4MnO8 I4_1/amd (141) mp-770950 [hull=0.036, PRIMARY, AMBIGUOUS]; LiLa6Mn3O14 Pc (7) mp-771521 [hull=0.045, PRIMARY]; LiLa3MnO7 P2_1/m (11) mp-1222623 [hull=0.001]
 - papers: https://doi.org/10.1007/s00339-016-9731-5 (Effect of bismuth doping on the physical properties of La–Li–Mn–O mang...)
@@ -89,6 +96,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-Mn-Nd-O-Sr
 - rank 1461 | 4 samples | 3 papers | 3 compositions
 - compositions: (La0.5Nd0.5)0.7Sr0.3MnO3 (2); Nd0.4La0.3Sr0.3MnO3 (1); La0.35Nd0.35Sr0.3MnO3 (1)
+- sample form: pellets (2)
 - measured range: 27-373 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1007/s00339-020-3333-y (Nature of correlated polaron hopping mechanism in A-site cation disord...) | https://doi.org/10.1016/s0921-4526(02)00820-7 (X-ray diffraction, magnetic and electrical properties in the manganite...) | https://doi.org/10.1063/1.372291 (Effect of annealing in reduced oxygen pressure on the electrical trans...)
 
@@ -103,6 +111,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-Ru-Sb
 - rank 1463 | 4 samples | 3 papers | 1 compositions
 - compositions: LaRu4Sb12 (4)
+- sample form: SingleCrystal (2)
 - measured range: 10-292 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La(Sb3Ru)4 Im-3 (204) mp-1188603 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.physb.2006.03.067 (Roles of spin fluctuations and rattling in magnetic and thermoelectric...) | https://doi.org/10.1088/0953-8984/14/45/317 (Transport properties in the filled-skutterudite compounds RERu4Sb12 (R...) | https://doi.org/10.1016/s0921-4526(01)01295-9 (Unusual behavior in the heavy Fermion semi-metal CeRu4Sb12)
@@ -110,6 +119,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-Te-Yb
 - rank 1464 | 4 samples | 1 papers | 4 compositions
 - compositions: Yb0.079La0.348Te0.574 (1); La2.2Yb0.52Te4 (1); La1.58Yb1.63Te4 (1); Yb0.086La0.34Te0.574 (1)
+- sample form: Bulk (4)
 - solid-solution axis: La/(La+Yb) spans 0.49-0.81 (median 0.81) over 4 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 296-1264 K (5th-95th pct of 15 curves)
@@ -133,6 +143,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1467 | 4 samples | 2 papers | 4 compositions
 - compositions: MgTi2O5(TiN)0.359 (1); MgTi2O5 (1); MgTi2.67O6.34(TiN)0.455 (1); Ti0.73Mg0.27O (1)
 - dopant candidates (<5% at.): N (2)
+- sample form: Bulk (3)
 - measured range: 11-973 K (5th-95th pct of 16 curves)
 - [ref 1] TEDesignLab / ICSD: MgTiO3 R-3 (148) mp-3771 [hull=0.000, icsd=30, PRIMARY]; MgTi2O4 P4_12_12 (92) mp-1194382 [hull=0.017, icsd=1, PRIMARY, AMBIGUOUS]
 - [ref 2] MP, ranked by ICSD evidence: MgTi2O5 Cmcm (63) mp-28232 [hull=0.000, icsd=1, PRIMARY]; Mg2TiO P-1 (2) mp-675042 [hull=0.667, PRIMARY]; Mg11Ti25O60 P1 (1) mp-757825 [hull=0.000, PRIMARY]; Mg2Ti2O5 Ima2 (46) mp-1076652 [hull=0.254, PRIMARY]; MgTi2O4 Fd-3m (227) mp-27872 [hull=0.017, icsd=1]
@@ -160,6 +171,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1470 | 4 samples | 2 papers | 4 compositions
 - compositions: Ti6.2Ni33.9Mn36.4Sn30.9Bi0.4 (1); Ti0.967Mn0.163Ni0.98Sn1.04 (1); Ti0.984Mn0.19Ni1.01Sn1.013 (1); Ti0.855Mn0.20Ni1.06Sn0.98 (1)
 - dopant candidates (<5% at.): Bi (1)
+- sample form: Bulk (3)
 - measured range: 20-888 K (5th-95th pct of 19 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TiMn(Ni2Sn)2 R-3m (166) mp-1217085 [hull=0.044, PRIMARY]
 - papers: https://doi.org/10.1557/opl.2013.217 (Thermoelectric behaviour of p- and n- type Ti-Ni-Sn half Heusler alloy...) | https://doi.org/10.1063/1.4979816 (Optimized thermoelectric performance of the n-type half-Heusler materi...)
@@ -168,6 +180,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1471 | 4 samples | 2 papers | 3 compositions
 - compositions: Pr0.67Pb0.33MnO3 (2); Pr0.7Pb0.3MnO3 (1); La0.2Pr0.5Pb0.3MnO3 (1)
 - dopant candidates (<5% at.): La (1)
+- sample form: rod-shaped (2)
 - measured range: 42-299 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Pr3Mn4PbO12 Pm (6) mp-1220019 [hull=0.023, PRIMARY]
 - papers: https://doi.org/10.1088/0022-3727/40/3/005 (Thermopower studies of Pr0.67D0.33MnO3manganite system) | https://doi.org/10.1109/tmag.2005.854827 (Variation of magnetic and transport properties in magnetoresistive oxi...)
@@ -185,6 +198,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1473 | 4 samples | 1 papers | 4 compositions
 - compositions: Tb0.95Al0.05MnO3 (1); Tb0.9Al0.1MnO3 (1); TbMnO3 (1); Tb0.8Al0.2MnO3 (1)
 - dopant candidates (<5% at.): Al (3)
+- sample form: Bulk (4)
 - measured range: 10-379 K (5th-95th pct of 14 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TbMnO3 Pnma (62) mp-25030 [hull=0.000, icsd=5, PRIMARY]; TbMn2O5 Pbam (55) mp-25028 [hull=0.000, icsd=1, PRIMARY]; Tb2Mn2O7 Fd-3m (227) mp-769812 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2015.08.195 (Effect of the Al-doping on the electrical and thermoelectric response ...)
@@ -193,6 +207,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1474 | 4 samples | 2 papers | 2 compositions
 - compositions: Zn0.89Mn0.1Al0.01O (2); Zn0.88Mn0.12O (2)
 - dopant candidates (<5% at.): Al (2)
+- sample form: Bulk (1)
 - measured range: 107-1020 K (5th-95th pct of 7 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mn2ZnO4 I4_1/amd (141) mp-18751 [hull=0.000, icsd=3, PRIMARY]; Mn3ZnO10 R-3 (148) mp-1193234 [hull=0.315, icsd=3, PRIMARY]; Mn3ZnO7 R-3 (148) mp-1192094 [hull=0.000, icsd=1, PRIMARY]; Mn11ZnO16 C222 (21) mp-861549 [hull=0.005, PRIMARY]; Mn6Zn3O16 P2_1 (4) mp-774014 [hull=0.063, PRIMARY]
 - papers: https://doi.org/10.2109/jcersj2.15282 (Sintering characteristics and thermoelectric properties of Mn&ndash;Al...) | https://doi.org/10.1063/1.2402097 (An electron paramagnetic resonance study of n-type Zn1−xMnxO: A dilute...)
@@ -200,6 +215,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mn-Pb-Sn-Te
 - rank 1475 | 4 samples | 2 papers | 4 compositions
 - compositions: Pb0.60Mn0.15Sn0.25Te1.00 (1); Pb0.65Mn0.10Sn0.25Te1.00 (1); (Sn0.8Pb0.2)0.88Mn0.12Te (1); (Sn0.8Pb0.2)0.85Mn0.15Te (1)
+- sample form: Bulk (2)
 - solid-solution axis: Pb/(Pb+Sn) spans 0.20-0.72 (median 0.71) over 4 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 295-725 K (5th-95th pct of 16 curves)
@@ -209,6 +225,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1476 | 4 samples | 2 papers | 3 compositions
 - compositions: (Nd0.8Er0.2)2Mo2O7 (2); (Nd0.95Yb0.05)2Mo2O7 (1); (Nd0.9Yb0.1)2Mo2O7 (1)
 - dopant candidates (<5% at.): Er (2), Yb (2)
+- sample form: Bulk (2)
 - measured range: 11-301 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nd2Mo2O7 I4_1/a (88) mp-690122 [hull=0.000, icsd=1, PRIMARY]; KLiNd2(MoO4)4 C2/c (15) mp-636225 [hull=0.000, icsd=1, PRIMARY]; BaNd2(MoO4)4 C2/c (15) mp-622521 [hull=0.005, icsd=1, PRIMARY]; RbLiNd2(MoO4)4 C2/c (15) mp-630867 [hull=0.000, icsd=1, PRIMARY]; LiNd2Tl(MoO4)4 C2/c (15) mp-630880 [hull=0.007, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/0022-3697(86)90030-2 (Thermoelectric power of RE2Mo2O7 pyrochlores) | https://doi.org/10.1016/0025-5408(80)90094-x (Electrical properties of Ln2Mo2O7 pyrochlores (Ln=SmYb,Y))
@@ -216,6 +233,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mo-Pd-Rh-Ru
 - rank 1477 | 4 samples | 1 papers | 4 compositions
 - compositions: Mo35Ru31Rh9Pd25 (1); Mo30Ru43Rh14Pd13 (1); Mo20Ru54Rh15Pd11 (1); Mo43Ru34Rh12Pd11 (1)
+- sample form: Bulk (1)
 - measured range: 286-1273 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MoPdRuRh P3m1 (156) mp-1221443 [hull=0.089, PRIMARY]
 - papers: https://doi.org/10.1016/s0925-8388(02)01211-2 (Thermophysical properties of Mo–Ru–Rh–Pd alloys)
@@ -223,6 +241,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mo-Se
 - rank 1478 | 4 samples | 4 papers | 3 compositions
 - compositions: Mo6Se8 (2); Mo3Se4 (1); MoSe2 (1)
+- sample form: Bulk (1)
 - measured range: 101-1088 K (5th-95th pct of 7 curves)
 - [ref 1] TEDesignLab / ICSD: MoSe2 P6_3/mmc (194) mp-1634 [hull=0.000, icsd=7, PRIMARY]; Mo9Se11 Cmcm (63) mp-299 [hull=0.083, icsd=2, PRIMARY]; MoSe2 R3m (160) mp-7581 [hull=0.000]
 - [ref 2] MP, ranked by ICSD evidence: Mo3Se4 R-3 (148) mp-21021 [hull=0.064, icsd=7, PRIMARY]; Co(Mo3Se4)4 P1 (1) mp-675208 [hull=0.076, PRIMARY]; LaMo12PbSe16 R-3 (148) mp-1223020 [hull=0.038, PRIMARY]; Mo3Se Pm-3n (223) mp-1206038 [hull=0.588, PRIMARY]; Mo9Se11 P6_3/m (176) mp-638048 [hull=0.068, icsd=1]
@@ -232,6 +251,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1479 | 4 samples | 2 papers | 2 compositions
 - compositions: NbON0.17 (2); Nb0.36Ru0.04O0.52N0.07 (2)
 - dopant candidates (<5% at.): Ru (2)
+- sample form: Film (2)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 333-1277 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NbNO P2_1/c (14) mp-7596 [hull=0.000, icsd=3, PRIMARY]; Nb10N11O Pc (7) mp-1173557 [hull=0.040, PRIMARY]; Nb40(NO)17 R3m (160) mp-676894 [hull=0.459, PRIMARY]; Nb27N37O3 Cm (8) mp-1173578 [hull=0.109, PRIMARY]; Nb40N21O16 P1 (1) mp-685674 [hull=0.408, PRIMARY]
 - papers: https://doi.org/10.1088/0953-8984/27/11/115501 (Vacancy filling effect in thermoelectric NbO) | https://doi.org/10.1016/j.physb.2015.10.001 (Enhanced thermoelectric performance of amorphous Nb based oxynitrides)
@@ -239,6 +259,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## N-Nb-O-Ru
 - rank 1480 | 4 samples | 1 papers | 2 compositions
 - compositions: Nb0.38Ru0.06O0.48N0.07 (2); Nb0.29Ru0.07O0.58N0.06 (2)
+- sample form: Film (2)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 334-927 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.1016/j.physb.2015.10.001 (Enhanced thermoelectric performance of amorphous Nb based oxynitrides)
 
@@ -287,6 +308,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1487 | 4 samples | 3 papers | 4 compositions
 - compositions: Nd0.8Ca0.2TiO3 (1); Nd0.9Ca0.1TiO3 (1); Nd0.6Sr0.1TiO3 (1); Ba3.45Nd9.7Ti18O54 (1)
 - dopant candidates (<5% at.): Ca (2), Sr (1), Ba (1)
+- sample form: Bulk (2)
 - measured range: 81-1079 K (5th-95th pct of 12 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nd2TiO5 Pnma (62) mp-17904 [hull=0.000, icsd=4, PRIMARY]; Nd2Ti2O7 P2_1 (4) mp-12193 [hull=0.000, icsd=3, PRIMARY]; NdTiO3 Pnma (62) mp-3119 [hull=0.042, icsd=3, PRIMARY]; Nd2Ti4O11 C2/c (15) mp-654139 [hull=0.000, icsd=1, PRIMARY]; Nd11Ti16O48 Amm2 (38) mp-1173643 [hull=0.095, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2003.11.021 (Band filling dependence of the electrical transport of Nd1−xAxTiO3 (A=...) | https://doi.org/10.1007/s11664-014-3058-9 (Neodymium-Strontium Titanate: A New Ceramic for an Old Problem) | https://doi.org/10.1007/s11664-015-4275-6 (Ba6−3x Nd8+2x Ti18O54 Tungsten Bronze: A New High-Temperature n-Type O...)
@@ -302,6 +324,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1489 | 4 samples | 1 papers | 4 compositions
 - compositions: NiSi2.98B0.02P4 (1); NiSi2.9B0.1P4 (1); NiSi2.8B0.2P4 (1); NiSi3P4 (1)
 - dopant candidates (<5% at.): B (3)
+- sample form: Bulk (4)
 - measured range: 10-795 K (5th-95th pct of 32 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Si2Ni5P3 Pbca (61) mp-649521 [hull=0.055, icsd=1, PRIMARY]; Si2NiP3 Imm2 (44) mp-28945 [hull=0.002, icsd=1, PRIMARY]; Si3NiP4 I-42m (121) mp-8311 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1063/1.4794992 (Thermoelectric properties of polycrystalline NiSi3P4)
@@ -310,6 +333,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1490 | 4 samples | 2 papers | 4 compositions
 - compositions: CeTiO33.1 (1); SrCo0.8Nb0.1NiO30.1 (1); SrCo0.7Nb0.1NiO30.2 (1); SrCo0.6Nb0.1NiO30.3 (1)
 - dopant candidates (<5% at.): Sr (3), Ni (3), Co (3), Nb (3), Ce (1), Ti (1)
+- sample form: rod-shaped (3)
 - measured range: 19-1073 K (5th-95th pct of 5 curves)
 - [ref 1] TEDesignLab / ICSD: O2 C2/m (12) mp-12957 [hull=0.000, icsd=5, PRIMARY]; O2 (61)
 - [ref 2] MP, ranked by ICSD evidence: O2 R-3m (166) mp-610917 [hull=0.024, icsd=5]; O2 Fd-3m (227) mp-1057818 [hull=1.954, icsd=4]; O2 P4_12_12 (92) mp-1091399 [hull=0.007, icsd=1]; O2 C2/c (15) mp-1087546 [hull=0.032, icsd=1]; O2 Fmmm (69) mp-607540 [hull=0.112, icsd=1]
@@ -326,6 +350,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1492 | 4 samples | 2 papers | 4 compositions
 - compositions: Li0.25Zn0.5Rh2O4 (1); Zn0.5Rh2O4 (1); ZnRh2O4 (1); ZnRh1.8Mg0.2O4 (1)
 - dopant candidates (<5% at.): Li (1), Mg (1)
+- sample form: Film (2)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 11-873 K (5th-95th pct of 10 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Zn(RhO2)2 Fd-3m (227) mp-5146 [hull=0.000, icsd=2, PRIMARY]; ZnRhO3 Pm-3m (221) mp-1016880 [hull=0.766, PRIMARY]
 - papers: https://doi.org/10.1016/j.jssc.2012.03.054 (Synthesis and thermoelectric properties of the novel A-site deficient ...) | https://doi.org/10.1109/ict.2007.4569441 (Mg substitution effects of new thermoelectric Rh oxides)
@@ -356,6 +381,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1496 | 4 samples | 1 papers | 1 compositions
 - compositions: (Zn0.993Al0.007O)85.86(ZrO2)14.14 (4)
 - dopant candidates (<5% at.): Al (4)
+- sample form: Bulk (2)
 - measured range: 423-1223 K (5th-95th pct of 12 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZrZnO3 Pm-3m (221) mp-1016883 [hull=0.759, PRIMARY]
 - papers: https://doi.org/10.1039/c8ta01463a (A self-forming nanocomposite concept for ZnO-based thermoelectrics)
@@ -363,6 +389,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## P-Zn
 - rank 1497 | 4 samples | 2 papers | 1 compositions
 - compositions: Zn3P2 (4)
+- sample form: Film (2)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 79-793 K (5th-95th pct of 5 curves)
 - [ref 1] TEDesignLab / ICSD: ZnP2 P4_12_12 (92) mp-2782 [hull=0.000, icsd=4, PRIMARY]; ZnP4 P4_12_12 (92) mp-14587 [hull=0.061, icsd=1, PRIMARY]; ZnP2 P2_1/c (14) mp-1392 [hull=0.003, icsd=3]; ZnP2 P4_32_12 (96) mp-11025 [hull=0.000, icsd=1]
 - [ref 2] MP, ranked by ICSD evidence: Zn3P2 P4_2/nmc (137) mp-2071 [hull=0.000, icsd=8, PRIMARY]; Zn3P Pm-3m (221) mp-1187918 [hull=0.301, PRIMARY]; Zn2P Pn-3m (224) mp-1207457 [hull=0.397, PRIMARY]; ZnP P6_3mc (186) mp-971863 [hull=0.320, PRIMARY]; Zn3P2 Ia-3 (206) mp-1197170 [hull=0.027, icsd=1]
@@ -379,6 +406,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Pd-Sb-Y
 - rank 1499 | 4 samples | 4 papers | 1 compositions
 - compositions: YPdSb (4)
+- sample form: Bulk (1)
 - measured range: 12-398 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Y3(SbPd2)4 Fm-3m (225) mp-1207804 [hull=0.000, PRIMARY]; Y5SbPd2 I4/mcm (140) mp-1207717 [hull=0.000, PRIMARY]; YSbPd F-43m (216) mp-1215892 [hull=0.532, PRIMARY]; YSbPd2 Fm-3m (225) mp-865513 [hull=0.000, PRIMARY]; YSbPd2 P4/mmm (123) mp-1215895 [hull=0.188]
 - papers: https://doi.org/10.1088/0953-8984/15/4/304 (Thermoelectrical properties of the compounds ScMVIIISb and YMVIIISb (M...) | https://doi.org/10.1109/ict.2005.1519966 (Physical properties of rare-earth-based Heusler phases REPdZ and REPd/...) | https://doi.org/10.1103/physrevb.72.094409 (Magnetic and transport properties of the rare-earth-based Heusler phas...)
