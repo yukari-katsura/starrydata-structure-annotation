@@ -485,6 +485,38 @@ structure -- so one composition string covers both. Rather than force an answer,
 that composition is flagged `detail ambiguous - needs sample-level split`.
 Resolving it properly means assigning per sample, not per composition.
 
+### The verification gate
+
+`scripts/verify_assignments.py` exists because of how errors were actually
+caught while annotating chunks 1-3: **seven of nine were found because someone
+looked at printed output**, not because anything failed. An unattended run does
+no looking, so the looking has to be encoded. Run it after any annotation or
+rebuild; it exits non-zero on failure.
+
+Three layers:
+
+| layer | what it does | on failure |
+|---|---|---|
+| **invariants** | valid prototype ids, unique keys and assignment_ids, physically plausible transition temperatures, unique tedl_id | exit 1 |
+| **regressions** | pins the specific mistakes already made, so a rebuild cannot reintroduce them | exit 1 |
+| **agreement** | checks every assignment against ICSD-backed space groups | reported, not enforced |
+
+The regression layer is the valuable part. Each check is one line now but cost
+real effort to find: SnTe returning a metastable zincblende, Sb2Te3 losing to a
+hull artefact, Fe3O4 beaten by one ICSD reference, Rb3C60 falling below the 5%
+threshold, composite additives relabelling their hosts, the WO3 distortion
+series firing on Mo-O.
+
+Agreement is reported rather than enforced because a disagreement can be
+correct -- the reference describes a chemistry, the sample is one member of it.
+The rate matters more than any single case, and it currently stands at **82%
+(95/116 testable)**. `--apply` downgrades disagreeing assignments from high to
+medium confidence and records why, so an automated run cannot quietly assert
+something the references contradict.
+
+The suite is negative-tested: injecting four of the original bugs makes exactly
+those four checks fail.
+
 ### Checking an assignment against the paper
 
 Nothing here has been read out of a paper, so `experimentally_confirmed` is
