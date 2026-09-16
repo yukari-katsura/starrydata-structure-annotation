@@ -72,8 +72,46 @@ def resolve_dopants(rec, dopant_fracs, host_fracs):
     return out, unresolved
 
 
+def tedl_lookup():
+    """(reduced_formula, spacegroup) -> tedl_id, and a formula-only fallback.
+
+    Matching on formula AND space group means the descriptors belong to the
+    structure actually assigned. Where only the formula matches, the entry is
+    still linked but marked so, because a descriptor computed for a different
+    polymorph is a different physical quantity -- LaVO4 appears twice in
+    TEDesignLab, at sg 14 and sg 141, with band gaps of 3.50 and 3.15 eV.
+    """
+    path = ANN + 'input/df_tedl_entries.parquet'
+    if not os.path.exists(path):
+        return {}, {}, None
+    d = pd.read_parquet(path)
+
+    # Starrydata compositions are doped -- Pb0.98Na0.02Te -- while TEDesignLab
+    # entries are stoichiometric parents -- PbTe. Exact formula matching links
+    # almost nothing, so the link runs through the host system: a doped PbTe
+    # sample inherits the descriptors computed for the PbTe parent, which is
+    # the physically meaningful association anyway.
+    refs = ANN + 'input/df_structure_refs.parquet'
+    exact, byhost = {}, {}
+    if os.path.exists(refs):
+        rf = pd.read_parquet(refs)
+        rf = rf[(rf.source == 'tedesignlab') & rf.host_system.notna()]
+        icsd_to_id = dict(zip(d.icsd_id, d.tedl_id))
+        for r in rf.itertuples():
+            tid = icsd_to_id.get(r.icsd_id)
+            if not tid:
+                continue
+            if r.spacegroup_number == r.spacegroup_number:
+                exact[(r.host_system, int(r.spacegroup_number))] = tid
+            byhost.setdefault(r.host_system, []).append(tid)
+    return exact, byhost, d
+
+
 def main():
     led = load_ledger()
+    tedl_exact, tedl_byhost, tedl_tbl = tedl_lookup()
+    if tedl_tbl is not None:
+        print(f'TEDesignLab feature entries: {len(tedl_tbl)}')
     # Per-composition prototypes from apply_composition_splits.py override the
     # host-level label wherever a mixed host has been split by stoichiometry.
     splits = {}
@@ -107,8 +145,22 @@ def main():
         split_conf, split_rule, cpa_id, det_at = None, None, None, None
         if r.composition in splits:
             proto, split_conf, split_rule, cpa_id, det_at = splits[r.composition]
+        # link to a TEDesignLab feature vector where one exists
+        tedl_id, tedl_match = None, None
+        sg = first.get('spacegroup_number')
+        if sg is not None:
+            tedl_id = tedl_exact.get((r.host_system, int(sg)))
+            if tedl_id:
+                tedl_match = 'host+spacegroup'
+        if not tedl_id and r.host_system in tedl_byhost:
+            cands = tedl_byhost[r.host_system]
+            tedl_id = cands[0]
+            tedl_match = ('host only' if len(set(cands)) == 1
+                          else f'host only ({len(set(cands))} entries; sg unmatched)')
         rows.append({
             'composition': r.composition,
+            'tedl_id': tedl_id,
+            'tedl_match': tedl_match,
             'reduced_formula': r.reduced_formula,
             'host_system': r.host_system,
             'prototype_id': proto,
@@ -146,6 +198,10 @@ def main():
         })
     dfc = pd.DataFrame(rows)
     dfc.to_parquet(ANN + 'df_annotated_compositions.parquet', index=False, engine='pyarrow')
+    n_t = int(dfc.tedl_id.notna().sum())
+    n_ex = int((dfc.tedl_match == 'host+spacegroup').sum())
+    print(f'  {n_t} compositions link to a TEDesignLab entry '
+          f'({n_ex} on host+spacegroup)')
     print(f'  -> df_annotated_compositions.parquet  ({len(dfc)} rows)')
 
     # --- sample level --------------------------------------------------------
@@ -170,6 +226,15 @@ def main():
     print(f'  -> by_family/  ({dfs.prototype_id.nunique()} family shards)')
 
     # --- what the join bought ------------------------------------------------
+    # the ML-ready subset: samples carrying a computed feature vector
+    ml = dfs[dfs.tedl_id.notna()]
+    if len(ml):
+        mlx = dfs[dfs.tedl_match == 'host+spacegroup']
+        ml.to_parquet(ANN + 'df_tedl_linked_samples.parquet', index=False, engine='pyarrow')
+        print(f'\n  -> df_tedl_linked_samples.parquet  ({len(ml)} samples, '
+              f'{ml.tedl_id.nunique()} distinct TEDesignLab entries)')
+        print(f'     of which structure-matched (host+spacegroup): {len(mlx)}')
+
     print(f'\nSamples resolved to a structure : {len(dfs)} / 52027 '
           f'({len(dfs)/52027*100:.1f}%)')
     print(f'  with an mp_id                 : {int(dfs.mp_id.notna().sum())}')

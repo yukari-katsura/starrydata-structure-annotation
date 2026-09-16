@@ -303,6 +303,42 @@ and `confidence_note`: `misfit_cobaltite` and `misfit_layered_chalcogenide`
 so), `bi_chalcogenide_complex` (every composition is effectively its own
 structure), and `amorphous` / `metallic_glass` / `composite_multiphase` (skip).
 
+### TEDesignLab ids: the ML-ready subset
+
+`tedl_id` is kept separate from `mp_id` and `icsd_id` because it answers a
+different question. An mp_id points at a *structure*; a tedl_id points at a
+computed **feature vector** -- band gap, band and DOS effective masses, valley
+degeneracy, lattice thermal conductivity, mobility, the beta quality factor,
+bulk modulus, average coordination number and Grueneisen parameter.
+
+```
+data/annotated/input/df_tedl_entries.parquet    2,701 entries x 18 features
+data/annotated/df_tedl_linked_samples.parquet   10,420 samples carrying one
+```
+
+`tedl_id` is `TEDL-<icsd>`; the ICSD collection code is unique across all 2,701
+rows. Paired columns arrive as "valence,conduction" strings and are split into
+separate numeric columns so they can be used as features directly.
+
+**The link runs through the host system, not the composition.** Starrydata
+compositions are doped -- `Pb0.98Na0.02Te` -- while TEDesignLab entries are
+stoichiometric parents -- `PbTe`. Matching on formula links 65 compositions;
+matching through the host links **10,420 samples across 1,997 papers**, and a
+doped PbTe sample inheriting the descriptors computed for the PbTe parent is the
+physically meaningful association anyway.
+
+`tedl_match` records how good the link is, and this matters for training:
+
+| match | samples | meaning |
+|---|---:|---|
+| `host+spacegroup` | 7,512 | the descriptors belong to the structure actually assigned |
+| `host only` | 2,346 | one entry for the host, space group not confirmed |
+| `host only (N entries)` | 562 | several polymorphs; the wrong one may have been taken |
+
+Filter to `host+spacegroup` for training. A descriptor computed for a different
+polymorph is a different physical quantity -- LaVO4 appears twice, at sg 14 and
+sg 141, with band gaps of 3.50 and 3.15 eV.
+
 ### CSV export
 
 ```bash

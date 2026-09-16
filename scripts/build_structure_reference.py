@@ -84,6 +84,57 @@ def require_references():
     sys.exit(1)
 
 
+def build_tedl_entries(t):
+    """TEDesignLab rows as a feature table, keyed by a stable tedl_id.
+
+    Kept separate from mp_id and icsd_id because it answers a different
+    question: an mp_id points at a structure, a tedl_id points at a computed
+    thermoelectric feature vector -- band gap, effective masses, valley
+    degeneracy, lattice thermal conductivity, mobility, the beta quality
+    factor, bulk modulus, coordination number and Grueneisen parameter.
+
+    The ICSD collection code is unique across the 2,701 rows, so tedl_id is
+    TEDL-<icsd> and is stable for as long as the source sheet is.
+
+    Paired columns arrive as "valence,conduction" strings; they are split into
+    separate numeric columns so they can be used as features directly.
+    """
+    PAIRED = {'m*b (vb,cb)': ('mstar_b_vb', 'mstar_b_cb'),
+              'Nb (vb,cb)': ('Nb_vb', 'Nb_cb'),
+              'mob (h,e)': ('mobility_h', 'mobility_e'),
+              'beta (p,n)': ('beta_p', 'beta_n'),
+              'm*DOS(vb,cb)': ('mstar_dos_vb', 'mstar_dos_cb')}
+    SINGLE = {'Eg (eV)': 'band_gap_eV', 'kL': 'kL_W_mK', 'natoms': 'natoms',
+              'density': 'density', 'volume': 'volume', 'bulkmod': 'bulk_modulus',
+              'avgcn': 'avg_coordination', 'gamma': 'gruneisen'}
+
+    def num(x):
+        try:
+            return float(str(x).strip())
+        except (TypeError, ValueError):
+            return None
+
+    rows = []
+    for r in t.itertuples():
+        d = {'tedl_id': f'TEDL-{int(r.icsd)}',
+             'icsd_id': int(r.icsd),
+             'tedl_compound': str(r.compound),
+             'spacegroup_number': int(r.sg) if r.sg == r.sg else None,
+             'tedl_cite': getattr(r, 'cite', None),
+             'tedl_group': getattr(r, 'comment', None)}
+        red, _, _ = keys_for(r.compound)
+        d['reduced_formula'] = red
+        row = t.loc[r.Index]
+        for col, name in SINGLE.items():
+            d[name] = num(row.get(col))
+        for col, (a, b) in PAIRED.items():
+            v = str(row.get(col, '')).split(',')
+            d[a] = num(v[0]) if len(v) > 0 else None
+            d[b] = num(v[1]) if len(v) > 1 else None
+        rows.append(d)
+    return pd.DataFrame(rows)
+
+
 def main():
     require_references()
     hosts = pd.read_parquet(OUT + 'df_host_systems.parquet')
@@ -94,6 +145,10 @@ def main():
     print(f'Reading {TEDL} ...')
     t = pd.read_excel(TEDL)
     print(f'  {len(t)} rows, {t.compound.nunique()} distinct compounds')
+    tedl = build_tedl_entries(t)
+    tedl.to_parquet(OUT + 'df_tedl_entries.parquet', index=False, engine='pyarrow')
+    print(f'  -> {OUT}df_tedl_entries.parquet  ({len(tedl)} entries, '
+          f'{len(tedl.columns)} columns, {tedl.reduced_formula.nunique()} formulas)')
     for _, r in t.iterrows():
         red, full, host = keys_for(r['compound'])
         if red is None:
