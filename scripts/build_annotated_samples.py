@@ -80,7 +80,9 @@ def main():
     sp = ANN + 'annotations/composition_assignments.parquet'
     if os.path.exists(sp):
         d = pd.read_parquet(sp)
-        splits = {r.composition: (r.prototype_id, r.confidence, r.matched)
+        splits = {r.composition: (r.prototype_id, r.confidence, r.matched,
+                                  getattr(r, 'assignment_id', None),
+                                  getattr(r, 'determined_at', 'composition'))
                   for r in d.itertuples()}
         print(f'Composition-level splits available for {len(splits)} compositions')
     tax = {p['id']: p for p in json.load(open(TAX))['prototypes']}
@@ -102,9 +104,9 @@ def main():
         phases = rec.get('phases') or []
         first = phases[0] if phases else {}
         proto = rec['prototype_id']
-        split_conf, split_rule = None, None
+        split_conf, split_rule, cpa_id, det_at = None, None, None, None
         if r.composition in splits:
-            proto, split_conf, split_rule = splits[r.composition]
+            proto, split_conf, split_rule, cpa_id, det_at = splits[r.composition]
         rows.append({
             'composition': r.composition,
             'reduced_formula': r.reduced_formula,
@@ -117,6 +119,10 @@ def main():
             'mp_id': first.get('mp_id'),
             'confidence': split_conf or rec['confidence'],
             'split_rule': split_rule,
+            # which record actually decided this sample's structure
+            'assignment_id': cpa_id or rec.get('assignment_id'),
+            'host_assignment_id': rec.get('assignment_id'),
+            'determined_at': det_at or rec.get('determined_at'),
             # A mixed host carries one label for several real structures, so
             # the composition-level prototype is provisional until split.
             'needs_composition_split': bool(rec.get('is_mixed')) and r.composition not in splits,

@@ -303,6 +303,34 @@ and `confidence_note`: `misfit_cobaltite` and `misfit_layered_chalcogenide`
 so), `bi_chalcogenide_complex` (every composition is effectively its own
 structure), and `amorphous` / `metallic_glass` / `composite_multiphase` (skip).
 
+### Identifiers, and what a host system is not
+
+**`host_system` is a routing key, not an identity.** The same element set can
+hold several structures: `Fe-O` covers spinel Fe3O4 and corundum Fe2O3, `O-Ti`
+covers rutile, anatase, corundum, rocksalt and Magneli phases. Keying an
+assignment by host alone would claim something the data does not support.
+
+Every assignment therefore carries a stable id and states the level it is
+decided at:
+
+| field | meaning |
+|---|---|
+| `assignment_id` | `HSA-<10 hex>` for host records, `CPA-<10 hex>` for composition records. sha1 of the natural key, so it survives regeneration, re-ranking and threshold changes |
+| `determined_at` | `host`, `composition`, or `sample_required` |
+| `is_authoritative` | false when a finer-grained record supersedes this one |
+| `n_prototypes_below` | how many distinct prototypes the compositions under this host resolve to; >1 means the host label is not a structure |
+
+Current split: **105 hosts decided at host level, 44 at composition level, 1
+needing the sample**. By samples: 19,085 / 14,013 / 88.
+
+`df_annotated_samples.parquet` carries `assignment_id` (the record that actually
+decided that sample), `host_assignment_id` (its grouping), and `determined_at`,
+so a claim about any sample can be traced to the record behind it.
+
+Even composition is not always sufficient. alpha-Fe2O3 is hematite (corundum)
+and gamma-Fe2O3 is maghemite (spinel) -- one formula, two structures -- so that
+composition reads `sample_required` rather than being forced to an answer.
+
 ### Splitting mixed hosts by stoichiometry
 
 47 hosts were flagged `is_mixed` -- one label standing over several real

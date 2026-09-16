@@ -297,6 +297,36 @@
           ]
         }
       }
+    },
+    "assignment_id": {
+      "type": "string",
+      "description": "Stable identifier, HSA-<10 hex> derived from sha1 of the host_system. It survives regeneration, re-ranking and threshold changes, and changes only if the key itself does. Composition-level records in composition_assignments.parquet use CPA- and carry host_assignment_id back to this one."
+    },
+    "determined_at": {
+      "enum": [
+        "host",
+        "composition",
+        "sample_required"
+      ],
+      "description": "The level at which this structure is actually decided. host_system is a routing key, NOT an identity: the same element set can hold several structures. Fe-O covers spinel Fe3O4 and corundum Fe2O3; O-Ti covers five. Where composition separates them this reads 'composition' and the host record is not authoritative. Where even composition cannot -- alpha-Fe2O3 (corundum) and gamma-Fe2O3 (spinel) share a formula -- it reads 'sample_required'."
+    },
+    "is_authoritative": {
+      "type": "boolean",
+      "description": "False when a finer-grained record supersedes this one. Read the composition-level table instead; this record is then a grouping, not a claim about structure."
+    },
+    "superseded_by": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Where the authoritative assignment lives."
+    },
+    "n_prototypes_below": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "How many distinct prototypes the compositions under this host resolve to. >1 means the host label cannot be used as a structure."
     }
   },
   "examples": [
