@@ -517,6 +517,30 @@ something the references contradict.
 The suite is negative-tested: injecting four of the original bugs makes exactly
 those four checks fail.
 
+### Running chunks unattended
+
+```bash
+caffeinate -i ./run_chunks.sh 5 10
+```
+
+`caffeinate -i` holds an idle-sleep assertion for the script's lifetime and
+releases it on exit. Display and disk sleep do not stop computation and are left
+alone. On a laptop the lid must stay open; a closed lid sleeps regardless.
+
+The script runs one `claude -p` per chunk rather than one for the whole range,
+so each chunk is a bounded task and a failure stops the loop with everything
+before it already committed. After each chunk it rebuilds the derived tables,
+runs the gate, and **stops without committing if the gate fails**. It commits
+locally but does not push.
+
+`--permission-mode acceptEdits` lets it write files without prompting while
+still refusing anything more dangerous. `bypassPermissions` would also work and
+is not worth the risk for this.
+
+Two things it cannot do: notice that a whole chunk is subtly wrong in a way no
+invariant covers, and verify anything in a host with no structure reference --
+which is a third of assignments now and rises down the tail.
+
 ### Checking an assignment against the paper
 
 Nothing here has been read out of a paper, so `experimentally_confirmed` is
