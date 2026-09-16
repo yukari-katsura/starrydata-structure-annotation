@@ -12,6 +12,10 @@ Together they make stage 2 possible without hitting the Materials Project API,
 and they are the only evidence in this project that does not come from a
 language model.
 
+**Citation: see [CITATIONS.md](CITATIONS.md).** TEDesignLab must be cited as
+Gorai et al., *Comput. Mater. Sci.* **112**, 368-376 (2016),
+doi:10.1016/j.commatsci.2015.11.006, whenever these data are used.
+
 ## Derived index
 
 `python scripts/build_structure_reference.py` links both to the annotation's

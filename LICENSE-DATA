@@ -22,8 +22,11 @@ Third-party data redistributed or referenced here keeps its own terms:
 |---|---|---|
 | Starrydata | `data/processed/*.parquet` | Starrydata dataset terms; see the Starrydata project |
 | Materials Project | `data/reference/mp_190822.csv` (untracked) | CC BY 4.0, Materials Project |
-| TEDesignLab | `data/reference/tedesignlab-complete-data.xlsx` | **terms not yet confirmed — see the pre-publication checklist in README.md** |
+| TEDesignLab | `data/reference/tedesignlab-complete-data.xlsx` | citation required (Gorai et al. 2016, doi:10.1016/j.commatsci.2015.11.006); redistribution terms not stated — see `data/reference/CITATIONS.md` |
 | ICSD identifiers | referenced throughout | identifiers only; no ICSD structure data is redistributed |
 
 If you use the annotations, please cite this repository and the Starrydata
-dataset it describes.
+dataset it describes. If you use anything derived from the structure
+references, cite the sources listed in `data/reference/CITATIONS.md` as well --
+in particular TEDesignLab (Gorai et al. 2016) and the Materials Project
+(Jain et al. 2013).
