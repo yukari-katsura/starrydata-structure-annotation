@@ -7,6 +7,10 @@
 data/reference/tedesignlab-complete-data.xlsx
 data/reference/mp_190822.csv
 
+# CSV exports are derived from the parquet tables and an order of magnitude
+# larger. Regenerate with: python scripts/export_csv.py
+data/annotated/csv/
+
 __pycache__/
 *.pyc
 .venv/

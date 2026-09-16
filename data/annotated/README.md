@@ -303,6 +303,22 @@ and `confidence_note`: `misfit_cobaltite` and `misfit_layered_chalcogenide`
 so), `bi_chalcogenide_complex` (every composition is effectively its own
 structure), and `amorphous` / `metallic_glass` / `composite_multiphase` (skip).
 
+### CSV export
+
+```bash
+python scripts/export_csv.py --both     # -> data/annotated/csv/
+```
+
+Parquet stays the source of truth -- it preserves dtypes and nulls and is about
+a tenth the size. The CSVs are a convenience copy and are gitignored.
+
+`--flat` is usually what a spreadsheet wants: it drops the two JSON columns and
+promotes what people actually read out of them -- `phase1_spacegroup`,
+`phase1_mp_id`, `phase1_transition_K`, `dopant1_element`, `dopant1_role`,
+`dopant1_substitutes_for`, `dopant1_site_fraction`. Note that the flat form
+keeps only the first phase and the largest dopant; `n_phases` and `n_dopants`
+say when something was left behind, and the full export keeps everything.
+
 ### Identifiers, and what a host system is not
 
 **`host_system` is a routing key, not an identity.** The same element set can
