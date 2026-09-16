@@ -1,0 +1,1322 @@
+{
+ "purpose": "Hand-entered MaterialFamily labels mapped to structure candidates, lifted out of thermoelectric_structure_ontology_v0.2.json. HELD OUT: not an annotation input. Use only to validate the finished stage-1 classification.",
+ "source": "data/dict/thermoelectric_structure_ontology_v0.2.json",
+ "legacy_label_map": {
+  "Bi2Te3": {
+   "sample_count": 1742,
+   "canonical_material_family": "Bi2Te3-based",
+   "structure_candidate_id": "tetradymite_Bi2Te3_type",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Perovskite": {
+   "sample_count": 1658,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Skutterudite": {
+   "sample_count": 1628,
+   "canonical_material_family": "skutterudite",
+   "structure_candidate_id": "skutterudite_CoAs3",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Oxide": {
+   "sample_count": 1506,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Half-Heusler": {
+   "sample_count": 1256,
+   "canonical_material_family": "half-Heusler",
+   "structure_candidate_id": "half_Heusler_C1b",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Cobaltite": {
+   "sample_count": 1016,
+   "canonical_material_family": "other",
+   "structure_candidate_id": "noncrystalline_or_unknown",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "PbTe": {
+   "sample_count": 981,
+   "canonical_material_family": "PbTe-based",
+   "structure_candidate_id": "rocksalt_B1",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Heavy-Fermion": {
+   "sample_count": 874,
+   "canonical_material_family": "alloy/intermetallic",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Telluride": {
+   "sample_count": 868,
+   "canonical_material_family": "chalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Antimonide": {
+   "sample_count": 815,
+   "canonical_material_family": "pnictide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Selenide": {
+   "sample_count": 775,
+   "canonical_material_family": "chalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Alloy": {
+   "sample_count": 741,
+   "canonical_material_family": "alloy/intermetallic",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Mg2Si": {
+   "sample_count": 679,
+   "canonical_material_family": "Mg2X",
+   "structure_candidate_id": "antifluorite_Mg2X",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Sulfide": {
+   "sample_count": 669,
+   "canonical_material_family": "chalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Silicide": {
+   "sample_count": 537,
+   "canonical_material_family": "silicide/germanide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Clathrate": {
+   "sample_count": 496,
+   "canonical_material_family": "clathrate",
+   "structure_candidate_id": "clathrate_type_I",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Chalcogenide": {
+   "sample_count": 481,
+   "canonical_material_family": "chalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "ZnO": {
+   "sample_count": 290,
+   "canonical_material_family": "ZnO-based",
+   "structure_candidate_id": "wurtzite_ZnO",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Zintl": {
+   "sample_count": 274,
+   "canonical_material_family": "Zintl",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Heusler": {
+   "sample_count": 201,
+   "canonical_material_family": "Heusler",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Si/Ge": {
+   "sample_count": 156,
+   "canonical_material_family": "SiGe",
+   "structure_candidate_id": "diamond_A4",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Metal": {
+   "sample_count": 151,
+   "canonical_material_family": "alloy/intermetallic",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "SnSe": {
+   "sample_count": 120,
+   "canonical_material_family": "SnSe-based",
+   "structure_candidate_id": "SnSe_Pnma",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Si": {
+   "sample_count": 114,
+   "canonical_material_family": "Si",
+   "structure_candidate_id": "diamond_A4",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Polymer": {
+   "sample_count": 104,
+   "canonical_material_family": "organic/polymer",
+   "structure_candidate_id": "polymer_noncrystalline",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Heusler (Full-Heusler)": {
+   "sample_count": 83,
+   "canonical_material_family": "full-Heusler",
+   "structure_candidate_id": "full_Heusler_L21",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Carbide": {
+   "sample_count": 47,
+   "canonical_material_family": "other",
+   "structure_candidate_id": "noncrystalline_or_unknown",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Chalcopyrite": {
+   "sample_count": 44,
+   "canonical_material_family": "chalcopyrite",
+   "structure_candidate_id": "chalcopyrite_CuFeS2",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Germinide": {
+   "sample_count": 43,
+   "canonical_material_family": "silicide/germanide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Boron": {
+   "sample_count": 42,
+   "canonical_material_family": "boron-rich",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "SiGe": {
+   "sample_count": 27,
+   "canonical_material_family": "SiGe",
+   "structure_candidate_id": "diamond_A4",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Silicon carbide": {
+   "sample_count": 26,
+   "canonical_material_family": "SiC",
+   "structure_candidate_id": "SiC_polytype",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Chalcogenide (oxychalcogenide)": {
+   "sample_count": 24,
+   "canonical_material_family": "oxychalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Phosphide": {
+   "sample_count": 22,
+   "canonical_material_family": "pnictide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Selenide (oxyselenide)": {
+   "sample_count": 20,
+   "canonical_material_family": "oxychalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Perovskite (Perovskite manganites)": {
+   "sample_count": 15,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Oxide (oxyselenide)": {
+   "sample_count": 15,
+   "canonical_material_family": "oxychalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Chalcogenide (lead chalcogenides)": {
+   "sample_count": 15,
+   "canonical_material_family": "PbTe-based",
+   "structure_candidate_id": "rocksalt_B1",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Antimonide (Zintl phase)": {
+   "sample_count": 14,
+   "canonical_material_family": "Zintl",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Organic": {
+   "sample_count": 14,
+   "canonical_material_family": "organic/polymer",
+   "structure_candidate_id": "polymer_noncrystalline",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Graphene": {
+   "sample_count": 13,
+   "canonical_material_family": "graphene",
+   "structure_candidate_id": "graphite_graphene",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Nitride": {
+   "sample_count": 12,
+   "canonical_material_family": "other",
+   "structure_candidate_id": "noncrystalline_or_unknown",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Oxide (CaMnO3-based oxides)": {
+   "sample_count": 12,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Oxide (misfit cobaltite)": {
+   "sample_count": 12,
+   "canonical_material_family": "misfit cobaltite",
+   "structure_candidate_id": "misfit_cobaltite",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Alloy (quasicrystal)": {
+   "sample_count": 11,
+   "canonical_material_family": "quasicrystal",
+   "structure_candidate_id": "quasicrystal",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Alloy (Mg was selected for alloying in Pb sites to produce point defects ref page 1)": {
+   "sample_count": 10,
+   "canonical_material_family": "alloy/intermetallic",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Perovskite (perovskite oxide)": {
+   "sample_count": 10,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Oxide (oxyselenides)": {
+   "sample_count": 10,
+   "canonical_material_family": "oxychalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Silicide (magnesium silicide based solid solutions)": {
+   "sample_count": 9,
+   "canonical_material_family": "Mg2X",
+   "structure_candidate_id": "antifluorite_Mg2X",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Silicide (chimneyladder phase)": {
+   "sample_count": 9,
+   "canonical_material_family": "higher manganese silicide",
+   "structure_candidate_id": "HMS_Nowotny_chimney_ladder",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Aluminide": {
+   "sample_count": 9,
+   "canonical_material_family": "alloy/intermetallic",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "d-silicide": {
+   "sample_count": 8,
+   "canonical_material_family": "silicide/germanide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Oxide (layered Co-based oxides)": {
+   "sample_count": 8,
+   "canonical_material_family": "layered cobaltate/cobaltite",
+   "structure_candidate_id": "layered_cobaltate",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Silicide (Cobalt monosilicide)": {
+   "sample_count": 8,
+   "canonical_material_family": "B20 silicide",
+   "structure_candidate_id": "B20_FeSi_type",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Perovskite (perovskite manganites)": {
+   "sample_count": 8,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Selenide (quaternary selenides)": {
+   "sample_count": 8,
+   "canonical_material_family": "chalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Perovskite (Perovskite manganite)": {
+   "sample_count": 8,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Chalcogenide (oxychalcogenide (BiCuSeO-based oxide))": {
+   "sample_count": 8,
+   "canonical_material_family": "BiCuSeO-based oxychalcogenide",
+   "structure_candidate_id": "BiCuSeO_ZrCuSiAs_type",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Stannite": {
+   "sample_count": 7,
+   "canonical_material_family": "stannite",
+   "structure_candidate_id": "stannite",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Sulfide (tin titanium trisulfide)": {
+   "sample_count": 7,
+   "canonical_material_family": "chalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Chevrel phase": {
+   "sample_count": 7,
+   "canonical_material_family": "Chevrel phase",
+   "structure_candidate_id": "chevrel",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Argyrodite": {
+   "sample_count": 7,
+   "canonical_material_family": "argyrodite",
+   "structure_candidate_id": "argyrodite",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Si (Ge doped Si)": {
+   "sample_count": 7,
+   "canonical_material_family": "SiGe",
+   "structure_candidate_id": "diamond_A4",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Oxide (transparent conductive oxides (TCOs))": {
+   "sample_count": 7,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Chalcogenide (n-type BiSe, Te-free weak topological insulator)": {
+   "sample_count": 7,
+   "canonical_material_family": "chalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Half-Heusler (n-type semiconducting material)": {
+   "sample_count": 6,
+   "canonical_material_family": "half-Heusler",
+   "structure_candidate_id": "half_Heusler_C1b",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Oxide (Delafossite-type oxides )": {
+   "sample_count": 6,
+   "canonical_material_family": "delafossite",
+   "structure_candidate_id": "delafossite",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Selenide (Selenide. Ir doped RuSe2)": {
+   "sample_count": 6,
+   "canonical_material_family": "RuSe2-based",
+   "structure_candidate_id": "pyrite_C2",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Chalcogenide (lead chalcogenide)": {
+   "sample_count": 6,
+   "canonical_material_family": "PbTe-based",
+   "structure_candidate_id": "rocksalt_B1",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Oxide (perovskite-type oxides)": {
+   "sample_count": 6,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Oxide (tetragonal tungsten bronze (TTB))": {
+   "sample_count": 6,
+   "canonical_material_family": "tetragonal tungsten bronze",
+   "structure_candidate_id": "tetragonal_tungsten_bronze",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Oxide (In-based oxides)": {
+   "sample_count": 6,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Oxide (high mobility transparent conductive oxide)": {
+   "sample_count": 6,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Alloy ( Mg was selected for alloying in Pb sites to produce point defects ref page 1)": {
+   "sample_count": 6,
+   "canonical_material_family": "alloy/intermetallic",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Graphene (Graphene)": {
+   "sample_count": 6,
+   "canonical_material_family": "graphene",
+   "structure_candidate_id": "graphite_graphene",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Oxide (Magnite)": {
+   "sample_count": 5,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Chalcogenide (oxychalcogenides)": {
+   "sample_count": 5,
+   "canonical_material_family": "oxychalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Half-Heusler ( double half-Heusler)": {
+   "sample_count": 5,
+   "canonical_material_family": "half-Heusler",
+   "structure_candidate_id": "half_Heusler_C1b",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Chalcogenide (Oxychalcogenides)": {
+   "sample_count": 5,
+   "canonical_material_family": "oxychalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Silicide (B20 cubic structure )": {
+   "sample_count": 5,
+   "canonical_material_family": "B20 silicide",
+   "structure_candidate_id": "B20_FeSi_type",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Germanide": {
+   "sample_count": 5,
+   "canonical_material_family": "silicide/germanide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "ZnO (Al-doped ZnO made from 4N purity Al2O3 (2 wt%) doped ZnO target)": {
+   "sample_count": 5,
+   "canonical_material_family": "ZnO-based",
+   "structure_candidate_id": "wurtzite_ZnO",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Alloy (telluride)": {
+   "sample_count": 5,
+   "canonical_material_family": "alloy/intermetallic",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Oxide (Lithium cobaltite oxides)": {
+   "sample_count": 5,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Chalcogenide (famatinite, tetrahedrites)": {
+   "sample_count": 5,
+   "canonical_material_family": "tetrahedrite/famatinite-related",
+   "structure_candidate_id": "tetrahedrite_Cu12Sb4S13",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Silicide (Magnesium silicide)": {
+   "sample_count": 5,
+   "canonical_material_family": "Mg2X",
+   "structure_candidate_id": "antifluorite_Mg2X",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Oxide (Fresnoite crystals)": {
+   "sample_count": 5,
+   "canonical_material_family": "fresnoite",
+   "structure_candidate_id": "fresnoite",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Ceramics": {
+   "sample_count": 4,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Heusler (Fe based Heusler alloy)": {
+   "sample_count": 4,
+   "canonical_material_family": "other",
+   "structure_candidate_id": "noncrystalline_or_unknown",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Cobaltite (misfit- layered cobalt oxide)": {
+   "sample_count": 4,
+   "canonical_material_family": "misfit cobaltite",
+   "structure_candidate_id": "misfit_cobaltite",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Perovskite (n-type oxide)": {
+   "sample_count": 4,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Bi2Te3 (Cu4Te3)": {
+   "sample_count": 4,
+   "canonical_material_family": "Bi2Te3-based",
+   "structure_candidate_id": "tetradymite_Bi2Te3_type",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Oxide (n-type transition metal oxide)": {
+   "sample_count": 4,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Skutterudite (p-type skutterudites La0.8Ti0.1Ga0.1Fe3CoSb12 composite with n-type Fe3Si nanoprecipitate)": {
+   "sample_count": 4,
+   "canonical_material_family": "filled skutterudite",
+   "structure_candidate_id": "filled_skutterudite",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Oxide ( oxysulfide family)": {
+   "sample_count": 4,
+   "canonical_material_family": "oxychalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Alloy (Sulfide)": {
+   "sample_count": 4,
+   "canonical_material_family": "alloy/intermetallic",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Alloy (Zintl)": {
+   "sample_count": 4,
+   "canonical_material_family": "Zintl",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Cobaltite (layered cobaltite)": {
+   "sample_count": 4,
+   "canonical_material_family": "layered cobaltate/cobaltite",
+   "structure_candidate_id": "layered_cobaltate",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Oxide (cobalt based oxide)": {
+   "sample_count": 4,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Alloy (High Entropy Alloy)": {
+   "sample_count": 4,
+   "canonical_material_family": "alloy/intermetallic",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Alloy (Ni-Co alloy)": {
+   "sample_count": 4,
+   "canonical_material_family": "alloy/intermetallic",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Cobaltite (cobalt oxide)": {
+   "sample_count": 4,
+   "canonical_material_family": "other",
+   "structure_candidate_id": "noncrystalline_or_unknown",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Telluride (chalcopyrite structure)": {
+   "sample_count": 4,
+   "canonical_material_family": "chalcopyrite",
+   "structure_candidate_id": "chalcopyrite_CuFeS2",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "tetrahedrites": {
+   "sample_count": 4,
+   "canonical_material_family": "tetrahedrite/famatinite-related",
+   "structure_candidate_id": "tetrahedrite_Cu12Sb4S13",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Ruthenates": {
+   "sample_count": 4,
+   "canonical_material_family": "other",
+   "structure_candidate_id": "noncrystalline_or_unknown",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Cobaltite (misfit-layered cobalt oxides)": {
+   "sample_count": 4,
+   "canonical_material_family": "misfit cobaltite",
+   "structure_candidate_id": "misfit_cobaltite",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Oxide (n-type CdO-based oxides)": {
+   "sample_count": 4,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Iron pnictides": {
+   "sample_count": 3,
+   "canonical_material_family": "pnictide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "PbTe (The PbTe samples were prepared from 99.9percent Pb and 99.999percent Te powders as the sources, which were weighed according to the stoichiometry. After being uniformly mixed in an agate mortar, the mixtures were shaped by press.)": {
+   "sample_count": 3,
+   "canonical_material_family": "PbTe-based",
+   "structure_candidate_id": "rocksalt_B1",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Telluride (layered copper oxytellurides)": {
+   "sample_count": 3,
+   "canonical_material_family": "oxychalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Perovskite (Metallic oxides of the perovskite)": {
+   "sample_count": 3,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Oxide (magnetoresistive polycrystalline manganite)": {
+   "sample_count": 3,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Skutterudite (fullerene (C60))": {
+   "sample_count": 3,
+   "canonical_material_family": "skutterudite",
+   "structure_candidate_id": "skutterudite_CoAs3",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "diamondlike structure": {
+   "sample_count": 3,
+   "canonical_material_family": "other",
+   "structure_candidate_id": "noncrystalline_or_unknown",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Oxide (n-type oxide materials)": {
+   "sample_count": 3,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Silicide (sesquisilicide)": {
+   "sample_count": 3,
+   "canonical_material_family": "sesquisilicide",
+   "structure_candidate_id": "Mn5Si3_D88",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Boron (B12 icosahedral cluster)": {
+   "sample_count": 3,
+   "canonical_material_family": "boron-rich",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Borocarbonitride": {
+   "sample_count": 2,
+   "canonical_material_family": "boron-rich",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Bi2Te3 (Bi is substituted with Sb)": {
+   "sample_count": 2,
+   "canonical_material_family": "Bi2Te3-based",
+   "structure_candidate_id": "tetradymite_Bi2Te3_type",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Tetrahedrite": {
+   "sample_count": 2,
+   "canonical_material_family": "tetrahedrite/famatinite-related",
+   "structure_candidate_id": "tetrahedrite_Cu12Sb4S13",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Chalcogenide (polycrystalline layered oxychalcogenide)": {
+   "sample_count": 2,
+   "canonical_material_family": "oxychalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Cobaltite (layered cobaltates)": {
+   "sample_count": 2,
+   "canonical_material_family": "layered cobaltate/cobaltite",
+   "structure_candidate_id": "layered_cobaltate",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Oxide (hollandite)": {
+   "sample_count": 2,
+   "canonical_material_family": "hollandite oxide",
+   "structure_candidate_id": "hollandite",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Perovskite (lead-free tetragonal perovskites)": {
+   "sample_count": 2,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "ZnO (amorphous InGaZnO (n Ga Zn 2 2 1 at percent oxygen flow rate ratio O2by ArandO2 is 4.5 percent)": {
+   "sample_count": 2,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "amorphous_IGZO",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Cobaltite ( layered cobaltite)": {
+   "sample_count": 2,
+   "canonical_material_family": "layered cobaltate/cobaltite",
+   "structure_candidate_id": "layered_cobaltate",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Borom": {
+   "sample_count": 2,
+   "canonical_material_family": "boron-rich",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Cobaltite (It is not cobaltite, it is oxide)": {
+   "sample_count": 2,
+   "canonical_material_family": "other",
+   "structure_candidate_id": "noncrystalline_or_unknown",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Alloy (Cerium ternary intermetallic compounds)": {
+   "sample_count": 2,
+   "canonical_material_family": "alloy/intermetallic",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "ZnO (amorphous InGaZnO (n Ga Zn 2 2 1 at percent oxygen flow rate ratio O2by ArandO2 is 6 percent)": {
+   "sample_count": 2,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "amorphous_IGZO",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "ZnO (amorphous InGaZnO (n Ga Zn 2 2 1 at percent oxygen flow rate ratio O2by ArandO2 is 1 percent)": {
+   "sample_count": 2,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "amorphous_IGZO",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "ZnO (amorphous InGaZnO (n Ga Zn 2 2 1 at percent oxygen flow rate ratio O2by ArandO2 is 3 percent)": {
+   "sample_count": 2,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "amorphous_IGZO",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Oxide (transition-metal oxides (TMOs))": {
+   "sample_count": 2,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Sulfide (tetrahedrite)": {
+   "sample_count": 2,
+   "canonical_material_family": "tetrahedrite/famatinite-related",
+   "structure_candidate_id": "tetrahedrite_Cu12Sb4S13",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Chalcogenide (tetrahedrite)": {
+   "sample_count": 2,
+   "canonical_material_family": "tetrahedrite/famatinite-related",
+   "structure_candidate_id": "tetrahedrite_Cu12Sb4S13",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Boron ( beryllium-free borate)": {
+   "sample_count": 2,
+   "canonical_material_family": "boron-rich",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Perovskite (Inverse perovskites)": {
+   "sample_count": 2,
+   "canonical_material_family": "inverse perovskite",
+   "structure_candidate_id": "inverse_perovskite",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Oxide (Spinel oxides)": {
+   "sample_count": 2,
+   "canonical_material_family": "spinel oxide",
+   "structure_candidate_id": "spinel",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Silicide (Higher manganese silicides (HMSs; MnSi, 1.73    1.75))": {
+   "sample_count": 2,
+   "canonical_material_family": "higher manganese silicide",
+   "structure_candidate_id": "HMS_Nowotny_chimney_ladder",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Oxide ( bismuth oxyhalides)": {
+   "sample_count": 2,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "ZnO (amorphous InGaZnO (n Ga Zn 2 2 1 at percent oxygen flow rate ratio O2by ArandO2 is 2 percent)": {
+   "sample_count": 2,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "amorphous_IGZO",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Bi2Te3 (Mixture of metals. Here the compund BST mixed with Cu)": {
+   "sample_count": 2,
+   "canonical_material_family": "Bi2Te3-based",
+   "structure_candidate_id": "tetradymite_Bi2Te3_type",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Clathrate (ref page 8)": {
+   "sample_count": 2,
+   "canonical_material_family": "clathrate",
+   "structure_candidate_id": "clathrate_type_I",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Perovskite (manganite)": {
+   "sample_count": 2,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Si (higher manganese silicide (HMS))": {
+   "sample_count": 1,
+   "canonical_material_family": "higher manganese silicide",
+   "structure_candidate_id": "HMS_Nowotny_chimney_ladder",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Tl4TiS4": {
+   "sample_count": 1,
+   "canonical_material_family": "other",
+   "structure_candidate_id": "noncrystalline_or_unknown",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Half-metals": {
+   "sample_count": 1,
+   "canonical_material_family": "alloy/intermetallic",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Selenide (Selenide. Ir doped RuSe2 NOT Te. Pure RuSe2)": {
+   "sample_count": 1,
+   "canonical_material_family": "RuSe2-based",
+   "structure_candidate_id": "pyrite_C2",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Silicide ( sesquisilicide)": {
+   "sample_count": 1,
+   "canonical_material_family": "sesquisilicide",
+   "structure_candidate_id": "Mn5Si3_D88",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Oxide (Pd-coated Ca0.9Yb0.1MnO3)": {
+   "sample_count": 1,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Oxide (bixbyite structure)": {
+   "sample_count": 1,
+   "canonical_material_family": "bixbyite oxide",
+   "structure_candidate_id": "bixbyite",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Chalcopyrite (CuInTe2 diamond like structure)": {
+   "sample_count": 1,
+   "canonical_material_family": "chalcopyrite",
+   "structure_candidate_id": "chalcopyrite_CuFeS2",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "ZnO (amorphous InGaZnO (n Ga Zn 2 2 1 at percent oxygen flow rate ratio O2by ArandO2 is 0 percent)": {
+   "sample_count": 1,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "amorphous_IGZO",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Metal (Titanium based silicide quantum dot superlattices)": {
+   "sample_count": 1,
+   "canonical_material_family": "other",
+   "structure_candidate_id": "noncrystalline_or_unknown",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Zintl (?)": {
+   "sample_count": 1,
+   "canonical_material_family": "Zintl",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "ZnO (amorphous InGaZnO (n Ga Zn  2 2 1 at percent oxygen flow rate ratio O2by ArandO2 is 0 percent)": {
+   "sample_count": 1,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "amorphous_IGZO",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Sb2Te3(GeTe)17": {
+   "sample_count": 1,
+   "canonical_material_family": "GeTe/Sb2Te3 superlattice-related",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "PbTe (printed )": {
+   "sample_count": 1,
+   "canonical_material_family": "PbTe-based",
+   "structure_candidate_id": "rocksalt_B1",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Antimonide (Sb1.5Bi0.5Te3 )": {
+   "sample_count": 1,
+   "canonical_material_family": "Bi2Te3-based",
+   "structure_candidate_id": "tetradymite_Bi2Te3_type",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Bi2Te3 (Bi2Te2.7Se0.3)": {
+   "sample_count": 1,
+   "canonical_material_family": "Bi2Te3-based",
+   "structure_candidate_id": "tetradymite_Bi2Te3_type",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Alloy (Unconventional superconductor CeCu2Si2)": {
+   "sample_count": 1,
+   "canonical_material_family": "alloy/intermetallic",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "PbTe (PbI2-doped PbTe was synthesized from pure elements in evacuated quartz ampoules under vacuum )": {
+   "sample_count": 1,
+   "canonical_material_family": "PbTe-based",
+   "structure_candidate_id": "rocksalt_B1",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Cobaltite (Prepare by hot pressing pure elemental powder)": {
+   "sample_count": 1,
+   "canonical_material_family": "other",
+   "structure_candidate_id": "noncrystalline_or_unknown",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Bi2Te3 (Bi2Te3-based materials)": {
+   "sample_count": 1,
+   "canonical_material_family": "Bi2Te3-based",
+   "structure_candidate_id": "tetradymite_Bi2Te3_type",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Si (n-type Si)": {
+   "sample_count": 1,
+   "canonical_material_family": "Si",
+   "structure_candidate_id": "diamond_A4",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Alloy ( n-type thermoelectric properties of the electrondoped Perovskite SrLaTiO3 by a Mn substitution)": {
+   "sample_count": 1,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Oxide (rare-earth bismuthide oxides)": {
+   "sample_count": 1,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Si (p-type Si)": {
+   "sample_count": 1,
+   "canonical_material_family": "Si",
+   "structure_candidate_id": "diamond_A4",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Alloy (n-type thermoelectric properties of the electrondoped Perovskite SrLaTiO3 by a Mn substitution)": {
+   "sample_count": 1,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Bi2Te3 (N-type bismuth telluride (Bi2Te3) )": {
+   "sample_count": 1,
+   "canonical_material_family": "Bi2Te3-based",
+   "structure_candidate_id": "tetradymite_Bi2Te3_type",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Bi2Te3 (SiO2 coated Bi2Te3)": {
+   "sample_count": 1,
+   "canonical_material_family": "Bi2Te3-based",
+   "structure_candidate_id": "tetradymite_Bi2Te3_type",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Alloy (Fee2.3CeSie5Mne7Ve8Cr alloys (with composition of C ~ 2.3Wt%, Si ~ 1.0Wt %, Mn ~5.0Wt%, Cr ~8.0Wt%, V ~ 7.0Wt%) were prepared in an induction melting furnace in an ambient environment,)": {
+   "sample_count": 1,
+   "canonical_material_family": "alloy/intermetallic",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Oxide (bismuth oxyhalides)": {
+   "sample_count": 1,
+   "canonical_material_family": "oxide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Chalcogenide (polycrystalline GeSn film on SiO2)": {
+   "sample_count": 1,
+   "canonical_material_family": "chalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Perovskite ( perovskite oxide)": {
+   "sample_count": 1,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Phosphide (barium silicon phosphide)": {
+   "sample_count": 1,
+   "canonical_material_family": "pnictide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "low",
+   "needs_composition_refinement": true
+  },
+  "Oxide (delafossite)": {
+   "sample_count": 1,
+   "canonical_material_family": "delafossite",
+   "structure_candidate_id": "delafossite",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Perovskite (A-site-deficient perovskite)": {
+   "sample_count": 1,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Perovskite (triple perovskites)": {
+   "sample_count": 1,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Perovskite (quadruple perovskite)": {
+   "sample_count": 1,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Bi2Te3 (Nano ZnO-Bi2Te2.7Se0.3 composite (n- type))": {
+   "sample_count": 1,
+   "canonical_material_family": "Bi2Te3-based",
+   "structure_candidate_id": "tetradymite_Bi2Te3_type",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Bi2Te3 (Nano ZnO-Bi0.5Sb1.5Te3 composite (p- type))": {
+   "sample_count": 1,
+   "canonical_material_family": "Bi2Te3-based",
+   "structure_candidate_id": "tetradymite_Bi2Te3_type",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Oxide (Langasite)": {
+   "sample_count": 1,
+   "canonical_material_family": "langasite",
+   "structure_candidate_id": "langasite",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Oxide (Langatate)": {
+   "sample_count": 1,
+   "canonical_material_family": "langatate",
+   "structure_candidate_id": "langatate",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Telluride (vanadium oxytelluride)": {
+   "sample_count": 1,
+   "canonical_material_family": "oxychalcogenide",
+   "structure_candidate_id": "unresolved_crystalline",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Oxide (hole-doped manganites)": {
+   "sample_count": 1,
+   "canonical_material_family": "perovskite oxide",
+   "structure_candidate_id": "perovskite_ABO3",
+   "assignment_confidence": "medium",
+   "needs_composition_refinement": true
+  },
+  "Oxide (Double perovskite oxides)": {
+   "sample_count": 1,
+   "canonical_material_family": "double perovskite",
+   "structure_candidate_id": "double_perovskite",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  },
+  "Heusler (Single-phase Co2MnSi)": {
+   "sample_count": 1,
+   "canonical_material_family": "full-Heusler",
+   "structure_candidate_id": "full_Heusler_L21",
+   "assignment_confidence": "high",
+   "needs_composition_refinement": false
+  }
+ }
+}

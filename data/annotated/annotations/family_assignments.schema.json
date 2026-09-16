@@ -1,0 +1,381 @@
+{
+  "description": "Schema for one record in family_assignments.jsonl (one JSON object per line, append-only, one record per host_system).",
+  "type": "object",
+  "required": [
+    "host_system",
+    "prototype_id",
+    "confidence",
+    "basis",
+    "annotated_by",
+    "annotated_at"
+  ],
+  "properties": {
+    "host_system": {
+      "type": "string",
+      "description": "Key from data/annotated/input/df_host_systems.parquet, e.g. 'Co-Sb'."
+    },
+    "prototype_id": {
+      "type": "string",
+      "description": "id from taxonomy/prototypes_seed_v3.json. When the measurement spans a structural transition this is the phase at the LOW-temperature end; use `phases` to record the full sequence."
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "description": "high = the prototype is unambiguous for essentially all compositions in the host system. medium = the dominant phase is clear but a minority of compositions differ. low = genuinely uncertain, needs review."
+    },
+    "basis": {
+      "type": "string",
+      "description": "One sentence on why, decided from the compositions and paper titles. Cite the composition that settled it. Do NOT appeal to the hand-entered MaterialFamily labels -- they are held out for validation."
+    },
+    "alt_prototype_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Other prototypes genuinely present in this host system, e.g. ['b20_fesi'] for Fe-Si which also contains beta-FeSi2."
+    },
+    "is_mixed": {
+      "type": "boolean",
+      "description": "true when the host system really contains several prototypes and a single label would be wrong. Stage 2 must then split it composition-by-composition."
+    },
+    "proposed_prototype": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Set to the new id when prototype_id is not in the seed taxonomy; the full definition goes in taxonomy/prototypes_proposed.jsonl."
+    },
+    "chunk": {
+      "type": "integer"
+    },
+    "rank": {
+      "type": "integer"
+    },
+    "n_samples": {
+      "type": "integer"
+    },
+    "annotated_by": {
+      "type": "string",
+      "description": "Model or person, e.g. 'claude-opus-5'."
+    },
+    "annotated_at": {
+      "type": "string",
+      "description": "ISO date."
+    },
+    "seed_hypothesis_outcome": {
+      "enum": [
+        "confirmed",
+        "rejected",
+        "refined",
+        "none_offered"
+      ],
+      "description": "What happened to the taxonomy's pre-cited hypothesis for this host, if one was offered in the chunk file. 'rejected' and 'refined' are the interesting cases -- they are how the seed taxonomy gets corrected for v3."
+    },
+    "assignment_basis": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "composition",
+          "llm_materials_knowledge",
+          "paper_evidence",
+          "database_match"
+        ]
+      },
+      "description": "How the assignment was reached, following the v0.2 ontology's schema. 'legacy_label' is deliberately NOT an allowed value -- the hand labels are held out for validation."
+    },
+    "experimentally_confirmed": {
+      "type": "boolean",
+      "description": "true only when the paper explicitly reports the structure (XRD/Rietveld/space group). Composition alone yields a CANDIDATE, never a confirmed structure -- stage 1 will almost always be false."
+    },
+    "evidence": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Optional source text, figure or page supporting a confirmed assignment."
+    },
+    "phases": {
+      "type": "array",
+      "description": "The THERMAL phase sequence the measurement passes through, in ascending temperature order. N phases have N-1 transitions: transition_K on a phase is the temperature at which it converts to the NEXT entry, and is null on the last. Required whenever the chunk file shows a 'MEASUREMENT CROSSES A TRANSITION' line. Do not put a polymorph here that heating does not produce -- those belong in other_polymorphs. SnSe has three known structures but only two thermal phases: Pnma (mp-691) -> Cmcm (mp-2168) at ~800 K; rocksalt Fm-3m (mp-2693) is metastable and never appears on heating. Note that on a solid-solution axis the transition temperature itself shifts with composition, so a single value cannot cover the whole host.",
+      "items": {
+        "type": "object",
+        "required": [
+          "prototype_id"
+        ],
+        "properties": {
+          "prototype_id": {
+            "type": "string"
+          },
+          "t_min_K": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Lower bound of this phase's stability in the measured window; null means at or below the measurement start."
+          },
+          "t_max_K": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Upper bound; null means at or above the measurement end."
+          },
+          "transition_K": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Temperature of the transition INTO the next phase. Approximate and composition-dependent."
+          },
+          "transition_basis": {
+            "enum": [
+              "paper_evidence",
+              "taxonomy_default",
+              "reference_polymorphs",
+              "llm_materials_knowledge"
+            ],
+            "description": "How the transition temperature was set. 'paper_evidence' is the only one that is confirmed; 'reference_polymorphs' means TEDesignLab lists the polymorphs but the temperature was not stated."
+          },
+          "mp_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Structure for THIS phase. TEDesignLab commonly supplies a distinct mp_id per polymorph: SnSe is mp-691 (Pnma), mp-2168 (Cmcm), mp-2693 (Fm-3m)."
+          },
+          "confidence": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          }
+        }
+      }
+    },
+    "spans_transition": {
+      "type": "boolean",
+      "description": "true when the measured temperature range crosses a structural transition. Set alongside `phases`."
+    },
+    "other_polymorphs": {
+      "type": "array",
+      "description": "Known structures for this chemistry that the measurement does NOT pass through: metastable, high-pressure, epitaxially stabilised, or computed-only phases. Kept separate from `phases` so a polymorph list is never mistaken for a thermal sequence. TEDesignLab lists polymorphs without saying which are thermally accessible, so this split has to be made by judgement -- the chunk files show e_above_hull and ICSD reference counts to inform it (rocksalt SnSe has 2 ICSD references against 32 for Pnma).",
+      "items": {
+        "type": "object",
+        "required": [
+          "prototype_id",
+          "occurrence"
+        ],
+        "properties": {
+          "prototype_id": {
+            "type": "string"
+          },
+          "spacegroup_number": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "mp_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "occurrence": {
+            "enum": [
+              "metastable",
+              "high_pressure",
+              "epitaxial_or_thin_film",
+              "computed_only",
+              "unknown"
+            ],
+            "description": "Why this structure is not in the thermal sequence."
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "dopant_roles": {
+      "type": "array",
+      "description": "What each minor element actually does in this host. Decided in stage 1, alongside the prototype, because the role follows from the prototype and cannot be judged without it -- Yb in Co-Sb is a cage filler only once the host is known to be a skutterudite. This is per (host, element): 4,474 pairs across the whole set, a median of 2 per host. The doping LEVEL is not recorded here; it is computed per composition in stage 3 from these roles plus the parsed fractions.",
+      "items": {
+        "type": "object",
+        "required": [
+          "element",
+          "role"
+        ],
+        "properties": {
+          "element": {
+            "type": "string"
+          },
+          "role": {
+            "enum": [
+              "substitutional",
+              "interstitial",
+              "cage_filler",
+              "framework_substitution",
+              "isoelectronic_substitution",
+              "alloying_component",
+              "non_stoichiometry",
+              "secondary_phase_or_contaminant",
+              "processing_residue",
+              "parse_artifact",
+              "unknown"
+            ],
+            "description": "substitutional: replaces a host species on its site. interstitial: enters a void. cage_filler: guest in a structural cage (skutterudite, clathrate). framework_substitution: alters the covalent framework and its electron count (Ga/Al/Cu for Ge in clathrates). isoelectronic_substitution: same valence as the species it replaces (Se for Te, Bi for Sb, Si for Sn), so it tunes the band structure and lattice thermal conductivity without adding carriers. It has no natural threshold -- PbSe0.99Te0.01, PbSe0.5Te0.5 and PbTe0.9Se0.1 are one continuum -- so record the sublattice fraction rather than calling it doped or alloyed. alloying_component: a solid-solution end member that happens to sit below 5 at.%, not dilute doping (Se in Bi2Te2.85Se0.15). non_stoichiometry: vacancy or excess on a host site rather than a foreign atom. secondary_phase_or_contaminant / processing_residue: not in the lattice at all -- O, C, N and H in ball-milled or hot-pressed samples are usually this. parse_artifact: not a real element (e.g. 'M0+')."
+          },
+          "substitutes_for": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Host element whose site it takes, when role is substitutional."
+          },
+          "site": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Wyckoff site, when known. Usually left null in stage 1 and filled in stage 2 once the structure file is resolved."
+          },
+          "basis": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          }
+        }
+      }
+    },
+    "solid_solution_axis": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Set when the host is an isoelectronic series rather than a single parent with dopants. 175 host systems are detected as such, including Bi-Sb-Te, Mg-Si-Sn, Ge-Si and Pb-Se-Te. The parent compound then depends on the composition, so none is recorded at host level; stage 3 assigns an end member per composition.",
+      "properties": {
+        "elements": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "The two species sharing the site, e.g. ['Se','Te']."
+        },
+        "shared_site": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Which sublattice they share, e.g. 'anion'. Confirm this: same periodic group does not imply same site -- O and Se are both group 16 but occupy distinct layers in BiCuSeO."
+        },
+        "x_min": {
+          "type": "number"
+        },
+        "x_max": {
+          "type": "number"
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "_comment": "SnSe: three known structures, two thermal phases, one transition.",
+      "host_system": "Se-Sn",
+      "prototype_id": "layered_ges",
+      "confidence": "high",
+      "basis": "SnSe dominates the host (108 of 130 compositions); Pnma is the ambient phase and converts to Cmcm inside the measured 11-980 K window.",
+      "assignment_basis": [
+        "composition",
+        "llm_materials_knowledge",
+        "database_match"
+      ],
+      "experimentally_confirmed": false,
+      "spans_transition": true,
+      "phases": [
+        {
+          "prototype_id": "layered_ges",
+          "spacegroup_number": 62,
+          "mp_id": "mp-691",
+          "t_min_K": null,
+          "t_max_K": 800,
+          "transition_K": 800,
+          "transition_basis": "taxonomy_default",
+          "confidence": "high"
+        },
+        {
+          "prototype_id": "cmcm_snse_ht",
+          "spacegroup_number": 63,
+          "mp_id": "mp-2168",
+          "t_min_K": 800,
+          "t_max_K": null,
+          "transition_K": null,
+          "transition_basis": "taxonomy_default",
+          "confidence": "high"
+        }
+      ],
+      "other_polymorphs": [
+        {
+          "prototype_id": "rocksalt",
+          "spacegroup_number": 225,
+          "mp_id": "mp-2693",
+          "occurrence": "metastable",
+          "note": "2 ICSD references against 32 for Pnma; stabilised epitaxially or under pressure, not reached by heating."
+        }
+      ],
+      "seed_hypothesis_outcome": "refined",
+      "chunk": 1,
+      "rank": 31,
+      "n_samples": 287,
+      "annotated_by": "claude-opus-5",
+      "annotated_at": "2026-09-16",
+      "dopant_roles": [
+        {
+          "element": "Na",
+          "role": "substitutional",
+          "substitutes_for": "Sn",
+          "site": null,
+          "basis": "Na0.03Sn0.965Se: acceptor on the Sn site, the standard p-type dopant for SnSe.",
+          "confidence": "high"
+        },
+        {
+          "element": "Ag",
+          "role": "substitutional",
+          "substitutes_for": "Sn",
+          "site": null,
+          "basis": "Ag0.01Sn0.99Se.",
+          "confidence": "high"
+        },
+        {
+          "element": "Pb",
+          "role": "alloying_component",
+          "substitutes_for": "Sn",
+          "site": null,
+          "basis": "Sn0.99SePb0.01 sits on the SnSe-PbSe solid-solution line rather than acting as a dilute dopant.",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ]
+}

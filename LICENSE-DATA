@@ -1,0 +1,29 @@
+# Data licence
+
+The annotation outputs in this repository are released under
+**Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+## What CC BY 4.0 covers here
+
+- `data/annotated/annotations/` — the structure-prototype assignments
+- `data/annotated/taxonomy/` — the prototype taxonomy
+- `data/annotated/df_annotated_*.parquet` and `data/annotated/by_family/`
+- `data/annotated/input/` — the derived host-system tables and chunk files
+- `data/annotated/validation/`
+
+Code under `scripts/` is MIT licensed; see LICENSE.
+
+## What it does NOT cover
+
+Third-party data redistributed or referenced here keeps its own terms:
+
+| source | file | terms |
+|---|---|---|
+| Starrydata | `data/processed/*.parquet` | Starrydata dataset terms; see the Starrydata project |
+| Materials Project | `data/reference/mp_190822.csv` (untracked) | CC BY 4.0, Materials Project |
+| TEDesignLab | `data/reference/tedesignlab-complete-data.xlsx` | **terms not yet confirmed — see the pre-publication checklist in README.md** |
+| ICSD identifiers | referenced throughout | identifiers only; no ICSD structure data is redistributed |
+
+If you use the annotations, please cite this repository and the Starrydata
+dataset it describes.

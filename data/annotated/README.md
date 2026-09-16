@@ -1,0 +1,420 @@
+# Material-family annotation
+
+Reclassifying Starrydata's thermoelectric samples by **crystal structure prototype**,
+then using that classification to attach Materials Project structures, identify
+dopants, and estimate doping levels.
+
+## Why
+
+The existing `MaterialFamily` field in `sample_info` mixes three incompatible axes:
+
+| axis | examples |
+|---|---|
+| chemical class | `Oxide`, `Telluride`, `Antimonide`, `Chalcogenide` |
+| structure prototype | `Half-Heusler`, `Skutterudite`, `Clathrate`, `Zintl` |
+| specific compound | `Bi2Te3`, `PbTe`, `ZnO`, `SnSe` |
+
+So one host system carries several unrelated labels at once — `Co-Sb` is recorded
+as Skutterudite (984), Antimonide (30) and Heavy-Fermion (13); `Ca-Co-O` as
+Cobaltite (646), Oxide (129) and Perovskite (4). The labels are also incomplete:
+only 1,825 of 3,648 host systems have one at all.
+
+This project replaces them with a single-axis prototype classification, which is
+what the downstream stages actually need — you cannot look up a structure or
+reason about a dopant site from "Telluride".
+
+### Taxonomy lineage
+
+`prototypes_seed_v3.json` merges two independently built drafts:
+
+| source | size | contributed |
+|---|---|---|
+| `prototypes_seed_v2.json` | 135 | breadth — derived by surveying the 700 largest host systems (cuprates, Ruddlesden-Popper, pyrochlore, homologous tetradymites, misfit chalcogenides, borides, heavy-fermion intermetallics) |
+| `data/dict/thermoelectric_structure_ontology_v0.2.json` | 51 | assignment epistemics, the field vocabulary, and 13 prototypes v2 missed (inverse/quaternary Heusler, filled skutterudite split, clathrate type VIII, Zintl 3-1-3, Mn5Si3, hollandite, fresnoite, langasite, langatate, a-IGZO, Chevrel, unresolved-crystalline) |
+
+All 51 v0.2 structures are carried into v3; 38 entries merge both lineages, and
+each records its sources in `merged_from`. Rebuild with
+`python scripts/merge_taxonomy_v3.py`.
+
+**Both lineages are LLM-generated** — v0.2 was drafted in discussion with ChatGPT,
+v2 by surveying the data with Claude. Where they agree that is a weak check, not
+corroboration: two models drawing on the same conventions can be wrong the same
+way. (The separate hand-written family list at `data/dict/material_families.json`
+is not an input to this project.)
+
+That is no longer the whole story: `data/reference/` now holds TEDesignLab
+(ICSD-backed space groups) and a Materials Project dump, so the taxonomy can be
+tested against measured structures rather than only against itself.
+
+```bash
+python scripts/build_structure_reference.py     # index references to host systems
+python scripts/check_taxonomy_against_refs.py   # test taxonomy space groups
+```
+
+### Candidate structure selection
+
+Precedence, highest first:
+
+1. **Thermoelectrics knowledge** decides the prototype. The references supply
+   evidence for that judgement; they do not make it.
+2. **TEDesignLab** — ICSD-backed and thermoelectric-specific. Where it covers a
+   formula, its space group selects *which* Materials Project entry to take,
+   rather than the most stable one being taken blindly. 649 formula-polymorph
+   candidates across 256 host systems.
+3. **Materials Project**, lowest `e_above_hull`, and only for formulas
+   TEDesignLab does not cover. 7,853 formulas across 2,447 host systems.
+
+98 TEDesignLab space groups have no Materials Project counterpart for that
+formula; they are flagged rather than silently replaced.
+
+### Phases and transitions
+
+A host may need more than one prototype. Transport is measured from a median
+302 K to 740 K, and 58% of curves exceed 700 K, so many thermoelectrics
+transform *inside* the measured window — SnSe Pnma→Cmcm at ~800 K (where its
+record ZT is reported), GeTe R3m→Fm-3m at ~700 K, Cu2Se and Ag2Se turning
+superionic near 400 K.
+
+Two independent signals flag this, and chunk files show both:
+
+- 11 prototypes carry `phase_transitions` in the taxonomy; a
+  `MEASUREMENT CROSSES A TRANSITION` line appears when a host's own measured
+  range spans one.
+- 115 formulas across 99 host systems have more than one ICSD polymorph in
+  TEDesignLab, each with its own `mp_id` — SnSe resolves to mp-691 (Pnma),
+  mp-2168 (Cmcm) and mp-2693 (Fm-3m).
+
+Record these in the ledger's `phases` array with per-phase temperature ranges
+and `mp_id`s, not as a single label.
+
+**Distortion series.** Some prototypes change space group without changing
+prototype. `reo3_wo3` carries a `distortion_series` field giving WO3's full
+sequence -- epsilon (Pc) / delta (P-1) / gamma (P2_1/n) / beta (Pbcn) / alpha
+(P4/ncc) / cubic (Pm-3m) -- with transition temperatures, because the cubic
+aristotype the entry originally named is essentially never observed below the
+melt. The `O-W` host's 49-1100 K window crosses three of those steps. Where a
+series exists the chunk file prints it instead of individual transition lines.
+
+Measured ranges are reported as the 5th-95th percentile of curve endpoints, not
+the absolute extremes, and the full span is shown alongside when it differs
+materially. Absolute extremes are dominated by digitisation artefacts: `Se-Sn`
+reported 11-980 K where the robust range is 293-921 K, which would have made
+every low-temperature transition look crossed.
+
+**A polymorph list is not a thermal sequence.** TEDesignLab reports the
+structures that exist for a formula; it does not say which are reached by
+heating. SnSe has three, but only two are thermal phases:
+
+| structure | mp_id | e_above_hull | ICSD refs | role |
+|---|---|---:|---:|---|
+| Pnma (62) | mp-691 | 0.000 | 32 | ambient phase |
+| Cmcm (63) | mp-2168 | 0.011 | 11 | high-T phase, from ~800 K |
+| Fm-3m (225) | mp-2693 | 0.004 | 2 | metastable — epitaxial/high-pressure, never on heating |
+
+So SnSe has **one** transition, not two. N thermal phases have N-1 transitions;
+`transition_K` on a phase is the temperature at which it becomes the *next* one
+and is null on the last. Structures that heating does not produce go in
+`other_polymorphs` with an `occurrence` reason, so the two can never be
+confused. A worked SnSe record is in `family_assignments.schema.json` under
+`examples`.
+
+This is also why the ledger uses an array of objects rather than parallel arrays
+of mp_ids, space groups and temperatures: those lists have different lengths —
+three structures, two phases, one transition — and would silently desync. Transition temperatures in the taxonomy are
+approximate and composition-dependent; `transition_basis` records whether a
+value came from the paper or from a default.
+
+Measured ranges are computed from the curve data with a 10–3000 K filter —
+about 6% of digitised curves contain points below 10 K, including negative
+temperatures, which would otherwise make every range start at zero and hide
+which transitions are genuinely crossed.
+
+Current result: across 313 host systems that have both a seed hypothesis and an
+ICSD-backed space group, the prototype's space group is **present among the
+measured set for 82%**, and is the **best-attested one for 63%**. The 55
+disagreements are listed in `validation/taxonomy_vs_references.md` for review.
+
+Read them carefully. A reference describes which phases exist in a chemistry, not
+which phase a paper synthesised — `Al-O-Zn` is best attested as ZnAl2O4 spinel
+while nearly every sample in that host is Al-doped wurtzite ZnO. Some
+disagreements are still real taxonomy weaknesses: `O-W` is listed at the cubic
+ReO3 aristotype (221) when monoclinic WO3 (14) carries 22 ICSD references.
+
+v0.2 also corrected two errors in v2: Chevrel had been dropped, and `Ba-Ga-Sn`
+was filed under clathrate type I when β-Ba8Ga16Sn30 is type VIII.
+
+**Composition gives a candidate, not a confirmed structure.** v0.2's principle is
+carried into v3 and into the ledger schema: `assignment_basis` records how the
+call was made and `experimentally_confirmed` is true only when the paper actually
+reports the structure. Stage 1 works from composition, so it will almost always
+be `false` — confirmation comes later, from the papers.
+
+### The hand labels are held out, not used
+
+The new taxonomy was built from the compositions themselves, by surveying the 700
+highest-count host systems. The hand-entered labels were **not** consulted when
+choosing prototypes, and the chunk files deliberately do **not** show them.
+
+They are kept in `df_host_systems.parquet` as `holdout_hand_labels`, and the
+v0.2 `legacy_label_map` was lifted out of the taxonomy into
+`validation/legacy_label_map.json`, for one purpose: once stage 1 is done, they become an independent set to validate the new
+classification against — measuring where the two agree, and inspecting every
+disagreement. Showing them during annotation would destroy that independence and
+anchor the result to the classification being replaced.
+
+## Annotation unit: the host system
+
+Downstream work (structure, dopant, doping level) is a property of the
+composition, not of the paper. But 27,456 unique composition strings is too many
+to reason about individually, and most differ only by dopant level.
+
+So each composition is split at **5 at.%**: elements at or above that fraction are
+the *host*, elements below it are *dopant candidates*.
+
+```
+Zn0.98Al0.02O          -> host O-Zn        dopant Al
+Pb0.98Na0.02Te         -> host Pb-Te       dopant Na
+Bi0.5Sb1.5Te3          -> host Bi-Sb-Te    (no dopant; substitutional solid solution)
+Yb0.2Co4Sb12           -> host Co-Sb       filler Yb
+```
+
+That collapses 27,456 compositions into **3,648 host systems**, and the split is
+itself the input to stage 3. Coverage is steep — the annotation is far smaller
+than the row count suggests:
+
+| host systems | share of samples |
+|---:|---:|
+| 50 (chunk 1) | 47.0% |
+| 250 (chunks 1–5) | 71.1% |
+| 500 (chunks 1–10) | 80.5% |
+| 1000 (chunks 1–20) | ~89% |
+
+The threshold is a default, not a commitment: `dopant_fracs` and `host_fracs` are
+stored per composition, so it can be revisited without re-deriving anything.
+
+## Layout
+
+```
+data/annotated/
+  input/
+    df_compositions.parquet     27,456 rows -- one per unique composition string
+    df_host_systems.parquet      3,648 rows -- one per host system (the annotation unit)
+    coverage.csv                 cumulative sample coverage per chunk
+    df_structure_refs.parquet    ICSD/MP reference entries keyed to host systems
+    df_host_structures.parquet   per host: space groups by evidence, MP ground states
+    chunks/chunk_NNN.md          73 conversation-sized batches, coverage-ordered
+  taxonomy/
+    prototypes_seed_v3.json      148 prototypes  <- current
+    prototypes_seed_v2.json      superseded (135, survey-derived)
+    prototypes_seed_v1.json      superseded (68)
+    prototypes_proposed.jsonl    new prototypes proposed during annotation, pending review
+  validation/
+    legacy_label_map.json        curator labels, HELD OUT -- for validating stage 1 only
+    taxonomy_vs_references.md    taxonomy space groups vs ICSD/MP evidence
+  annotations/
+    family_assignments.jsonl     append-only ledger, one record per host system
+    family_assignments.schema.json
+  by_family/                     stage 2 output: one shard per prototype
+```
+
+## Provenance
+
+```
+data/raw/*.csv                      DB snapshot 2026-09-04 02:00:02 JST, renumbered IDs
+  -> scripts/generate_data.py       dedupe, parse compositions, filter to samples with TE curves
+data/processed/df_samples.parquet   52,027 samples / 9,519 papers / 27,456 compositions
+  -> scripts/generate_annotation_data.py
+data/annotated/input/
+```
+
+Regenerate the inputs with:
+
+```bash
+python scripts/generate_annotation_data.py
+```
+
+It is deterministic and safe to re-run; it rewrites `input/` and leaves
+`taxonomy/` and `annotations/` untouched.
+
+## Stages
+
+### Stage 1 — assign a structural prototype to each host system
+
+Done interactively with Claude Code, one chunk at a time. For each host system in
+`chunks/chunk_NNN.md`, pick a `prototype_id` from the seed taxonomy or propose a
+new one, and append a record to `annotations/family_assignments.jsonl`:
+
+```json
+{"host_system":"Co-Sb","prototype_id":"skutterudite","confidence":"high",
+ "basis":"CoSb3 and Co4Sb12 dominate; Yb/Ba/In appear only as cage fillers in RxCo4Sb12.",
+ "seed_hypothesis_outcome":"refined","assignment_basis":["composition","llm_materials_knowledge"],
+ "experimentally_confirmed":false,"is_mixed":true,"alt_prototype_ids":["filled_skutterudite"],
+ "chunk":1,"rank":1,"n_samples":1778,
+ "annotated_by":"claude-opus-5","annotated_at":"2026-09-16"}
+```
+
+Decide from the compositions, the dopant candidates and the paper titles. The
+`basis` must not appeal to the hand labels.
+
+A host system that genuinely contains more than one prototype (e.g. `Fe-Si`, which
+holds both β-FeSi₂ and B20 FeSi) gets `"is_mixed": true` and
+`alt_prototype_ids`, and is split composition-by-composition in stage 2 rather
+than forced into one label.
+
+Each chunk entry may carry a **seed hypothesis** — the prototype whose
+`example_host_systems` already names that host. It is a hypothesis to confirm
+against the compositions, not an answer; record what happened to it in
+`seed_hypothesis_outcome`, because rejections and refinements are how the seed
+taxonomy earns a v3. Two or more hypotheses on one host means it is genuinely
+mixed (`Ca-Co-O` holds both Ca3Co4O9 and Ca3Co2O6) and must be split per
+composition. 445 of the 3,648 hosts, covering 75% of samples, carry a hypothesis.
+
+New prototypes go into `taxonomy/prototypes_proposed.jsonl` *before* being used,
+and are reviewed and folded into a `v4` seed file before sharding.
+
+After each chunk:
+
+```bash
+python scripts/check_annotations.py            # validate + progress
+python scripts/check_annotations.py --chunk 3  # one chunk
+```
+
+This checks the ledger (every host system exists, every prototype id is defined,
+nothing is duplicated, required fields present) *and* the taxonomy itself (every
+`discriminate_from` target resolves, every `structural_class` is declared, every
+`example_host_systems` key exists in the input table). It exits non-zero on any
+problem.
+
+### Stage 2 — shard by prototype, assign Materials Project structures
+
+Once stage 1 covers enough of the set, `by_family/` gets one file per prototype
+holding its compositions and dopant candidates. Each shard is then worked through
+in its own conversation: resolve the host to a Materials Project entry
+(`mp_id`, space group, lattice) via the MP API.
+
+`mp_id` is deliberately `null` everywhere in the seed taxonomy — these must be
+resolved by querying Materials Project, never filled in from memory.
+
+Prototypes needing special handling in this stage are flagged in their `notes`
+and `confidence_note`: `misfit_cobaltite` and `misfit_layered_chalcogenide`
+(incommensurate composites — two subsystems each, no single MP entry),
+`hms_chimney_ladder` (incommensurate; only approximants exist in MP),
+`quasicrystal_approximant` (no periodic structure — map to an approximant and say
+so), `bi_chalcogenide_complex` (every composition is effectively its own
+structure), and `amorphous` / `metallic_glass` / `composite_multiphase` (skip).
+
+### Where doping work happens
+
+Split by the kind of work, not by topic. The judgement is per host; the
+arithmetic is per composition.
+
+| work | unit | count | where |
+|---|---|---:|---|
+| What role does element E play in host H? | (host, element) | 4,474 pairs | **stage 1**, with the prototype |
+| Which crystallographic site, by Wyckoff label | (host, element) | subset | stage 2, once the structure is resolved |
+| What is x in Pb(1-x)Na(x)Te? | composition | 17,313 | stage 3, scripted |
+| Nothing — no minor element present | composition | 10,143 (37%) | — |
+
+The role belongs in stage 1 because it *follows from the prototype* and cannot
+be judged without it: Yb in `Co-Sb` is a cage filler only once the host is known
+to be a skutterudite. A median host has 2 minor elements, so this costs about
+two extra calls per host while the chemistry is already in view — against
+re-loading every host a second time later.
+
+The level does not belong in a conversation at all. Once the role is fixed, x
+comes straight from the parsed fractions already stored per composition.
+
+### Isoelectronic substitution has no threshold
+
+The 5 at.% split has two limits that matter here, and neither is fixed by moving
+the number.
+
+**The denominator is the whole formula, but substitution happens on a
+sublattice.** In rocksalt Pb(Se,Te) the anion site is only half the atoms, so a
+10% anion substitution reads as 5% atomic — exactly on the cut. The same
+threshold therefore means a different site occupancy in every structure.
+
+**Isoelectronic substitution is a continuum.** `PbSe0.99Te0.01` is doped PbSe,
+`PbSe0.5Te0.5` is an alloy, and `PbTe0.9Se0.1` is doped PbTe — one axis, no
+natural boundary. Of the 184 samples in the `Pb-Se-Te` host, 97 sit at 80–95%
+Te, i.e. PbTe with a little Se rather than a pseudobinary alloy.
+
+So the host system is a **routing key, not a parent compound**. Rather than
+move the threshold, `generate_annotation_data.py` detects the axis: for every
+pair of same-group elements in a host it measures x = A/(A+B) across the host's
+compositions and reports the spread. **175 host systems are solid-solution
+series** — `Bi-Sb-Te` (Bi/(Bi+Sb) 0.13–0.90 over 537 compositions), `Mg-Si-Sn`,
+`Hf-Ni-Sn-Zr`, `Ge-Si`, `Pb-Se-Te` among them. For those, the parent compound is
+assigned per composition in stage 3, not per host, and the role is recorded as
+`isoelectronic_substitution` with the sublattice fraction rather than as doping.
+
+**Why there is no 50% rule.** An obvious fix is to keep the ternary host only
+near 50:50 substitution and otherwise file the composition under its dominant
+end member. The dilute half of that is already in effect — for a 1:1 binary,
+5% of the formula *is* 10% of the sublattice, which is why `PbSe0.99Te0.01`
+already routes to `Pb-Se`. No composition in the dataset has a minority
+sublattice share below 0.05; they have all left already.
+
+The 50% half would be a serious error. Minority share of the shared site:
+
+| share of shared site | compositions | samples |
+|---|---:|---:|
+| < 0.05 | 0 | 0 |
+| 0.05 – 0.10 | 229 | 484 |
+| 0.10 – 0.20 | 901 | 1,549 |
+| 0.20 – 0.35 | 1,892 | 3,274 |
+| 0.35 – 0.50 | 1,041 | 1,513 |
+
+A band of x ≥ 0.35 would move 3,022 compositions and 5,307 samples onto dominant
+end-member hosts — including **Bi0.5Sb1.5Te3, at x = 0.25 the single most common
+composition in the dataset (348 samples)**. It would be refiled as Bi-doped
+Sb2Te3, which is not how anyone describes the workhorse p-type alloy. The rule
+has to be asymmetric: dilute-on-the-sublattice → dominant host, everything else
+→ alloy host, with no upper band.
+
+The threshold is therefore left where it is, and the sublattice share is
+recorded instead. `df_compositions.parquet` carries `axis_x_minor`,
+`axis_minor_el`, `axis_major_el` and `axis_is_dilute`, so stage 3 works from the
+site occupancy directly rather than re-deriving it from the formula. Only **229
+compositions** sit in the borderline 0.05–0.10 band, and for structure
+assignment even those do not matter — Bi0.5Sb1.5Te3 and Sb2Te3 are both
+tetradymite.
+
+Same group does not guarantee the same site: O and Se are both group 16, but in
+BiCuSeO oxygen sits in the Bi2O2 layer and never substitutes for Se. Axes
+involving oxygen are reported with a `CHECK` marker instead of an assertion.
+
+One consequence for phases: on a solid-solution axis the transition temperature
+itself shifts with composition, so a single value cannot cover the whole host.
+
+Note that not every "dopant candidate" is a dopant. The role vocabulary
+separates `substitutional`, `interstitial`, `cage_filler`,
+`framework_substitution`, `alloying_component` (an end member that happens to
+fall below 5 at.%, such as Se in Bi2Te2.85Se0.15), `non_stoichiometry`,
+`secondary_phase_or_contaminant`, `processing_residue` (O, C, N and H in
+ball-milled or hot-pressed samples are usually this) and `parse_artifact`.
+
+### Stage 3 — doping levels
+
+`dopant_candidates` and `dopant_fracs` are already computed per composition, and
+the roles were decided in stage 1. This stage is mechanical: apply the role to
+the parsed fractions and emit a doping level per formula unit, flagging for
+review only the compositions whose role is `unknown` or whose arithmetic is
+ambiguous.
+
+The distinction matters and is prototype-dependent. The taxonomy records these in
+each prototype's `notes` so stage 3 does not have to rediscover them:
+
+| case | prototype | what the "dopant" really is |
+|---|---|---|
+| Yb, Ba, In in CoSb3 | `skutterudite` | cage filler in the icosahedral void |
+| O content in YBa2Cu3O6+δ | `ybco_cuprate` | the doping variable itself |
+| cation vacancies in La3−xTe4 | `th3p4` | the carrier-concentration knob |
+| x in NaxCoO2 | `naxcoo2_layered` | a compositional variable, not a dopant |
+| F-for-O in LaFeAsO1−xFx | `zrcusias_1111` | the doping variable |
+| Ga/Al/Cu for Ge in Ba8Ga16Ge30 | `clathrate_i` | framework substitution setting electron count |
+| N vacancies in TaN0.89 | `rocksalt_nitride_carbide` | non-stoichiometry, not an impurity |
+| K-for-Ba in Ba1−xKxFe2As2 | `thcr2si2_122` | the doping variable |
+
+Genuine substitutional dopants (Na in PbTe, Al in ZnO, Nb in SrTiO3) are the
+straightforward case.

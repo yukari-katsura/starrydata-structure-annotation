@@ -1,0 +1,8 @@
+# Materials Project dump: 35 MB, CC-BY 4.0, fetched rather than tracked.
+# See data/reference/README.md for provenance.
+data/reference/mp_190822.csv
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
