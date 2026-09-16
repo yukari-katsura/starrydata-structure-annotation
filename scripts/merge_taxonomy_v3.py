@@ -107,6 +107,10 @@ NEW = [
 DISTORTION_SERIES = {
     'reo3_wo3': {
         'compound': 'WO3',
+        # A distortion series belongs to a compound, not to every host sharing
+        # the prototype. WO3's sequence says nothing about Mo-O, whose members
+        # are Magneli shear phases and alkali bronzes.
+        'applies_to_hosts': ['O-W'],
         'note': ('The cubic ReO3 aristotype is essentially never observed for WO3 at '
                  'ambient pressure below the melt; every measured tungsten trioxide is '
                  'a tilt-distorted variant. A transport run from room temperature to '

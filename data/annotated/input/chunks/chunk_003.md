@@ -150,13 +150,6 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Li (12), K (10), Rb (4), La (2), Ce (2), Sm (2), Nd (2), Na (2), Pr (1), Bi (1), Tl (1), S (1)
 - seed hypothesis (confirm): reo3_wo3
 - measured range: 10-1155 K (5th-95th pct of 105 curves)
-  !! DISTORTION SERIES (WO3): the measured range spans 5 steps of one prototype --
-       epsilon  Pc (7)  -230 K
-       delta    P-1 (2)  230-290 K
-       gamma    P2_1/n (14)  290-603 K mp-619461
-       beta     Pbcn (60)  603-1013 K
-       alpha    P4/ncc (130)  1013-1170 K
-     The cubic ReO3 aristotype is essentially never observed for WO3 at ambient pressure below the melt; every measured tungsten trioxide is a tilt-distorted variant. A transport run from room temperature to 1200 K passes through three of these steps.
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MoO2 P4_2/mnm (136) mp-715476 [hull=0.012, icsd=7, PRIMARY]; Mo4O11 Pna2_1 (33) mp-622101 [hull=0.018, icsd=6, PRIMARY]; Mo8O23 P2/c (13) mp-19540 [hull=0.009, icsd=4, PRIMARY]; MoO3 P2_1/c (14) mp-18856 [hull=0.000, icsd=3, PRIMARY]; Mo3O10 Aea2 (41) mp-1180281 [hull=0.186, icsd=2, PRIMARY]
 - papers: Thermoelectric properties of molybdenum oxides LnMo8O14 (Ln=La, Ce, Pr, Nd and Sm) | High thermoelectric performance of reduced lanthanide molybdenum oxides densified by spark plasma sintering | Thermoelectric power of RE2Mo2O7 pyrochlores
 

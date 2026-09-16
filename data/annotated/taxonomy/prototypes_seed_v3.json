@@ -3393,6 +3393,9 @@
    ],
    "distortion_series": {
     "compound": "WO3",
+    "applies_to_hosts": [
+     "O-W"
+    ],
     "note": "The cubic ReO3 aristotype is essentially never observed for WO3 at ambient pressure below the melt; every measured tungsten trioxide is a tilt-distorted variant. A transport run from room temperature to 1200 K passes through three of these steps.",
     "steps": [
      {

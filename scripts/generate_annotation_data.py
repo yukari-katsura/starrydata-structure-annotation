@@ -598,6 +598,9 @@ def main():
                     ds = distort.get(pid)
                     if not ds:
                         continue
+                    applies = ds.get('applies_to_hosts')
+                    if applies and r.host_system not in applies:
+                        continue
                     inside = [st for st in ds['steps']
                               if not (st['t_max_K'] is not None and st['t_max_K'] <= tr[0])
                               and not (st['t_min_K'] is not None and st['t_min_K'] >= tr[1])]
