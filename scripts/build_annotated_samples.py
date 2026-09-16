@@ -74,6 +74,15 @@ def resolve_dopants(rec, dopant_fracs, host_fracs):
 
 def main():
     led = load_ledger()
+    # Per-composition prototypes from apply_composition_splits.py override the
+    # host-level label wherever a mixed host has been split by stoichiometry.
+    splits = {}
+    sp = ANN + 'annotations/composition_assignments.parquet'
+    if os.path.exists(sp):
+        d = pd.read_parquet(sp)
+        splits = {r.composition: (r.prototype_id, r.confidence, r.matched)
+                  for r in d.itertuples()}
+        print(f'Composition-level splits available for {len(splits)} compositions')
     tax = {p['id']: p for p in json.load(open(TAX))['prototypes']}
     print(f'Ledger: {len(led)} host systems annotated')
 
@@ -93,6 +102,9 @@ def main():
         phases = rec.get('phases') or []
         first = phases[0] if phases else {}
         proto = rec['prototype_id']
+        split_conf, split_rule = None, None
+        if r.composition in splits:
+            proto, split_conf, split_rule = splits[r.composition]
         rows.append({
             'composition': r.composition,
             'reduced_formula': r.reduced_formula,
@@ -103,10 +115,11 @@ def main():
             # Lowest-temperature phase: what the sample is at room temperature.
             'spacegroup_number': first.get('spacegroup_number'),
             'mp_id': first.get('mp_id'),
-            'confidence': rec['confidence'],
+            'confidence': split_conf or rec['confidence'],
+            'split_rule': split_rule,
             # A mixed host carries one label for several real structures, so
             # the composition-level prototype is provisional until split.
-            'needs_composition_split': bool(rec.get('is_mixed')),
+            'needs_composition_split': bool(rec.get('is_mixed')) and r.composition not in splits,
             'alt_prototype_ids': ','.join(rec.get('alt_prototype_ids') or []),
             'spans_transition': bool(rec.get('spans_transition')),
             'n_phases': len(phases),

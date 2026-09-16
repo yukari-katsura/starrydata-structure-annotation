@@ -65,11 +65,13 @@ def reasons_for(rec, ambiguous_hosts):
     # A host that has been read and settled must leave the queue, or the list
     # never shrinks and the workflow has no end state.
     if rec.get('experimentally_confirmed') and rec.get('confidence') != 'low':
-        if not (rec.get('is_mixed') and not rec.get('composition_split')):
+        if not (rec.get('is_mixed') and not
+                (rec.get('composition_split') or rec.get('composition_split_rule'))):
             return []
 
     out = []
-    if rec.get('is_mixed') and not rec.get('composition_split'):
+    if rec.get('is_mixed') and not (rec.get('composition_split')
+                                    or rec.get('composition_split_rule')):
         alts = ', '.join(rec.get('alt_prototype_ids') or []) or 'unlisted'
         out.append((f'MIXED — one label covers several structures (also: {alts})', 'mixed'))
     if rec['confidence'] in ('low', 'medium'):

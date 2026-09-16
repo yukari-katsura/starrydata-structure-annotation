@@ -2,102 +2,9 @@
 
 **How to use this file.** Each entry says what is uncertain, what to look for in the paper, and links the papers reporting the compositions in question. Fill in the ```finding``` block at the end of an entry and run `python scripts/apply_review_findings.py` to write it into the ledger. Entries you skip are left alone, so you can work through this a few at a time. Nothing is overwritten without a decision.
 
-71 of 150 annotated host systems, 19725 samples. Ordered by sample count, so working top-down resolves the most data per paper read.
+46 of 150 annotated host systems, 10056 samples. Ordered by sample count, so working top-down resolves the most data per paper read.
 
 Every assignment here was made from composition and materials knowledge; none has been read out of a paper. The links below go to the specific papers reporting the compositions in question.
-
----
-
-## Co-Sb — 1778 samples, chunk 1
-
-**Assigned** `skutterudite` (high confidence)
-
-**Needs checking because:**
-- MIXED — one label covers several structures (also: filled_skutterudite)
-
-**What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
-
-> CoSb3 (296) and Co4Sb12 (32) are the unfilled binary; the rest are filled RxCo4Sb12. Both share the Im-3 framework, so the host splits by filler content, not by a different structure.
-
-**`CoSb3`** — 296 samples, 123 papers
-- [Thermoelectric properties of undoped p-type CoSb3 prepared by vertical Bridgman crystal growth ...](https://doi.org/10.1016/j.jallcom.2005.07.057) (2006) — 18 samples
-- [Nanostructured clathrates and clathrate-based nanocomposites](https://doi.org/10.1002/pssa.201532642) (2015) — 16 samples
-- [Thermoelectric properties of hot-pressed skutterudite CoSb3](https://doi.org/10.1063/1.2538036) (2007) — 14 samples
-
-**`Co4Sb12`** — 32 samples, 30 papers
-- [Influence of Ni impurities on the thermoelectric properties of Ca-partially filled skutterudite...](https://doi.org/10.1063/1.4768439) (2012) — 2 samples
-- [Fracture toughness of Co4Sb12 and In0.1Co4Sb12 thermoelectric skutterudites evaluated by three ...](https://doi.org/10.1016/j.jallcom.2012.11.066) (2013) — 2 samples
-- [Thermoelectric properties of indium-filled skutterudites prepared by combining solvothermal syn...](https://doi.org/10.1007/s00339-009-5329-5) (2009) — 1 samples
-
-**`Co4Sb11.5Te0.5`** — 23 samples, 11 papers
-- [Effects of Nanoparticle Size on the Thermoelectric and Mechanical Properties of Skutterudite Na...](https://doi.org/10.1007/s11664-014-2987-7) (2014) — 5 samples
-- [Enhanced thermoelectric performance of Te-doped skutterudite with nano-micro-porous architecture](https://doi.org/10.1016/j.scriptamat.2018.09.015) (2019) — 4 samples
-- [Enhanced thermoelectric properties in Co4Sb12−xTex alloys prepared by HPHT](https://doi.org/10.1016/j.matlet.2009.06.008) (2009) — 3 samples
-
-**`Ba0.3In0.2Co3.95Ni0.05Sb12`** — 22 samples, 2 papers
-- [Excellent performance stability of Ba and In double-filled skutterudite thermoelectric materials](https://doi.org/10.1016/j.actamat.2011.01.064) (2011) — 11 samples
-- [Thermal Stability of Barium and Indium Double-Filled Skutterudite Ba0.3In0.2Co3.95Ni0.05Sb12 Co...](https://doi.org/10.1007/s11664-010-1116-5) (2010) — 11 samples
-
-**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
-
-```finding
-host: Co-Sb
-decision:        # confirm | change | split | unresolved
-prototype:       # for change: the prototype id it should be
-split:           # for split: one "composition -> prototype_id" per line
-  # Ca3Co4O9 -> misfit_cobaltite
-  # Ca3Co2O6 -> ca3co2o6_chain
-evidence:        # DOI you read this from
-notes:
-```
-
----
-
-## Ca-Co-O — 1682 samples, chunk 1
-
-**Assigned** `misfit_cobaltite` (high confidence)
-
-**Needs checking because:**
-- MIXED — one label covers several structures (also: ca3co2o6_chain)
-
-**What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
-
-> Ca3Co4O9 (622) dominates and is the misfit composite; Ca3Co2O6 (29) is the 1D chain phase and Ca2Co2O5 a third. Genuinely three structures under one host.
-
-**`Ca3Co4O9`** — 622 samples, 252 papers
-- [Influence of pressure assisted sintering and reaction sintering on microstructure and thermoele...](https://doi.org/10.1063/1.5107476) (2019) — 20 samples
-- [Effect of Heating Modes on Reactive Sintering of Ca3Co4O9 Ceramics](https://doi.org/10.3390/ma14020273) (2021) — 18 samples
-- [Atomic layer deposition of thermoelectric layered cobalt oxides](https://doi.org/10.1116/6.0000166) (2020) — 12 samples
-
-**`Ca3Co2O6`** — 29 samples, 18 papers
-- [Controlling independently the electric and thermal properties by shrinking the particle size do...](https://doi.org/10.1103/physrevb.82.085110) (2010) — 6 samples
-- [Power factors of late rare earth-doped Ca3Co2O6 oxides](https://doi.org/10.1016/j.ssc.2006.05.033) (2006) — 4 samples
-- [High-temperature thermoelectric properties of single-crystal Ca3Co2O6](https://doi.org/10.1063/1.1622115) (2003) — 2 samples
-
-**`Ca2.7Bi0.3Co4O9`** — 27 samples, 14 papers
-- [EFFECT OF SINTERING TEMPERATURE ON THE MICROSTRUCTURE AND THERMOELECTRIC PROPERTIES OF Ca2.7Bi0...](https://doi.org/10.1142/s0217979209052777) (2009) — 5 samples
-- [Grain boundary segregation and thermoelectric performance enhancement of bismuth doped calcium ...](https://doi.org/10.1016/j.jeurceramsoc.2015.10.042) (2016) — 5 samples
-- [Power generation of thermoelectric oxide modules](https://doi.org/10.1109/ict.2005.1519947) (2005) — 4 samples
-
-**`Ca2.9La0.1Co4O9`** — 22 samples, 3 papers
-- [Manipulation of charge carrier concentration and phonon scattering via spin-entropy and size ef...](https://doi.org/10.1016/j.jallcom.2019.06.113) (2019) — 20 samples
-- [Preparation and thermoelectric transport properties of Ba-, La- and Ag-doped Ca3Co4O9 oxide mat...](https://doi.org/10.1016/s1002-0721(12)60357-3) (2013) — 1 samples
-- [Enhanced electron correlation in rare-earth doped Ca3Co4O9](https://doi.org/10.1063/1.3479923) (2010) — 1 samples
-
-**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
-
-```finding
-host: Ca-Co-O
-decision:        # confirm | change | split | unresolved
-prototype:       # for change: the prototype id it should be
-split:           # for split: one "composition -> prototype_id" per line
-  # Ca3Co4O9 -> misfit_cobaltite
-  # Ca3Co2O6 -> ca3co2o6_chain
-evidence:        # DOI you read this from
-notes:
-```
 
 ---
 
@@ -152,11 +59,9 @@ notes:
 **Assigned** `perovskite` (high confidence)
 
 **Needs checking because:**
-- MIXED — one label covers several structures (also: ruddlesden_popper)
 - structure reference cannot separate two polymorphs
 
 **What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 - Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > SrTiO3 (196) and Nb/La-doped SrTiO3 dominate. Sr3Ti2O7, Sr4Ti3O10 and Sr2TiO4 appear as Ruddlesden-Popper members.
@@ -192,100 +97,6 @@ split:           # for split: one "composition -> prototype_id" per line
   # Ca3Co2O6 -> ca3co2o6_chain
 spacegroup:      # number the paper reports, e.g. 212
 mp_id:           # if you have it
-evidence:        # DOI you read this from
-notes:
-```
-
----
-
-## Ca-Mn-O — 1052 samples, chunk 1
-
-**Assigned** `perovskite` (high confidence)
-
-**Needs checking because:**
-- MIXED — one label covers several structures (also: ruddlesden_popper)
-
-**What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
-
-> CaMnO3 (122) orthorhombic Pnma perovskite with Nb/W B-site and RE A-site donors. Ca3Mn2O7 and Ca4Mn3O10 in the tail are Ruddlesden-Popper members, and one paper is explicitly on Ca3.95RE0.05Mn3O10.
-
-**`CaMnO3`** — 122 samples, 62 papers
-- [Growth rate effects on the thermoelectric performance of CaMnO3-based ceramics](https://doi.org/10.1016/j.jeurceramsoc.2019.06.011) (2019) — 9 samples
-- [Formation mechanism and thermoelectric properties of CaMnO3 thin films synthesized by annealing...](https://doi.org/10.1007/s10853-019-03496-7) (2019) — 9 samples
-- [Synergistically Optimized Electrical and Thermal Transport Properties of CaMnO3 via Doping High...](https://doi.org/10.1007/s11664-020-08566-0) (2020) — 6 samples
-
-**`Ca0.9Yb0.1MnO3`** — 38 samples, 16 papers
-- [Right Heterogeneous Microstructure for Achieving Excellent Thermoelectric Performance in Ca0.9R...](https://doi.org/10.1021/acs.inorgchem.8b01163) (2018) — 8 samples
-- [Thermoelectric Ca0.9Yb0.1MnO3−δ grain growth controlled by spark plasma sintering](https://doi.org/10.1016/j.jeurceramsoc.2013.02.003) (2013) — 5 samples
-- [Effect of Mixed Grain Sizes on the Thermoelectric Properties of Ca0.9Yb0.1MnO3](https://doi.org/10.1007/s11664-013-2778-6) (2013) — 5 samples
-
-**`CaMn0.95Nb0.05O3`** — 20 samples, 9 papers
-- [Growth rate effects on the thermoelectric performance of CaMnO3-based ceramics](https://doi.org/10.1016/j.jeurceramsoc.2019.06.011) (2019) — 6 samples
-- [Thermoelectric Property of Ca(Mn1-x,Mx)O3 (M=Ta, Mo, Nb and Zn)](https://doi.org/10.2497/jjspm.54.351) (2007) — 3 samples
-- [CaMn1−xNbxO3(x≤ 0.08) Perovskite-Type Phases As Promising New High-Temperaturen-Type Thermoelec...](https://doi.org/10.1021/ic800463s) (2008) — 2 samples
-
-**`Ca0.9La0.1MnO3`** — 18 samples, 9 papers
-- [Growth rate effects on the thermoelectric performance of CaMnO3-based ceramics](https://doi.org/10.1016/j.jeurceramsoc.2019.06.011) (2019) — 9 samples
-- [Electrical transport properties of Ca0.9La0.1−xBixMnO3−δ (0 ≤ x ≤ 0.1) thermoelectric materials](https://doi.org/10.1016/j.ijhydene.2015.09.017) (2015) — 2 samples
-- [Synthesis and Thermoelectric Properties of Yb-doped Ca0.9−x Yb x La0.1MnO3 Ceramics](https://doi.org/10.1007/s11664-014-3326-8) (2014) — 1 samples
-
-**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
-
-```finding
-host: Ca-Mn-O
-decision:        # confirm | change | split | unresolved
-prototype:       # for change: the prototype id it should be
-split:           # for split: one "composition -> prototype_id" per line
-  # Ca3Co4O9 -> misfit_cobaltite
-  # Ca3Co2O6 -> ca3co2o6_chain
-evidence:        # DOI you read this from
-notes:
-```
-
----
-
-## Bi-Te — 955 samples, chunk 1
-
-**Assigned** `tetradymite` (high confidence)
-
-**Needs checking because:**
-- MIXED — one label covers several structures (also: homologous_tetradymite)
-
-**What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
-
-> Bi2Te3 (446) with Se alloying. BiTe (12) and Bi4Te3 are members of the (Bi2)m(Bi2Te3)n homologous series, a different stacking.
-
-**`Bi2Te3`** — 446 samples, 227 papers
-- [Influence of Nanoinclusions on Thermoelectric Properties of n-Type Bi2Te3 Nanocomposites](https://doi.org/10.1007/s11664-010-1487-7) (2011) — 9 samples
-- [Size and temperature effects on the thermoelectric power and electrical resistivity of bismuth ...](https://doi.org/10.1103/physrevb.37.4552) (1988) — 8 samples
-- [Effects of Surface Band Bending and Scattering on Thermoelectric Transport in Suspended Bismuth...](https://doi.org/10.1021/nl402828s) (2013) — 7 samples
-
-**`Bi2Te2.85Se0.15`** — 30 samples, 13 papers
-- [Synthesis and thermoelectric properties of Bi2Te3 based nanocomposites](https://doi.org/10.1016/j.jallcom.2005.01.046) (2005) — 5 samples
-- [Extrusion Behavior and Thermoelectric Properties of Bi2Te2.85Se0.15 Thermoelectric Materials](https://doi.org/10.1016/j.proeng.2014.10.049) (2014) — 4 samples
-- [Preparation of <i>n</i>-Type Bi<sub>2</sub>Te<sub>2.85</sub>Se<sub>0.15</sub> Thermoelectric Se...](https://doi.org/10.2320/matertrans.me201108) (2012) — 4 samples
-
-**`BiTe`** — 12 samples, 6 papers
-- [Enhancement in Figure of Merit (ZT) by Annealing of BiTe Nanostructures Synthesized by Microwav...](https://doi.org/10.1007/s11664-013-2864-9) (2013) — 4 samples
-- [Thermoelectric Properties of BiTe](https://doi.org/10.1088/1742-6596/1428/1/012007) (2020) — 3 samples
-- [Improved thermoelectric performance in n-type BiTe facilitated by defect engineering](https://doi.org/10.1007/s12598-021-01737-w) (2021) — 2 samples
-
-**`Bi0.46Te0.54`** — 10 samples, 3 papers
-- [Thermoelectric properties of individual electrodeposited bismuth telluride nanowires](https://doi.org/10.1063/1.2058217) (2005) — 8 samples
-- [Thermoelectric Characterization of Bismuth Telluride Nanowires, Synthesized Via Catalytic Growt...](https://doi.org/10.1002/adma.201202474) (2012) — 1 samples
-- [Wet chemical synthesis and thermoelectric properties of V-VI one- and two-dimensional nanostruc...](https://doi.org/10.1039/b913462j) (2010) — 1 samples
-
-**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
-
-```finding
-host: Bi-Te
-decision:        # confirm | change | split | unresolved
-prototype:       # for change: the prototype id it should be
-split:           # for split: one "composition -> prototype_id" per line
-  # Ca3Co4O9 -> misfit_cobaltite
-  # Ca3Co2O6 -> ca3co2o6_chain
 evidence:        # DOI you read this from
 notes:
 ```
@@ -332,96 +143,6 @@ decision:        # confirm | change | split | unresolved
 prototype:       # for change: the prototype id it should be
 spacegroup:      # number the paper reports, e.g. 212
 mp_id:           # if you have it
-evidence:        # DOI you read this from
-notes:
-```
-
----
-
-## Sb-Zn — 537 samples, chunk 1
-
-**Assigned** `zn4sb3` (high confidence)
-
-**Needs checking because:**
-- MIXED — one label covers several structures (also: znsb_cdsb)
-
-**What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
-
-> Zn4Sb3 (192) and ZnSb (45) are two different compounds sharing a host: beta-Zn4Sb3 is R-3c with disordered interstitial Zn, ZnSb is orthorhombic Pbca. Split by stoichiometry.
-
-**`Zn4Sb3`** — 192 samples, 92 papers
-- [Evaluation of durability of thermoelectric properties for Zn/sub 4/Sb/sub 3/ compounds](https://doi.org/10.1109/ict.2005.1519974) (2005) — 19 samples
-- [Effect of processing routes on the synthesis and properties of Zn4Sb3 thermoelectric alloy](https://doi.org/10.1016/j.jallcom.2015.08.251) (2015) — 8 samples
-- [Thermoelectric studies in β-Zn4Sb3—the complex interdependence between thermal stability, therm...](https://doi.org/10.1063/1.4794816) (2013) — 7 samples
-
-**`ZnSb`** — 45 samples, 17 papers
-- [New Interest in Intermetallic Compound ZnSb](https://doi.org/10.1007/s11664-014-3053-1) (2014) — 10 samples
-- [Nanostructuring of Undoped ZnSb by Cryo-Milling](https://doi.org/10.1007/s11664-015-3708-6) (2015) — 4 samples
-- [Effect of ball-milling on the phase formation and enhanced thermoelectric properties in zinc an...](https://doi.org/10.1016/j.mseb.2021.115274) (2021) — 4 samples
-
-**`Zn3.96Mg0.04Sb3`** — 8 samples, 1 papers
-- [In Operando Study of High-Performance Thermoelectric Materials for Power Generation: A Case Stu...](https://doi.org/10.1002/aelm.201700223) (2017) — 8 samples
-
-**`Zn0.97Cd0.03Sb`** — 4 samples, 1 papers
-- [Thermoelectric efficiency of intermetallic compound ZnSb](https://doi.org/10.1134/s1063782614040095) (2014) — 4 samples
-
-**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
-
-```finding
-host: Sb-Zn
-decision:        # confirm | change | split | unresolved
-prototype:       # for change: the prototype id it should be
-split:           # for split: one "composition -> prototype_id" per line
-  # Ca3Co4O9 -> misfit_cobaltite
-  # Ca3Co2O6 -> ca3co2o6_chain
-evidence:        # DOI you read this from
-notes:
-```
-
----
-
-## Ba-Cu-O-Y — 484 samples, chunk 1
-
-**Assigned** `ybco_cuprate` (high confidence)
-
-**Needs checking because:**
-- MIXED — one label covers several structures (also: ybco_cuprate)
-
-**What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
-
-> YBa2Cu3O7-delta (237) plus oxygen-reduced members. Ba2Y(CuO2)4 in the MP list is the Y-124 phase, a separate intergrowth.
-
-**`YBa2Cu3O7`** — 237 samples, 61 papers
-- [Temperature-gradient and current-density effects on the thermoelectric power and electrical res...](https://doi.org/10.1016/0921-4534(94)90398-0) (1994) — 34 samples
-- [Transport properties of YBa2Cu3O7-y at high temperatures](https://doi.org/10.1016/0921-4534(91)90264-y) (1991) — 28 samples
-- [Effects of helium gas adsorption on the phonon-drag of granular YBa2Cu3O7−σ](https://doi.org/10.1016/0038-1098(94)90940-7) (1994) — 11 samples
-
-**`YBa2Cu3O6.7`** — 12 samples, 6 papers
-- [Anisotropic thermoelectric powers of YBa2Cu3O7−δ and (La1−x)2CuO4 single crystals](https://doi.org/10.1016/0038-1098(88)90156-1) (1988) — 5 samples
-- [Sensitivity of \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:msub><mml:mi>T...](https://doi.org/10.1103/physrevb.98.064513) (2018) — 3 samples
-- [Transport properties of several series of high Tc oxides](https://doi.org/10.1016/0921-4534(91)91856-y) (1991) — 1 samples
-
-**`YBa2Cu3O6.9`** — 8 samples, 3 papers
-- [Anisotropic thermoelectric powers of YBa2Cu3O7−δ and (La1−x)2CuO4 single crystals](https://doi.org/10.1016/0038-1098(88)90156-1) (1988) — 5 samples
-- [Effect of oxygen depletion on the transport properties ofYBa2Cu3O7−δ](https://doi.org/10.1103/physrevb.44.12086) (1991) — 2 samples
-- [Transport properties of several series of high Tc oxides](https://doi.org/10.1016/0921-4534(91)91856-y) (1991) — 1 samples
-
-**`YBa2Cu3O6.95`** — 8 samples, 4 papers
-- [On the normal state resistivity and thermoelectric power of YBa2Cu3Ox: Experiments and interpre...](https://doi.org/10.1016/0921-4534(89)90022-1) (1989) — 3 samples
-- [Effect of oxygen depletion on the transport properties ofYBa2Cu3O7−δ](https://doi.org/10.1103/physrevb.44.12086) (1991) — 2 samples
-- [Strain effect on the thermoelectric power of YBa2−xSrxCu3O7](https://doi.org/10.1016/s0921-4534(00)00293-8) (2000) — 2 samples
-
-**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
-
-```finding
-host: Ba-Cu-O-Y
-decision:        # confirm | change | split | unresolved
-prototype:       # for change: the prototype id it should be
-split:           # for split: one "composition -> prototype_id" per line
-  # Ca3Co4O9 -> misfit_cobaltite
-  # Ca3Co2O6 -> ca3co2o6_chain
 evidence:        # DOI you read this from
 notes:
 ```
@@ -478,11 +199,9 @@ notes:
 **Assigned** `gete_rhombohedral` (high confidence)
 
 **Needs checking because:**
-- MIXED — one label covers several structures (also: gst_homologous)
 - transition at ~700 K is a taxonomy default, not read from a paper
 
 **What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 - Whether the paper reports a structural transition, and at what temperature. Look for DSC, high-temperature XRD, or a kink discussed in the text. Record the temperature, or "none" if the paper shows the sample staying in one phase across its range.
 
 > GeTe (73) is rhombohedral R3m at room temperature and converts to cubic rocksalt near 700 K, inside the measured 10-884 K window. The (GeTe)n(Sb2Te3)m and TAGS compositions are homologues.
@@ -513,49 +232,6 @@ split:           # for split: one "composition -> prototype_id" per line
   # Ca3Co4O9 -> misfit_cobaltite
   # Ca3Co2O6 -> ca3co2o6_chain
 transition_K:    # temperature, or "none"
-evidence:        # DOI you read this from
-notes:
-```
-
----
-
-## Cu-La-O — 397 samples, chunk 1
-
-**Assigned** `ruddlesden_popper` (high confidence)
-
-**Needs checking because:**
-- MIXED — one label covers several structures (also: perovskite)
-
-**What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
-
-> La2CuO4 (71) is the n=1 K2NiF4 (T-type) member; Sr and Ba substitution on La is the hole-doping route. LaCuO3 in the MP list is a genuine perovskite, a different phase in the same host.
-
-**`La2CuO4`** — 71 samples, 30 papers
-- [Improvement of the superconducting properties of the La2−xBaxCuO4 system (0⩽x⩽0.15) by low-temp...](https://doi.org/10.1016/0921-4534(93)90449-z) (1993) — 14 samples
-- [Electrical Transport Properties of La2CuO4Ceramics Processed by the Spark Plasma Sintering](https://doi.org/10.1111/j.1551-2916.2007.01982.x) (2007) — 6 samples
-- [Phase equilibria in electrochemically oxidized La2CuO4δ. Transport measurements versus chemical...](https://doi.org/10.1016/0921-4534(94)91505-9) (1994) — 5 samples
-
-**`La1.85Sr0.15CuO4`** — 17 samples, 13 papers
-- [Thermoelectric power in single-layer copper oxides](https://doi.org/10.1103/physrevb.51.3104) (1995) — 2 samples
-- [Transport properties of the superconducting oxideLa1.85Sr0.15CuO4](https://doi.org/10.1103/physrevb.35.8800) (1987) — 2 samples
-- [Crystal structure and transport properties of La1.75Sr0.25Cu0.9M0.1O4 (M=Cr, Mn, Fe, Co, Ga and...](https://doi.org/10.1016/s0921-4534(99)00215-4) (1999) — 2 samples
-
-**`La1.875Ba0.125CuO4`** — 8 samples, 1 papers
-- [Improvement of the superconducting properties of the La2−xBaxCuO4 system (0⩽x⩽0.15) by low-temp...](https://doi.org/10.1016/0921-4534(93)90449-z) (1993) — 8 samples
-
-**`La1.92Ba0.08CuO4`** — 8 samples, 1 papers
-- [Improvement of the superconducting properties of the La2−xBaxCuO4 system (0⩽x⩽0.15) by low-temp...](https://doi.org/10.1016/0921-4534(93)90449-z) (1993) — 8 samples
-
-**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
-
-```finding
-host: Cu-La-O
-decision:        # confirm | change | split | unresolved
-prototype:       # for change: the prototype id it should be
-split:           # for split: one "composition -> prototype_id" per line
-  # Ca3Co4O9 -> misfit_cobaltite
-  # Ca3Co2O6 -> ca3co2o6_chain
 evidence:        # DOI you read this from
 notes:
 ```
@@ -613,12 +289,10 @@ notes:
 **Assigned** `graphite_layered` (medium confidence)
 
 **Needs checking because:**
-- MIXED — one label covers several structures (also: fulleride_a3c60, diamond_cubic)
 - medium confidence
 - taxonomy issue recorded
 
 **What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 - Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
 - Whether the taxonomy entry itself is wrong or incomplete, rather than the assignment. Record what should change in the prototype.
 
@@ -660,11 +334,9 @@ notes:
 **Assigned** `rutile` (low confidence)
 
 **Needs checking because:**
-- MIXED — one label covers several structures (also: anatase, magneli_phase, corundum, rocksalt_oxide)
 - low confidence
 
 **What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 - Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
 
 > Genuinely four or more structures: TiO2 (119) as rutile and anatase, TiO (31) rocksalt, Ti2O3 (26) corundum, and Ti4O7/Ti3O5 Magneli shear phases. No single prototype is defensible; must be split per composition.
@@ -691,51 +363,6 @@ notes:
 
 ```finding
 host: O-Ti
-decision:        # confirm | change | split | unresolved
-prototype:       # for change: the prototype id it should be
-split:           # for split: one "composition -> prototype_id" per line
-  # Ca3Co4O9 -> misfit_cobaltite
-  # Ca3Co2O6 -> ca3co2o6_chain
-evidence:        # DOI you read this from
-notes:
-```
-
----
-
-## Fe-Si — 331 samples, chunk 1
-
-**Assigned** `beta_fesi2` (high confidence)
-
-**Needs checking because:**
-- MIXED — one label covers several structures (also: b20_fesi)
-
-**What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
-
-> FeSi2 (67) is semiconducting beta-FeSi2 (Cmce, mp-1714 hull 0); FeSi (7) is the B20 chiral metal. Two distinct compounds, split by stoichiometry.
-
-**`FeSi2`** — 67 samples, 18 papers
-- [Iron Disilicide as High-Temperature Reference Material for Traceable Measurements of Seebeck Co...](https://doi.org/10.1007/s11664-016-4850-5) (2016) — 44 samples
-- [Formation and transport properties of Si(111)/β-FeSi2/Si nanocluster structures](https://doi.org/10.1380/ejssnt.2005.97) (2005) — 4 samples
-- [Thermoelectric Properties of Solution Grown &beta;-FeSi<SUB>2</SUB> Single Crystals](https://doi.org/10.2320/matertrans.47.1428) (2006) — 2 samples
-
-**`(FeSi2)0.75(Si0.8Ge0.2)0.25`** — 14 samples, 1 papers
-- [Thermoelectric figure of merit of bulk FeSi2–Si0.8Ge0.2 nanocomposite and a comparison with β-F...](https://doi.org/10.1016/j.renene.2014.08.059) (2015) — 14 samples
-
-**`Fe0.98Co0.02Si2`** — 12 samples, 4 papers
-- [Thermoelectric properties of β-FeSi2 with electrically insulating SiO2 and conductive TiO dispe...](https://doi.org/10.1063/1.1710725) (2004) — 5 samples
-- [Thermoelectric performance of n-type and p-type β-FeSi2 prepared by pressureless sintering with...](https://doi.org/10.1016/s0925-8388(01)00920-3) (2001) — 5 samples
-- [Thermoelectric properties of β-FeSi2 with Si dispersoids formed by decomposition of α-Fe2Si5 ba...](https://doi.org/10.1016/j.jallcom.2004.07.070) (2005) — 1 samples
-
-**`Fe0.95Co0.05Si2`** — 10 samples, 4 papers
-- [Optimization of properties of Fe/sub 1-x/Co/sub x/Si/sub 2+z/ for energy conversion and sensors](https://doi.org/10.1109/ict.2002.1190270) — 5 samples
-- [Thermoelectric properties of hot-pressed Al- and Co-doped iron disilicide materials](https://doi.org/10.1016/j.jallcom.2006.08.045) (2007) — 3 samples
-- [High temperature thermoelectric properties of p- and n-type β-FeSi2 with some dopants](https://doi.org/10.1016/s0966-9795(03)00020-7) (2003) — 1 samples
-
-**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
-
-```finding
-host: Fe-Si
 decision:        # confirm | change | split | unresolved
 prototype:       # for change: the prototype id it should be
 split:           # for split: one "composition -> prototype_id" per line
@@ -793,110 +420,15 @@ notes:
 
 ---
 
-## Ni-Sn-Ti — 309 samples, chunk 1
-
-**Assigned** `half_heusler` (high confidence)
-
-**Needs checking because:**
-- MIXED — one label covers several structures (also: full_heusler)
-
-**What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
-
-> TiNiSn (78) half-Heusler, mp-924130 F-43m hull 0. TiNi2Sn (4) is the full Heusler, a frequent second phase in this system.
-
-**`TiNiSn`** — 78 samples, 46 papers
-- [Linking local defect structure, microstructure, and thermoelectric transport in TiNiSn alloys u...](https://doi.org/10.1016/j.jallcom.2026.187908) (2026) — 6 samples
-- [Role of secondary phases and thermal cycling on thermoelectric properties of TiNiSn half-Heusle...](https://doi.org/10.1016/j.intermet.2020.106988) (2020) — 5 samples
-- [Influence of Ni nanoparticle addition and spark plasma sintering on the TiNiSn–Ni system: Struc...](https://doi.org/10.1016/j.solidstatesciences.2013.09.005) (2013) — 5 samples
-
-**`TiNi1.1Sn`** — 8 samples, 5 papers
-- [Enhancing Thermoelectric Properties through Control of Nickel Interstitials and Phase Separatio...](https://doi.org/10.3390/ma11060903) (2018) — 4 samples
-- [Metal Distributions, Efficient n-Type Doping, and Evidence for in-Gap States in TiNiMySn (M = C...](https://doi.org/10.1021/cm5045682) (2015) — 1 samples
-- [Improving the thermoelectric properties of half-Heusler TiNiSn through inclusion of a second fu...](https://doi.org/10.1039/c3cp50918d) (2013) — 1 samples
-
-**`TiNiCu0.05Sn`** — 8 samples, 2 papers
-- [Fast synthesis of n-type half-heusler TiNiSn thermoelectric material](https://doi.org/10.1016/j.scriptamat.2020.09.010) (2021) — 5 samples
-- [Hybrid Flash-SPS of TiNiCu0.05Sn with reduced thermal conductivity](https://doi.org/10.1016/j.jallcom.2020.155058) (2020) — 3 samples
-
-**`Ti0.9Hf0.1NiSn`** — 5 samples, 4 papers
-- [The effects of quaternary additions on thermoelectric properties of TiNiSn-based half-heusler a...](https://doi.org/10.1007/s11664-003-0006-5) (2003) — 2 samples
-- [Enhancement of high temperature thermoelectric properties of intermetallic compounds based on a...](https://doi.org/10.1016/j.stam.2004.02.006) (2004) — 1 samples
-- [Long- and short-range structures of Ti<sub>1−x</sub>Hf<sub>x</sub>Ni<sub>1.0/1.1</sub>Sn half-H...](https://doi.org/10.1039/c9ce00046a) (2019) — 1 samples
-
-**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
-
-```finding
-host: Ni-Sn-Ti
-decision:        # confirm | change | split | unresolved
-prototype:       # for change: the prototype id it should be
-split:           # for split: one "composition -> prototype_id" per line
-  # Ca3Co4O9 -> misfit_cobaltite
-  # Ca3Co2O6 -> ca3co2o6_chain
-evidence:        # DOI you read this from
-notes:
-```
-
----
-
-## La-Mn-O-Sr — 307 samples, chunk 1
-
-**Assigned** `perovskite` (high confidence)
-
-**Needs checking because:**
-- MIXED — one label covers several structures (also: ruddlesden_popper)
-
-**What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
-
-> La1-xSrxMnO3 (66+45) manganite perovskite. La2SrMn3O9 and LaSr2Mn2O7 are Ruddlesden-Popper members in the same host.
-
-**`La0.7Sr0.3MnO3`** — 66 samples, 23 papers
-- [Enhanced low-field magnetoresistance of La0.7Sr0.3Mn1-xNixO3compounds by annealing process](https://doi.org/10.1002/pssa.201431556) (2014) — 19 samples
-- [The oxygen-deficiency-dependent Seebeck coefficient and electrical properties of mesoporous La0...](https://doi.org/10.1039/c5ta09487a) (2016) — 8 samples
-- [Synthesis of mesoporous La0.7Sr0.3MnO3 thin films for thermoelectric materials](https://doi.org/10.1016/j.jallcom.2015.01.188) (2015) — 6 samples
-
-**`La0.67Sr0.33MnO3`** — 45 samples, 25 papers
-- [Strain engineering to control the magnetic and magnetotransport properties of La0.67Sr0.33MnO3 ...](https://doi.org/10.1063/1.3484147) (2010) — 5 samples
-- [Control of the magnetic and magnetotransport properties of La0.67Sr0.33MnO3 thin films through ...](https://doi.org/10.1063/1.2908051) (2008) — 4 samples
-- [Superconducting and normal-state interlayer exchange coupling in<mml:math xmlns:mml=\"http://ww...](https://doi.org/10.1103/physrevb.71.224507) (2005) — 3 samples
-
-**`La2SrMn3O9`** — 32 samples, 3 papers
-- [Reentrance of low-temperature nonmetallic phase of \nLa2/3Sr1/3MnO3\n (110) thin films](https://doi.org/10.1103/physrevmaterials.1.034405) (2017) — 19 samples
-- [Experimental evidence for anisotropic double exchange interaction driven anisotropic transport ...](https://doi.org/10.1038/s41598-017-02813-x) (2017) — 12 samples
-- [Growth kinetics engineered magnetoresistance response in La<sub>2/3</sub>Sr<sub>1/3</sub>MnO<su...](https://doi.org/10.1063/1.4871984) (2014) — 1 samples
-
-**`La0.6Sr0.4MnO3`** — 8 samples, 6 papers
-- [Evaluation of Structural and Functional Properties of La0.6Sr0.4MnO3 Perovskite Prepared by the...](https://doi.org/10.3390/catal12121636) (2022) — 3 samples
-- [The effect of a cation radii on structural, magnetic and electrical properties of doped mangani...](https://doi.org/10.1016/j.jssc.2004.03.017) (2004) — 1 samples
-- [A combined experimental and computational approach on La0.6Sr0.4MnO3 perovskite](https://doi.org/10.1016/j.matchemphys.2022.127163) (2023) — 1 samples
-
-**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
-
-```finding
-host: La-Mn-O-Sr
-decision:        # confirm | change | split | unresolved
-prototype:       # for change: the prototype id it should be
-split:           # for split: one "composition -> prototype_id" per line
-  # Ca3Co4O9 -> misfit_cobaltite
-  # Ca3Co2O6 -> ca3co2o6_chain
-evidence:        # DOI you read this from
-notes:
-```
-
----
-
 ## Se-Sn — 287 samples, chunk 1
 
 **Assigned** `layered_ges` (high confidence)
 
 **Needs checking because:**
-- MIXED — one label covers several structures (also: cmcm_snse_ht, cdi2_1t)
 - transition at ~800 K is a taxonomy default, not read from a paper
 - structure reference cannot separate two polymorphs
 
 **What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 - Whether the paper reports a structural transition, and at what temperature. Look for DSC, high-temperature XRD, or a kink discussed in the text. Record the temperature, or "none" if the paper shows the sample staying in one phase across its range.
 - Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
@@ -985,105 +517,14 @@ notes:
 
 ---
 
-## Mn-Si — 277 samples, chunk 1
-
-**Assigned** `hms_chimney_ladder` (high confidence)
-
-**Needs checking because:**
-- MIXED — one label covers several structures (also: b20_fesi)
-
-**What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
-
-> MnSi1.70-1.75 (the higher manganese silicides) dominate; MnSi (20) is the B20 chiral metal, a different compound in the same host.
-
-**`MnSi1.73`** — 41 samples, 20 papers
-- [Thermoelectric Properties of Cold-Pressed Higher Manganese Silicides for Waste Heat Recovery](https://doi.org/10.1007/s11664-012-1987-8) (2012) — 5 samples
-- [Thermoelectric properties of manganese silicide films](https://doi.org/10.1007/s00339-003-2487-8) (2004) — 5 samples
-- [Effectively restricting MnSi precipitates for simultaneously enhancing the Seebeck coefficient ...](https://doi.org/10.1039/c9tc01937e) (2019) — 4 samples
-
-**`MnSi1.7`** — 22 samples, 8 papers
-- [Layer-by-layer deposition of MnSi1.7 film with high Seebeck coefficient and low electrical resi...](https://doi.org/10.1016/j.matchemphys.2014.03.035) (2014) — 9 samples
-- [Anisotropic Thermoelectric Properties of MnSi$_{\\gamma}$ Film Prepared on R-Sapphire](https://doi.org/10.1143/apex.5.055501) (2012) — 3 samples
-- [Thermoelectric properties of MnSi<inf>1.7</inf>](https://doi.org/10.1109/icmree.2011.5930583) (2011) — 3 samples
-
-**`MnSi`** — 20 samples, 6 papers
-- [Manifestation of the spin textures in the thermopower of MnSi](https://doi.org/10.1209/0295-5075/103/57015) (2013) — 12 samples
-- [Thermoelectric properties of manganese silicide films](https://doi.org/10.1007/s00339-003-2487-8) (2004) — 3 samples
-- [Filling dependence of thermoelectric power in transition-metal monosilicides](https://doi.org/10.1109/ict.2007.4569473) (2007) — 2 samples
-
-**`MnSi1.74`** — 17 samples, 7 papers
-- [The Effect of Microstructure on the Thermoelectric Properties of Polycrystalline Higher Mangane...](https://doi.org/10.7567/jjap.52.10mc11) (2013) — 5 samples
-- [Effects of Spark Plasma Sintering Temperature on Thermoelectric Properties of Higher Manganese ...](https://doi.org/10.1007/s11664-013-2623-y) (2013) — 4 samples
-- [Mesostructure - thermoelectric properties relationships in V Mn1−Si1.74 (x = 0, 0.04) higher ma...](https://doi.org/10.1016/j.jallcom.2019.152577) (2020) — 2 samples
-
-**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
-
-```finding
-host: Mn-Si
-decision:        # confirm | change | split | unresolved
-prototype:       # for change: the prototype id it should be
-split:           # for split: one "composition -> prototype_id" per line
-  # Ca3Co4O9 -> misfit_cobaltite
-  # Ca3Co2O6 -> ca3co2o6_chain
-evidence:        # DOI you read this from
-notes:
-```
-
----
-
-## Fe-Sb — 273 samples, chunk 1
-
-**Assigned** `marcasite` (high confidence)
-
-**Needs checking because:**
-- MIXED — one label covers several structures (also: filled_skutterudite)
-
-**What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
-
-> FeSb2 (51) is the colossal-Seebeck marcasite; the remaining compositions are RyFe4Sb12 filled skutterudites. Two unrelated structures, split by stoichiometry.
-
-**`FeSb2`** — 51 samples, 21 papers
-- [Colossal Seebeck coefficient in strongly correlated semiconductor FeSb2](https://doi.org/10.1209/0295-5075/80/17008) (2007) — 10 samples
-- [Dramatic thermal conductivity reduction by nanostructures for large increase in thermoelectric ...](https://doi.org/10.1063/1.3651757) (2011) — 7 samples
-- [Hot deformation induced defects and performance enhancement in FeSb2 thermoelectric materials](https://doi.org/10.1063/1.4831668) (2013) — 6 samples
-
-**`(Ce0.5092La0.2841Nd0.1568Pr0.0498)Fe4Sb12`** — 4 samples, 1 papers
-- [MmFe4Sb12- and CoSb3-based nano-skutterudites prepared by ball milling: Kinetics of formation a...](https://doi.org/10.1016/j.jallcom.2009.03.109) (2009) — 4 samples
-
-**`(Ce0.75La0.25)0.9Fe3.5Co0.5Sb12`** — 3 samples, 2 papers
-- [The microstructural stability and thermoelectric properties of Mm0.9Fe3.5Co0.5Sb12-based skutte...](https://doi.org/10.1016/j.matchemphys.2012.12.026) (2013) — 2 samples
-- [Scavenging Elemental Sb Through Addition of NbSb2 to Mm0.9Fe3.5Co0.5Sb12 Skutterudites](https://doi.org/10.1007/s11664-011-1893-5) (2012) — 1 samples
-
-**`(NbSe2)0.28(Ce0.75La0.25)0.9Fe3.5Co0.5Sb12`** — 3 samples, 1 papers
-- [Scavenging Elemental Sb Through Addition of NbSb2 to Mm0.9Fe3.5Co0.5Sb12 Skutterudites](https://doi.org/10.1007/s11664-011-1893-5) (2012) — 3 samples
-
-**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
-
-```finding
-host: Fe-Sb
-decision:        # confirm | change | split | unresolved
-prototype:       # for change: the prototype id it should be
-split:           # for split: one "composition -> prototype_id" per line
-  # Ca3Co4O9 -> misfit_cobaltite
-  # Ca3Co2O6 -> ca3co2o6_chain
-evidence:        # DOI you read this from
-notes:
-```
-
----
-
 ## Co-O-Sr — 246 samples, chunk 1
 
 **Assigned** `perovskite` (medium confidence)
 
 **Needs checking because:**
-- MIXED — one label covers several structures (also: brownmillerite, ca3co2o6_chain)
 - medium confidence
 
 **What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 - Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
 
 > SrCoO3-delta (20) perovskite with heavy oxygen non-stoichiometry. Sr6Co5O15 (10) is a 1D chain phase of the Ca3Co2O6 family, and oxygen-poor members order into brownmillerite.
@@ -1163,61 +604,16 @@ notes:
 
 ---
 
-## Bi-Se — 202 samples, chunk 1
-
-**Assigned** `tetradymite` (high confidence)
-
-**Needs checking because:**
-- MIXED — one label covers several structures (also: homologous_tetradymite)
-
-**What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
-
-> Bi2Se3 (99) tetradymite R-3m. BiSe (7) is a member of the (Bi2)m(Bi2Se3)n homologous series. Note the MP dump ranks Pnma (mp-23164) lowest -- the same van der Waals artefact seen for Sb2Te3.
-
-**`Bi2Se3`** — 99 samples, 43 papers
-- [Thermoelectric power of n-type Bi2Se8 in strong transverse magnetic fields](https://doi.org/10.1002/pssb.2220570120) (1973) — 16 samples
-- [Ambipolar Surface State Thermoelectric Power of Topological Insulator Bi2Se3](https://doi.org/10.1021/nl4032154) (2014) — 9 samples
-- [Peculiarities of the electronic transport in topological materials of Bi<sub>2</sub>Se<sub>3</s...](https://doi.org/10.1088/1742-6596/1410/1/012199) (2019) — 7 samples
-
-**`(Bi0.95Sb0.05)2Se3`** — 17 samples, 1 papers
-- [Effect of heat treatment on the electrical and thermoelectric properties of Sb doped Bi2Se3](https://doi.org/10.1088/0031-8949/90/4/045802) (2015) — 17 samples
-
-**`BiSe`** — 7 samples, 3 papers
-- [Localized Vibrations of Bi Bilayer Leading to Ultralow Lattice Thermal Conductivity and High Th...](https://doi.org/10.1021/jacs.8b02691) (2018) — 3 samples
-- [Bi8Se7: Delocalized Interlayer π-Bond Interactions Enhancing Carrier Mobility and Thermoelectri...](https://doi.org/10.1021/jacs.0c05904) (2020) — 2 samples
-- [Enhanced thermoelectric performance of BiSe by Sn doping and ball milling](https://doi.org/10.1016/j.ceramint.2021.06.048) (2021) — 2 samples
-
-**`(Bi2Se3)0.9(TiO2)0.1`** — 4 samples, 1 papers
-- [Enhanced thermoelectric performance of Bi2Se3/TiO2 composite](https://doi.org/10.1007/s12598-020-01414-4) (2020) — 4 samples
-
-**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
-
-```finding
-host: Bi-Se
-decision:        # confirm | change | split | unresolved
-prototype:       # for change: the prototype id it should be
-split:           # for split: one "composition -> prototype_id" per line
-  # Ca3Co4O9 -> misfit_cobaltite
-  # Ca3Co2O6 -> ca3co2o6_chain
-evidence:        # DOI you read this from
-notes:
-```
-
----
-
 ## O-V — 186 samples, chunk 1
 
 **Assigned** `vo2_monoclinic` (low confidence)
 
 **Needs checking because:**
-- MIXED — one label covers several structures (also: rutile, corundum, magneli_phase, vanadium_bronze, v2o5_layered)
 - low confidence
 - transition at ~340 K is a taxonomy default, not read from a paper
 - structure reference cannot separate two polymorphs
 
 **What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 - Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
 - Whether the paper reports a structural transition, and at what temperature. Look for DSC, high-temperature XRD, or a kink discussed in the text. Record the temperature, or "none" if the paper shows the sample staying in one phase across its range.
 - Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
@@ -1341,48 +737,6 @@ notes:
 
 ---
 
-## Cu-S-Sb — 156 samples, chunk 2
-
-**Assigned** `tetrahedrite` (high confidence)
-
-**Needs checking because:**
-- MIXED — one label covers several structures (also: famatinite)
-
-**What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
-
-> Cu12Sb4S13 (33) tetrahedrite, mp-647164 hull 0. Cu3SbS4 (4) is famatinite, a separate phase in the same host.
-
-**`Cu12Sb4S13`** — 33 samples, 19 papers
-- [Tetrahedrites synthesized via scalable mechanochemical process and spark plasma sintering](https://doi.org/10.1016/j.jeurceramsoc.2020.01.023) (2020) — 5 samples
-- [Quick Fabrication and Thermoelectric Properties of Cu12Sb4S13 Tetrahedrite](https://doi.org/10.1007/s11664-015-4301-8) (2015) — 5 samples
-- [Low-Temperature Structure and Thermoelectric Properties of Pristine Synthetic Tetrahedrite Cu12...](https://doi.org/10.1021/acs.chemmater.6b02720) (2016) — 4 samples
-
-**`Cu3Sb0.89Bi0.06Sn0.05S4`** — 4 samples, 1 papers
-- [Bi and Sn Co-doping Enhanced Thermoelectric Properties of Cu3SbS4 Materials with Excellent Ther...](https://doi.org/10.1021/acsami.9b20854) (2020) — 4 samples
-
-**`Cu3SbS4`** — 4 samples, 2 papers
-- [Preparation and Thermoelectric Properties of Famatinite Cu3SbS4](https://doi.org/10.1007/s11664-019-07765-8) (2019) — 3 samples
-- [Improvement in Thermoelectric Properties of Se-Free Cu3SbS4 Compound](https://doi.org/10.1007/s11664-014-3064-y) (2014) — 1 samples
-
-**`Cu10Cu2Sb4S13`** — 3 samples, 1 papers
-- [Thermoelectric Properties of Mineral Tetrahedrites Cu$_{10}$Tr$_{2}$Sb$_{4}$S$_{13}$ with Low T...](https://doi.org/10.1143/apex.5.051201) (2012) — 3 samples
-
-**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
-
-```finding
-host: Cu-S-Sb
-decision:        # confirm | change | split | unresolved
-prototype:       # for change: the prototype id it should be
-split:           # for split: one "composition -> prototype_id" per line
-  # Ca3Co4O9 -> misfit_cobaltite
-  # Ca3Co2O6 -> ca3co2o6_chain
-evidence:        # DOI you read this from
-notes:
-```
-
----
-
 ## In-O-Zn — 153 samples, chunk 2
 
 **Assigned** `homologous_inmo3_zno` (high confidence)
@@ -1432,11 +786,9 @@ notes:
 **Assigned** `in4se3` (high confidence)
 
 **Needs checking because:**
-- MIXED — one label covers several structures (also: layered_in2se3)
 - taxonomy issue recorded
 
 **What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 - Whether the taxonomy entry itself is wrong or incomplete, rather than the assignment. Record what should change in the prototype.
 
 > In4Se3 (29) dominates the host and is a distinct mixed-valence phase built from (In3)5+ cluster chains, not a layered In2Se3 polytype. InSe (5) and In2Se3 (3) are the layered members.
@@ -1521,11 +873,9 @@ notes:
 **Assigned** `spinel` (high confidence)
 
 **Needs checking because:**
-- MIXED — one label covers several structures (also: corundum)
 - reference disagreement recorded
 
 **What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 - Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > Fe3O4 (48) magnetite is spinel Fd-3m; Fe2O3 (15) hematite is corundum R-3c. Two distinct oxides sharing a host.
@@ -1563,60 +913,14 @@ notes:
 
 ---
 
-## O-Ru-Sr — 128 samples, chunk 2
-
-**Assigned** `perovskite` (high confidence)
-
-**Needs checking because:**
-- MIXED — one label covers several structures (also: ruddlesden_popper)
-
-**What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
-
-> SrRuO3 (56) orthorhombic perovskite, mp-22390 with 24 ICSD references; Sr2RuO4 (36) is the n=1 Ruddlesden-Popper member and Sr3Ru2O7/Sr4Ru3O10 are n=2 and n=3.
-
-**`SrRuO3`** — 56 samples, 21 papers
-- [Reversible manipulation of the magnetic state in SrRuO3 through electric-field controlled proto...](https://doi.org/10.1038/s41467-019-13999-1) (2020) — 9 samples
-- [Nanoscale heat transport through the hetero-interface of SrRuO3 thin films](https://doi.org/10.1088/1361-6528/ab280d) (2019) — 7 samples
-- [Influence of annealing temperature on the structural, optical, and magnetic properties of two-p...](https://doi.org/10.1007/s41779-017-0100-4) (2017) — 7 samples
-
-**`Sr2RuO4`** — 36 samples, 18 papers
-- [Galvanomagnetic properties of atomically disordered Sr2RuO4 single crystals](https://doi.org/10.1134/1.1995798) (2005) — 8 samples
-- [Growth of epitaxial films](https://doi.org/10.1088/0953-2048/10/12/006) (1997) — 4 samples
-- [Effects of oxygen non-stoichiometry and cationic substitutions on the properties of Sr2RuO4 + δ](https://doi.org/10.1016/s0254-0584(98)00140-0) (1998) — 3 samples
-
-**`Sr3Ru2O7`** — 3 samples, 2 papers
-- [Ground state in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><m...](https://doi.org/10.1103/physrevb.62.r6089) (2000) — 2 samples
-- [Transport Properties of Metallic Ruthenates: ADFT+DMFTInvestigation](https://doi.org/10.1103/physrevlett.116.256401) (2016) — 1 samples
-
-**`Sr2Ru2O4`** — 2 samples, 1 papers
-- [Anisotropic Seebeck coefficient of \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"...](https://doi.org/10.1103/physrevb.108.l121106) (2023) — 2 samples
-
-**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
-
-```finding
-host: O-Ru-Sr
-decision:        # confirm | change | split | unresolved
-prototype:       # for change: the prototype id it should be
-split:           # for split: one "composition -> prototype_id" per line
-  # Ca3Co4O9 -> misfit_cobaltite
-  # Ca3Co2O6 -> ca3co2o6_chain
-evidence:        # DOI you read this from
-notes:
-```
-
----
-
 ## B — 124 samples, chunk 2
 
 **Assigned** `boron_carbide` (medium confidence)
 
 **Needs checking because:**
-- MIXED — one label covers several structures (also: unlisted)
 - medium confidence
 
 **What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 - Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
 
 > Mixed boron-rich solids: beta-rhombohedral boron (B, B105), metal-doped B105 (V1.5B105, Co1.0B105) and YB66 (13), which is a distinct cubic Fm-3c structure with B12 icosahedra, not the B4C type.
@@ -1700,40 +1004,268 @@ notes:
 
 ---
 
-## Cu-Sb-Se — 113 samples, chunk 2
+## O-W — 103 samples, chunk 2
 
-**Assigned** `famatinite` (high confidence)
+**Assigned** `reo3_wo3` (high confidence)
 
 **Needs checking because:**
-- MIXED — one label covers several structures (also: skinnerite_cu3sbse3)
+- transition at ~290 K is a taxonomy default, not read from a paper
+- taxonomy issue recorded
 
 **What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
+- Whether the paper reports a structural transition, and at what temperature. Look for DSC, high-temperature XRD, or a kink discussed in the text. Record the temperature, or "none" if the paper shows the sample staying in one phase across its range.
+- Whether the taxonomy entry itself is wrong or incomplete, rather than the assignment. Record what should change in the prototype.
 
-> Cu3SbSe4 (17) famatinite, mp-9814 hull 0; Cu3SbSe3 (6) is orthorhombic skinnerite and CuSbSe2 a third phase. Split by anion count.
+> WO3 (15) plus oxygen-deficient WO3-x. The measured 49-1100 K range crosses three steps of the WO3 tilt-distortion series, so no single space group describes these samples: gamma P2_1/n at room temperature, beta Pbcn above ~603 K, alpha P4/ncc above ~1013 K.
 
-**`Cu3SbSe4`** — 17 samples, 13 papers
-- [Co-precipitation synthesis of nanostructured Cu3SbSe4and its Sn-doped sample with high thermoel...](https://doi.org/10.1039/c3dt52447g) (2014) — 4 samples
-- [The reduction of thermal conductivity in Cd and Sn co-doped Cu3SbSe4-based composites with a se...](https://doi.org/10.1007/s10853-020-05586-3) (2020) — 2 samples
-- [Thermoelectric Properties of Indium(III)-Doped Copper Antimony Selenide Thin Films Deposited Us...](https://doi.org/10.1002/ente.201500508) (2016) — 1 samples
+**`WO3`** — 15 samples, 12 papers
+- [Thermoelectric properties of Bi2O3-added WO3 ceramics](https://doi.org/10.1016/j.ceramint.2018.09.151) (2019) — 3 samples
+- [Photo-controllable thermoelectric properties with reversibility and photo-thermoelectric effect...](https://doi.org/10.1063/1.4900852) (2014) — 2 samples
+- [Thermoelectric properties of WO3-based ceramics doped with Co2O3](https://doi.org/10.1007/s10854-011-0574-8) (2011) — 1 samples
 
-**`Cu3SbSe3`** — 6 samples, 4 papers
-- [Is Cu3SbSe3 a promising thermoelectric material?](https://doi.org/10.1039/c5ra03953c) (2015) — 3 samples
-- [Thermoelectric properties of Cu3SbSe3 with intrinsically ultralow lattice thermal conductivity](https://doi.org/10.1039/c4ta02590c) (2014) — 1 samples
-- [Structural effects on the lattice thermal conductivity of ternary antimony- and bismuth-contain...](https://doi.org/10.1063/1.3425886) (2010) — 1 samples
+**`WO2.90`** — 11 samples, 4 papers
+- [SPS-assisted preparation of the Magnéli phase WO2.90 for thermoelectric applications](https://doi.org/10.1039/c3ta12145c) (2013) — 7 samples
+- [Towards higher zT in early transition metal oxides: optimizing the charge carrier concentration...](https://doi.org/10.1016/j.matpr.2017.12.271) (2018) — 2 samples
+- [Using crystallographic shear to reduce lattice thermal conductivity: high temperature thermoele...](https://doi.org/10.1039/c3cp52361f) (2013) — 1 samples
 
-**`Cu3Sb0.98Sn0.02Se4`** — 3 samples, 3 papers
-- [The reduction of thermal conductivity in Cd and Sn co-doped Cu3SbSe4-based composites with a se...](https://doi.org/10.1007/s10853-020-05586-3) (2020) — 1 samples
-- [Cu2HgSnSe4 nanoparticles: synthesis and thermoelectric properties](https://doi.org/10.1039/c3ce41583j) (2013) — 1 samples
-- [Co-precipitation synthesis of nanostructured Cu3SbSe4and its Sn-doped sample with high thermoel...](https://doi.org/10.1039/c3dt52447g) (2014) — 1 samples
+**`W0.95Ti0.05O3`** — 6 samples, 1 papers
+- [The disordering effect of Ti observed in the microstructure and electrical properties of W0.95T...](https://doi.org/10.1063/1.3496473) (2010) — 6 samples
 
-**`Cu2.925SbSe4`** — 2 samples, 1 papers
-- [Enhanced Thermoelectric Performance of Nonstoichiometric Compounds Cu3−x SbSe4 by Cu Deficiencies](https://doi.org/10.1007/s11664-014-3018-4) (2014) — 2 samples
+**`WO2.9`** — 5 samples, 3 papers
+- [Unconventional Transport Properties of Reduced Tungsten Oxide WO2.9](https://doi.org/10.3390/condmat5040063) (2020) — 4 samples
+- [Spark Plasma Sintering of Tungsten Oxides WOx (2.50 ≤ x ≤ 3): Phase Analysis and Thermoelectric...](https://doi.org/10.3390/cryst7090271) (2017) — 1 samples
 
 **Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
 
 ```finding
-host: Cu-Sb-Se
+host: O-W
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+transition_K:    # temperature, or "none"
+evidence:        # DOI you read this from
+notes:
+```
+
+---
+
+## Cu-S — 102 samples, chunk 2
+
+**Assigned** `cu2se_superionic` (high confidence)
+
+**Needs checking because:**
+- transition at ~376 K is a taxonomy default, not read from a paper
+
+**What to look for:**
+- Whether the paper reports a structural transition, and at what temperature. Look for DSC, high-temperature XRD, or a kink discussed in the text. Record the temperature, or "none" if the paper shows the sample staying in one phase across its range.
+
+> Cu2-xS (Cu2S, Cu1.97S, Cu1.8S) -- the sulfur analogue of Cu2Se, superionic above ~376 K. Cu deficiency spans chalcocite to digenite and is the carrier knob.
+
+**`Cu1.8S`** — 13 samples, 9 papers
+- [Synthesis and transport property of Cu1.8S as a promising thermoelectric compound](https://doi.org/10.1039/c1cc16368j) (2011) — 5 samples
+- [Size effect of SiO2on enhancing thermoelectric properties of Cu1.8S](https://doi.org/10.1002/pssa.201330185) (2013) — 1 samples
+- [Enhanced thermoelectric properties of Cu1.8Se1−xSx alloys prepared by mechanical alloying and s...](https://doi.org/10.1016/j.jallcom.2016.04.140) (2016) — 1 samples
+
+**`Cu1.97S`** — 12 samples, 3 papers
+- [High thermoelectric and mechanical performance in highly dense Cu2−xS bulks prepared by a melt-...](https://doi.org/10.1039/c5ta01667c) (2015) — 10 samples
+- [High Thermoelectric Performance in Non-Toxic Earth-Abundant Copper Sulfide](https://doi.org/10.1002/adma.201400515) (2014) — 1 samples
+- [Research Update: Cu–S based synthetic minerals as efficient thermoelectric materials at medium ...](https://doi.org/10.1063/1.4955398) (2016) — 1 samples
+
+**`Cu2S`** — 12 samples, 5 papers
+- [High thermoelectric and mechanical performance in highly dense Cu2−xS bulks prepared by a melt-...](https://doi.org/10.1039/c5ta01667c) (2015) — 8 samples
+- [High Thermoelectric Performance in Non-Toxic Earth-Abundant Copper Sulfide](https://doi.org/10.1002/adma.201400515) (2014) — 1 samples
+- [Electrical and thermoelectric properties of Cu2Se and Cu2S](https://doi.org/10.1016/0025-5408(81)90119-7) (1981) — 1 samples
+
+**`(Cu2S)0.90(Cu5FeS4)0.10`** — 5 samples, 1 papers
+- [Structural, thermoelectric and stability studies of Fe-doped copper sulfide](https://doi.org/10.1016/j.ssi.2020.115322) (2020) — 5 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Cu-S
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+transition_K:    # temperature, or "none"
+evidence:        # DOI you read this from
+notes:
+```
+
+---
+
+## Nb-O-Sr — 102 samples, chunk 2
+
+**Assigned** `tungsten_bronze` (medium confidence)
+
+**Needs checking because:**
+- medium confidence
+- structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
+
+> Sr0.61Ba0.39Nb2O6 (26) is the SBN tetragonal tungsten bronze, not a perovskite. SrNbO3 (6) is a genuine perovskite and Sr2Nb2O7 a layered niobate -- three structures in one host.
+
+**`Sr0.61Ba0.39Nb2O6`** — 26 samples, 4 papers
+- [Effects of Oxygen-Reduction on Thermoelectric Properties of Sr<sub>0.61</sub>Ba<sub>0.39</sub>N...](https://doi.org/10.4028/www.scientific.net/msf.787.210) (2014) — 15 samples
+- [SrxBa1−xNb2O6−δ Ferroelectric-thermoelectrics: Crystal anisotropy, conduction mechanism, and po...](https://doi.org/10.1063/1.3291563) (2010) — 6 samples
+- [Thermoelectric power factor enhancement of textured ferroelectric Sr xBa1– x Nb2O6–δ ceramics](https://doi.org/10.1557/jmr.2010.78) (2011) — 4 samples
+
+**`Sr5Nb5O17`** — 6 samples, 3 papers
+- [Large anisotropic thermoelectricity in perovskite related layered structure: SrnNbnO3n+2 (n=4,5)](https://doi.org/10.1063/1.3510585) (2010) — 3 samples
+- [Thermoelectric Responses in Layered Strontium-Niobates Via Two Ways of Charge Carrier Control T...](https://doi.org/10.1111/j.1551-2916.2012.05169.x) (2012) — 2 samples
+- [Semiconducting large bandgap oxides as potential thermoelectric materials for high-temperature ...](https://doi.org/10.1007/s00339-014-8515-z) (2014) — 1 samples
+
+**`SrNbO3`** — 6 samples, 2 papers
+- [Electron transport and visible light absorption in a plasmonic photocatalyst based on strontium...](https://doi.org/10.1038/ncomms15070) (2017) — 5 samples
+- [Intrinsic high electrical conductivity of stoichiometric<mml:math xmlns:mml=\"http://www.w3.org...](https://doi.org/10.1103/physrevb.92.205102) (2015) — 1 samples
+
+**`Sr1.8La0.2Nb2O7`** — 5 samples, 3 papers
+- [Large anisotropic thermoelectricity in perovskite related layered structure: SrnNbnO3n+2 (n=4,5)](https://doi.org/10.1063/1.3510585) (2010) — 3 samples
+- [Semiconducting large bandgap oxides as potential thermoelectric materials for high-temperature ...](https://doi.org/10.1007/s00339-014-8515-z) (2014) — 1 samples
+- [Thermoelectric Responses in Layered Strontium-Niobates Via Two Ways of Charge Carrier Control T...](https://doi.org/10.1111/j.1551-2916.2012.05169.x) (2012) — 1 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Nb-O-Sr
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
+---
+
+## Al-Cu-O — 99 samples, chunk 2
+
+**Assigned** `delafossite` (high confidence)
+
+**Needs checking because:**
+- structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
+
+> CuAlO2 (33) delafossite R-3m, the archetypal transparent p-type oxide. The Ca/Sr additions are at sub-percent level.
+
+**`CuAlO2`** — 33 samples, 16 papers
+- [Synergetic improvement strategy on thermoelectric performance of CuAlO2 compacts](https://doi.org/10.1016/j.ceramint.2018.12.004) (2019) — 6 samples
+- [Fabrication of thermoelectric CuAlO2  and performance enhancement by high density](https://doi.org/10.1016/j.jallcom.2015.08.013) (2015) — 5 samples
+- [Effect of calcination temperature on structure and thermoelectric properties of CuAlO2 powders](https://doi.org/10.1007/s10853-017-1602-8) (2017) — 4 samples
+
+**`CuAl0.9Fe0.1O2`** — 11 samples, 4 papers
+- [Figures of Merit of Low-Cost CuAl<sub>0.9</sub>Fe<sub>0.1</sub>O<sub>2</sub> Thermoelectric Mat...](https://doi.org/10.4028/www.scientific.net/kem.659.185) (2015) — 8 samples
+- [Effects of mechanical milling on preparation and properties of CuAl1−xFexO2 thermoelectric cera...](https://doi.org/10.1016/j.ceramint.2011.12.079) (2012) — 1 samples
+- [Improvement in thermoelectric properties of CuAlO2 by adding Fe2O3](https://doi.org/10.1016/j.jallcom.2006.07.067) (2007) — 1 samples
+
+**`Ca(CuAlO2)99`** — 5 samples, 1 papers
+- [Synergetic improvement strategy on thermoelectric performance of CuAlO2 compacts](https://doi.org/10.1016/j.ceramint.2018.12.004) (2019) — 5 samples
+
+**`Ca2(CuAlO2)98`** — 5 samples, 1 papers
+- [Synergetic improvement strategy on thermoelectric performance of CuAlO2 compacts](https://doi.org/10.1016/j.ceramint.2018.12.004) (2019) — 5 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Al-Cu-O
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
+---
+
+## Cu-Fe-S — 99 samples, chunk 2
+
+**Assigned** `chalcopyrite` (high confidence)
+
+**Needs checking because:**
+- structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
+
+> CuFeS2 (20) chalcopyrite; Cu5FeS4 (7) is bornite, a different sulfosalt in the same host.
+
+**`CuFeS2`** — 20 samples, 11 papers
+- [Synthesis and property evaluation of CuFeS2−x as earth-abundant and environmentally-friendly th...](https://doi.org/10.1016/j.jallcom.2012.09.067) (2013) — 6 samples
+- [Synthesis and Thermoelectric Properties of Carrier-Doped CuFeS2 Sintered Samples](https://doi.org/10.2497/jjspm.61.18) (2014) — 3 samples
+- [Enhanced thermoelectric performance of chalcopyrite nanocomposite via co-milling of synthetic a...](https://doi.org/10.1016/j.matlet.2020.128107) (2020) — 3 samples
+
+**`Zn0.03Cu0.97FeS2`** — 9 samples, 4 papers
+- [Effect of Nanostructuring and High-Pressure Torsion Process on Thermal Conductivity of Carrier-...](https://doi.org/10.1007/s11664-015-4147-0) (2015) — 4 samples
+- [Effect of microstructure on lattice thermal conductivity of thermoelectric chalcopyrite CuFeS2:...](https://doi.org/10.35848/1882-0786/ac1231) (2021) — 3 samples
+- [Phase Stability and Thermoelectric Properties of CuFeS2-Based Magnetic Semiconductor](https://doi.org/10.1007/s11664-014-3072-y) (2014) — 1 samples
+
+**`Cu5FeS4`** — 7 samples, 3 papers
+- [Ball milling as an effective route for the preparation of doped bornite: synthesis, stability a...](https://doi.org/10.1039/c5tc01704a) (2015) — 4 samples
+- [Sulfide bornite thermoelectric material: a natural mineral with ultralow thermal conductivity](https://doi.org/10.1039/c4ee02428a) (2014) — 2 samples
+- [High Thermoelectric Performance of Bornite through Control of the Cu(II) Content and Vacancy Co...](https://doi.org/10.1021/acs.chemmater.7b04436) (2018) — 1 samples
+
+**`Cu0.95Fe1.05S2`** — 4 samples, 4 papers
+- [Possible Enhancement of Thermoelectric Properties by Use of a Magnetic Semiconductor: Carrier-D...](https://doi.org/10.1007/s11664-013-2485-3) (2013) — 1 samples
+- [Thermoelectric transport properties of diamond-like Cu1−xFe1+xS2 tetrahedral compounds](https://doi.org/10.1063/1.4902849) (2014) — 1 samples
+- [Research Update: Cu–S based synthetic minerals as efficient thermoelectric materials at medium ...](https://doi.org/10.1063/1.4955398) (2016) — 1 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Cu-Fe-S
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
+---
+
+## Ir-O-Sr — 96 samples, chunk 2
+
+**Assigned** `perovskite` (medium confidence)
+
+**Needs checking because:**
+- medium confidence
+
+**What to look for:**
+- Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
+
+> SrIrO3 (35) and Sr2IrO4 (21). SrIrO3 is the monoclinic distorted perovskite (a 6H hexagonal polymorph also exists) and Sr2IrO4 is the n=1 Ruddlesden-Popper spin-orbit Mott insulator.
+
+**`SrIrO3`** — 35 samples, 10 papers
+- [Anomalous pressure dependence of the electronic transport and anisotropy in SrIrO3 films](https://doi.org/10.1088/1361-648x/ab8a9e) (2020) — 17 samples
+- [Metal insulator transitions in perovskite SrIrO3 thin films](https://doi.org/10.1063/1.4903314) (2014) — 5 samples
+- [Anisotropy and interaction effects of strongly strained SrIrO<sub>3</sub> thin films](https://doi.org/10.1063/1.4960700) (2016) — 5 samples
+
+**`Sr2IrO4`** — 21 samples, 10 papers
+- [Crossover of conduction mechanism in Sr<sub>2</sub>IrO<sub>4</sub> epitaxial thin films](https://doi.org/10.1063/1.4894465) (2014) — 6 samples
+- [Quest for quantum states via field-altering technology](https://doi.org/10.1038/s41535-020-00286-2) (2020) — 4 samples
+- [Decoupling of magnetism and electric transport in single-crystal (Sr<sub>1−<i>x</i> </sub>A<sub...](https://doi.org/10.1088/1361-648x/aac23d) (2018) — 2 samples
+
+**`Sr1.95La0.05IrO4`** — 3 samples, 2 papers
+- [Insight on the electronic state of Sr2IrO4revealed by cationic substitutions](https://doi.org/10.1088/0953-8984/20/29/295201) (2008) — 2 samples
+- [Transport Properties and Cationic Substitutions in Sr2IrO4](https://doi.org/10.1007/s11664-008-0642-x) (2009) — 1 samples
+
+**`Sr2Ir0.9Rh0.1O4`** — 3 samples, 2 papers
+- [Insight on the electronic state of Sr2IrO4revealed by cationic substitutions](https://doi.org/10.1088/0953-8984/20/29/295201) (2008) — 2 samples
+- [Transport Properties and Cationic Substitutions in Sr2IrO4](https://doi.org/10.1007/s11664-008-0642-x) (2009) — 1 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Ir-O-Sr
 decision:        # confirm | change | split | unresolved
 prototype:       # for change: the prototype id it should be
 split:           # for split: one "composition -> prototype_id" per line
@@ -1745,37 +1277,249 @@ notes:
 
 ---
 
-## Ba-Ga-Sn — 112 samples, chunk 2
+## Sb-Yb — 93 samples, chunk 2
 
-**Assigned** `clathrate_viii` (high confidence)
+**Assigned** `yb14mnsb11_zintl` (high confidence)
 
 **Needs checking because:**
-- MIXED — one label covers several structures (also: clathrate_i)
+- structure reference cannot separate two polymorphs
 
 **What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
-> Ba8Ga16Sn30 (26) exists as both the type-I (alpha) and type-VIII (beta) polymorph; the thermoelectric literature is dominated by the type-VIII beta phase.
+> Yb14MnSb11 (18) and Yb14MgSb11 -- the 14-1-11 Zintl, the highest-performing p-type high-temperature thermoelectric. Yb11GaSb9 and Yb4Sb3 are separate phases in this host.
 
-**`Ba8Ga16Sn30`** — 26 samples, 9 papers
-- [Thermoelectric properties and structural instability of type-I clathrate Ba8Ga16Sn30 at high te...](https://doi.org/10.1016/j.ssc.2012.06.027) (2012) — 8 samples
-- [Tunable charge carriers and thermoelectricity of single-crystal Ba8Ga16Sn30](https://doi.org/10.1088/0953-8984/18/5/011) (2006) — 4 samples
-- [Ba8Ga16Sn30 with type-I clathrate structure: Drastic suppression of heat conduction](https://doi.org/10.1063/1.2831926) (2008) — 3 samples
+**`Yb14MnSb11`** — 18 samples, 14 papers
+- [High Temperature Thermoelectric Properties of Yb14MnSb11Prepared from Reaction of MnSb with the...](https://doi.org/10.1021/acs.chemmater.5b02446) (2015) — 5 samples
+- [Traversing the Metal-Insulator Transition in a Zintl Phase: Rational Enhancement of Thermoelect...](https://doi.org/10.1002/adfm.200800298) (2008) — 1 samples
+- [Achieving zT > 1 in Inexpensive Zintl Phase Ca9\nZn4+\n                        \n              ...](https://doi.org/10.1002/adfm.201606361) (2017) — 1 samples
 
-**`Ba8Ga15.9Zn0.006Sn30.1`** — 3 samples, 1 papers
-- [Thermoelectric Properties ofp-Type Clathrate Ba8.0Ga15.9ZnySn30.1Single Crystals with Various C...](https://doi.org/10.1021/acs.chemmater.5b00025) (2015) — 3 samples
+**`Yb14MgSb11`** — 7 samples, 3 papers
+- [Yb14MgSb11and Ca14MgSb11—New Mg-Containing Zintl Compounds and Their Structures, Bonding, and T...](https://doi.org/10.1021/cm504059t) (2015) — 5 samples
+- [Improved Power Factor and Mechanical Properties of Composites of Yb14MgSb11 with Iron](https://doi.org/10.1021/acsaem.9b02168) (2020) — 1 samples
+- [Discovery of multivalley Fermi surface responsible for the high thermoelectric performance in Y...](https://doi.org/10.1126/sciadv.abe9439) (2021) — 1 samples
 
-**`Ba7.98Ga15.8Cu0.018Sn30.2`** — 2 samples, 1 papers
-- [High thermoelectric performance of Cu substituted type-VIII clathrate Ba8Ga16–xCuxSn30 single c...](https://doi.org/10.1063/1.3583570) (2011) — 2 samples
+**`Yb14Mn1.05Sb11`** — 4 samples, 3 papers
+- [High Temperature Thermoelectric Properties of Yb14MnSb11Prepared from Reaction of MnSb with the...](https://doi.org/10.1021/acs.chemmater.5b02446) (2015) — 2 samples
+- [Preparation and thermoelectric properties of polycrystalline nonstoichiometric Yb14MnSb11 Zintl...](https://doi.org/10.1002/pssr.201004193) (2010) — 1 samples
+- [Improved Thermoelectric Properties in Lu-doped Yb$_{14}$MnSb$_{11}$ Zintl Compounds](https://doi.org/10.1143/apex.5.031801) (2012) — 1 samples
 
-**`Ba7.99Ga15.84Cu0.004Sn30.16`** — 2 samples, 2 papers
-- [Thermoelectric Properties ofp-Type Clathrate Ba8.0Ga15.9ZnySn30.1Single Crystals with Various C...](https://doi.org/10.1021/acs.chemmater.5b00025) (2015) — 1 samples
-- [Thermoelectric properties of type-VIII clathrate Ba8Ga16Sn30 doped with Cu](https://doi.org/10.1016/j.jallcom.2012.05.049) (2012) — 1 samples
+**`Yb11GaSb9`** — 3 samples, 1 papers
+- [High-Temperature Transport Properties of the Zintl Phases Yb11GaSb9and Yb11InSb9†](https://doi.org/10.1021/cm901824c) (2010) — 3 samples
 
 **Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
 
 ```finding
-host: Ba-Ga-Sn
+host: Sb-Yb
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
+---
+
+## Te — 92 samples, chunk 2
+
+**Assigned** `trigonal_te` (high confidence)
+
+**Needs checking because:**
+- transition at ~723 K is a taxonomy default, not read from a paper
+
+**What to look for:**
+- Whether the paper reports a structural transition, and at what temperature. Look for DSC, high-temperature XRD, or a kink discussed in the text. Record the temperature, or "none" if the paper shows the sample staying in one phase across its range.
+
+> Elemental Te (33), helical chains P3_121, mp-19 with 20 ICSD references. Te melts at ~723 K, inside many high-temperature runs.
+
+**`Te`** — 33 samples, 10 papers
+- [Tellurium as a high-performance elemental thermoelectric](https://doi.org/10.1038/ncomms10287) (2016) — 15 samples
+- [Thermoelectric properties of electrodeposited tellurium films and the sodium lignosulfonate effect](https://doi.org/10.1016/j.electacta.2015.04.063) (2015) — 6 samples
+- [Thermoelectric Properties of Films and Monocrystalline Whiskers of Tellurium](https://doi.org/10.1109/ict.2006.331387) (2006) — 3 samples
+
+**`Te0.98As0.02`** — 8 samples, 2 papers
+- [Enhancing the average thermoelectric figure of merit of elemental Te by suppressing grain bound...](https://doi.org/10.1039/d0ta02660c) (2020) — 7 samples
+- [Sb induces both doping and precipitation for improving the thermoelectric performance of elemen...](https://doi.org/10.1039/c7qi00138j) (2017) — 1 samples
+
+**`SnSeTe30`** — 4 samples, 1 papers
+- [Anion-exchanged porous SnTe nanosheets for ultra-low thermal conductivity and high-performance ...](https://doi.org/10.1016/j.cej.2020.126274) (2020) — 4 samples
+
+**`Te97Se3`** — 2 samples, 1 papers
+- [Effect of selenium on the thermoelectric properties of tellurium](https://doi.org/10.1007/bf00891150) (1975) — 2 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Te
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+transition_K:    # temperature, or "none"
+evidence:        # DOI you read this from
+notes:
+```
+
+---
+
+## Ge-Pb-Te — 91 samples, chunk 2
+
+**Assigned** `gete_rhombohedral` (high confidence)
+
+**Needs checking because:**
+- transition at ~700 K is a taxonomy default, not read from a paper
+
+**What to look for:**
+- Whether the paper reports a structural transition, and at what temperature. Look for DSC, high-temperature XRD, or a kink discussed in the text. Record the temperature, or "none" if the paper shows the sample staying in one phase across its range.
+
+> Ge1-xPbxTe alloys, Ge-rich (median Ge/(Ge+Pb)=0.82). Rhombohedral at room temperature, converting to rocksalt near 700 K; Pb content lowers the transition temperature.
+
+**`Ge0.87Pb0.13Te`** — 10 samples, 4 papers
+- [Controlling Metallurgical Phase Separation Reactions of the Ge0.87Pb0.13Te Alloy for High Therm...](https://doi.org/10.1002/aenm.201200970) (2013) — 7 samples
+- [A Comparison Between the Mechanical and Thermoelectric Properties of Three Highly Efficient p-T...](https://doi.org/10.1007/s11664-012-2316-y) (2012) — 1 samples
+- [Stacking Fault-Induced Minimized Lattice Thermal Conductivity in the High-Performance GeTe-Base...](https://doi.org/10.1021/acsami.9b04984) (2019) — 1 samples
+
+**`Ge0.76Sb0.08Pb0.12Te`** — 8 samples, 1 papers
+- [Vacancy Manipulation for Thermoelectric Enhancements in GeTe Alloys](https://doi.org/10.1021/jacs.8b09375) (2018) — 8 samples
+
+**`Ge0.86Pb0.1Bi0.04Te`** — 6 samples, 1 papers
+- [Low-Symmetry Rhombohedral GeTe Thermoelectrics](https://doi.org/10.1016/j.joule.2018.02.016) (2018) — 6 samples
+
+**`Ge0.4Pb0.6Te`** — 2 samples, 1 papers
+- [Near-room-temperature rhombohedral Ge1-Pb Te thermoelectrics](https://doi.org/10.1016/j.mtphys.2020.100260) (2020) — 2 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Ge-Pb-Te
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+transition_K:    # temperature, or "none"
+evidence:        # DOI you read this from
+notes:
+```
+
+---
+
+## Cu-O — 89 samples, chunk 2
+
+**Assigned** `tenorite` (high confidence)
+
+**Needs checking because:**
+- structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
+
+> CuO (9) monoclinic tenorite and Cu2O cuprite in the same host; separated by copper oxidation state.
+
+**`CuO`** — 9 samples, 4 papers
+- [Controlled nanostructuring via aluminum doping in CuO nanosheets for enhanced thermoelectric pe...](https://doi.org/10.1016/j.jallcom.2021.159370) (2021) — 5 samples
+- [Thermoelectric properties of Li-doped Cu0.95-x M0.05Li x O (M=Mn, Ni, Zn)](https://doi.org/10.1557/opl.2012.1571) (2012) — 2 samples
+- [Nanocomposites of CuO/SWCNT: Promising thermoelectric materials for mid-temperature thermoelect...](https://doi.org/10.1016/j.jeurceramsoc.2019.04.036) (2019) — 1 samples
+
+**`Cu0.94Ni0.05Li0.01O`** — 7 samples, 1 papers
+- [Thermoelectric properties of Li-doped Cu0.95-x M0.05Li x O (M=Mn, Ni, Zn)](https://doi.org/10.1557/opl.2012.1571) (2012) — 7 samples
+
+**`Al0.005(CuO)0.995`** — 5 samples, 1 papers
+- [Controlled nanostructuring via aluminum doping in CuO nanosheets for enhanced thermoelectric pe...](https://doi.org/10.1016/j.jallcom.2021.159370) (2021) — 5 samples
+
+**`Al0.01(CuO)0.99`** — 5 samples, 1 papers
+- [Controlled nanostructuring via aluminum doping in CuO nanosheets for enhanced thermoelectric pe...](https://doi.org/10.1016/j.jallcom.2021.159370) (2021) — 5 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Cu-O
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
+---
+
+## Ag-Se — 86 samples, chunk 2
+
+**Assigned** `ag2se_naumannite` (high confidence)
+
+**Needs checking because:**
+- transition at ~406 K is a taxonomy default, not read from a paper
+
+**What to look for:**
+- Whether the paper reports a structural transition, and at what temperature. Look for DSC, high-temperature XRD, or a kink discussed in the text. Record the temperature, or "none" if the paper shows the sample staying in one phase across its range.
+
+> Ag2Se (46) orthorhombic below ~406 K, converting to the bcc superionic phase above it -- inside the measured window.
+
+**`Ag2Se`** — 46 samples, 19 papers
+- [Thermoelectric power of annealed β‐Ag2Se alloy thin films: Temperature and size effects—possibi...](https://doi.org/10.1063/1.345747) (1990) — 12 samples
+- [Non-epitaxial pulsed laser deposition of Ag 2 Se thermoelectric thin films for near-room temper...](https://doi.org/10.1016/j.ceramint.2016.05.037) (2016) — 5 samples
+- [Hierarchical Structures Advance Thermoelectric Properties of Porous n-type β-Ag2Se](https://doi.org/10.1021/acsami.0c15341) (2020) — 5 samples
+
+**`Ag2.001Se1.01`** — 5 samples, 1 papers
+- [Thermoelectric figure of merit of Ag2Se with Ag and Se excess](https://doi.org/10.1134/s1063782609080028) (2009) — 5 samples
+
+**`Ag2.0006Se`** — 2 samples, 1 papers
+- [Evaluating the potential for high thermoelectric efficiency of silver selenide](https://doi.org/10.1039/c3tc31810a) (2013) — 2 samples
+
+**`Ag2.0027Se`** — 2 samples, 1 papers
+- [Evaluating the potential for high thermoelectric efficiency of silver selenide](https://doi.org/10.1039/c3tc31810a) (2013) — 2 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Ag-Se
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+transition_K:    # temperature, or "none"
+evidence:        # DOI you read this from
+notes:
+```
+
+---
+
+## Cu-S-Sn — 84 samples, chunk 2
+
+**Assigned** `colusite` (high confidence)
+
+**Needs checking because:**
+- taxonomy issue recorded
+
+**What to look for:**
+- Whether the taxonomy entry itself is wrong or incomplete, rather than the assignment. Record what should change in the prototype.
+
+> Cu26V2Sn6S32 (18) is colusite, a distinct sulfosalt with a cubic P-43n framework; Cu2SnS3 (11) is the diamond-like ternary and Cu4Sn7S16 a third phase. Colusite has no entry in the taxonomy.
+
+**`Cu26V2Sn6S32`** — 18 samples, 7 papers
+- [Issues and opportunities from Peltier effect in functionally-graded colusites: From SPS tempera...](https://doi.org/10.1016/j.apmt.2021.100948) (2021) — 6 samples
+- [A scalable synthesis route for multiscale defect engineering in the sustainable thermoelectric ...](https://doi.org/10.1016/j.actamat.2020.05.039) (2020) — 4 samples
+- [Promoted crystallisation and cationic ordering in thermoelectric Cu26V2Sn6S32 colusite by eccen...](https://doi.org/10.1039/d0dt03368e) (2020) — 4 samples
+
+**`Cu2SnS3`** — 11 samples, 7 papers
+- [Ultra-low thermal conductivity and improved thermoelectric performance in disordered nanostruct...](https://doi.org/10.1016/j.jallcom.2020.154604) (2020) — 4 samples
+- [Experimental and Ab Initio Study of Cu2SnS3 (CTS) Polymorphs for Thermoelectric Applications](https://doi.org/10.1021/acs.jpcc.0c09139) (2020) — 2 samples
+- [The Enhanced Electrical Transport Properties of Fe3+ Doped Cu2SnS3](https://doi.org/10.1007/s13391-021-00309-5) (2021) — 1 samples
+
+**`Cu4Sn7S16`** — 6 samples, 4 papers
+- [Low thermal conductivity in ternary Cu4Sn7S16 compound](https://doi.org/10.1016/j.actamat.2015.06.046) (2015) — 3 samples
+- [Crystal structure, electronic structure and thermoelectric properties of Cu4Sn7S16](https://doi.org/10.1016/j.jallcom.2005.09.030) (2006) — 1 samples
+- [Improved thermoelectric performance of solid solution Cu4Sn7.5S16 through isoelectronic substit...](https://doi.org/10.1038/s41598-018-26362-z) (2018) — 1 samples
+
+**`Cu24Zn2V2Sn6S32`** — 2 samples, 2 papers
+- [Tunable electronic properties and low thermal conductivity in synthetic colusites Cu26−xZnxV2M6...](https://doi.org/10.1063/1.4892593) (2014) — 1 samples
+- [Tuning the charge carrier density in the thermoelectric colusite](https://doi.org/10.1063/1.4948475) (2016) — 1 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Cu-S-Sn
 decision:        # confirm | change | split | unresolved
 prototype:       # for change: the prototype id it should be
 split:           # for split: one "composition -> prototype_id" per line
@@ -1787,39 +1531,38 @@ notes:
 
 ---
 
-## La-Ni-O — 107 samples, chunk 2
+## Ba-Co-O — 83 samples, chunk 3
 
-**Assigned** `perovskite` (high confidence)
+**Assigned** `perovskite` (medium confidence)
 
 **Needs checking because:**
-- MIXED — one label covers several structures (also: ruddlesden_popper)
+- medium confidence
 
 **What to look for:**
-- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
+- Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
 
-> LaNiO3 (49) rhombohedral R-3c perovskite, mp-19339. La2NiO4 members in the tail are Ruddlesden-Popper.
+> BaCoO3-delta hexagonal (2H BaNiO3-type) perovskite dominates the doped members, but Ba2Co9O14 (11) is a distinct layered cobalt oxide, not a perovskite at all.
 
-**`LaNiO3`** — 49 samples, 22 papers
-- [Observation of an antiferromagnetic quantum critical point in high-purity LaNiO3](https://doi.org/10.1038/s41467-020-15143-w) (2020) — 6 samples
-- [Effect of structural disorder on transport properties of LaNiO3 thin films](https://doi.org/10.1063/1.5041921) (2018) — 6 samples
-- [A laser-ARPES study of LaNiO3 thin films grown by sputter deposition](https://doi.org/10.1063/1.5143316) (2020) — 5 samples
+**`Ba2Co9O14`** — 11 samples, 3 papers
+- [Promising high temperature thermoelectric properties of dense Ba 2 Co 9 O 14 ceramics](https://doi.org/10.1016/j.jeurceramsoc.2017.01.034) (2017) — 6 samples
+- [Magnetic and Transport Properties of Ba2Co9O14and Ba1.9A0.1Co9O14(A=La or Na)](https://doi.org/10.1143/jpsj.79.114713) (2010) — 3 samples
+- [Spin-state transition in Ba2Co9O14](https://doi.org/10.1103/physrevb.85.094424) (2012) — 2 samples
 
-**`La2NiO4`** — 8 samples, 7 papers
-- [Enhanced surface exchange activity and electrode performance of (La2−2xSr2x)(Ni1−xMnx)O4+δ cath...](https://doi.org/10.1016/j.jpowsour.2016.04.022) (2016) — 2 samples
-- [Electrical conduction and thermoelectricity of La2NiO4+δ and La2(Ni,CO)O4+δ](https://doi.org/10.1016/0038-1098(95)00062-3) (1995) — 1 samples
-- [Preparation of thin films and ultrafine powders of (La,Sr)2NiO4 by a spray-ICP technique](https://doi.org/10.1016/0167-577x(94)90246-1) (1994) — 1 samples
+**`BaCo0.7Fe0.2Nb0.1O3`** — 7 samples, 6 papers
+- [Investigation of Ba fully occupied A-site BaCo0.7Fe0.3−xNbxO3−δ perovskite stabilized by low co...](https://doi.org/10.1016/j.memsci.2008.05.065) (2008) — 2 samples
+- [Total conductivity, oxygen permeability and stability of perovskite-type oxide BaCo0.7Fe0.2Nb0....](https://doi.org/10.1007/s12598-009-0040-4) (2009) — 1 samples
+- [A/B-site co-doping enabled fast oxygen reduction reaction and promoted CO2 tolerance of perovsk...](https://doi.org/10.1016/j.jpowsour.2022.232049) (2022) — 1 samples
 
-**`La0.97Sr0.03NiO3`** — 4 samples, 1 papers
-- [Some Crystallographic, Electric and Thermochemical Properties of the Perovskite-Type La<sub>1-<...](https://doi.org/10.1143/jjap.14.330) (1975) — 4 samples
+**`BaCo0.7Fe0.18Nb0.12O3`** — 5 samples, 1 papers
+- [Investigation of Ba fully occupied A-site BaCo0.7Fe0.3−xNbxO3−δ perovskite stabilized by low co...](https://doi.org/10.1016/j.memsci.2008.05.065) (2008) — 5 samples
 
-**`La0.9Bi0.1NiO3`** — 4 samples, 2 papers
-- [Thermoelectric properties of Ln-Ni-O (Ln : lanthanoid) systems](https://doi.org/10.1109/ict.2003.1287479) — 3 samples
-- [Power generation of thermoelectric oxide modules](https://doi.org/10.1109/ict.2005.1519947) (2005) — 1 samples
+**`BaCo0.7Fe0.22Nb0.08O3`** — 5 samples, 1 papers
+- [Investigation of Ba fully occupied A-site BaCo0.7Fe0.3−xNbxO3−δ perovskite stabilized by low co...](https://doi.org/10.1016/j.memsci.2008.05.065) (2008) — 5 samples
 
 **Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
 
 ```finding
-host: La-Ni-O
+host: Ba-Co-O
 decision:        # confirm | change | split | unresolved
 prototype:       # for change: the prototype id it should be
 split:           # for split: one "composition -> prototype_id" per line
@@ -1831,4 +1574,236 @@ notes:
 
 ---
 
-*31 further hosts are in `needs_review.parquet`; re-run with `--top` to include them.*
+## B-C — 77 samples, chunk 3
+
+**Assigned** `boron_carbide` (medium confidence)
+
+**Needs checking because:**
+- medium confidence
+
+**What to look for:**
+- Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
+
+> B4C (16) and B13C2 (5) are the icosahedral boron carbide series. ErB22C2N and Y1.08B22.3C2N are boron-cluster framework phases of a different structure type.
+
+**`B4C`** — 16 samples, 8 papers
+- [Preparation and Thermoelectric Characterization of SiC-B4C Composites](https://doi.org/10.1007/s11664-010-1129-0) (2010) — 5 samples
+- [The influence of W2B5 addition on microstructure and thermoelectric properties of B4C ceramic](https://doi.org/10.1016/s0272-8842(99)00089-9) (2000) — 3 samples
+- [Thermal conductivity and specific heat of boron carbides](https://doi.org/10.1016/0925-8388(94)90716-1) (1994) — 3 samples
+
+**`B13C2`** — 5 samples, 3 papers
+- [Thermal conductivity and specific heat of boron carbides](https://doi.org/10.1016/0925-8388(94)90716-1) (1994) — 3 samples
+- [Thermoelectric properties of some metal borides](https://doi.org/10.1016/j.jssc.2003.02.005) (2004) — 1 samples
+- [Reactive sintering process and thermoelectric properties of boron rich boron carbides](https://doi.org/10.1016/j.jeurceramsoc.2013.08.013) (2014) — 1 samples
+
+**`B9C`** — 4 samples, 2 papers
+- [Thermal conductivity and specific heat of boron carbides](https://doi.org/10.1016/0925-8388(94)90716-1) (1994) — 3 samples
+- [Manufacture and Testing of Thermoelectric Modules Consisting of BxC and TiOxElements](https://doi.org/10.1002/adem.201400183) (2014) — 1 samples
+
+**`ErB22C2N`** — 4 samples, 4 papers
+- [Thermoelectric properties of homologous p- and n-type boron-rich borides](https://doi.org/10.1016/j.jssc.2006.03.030) (2006) — 1 samples
+- [High temperature thermoelectric properties of a homologous series of n-type boron icosahedra co...](https://doi.org/10.1063/1.2730571) (2007) — 1 samples
+- [Homologous rare earth boron cluster compounds: a possible n-type counterpart to boron carbide](https://doi.org/10.1109/ict.2006.331324) (2006) — 1 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: B-C
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
+---
+
+## Mn-Sn-Te — 73 samples, chunk 3
+
+**Assigned** `rocksalt` (high confidence)
+
+**Needs checking because:**
+- MIXED — one label covers several structures (also: nias)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
+
+> Sn1-xMnxTe (x up to ~0.15) rocksalt solid solution; Mn substitutes Sn and raises the valence-band convergence. MnTe beyond the solubility limit precipitates as a NiAs-type second phase.
+
+**`Sn0.89Mn0.14Te(Cu2Te)0.05`** — 6 samples, 1 papers
+- [Promoting SnTe as an Eco-Friendly Solution for p-PbTe Thermoelectric via Band Convergence and I...](https://doi.org/10.1002/adma.201605887) (2017) — 6 samples
+
+**`(SnTe)0.83(MnTe)0.15Bi0.02`** — 5 samples, 1 papers
+- [Mechanical alloying boosted SnTe thermoelectrics](https://doi.org/10.1016/j.mtphys.2021.100340) (2021) — 5 samples
+
+**`Sn0.85Mn0.15Te`** — 5 samples, 2 papers
+- [Band and scattering tuning for high performance thermoelectric Sn1−xMnxTe alloys](https://doi.org/10.1016/j.jmat.2015.09.001) (2015) — 4 samples
+- [Phases and thermoelectric properties in stoichiometric Sn 1−x Mn x Te and non-stoichiometric Sn...](https://doi.org/10.1016/j.matdes.2016.06.084) (2016) — 1 samples
+
+**`Sn0.86Mn0.14Te(Cu2Te)0.05`** — 4 samples, 1 papers
+- [Promoting SnTe as an Eco-Friendly Solution for p-PbTe Thermoelectric via Band Convergence and I...](https://doi.org/10.1002/adma.201605887) (2017) — 4 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Mn-Sn-Te
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
+---
+
+## Mo-O — 72 samples, chunk 3
+
+**Assigned** `magneli_phase` (low confidence)
+
+**Needs checking because:**
+- low confidence
+- structure reference cannot separate two polymorphs
+- taxonomy issue recorded
+
+**What to look for:**
+- Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
+- Whether the taxonomy entry itself is wrong or incomplete, rather than the assignment. Record what should change in the prototype.
+
+> Four distinct families: Mo4O11 (19) and Mo8O23 (9) are Magneli-type shear phases, MoO2 (4) is rutile, Li0.9Mo6O17 is the purple bronze and Rb/K MoO3 the blue bronze. Not one prototype.
+
+**`Mo4O11`** — 19 samples, 5 papers
+- [Transport Properties of Quasi-Two-Dimensional Mo4O11 Crystals](https://doi.org/10.1002/pssb.2221480225) (1988) — 10 samples
+- [Effect of sulphur doping on the electrical properties of γ-Mo4O11 crystals](https://doi.org/10.1016/0022-5088(86)90148-7) (1986) — 4 samples
+- [Thermal conductivity of the charge density wave molybdenum oxides gamma -Mo4O11, eta -Mo4O11and...](https://doi.org/10.1088/0953-8984/4/25/001) (1992) — 2 samples
+
+**`Li0.9Mo6O17`** — 12 samples, 5 papers
+- [Extreme Thermopower Anisotropy and Interchain Transport in the Quasi-One-Dimensional MetalLi0.9...](https://doi.org/10.1103/physrevlett.112.186602) (2014) — 6 samples
+- [Synthesis and physical properties of the theoretically predicted spin-triplet superconductor Li...](https://doi.org/10.1016/j.ceramint.2021.05.234) (2021) — 3 samples
+- [Quasi two-dimensional electronic properties of the lithium molybdenum bronze, Li0.9Mo6O17](https://doi.org/10.1016/0038-1098(84)90944-x) (1984) — 1 samples
+
+**`Mo8O23`** — 9 samples, 2 papers
+- [Unveiling the electronic transformations in the semi-metallic correlated-electron transitional ...](https://doi.org/10.1038/s41598-019-52231-4) (2019) — 6 samples
+- [Electronic property changes of Mo−WO3−1 by doping with tungsten](https://doi.org/10.1016/0038-1098(86)90870-7) (1986) — 3 samples
+
+**`MoO2`** — 4 samples, 4 papers
+- [Electrical properties of Ln2Mo2O7 pyrochlores (Ln=SmYb,Y)](https://doi.org/10.1016/0025-5408(80)90094-x) (1980) — 1 samples
+- [Molybdenum Oxides MoOx: Spark-Plasma Synthesis and Thermoelectric Properties at Elevated Temper...](https://doi.org/10.1021/acs.chemmater.9b05075) (2020) — 1 samples
+- [Superconductivity and magnetism in the K<sub><i>x</i></sub>MoO<sub>2−</sub><sub><i>δ</i></sub>](https://doi.org/10.1063/1.4757003) (2012) — 1 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Mo-O
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
+---
+
+## Ge-Mg-Si — 69 samples, chunk 3
+
+**Assigned** `antifluorite` (high confidence)
+
+**Needs checking because:**
+- structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
+
+> Mg2Si1-xGex antifluorite solid solution; Ge and Si mix freely on the anion site.
+
+**`Mg2Si0.5Ge0.5`** — 10 samples, 5 papers
+- [Preparation and characterization of Ni-doped Mg, Si, Ge antifluorite, and their thermoelectric ...](https://doi.org/10.1007/s10854-023-11729-4) (2023) — 6 samples
+- [Solid-State Synthesis and Thermoelectric Properties \nof Mg2Si0.5Ge0.5Sb\n                m\n  ...](https://doi.org/10.1007/s11664-014-3435-4) (2014) — 1 samples
+- [The effects of Sb on the thermoelectric properties of Mg2Si1−xGex prepared by using solid-state...](https://doi.org/10.3938/jkps.64.1346) (2014) — 1 samples
+
+**`Mg2Si0.6Ge0.4`** — 6 samples, 2 papers
+- [Thermoelectric properties of p-type Mg2Si0.6Ge0.4 fabricated by bulk mechanical alloying and ho...](https://doi.org/10.1002/pssr.200701188) (2007) — 5 samples
+- [Composition dependent thermoelectric properties of sintered Mg2Si1−xGex (x=0 to 1) initiated fr...](https://doi.org/10.1016/j.tsf.2007.02.053) (2007) — 1 samples
+
+**`Mg2Si0.7Ge0.3`** — 4 samples, 4 papers
+- [The effects of Sb on the thermoelectric properties of Mg2Si1−xGex prepared by using solid-state...](https://doi.org/10.3938/jkps.64.1346) (2014) — 1 samples
+- [Thermoelectric properties of Mg2Si1−x Ge x prepared by using a solid-state reaction](https://doi.org/10.3938/jkps.64.690) (2014) — 1 samples
+- [Thermoelectric properties of Mg2Si0.7Ge0.3Bi m prepared using a solid-state reaction](https://doi.org/10.3938/jkps.65.57) (2014) — 1 samples
+
+**`Mg2Si0.3Ge0.7`** — 3 samples, 3 papers
+- [The effects of Sb on the thermoelectric properties of Mg2Si1−xGex prepared by using solid-state...](https://doi.org/10.3938/jkps.64.1346) (2014) — 1 samples
+- [Thermoelectric properties of Mg2Si1−x Ge x prepared by using a solid-state reaction](https://doi.org/10.3938/jkps.64.690) (2014) — 1 samples
+- [Effects of Bi on the thermoelectric properties of Mg2Si-Mg2Ge solid solutions](https://doi.org/10.3938/jkps.65.691) (2014) — 1 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Ge-Mg-Si
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
+---
+
+## Cu-Fe-O — 65 samples, chunk 3
+
+**Assigned** `delafossite` (high confidence)
+
+**Needs checking because:**
+- structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
+
+> CuFeO2 (12) delafossite; CuFe2O4 (3) is the spinel ferrite, a different compound in the same host.
+
+**`CuFeO2`** — 12 samples, 6 papers
+- [High temperature thermoelectric properties of delafossite-type oxides CuFe<inf>0.98</inf>M<inf>...](https://doi.org/10.1109/ict.2007.4569449) (2007) — 6 samples
+- [Influence of Oxygen Partial Pressure during Processing on the Thermoelectric Properties of Aero...](https://doi.org/10.3390/ma9040227) (2016) — 2 samples
+- [Thermoelectric properties of Cu1−xPtxFeO2 (0.0≤x≤0.05) delafossite-type transition oxide](https://doi.org/10.1016/j.jallcom.2011.01.113) (2011) — 1 samples
+
+**`CuFe0.99Ni0.01O2`** — 8 samples, 3 papers
+- [High temperature thermoelectric properties of delafossite-type oxides CuFe<inf>0.98</inf>M<inf>...](https://doi.org/10.1109/ict.2007.4569449) (2007) — 6 samples
+- [Thermoelectric Properties ofAn+2Con+1O3n+3(A=Ca, Sr, Ba,n=1–5)](https://doi.org/10.1143/jjap.43.8208) (2004) — 1 samples
+- [Structure and High Temperature Thermoelectric Properties of Delafossite-Type Oxide CuFe1-xNixO2...](https://doi.org/10.1143/jjap.46.5226) (2007) — 1 samples
+
+**`CuFe0.98Ni0.02O2`** — 3 samples, 3 papers
+- [High temperature thermoelectric properties of delafossite-type oxides CuFe<inf>0.98</inf>M<inf>...](https://doi.org/10.1109/ict.2007.4569449) (2007) — 1 samples
+- [Thermoelectric Properties ofAn+2Con+1O3n+3(A=Ca, Sr, Ba,n=1–5)](https://doi.org/10.1143/jjap.43.8208) (2004) — 1 samples
+- [Structure and High Temperature Thermoelectric Properties of Delafossite-Type Oxide CuFe1-xNixO2...](https://doi.org/10.1143/jjap.46.5226) (2007) — 1 samples
+
+**`CuFe2O4`** — 3 samples, 3 papers
+- [Thermoelectric power in Gd3+-substituted Cu-Cd ferrites](https://doi.org/10.1007/bf02747532) (1995) — 1 samples
+- [Temperature-dependence thermoelectric power studies of mixed Ni–Cu nano ferrites](https://doi.org/10.1016/j.jallcom.2015.05.041) (2015) — 1 samples
+- [Thermoelectric power studies of zinc substituted copper ferrites](https://doi.org/10.1016/s0925-8388(99)00287-x) (1999) — 1 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Cu-Fe-O
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
+---
+
+*6 further hosts are in `needs_review.parquet`; re-run with `--top` to include them.*

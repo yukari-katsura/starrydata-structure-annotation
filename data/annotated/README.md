@@ -303,6 +303,38 @@ and `confidence_note`: `misfit_cobaltite` and `misfit_layered_chalcogenide`
 so), `bi_chalcogenide_complex` (every composition is effectively its own
 structure), and `amorphous` / `metallic_glass` / `composite_multiphase` (skip).
 
+### Splitting mixed hosts by stoichiometry
+
+47 hosts were flagged `is_mixed` -- one label standing over several real
+structures, covering 14,294 samples. Most of them separate on composition alone:
+Ca3Co4O9 and Ca3Co2O6 differ by their Co:Ca ratio, FeSi2 and FeSi by Si:Fe,
+Bi2Te3 and BiTe by Bi:Te, SrTiO3 and Sr2TiO4 by Sr:Ti.
+
+`scripts/apply_composition_splits.py` encodes those as element-ratio rules and
+writes a prototype per composition:
+
+```bash
+python scripts/apply_composition_splits.py --dry-run   # see the split first
+python scripts/apply_composition_splits.py
+python scripts/build_annotated_samples.py              # fold into the sample table
+```
+
+This is inference from composition, not measurement, so
+`experimentally_confirmed` stays **false** and the basis is recorded as
+`composition + llm_materials_knowledge`. It narrows what needs a paper; it does
+not replace one.
+
+Result: samples needing a composition-level split fall from 14,294 to 73, and
+the family shards go from 56 to 81 -- structures that were previously hidden
+inside a mixed host now stand on their own (`ruddlesden_popper` 1,079 samples,
+`filled_skutterudite` 669, `magneli_phase`, `brownmillerite`, `corundum`).
+
+Two rules were wrong on the first pass and are worth knowing about. `Bi-Ca-Co-O`
+came out backwards because Bi occupies the rocksalt block, so the Co:Ca
+threshold calibrated on Ca-Co-O does not transfer. And Cu5FeS4 bornite is
+neither chalcopyrite nor tetrahedrite; it has no taxonomy entry and is parked in
+`unresolved_crystalline` rather than mislabelled.
+
 ### Checking an assignment against the paper
 
 Nothing here has been read out of a paper, so `experimentally_confirmed` is
