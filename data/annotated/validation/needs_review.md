@@ -1,5 +1,7 @@
 # Annotations that need a paper to settle
 
+**How to use this file.** Each entry says what is uncertain, what to look for in the paper, and links the papers reporting the compositions in question. Fill in the ```finding``` block at the end of an entry and run `python scripts/apply_review_findings.py` to write it into the ledger. Entries you skip are left alone, so you can work through this a few at a time. Nothing is overwritten without a decision.
+
 71 of 150 annotated host systems, 19725 samples. Ordered by sample count, so working top-down resolves the most data per paper read.
 
 Every assignment here was made from composition and materials knowledge; none has been read out of a paper. The links below go to the specific papers reporting the compositions in question.
@@ -12,6 +14,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: filled_skutterudite)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > CoSb3 (296) and Co4Sb12 (32) are the unfilled binary; the rest are filled RxCo4Sb12. Both share the Im-3 framework, so the host splits by filler content, not by a different structure.
 
@@ -34,6 +39,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Excellent performance stability of Ba and In double-filled skutterudite thermoelectric materials](https://doi.org/10.1016/j.actamat.2011.01.064) (2011) — 11 samples
 - [Thermal Stability of Barium and Indium Double-Filled Skutterudite Ba0.3In0.2Co3.95Ni0.05Sb12 Co...](https://doi.org/10.1007/s11664-010-1116-5) (2010) — 11 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Co-Sb
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Ca-Co-O — 1682 samples, chunk 1
@@ -42,6 +60,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: ca3co2o6_chain)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > Ca3Co4O9 (622) dominates and is the misfit composite; Ca3Co2O6 (29) is the 1D chain phase and Ca2Co2O5 a third. Genuinely three structures under one host.
 
@@ -65,6 +86,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Preparation and thermoelectric transport properties of Ba-, La- and Ag-doped Ca3Co4O9 oxide mat...](https://doi.org/10.1016/s1002-0721(12)60357-3) (2013) — 1 samples
 - [Enhanced electron correlation in rare-earth doped Ca3Co4O9](https://doi.org/10.1063/1.3479923) (2010) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Ca-Co-O
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Bi-Sb-Te — 1473 samples, chunk 1
@@ -73,6 +107,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > Bi0.5Sb1.5Te3 (348) and Bi0.4Sb1.6Te3 (164) are the commercial p-type alloys; the whole host is the (Bi,Sb)2Te3 quintuple-layer solid solution.
 
@@ -96,6 +133,18 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Interfacial Stability in Bi2Te3 Thermoelectric Joints](https://doi.org/10.1021/acsami.9b22853) (2020) — 6 samples
 - [Effect of Spinning and Milling Time on Thermoelectric Properties of the p-type (Bi<SUB>0.25</SU...](https://doi.org/10.3724/sp.j.1077.2010.00588) (2010) — 5 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Bi-Sb-Te
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## O-Sr-Ti — 1338 samples, chunk 1
@@ -105,6 +154,10 @@ Every assignment here was made from composition and materials knowledge; none ha
 **Needs checking because:**
 - MIXED — one label covers several structures (also: ruddlesden_popper)
 - structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > SrTiO3 (196) and Nb/La-doped SrTiO3 dominate. Sr3Ti2O7, Sr4Ti3O10 and Sr2TiO4 appear as Ruddlesden-Popper members.
 
@@ -128,6 +181,21 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [High-temperature thermoelectric response of double-dopedSrTiO3epitaxial films](https://doi.org/10.1103/physrevb.82.165126) (2010) — 5 samples
 - [Thermoelectric Properties of Combustion-Synthesized Lanthanum-Doped Strontium Titanate](https://doi.org/10.2320/matertrans.48.1079) (2007) — 4 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: O-Sr-Ti
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Ca-Mn-O — 1052 samples, chunk 1
@@ -136,6 +204,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: ruddlesden_popper)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > CaMnO3 (122) orthorhombic Pnma perovskite with Nb/W B-site and RE A-site donors. Ca3Mn2O7 and Ca4Mn3O10 in the tail are Ruddlesden-Popper members, and one paper is explicitly on Ca3.95RE0.05Mn3O10.
 
@@ -159,6 +230,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Electrical transport properties of Ca0.9La0.1−xBixMnO3−δ (0 ≤ x ≤ 0.1) thermoelectric materials](https://doi.org/10.1016/j.ijhydene.2015.09.017) (2015) — 2 samples
 - [Synthesis and Thermoelectric Properties of Yb-doped Ca0.9−x Yb x La0.1MnO3 Ceramics](https://doi.org/10.1007/s11664-014-3326-8) (2014) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Ca-Mn-O
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Bi-Te — 955 samples, chunk 1
@@ -167,6 +251,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: homologous_tetradymite)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > Bi2Te3 (446) with Se alloying. BiTe (12) and Bi4Te3 are members of the (Bi2)m(Bi2Te3)n homologous series, a different stacking.
 
@@ -190,6 +277,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Thermoelectric Characterization of Bismuth Telluride Nanowires, Synthesized Via Catalytic Growt...](https://doi.org/10.1002/adma.201202474) (2012) — 1 samples
 - [Wet chemical synthesis and thermoelectric properties of V-VI one- and two-dimensional nanostruc...](https://doi.org/10.1039/b913462j) (2010) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Bi-Te
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Bi-Se-Te — 634 samples, chunk 1
@@ -198,6 +298,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > Bi2Te2.7Se0.3 (132) is the standard n-type alloy; the host spans the whole Bi2(Te,Se)3 series.
 
@@ -221,6 +324,18 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Point Defect Engineering of High-Performance Bismuth-Telluride-Based Thermoelectric Materials](https://doi.org/10.1002/adfm.201400474) (2014) — 1 samples
 - [Thermoelectric properties of Bi2Te3microwires](https://doi.org/10.1002/pssc.201300202) (2014) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Bi-Se-Te
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Sb-Zn — 537 samples, chunk 1
@@ -229,6 +344,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: znsb_cdsb)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > Zn4Sb3 (192) and ZnSb (45) are two different compounds sharing a host: beta-Zn4Sb3 is R-3c with disordered interstitial Zn, ZnSb is orthorhombic Pbca. Split by stoichiometry.
 
@@ -248,6 +366,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 **`Zn0.97Cd0.03Sb`** — 4 samples, 1 papers
 - [Thermoelectric efficiency of intermetallic compound ZnSb](https://doi.org/10.1134/s1063782614040095) (2014) — 4 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Sb-Zn
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Ba-Cu-O-Y — 484 samples, chunk 1
@@ -256,6 +387,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: ybco_cuprate)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > YBa2Cu3O7-delta (237) plus oxygen-reduced members. Ba2Y(CuO2)4 in the MP list is the Y-124 phase, a separate intergrowth.
 
@@ -279,6 +413,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Effect of oxygen depletion on the transport properties ofYBa2Cu3O7−δ](https://doi.org/10.1103/physrevb.44.12086) (1991) — 2 samples
 - [Strain effect on the thermoelectric power of YBa2−xSrxCu3O7](https://doi.org/10.1016/s0921-4534(00)00293-8) (2000) — 2 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Ba-Cu-O-Y
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Mg-Si — 453 samples, chunk 1
@@ -287,6 +434,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > Mg2Si (115) antifluorite with Sb, Bi and Ag dopants. mp-1367 Fm-3m, 17 ICSD references.
 
@@ -309,6 +459,18 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Thermoelectric Properties and Electronic Structure of Bi- and Ag-Doped Mg2Si1−x Ge x Compounds](https://doi.org/10.1007/s11664-009-0735-1) (2009) — 1 samples
 - [Effect of Bi-doping and Mg-excess on the thermoelectric properties of Mg2Si materials](https://doi.org/10.1016/j.jpcs.2014.04.008) (2014) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Mg-Si
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Ge-Te — 450 samples, chunk 1
@@ -318,6 +480,10 @@ Every assignment here was made from composition and materials knowledge; none ha
 **Needs checking because:**
 - MIXED — one label covers several structures (also: gst_homologous)
 - transition at ~700 K is a taxonomy default, not read from a paper
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
+- Whether the paper reports a structural transition, and at what temperature. Look for DSC, high-temperature XRD, or a kink discussed in the text. Record the temperature, or "none" if the paper shows the sample staying in one phase across its range.
 
 > GeTe (73) is rhombohedral R3m at room temperature and converts to cubic rocksalt near 700 K, inside the measured 10-884 K window. The (GeTe)n(Sb2Te3)m and TAGS compositions are homologues.
 
@@ -337,6 +503,20 @@ Every assignment here was made from composition and materials knowledge; none ha
 **`(GeTe)0.95(Bi2Te3)0.05`** — 7 samples, 1 papers
 - [Investigation of the Microstructural and Thermoelectric Properties of the(GeTe)0.95(Bi2Te3)0.05...](https://doi.org/10.1155/2014/284634) (2014) — 7 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Ge-Te
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+transition_K:    # temperature, or "none"
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Cu-La-O — 397 samples, chunk 1
@@ -345,6 +525,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: perovskite)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > La2CuO4 (71) is the n=1 K2NiF4 (T-type) member; Sr and Ba substitution on La is the hole-doping route. LaCuO3 in the MP list is a genuine perovskite, a different phase in the same host.
 
@@ -364,6 +547,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 **`La1.92Ba0.08CuO4`** — 8 samples, 1 papers
 - [Improvement of the superconducting properties of the La2−xBaxCuO4 system (0⩽x⩽0.15) by low-temp...](https://doi.org/10.1016/0921-4534(93)90449-z) (1993) — 8 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Cu-La-O
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## La-Mn-O — 377 samples, chunk 1
@@ -372,6 +568,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > LaMnO3 (16) and La1-xAxMnO3 manganites, orthorhombic Pnma. mp-629046 hull 0 with 23 ICSD references.
 
@@ -395,6 +594,18 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Epitaxial growth and transport property of La0.9Sr0.1MnO3 thin films deposited on MgO, LaAlO3 a...](https://doi.org/10.1016/j.jallcom.2016.09.268) (2017) — 3 samples
 - [Heat conductivity of La1−xSrxMnO3 surface layers](https://doi.org/10.1016/s0921-4526(01)00618-4) (2001) — 2 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: La-Mn-O
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## C — 369 samples, chunk 1
@@ -405,6 +616,11 @@ Every assignment here was made from composition and materials knowledge; none ha
 - MIXED — one label covers several structures (also: fulleride_a3c60, diamond_cubic)
 - medium confidence
 - taxonomy issue recorded
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
+- Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
+- Whether the taxonomy entry itself is wrong or incomplete, rather than the assignment. Record what should change in the prototype.
 
 > C (333) is graphite, graphene, CNT and amorphous carbon -- one prototype for the sp2 net, morphology recorded separately. Rb3C60 and K3C60 are alkali fullerides, a completely different structure, and TEDesignLab's only entry is diamond (Fd-3m, hull 0.134).
 
@@ -424,6 +640,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 **`B0.0005C`** — 2 samples, 1 papers
 - [Pyrolytic Graphites: Their Description as Semimetallic Molecular Solids](https://doi.org/10.1063/1.1931167) (1962) — 2 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: C
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## O-Ti — 367 samples, chunk 1
@@ -433,6 +662,10 @@ Every assignment here was made from composition and materials knowledge; none ha
 **Needs checking because:**
 - MIXED — one label covers several structures (also: anatase, magneli_phase, corundum, rocksalt_oxide)
 - low confidence
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
+- Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
 
 > Genuinely four or more structures: TiO2 (119) as rutile and anatase, TiO (31) rocksalt, Ti2O3 (26) corundum, and Ti4O7/Ti3O5 Magneli shear phases. No single prototype is defensible; must be split per composition.
 
@@ -454,6 +687,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 **`Sr0.1Ti0.9O3`** — 13 samples, 1 papers
 - [Effect of nanostructure on the thermal conductivity of La-doped SrTiO3 ceramics](https://doi.org/10.1016/j.jeurceramsoc.2013.08.009) (2014) — 13 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: O-Ti
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Fe-Si — 331 samples, chunk 1
@@ -462,6 +708,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: b20_fesi)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > FeSi2 (67) is semiconducting beta-FeSi2 (Cmce, mp-1714 hull 0); FeSi (7) is the B20 chiral metal. Two distinct compounds, split by stoichiometry.
 
@@ -483,6 +732,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Thermoelectric properties of hot-pressed Al- and Co-doped iron disilicide materials](https://doi.org/10.1016/j.jallcom.2006.08.045) (2007) — 3 samples
 - [High temperature thermoelectric properties of p- and n-type β-FeSi2 with some dopants](https://doi.org/10.1016/s0966-9795(03)00020-7) (2003) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Fe-Si
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Co-La-O — 327 samples, chunk 1
@@ -491,6 +753,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > LaCoO3 (64) rhombohedral R-3c perovskite with Sr A-site and Ni/Fe B-site substitution.
 
@@ -514,6 +779,18 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Thermoelectric properties of perovskite oxides La1−x Sr x CoO3 prepared by polymerlized complex...](https://doi.org/10.1007/s10853-007-2365-4) (2008) — 1 samples
 - [Synthesis, sintering, and thermoelectric properties of the solid solution La1–xSrxCoO3±δ (0 ≤ x...](https://doi.org/10.1007/s40145-018-0267-3) (2018) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Co-La-O
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Ni-Sn-Ti — 309 samples, chunk 1
@@ -522,6 +799,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: full_heusler)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > TiNiSn (78) half-Heusler, mp-924130 F-43m hull 0. TiNi2Sn (4) is the full Heusler, a frequent second phase in this system.
 
@@ -544,6 +824,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Enhancement of high temperature thermoelectric properties of intermetallic compounds based on a...](https://doi.org/10.1016/j.stam.2004.02.006) (2004) — 1 samples
 - [Long- and short-range structures of Ti<sub>1−x</sub>Hf<sub>x</sub>Ni<sub>1.0/1.1</sub>Sn half-H...](https://doi.org/10.1039/c9ce00046a) (2019) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Ni-Sn-Ti
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## La-Mn-O-Sr — 307 samples, chunk 1
@@ -552,6 +845,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: ruddlesden_popper)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > La1-xSrxMnO3 (66+45) manganite perovskite. La2SrMn3O9 and LaSr2Mn2O7 are Ruddlesden-Popper members in the same host.
 
@@ -575,6 +871,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [The effect of a cation radii on structural, magnetic and electrical properties of doped mangani...](https://doi.org/10.1016/j.jssc.2004.03.017) (2004) — 1 samples
 - [A combined experimental and computational approach on La0.6Sr0.4MnO3 perovskite](https://doi.org/10.1016/j.matchemphys.2022.127163) (2023) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: La-Mn-O-Sr
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Se-Sn — 287 samples, chunk 1
@@ -585,6 +894,11 @@ Every assignment here was made from composition and materials knowledge; none ha
 - MIXED — one label covers several structures (also: cmcm_snse_ht, cdi2_1t)
 - transition at ~800 K is a taxonomy default, not read from a paper
 - structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
+- Whether the paper reports a structural transition, and at what temperature. Look for DSC, high-temperature XRD, or a kink discussed in the text. Record the temperature, or "none" if the paper shows the sample staying in one phase across its range.
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > SnSe (108) is orthorhombic Pnma and converts to Cmcm near 800 K, inside the measured window and where the record ZT is reported. SnSe2 (5) is a 1T dichalcogenide, a different compound.
 
@@ -605,6 +919,22 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Cu Intercalation and Br Doping to Thermoelectric SnSe\n            2\n            Lead to Ultra...](https://doi.org/10.1002/adfm.201908405) (2019) — 1 samples
 - [Phase structure, phase transition and thermoelectric properties of pristine and Br doped SnSe2](https://doi.org/10.1016/j.jssc.2020.121468) (2020) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Se-Sn
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+transition_K:    # temperature, or "none"
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Cu-Se — 277 samples, chunk 1
@@ -614,6 +944,10 @@ Every assignment here was made from composition and materials knowledge; none ha
 **Needs checking because:**
 - transition at ~400 K is a taxonomy default, not read from a paper
 - structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Whether the paper reports a structural transition, and at what temperature. Look for DSC, high-temperature XRD, or a kink discussed in the text. Record the temperature, or "none" if the paper shows the sample staying in one phase across its range.
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > Cu2-xSe (75) superionic conductor. The ordered low-temperature superstructure converts to the cubic superionic phase near 400 K, inside the measured window. Cu deficiency, not a foreign element, is the carrier knob.
 
@@ -636,6 +970,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Thermoelectric properties of copper selenide with ordered selenium layer and disordered copper ...](https://doi.org/10.1016/j.nanoen.2012.02.010) (2012) — 4 samples
 - [A review on the enhancement of figure of merit from bulk to nano-thermoelectric materials](https://doi.org/10.1016/j.nanoen.2012.10.005) (2013) — 4 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Cu-Se
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+transition_K:    # temperature, or "none"
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Mn-Si — 277 samples, chunk 1
@@ -644,6 +991,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: b20_fesi)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > MnSi1.70-1.75 (the higher manganese silicides) dominate; MnSi (20) is the B20 chiral metal, a different compound in the same host.
 
@@ -667,6 +1017,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Effects of Spark Plasma Sintering Temperature on Thermoelectric Properties of Higher Manganese ...](https://doi.org/10.1007/s11664-013-2623-y) (2013) — 4 samples
 - [Mesostructure - thermoelectric properties relationships in V Mn1−Si1.74 (x = 0, 0.04) higher ma...](https://doi.org/10.1016/j.jallcom.2019.152577) (2020) — 2 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Mn-Si
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Fe-Sb — 273 samples, chunk 1
@@ -675,6 +1038,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: filled_skutterudite)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > FeSb2 (51) is the colossal-Seebeck marcasite; the remaining compositions are RyFe4Sb12 filled skutterudites. Two unrelated structures, split by stoichiometry.
 
@@ -693,6 +1059,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 **`(NbSe2)0.28(Ce0.75La0.25)0.9Fe3.5Co0.5Sb12`** — 3 samples, 1 papers
 - [Scavenging Elemental Sb Through Addition of NbSb2 to Mm0.9Fe3.5Co0.5Sb12 Skutterudites](https://doi.org/10.1007/s11664-011-1893-5) (2012) — 3 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Fe-Sb
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Co-O-Sr — 246 samples, chunk 1
@@ -702,6 +1081,10 @@ Every assignment here was made from composition and materials knowledge; none ha
 **Needs checking because:**
 - MIXED — one label covers several structures (also: brownmillerite, ca3co2o6_chain)
 - medium confidence
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
+- Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
 
 > SrCoO3-delta (20) perovskite with heavy oxygen non-stoichiometry. Sr6Co5O15 (10) is a 1D chain phase of the Ca3Co2O6 family, and oxygen-poor members order into brownmillerite.
 
@@ -725,6 +1108,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Electrical resistivity and Seebeck coefficient of Sr6Co5O15](https://doi.org/10.1016/j.jallcom.2004.01.060) (2004) — 2 samples
 - [A new thermoelectric misfit cobaltite: [Sr2CoO3][CoO2]1.8](https://doi.org/10.1016/j.solidstatesciences.2003.12.004) (2004) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Co-O-Sr
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Ag-Sb-Te — 206 samples, chunk 1
@@ -733,6 +1129,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - medium confidence
+
+**What to look for:**
+- Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
 
 > AgSbTe2 (41) is a cation-disordered rocksalt: Ag and Sb share the cation site at random. Every ordered MP ternary sits above hull 0.65, which is the expected signature of a disordered phase rather than evidence against rocksalt.
 
@@ -752,6 +1151,16 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Thermal Stability and Tuning of Thermoelectric Properties of Ag1−xSb1+xTe2+x (0 ≤ x ≤ 0.4) Alloys](https://doi.org/10.3390/app8010052) (2018) — 3 samples
 - [Improved thermoelectric properties of AgSbTe2 based compounds with nanoscale Ag2Te in situ prec...](https://doi.org/10.1016/j.jallcom.2010.03.170) (2010) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Ag-Sb-Te
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Bi-Se — 202 samples, chunk 1
@@ -760,6 +1169,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: homologous_tetradymite)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > Bi2Se3 (99) tetradymite R-3m. BiSe (7) is a member of the (Bi2)m(Bi2Se3)n homologous series. Note the MP dump ranks Pnma (mp-23164) lowest -- the same van der Waals artefact seen for Sb2Te3.
 
@@ -779,6 +1191,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 **`(Bi2Se3)0.9(TiO2)0.1`** — 4 samples, 1 papers
 - [Enhanced thermoelectric performance of Bi2Se3/TiO2 composite](https://doi.org/10.1007/s12598-020-01414-4) (2020) — 4 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Bi-Se
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## O-V — 186 samples, chunk 1
@@ -790,6 +1215,12 @@ Every assignment here was made from composition and materials knowledge; none ha
 - low confidence
 - transition at ~340 K is a taxonomy default, not read from a paper
 - structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
+- Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
+- Whether the paper reports a structural transition, and at what temperature. Look for DSC, high-temperature XRD, or a kink discussed in the text. Record the temperature, or "none" if the paper shows the sample staying in one phase across its range.
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > Four or more structures: VO2 (86) monoclinic M1 converting to rutile at ~340 K, V2O3 (10) corundum, V7O13/V8O15/V6O11 Magneli shear phases, and SrV6O15 a vanadium bronze. Not resolvable as one prototype.
 
@@ -810,6 +1241,22 @@ Every assignment here was made from composition and materials knowledge; none ha
 **`V8O15`** — 8 samples, 1 papers
 - [Charge transport near pressure-induced antiferromagnetic quantum critical point in Magnéli-phas...](https://doi.org/10.1016/s0038-1098(02)00716-0) (2003) — 8 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: O-V
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+transition_K:    # temperature, or "none"
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Pb-Sn-Te — 176 samples, chunk 1
@@ -818,6 +1265,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > Pb1-xSnxTe across the full range, rocksalt throughout. The band inversion near x=0.35-0.4 is electronic, not structural, so the prototype is unchanged across the series.
 
@@ -835,6 +1285,18 @@ Every assignment here was made from composition and materials knowledge; none ha
 **`Sn0.70Pb0.30Te`** — 5 samples, 1 papers
 - [An enhanced Seebeck coefficient and high thermoelectric performance in p-type In and Mg co-dope...](https://doi.org/10.1039/c7tc00009j) (2017) — 5 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Pb-Sn-Te
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Ge-Sb-Te — 173 samples, chunk 2
@@ -843,6 +1305,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - transition at ~420 K is a taxonomy default, not read from a paper
+
+**What to look for:**
+- Whether the paper reports a structural transition, and at what temperature. Look for DSC, high-temperature XRD, or a kink discussed in the text. Record the temperature, or "none" if the paper shows the sample staying in one phase across its range.
 
 > Ge2Sb2Te5 (19) and the (GeTe)n(Sb2Te3)m series. The stable phase is layered; the quenched phase is a vacancy-ordered cubic rocksalt, and transport is often measured across that crystallisation.
 
@@ -863,6 +1328,17 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Cobalt germanide precipitates indirectly improve the properties of thermoelectric germanium ant...](https://doi.org/10.1039/c9tc03410b) (2019) — 4 samples
 - [High Thermoelectric Figure of Merit Values of Germanium Antimony Tellurides with Kinetically St...](https://doi.org/10.1021/jacs.5b07856) (2015) — 2 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Ge-Sb-Te
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+transition_K:    # temperature, or "none"
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Cu-S-Sb — 156 samples, chunk 2
@@ -871,6 +1347,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: famatinite)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > Cu12Sb4S13 (33) tetrahedrite, mp-647164 hull 0. Cu3SbS4 (4) is famatinite, a separate phase in the same host.
 
@@ -889,6 +1368,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 **`Cu10Cu2Sb4S13`** — 3 samples, 1 papers
 - [Thermoelectric Properties of Mineral Tetrahedrites Cu$_{10}$Tr$_{2}$Sb$_{4}$S$_{13}$ with Low T...](https://doi.org/10.1143/apex.5.051201) (2012) — 3 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Cu-S-Sb
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## In-O-Zn — 153 samples, chunk 2
@@ -897,6 +1389,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > In2O3(ZnO)n natural superlattices, n set by the In:Zn ratio. Not a doped ZnO and not bixbyite In2O3.
 
@@ -918,6 +1413,18 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Thermoelectric Properties of Homologous Compounds in the ZnO-In2O3 System](https://doi.org/10.1111/j.1151-2916.1996.tb08958.x) (1996) — 3 samples
 - [Improvement in thermoelectric properties of (ZnO)5In2O3 through partial substitution of yttrium...](https://doi.org/10.1557/jmr.1998.0067) (1998) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: In-O-Zn
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## In-Se — 145 samples, chunk 2
@@ -927,6 +1434,10 @@ Every assignment here was made from composition and materials knowledge; none ha
 **Needs checking because:**
 - MIXED — one label covers several structures (also: layered_in2se3)
 - taxonomy issue recorded
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
+- Whether the taxonomy entry itself is wrong or incomplete, rather than the assignment. Record what should change in the prototype.
 
 > In4Se3 (29) dominates the host and is a distinct mixed-valence phase built from (In3)5+ cluster chains, not a layered In2Se3 polytype. InSe (5) and In2Se3 (3) are the layered members.
 
@@ -950,6 +1461,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Multiple heteroatom induced carrier engineering and hierarchical nanostructures for high thermo...](https://doi.org/10.1039/c4ta05508j) (2015) — 1 samples
 - [Thermoelectric properties and anisotropic electronic band structure on the In4Se3−x compounds](https://doi.org/10.1063/1.3266579) (2009) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: In-Se
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Bi-Mg-Sb — 140 samples, chunk 2
@@ -958,6 +1482,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > Mg3(Sb,Bi)2 CaAl2Si2-type Zintl, mp-2646. Te on the anion site and excess Mg are the n-type routes.
 
@@ -975,6 +1502,18 @@ Every assignment here was made from composition and materials knowledge; none ha
 **`Mg3.1Sb1.5Bi0.49Te0.01`** — 4 samples, 1 papers
 - [Scalable synthesis of n-type Mg3Sb2-xBix for thermoelectric applications](https://doi.org/10.1016/j.mtphys.2020.100336) (2021) — 4 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Bi-Mg-Sb
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Fe-O — 129 samples, chunk 2
@@ -984,6 +1523,10 @@ Every assignment here was made from composition and materials knowledge; none ha
 **Needs checking because:**
 - MIXED — one label covers several structures (also: corundum)
 - reference disagreement recorded
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > Fe3O4 (48) magnetite is spinel Fd-3m; Fe2O3 (15) hematite is corundum R-3c. Two distinct oxides sharing a host.
 
@@ -1003,6 +1546,21 @@ Every assignment here was made from composition and materials knowledge; none ha
 **`(Fe0.98Sn0.02)2O3`** — 1 samples, 1 papers
 - [Thermoelectric properties of Ti- and Sn-doped α-Fe2O3](https://doi.org/10.1016/s0925-8388(01)01804-7) (2002) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Fe-O
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## O-Ru-Sr — 128 samples, chunk 2
@@ -1011,6 +1569,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: ruddlesden_popper)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > SrRuO3 (56) orthorhombic perovskite, mp-22390 with 24 ICSD references; Sr2RuO4 (36) is the n=1 Ruddlesden-Popper member and Sr3Ru2O7/Sr4Ru3O10 are n=2 and n=3.
 
@@ -1031,6 +1592,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 **`Sr2Ru2O4`** — 2 samples, 1 papers
 - [Anisotropic Seebeck coefficient of \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"...](https://doi.org/10.1103/physrevb.108.l121106) (2023) — 2 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: O-Ru-Sr
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## B — 124 samples, chunk 2
@@ -1040,6 +1614,10 @@ Every assignment here was made from composition and materials knowledge; none ha
 **Needs checking because:**
 - MIXED — one label covers several structures (also: unlisted)
 - medium confidence
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
+- Any explicit structure statement -- space group, prototype name, or the reference structure the authors index against. Record confirm, or the prototype it should be.
 
 > Mixed boron-rich solids: beta-rhombohedral boron (B, B105), metal-doped B105 (V1.5B105, Co1.0B105) and YB66 (13), which is a distinct cubic Fm-3c structure with B12 icosahedra, not the B4C type.
 
@@ -1061,6 +1639,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Thermoelectric properties from 353K to 1073K for metal-doped β-rhombohedral boron](https://doi.org/10.1109/ict.2003.1287514) — 2 samples
 - [Structure and electronic properties of Mg-dopedβ-rhombohedral boron constructed from icosahedra...](https://doi.org/10.1103/physrevb.77.024515) (2008) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: B
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Fe-La-O-Sr — 122 samples, chunk 2
@@ -1069,6 +1660,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - structure reference cannot separate two polymorphs
+
+**What to look for:**
+- Which polymorph was actually made. Look for the reported space group or lattice parameters in the experimental section. Record the space group number, or the mp_id if you have it.
 
 > La0.6Sr0.4Co0.2Fe0.8O3 (LSCF, 26) and La1-xSrxFeO3 perovskites with heavy oxygen non-stoichiometry.
 
@@ -1092,6 +1686,18 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Electrochemical Properties of Mixed Conducting Perovskites La1 − x  M  x Co1 − y Fe y  O 3 − δ ...](https://doi.org/10.1149/1.1837098) (1996) — 1 samples
 - [Electrical Property, Crystal Structure and Oxygen Nonstoichiometry of La&lt;sub&gt;1-&lt;/sub&g...](https://doi.org/10.5796/electrochemistry.68.515) (2000) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Fe-La-O-Sr
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+spacegroup:      # number the paper reports, e.g. 212
+mp_id:           # if you have it
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Cu-Sb-Se — 113 samples, chunk 2
@@ -1100,6 +1706,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: skinnerite_cu3sbse3)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > Cu3SbSe4 (17) famatinite, mp-9814 hull 0; Cu3SbSe3 (6) is orthorhombic skinnerite and CuSbSe2 a third phase. Split by anion count.
 
@@ -1121,6 +1730,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 **`Cu2.925SbSe4`** — 2 samples, 1 papers
 - [Enhanced Thermoelectric Performance of Nonstoichiometric Compounds Cu3−x SbSe4 by Cu Deficiencies](https://doi.org/10.1007/s11664-014-3018-4) (2014) — 2 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Cu-Sb-Se
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## Ba-Ga-Sn — 112 samples, chunk 2
@@ -1129,6 +1751,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: clathrate_i)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > Ba8Ga16Sn30 (26) exists as both the type-I (alpha) and type-VIII (beta) polymorph; the thermoelectric literature is dominated by the type-VIII beta phase.
 
@@ -1147,6 +1772,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 - [Thermoelectric Properties ofp-Type Clathrate Ba8.0Ga15.9ZnySn30.1Single Crystals with Various C...](https://doi.org/10.1021/acs.chemmater.5b00025) (2015) — 1 samples
 - [Thermoelectric properties of type-VIII clathrate Ba8Ga16Sn30 doped with Cu](https://doi.org/10.1016/j.jallcom.2012.05.049) (2012) — 1 samples
 
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: Ba-Ga-Sn
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
+
 ---
 
 ## La-Ni-O — 107 samples, chunk 2
@@ -1155,6 +1793,9 @@ Every assignment here was made from composition and materials knowledge; none ha
 
 **Needs checking because:**
 - MIXED — one label covers several structures (also: ruddlesden_popper)
+
+**What to look for:**
+- Which composition is which structure. Look for the XRD pattern, a stated space group, or a "single phase" / "second phase" remark. Record a composition -> prototype mapping; a prefix like "Ca3Co4O9" is enough to cover every doped variant of it.
 
 > LaNiO3 (49) rhombohedral R-3c perovskite, mp-19339. La2NiO4 members in the tail are Ruddlesden-Popper.
 
@@ -1174,6 +1815,19 @@ Every assignment here was made from composition and materials knowledge; none ha
 **`La0.9Bi0.1NiO3`** — 4 samples, 2 papers
 - [Thermoelectric properties of Ln-Ni-O (Ln : lanthanoid) systems](https://doi.org/10.1109/ict.2003.1287479) — 3 samples
 - [Power generation of thermoelectric oxide modules](https://doi.org/10.1109/ict.2005.1519947) (2005) — 1 samples
+
+**Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
+
+```finding
+host: La-Ni-O
+decision:        # confirm | change | split | unresolved
+prototype:       # for change: the prototype id it should be
+split:           # for split: one "composition -> prototype_id" per line
+  # Ca3Co4O9 -> misfit_cobaltite
+  # Ca3Co2O6 -> ca3co2o6_chain
+evidence:        # DOI you read this from
+notes:
+```
 
 ---
 
