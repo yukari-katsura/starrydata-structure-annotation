@@ -44,7 +44,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - solid-solution axis: Bi/(Bi+Sb) spans 0.13-0.90 (median 0.25) over 537 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 27-580 K (5th-95th pct of 5424 curves; full span incl. outliers 10-1441 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Bi(SbTe2)3 R3m (160) mp-1227403 [hull=0.824, PRIMARY]; Bi2Sb2Te3 R-3m (166) mp-1227407 [hull=0.712, PRIMARY]; BiSbTe2 P3m1 (156) mp-1227463 [hull=0.688, PRIMARY]; BiSbTe3 R3m (160) mp-1227340 [hull=0.632, PRIMARY]; Bi(SbTe2)3 Cm (8) mp-1227414 [hull=0.825]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Bi(SbTe2)3 R3m (160) mp-1227403 [hull=0.824, PRIMARY, AMBIGUOUS]; Bi2Sb2Te3 R-3m (166) mp-1227407 [hull=0.712, PRIMARY]; BiSbTe2 P3m1 (156) mp-1227463 [hull=0.688, PRIMARY]; BiSbTe3 R3m (160) mp-1227340 [hull=0.632, PRIMARY]; Bi(SbTe2)3 Cm (8) mp-1227414 [hull=0.825]
 - papers: Influence of powder morphology on thermoelectric anisotropy of spark-plasma-sintered Bi–Te-based thermoelectric materials | Fabrication and thermoelectric properties of c-axis-aligned Bi0.5Sb1.5Te3 with a high magnetic field | Enhanced thermoelectric and mechanical properties of zone melted p-type (Bi,Sb)2Te3 thermoelectric materials by hot deformation
 
 ## O-Sr-Ti
@@ -53,7 +53,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): La (418), Nb (396), Dy (74), Nd (73), Y (67), Gd (54), Pr (50), Sm (33), Ca (32), Ta (24), Ce (22), Ni (22), Bi (21), N (14), Ag (11), Yb (10), Eu (10), C (9), B (6), Co (6), W (5), Ba (4), Zr (4), Ru (4), In (4), Sc (3), Er (2), Fe (2), Cu (1)
 - seed hypothesis (confirm): perovskite
 - measured range: 18-1174 K (5th-95th pct of 2722 curves; full span incl. outliers 10-1298 K)
-- [ref 1] TEDesignLab / ICSD: SrTiO3 I4/mcm (140) mp-4651 [hull=0.000, icsd=37, PRIMARY]; Sr3Ti2O7 I4/mmm (139) mp-3349 [hull=0.000, icsd=3, PRIMARY]; Sr4Ti3O10 I4/mmm (139) mp-31213 [hull=0.000, icsd=1, PRIMARY]; SrTiO3 Pm-3m (221) mp-5229 [hull=0.001, icsd=34]; SrTiO3 (46)
+- [ref 1] TEDesignLab / ICSD: SrTiO3 I4/mcm (140) mp-4651 [hull=0.000, icsd=37, PRIMARY, AMBIGUOUS]; Sr3Ti2O7 I4/mmm (139) mp-3349 [hull=0.000, icsd=3, PRIMARY]; Sr4Ti3O10 I4/mmm (139) mp-31213 [hull=0.000, icsd=1, PRIMARY]; SrTiO3 Pm-3m (221) mp-5229 [hull=0.001, icsd=34]; SrTiO3 (46)
 - [ref 2] MP, ranked by ICSD evidence: Sr2TiO4 I4/mmm (139) mp-5532 [hull=0.000, icsd=9, PRIMARY]; Sr5Ti7O19 Pmmm (47) mp-1202132 [hull=0.093, icsd=1, PRIMARY]; Sr25Ti39O103 P2/m (10) mp-1198567 [hull=0.041, icsd=1, PRIMARY]; SrTiO3 P6_3/mmc (194) mp-776018 [hull=0.039]
 - papers: Semiconducting large bandgap oxides as potential thermoelectric materials for high-temperature power generation? | Thermal Stability of Giant Thermoelectric Seebeck Coefficient for SrTiO3/SrTi0.8Nb0.2O3Superlattices at 900 K | The influence of oxygen deficiency on the thermoelectric properties of strontium titanates
 
@@ -114,7 +114,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - solid-solution axis: Se/(Se+Te) spans 0.08-0.90 (median 0.10) over 291 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 25-610 K (5th-95th pct of 2450 curves; full span incl. outliers 10-1334 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Bi2Te2Se R-3m (166) mp-29666 [hull=0.000, icsd=1, PRIMARY]; Bi2TeSe2 R-3m (166) mp-31406 [hull=0.037, icsd=1, PRIMARY]; Bi4(TeSe)3 Cm (8) mp-1227439 [hull=0.106, PRIMARY]; Bi2TeSe2 R3m (160) mp-1227356 [hull=0.073]; Bi4(TeSe)3 R3m (160) mp-1227438 [hull=0.106]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Bi2Te2Se R-3m (166) mp-29666 [hull=0.000, icsd=1, PRIMARY]; Bi2TeSe2 R-3m (166) mp-31406 [hull=0.037, icsd=1, PRIMARY]; Bi4(TeSe)3 Cm (8) mp-1227439 [hull=0.106, PRIMARY, AMBIGUOUS]; Bi2TeSe2 R3m (160) mp-1227356 [hull=0.073]; Bi4(TeSe)3 R3m (160) mp-1227438 [hull=0.106]
 - papers: Investigation of Reaction Mechanisms of Bismuth Tellurium Selenide Nanomaterials for Simple Reaction Manipulation Causing Effective Adjustment of Thermoelectric Properties | Synthesis of Multishell Nanoplates by Consecutive Epitaxial Growth of Bi2Se3and Bi2Te3Nanoplates and Enhanced Thermoelectric Properties | Improving thermoelectric properties of n-type bismuth–telluride-based alloys by deformation-induced lattice defects and texture enhancement
 
 ## Sn-Te
@@ -164,7 +164,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): antifluorite
 - measured range: 288-879 K (5th-95th pct of 1578 curves; full span incl. outliers 10-1204 K)
 - [ref 1] TEDesignLab / ICSD: Mg2Si Fm-3m (225) mp-1367 [hull=0.018, icsd=17, PRIMARY]
-- [ref 2] MP, ranked by ICSD evidence: Mg5Si6 C2/m (12) mp-1075430 [hull=0.171, icsd=1, PRIMARY]; Mg15Si P-6m2 (187) mp-1023509 [hull=0.051, PRIMARY]; Mg149Si P-6m2 (187) mp-1185634 [hull=0.000, PRIMARY]; Mg3Si Pmm2 (25) mp-1016216 [hull=0.152, PRIMARY]; Mg2Si3 P1 (1) mp-1073164 [hull=0.155, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence: Mg5Si6 C2/m (12) mp-1075430 [hull=0.171, icsd=1, PRIMARY]; Mg15Si P-6m2 (187) mp-1023509 [hull=0.051, PRIMARY]; Mg149Si P-6m2 (187) mp-1185634 [hull=0.000, PRIMARY]; Mg3Si Pmm2 (25) mp-1016216 [hull=0.152, PRIMARY]; Mg2Si3 P1 (1) mp-1073164 [hull=0.155, PRIMARY, AMBIGUOUS]
 - papers: Simultaneous enhancement of mechanical and thermoelectric properties of polycrystalline magnesium silicide with conductive glass inclusion | Microstructural effects on thermoelectric efficiency: A case study on magnesium silicide | Conducting grain boundaries enhancing thermoelectric performance in doped Mg2Si
 
 ## Ge-Te
@@ -212,7 +212,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): perovskite
 - measured range: 10-984 K (5th-95th pct of 459 curves; full span incl. outliers 10-1479 K)
 - [ref 1] TEDesignLab / ICSD: LaMn7O12 C2/m (12) mp-1189182 [hull=0.016, icsd=3, PRIMARY]
-- [ref 2] MP, ranked by ICSD evidence: LaMnO3 R-3c (167) mp-19168 [hull=0.012, icsd=29, PRIMARY]; LaMn2O5 Pbam (55) mp-25694 [hull=0.000, icsd=2, PRIMARY]; La11Mn12O36 P2_1/m (11) mp-690363 [hull=0.011, PRIMARY]; La10Mn9O30 P-1 (2) mp-698607 [hull=0.008, PRIMARY]; La14Mn15O48 P-1 (2) mp-705798 [hull=0.028, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence: LaMnO3 R-3c (167) mp-19168 [hull=0.012, icsd=29, PRIMARY]; LaMn2O5 Pbam (55) mp-25694 [hull=0.000, icsd=2, PRIMARY]; La11Mn12O36 P2_1/m (11) mp-690363 [hull=0.011, PRIMARY, AMBIGUOUS]; La10Mn9O30 P-1 (2) mp-698607 [hull=0.008, PRIMARY]; La14Mn15O48 P-1 (2) mp-705798 [hull=0.028, PRIMARY]
 - papers: Magnetic, electric and thermoelectric behavior of electron-doped La1−xSbxMnO3 (x=0.05, 0.10 and 0.15) manganites | Cross-plane thermoelectric transport in p-type La0.67Sr0.33MnO3/LaMnO3 oxide metal/semiconductor superlattices | Investigation on magnetic, electrical and thermoelectric power of Bi-substituted La0.8Ca0.2MnO3 manganites
 
 ## C
@@ -322,7 +322,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
   !! MEASUREMENT CROSSES A TRANSITION: layered_ges -> cmcm_snse_ht at ~800 K (Pnma -> Cmcm, ~800 K for SnSe and ~880 K for SnS; the high-ZT regime.)
      Record each phase with its own temperature range, not a single prototype.
 - [ref 1] TEDesignLab / ICSD: SnSe Pnma (62) mp-691 [hull=0.000, icsd=32, PRIMARY]; SnSe2 P-3m1 (164) mp-665 [hull=0.000, icsd=6, PRIMARY]; SnSe Cmcm (63) mp-2168 [hull=0.011, icsd=11]; SnSe Fm-3m (225) mp-2693 [hull=0.004, icsd=2]
-- [ref 2] MP, ranked by ICSD evidence: Sn3Se Fm-3m (225) mp-1187055 [hull=0.260, PRIMARY]; Ba(SnSe)32 Cm (8) mp-1120806 [hull=0.035, PRIMARY]; SnSe P4/nmm (129) mp-8936 [hull=0.046, icsd=1]; SnSe Pmmn (59) mp-1205370 [hull=0.316, icsd=1]; Sn3Se Pm-3m (221) mp-1187043 [hull=0.270]
+- [ref 2] MP, ranked by ICSD evidence: Sn3Se Fm-3m (225) mp-1187055 [hull=0.260, PRIMARY, AMBIGUOUS]; Ba(SnSe)32 Cm (8) mp-1120806 [hull=0.035, PRIMARY]; SnSe P4/nmm (129) mp-8936 [hull=0.046, icsd=1]; SnSe Pmmn (59) mp-1205370 [hull=0.316, icsd=1]; Sn3Se Pm-3m (221) mp-1187043 [hull=0.270]
 - papers: Studies on Thermoelectric Properties of n-type Polycrystalline SnSe1-xSxby Iodine Doping | Assessment of the thermoelectric performance of polycrystalline p-type SnSe | Investigation of the Anisotropic Thermoelectric Properties of Oriented Polycrystalline SnSe
 
 ## Ni-Sn-Zr
@@ -343,7 +343,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
   !! MEASUREMENT CROSSES A TRANSITION: cu2se_superionic -> cu2se_superionic at ~400 K (Ordered low-T superstructure -> cubic superionic, ~400 K. Cu2S transforms near ~376 K.)
      Record each phase with its own temperature range, not a single prototype.
 - [ref 1] TEDesignLab / ICSD: Cu2Se Fm-3m (225) mp-16366 [hull=0.127, icsd=1, PRIMARY]
-- [ref 2] MP, ranked by ICSD evidence: CuSe P6_3/mmc (194) mp-488 [hull=0.001, icsd=19, PRIMARY]; CuSe2 Pnnm (58) mp-2000 [hull=0.000, icsd=5, PRIMARY]; Cu3Se2 P-42_1m (113) mp-20683 [hull=0.000, icsd=5, PRIMARY]; Cu13Se8 F-43m (216) mp-32857 [hull=0.076, PRIMARY]; Cu27Se20 R3m (160) mp-684606 [hull=0.058, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence: CuSe P6_3/mmc (194) mp-488 [hull=0.001, icsd=19, PRIMARY]; CuSe2 Pnnm (58) mp-2000 [hull=0.000, icsd=5, PRIMARY, AMBIGUOUS]; Cu3Se2 P-42_1m (113) mp-20683 [hull=0.000, icsd=5, PRIMARY]; Cu13Se8 F-43m (216) mp-32857 [hull=0.076, PRIMARY]; Cu27Se20 R3m (160) mp-684606 [hull=0.058, PRIMARY]
 - papers: Thermoelectric, thermodynamic, and structural properties in Cu1.94A0.02Se (A=Al, Ga, and In) polycrystalline compounds | Influence of Compensating Defect Formation on the Doping Efficiency and Thermoelectric Properties of Cu2-ySe1–xBrx | Phase transition and high temperature thermoelectric properties of copper selenide Cu2−xSe (0 ≤x≤ 0.25)
 
 ## Mn-Si
@@ -466,7 +466,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - measured range: 11-700 K (5th-95th pct of 214 curves; full span incl. outliers 10-842 K)
   !! MEASUREMENT CROSSES A TRANSITION: vo2_monoclinic -> rutile at ~340 K (M1 -> rutile metal-insulator transition, ~340 K.)
      Record each phase with its own temperature range, not a single prototype.
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): V2O3 R-3c (167) mp-18937 [hull=0.012, icsd=23, PRIMARY]; VO2 P4_2/mnm (136) mp-19094 [hull=0.000, icsd=19, PRIMARY]; VO Fm-3m (225) mp-19184 [hull=0.154, icsd=10, PRIMARY]; V3O5 P2/c (13) mp-622497 [hull=0.000, icsd=6, PRIMARY]; V6O13 Cm (8) mp-19457 [hull=0.023, icsd=5, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): V2O3 R-3c (167) mp-18937 [hull=0.012, icsd=23, PRIMARY]; VO2 P4_2/mnm (136) mp-19094 [hull=0.000, icsd=19, PRIMARY]; VO Fm-3m (225) mp-19184 [hull=0.154, icsd=10, PRIMARY]; V3O5 P2/c (13) mp-622497 [hull=0.000, icsd=6, PRIMARY]; V6O13 Cm (8) mp-19457 [hull=0.023, icsd=5, PRIMARY, AMBIGUOUS]
 - papers: Hydrogen-Incorporation Stabilization of Metallic VO2(R) Phase to Room Temperature, Displaying Promising Low-Temperature Thermoelectric Effect | Transport and Structural Properties of VO2Films | V–V bond length fluctuations in VO x
 
 ## Pb-Se-Te
@@ -507,5 +507,5 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - solid-solution axis: Pb/(Pb+Sn) spans 0.10-0.90 (median 0.50) over 144 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 281-838 K (5th-95th pct of 671 curves; full span incl. outliers 10-874 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sn4Te5Pb I4/mmm (139) mp-1219009 [hull=0.000, PRIMARY]; SnTe2Pb R-3m (166) mp-1218924 [hull=0.017, PRIMARY]; SnTe4Pb3 P4/mmm (123) mp-1218925 [hull=0.013, PRIMARY]; SnTe5Pb4 R-3m (166) mp-1218909 [hull=0.017, PRIMARY]; SnTe2Pb P4/mmm (123) mp-1218915 [hull=0.023]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sn4Te5Pb I4/mmm (139) mp-1219009 [hull=0.000, PRIMARY]; SnTe2Pb R-3m (166) mp-1218924 [hull=0.017, PRIMARY, AMBIGUOUS]; SnTe4Pb3 P4/mmm (123) mp-1218925 [hull=0.013, PRIMARY]; SnTe5Pb4 R-3m (166) mp-1218909 [hull=0.017, PRIMARY]; SnTe2Pb P4/mmm (123) mp-1218915 [hull=0.023]
 - papers: Increase in the Figure of Merit by Cd-Substitution in Sn1-xPbxTe and Effect of Pb/Sn Ratio on Thermoelectric Properties | Nanostructuring and High Thermoelectric Efficiency in p-Type Ag(Pb1 –ySny)mSbTe2 +m | Tailoring of Electronic Structure and Thermoelectric Properties of a Topological Crystalline Insulator by Chemical Doping

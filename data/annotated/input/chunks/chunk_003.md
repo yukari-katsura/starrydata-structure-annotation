@@ -178,7 +178,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - solid-solution axis: Ge/(Ge+Si) spans 0.09-0.80 (median 0.41) over 44 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 298-923 K (5th-95th pct of 233 curves; full span incl. outliers 293-1172 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg4SiGe R-3m (166) mp-1222125 [hull=0.005, PRIMARY]; Mg6SiGe2 Immm (71) mp-1222090 [hull=0.004, PRIMARY]; Mg4SiGe P4/mmm (123) mp-1222108 [hull=0.007]; Mg4SiGe F-43m (216) mp-1222117 [hull=0.492]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg4SiGe R-3m (166) mp-1222125 [hull=0.005, PRIMARY, AMBIGUOUS]; Mg6SiGe2 Immm (71) mp-1222090 [hull=0.004, PRIMARY]; Mg4SiGe P4/mmm (123) mp-1222108 [hull=0.007]; Mg4SiGe F-43m (216) mp-1222117 [hull=0.492]
 - papers: Thermoelectric properties and electronic structure of p-type Mg2Si and Mg2Si0.6Ge0.4 compounds doped with Ga | Local structure and thermoelectric properties of Mg 2 Si 0.977− x Ge x Bi 0.023  (0.1  ⩽  x  ⩽  0.4) | Thermoelectric Performance of Sb- and La-Doped Mg2Si0.5Ge0.5
 
 ## Ba-O-Ti
@@ -206,7 +206,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Ni (21), Sn (5), Li (5), Pt (4), Cr (4), Pd (3), Co (3), Zn (2), Gd (1), Mg (1), Ti (1), Mn (1), Cd (1)
 - seed hypothesis (confirm): delafossite
 - measured range: 296-1159 K (5th-95th pct of 128 curves; full span incl. outliers 16-1174 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): FeCuO2 R-3m (166) mp-796603 [hull=0.000, icsd=9, PRIMARY]; Fe13Cu5O24 P-1 (2) mp-763652 [hull=0.098, PRIMARY]; Fe2CuO4 Fd-3m (227) mp-770107 [hull=0.065, PRIMARY]; Fe5CuO8 F-43m (216) mp-33300 [hull=0.067, PRIMARY]; Fe9Cu3O16 P-1 (2) mp-705842 [hull=0.102, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): FeCuO2 R-3m (166) mp-796603 [hull=0.000, icsd=9, PRIMARY]; Fe13Cu5O24 P-1 (2) mp-763652 [hull=0.098, PRIMARY]; Fe2CuO4 Fd-3m (227) mp-770107 [hull=0.065, PRIMARY, AMBIGUOUS]; Fe5CuO8 F-43m (216) mp-33300 [hull=0.067, PRIMARY]; Fe9Cu3O16 P-1 (2) mp-705842 [hull=0.102, PRIMARY]
 - papers: Thermoelectric power in Gd3+-substituted Cu-Cd ferrites | Synthesis and Thermoelectric Properties of Cu0.95Pt0.05Fe0.97Sn0.03O2Delafossite-Oxide | Thermoelectric Properties ofAn+2Con+1O3n+3(A=Ca, Sr, Ba,n=1–5)
 
 ## Ba-Fe-O-Sr
@@ -214,7 +214,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Ba0.5Sr0.5FeO3 (9); Ba0.5Sr0.5Co0.2Fe0.8O3 (9); Ba0.5Sr0.5Fe0.9Cu0.1O3 (4); Ba0.5Sr0.5Fe0.9Nb0.1O3 (3); Ba0.5Sr0.5Fe0.8Cu0.2O3 (3); Ba0.5Sr0.5Zn0.2Fe0.8O3 (2)
 - dopant candidates (<5% at.): Co (17), Cu (13), Mg (8), Mn (7), Zn (5), La (5), Ti (3), Ce (3), Nb (3), Al (3), Zr (1), Ni (1), Mo (1)
 - measured range: 299-1223 K (5th-95th pct of 62 curves; full span incl. outliers 292-1273 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaSr(FeO2)4 P-31m (162) mp-24938 [hull=0.012, icsd=3, PRIMARY]; Ba4Sr(FeO3)5 P4/mmm (123) mp-1228328 [hull=0.003, PRIMARY]; BaSr(FeO3)2 P4/mmm (123) mp-1227735 [hull=0.003, PRIMARY]; BaSr4(FeO2)5 P4/mmm (123) mp-1227731 [hull=0.016, PRIMARY]; BaSr4(FeO3)5 Cmmm (65) mp-1227727 [hull=0.005, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaSr(FeO2)4 P-31m (162) mp-24938 [hull=0.012, icsd=3, PRIMARY]; Ba4Sr(FeO3)5 P4/mmm (123) mp-1228328 [hull=0.003, PRIMARY]; BaSr(FeO3)2 P4/mmm (123) mp-1227735 [hull=0.003, PRIMARY]; BaSr4(FeO2)5 P4/mmm (123) mp-1227731 [hull=0.016, PRIMARY, AMBIGUOUS]; BaSr4(FeO3)5 Cmmm (65) mp-1227727 [hull=0.005, PRIMARY, AMBIGUOUS]
 - papers: Cobalt-free Ba0.5Sr0.5Fe0.8Cu0.1Ti0.1O3−δ as a bi-functional electrode material for solid oxide fuel cells | X-ray photoelectron spectra, conductivity, and oxygen permeation characteristics of (Ba0.5Sr0.5)(Fe1-xCex)O3-δ (x = 0–1.0) perovskites | XRD, XANES, and Electrical Conductivity Analysis of La- and Zr-Doped Ba0.5Sr0.5Fe0.9Cu0.1O3-δ Suitable for IT-SOFC Cathodes
 
 ## Ce-Cu
@@ -335,7 +335,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): srsi2_chiral
 - measured range: 10-717 K (5th-95th pct of 159 curves; full span incl. outliers 10-1162 K)
 - [ref 1] TEDesignLab / ICSD: Sr2Si Pnma (62) mp-1106 [hull=0.000, icsd=4, PRIMARY]; Sr5Si3 I4/mcm (140) mp-746 [hull=0.000, icsd=4, PRIMARY]
-- [ref 2] MP, ranked by ICSD evidence: SrSi2 I4_1/amd (141) mp-1727 [hull=0.000, icsd=5, PRIMARY]; SrSi Cmcm (63) mp-2661 [hull=0.000, icsd=4, PRIMARY]; SrSi6 Cmcm (63) mp-1009 [hull=0.073, icsd=2, PRIMARY]; Sr2Si3 Imm2 (44) mp-1218710 [hull=0.094, PRIMARY]; SrSi2 P4_332 (212) mp-496 [hull=0.003, icsd=5]
+- [ref 2] MP, ranked by ICSD evidence: SrSi2 I4_1/amd (141) mp-1727 [hull=0.000, icsd=5, PRIMARY, AMBIGUOUS]; SrSi Cmcm (63) mp-2661 [hull=0.000, icsd=4, PRIMARY]; SrSi6 Cmcm (63) mp-1009 [hull=0.073, icsd=2, PRIMARY]; Sr2Si3 Imm2 (44) mp-1218710 [hull=0.094, PRIMARY]; SrSi2 P4_332 (212) mp-496 [hull=0.003, icsd=5]
 - papers: Thermoelectric properties of BaSi2, SrSi2, and LaSi | Chemical pressure effect on thermoelectric properties of Ca and Ba substituted SrSi2 alloys | Investigation of Al substitution on the thermoelectric properties of SrSi2
 
 ## Ba-Cu-Ge-Si
@@ -403,7 +403,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
   !! MEASUREMENT CROSSES A TRANSITION: layered_ges -> cmcm_snse_ht at ~800 K (Pnma -> Cmcm, ~800 K for SnSe and ~880 K for SnS; the high-ZT regime.)
      Record each phase with its own temperature range, not a single prototype.
 - [ref 1] TEDesignLab / ICSD: SnS2 P-3m1 (164) mp-1170 [hull=0.000, icsd=25, PRIMARY]; SnS Pnma (62) mp-2231 [hull=0.000, icsd=19, PRIMARY]; Sn2S3 Pnma (62) mp-1509 [hull=0.005, icsd=6, PRIMARY]; SnS Fm-3m (225) mp-1876 [hull=0.045, icsd=2]; SnS Cmcm (63) mp-1379 [hull=0.063, icsd=2]
-- [ref 2] MP, ranked by ICSD evidence: Sn3S7 C2/c (15) mp-1202007 [hull=0.256, icsd=1, PRIMARY]; Sn3S Fm-3m (225) mp-1187038 [hull=0.329, PRIMARY]; SnS Aem2 (39) mp-8781 [hull=0.048, icsd=2]; SnS P-1 (2) mp-1064497 [hull=0.052, icsd=1]; SnS2 Fd-3m (227) mp-1095397 [hull=0.011, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence: Sn3S7 C2/c (15) mp-1202007 [hull=0.256, icsd=1, PRIMARY, AMBIGUOUS]; Sn3S Fm-3m (225) mp-1187038 [hull=0.329, PRIMARY]; SnS Aem2 (39) mp-8781 [hull=0.048, icsd=2]; SnS P-1 (2) mp-1064497 [hull=0.052, icsd=1]; SnS2 Fd-3m (227) mp-1095397 [hull=0.011, icsd=1]
 - papers: Thermoelectric Properties of Sn-S Bulk Materials Prepared by Mechanical Alloying and Spark Plasma Sintering | Thermoelectrics with earth abundant elements: low thermal conductivity and high thermopower in doped SnS | Thermoelectric performance of SnS and SnS–SnSe solid solution
 
 ## As-Cd

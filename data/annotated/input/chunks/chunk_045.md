@@ -149,7 +149,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Ga2Se3 (2)
 - measured range: 320-672 K (5th-95th pct of 2 curves)
 - [ref 1] TEDesignLab / ICSD: Ga2Se3 Cc (9) mp-1340 [hull=0.000, icsd=6, PRIMARY]; GaSe R3m (160) mp-11342 [hull=0.000, icsd=1]; GaSe (186)
-- [ref 2] MP, ranked by ICSD evidence: GaSe P6_3/mmc (194) mp-1943 [hull=0.000, icsd=5, PRIMARY]; GaSe2 I-43m (217) mp-680721 [hull=0.304, icsd=2, PRIMARY]; Ga3Se Pm-3m (221) mp-1184214 [hull=0.250, PRIMARY]; GaSe P-6m2 (187) mp-1572 [hull=0.000, icsd=6]; Ga2Se3 Imm2 (44) mp-1224809 [hull=0.009]
+- [ref 2] MP, ranked by ICSD evidence: GaSe P6_3/mmc (194) mp-1943 [hull=0.000, icsd=5, PRIMARY, AMBIGUOUS]; GaSe2 I-43m (217) mp-680721 [hull=0.304, icsd=2, PRIMARY]; Ga3Se Pm-3m (221) mp-1184214 [hull=0.250, PRIMARY]; GaSe P-6m2 (187) mp-1572 [hull=0.000, icsd=6]; Ga2Se3 Imm2 (44) mp-1224809 [hull=0.009]
 - papers: Effect of Vacancy Distribution on the Thermal Conductivity of Ga2Te3 and Ga2Se3
 
 ## Ga-Si-Sr
@@ -178,7 +178,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2223 | 2 samples | 2 papers | 1 compositions
 - compositions: Gd2Mo2O7 (2)
 - measured range: 13-287 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Gd2Mo2O7 Fd-3m (227) mp-642754 [hull=0.000, icsd=5, PRIMARY]; Gd2(MoO4)3 Pba2 (32) mp-650449 [hull=0.000, icsd=1, PRIMARY]; Gd6Mo10O39 C2/c (15) mp-1195215 [hull=0.024, icsd=1, PRIMARY]; Gd2Mo5O18 Pbcn (60) mp-704238 [hull=0.008, icsd=1, PRIMARY]; Gd4Mo4O11 Pbam (55) mp-1200768 [hull=0.164, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Gd2Mo2O7 Fd-3m (227) mp-642754 [hull=0.000, icsd=5, PRIMARY]; Gd2(MoO4)3 Pba2 (32) mp-650449 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; Gd6Mo10O39 C2/c (15) mp-1195215 [hull=0.024, icsd=1, PRIMARY]; Gd2Mo5O18 Pbcn (60) mp-704238 [hull=0.008, icsd=1, PRIMARY]; Gd4Mo4O11 Pbam (55) mp-1200768 [hull=0.164, icsd=1, PRIMARY]
 - papers: Thermoelectric power of RE2Mo2O7 pyrochlores | Electrical properties of Ln2Mo2O7 pyrochlores (Ln=SmYb,Y)
 
 ## Gd-N
@@ -204,7 +204,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2227 | 2 samples | 2 papers | 2 compositions
 - compositions: GdTa3O9 (1); GdTaO4 (1)
 - measured range: 373-1073 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GdTaO4 P2/c (13) mp-4875 [hull=0.000, icsd=3, PRIMARY]; Gd3TaO7 P-1 (2) mp-779424 [hull=0.000, PRIMARY]; GdTa3O9 P2_1/m (11) mp-770998 [hull=0.000, PRIMARY]; GdTa4O12 Amm2 (38) mp-1224653 [hull=0.054, PRIMARY]; GdTa7O19 P-6c2 (188) mp-770124 [hull=0.001, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GdTaO4 P2/c (13) mp-4875 [hull=0.000, icsd=3, PRIMARY]; Gd3TaO7 P-1 (2) mp-779424 [hull=0.000, PRIMARY, AMBIGUOUS]; GdTa3O9 P2_1/m (11) mp-770998 [hull=0.000, PRIMARY]; GdTa4O12 Amm2 (38) mp-1224653 [hull=0.054, PRIMARY]; GdTa7O19 P-6c2 (188) mp-770124 [hull=0.001, PRIMARY]
 - papers: Spontaneously formed nanostructures in double perovskite rare-earth tantalates for thermal barrier coatings | Diffused Lattice Vibration and Ultralow Thermal Conductivity in the Binary Ln–Nb–O Oxide System
 
 ## Gd-O-V

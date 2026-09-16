@@ -118,7 +118,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - solid-solution axis: Ca/(Ca+Sr) spans 0.40-0.70 (median 0.60) over 12 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 309-1179 K (5th-95th pct of 15 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr3Ca(Fe2O5)2 P1 (1) mp-1076761 [hull=0.005, PRIMARY]; Sr3Ca(FeO3)4 Pm (6) mp-1094055 [hull=0.015, PRIMARY]; Sr4Ca(FeO2)5 Cmmm (65) mp-1218462 [hull=0.030, PRIMARY]; Sr4Ca(FeO3)5 P4/m (83) mp-1218523 [hull=0.012, PRIMARY]; Sr5Ca3MnFe7O20 P1 (1) mp-1076199 [hull=0.018, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr3Ca(Fe2O5)2 P1 (1) mp-1076761 [hull=0.005, PRIMARY]; Sr3Ca(FeO3)4 Pm (6) mp-1094055 [hull=0.015, PRIMARY, AMBIGUOUS]; Sr4Ca(FeO2)5 Cmmm (65) mp-1218462 [hull=0.030, PRIMARY]; Sr4Ca(FeO3)5 P4/m (83) mp-1218523 [hull=0.012, PRIMARY]; Sr5Ca3MnFe7O20 P1 (1) mp-1076199 [hull=0.018, PRIMARY]
 - papers: Synthesis, Crystal Chemistry, and Electrical Properties of the Intergrowth Oxides Sr4−xCaxFe6−yCoyO13+δ
 
 ## Ce-Cu-Ge
@@ -244,7 +244,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): La (15), Mn (3), Ca (2), Sr (1)
 - seed hypothesis (confirm): perovskite
 - measured range: 14-373 K (5th-95th pct of 15 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZrTi(PbO3)2 P4mm (99) mp-1079056 [hull=0.018, icsd=2, PRIMARY]; BaZr2Ti3Pb4O15 Pm (6) mp-1227980 [hull=0.027, PRIMARY]; Zr2Ti(PbO3)3 Cm (8) mp-1215944 [hull=0.026, PRIMARY]; Zr3Ti(PbO3)4 Pm (6) mp-1215936 [hull=0.028, PRIMARY]; Zr2Ti3(PbO3)5 Pmm2 (25) mp-1216039 [hull=0.025, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZrTi(PbO3)2 P4mm (99) mp-1079056 [hull=0.018, icsd=2, PRIMARY]; BaZr2Ti3Pb4O15 Pm (6) mp-1227980 [hull=0.027, PRIMARY]; Zr2Ti(PbO3)3 Cm (8) mp-1215944 [hull=0.026, PRIMARY, AMBIGUOUS]; Zr3Ti(PbO3)4 Pm (6) mp-1215936 [hull=0.028, PRIMARY, AMBIGUOUS]; Zr2Ti3(PbO3)5 Pmm2 (25) mp-1216039 [hull=0.025, PRIMARY]
 - papers: High electrocaloric effect in hot-pressed Pb<sub>0.85</sub>\nLa<sub>0.1</sub>\n(Zr<sub>0.65</sub>\nTi<sub>0.35</sub>\n)O<sub>3</sub>\n ceramics with a wide operating temperature range | Effect of PbZr0.52Ti0.48O3 thin layer on structure, electronic and magnetic properties of La0.65Sr0.35 MnO3 and La0.65Ca0.30MnO3 thin-films
 
 ## P-Si-Te
@@ -321,7 +321,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Al13Co4 (3); Al75Co22Ni3 (3); Al76Co22Ni2 (3); Al5(Co0.95Fe0.05)2 (1); Al5Co2 (1); Al5(Co0.99Fe0.01)2 (1)
 - dopant candidates (<5% at.): Ni (6), Fe (3)
 - measured range: 11-1082 K (5th-95th pct of 36 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): AlCo Pm-3m (221) mp-284 [hull=0.001, icsd=6, PRIMARY]; Al5Co2 P6_3/mmc (194) mp-196 [hull=0.000, icsd=3, PRIMARY]; AlCo3 Pm-3m (221) mp-1018101 [hull=0.122, icsd=2, PRIMARY]; Al13Co4 Pmn2_1 (31) mp-1198336 [hull=0.005, icsd=1, PRIMARY]; Al9Co2 P2_1/c (14) mp-16488 [hull=0.000, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): AlCo Pm-3m (221) mp-284 [hull=0.001, icsd=6, PRIMARY]; Al5Co2 P6_3/mmc (194) mp-196 [hull=0.000, icsd=3, PRIMARY]; AlCo3 Pm-3m (221) mp-1018101 [hull=0.122, icsd=2, PRIMARY]; Al13Co4 Pmn2_1 (31) mp-1198336 [hull=0.005, icsd=1, PRIMARY, AMBIGUOUS]; Al9Co2 P2_1/c (14) mp-16488 [hull=0.000, icsd=1, PRIMARY]
 - papers: Anisotropic transport properties of the Al13TM4and T-Al–Mn–Fe complex metallic alloys | Electronic Structure and Thermoelectric Properties of Pseudogap Intermetallic Compound Al<sub>5</sub>Co<sub>2</sub> | Structural, electrical and magnetic properties of icosahedral Al-Co alloys
 
 ## As-Ba-Fe
@@ -337,7 +337,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 488 | 14 samples | 3 papers | 9 compositions
 - compositions: UAsSe (2); UAs0.979Se1.021 (2); UAs0.926Se1.074 (2); UAs0.982Se1.018 (2); UAs0.99Se1.01 (2); UAs0.994Se1.006 (1)
 - measured range: 10-300 K (5th-95th pct of 14 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): UAsSe P4/nmm (129) mp-22595 [hull=0.000, icsd=4, PRIMARY]; U2As3Se P4mm (99) mp-1216777 [hull=0.006, PRIMARY]; U2AsSe C2/m (12) mp-685138 [hull=0.000, PRIMARY]; U3As2Se P-3m1 (164) mp-1216733 [hull=0.142, PRIMARY]; U2AsSe I4_1/amd (141) mp-1173089 [hull=0.000]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): UAsSe P4/nmm (129) mp-22595 [hull=0.000, icsd=4, PRIMARY]; U2As3Se P4mm (99) mp-1216777 [hull=0.006, PRIMARY]; U2AsSe C2/m (12) mp-685138 [hull=0.000, PRIMARY, AMBIGUOUS]; U3As2Se P-3m1 (164) mp-1216733 [hull=0.142, PRIMARY]; U2AsSe I4_1/amd (141) mp-1173089 [hull=0.000]
 - papers: Anisotropy of transport properties of novel Kondo ferromagnet UAsSe | A Kondo-like thermoelectric power behaviour of UAsSe ferromagnet | Coherent electronic scattering in orbital-Kondo ferromagnet UAs1−xSe1+x
 
 ## B-O-Sr-Ti

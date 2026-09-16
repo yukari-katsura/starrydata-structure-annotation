@@ -83,7 +83,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3210 | 1 samples | 1 papers | 1 compositions
 - compositions: EuTa2O6 (1)
 - measured range: 10-396 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): EuTaO4 P2/c (13) mp-5957 [hull=0.000, icsd=2, PRIMARY]; EuTa2O6 P4/mmm (123) mp-20092 [hull=0.015, icsd=2, PRIMARY]; Eu2Ta2O7 Cmcm (63) mp-1191288 [hull=0.000, icsd=1, PRIMARY]; Eu3TaO6 Fm-3m (225) mp-21406 [hull=0.047, icsd=1, PRIMARY]; Eu5Ta4O15 P-3m1 (164) mp-1192440 [hull=0.019, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): EuTaO4 P2/c (13) mp-5957 [hull=0.000, icsd=2, PRIMARY, AMBIGUOUS]; EuTa2O6 P4/mmm (123) mp-20092 [hull=0.015, icsd=2, PRIMARY]; Eu2Ta2O7 Cmcm (63) mp-1191288 [hull=0.000, icsd=1, PRIMARY]; Eu3TaO6 Fm-3m (225) mp-21406 [hull=0.047, icsd=1, PRIMARY]; Eu5Ta4O15 P-3m1 (164) mp-1192440 [hull=0.019, icsd=1, PRIMARY]
 - papers: Structure and physical properties of EuTa2O6 tungsten bronze polymorph
 
 ## Eu-O-Zr
@@ -202,7 +202,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3228 | 1 samples | 1 papers | 1 compositions
 - compositions: La2O2Fe2OSe2 (1)
 - measured range: 151-312 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La2Fe(SeO)2 C2/m (12) mp-1078132 [hull=0.000, icsd=1, PRIMARY]; La4FeSe6O P6_3mc (186) mp-689533 [hull=0.058, icsd=1, PRIMARY]; La2Fe(SeO)2 Pna2_1 (33) mp-1201876 [hull=0.008, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La2Fe(SeO)2 C2/m (12) mp-1078132 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; La4FeSe6O P6_3mc (186) mp-689533 [hull=0.058, icsd=1, PRIMARY]; La2Fe(SeO)2 Pna2_1 (33) mp-1201876 [hull=0.008, icsd=1]
 - papers: Mott-Kondo insulator behavior in the iron oxychalcogenides
 
 ## Fe-La-O-Zn
@@ -312,14 +312,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3244 | 1 samples | 1 papers | 1 compositions
 - compositions: SbFeO3 (1)
 - measured range: 200-398 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Fe(SbO2)2 P4_2/mbc (135) mp-656060 [hull=0.000, icsd=13, PRIMARY]; Fe(SbO3)4 P1 (1) mp-770991 [hull=0.082, PRIMARY]; FeSbO4 Cmmm (65) mp-675127 [hull=0.000, PRIMARY]; Fe(SbO2)2 P2_1/c (14) mp-601696 [hull=0.119, icsd=1]; Fe(SbO2)2 P4_2/m (84) mp-601882 [hull=0.101]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Fe(SbO2)2 P4_2/mbc (135) mp-656060 [hull=0.000, icsd=13, PRIMARY]; Fe(SbO3)4 P1 (1) mp-770991 [hull=0.082, PRIMARY]; FeSbO4 Cmmm (65) mp-675127 [hull=0.000, PRIMARY, AMBIGUOUS]; Fe(SbO2)2 P2_1/c (14) mp-601696 [hull=0.119, icsd=1]; Fe(SbO2)2 P4_2/m (84) mp-601882 [hull=0.101]
 - papers: Influence of Sb3+ Cations on the Structural, Magnetic and Electrical Properties of AlFeO3 Multiferroic Perovskite with Humidity Sensors Applicative Characteristics
 
 ## Fe-O-Si
 - rank 3245 | 1 samples | 1 papers | 1 compositions
 - compositions: Fe2SiO4 (1)
 - measured range: 294-1073 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Fe2SiO4 Fd-3m (227) mp-18816 [hull=0.037, icsd=29, PRIMARY]; FeSiO3 Pbca (61) mp-630331 [hull=0.012, icsd=7, PRIMARY]; Fe3(SiO4)2 P2_1/c (14) mp-31859 [hull=0.044, icsd=2, PRIMARY]; FeSiO4 Pnma (62) mp-1191756 [hull=0.248, icsd=1, PRIMARY]; Fe3Si2O9 C2/m (12) mp-1193684 [hull=0.158, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Fe2SiO4 Fd-3m (227) mp-18816 [hull=0.037, icsd=29, PRIMARY]; FeSiO3 Pbca (61) mp-630331 [hull=0.012, icsd=7, PRIMARY]; Fe3(SiO4)2 P2_1/c (14) mp-31859 [hull=0.044, icsd=2, PRIMARY]; FeSiO4 Pnma (62) mp-1191756 [hull=0.248, icsd=1, PRIMARY, AMBIGUOUS]; Fe3Si2O9 C2/m (12) mp-1193684 [hull=0.158, icsd=1, PRIMARY]
 - papers: Physical Properties of Iron-Oxide Scales on Si-Containing Steels at High Temperature
 
 ## Fe-O-V

@@ -92,7 +92,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: CeRhSi3 (8); Ce3RhSi3 (5); CeRh1.9Ni0.1Si2 (1); CeRh1.8Ni0.2Si2 (1); CeRh2Si2 (1); Ce(Rh0.90Ru0.10)2Si2 (1)
 - dopant candidates (<5% at.): Ni (2), Ru (1)
 - measured range: 10-298 K (5th-95th pct of 25 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce(SiRh)2 I4/mmm (139) mp-4090 [hull=0.000, icsd=10, PRIMARY]; Ce2Si5Rh3 Ibam (72) mp-1188214 [hull=0.000, icsd=3, PRIMARY]; CeSi2Rh Cmcm (63) mp-1025411 [hull=0.000, icsd=2, PRIMARY]; Ce2Si3Rh P6/mmm (191) mp-31163 [hull=0.000, icsd=1, PRIMARY]; Ce3(SiRh)2 Pbcm (57) mp-978253 [hull=0.000, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce(SiRh)2 I4/mmm (139) mp-4090 [hull=0.000, icsd=10, PRIMARY]; Ce2Si5Rh3 Ibam (72) mp-1188214 [hull=0.000, icsd=3, PRIMARY]; CeSi2Rh Cmcm (63) mp-1025411 [hull=0.000, icsd=2, PRIMARY]; Ce2Si3Rh P6/mmm (191) mp-31163 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; Ce3(SiRh)2 Pbcm (57) mp-978253 [hull=0.000, icsd=1, PRIMARY]
 - papers: Anomalous Nernst effect in the ferromagnetic Kondo lattice Ce3RhSi3 | Thermoelectric power in single-crystalline CeRhSi3 | Thermoelectric power behaviour of CeRh2−xNixSi2 alloys
 
 ## Co-Ni-Sb-Sn-Ti
@@ -167,7 +167,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Co (5), Se (4)
 - measured range: 54-604 K (5th-95th pct of 69 curves)
 - [ref 1] TEDesignLab / ICSD: FeS P-62c (190) mp-2779 [hull=0.179, icsd=22, PRIMARY]; FeS2 Pa-3 (205) mp-226 [hull=0.007, icsd=18, PRIMARY]; FeS Pnma (62) mp-21410 [hull=0.235, icsd=9]; FeS P6_3/mmc (194) mp-2099 [hull=0.260, icsd=6]; FeS P6_3mc (186) mp-850122 [hull=0.202, icsd=3]
-- [ref 2] MP, ranked by ICSD evidence: Fe3S4 Fd-3m (227) mp-21515 [hull=0.135, icsd=4, PRIMARY]; Fe7S8 C2/c (15) mp-850128 [hull=0.134, icsd=3, PRIMARY]; Fe3S Pnma (62) mp-1189032 [hull=0.161, icsd=1, PRIMARY]; Fe4S5 P2 (3) mp-850249 [hull=0.060, icsd=1, PRIMARY]; FeS2 Pnnm (58) mp-1522 [hull=0.000, icsd=8]
+- [ref 2] MP, ranked by ICSD evidence: Fe3S4 Fd-3m (227) mp-21515 [hull=0.135, icsd=4, PRIMARY, AMBIGUOUS]; Fe7S8 C2/c (15) mp-850128 [hull=0.134, icsd=3, PRIMARY]; Fe3S Pnma (62) mp-1189032 [hull=0.161, icsd=1, PRIMARY]; Fe4S5 P2 (3) mp-850249 [hull=0.060, icsd=1, PRIMARY]; FeS2 Pnnm (58) mp-1522 [hull=0.000, icsd=8]
 - papers: Nanoscale FeS2 (Pyrite) as a Sustainable Thermoelectric Material | Thermoelectric figure of merit of M-sulphides (M=Fe, Co, Ni, Pd) thin films | Exploring the thermoelectric behavior of spark plasma sintered Fe7-xCoxS8 compounds
 
 ## Ga-N
@@ -210,7 +210,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Pd0.86Ag0.14 (6); Pd0.77Ag0.23 (6); Pd0.61Ag0.39 (4)
 - seed hypothesis (confirm): solid_solution_alloy
 - measured range: 81-299 K (5th-95th pct of 16 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ag3Pd I4/mmm (139) mp-985296 [hull=0.000, PRIMARY]; AgPd R-3m (166) mp-1229012 [hull=0.000, PRIMARY]; Ag3Pd P6_3/mmc (194) mp-1183206 [hull=0.000]; AgPd P-6m2 (187) mp-1183222 [hull=0.008]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ag3Pd I4/mmm (139) mp-985296 [hull=0.000, PRIMARY, AMBIGUOUS]; AgPd R-3m (166) mp-1229012 [hull=0.000, PRIMARY, AMBIGUOUS]; Ag3Pd P6_3/mmc (194) mp-1183206 [hull=0.000]; AgPd P-6m2 (187) mp-1183222 [hull=0.008]
 - papers: Influence of hydrogen on electron transport of palladium alloyed with silver
 
 ## Ag-Se-Te
@@ -316,7 +316,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: La0.98Pb0.02Mn0.74Co0.25O3 (2); La2CoMnO6 (2); La0.95Sr0.05Co0.67Mn0.33O3 (1); (LaCoO3)0.50(La0.7Sr0.3MnO3)0.50 (1); La0.95Sr0.05Co0.33Mn0.67O3 (1); La0.95Sr0.05Co0.5Mn0.5O3 (1)
 - dopant candidates (<5% at.): Sr (4), Mg (3), Pb (2), Fe (2)
 - measured range: 10-1123 K (5th-95th pct of 25 curves; full span incl. outliers 10-1183 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La2MnCoO6 P2_1/c (14) mp-19208 [hull=0.000, icsd=5, PRIMARY]; La2MnCoO6 C2/m (12) mp-1105414 [hull=0.007, icsd=6]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La2MnCoO6 P2_1/c (14) mp-19208 [hull=0.000, icsd=5, PRIMARY, AMBIGUOUS]; La2MnCoO6 C2/m (12) mp-1105414 [hull=0.007, icsd=6]
 - papers: Thermoelectric properties of (1-x)LaCoO3.xLa0.7Sr0.3MnO3 composite | Magnetothermopower, magnetoresistance and magnetothermal conductivity in La0.95Sr0.05Co1−x Mn x O3 (0.00 ≤ x ≤ 1.00) | Intrinsic phase separation in a single crystal of La0.98Pb0.02Mn0.74Co0.25O3
 
 ## Co-La-O-Rh
@@ -436,6 +436,6 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 450 | 16 samples | 7 papers | 2 compositions
 - compositions: Y2Si2O7 (11); Y2SiO5 (5)
 - measured range: 293-1274 K (5th-95th pct of 16 curves)
-- [ref 1] TEDesignLab / ICSD: Y2Si2O7 C2/m (12) mp-5652 [hull=0.000, icsd=2, PRIMARY]; Y2Si2O7 P2_1/c (14) mp-7999 [hull=0.003, icsd=2]; Y2Si2O7 (11)
+- [ref 1] TEDesignLab / ICSD: Y2Si2O7 C2/m (12) mp-5652 [hull=0.000, icsd=2, PRIMARY, AMBIGUOUS]; Y2Si2O7 P2_1/c (14) mp-7999 [hull=0.003, icsd=2]; Y2Si2O7 (11)
 - [ref 2] MP, ranked by ICSD evidence: Y2SiO5 C2/c (15) mp-3520 [hull=0.000, icsd=4, PRIMARY]; Y3Si3O11 P2_1/c (14) mp-1204527 [hull=0.059, icsd=1, PRIMARY]; BaY4Si5O17 P2_1/m (11) mp-1019546 [hull=0.000, icsd=1, PRIMARY]; NaY9(Si3O13)2 P3 (143) mp-1220819 [hull=0.017, PRIMARY]; LiY9(Si3O13)2 P3 (143) mp-1222506 [hull=0.026, PRIMARY]
 - papers: Thermophysical properties of rare earth barium aluminates | Processing Parameter Effects and Thermal Properties of Y2Si2O7 Nanostructured Environmental Barrier Coatings Synthesized by Solution Precursor Induction Plasma Spraying | Tailoring thermal properties of multi-component rare earth monosilicates

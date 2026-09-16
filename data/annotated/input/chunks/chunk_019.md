@@ -219,7 +219,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 928 | 7 samples | 3 papers | 3 compositions
 - compositions: Sm2SbO2 (5); Sm3SbO3 (1); Sm8Sb3O8 (1)
 - measured range: 11-392 K (5th-95th pct of 6 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sm3Sb5O12 I-43m (217) mp-3154 [hull=0.000, icsd=2, PRIMARY]; Sm3SbO7 Cmcm (63) mp-1191139 [hull=0.000, icsd=1, PRIMARY]; Sm3SbO3 C2/m (12) mp-983597 [hull=0.022, icsd=1, PRIMARY]; SmSbO4 P2_1/c (14) mp-13196 [hull=0.000, icsd=1, PRIMARY]; Sm2SbO2 I4/mmm (139) mp-1219180 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sm3Sb5O12 I-43m (217) mp-3154 [hull=0.000, icsd=2, PRIMARY]; Sm3SbO7 Cmcm (63) mp-1191139 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; Sm3SbO3 C2/m (12) mp-983597 [hull=0.022, icsd=1, PRIMARY]; SmSbO4 P2_1/c (14) mp-13196 [hull=0.000, icsd=1, PRIMARY]; Sm2SbO2 I4/mmm (139) mp-1219180 [hull=0.000, PRIMARY]
 - papers: Synthesis, Crystal and Electronic Structures of New Narrow-Band-Gap Semiconducting Antimonide Oxides RE3SbO3and RE8Sb3−δO8, with RE = La, Sm, Gd, and Ho | Decoupling the Electrical Conductivity and Seebeck Coefficient in theRE2SbO2Compounds through Local Structural Perturbations | Rare-Earth Pnictide Oxides (RE,Ca)mPnnOm (Pn = Sb, Bi): A Review of Crystal Structures, Chemistry, Compositions, and Physical Properties
 
 ## O-Sm-Zr
@@ -242,7 +242,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Sr(Fe0.2Ti0.2Mo0.2Nb0.2Cr0.2)O3 (5); Sr0.95La0.05Ti0.02Mn0.0126O3 (1); Sr20.995Ti0.005O4 (1)
 - dopant candidates (<5% at.): Ti (7), Fe (5), Mo (5), Nb (5), Cr (5), La (1), Mn (1)
 - measured range: 10-1091 K (5th-95th pct of 11 curves)
-- [ref 1] TEDesignLab / ICSD: SrO Fm-3m (225) mp-2472 [hull=0.000, icsd=12, PRIMARY]; SrO2 I4/mmm (139) mp-2697 [hull=0.000, icsd=2, PRIMARY]; SrO Pm-3m (221) mp-1009819 [hull=0.415, icsd=3]
+- [ref 1] TEDesignLab / ICSD: SrO Fm-3m (225) mp-2472 [hull=0.000, icsd=12, PRIMARY]; SrO2 I4/mmm (139) mp-2697 [hull=0.000, icsd=2, PRIMARY, AMBIGUOUS]; SrO Pm-3m (221) mp-1009819 [hull=0.415, icsd=3]
 - [ref 2] MP, ranked by ICSD evidence: SrO10 P4/mcc (124) mp-1179236 [hull=0.036, icsd=2, PRIMARY]; SrO6 C2/c (15) mp-1179143 [hull=0.090, icsd=1, PRIMARY]; Sr2O3 Pm-3m (221) mp-1187089 [hull=0.615, PRIMARY]; SrO3 Pmc2_1 (26) mp-1206311 [hull=0.374, PRIMARY]; SrO2 Pnma (62) mp-1179089 [hull=0.010, icsd=2]
 - papers: Effects of Mn substitution on the thermoelectric properties of the electron-doped perovskite Sr1-xLaxTiO3 | High-Entropy Perovskites: An Emergent Class of Oxide Thermoelectrics with Ultralow Thermal Conductivity | Effect of Ti substitution on the residual resistivity in the spin-triplet superconductor Sr2RuO4
 
@@ -379,7 +379,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: AgCuS (6)
 - measured range: 291-542 K (5th-95th pct of 7 curves)
 - [ref 1] TEDesignLab / ICSD: CuAg3S2 I4_1/amd (141) mp-5725 [hull=0.043, icsd=2, PRIMARY]; CuAgS Cmc2_1 (36) mp-1077811 [hull=0.032, icsd=2]; CuAgS Cmcm (63) mp-8911 [hull=0.024, icsd=1]; CuAg3S2 I4_1/a (88) mp-644883 [hull=0.037, icsd=1]; CuAgS (26)
-- [ref 2] MP, ranked by ICSD evidence: CuAgS Pnma (62) mp-5014 [hull=0.024, icsd=2, PRIMARY]; CuAgS P4/nmm (129) mp-1205410 [hull=0.107, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence: CuAgS Pnma (62) mp-5014 [hull=0.024, icsd=2, PRIMARY, AMBIGUOUS]; CuAgS P4/nmm (129) mp-1205410 [hull=0.107, icsd=1]
 - papers: The effect of order–disorder phase transitions and band gap evolution on the thermoelectric properties of AgCuS nanocrystals
 
 ## Ag-Ge-Pb-Sb-Te

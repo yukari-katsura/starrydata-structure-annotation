@@ -35,7 +35,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1853 | 2 samples | 2 papers | 2 compositions
 - compositions: Co2FeAl (1); Fe2CoAl (1)
 - measured range: 301-1014 K (5th-95th pct of 5 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): AlFeCo2 Fm-3m (225) mp-10884 [hull=0.000, icsd=1, PRIMARY]; Al2FeCo Fm-3m (225) mp-862691 [hull=0.000, PRIMARY]; Al2FeCo P4/mmm (123) mp-1228905 [hull=0.000]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): AlFeCo2 Fm-3m (225) mp-10884 [hull=0.000, icsd=1, PRIMARY]; Al2FeCo Fm-3m (225) mp-862691 [hull=0.000, PRIMARY, AMBIGUOUS]; Al2FeCo P4/mmm (123) mp-1228905 [hull=0.000]
 - papers: Structural and Thermoelectric Properties of Ternary Full-Heusler Alloys | Magnetic and thermoelectric properties of melt-spun ribbons of Fe2XAl (X = Co, Ni) Heusler compounds
 
 ## Al-Co-Pr
@@ -237,7 +237,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1883 | 2 samples | 2 papers | 1 compositions
 - compositions: PrAl2 (2)
 - measured range: 11-250 K (5th-95th pct of 3 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): PrAl2 Fd-3m (227) mp-1189 [hull=0.000, icsd=15, PRIMARY]; PrAl Pbcm (57) mp-1106232 [hull=0.008, icsd=3, PRIMARY]; Pr3Al P6_3/mmc (194) mp-1079266 [hull=0.030, icsd=2, PRIMARY]; PrAl4 I4/mmm (139) mp-2336 [hull=0.054, icsd=2, PRIMARY]; PrAl3 P6_3/mmc (194) mp-12553 [hull=0.000, icsd=2, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): PrAl2 Fd-3m (227) mp-1189 [hull=0.000, icsd=15, PRIMARY]; PrAl Pbcm (57) mp-1106232 [hull=0.008, icsd=3, PRIMARY]; Pr3Al P6_3/mmc (194) mp-1079266 [hull=0.030, icsd=2, PRIMARY, AMBIGUOUS]; PrAl4 I4/mmm (139) mp-2336 [hull=0.054, icsd=2, PRIMARY]; PrAl3 P6_3/mmc (194) mp-12553 [hull=0.000, icsd=2, PRIMARY]
 - papers: Thermoelectric power of RAl2 | Thermal conductivity of REAl2compounds (RE=rare earth)
 
 ## Al-Re

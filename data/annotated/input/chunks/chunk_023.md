@@ -61,7 +61,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1106 | 5 samples | 1 papers | 1 compositions
 - compositions: SrAl4 (5)
 - measured range: 13-299 K (5th-95th pct of 8 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SrAl4 I4/mmm (139) mp-2775 [hull=0.000, icsd=4, PRIMARY]; SrAl2 Imma (74) mp-22318 [hull=0.000, icsd=3, PRIMARY]; Sr8Al7 P2_13 (198) mp-11224 [hull=0.000, icsd=3, PRIMARY]; Sr2Al C2/c (15) mp-1102672 [hull=0.127, icsd=2, PRIMARY]; Sr5Al9 R-3m (166) mp-1109 [hull=0.000, icsd=2, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SrAl4 I4/mmm (139) mp-2775 [hull=0.000, icsd=4, PRIMARY]; SrAl2 Imma (74) mp-22318 [hull=0.000, icsd=3, PRIMARY, AMBIGUOUS]; Sr8Al7 P2_13 (198) mp-11224 [hull=0.000, icsd=3, PRIMARY]; Sr2Al C2/c (15) mp-1102672 [hull=0.127, icsd=2, PRIMARY]; Sr5Al9 R-3m (166) mp-1109 [hull=0.000, icsd=2, PRIMARY]
 - papers: Characteristic Fermi surfaces and charge density wave in SrAl4 and related compounds with the BaAl4-type tetragonal structure
 
 ## Am-O
@@ -369,7 +369,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1148 | 5 samples | 2 papers | 1 compositions
 - compositions: CO2 (5)
 - measured range: 10-119 K (5th-95th pct of 5 curves; full span incl. outliers 10-347 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CO2 Pa-3 (205) mp-20066 [hull=0.000, icsd=6, PRIMARY]; CO P2_13 (198) mp-11875 [hull=0.665, icsd=1, PRIMARY]; C61O2 P2_1/c (14) mp-1197923 [hull=0.365, icsd=1, PRIMARY]; CrC32O5 P2_1/c (14) mp-1200737 [hull=1.231, icsd=1, PRIMARY]; Cr(C7O2)3 P2_1/c (14) mp-1198466 [hull=1.172, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CO2 Pa-3 (205) mp-20066 [hull=0.000, icsd=6, PRIMARY]; CO P2_13 (198) mp-11875 [hull=0.665, icsd=1, PRIMARY, AMBIGUOUS]; C61O2 P2_1/c (14) mp-1197923 [hull=0.365, icsd=1, PRIMARY]; CrC32O5 P2_1/c (14) mp-1200737 [hull=1.231, icsd=1, PRIMARY]; Cr(C7O2)3 P2_1/c (14) mp-1198466 [hull=1.172, icsd=1, PRIMARY]
 - papers: Low-temperature thermal conductivity of cryocrystals formed by linear three-atom molecules | Thickness dependence of magnetic and transport properties of chromium dioxide (CrO/sub 2/) strained epitaxial thin films
 
 ## C-O-Si

@@ -23,7 +23,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: ZnAs (1)
 - measured range: 11-394 K (5th-95th pct of 3 curves)
 - [ref 1] TEDesignLab / ICSD: ZnAs Pbca (61) mp-7372 [hull=0.019, icsd=3, PRIMARY]
-- [ref 2] MP, ranked by ICSD evidence: Zn3As2 P4_2/nmc (137) mp-15700 [hull=0.001, icsd=2, PRIMARY]; ZnAs2 P2_1/c (14) mp-7262 [hull=0.000, icsd=2, PRIMARY]; Zn2As Pn-3m (224) mp-1207458 [hull=0.389, PRIMARY]; ZnAs3 Fm-3m (225) mp-971701 [hull=0.483, PRIMARY]; Zn3As2 I4_1cd (110) mp-1203368 [hull=0.004, icsd=2]
+- [ref 2] MP, ranked by ICSD evidence: Zn3As2 P4_2/nmc (137) mp-15700 [hull=0.001, icsd=2, PRIMARY, AMBIGUOUS]; ZnAs2 P2_1/c (14) mp-7262 [hull=0.000, icsd=2, PRIMARY]; Zn2As Pn-3m (224) mp-1207458 [hull=0.389, PRIMARY]; ZnAs3 Fm-3m (225) mp-971701 [hull=0.483, PRIMARY]; Zn3As2 I4_1cd (110) mp-1203368 [hull=0.004, icsd=2]
 - papers: Synthesis, Structure, and Properties of the Electron-Poor II–V Semiconductor ZnAs
 
 ## As-Zr
@@ -168,7 +168,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Y0.74B21.5C2.12N1.5 (1)
 - dopant candidates (<5% at.): Y (1)
 - measured range: 324-961 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BC2N Pmm2 (25) mp-629458 [hull=0.537, icsd=2, PRIMARY]; B2CN Pmma (51) mp-1079333 [hull=0.224, icsd=1, PRIMARY]; B3C10N3 Pmma (51) mp-642462 [hull=0.583, icsd=1, PRIMARY]; B2(CN2)3 R-3c (167) mp-989472 [hull=0.171, PRIMARY]; B2CN2 R3m (160) mp-1228638 [hull=0.461, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BC2N Pmm2 (25) mp-629458 [hull=0.537, icsd=2, PRIMARY, AMBIGUOUS]; B2CN Pmma (51) mp-1079333 [hull=0.224, icsd=1, PRIMARY]; B3C10N3 Pmma (51) mp-642462 [hull=0.583, icsd=1, PRIMARY]; B2(CN2)3 R-3c (167) mp-989472 [hull=0.171, PRIMARY, AMBIGUOUS]; B2CN2 R3m (160) mp-1228638 [hull=0.461, PRIMARY]
 - papers: Structural and thermoelectric properties of Y1−xB22+yC2−yN
 
 ## B-C-N-O
@@ -181,7 +181,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2575 | 1 samples | 1 papers | 1 compositions
 - compositions: Ce0.5La0.5B6 (1)
 - measured range: 10-96 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La(CeB8)3 Pmmm (47) mp-1223276 [hull=0.002, PRIMARY]; LaCeB12 Fm-3m (225) mp-1222899 [hull=0.001, PRIMARY]; La(CeB8)3 P4/mmm (123) mp-1223281 [hull=0.003]; LaCeB12 P4/mmm (123) mp-1222912 [hull=0.003]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La(CeB8)3 Pmmm (47) mp-1223276 [hull=0.002, PRIMARY, AMBIGUOUS]; LaCeB12 Fm-3m (225) mp-1222899 [hull=0.001, PRIMARY, AMBIGUOUS]; La(CeB8)3 P4/mmm (123) mp-1223281 [hull=0.003]; LaCeB12 P4/mmm (123) mp-1222912 [hull=0.003]
 - papers: Thermoelectric power in Ce1−xLaxB6 Kondo systems
 
 ## B-Ce-N-Ni

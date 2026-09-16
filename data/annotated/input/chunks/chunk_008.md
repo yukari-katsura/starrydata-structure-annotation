@@ -83,7 +83,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Tb (12), Al (3), Er (3)
 - seed hypothesis (confirm): sphalerite
 - measured range: 31-780 K (5th-95th pct of 41 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): In2GaAs3 I-4m2 (119) mp-1223859 [hull=0.027, PRIMARY]; InGa5As4 R3m (160) mp-1224045 [hull=0.135, PRIMARY]; InGaAs2 P-4m2 (115) mp-1223781 [hull=0.030, PRIMARY]; InGaAs2 R3m (160) mp-1223791 [hull=0.035]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): In2GaAs3 I-4m2 (119) mp-1223859 [hull=0.027, PRIMARY]; InGa5As4 R3m (160) mp-1224045 [hull=0.135, PRIMARY]; InGaAs2 P-4m2 (115) mp-1223781 [hull=0.030, PRIMARY, AMBIGUOUS]; InGaAs2 R3m (160) mp-1223791 [hull=0.035]
 - papers: Thermoelectric Transport in InGaAs with High Concentration of Rare-Earth TbAs Embedded Nanoparticles | ErAs:InGaAs∕InGaAlAs superlattice thin-film power generator array | Cross-plane lattice and electronic thermal conductivities of ErAs:InGaAs∕InGaAlAs superlattices
 
 ## Ba-Co-La-O
@@ -228,7 +228,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Ge (6), Ce (6)
 - seed hypothesis (confirm): interstitial_hydride
 - measured range: 82-297 K (5th-95th pct of 19 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): HPd Fm-3m (225) mp-24289 [hull=0.000, icsd=2, PRIMARY]; H3Pd4 R-3m (166) mp-1224413 [hull=0.001, PRIMARY]; H4Pd3 P4mm (99) mp-1224352 [hull=0.102, PRIMARY]; HPd3 P6_3/mmc (194) mp-983407 [hull=0.520, PRIMARY]; HPd P6_3mc (186) mp-1184548 [hull=0.000]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): HPd Fm-3m (225) mp-24289 [hull=0.000, icsd=2, PRIMARY]; H3Pd4 R-3m (166) mp-1224413 [hull=0.001, PRIMARY]; H4Pd3 P4mm (99) mp-1224352 [hull=0.102, PRIMARY]; HPd3 P6_3/mmc (194) mp-983407 [hull=0.520, PRIMARY, AMBIGUOUS]; HPd P6_3mc (186) mp-1184548 [hull=0.000]
 - papers: Thermoelectric power of hydrogenated palladium and some of its dilute alloys, between 80 and 300 K
 
 ## Ir-O-Y
@@ -292,7 +292,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Sr (6), Ca (5)
 - seed hypothesis (confirm): layered_double_perovskite
 - measured range: 12-1123 K (5th-95th pct of 18 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaPr(CoO3)2 P4/mmm (123) mp-24856 [hull=0.079, icsd=2, PRIMARY]; Ba2Pr2Co4O11 I4/mmm (139) mp-1228571 [hull=0.041, PRIMARY]; Ba2Pr3(CoO3)5 P-1 (2) mp-1229013 [hull=0.062, PRIMARY]; Ba4Pr4Co8O23 P4/mmm (123) mp-1228513 [hull=0.065, PRIMARY]; Ba6Pr2Co4O15 P1 (1) mp-1228751 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaPr(CoO3)2 P4/mmm (123) mp-24856 [hull=0.079, icsd=2, PRIMARY]; Ba2Pr2Co4O11 I4/mmm (139) mp-1228571 [hull=0.041, PRIMARY, AMBIGUOUS]; Ba2Pr3(CoO3)5 P-1 (2) mp-1229013 [hull=0.062, PRIMARY]; Ba4Pr4Co8O23 P4/mmm (123) mp-1228513 [hull=0.065, PRIMARY]; Ba6Pr2Co4O15 P1 (1) mp-1228751 [hull=0.000, PRIMARY]
 - papers: Transport and Magnetic Properties of R1-xAxCoO3(R = La, Pr and Nd; A = Ba, Sr and Ca) | Praseodymium-deficiency Pr0.94BaCo2O6- double perovskite: A promising high performance cathode material for intermediate-temperature solid oxide fuel cells | A-site calcium-doped Pr 1−x Ca x BaCo 2 O 5+δ double perovskites as cathodes for intermediate-temperature solid oxide fuel cells
 
 ## Ba-O-Pb-Sr
@@ -333,7 +333,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Ni0.95Cr0.05 (4); Ni0.90Cr0.10 (2); Ni1.56Cr0.18 (1); NiCr (1); CrNi (1); Ni68.6Cr31.4 (1)
 - seed hypothesis (confirm): solid_solution_alloy
 - measured range: 10-1299 K (5th-95th pct of 19 curves; full span incl. outliers 10-2493 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cr3Ni Pm-3m (221) mp-1008278 [hull=0.148, icsd=1, PRIMARY]; CrNi3 I4/mmm (139) mp-1007923 [hull=0.001, icsd=1, PRIMARY]; Cr2Ni Fd-3m (227) mp-1077252 [hull=0.269, icsd=1, PRIMARY]; CrNi2 Fd-3m (227) mp-1077077 [hull=0.214, icsd=1, PRIMARY]; Cr22Ni50Mo3 P1 (1) mp-767825 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cr3Ni Pm-3m (221) mp-1008278 [hull=0.148, icsd=1, PRIMARY]; CrNi3 I4/mmm (139) mp-1007923 [hull=0.001, icsd=1, PRIMARY, AMBIGUOUS]; Cr2Ni Fd-3m (227) mp-1077252 [hull=0.269, icsd=1, PRIMARY]; CrNi2 Fd-3m (227) mp-1077077 [hull=0.214, icsd=1, PRIMARY]; Cr22Ni50Mo3 P1 (1) mp-767825 [hull=0.000, PRIMARY]
 - papers: Electrical and thermoelectric properties of some metallic thermoelectric materials | Transport properties of some hydrogenated nickel-based alloys | Effect of dissolved hydrogen on electron transport in nickel–chromium alloys
 
 ## Cu-Ge-Se

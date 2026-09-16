@@ -186,7 +186,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2926 | 1 samples | 1 papers | 1 compositions
 - compositions: U0.80Ce0.20O2 (1)
 - measured range: 360-1359 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce2U2O9 I4/mmm (139) mp-1226883 [hull=0.232, PRIMARY]; Ce2U3O10 C2/m (12) mp-773114 [hull=0.000, PRIMARY]; Ce2UO6 P-3m1 (164) mp-1226776 [hull=0.000, PRIMARY]; Ce3UO8 R-3m (166) mp-1226924 [hull=0.000, PRIMARY]; Ce4UO10 R-3m (166) mp-1226869 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce2U2O9 I4/mmm (139) mp-1226883 [hull=0.232, PRIMARY]; Ce2U3O10 C2/m (12) mp-773114 [hull=0.000, PRIMARY]; Ce2UO6 P-3m1 (164) mp-1226776 [hull=0.000, PRIMARY, AMBIGUOUS]; Ce3UO8 R-3m (166) mp-1226924 [hull=0.000, PRIMARY]; Ce4UO10 R-3m (166) mp-1226869 [hull=0.000, PRIMARY, AMBIGUOUS]
 - papers: Applicability of CeO2 as a surrogate for PuO2 in a MOX fuel development
 
 ## Ce-P-Si

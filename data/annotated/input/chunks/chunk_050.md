@@ -101,14 +101,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Mg0.2Al0.4Li0.40Fe2.00O4 (1)
 - dopant candidates (<5% at.): Mg (1)
 - measured range: 318-1084 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Li2Al2FeO6 C2 (5) mp-770845 [hull=0.093, PRIMARY]; Li2AlFeO4 Pc (7) mp-772267 [hull=0.017, PRIMARY]; Li3Al(FeO3)2 P-1 (2) mp-1177725 [hull=0.042, PRIMARY]; Li3Al2FeO6 C2/m (12) mp-770727 [hull=0.020, PRIMARY]; Li3AlFeO4 I4_1/a (88) mp-772439 [hull=0.019, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Li2Al2FeO6 C2 (5) mp-770845 [hull=0.093, PRIMARY]; Li2AlFeO4 Pc (7) mp-772267 [hull=0.017, PRIMARY, AMBIGUOUS]; Li3Al(FeO3)2 P-1 (2) mp-1177725 [hull=0.042, PRIMARY]; Li3Al2FeO6 C2/m (12) mp-770727 [hull=0.020, PRIMARY]; Li3AlFeO4 I4_1/a (88) mp-772439 [hull=0.019, PRIMARY]
 - papers: Thermoelectric power studies of magnesium and aluminium substituted lithium ferrites
 
 ## Al-Fe-Ni
 - rank 2464 | 1 samples | 1 papers | 1 compositions
 - compositions: Fe2NiAl (1)
 - measured range: 301-586 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): AlFe2Ni Fm-3m (225) mp-31186 [hull=0.233, icsd=1, PRIMARY]; Al27(FeNi2)2 P1 (1) mp-1229168 [hull=0.000, PRIMARY]; Al2FeNi P4/mmm (123) mp-1228910 [hull=0.000, PRIMARY]; Al5FeNi Amm2 (38) mp-1228374 [hull=0.000, PRIMARY]; Al2FeNi Fm-3m (225) mp-867330 [hull=0.000]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): AlFe2Ni Fm-3m (225) mp-31186 [hull=0.233, icsd=1, PRIMARY]; Al27(FeNi2)2 P1 (1) mp-1229168 [hull=0.000, PRIMARY]; Al2FeNi P4/mmm (123) mp-1228910 [hull=0.000, PRIMARY, AMBIGUOUS]; Al5FeNi Amm2 (38) mp-1228374 [hull=0.000, PRIMARY]; Al2FeNi Fm-3m (225) mp-867330 [hull=0.000]
 - papers: Magnetic and thermoelectric properties of melt-spun ribbons of Fe2XAl (X = Co, Ni) Heusler compounds
 
 ## Al-Fe-S-V
@@ -220,7 +220,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2481 | 1 samples | 1 papers | 1 compositions
 - compositions: Mg36.3Al32.0Zn31.7 (1)
 - measured range: 10-304 K (5th-95th pct of 3 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg19Al4Zn15 Cmcm (63) mp-1204993 [hull=0.032, icsd=1, PRIMARY]; Mg2Al4Zn3 P6_3/mmc (194) mp-1189454 [hull=0.115, icsd=1, PRIMARY]; Mg14AlZn P-6m2 (187) mp-1028199 [hull=0.022, PRIMARY]; Mg17Al11Zn Cm (8) mp-1185781 [hull=0.023, PRIMARY]; Mg16Al12Zn Cm (8) mp-1185721 [hull=0.028, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg19Al4Zn15 Cmcm (63) mp-1204993 [hull=0.032, icsd=1, PRIMARY]; Mg2Al4Zn3 P6_3/mmc (194) mp-1189454 [hull=0.115, icsd=1, PRIMARY]; Mg14AlZn P-6m2 (187) mp-1028199 [hull=0.022, PRIMARY, AMBIGUOUS]; Mg17Al11Zn Cm (8) mp-1185781 [hull=0.023, PRIMARY]; Mg16Al12Zn Cm (8) mp-1185721 [hull=0.028, PRIMARY, AMBIGUOUS]
 - papers: Electrical, magnetic, thermal and thermoelectric properties of the “Bergman phase” Mg32(Al,Zn)49 complex metallic alloy
 
 ## Al-Mn-Pd-Si
@@ -264,7 +264,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Mg (1), Ti (1)
 - measured range: 293-1273 K (5th-95th pct of 1 curves)
 - [ref 1] TEDesignLab / ICSD: Al2Si4O11 P-1 (2) mp-707135 [hull=0.033, icsd=2, PRIMARY]; Al2SiO5 C2/c (15) mp-9515 [hull=0.100, icsd=1]; Al2SiO5 Cmcm (63) mp-9516 [hull=0.109, icsd=1]
-- [ref 2] MP, ranked by ICSD evidence: Al2SiO5 Pnnm (58) mp-4753 [hull=0.000, icsd=27, PRIMARY]; Ca2Al4Si8O33 C2/m (12) mp-1200127 [hull=0.367, icsd=6, PRIMARY]; Al2Si2O9 P1 (1) mp-1103547 [hull=0.311, icsd=5, PRIMARY]; CaAl2(Si3O10)2 Pc (7) mp-1197130 [hull=0.296, icsd=3, PRIMARY]; Al(SiO3)2 P-1 (2) mp-1105328 [hull=0.190, icsd=2, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence: Al2SiO5 Pnnm (58) mp-4753 [hull=0.000, icsd=27, PRIMARY, AMBIGUOUS]; Ca2Al4Si8O33 C2/m (12) mp-1200127 [hull=0.367, icsd=6, PRIMARY]; Al2Si2O9 P1 (1) mp-1103547 [hull=0.311, icsd=5, PRIMARY]; CaAl2(Si3O10)2 Pc (7) mp-1197130 [hull=0.296, icsd=3, PRIMARY]; Al(SiO3)2 P-1 (2) mp-1105328 [hull=0.190, icsd=2, PRIMARY]
 - papers: Diffused Lattice Vibration and Ultralow Thermal Conductivity in the Binary Ln–Nb–O Oxide System
 
 ## Al-Os-Pd

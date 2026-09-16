@@ -111,7 +111,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Ag0.15Cd2.9Ca0.1Co4O9 (1)
 - dopant candidates (<5% at.): Ag (1), Ca (1)
 - measured range: 374-957 K (5th-95th pct of 5 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cd(CoO2)2 Fd-3m (227) mp-771736 [hull=0.000, PRIMARY]; Cd6(CoO3)5 R32 (155) mp-769964 [hull=0.084, PRIMARY]; CdCoO3 R-3 (148) mp-770662 [hull=0.034, PRIMARY]; Cd(CoO2)2 I4_1/amd (141) mp-1178498 [hull=0.065]; Cd(CoO2)2 P1 (1) mp-769705 [hull=0.122]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cd(CoO2)2 Fd-3m (227) mp-771736 [hull=0.000, PRIMARY]; Cd6(CoO3)5 R32 (155) mp-769964 [hull=0.084, PRIMARY]; CdCoO3 R-3 (148) mp-770662 [hull=0.034, PRIMARY, AMBIGUOUS]; Cd(CoO2)2 I4_1/amd (141) mp-1178498 [hull=0.065]; Cd(CoO2)2 P1 (1) mp-769705 [hull=0.122]
 - papers: Filiform Metal Silver Nanoinclusions To Enhance Thermoelectric Performance of P-type Ca3Co4O9+δ Oxide
 
 ## Cd-Cu-Eu-Sb
@@ -195,7 +195,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2876 | 1 samples | 1 papers | 1 compositions
 - compositions: NdCd (1)
 - measured range: 12-281 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NdCd Pm-3m (221) mp-991061 [hull=0.000, icsd=3, PRIMARY]; Nd11Cd45 F-43m (216) mp-1205000 [hull=0.012, icsd=1, PRIMARY]; NdCd11 Pm-3m (221) mp-1198736 [hull=0.000, icsd=1, PRIMARY]; NdCd2 P-3m1 (164) mp-1062206 [hull=0.473, icsd=1, PRIMARY]; Nd3Cd P6_3/mmc (194) mp-1186265 [hull=0.056, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NdCd Pm-3m (221) mp-991061 [hull=0.000, icsd=3, PRIMARY]; Nd11Cd45 F-43m (216) mp-1205000 [hull=0.012, icsd=1, PRIMARY]; NdCd11 Pm-3m (221) mp-1198736 [hull=0.000, icsd=1, PRIMARY]; NdCd2 P-3m1 (164) mp-1062206 [hull=0.473, icsd=1, PRIMARY]; Nd3Cd P6_3/mmc (194) mp-1186265 [hull=0.056, PRIMARY, AMBIGUOUS]
 - papers: Electrical and thermoelectric transport properties of RZn and RCd compounds (R = Tb, Gd, Nd, Pr)
 
 ## Cd-O-Ru
@@ -224,7 +224,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2880 | 1 samples | 1 papers | 1 compositions
 - compositions: Cd6Sm_IAC (1)
 - measured range: 10-29 K (5th-95th pct of 2 curves; full span incl. outliers 10-298 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SmCd Pm-3m (221) mp-572 [hull=0.000, icsd=4, PRIMARY]; SmCd2 P6/mmm (191) mp-30495 [hull=0.000, icsd=1, PRIMARY]; SmCd11 Pm-3m (221) mp-1203399 [hull=0.000, icsd=1, PRIMARY]; Sm3Cd P6_3/mmc (194) mp-979339 [hull=0.062, PRIMARY]; SmCd3 P6_3/mmc (194) mp-979465 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SmCd Pm-3m (221) mp-572 [hull=0.000, icsd=4, PRIMARY]; SmCd2 P6/mmm (191) mp-30495 [hull=0.000, icsd=1, PRIMARY]; SmCd11 Pm-3m (221) mp-1203399 [hull=0.000, icsd=1, PRIMARY]; Sm3Cd P6_3/mmc (194) mp-979339 [hull=0.062, PRIMARY, AMBIGUOUS]; SmCd3 P6_3/mmc (194) mp-979465 [hull=0.000, PRIMARY, AMBIGUOUS]
 - papers: Structural and magnetic transitions in the crystalline approximant Cd6Sm
 
 ## Cd-Sn-Te-Tl

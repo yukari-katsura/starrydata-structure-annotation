@@ -28,7 +28,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1552 | 3 samples | 1 papers | 3 compositions
 - compositions: InAs0.8P0.2 (1); InAs0.9P0.1 (1); InAs0.6P0.4 (1)
 - measured range: 291-1064 K (5th-95th pct of 3 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): In2AsP R3m (160) mp-1223837 [hull=0.013, PRIMARY]; In4As3P Pmm2 (25) mp-1223887 [hull=0.018, PRIMARY]; In4AsP3 Amm2 (38) mp-1223884 [hull=0.013, PRIMARY]; In2AsP P-4m2 (115) mp-1223851 [hull=0.015]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): In2AsP R3m (160) mp-1223837 [hull=0.013, PRIMARY, AMBIGUOUS]; In4As3P Pmm2 (25) mp-1223887 [hull=0.018, PRIMARY]; In4AsP3 Amm2 (38) mp-1223884 [hull=0.013, PRIMARY]; In2AsP P-4m2 (115) mp-1223851 [hull=0.015]
 - papers: InAs1‐xPx as a Thermoelectric Material
 
 ## As-Na-O-Ti
@@ -43,7 +43,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: PtAs2 (1); Pt0.99Rh0.01As2 (1); Pt0.995Rh0.005As2 (1)
 - dopant candidates (<5% at.): Rh (2)
 - measured range: 11-599 K (5th-95th pct of 15 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): As2Pt Pa-3 (205) mp-2513 [hull=0.000, icsd=8, PRIMARY]; AsPt3 P6_3/mmc (194) mp-1183320 [hull=0.232, PRIMARY]; AsPt3 Pm-3m (221) mp-1183186 [hull=0.234]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): As2Pt Pa-3 (205) mp-2513 [hull=0.000, icsd=8, PRIMARY]; AsPt3 P6_3/mmc (194) mp-1183320 [hull=0.232, PRIMARY, AMBIGUOUS]; AsPt3 Pm-3m (221) mp-1183186 [hull=0.234]
 - papers: Enhancing high-temperature thermoelectric properties of PtAs2 by Rh doping
 
 ## As-Sb-Se-Te-Tl
@@ -364,5 +364,5 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1600 | 3 samples | 1 papers | 1 compositions
 - compositions: GdBi (3)
 - measured range: 13-47 K (5th-95th pct of 3 curves; full span incl. outliers 13-97 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GdBi Fm-3m (225) mp-614481 [hull=0.000, icsd=3, PRIMARY]; GdBi3 P6_3/mmc (194) mp-1184501 [hull=0.066, PRIMARY]; GdBi3 I4/mmm (139) mp-1184536 [hull=0.072]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GdBi Fm-3m (225) mp-614481 [hull=0.000, icsd=3, PRIMARY]; GdBi3 P6_3/mmc (194) mp-1184501 [hull=0.066, PRIMARY, AMBIGUOUS]; GdBi3 I4/mmm (139) mp-1184536 [hull=0.072]
 - papers: Extreme magnetoresistance in magnetic rare-earth monopnictides

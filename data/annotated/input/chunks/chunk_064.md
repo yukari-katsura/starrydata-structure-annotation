@@ -64,7 +64,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3158 | 1 samples | 1 papers | 1 compositions
 - compositions: DyGa2 (1)
 - measured range: 16-289 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): DyGa2 P6/mmm (191) mp-20064 [hull=0.000, icsd=8, PRIMARY]; DyGa Cmcm (63) mp-30604 [hull=0.000, icsd=7, PRIMARY]; DyGa3 P6_3/mmc (194) mp-865103 [hull=0.000, icsd=1, PRIMARY]; DyGa6 P4/nbm (125) mp-1104534 [hull=0.012, icsd=1, PRIMARY]; Dy3Ga Pm-3m (221) mp-984713 [hull=0.079, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): DyGa2 P6/mmm (191) mp-20064 [hull=0.000, icsd=8, PRIMARY]; DyGa Cmcm (63) mp-30604 [hull=0.000, icsd=7, PRIMARY]; DyGa3 P6_3/mmc (194) mp-865103 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; DyGa6 P4/nbm (125) mp-1104534 [hull=0.012, icsd=1, PRIMARY]; Dy3Ga Pm-3m (221) mp-984713 [hull=0.079, PRIMARY]
 - papers: Thermoelectric power and resistivity studies in the Kondo-lattice system CeGa2with Sn or Al substitutions and RGa2(R identical to Ho,Dy,Tb) alloys
 
 ## Dy-Gd
@@ -85,7 +85,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3161 | 1 samples | 1 papers | 1 compositions
 - compositions: Dy2PdGe6 (1)
 - measured range: 17-328 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): DyGePd Pmmn (59) mp-1190638 [hull=0.000, icsd=1, PRIMARY]; Dy(GePd)2 I4/mmm (139) mp-22180 [hull=0.000, icsd=1, PRIMARY]; Dy2Ge6Pd Cmce (64) mp-1202284 [hull=0.000, icsd=1, PRIMARY]; DyGePd2 Pnma (62) mp-1106158 [hull=0.000, icsd=1, PRIMARY]; DyGe2Pd Immm (71) mp-1212976 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): DyGePd Pmmn (59) mp-1190638 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; Dy(GePd)2 I4/mmm (139) mp-22180 [hull=0.000, icsd=1, PRIMARY]; Dy2Ge6Pd Cmce (64) mp-1202284 [hull=0.000, icsd=1, PRIMARY]; DyGePd2 Pnma (62) mp-1106158 [hull=0.000, icsd=1, PRIMARY]; DyGe2Pd Immm (71) mp-1212976 [hull=0.000, PRIMARY]
 - papers: Physical properties of polycrystalline Dy2PdGe6 and La2PdGe6
 
 ## Dy-Ge-Ru

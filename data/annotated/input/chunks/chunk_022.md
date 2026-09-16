@@ -44,7 +44,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Y8.7Mg34.6Zn56.8_IQC (3); Y12Mg29Zn59 (1); Y8.6Mg34.6Zn56.8_IQC (1); Y6.03Tb2.97Mg42Zn57 (1)
 - dopant candidates (<5% at.): Tb (1)
 - measured range: 10-299 K (5th-95th pct of 7 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YMgZn P-62m (189) mp-6908 [hull=0.000, icsd=1, PRIMARY]; Y2Mg3Zn4 P6_3/mmc (194) mp-1207783 [hull=0.112, PRIMARY]; Y2(MgZn)3 R3m (160) mp-1216143 [hull=0.014, PRIMARY]; Y2MgZn Immm (71) mp-1097626 [hull=2.462, PRIMARY]; YMg14Zn Amm2 (38) mp-1028093 [hull=0.046, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YMgZn P-62m (189) mp-6908 [hull=0.000, icsd=1, PRIMARY]; Y2Mg3Zn4 P6_3/mmc (194) mp-1207783 [hull=0.112, PRIMARY]; Y2(MgZn)3 R3m (160) mp-1216143 [hull=0.014, PRIMARY]; Y2MgZn Immm (71) mp-1097626 [hull=2.462, PRIMARY]; YMg14Zn Amm2 (38) mp-1028093 [hull=0.046, PRIMARY, AMBIGUOUS]
 - papers: Electronic transport in Cd–Yb and Y–Mg–Zn quasicrystals | Low-temperature thermal conductivity of a single-grain Y-Mg-Zn icosahedral quasicrystal | Growth of large-grain R-Mg-Zn quasicrystals from the ternary melt (R = Y, Er, Ho, Dy and Tb)
 
 ## Mn-Re-Si
@@ -91,7 +91,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1060 | 6 samples | 1 papers | 3 compositions
 - compositions: Ni0.50Nb0.50 (4); Ni0.36Nb0.64 (1); Ni0.52Nb0.48 (1)
 - measured range: 34-945 K (5th-95th pct of 6 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NbNi3 Pmmn (59) mp-1451 [hull=0.001, icsd=7, PRIMARY]; Nb7Ni6 R-3m (166) mp-1104237 [hull=0.014, icsd=3, PRIMARY]; Nb3Ni Fm-3m (225) mp-999396 [hull=0.136, icsd=1, PRIMARY]; NbNi2 P6_3/mmc (194) mp-1103618 [hull=0.076, icsd=1, PRIMARY]; Nb5Ni Fd-3m (227) mp-669699 [hull=0.212, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NbNi3 Pmmn (59) mp-1451 [hull=0.001, icsd=7, PRIMARY]; Nb7Ni6 R-3m (166) mp-1104237 [hull=0.014, icsd=3, PRIMARY]; Nb3Ni Fm-3m (225) mp-999396 [hull=0.136, icsd=1, PRIMARY]; NbNi2 P6_3/mmc (194) mp-1103618 [hull=0.076, icsd=1, PRIMARY, AMBIGUOUS]; Nb5Ni Fd-3m (227) mp-669699 [hull=0.212, icsd=1, PRIMARY]
 - papers: Electrical resistivity and thermoelectric power of amorphous niobium-nickel alloys synthetized by vapour quenching
 
 ## Nd-Sb
@@ -151,7 +151,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Zn0.9In0.1Sb2O6 (2); Zn7Sb2O12 (1); Zn0.95Al0.05Sb2O6 (1); ZnSb2O6 (1); Zn0.9Al0.1Sb2O6 (1)
 - dopant candidates (<5% at.): Al (2), In (2)
 - measured range: 295-880 K (5th-95th pct of 8 curves; full span incl. outliers 295-1073 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Zn(SbO2)2 P4_2/mbc (135) mp-5388 [hull=0.013, icsd=9, PRIMARY]; Zn(SbO3)2 P4_2/mnm (136) mp-3188 [hull=0.000, icsd=2, PRIMARY]; Zn7(SbO6)2 C2/c (15) mp-675797 [hull=0.009, PRIMARY]; Zn7(SbO6)2 P-1 (2) mp-1215862 [hull=0.013]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Zn(SbO2)2 P4_2/mbc (135) mp-5388 [hull=0.013, icsd=9, PRIMARY]; Zn(SbO3)2 P4_2/mnm (136) mp-3188 [hull=0.000, icsd=2, PRIMARY]; Zn7(SbO6)2 C2/c (15) mp-675797 [hull=0.009, PRIMARY, AMBIGUOUS]; Zn7(SbO6)2 P-1 (2) mp-1215862 [hull=0.013]
 - papers: Improvement of thermoelectric properties with the addition of Sb to ZnO | Thermoelectric properties of Zn1-xMxSb2O6(M = Al, In)
 
 ## O-Sm-Ta
@@ -237,7 +237,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: W0.94Nb0.06Se1.7S0.3 (1); W0.96Nb0.04Se1.7S0.3 (1); W0.98Nb0.02Se1.7S0.3 (1); W0.98Nb0.02Se1.8S0.2 (1); W0.98Nb0.02Se1.6S0.4 (1); W0.98Nb0.02Se1.5S0.5 (1)
 - dopant candidates (<5% at.): Nb (6)
 - measured range: 20-652 K (5th-95th pct of 22 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): W2Se3S P3m1 (156) mp-1028686 [hull=0.010, PRIMARY]; W2SeS3 P3m1 (156) mp-1028558 [hull=0.010, PRIMARY]; W3(Se2S)2 P-6m2 (187) mp-1025588 [hull=0.013, PRIMARY]; W3(SeS2)2 P3m1 (156) mp-1025577 [hull=0.013, PRIMARY]; WSeS P-3m1 (164) mp-1216174 [hull=0.010, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): W2Se3S P3m1 (156) mp-1028686 [hull=0.010, PRIMARY]; W2SeS3 P3m1 (156) mp-1028558 [hull=0.010, PRIMARY]; W3(Se2S)2 P-6m2 (187) mp-1025588 [hull=0.013, PRIMARY, AMBIGUOUS]; W3(SeS2)2 P3m1 (156) mp-1025577 [hull=0.013, PRIMARY, AMBIGUOUS]; WSeS P-3m1 (164) mp-1216174 [hull=0.010, PRIMARY, AMBIGUOUS]
 - papers: Thermoelectric properties of W\n            \n              1−\n              x\n            \n            Nb\n            \n              x\n            \n            Se\n            \n              2−\n              y\n            \n            S\n            \n              y\n            \n            polycrystalline compounds
 
 ## S-Tb

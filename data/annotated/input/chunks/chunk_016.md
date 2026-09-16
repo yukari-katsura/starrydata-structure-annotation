@@ -25,7 +25,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 12-301 K (5th-95th pct of 9 curves)
 - [ref 1] TEDesignLab / ICSD: SiSn F-43m (216) mp-1009813 [hull=0.150, icsd=1, PRIMARY]
-- [ref 2] MP, ranked by ICSD evidence: Si18Sn Cm (8) mp-1094080 [hull=0.920, PRIMARY]; SiSn3 Pm-3m (221) mp-978494 [hull=0.321, PRIMARY]; SiSn3 P-1 (2) mp-1187081 [hull=0.330]
+- [ref 2] MP, ranked by ICSD evidence: Si18Sn Cm (8) mp-1094080 [hull=0.920, PRIMARY]; SiSn3 Pm-3m (221) mp-978494 [hull=0.321, PRIMARY, AMBIGUOUS]; SiSn3 P-1 (2) mp-1187081 [hull=0.330]
 - papers: Electric Evolution in Sputter-Deposited Sn&lt;sub&gt;&lt;i&gt;c&lt;/i&gt;&lt;sub&gt;Sn&lt;/sub&gt;&lt;/sub&gt;Si&lt;sub&gt;1−&lt;i&gt;c&lt;/i&gt;&lt;sub&gt;Sn&lt;/sub&gt;&lt;/sub&gt; Alloy Films
 
 ## Ti
@@ -245,7 +245,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Ca14MgSb11 (1); Ca16Sb11 (1); Ca13LaMnSb11 (1); Ca13CeMnSb11 (1); Ca13PrMnSb11 (1); Ca13NdMnSb11 (1)
 - dopant candidates (<5% at.): Mn (6), Mg (1), La (1), Ce (1), Pr (1), Nd (1), Gd (1), Sm (1)
 - measured range: 14-1083 K (5th-95th pct of 13 curves; full span incl. outliers 14-1275 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca5Sb3 Pnma (62) mp-17564 [hull=0.000, icsd=2, PRIMARY]; Ca2Sb I4/mmm (139) mp-9925 [hull=0.000, icsd=2, PRIMARY]; Ca11Sb10 I4/mmm (139) mp-12241 [hull=0.000, icsd=1, PRIMARY]; CaSb2 P2_1/m (11) mp-7493 [hull=0.000, icsd=1, PRIMARY]; Ca3Sb2 Pm-3m (221) mp-1013546 [hull=0.379, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca5Sb3 Pnma (62) mp-17564 [hull=0.000, icsd=2, PRIMARY, AMBIGUOUS]; Ca2Sb I4/mmm (139) mp-9925 [hull=0.000, icsd=2, PRIMARY]; Ca11Sb10 I4/mmm (139) mp-12241 [hull=0.000, icsd=1, PRIMARY]; CaSb2 P2_1/m (11) mp-7493 [hull=0.000, icsd=1, PRIMARY]; Ca3Sb2 Pm-3m (221) mp-1013546 [hull=0.379, PRIMARY]
 - papers: Yb14MgSb11and Ca14MgSb11—New Mg-Containing Zintl Compounds and Their Structures, Bonding, and Thermoelectric Properties | Thermoelectric properties and electronic structure calculations of low thermal conductivity Zintl phase series M16X11 (M=Ca and Yb; X=Sb and Bi) | On the Extended Series of Quaternary Zintl Phases Ca13REMnSb11 (RE = La-Nd, Sm, Gd-Dy)
 
 ## Cd-Mg-Sb

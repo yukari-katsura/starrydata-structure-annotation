@@ -105,7 +105,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2313 | 2 samples | 1 papers | 1 compositions
 - compositions: Zr0.6U0.4N (2)
 - measured range: 291-1271 K (5th-95th pct of 2 curves; full span incl. outliers 291-1475 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZrUN2 I4_1/amd (141) mp-35739 [hull=0.000, PRIMARY]; ZrUN2 R-3m (166) mp-1215248 [hull=0.000]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZrUN2 I4_1/amd (141) mp-35739 [hull=0.000, PRIMARY, AMBIGUOUS]; ZrUN2 R-3m (166) mp-1215248 [hull=0.000]
 - papers: Thermophysical properties of several nitrides prepared by spark plasma sintering
 
 ## Na-Nb-O
@@ -182,7 +182,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2324 | 2 samples | 2 papers | 1 compositions
 - compositions: Nd2Ru2O7 (2)
 - measured range: 294-849 K (5th-95th pct of 3 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nd2Ru2O7 Fd-3m (227) mp-19930 [hull=0.010, icsd=11, PRIMARY]; Nd3RuO7 Cmcm (63) mp-17753 [hull=0.000, icsd=2, PRIMARY]; Nd2RuO5 Pnma (62) mp-1210187 [hull=0.089, PRIMARY]; Nd3RuO7 P2_1/m (11) mp-1204904 [hull=0.003, icsd=2]; Nd3RuO7 Pnma (62) mp-1200843 [hull=0.001, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nd2Ru2O7 Fd-3m (227) mp-19930 [hull=0.010, icsd=11, PRIMARY]; Nd3RuO7 Cmcm (63) mp-17753 [hull=0.000, icsd=2, PRIMARY, AMBIGUOUS]; Nd2RuO5 Pnma (62) mp-1210187 [hull=0.089, PRIMARY]; Nd3RuO7 P2_1/m (11) mp-1204904 [hull=0.003, icsd=2]; Nd3RuO7 Pnma (62) mp-1200843 [hull=0.001, icsd=1]
 - papers: Structural disorder, magnetism, and electrical and thermoelectric properties of pyrochlore Nd2Ru2O7 | Chemical synthesis and characterization of nano-sized rare-earth ruthenium pyrochlore compounds \n                $$\\hbox {Ln}_{2}\\hbox {Ru}_{2}\\hbox {O}_{7}$$\n                \n                    \n                                    \n                        \n                            \n                                Ln\n                                2\n                            \n                            \n                                Ru\n                                2\n                            \n                            \n                                O\n                                7\n                            \n                        \n                    \n                \n             (Ln = rare earth)
 
 ## Nd-O-Sn
@@ -315,7 +315,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2343 | 2 samples | 1 papers | 1 compositions
 - compositions: SrWO4 (2)
 - measured range: 303-544 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SrWO4 I4_1/a (88) mp-19163 [hull=0.000, icsd=10, PRIMARY]; Sr3WO6 Cc (9) mp-1203086 [hull=0.013, icsd=1, PRIMARY]; Sr2WO5 Pnma (62) mp-772676 [hull=0.006, icsd=1, PRIMARY]; Sr5W3O14 Cc (9) mp-779884 [hull=0.020, PRIMARY]; Sr3W2O9 R-3c (167) mp-769815 [hull=0.072, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SrWO4 I4_1/a (88) mp-19163 [hull=0.000, icsd=10, PRIMARY]; Sr3WO6 Cc (9) mp-1203086 [hull=0.013, icsd=1, PRIMARY, AMBIGUOUS]; Sr2WO5 Pnma (62) mp-772676 [hull=0.006, icsd=1, PRIMARY]; Sr5W3O14 Cc (9) mp-779884 [hull=0.020, PRIMARY, AMBIGUOUS]; Sr3W2O9 R-3c (167) mp-769815 [hull=0.072, PRIMARY]
 - papers: Growth and thermal properties of SrWO4 single crystal
 
 ## O-Ta-Y-Zr

@@ -42,7 +42,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3354 | 1 samples | 1 papers | 1 compositions
 - compositions: HfSb2 (1)
 - measured range: 56-290 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): HfSb2 Pnnm (58) mp-2180 [hull=0.000, icsd=3, PRIMARY]; Hf3Sb I-4 (82) mp-15964 [hull=0.000, icsd=2, PRIMARY]; HfSb P2_13 (198) mp-1079914 [hull=0.000, icsd=1, PRIMARY]; Hf5Sb3 Pnma (62) mp-17466 [hull=0.000, icsd=1, PRIMARY]; Hf2Sb3 P4/mmm (123) mp-1206519 [hull=3.408, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): HfSb2 Pnnm (58) mp-2180 [hull=0.000, icsd=3, PRIMARY]; Hf3Sb I-4 (82) mp-15964 [hull=0.000, icsd=2, PRIMARY]; HfSb P2_13 (198) mp-1079914 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; Hf5Sb3 Pnma (62) mp-17466 [hull=0.000, icsd=1, PRIMARY]; Hf2Sb3 P4/mmm (123) mp-1206519 [hull=3.408, PRIMARY]
 - papers: Constitution of the binary M-Sb systems (M = Ti, Zr, Hf) and physical properties of MSb 2
 
 ## Hf-Te-Tl
@@ -150,7 +150,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3370 | 1 samples | 1 papers | 1 compositions
 - compositions: In (1)
 - measured range: 10-11 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): In I4/mmm (139) mp-1055994 [hull=0.000, icsd=21, PRIMARY]; In Fm-3m (225) mp-85 [hull=0.003, icsd=21]; In R-3m (166) mp-1184502 [hull=0.000]; In P6_3/mmc (194) mp-973111 [hull=0.011]; In I-43m (217) mp-1184693 [hull=0.021]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): In I4/mmm (139) mp-1055994 [hull=0.000, icsd=21, PRIMARY, AMBIGUOUS]; In Fm-3m (225) mp-85 [hull=0.003, icsd=21]; In R-3m (166) mp-1184502 [hull=0.000]; In P6_3/mmc (194) mp-973111 [hull=0.011]; In I-43m (217) mp-1184693 [hull=0.021]
 - papers: Experimental study of thermoelectricity in superconducting indium
 
 ## In-Ir
@@ -170,7 +170,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3373 | 1 samples | 1 papers | 1 compositions
 - compositions: LaNiIn (1)
 - measured range: 17-305 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaIn2Ni9 P4/mbm (127) mp-1191038 [hull=0.000, icsd=3, PRIMARY]; LaIn4Ni Cmcm (63) mp-20303 [hull=0.000, icsd=2, PRIMARY]; La2InNi2 P4/mbm (127) mp-1095144 [hull=0.000, icsd=1, PRIMARY]; LaInNi2 Pmma (51) mp-21207 [hull=0.000, icsd=1, PRIMARY]; La11In9Ni4 Cmmm (65) mp-974045 [hull=0.000, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaIn2Ni9 P4/mbm (127) mp-1191038 [hull=0.000, icsd=3, PRIMARY]; LaIn4Ni Cmcm (63) mp-20303 [hull=0.000, icsd=2, PRIMARY]; La2InNi2 P4/mbm (127) mp-1095144 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; LaInNi2 Pmma (51) mp-21207 [hull=0.000, icsd=1, PRIMARY]; La11In9Ni4 Cmmm (65) mp-974045 [hull=0.000, icsd=1, PRIMARY]
 - papers: Magnetic and Transport Properties of New Kondo Compounds CeTIn (T=Ni, Pd and Pt)
 
 ## In-La-Rh
@@ -259,7 +259,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3386 | 1 samples | 1 papers | 1 compositions
 - compositions: UPt2In (1)
 - measured range: 10-289 K (5th-95th pct of 3 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): U2InPt2 P4/mbm (127) mp-1079136 [hull=0.000, icsd=2, PRIMARY]; UInPt P-62m (189) mp-1078582 [hull=0.009, icsd=2, PRIMARY]; UInPt2 P6_3/mmc (194) mp-1079904 [hull=0.131, icsd=1, PRIMARY]; U2InPt2 P4_2/mnm (136) mp-1188266 [hull=0.000, icsd=2]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): U2InPt2 P4/mbm (127) mp-1079136 [hull=0.000, icsd=2, PRIMARY, AMBIGUOUS]; UInPt P-62m (189) mp-1078582 [hull=0.009, icsd=2, PRIMARY]; UInPt2 P6_3/mmc (194) mp-1079904 [hull=0.131, icsd=1, PRIMARY]; U2InPt2 P4_2/mnm (136) mp-1188266 [hull=0.000, icsd=2]
 - papers: Large thermoelectric power in several metallic compounds of cerium and uranium
 
 ## In-Pt-Yb
@@ -328,7 +328,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3396 | 1 samples | 1 papers | 1 compositions
 - compositions: TmIn3 (1)
 - measured range: 12-50 K (5th-95th pct of 2 curves; full span incl. outliers 12-292 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TmIn3 Pm-3m (221) mp-21177 [hull=0.000, icsd=6, PRIMARY]; Tm2In P6_3/mmc (194) mp-21486 [hull=0.000, icsd=2, PRIMARY]; Tm5In3 P6_3/mcm (193) mp-1188632 [hull=0.021, icsd=1, PRIMARY]; Tm3In5 Pnma (62) mp-1208700 [hull=0.000, PRIMARY]; Tm3In Pm-3m (221) mp-1187699 [hull=0.014, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TmIn3 Pm-3m (221) mp-21177 [hull=0.000, icsd=6, PRIMARY]; Tm2In P6_3/mmc (194) mp-21486 [hull=0.000, icsd=2, PRIMARY]; Tm5In3 P6_3/mcm (193) mp-1188632 [hull=0.021, icsd=1, PRIMARY]; Tm3In5 Pnma (62) mp-1208700 [hull=0.000, PRIMARY]; Tm3In Pm-3m (221) mp-1187699 [hull=0.014, PRIMARY, AMBIGUOUS]
 - papers: Thermoelectric power of the REIn3 single crystals where RE = La, Ce, Pr, Nd, Sm, Gd, Ho, ErIn3, TmandLu
 
 ## Ir

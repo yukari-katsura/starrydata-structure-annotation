@@ -28,7 +28,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1602 | 3 samples | 1 papers | 3 compositions
 - compositions: Mg2Si0.75Bi0.25 (1); Mg2Si0.625Bi0.375 (1); Mg2Si0.5Bi0.5 (1)
 - measured range: 95-1207 K (5th-95th pct of 8 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg63Si32Bi P-43m (215) mp-1194890 [hull=0.068, icsd=1, PRIMARY]; Mg64Si32Bi Pm-3m (221) mp-1194936 [hull=0.086, icsd=1, PRIMARY]; Mg64Si31Bi Pm-3m (221) mp-1195280 [hull=0.059, icsd=1, PRIMARY]; Mg14SiBi P-6m2 (187) mp-1026682 [hull=0.074, PRIMARY]; Mg6SiBi Amm2 (38) mp-1017330 [hull=0.131, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg63Si32Bi P-43m (215) mp-1194890 [hull=0.068, icsd=1, PRIMARY]; Mg64Si32Bi Pm-3m (221) mp-1194936 [hull=0.086, icsd=1, PRIMARY]; Mg64Si31Bi Pm-3m (221) mp-1195280 [hull=0.059, icsd=1, PRIMARY]; Mg14SiBi P-6m2 (187) mp-1026682 [hull=0.074, PRIMARY, AMBIGUOUS]; Mg6SiBi Amm2 (38) mp-1017330 [hull=0.131, PRIMARY]
 - papers: Enhancement of figure of merit (ZT) by doping Bi in Mg2Si for energy harvesting applications
 
 ## Bi-Mn-S-Se
@@ -254,7 +254,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Cd3P2 (2); Cd3(P0.9As0.1)2 (1)
 - dopant candidates (<5% at.): As (1)
 - measured range: 71-526 K (5th-95th pct of 3 curves; full span incl. outliers 71-619 K)
-- [ref 1] TEDesignLab / ICSD: CdP2 P4_12_12 (92) mp-12112 [hull=0.000, icsd=3, PRIMARY]; CdP4 P2_1/c (14) mp-7904 [hull=0.009, icsd=2, PRIMARY]; CdP2 Pna2_1 (33) mp-402 [hull=0.001, icsd=3]; CdP2 P4_32_12 (96) mp-913 [hull=0.000, icsd=2]
+- [ref 1] TEDesignLab / ICSD: CdP2 P4_12_12 (92) mp-12112 [hull=0.000, icsd=3, PRIMARY, AMBIGUOUS]; CdP4 P2_1/c (14) mp-7904 [hull=0.009, icsd=2, PRIMARY]; CdP2 Pna2_1 (33) mp-402 [hull=0.001, icsd=3]; CdP2 P4_32_12 (96) mp-913 [hull=0.000, icsd=2]
 - [ref 2] MP, ranked by ICSD evidence: Cd3P2 P4_2/nmc (137) mp-2441 [hull=0.022, icsd=7, PRIMARY]; Cd7P10 Fdd2 (43) mp-29576 [hull=0.035, icsd=1, PRIMARY]; Cd3P Pm-3m (221) mp-1183632 [hull=0.270, PRIMARY]; Cd2P Pn-3m (224) mp-1213851 [hull=0.307, PRIMARY]; Cd3P2 Pn-3m (224) mp-21185 [hull=0.214, icsd=2]
 - papers: Physical and electronic properties of semiconducting solid solutions of the Cd3 As2Cd3 P2 system | Preparation and Semiconducting Properties of Cd3P2
 

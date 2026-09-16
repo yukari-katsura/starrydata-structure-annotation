@@ -186,7 +186,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1925 | 2 samples | 1 papers | 2 compositions
 - compositions: MoB4 (1); Mo2B5 (1)
 - measured range: 300-1212 K (5th-95th pct of 2 curves; full span incl. outliers 300-1256 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): B2Mo R-3m (166) mp-2331 [hull=0.003, icsd=8, PRIMARY]; BMo2 I4/mcm (140) mp-2501 [hull=0.020, icsd=5, PRIMARY]; B5Mo2 R-3m (166) mp-7229 [hull=0.450, icsd=4, PRIMARY]; BMo I4_1/amd (141) mp-1890 [hull=0.000, icsd=3, PRIMARY]; B4Mo P6_3/mmc (194) mp-1106346 [hull=0.536, icsd=3, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): B2Mo R-3m (166) mp-2331 [hull=0.003, icsd=8, PRIMARY]; BMo2 I4/mcm (140) mp-2501 [hull=0.020, icsd=5, PRIMARY]; B5Mo2 R-3m (166) mp-7229 [hull=0.450, icsd=4, PRIMARY]; BMo I4_1/amd (141) mp-1890 [hull=0.000, icsd=3, PRIMARY, AMBIGUOUS]; B4Mo P6_3/mmc (194) mp-1106346 [hull=0.536, icsd=3, PRIMARY]
 - papers: Some physical properties of the higher borides of molybdenum and tungsten
 
 ## B-Mo-Si

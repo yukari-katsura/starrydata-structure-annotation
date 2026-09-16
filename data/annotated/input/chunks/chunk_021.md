@@ -261,7 +261,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1035 | 6 samples | 2 papers | 5 compositions
 - compositions: FeGe1.52 (2); Fe39.81Ge60.19 (1); Fe39.53Ge60.47 (1); Fe39.67Ge60.33 (1); FeGe (1)
 - measured range: 13-805 K (5th-95th pct of 12 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): FeGe2 I4/mcm (140) mp-1071018 [hull=0.020, icsd=9, PRIMARY]; FeGe P6/mmm (191) mp-22478 [hull=0.000, icsd=5, PRIMARY]; Fe3Ge P6_3/mmc (194) mp-1079030 [hull=0.006, icsd=4, PRIMARY]; Fe2Ge P6_3/mmc (194) mp-20432 [hull=0.077, icsd=4, PRIMARY]; Fe6Ge5 C2/m (12) mp-636946 [hull=0.030, icsd=2, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): FeGe2 I4/mcm (140) mp-1071018 [hull=0.020, icsd=9, PRIMARY]; FeGe P6/mmm (191) mp-22478 [hull=0.000, icsd=5, PRIMARY]; Fe3Ge P6_3/mmc (194) mp-1079030 [hull=0.006, icsd=4, PRIMARY, AMBIGUOUS]; Fe2Ge P6_3/mmc (194) mp-20432 [hull=0.077, icsd=4, PRIMARY]; Fe6Ge5 C2/m (12) mp-636946 [hull=0.030, icsd=2, PRIMARY]
 - papers: Glass-like Lattice Thermal Conductivity and Thermoelectric Properties of Incommensurate Chimney-Ladder Compound FeGeγ | Scattering mechanisms in textured FeGe thin films: Magnetoresistance and the anomalous Hall effect
 
 ## Fe-Ge-Si
@@ -292,7 +292,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: La2Ga6Ge40 (6)
 - dopant candidates (<5% at.): La (6)
 - measured range: 301-597 K (5th-95th pct of 6 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ga3Ge Pm-3m (221) mp-973875 [hull=0.094, PRIMARY]; GaGe F-43m (216) mp-1224769 [hull=0.162, PRIMARY]; GaGe3 P6_3/mmc (194) mp-1184140 [hull=0.256, PRIMARY]; Ga3Ge P6_3/mmc (194) mp-1184355 [hull=0.107]; GaGe3 Pm-3m (221) mp-1183975 [hull=0.257]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ga3Ge Pm-3m (221) mp-973875 [hull=0.094, PRIMARY]; GaGe F-43m (216) mp-1224769 [hull=0.162, PRIMARY]; GaGe3 P6_3/mmc (194) mp-1184140 [hull=0.256, PRIMARY, AMBIGUOUS]; Ga3Ge P6_3/mmc (194) mp-1184355 [hull=0.107]; GaGe3 Pm-3m (221) mp-1183975 [hull=0.257]
 - papers: Hosting of La 3+  guest ions in type-I Ge clathrates: A first-principles characterization for thermoelectric applications
 
 ## Ga-Re-Se-Te
@@ -323,7 +323,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: (Gd2O3)50(TiO2)50 (1); (Gd2O3)45.5(TiO2)54.5 (1); (Gd2O3)15.8(TiO2)84.2 (1); GdTiO3 (1); Gd0.960Sr0.040TiO3 (1); Gd0.870Sr0.130TiO3 (1)
 - dopant candidates (<5% at.): Sr (2)
 - measured range: 105-1271 K (5th-95th pct of 5 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Gd2Ti2O7 Fd-3m (227) mp-5302 [hull=0.008, icsd=7, PRIMARY]; Gd2TiO5 P2_1/c (14) mp-770065 [hull=0.050, PRIMARY]; Gd7Ti8O26 P1 (1) mp-685713 [hull=0.059, PRIMARY]; Gd2Ti2O7 C2/m (12) mp-686465 [hull=0.037]; Gd2TiO5 Pnma (62) mp-770189 [hull=0.058]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Gd2Ti2O7 Fd-3m (227) mp-5302 [hull=0.008, icsd=7, PRIMARY]; Gd2TiO5 P2_1/c (14) mp-770065 [hull=0.050, PRIMARY, AMBIGUOUS]; Gd7Ti8O26 P1 (1) mp-685713 [hull=0.059, PRIMARY]; Gd2Ti2O7 C2/m (12) mp-686465 [hull=0.037]; Gd2TiO5 Pnma (62) mp-770189 [hull=0.058]
 - papers: Characteristics of GdxMyOz (M=Ti, Zr or Al) as a burnable absorber | Structural, magnetic, and electronic properties of GdTiO<sub>3</sub> Mott insulator thin films grown by pulsed laser deposition | Metal–insulator transitions in epitaxial Gd1−Sr TiO3 thin films grown using hybrid molecular beam epitaxy
 
 ## Ge-Pr-Pt-Sb

@@ -81,7 +81,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2159 | 2 samples | 1 papers | 2 compositions
 - compositions: CuGe4P3 (1); CuGe2P3 (1)
 - measured range: 11-397 K (5th-95th pct of 8 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CuGe2P3 P3m1 (156) mp-1225680 [hull=0.115, PRIMARY]; CuGe2P3 Cm (8) mp-673663 [hull=0.120]; CuGe2P3 Pmm2 (25) mp-1225735 [hull=0.324]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CuGe2P3 P3m1 (156) mp-1225680 [hull=0.115, PRIMARY, AMBIGUOUS]; CuGe2P3 Cm (8) mp-673663 [hull=0.120]; CuGe2P3 Pmm2 (25) mp-1225735 [hull=0.324]
 - papers: Composition, structure, bonding and thermoelectric properties of “CuT2P3” and “CuT4P3”, members of the T1−x(CuP3)xseries with T being Si and Ge
 
 ## Cu-Ge-S-Zn
@@ -90,7 +90,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): V (1)
 - measured range: 10-675 K (5th-95th pct of 6 curves)
 - [ref 1] TEDesignLab / ICSD: ZnCu2GeS4 I-42m (121) mp-6408 [hull=0.000, icsd=4, PRIMARY]
-- [ref 2] MP, ranked by ICSD evidence: Zn4FeCu10(GeS4)5 Pm (6) mp-1217745 [hull=0.012, PRIMARY]; ZnCu2GeS4 Pmn2_1 (31) mp-1105527 [hull=0.003, icsd=3]; Zn4FeCu10(GeS4)5 C2 (5) mp-1216234 [hull=0.012]
+- [ref 2] MP, ranked by ICSD evidence: Zn4FeCu10(GeS4)5 Pm (6) mp-1217745 [hull=0.012, PRIMARY, AMBIGUOUS]; ZnCu2GeS4 Pmn2_1 (31) mp-1105527 [hull=0.003, icsd=3]; Zn4FeCu10(GeS4)5 C2 (5) mp-1216234 [hull=0.012]
 - papers: Effect of Isovalent Substitution on the Thermoelectric Properties of the Cu2ZnGeSe4–xSxSeries of Solid Solutions | Tunable electronic properties and low thermal conductivity in synthetic colusites Cu26−xZnxV2M6S32 (x ≤ 4, M = Ge, Sn)
 
 ## Cu-Ge-Sb-Se-Te
@@ -187,7 +187,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: (Pb0.75Cu0.25)Sr2(Ca0.5Y0.5)Cu2O7 (1); (Pb0.75Cu0.25)Sr2(Ca0.5Yb0.5)Cu2O7 (1)
 - dopant candidates (<5% at.): Ca (2), Y (1), Yb (1)
 - measured range: 44-298 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr4CaHoCu6(PbO4)4 P-1 (2) mp-1218617 [hull=0.021, PRIMARY]; Sr4CaYCu6(PbO4)4 P-1 (2) mp-1218734 [hull=0.021, PRIMARY]; Sr8CaY3Cu12(PbO4)8 P-1 (2) mp-1218823 [hull=0.020, PRIMARY]; Sr9Nd3Cu12(PbO4)8 C2/m (12) mp-1218827 [hull=0.022, PRIMARY]; Sr4CaYCu6(PbO4)4 I4/mmm (139) mp-1218685 [hull=0.025]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr4CaHoCu6(PbO4)4 P-1 (2) mp-1218617 [hull=0.021, PRIMARY]; Sr4CaYCu6(PbO4)4 P-1 (2) mp-1218734 [hull=0.021, PRIMARY, AMBIGUOUS]; Sr8CaY3Cu12(PbO4)8 P-1 (2) mp-1218823 [hull=0.020, PRIMARY]; Sr9Nd3Cu12(PbO4)8 C2/m (12) mp-1218827 [hull=0.022, PRIMARY]; Sr4CaYCu6(PbO4)4 I4/mmm (139) mp-1218685 [hull=0.025]
 - papers: Superconductivity in Pb-based 1212 cuprates; evidence for under-doping from thermoelectric power
 
 ## Cu-O-Ru
@@ -336,7 +336,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2195 | 2 samples | 1 papers | 1 compositions
 - compositions: NaYF4 (2)
 - measured range: 313-399 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Na2YF6 P-62m (189) mp-1210270 [hull=0.000, PRIMARY]; Na3YF6 Fm-3m (225) mp-1114251 [hull=0.169, PRIMARY]; NaY2F7 C2/m (12) mp-675778 [hull=0.033, PRIMARY]; NaY3F10 P4_2/mmc (131) mp-676023 [hull=0.136, PRIMARY]; NaYF4 I4_1/amd (141) mp-34081 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Na2YF6 P-62m (189) mp-1210270 [hull=0.000, PRIMARY]; Na3YF6 Fm-3m (225) mp-1114251 [hull=0.169, PRIMARY]; NaY2F7 C2/m (12) mp-675778 [hull=0.033, PRIMARY]; NaY3F10 P4_2/mmc (131) mp-676023 [hull=0.136, PRIMARY]; NaYF4 I4_1/amd (141) mp-34081 [hull=0.000, PRIMARY, AMBIGUOUS]
 - papers: Thermoelectric power studies on polycrystalline NaYF4 samples
 
 ## F-O-Sb-Sr-Ti

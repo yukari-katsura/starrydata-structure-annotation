@@ -362,7 +362,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1299 | 4 samples | 2 papers | 4 compositions
 - compositions: Au86.91Mn13.01 (1); Au81.36Mn18.64 (1); Au93.17Mn6.83 (1); Au0.9Mn0.1 (1)
 - measured range: 15-945 K (5th-95th pct of 7 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MnAu2 I4/mmm (139) mp-11252 [hull=0.000, icsd=4, PRIMARY]; Mn2Au I4/mmm (139) mp-30409 [hull=0.235, icsd=2, PRIMARY]; MnAu4 I4/m (87) mp-12565 [hull=0.000, icsd=2, PRIMARY]; Mn2Au5 C2/m (12) mp-30410 [hull=0.016, icsd=2, PRIMARY]; MnAu P4/mmm (123) mp-12675 [hull=0.071, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MnAu2 I4/mmm (139) mp-11252 [hull=0.000, icsd=4, PRIMARY]; Mn2Au I4/mmm (139) mp-30409 [hull=0.235, icsd=2, PRIMARY]; MnAu4 I4/m (87) mp-12565 [hull=0.000, icsd=2, PRIMARY]; Mn2Au5 C2/m (12) mp-30410 [hull=0.016, icsd=2, PRIMARY]; MnAu P4/mmm (123) mp-12675 [hull=0.071, icsd=1, PRIMARY, AMBIGUOUS]
 - papers: Thermoelectric Power and Electrical Resistivity of Dilute Alloys of Mn, Pd, and Pt in Cu, Ag, and Au | Effects of Transition Metal Solutes on the Thermoelectric Power of Copper and Gold
 
 ## B-Ba

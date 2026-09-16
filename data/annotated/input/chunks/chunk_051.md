@@ -324,7 +324,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2546 | 1 samples | 1 papers | 1 compositions
 - compositions: TaAs (1)
 - measured range: 14-304 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TaAs I4_1md (109) mp-1936 [hull=0.000, icsd=3, PRIMARY]; Ta2As Pnnm (58) mp-672222 [hull=0.014, icsd=2, PRIMARY]; Ta5As4 I4/m (87) mp-8312 [hull=0.000, icsd=2, PRIMARY]; TaAs2 C2/m (12) mp-12561 [hull=0.000, icsd=2, PRIMARY]; Ta3As C2/c (15) mp-30523 [hull=0.000, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TaAs I4_1md (109) mp-1936 [hull=0.000, icsd=3, PRIMARY]; Ta2As Pnnm (58) mp-672222 [hull=0.014, icsd=2, PRIMARY]; Ta5As4 I4/m (87) mp-8312 [hull=0.000, icsd=2, PRIMARY]; TaAs2 C2/m (12) mp-12561 [hull=0.000, icsd=2, PRIMARY]; Ta3As C2/c (15) mp-30523 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]
 - papers: Properties of binary transition-metal arsenides (TAs)
 
 ## As-Te-Tl

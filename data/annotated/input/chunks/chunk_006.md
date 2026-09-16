@@ -194,7 +194,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - solid-solution axis: Se/(Se+Te) spans 0.11-0.90 (median 0.50) over 17 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 10-300 K (5th-95th pct of 31 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Fe2TeSe P4mm (99) mp-1225136 [hull=0.076, PRIMARY]; Fe3Te2Se P4mm (99) mp-1225183 [hull=0.070, PRIMARY]; Fe4Te3Se I4mm (107) mp-1224987 [hull=0.071, PRIMARY]; Fe4TeSe3 Amm2 (38) mp-1225054 [hull=0.014, PRIMARY]; Fe4Te3Se P4mm (99) mp-1225000 [hull=0.073]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Fe2TeSe P4mm (99) mp-1225136 [hull=0.076, PRIMARY]; Fe3Te2Se P4mm (99) mp-1225183 [hull=0.070, PRIMARY]; Fe4Te3Se I4mm (107) mp-1224987 [hull=0.071, PRIMARY, AMBIGUOUS]; Fe4TeSe3 Amm2 (38) mp-1225054 [hull=0.014, PRIMARY]; Fe4Te3Se P4mm (99) mp-1225000 [hull=0.073]
 - papers: Magnetothermoelectric effects in <mml:math altimg=\"si8.gif\" overflow=\"scroll\" xmlns:xocs=\"http://www.elsevier.com/xml/xocs/dtd\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.elsevier.com/xml/ja/dtd\" xmlns:ja=\"http://www.elsevier.com/xml/ja/dtd\" xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:tb=\"http://www.elsevier.com/xml/common/table/dtd\" xmlns:sb=\"http://www.elsevier.com/xml/common/struct-bib/dtd\" xmlns:ce=\"http://www.elsevier.com/xml/common/dtd\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:cals=\"http://www.elsevier.com/xml/common/cals/dtd\"><mml:mrow><mml:msub><mml:mrow><mml:mtext>Fe</mml:mtext></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mtext>Te</mml:mtext></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mtext>Se</mml:mtext></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math> | Normal state above the upper critical field in \nFe1+yTe1−x(Se,S)x | Magnetotransport properties and Seebeck effect in the superconductor <i>FeSe</i><sub>0.5</sub><i>Te</i><sub>0.5</sub>
 
 ## Mo-S
@@ -213,7 +213,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Si (2), Ag (1), O (1)
 - seed hypothesis (confirm): rocksalt_nitride_carbide
 - measured range: 10-373 K (5th-95th pct of 24 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TaN Fm-3m (225) mp-251 [hull=0.327, icsd=13, PRIMARY]; Ta5N6 P6_3/mcm (193) mp-1642 [hull=0.000, icsd=4, PRIMARY]; Ta3N5 Cmcm (63) mp-27488 [hull=0.000, icsd=3, PRIMARY]; Ta2N P-31m (162) mp-1079438 [hull=0.000, icsd=2, PRIMARY]; TaN2 P6_3/mmc (194) mp-1019272 [hull=0.438, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TaN Fm-3m (225) mp-251 [hull=0.327, icsd=13, PRIMARY]; Ta5N6 P6_3/mcm (193) mp-1642 [hull=0.000, icsd=4, PRIMARY]; Ta3N5 Cmcm (63) mp-27488 [hull=0.000, icsd=3, PRIMARY]; Ta2N P-31m (162) mp-1079438 [hull=0.000, icsd=2, PRIMARY]; TaN2 P6_3/mmc (194) mp-1019272 [hull=0.438, icsd=1, PRIMARY, AMBIGUOUS]
 - papers: Electrical transport properties of polycrystalline TaN1- films | Electrical and optical properties of Ta-Si-N thin films deposited by reactive magnetron sputtering | Mechanism and control of the metal-to-insulator transition in rocksalt tantalum nitride
 
 ## Te-Tl
@@ -377,7 +377,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Sb (2)
 - seed hypothesis (confirm): cucrs2_layered
 - measured range: 16-915 K (5th-95th pct of 81 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cr2CuS4 Fd-3m (227) mp-22803 [hull=0.000, icsd=16, PRIMARY]; CrCuS2 R3m (160) mp-5862 [hull=0.039, icsd=4, PRIMARY]; Cr8Cu3NiS16 R3m (160) mp-1226091 [hull=0.000, PRIMARY]; CrCuS4 P2_1/c (14) mp-1226309 [hull=0.008, PRIMARY]; MnCr8Cu3S16 R3m (160) mp-1221752 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cr2CuS4 Fd-3m (227) mp-22803 [hull=0.000, icsd=16, PRIMARY]; CrCuS2 R3m (160) mp-5862 [hull=0.039, icsd=4, PRIMARY]; Cr8Cu3NiS16 R3m (160) mp-1226091 [hull=0.000, PRIMARY]; CrCuS4 P2_1/c (14) mp-1226309 [hull=0.008, PRIMARY]; MnCr8Cu3S16 R3m (160) mp-1221752 [hull=0.000, PRIMARY, AMBIGUOUS]
 - papers: Thermoelectric Properties of Layer-Antiferromagnet CuCrS2 | Ordered-Defect Sulfides as Thermoelectric Materials | Thermoelectric properties of p-type semiconductors copper chromium disulfide CuCrS2+x
 
 ## Cr-Sb

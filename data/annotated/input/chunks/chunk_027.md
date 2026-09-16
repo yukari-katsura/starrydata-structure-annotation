@@ -89,7 +89,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1310 | 4 samples | 3 papers | 3 compositions
 - compositions: HoBaCo2O5.5 (2); BaHoCo4O7 (1); HoBaCo4O7 (1)
 - measured range: 13-997 K (5th-95th pct of 8 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaHoCo4O7 P6_3mc (186) mp-19620 [hull=0.022, icsd=6, PRIMARY]; Ba2Ho2Co4O11 Pmma (51) mp-25731 [hull=0.111, icsd=4, PRIMARY]; BaHo(CoO3)2 Pmmm (47) mp-1105900 [hull=0.158, icsd=1, PRIMARY]; BaHo(CoO3)2 P4/mmm (123) mp-1079686 [hull=0.159, icsd=1]; Ba2Ho2Co4O11 Pmmm (47) mp-604411 [hull=0.118]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaHoCo4O7 P6_3mc (186) mp-19620 [hull=0.022, icsd=6, PRIMARY]; Ba2Ho2Co4O11 Pmma (51) mp-25731 [hull=0.111, icsd=4, PRIMARY]; BaHo(CoO3)2 Pmmm (47) mp-1105900 [hull=0.158, icsd=1, PRIMARY, AMBIGUOUS]; BaHo(CoO3)2 P4/mmm (123) mp-1079686 [hull=0.159, icsd=1]; Ba2Ho2Co4O11 Pmmm (47) mp-604411 [hull=0.118]
 - papers: Structural and thermoelectric properties of BaRCo4O7 (R = Dy, Ho, Er, Tm, Yb, and Lu) | Electronic transport and thermoelectric properties of RBaCo4O7 (R=Dy, Ho, Y, Er) | Thermoelectric Power ofHoBaCo2O5.5: Possible Evidence of the Spin Blockade in Cobaltites
 
 ## Ba-Co-O-Sm

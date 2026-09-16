@@ -91,7 +91,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3611 | 1 samples | 1 papers | 1 compositions
 - compositions: W74.25Re25.75 (1)
 - measured range: 270-1306 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Re2W P6_3/mmc (194) mp-1102921 [hull=0.202, icsd=1, PRIMARY]; Re3W I4/mmm (139) mp-974416 [hull=0.127, PRIMARY]; ReW2 Fmmm (69) mp-1219490 [hull=0.105, PRIMARY]; ReW3 Pm-3n (223) mp-1206445 [hull=0.060, PRIMARY]; ReW4 Fmmm (69) mp-1219494 [hull=0.068, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Re2W P6_3/mmc (194) mp-1102921 [hull=0.202, icsd=1, PRIMARY]; Re3W I4/mmm (139) mp-974416 [hull=0.127, PRIMARY, AMBIGUOUS]; ReW2 Fmmm (69) mp-1219490 [hull=0.105, PRIMARY]; ReW3 Pm-3n (223) mp-1206445 [hull=0.060, PRIMARY]; ReW4 Fmmm (69) mp-1219494 [hull=0.068, PRIMARY]
 - papers: Electronic transport properties of liquid Ga–Zn alloys
 
 ## Rh
@@ -154,7 +154,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3620 | 1 samples | 1 papers | 1 compositions
 - compositions: Sc57Ru13_1_1 (1)
 - measured range: 16-298 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ScRu Pm-3m (221) mp-30867 [hull=0.000, icsd=1, PRIMARY]; Sc44Ru7 F-43m (216) mp-1209947 [hull=0.000, PRIMARY]; Sc57Ru13 Pm-3 (200) mp-1210377 [hull=0.000, PRIMARY]; Sc5Ru3 P6_3/mcm (193) mp-1209003 [hull=0.000, PRIMARY]; ScRu3 I4/mmm (139) mp-973022 [hull=0.247, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ScRu Pm-3m (221) mp-30867 [hull=0.000, icsd=1, PRIMARY]; Sc44Ru7 F-43m (216) mp-1209947 [hull=0.000, PRIMARY]; Sc57Ru13 Pm-3 (200) mp-1210377 [hull=0.000, PRIMARY]; Sc5Ru3 P6_3/mcm (193) mp-1209003 [hull=0.000, PRIMARY]; ScRu3 I4/mmm (139) mp-973022 [hull=0.247, PRIMARY, AMBIGUOUS]
 - papers: Electrical resistivity of crystal approximants in Sc-based alloys
 
 ## Ru-Sn-Th
@@ -195,7 +195,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3626 | 1 samples | 1 papers | 1 compositions
 - compositions: ThS (1)
 - measured range: 291-1250 K (5th-95th pct of 2 curves; full span incl. outliers 291-1337 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ThS2 Pnma (62) mp-1146 [hull=0.000, icsd=5, PRIMARY]; ThS Fm-3m (225) mp-503 [hull=0.000, icsd=5, PRIMARY]; Th2S5 Pbcn (60) mp-1666 [hull=0.000, icsd=3, PRIMARY]; Th2S3 Pnma (62) mp-20163 [hull=0.000, icsd=2, PRIMARY]; Th3S I4/mmm (139) mp-978993 [hull=0.751, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ThS2 Pnma (62) mp-1146 [hull=0.000, icsd=5, PRIMARY]; ThS Fm-3m (225) mp-503 [hull=0.000, icsd=5, PRIMARY]; Th2S5 Pbcn (60) mp-1666 [hull=0.000, icsd=3, PRIMARY]; Th2S3 Pnma (62) mp-20163 [hull=0.000, icsd=2, PRIMARY]; Th3S I4/mmm (139) mp-978993 [hull=0.751, PRIMARY, AMBIGUOUS]
 - papers: Thermoelectric Properties of Uranium Monosulfide, Thorium Monosulfide, and US‐ThS Solid Solutions
 
 ## Sb-Sc

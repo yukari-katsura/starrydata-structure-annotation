@@ -311,7 +311,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: (Al2O3)90.06(Cr3C2)9.94 (1)
 - dopant candidates (<5% at.): C (1)
 - measured range: 297-871 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Al2Cr4O19 P2/c (13) mp-1205208 [hull=0.324, icsd=1, PRIMARY]; Al19CrO30 P1 (1) mp-761414 [hull=0.004, PRIMARY]; Al2CrO5 C2/c (15) mp-773505 [hull=0.035, PRIMARY]; Al3CrO6 R3 (146) mp-1228485 [hull=0.013, PRIMARY]; AlCr2O4 Fd-3m (227) mp-773322 [hull=0.103, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Al2Cr4O19 P2/c (13) mp-1205208 [hull=0.324, icsd=1, PRIMARY]; Al19CrO30 P1 (1) mp-761414 [hull=0.004, PRIMARY]; Al2CrO5 C2/c (15) mp-773505 [hull=0.035, PRIMARY, AMBIGUOUS]; Al3CrO6 R3 (146) mp-1228485 [hull=0.013, PRIMARY, AMBIGUOUS]; AlCr2O4 Fd-3m (227) mp-773322 [hull=0.103, PRIMARY]
 - papers: Heat conduction of composites and its dependence on the microstructure of Al2O3-Cr3 C2 composite
 
 ## Al-Cr-Si
@@ -351,5 +351,5 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2450 | 1 samples | 1 papers | 1 compositions
 - compositions: Al5Cu6Mg2 (1)
 - measured range: 13-381 K (5th-95th pct of 3 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MgAl2Cu Cmcm (63) mp-3034 [hull=0.000, icsd=3, PRIMARY]; Mg11(Al2Cu)6 Fd-3m (227) mp-1200279 [hull=0.020, icsd=1, PRIMARY]; Mg2Al5Cu6 Pm-3 (200) mp-30178 [hull=0.000, icsd=1, PRIMARY]; Mg14AlCu Amm2 (38) mp-1028253 [hull=0.054, PRIMARY]; Mg16Al12Cu R3m (160) mp-1185659 [hull=0.065, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MgAl2Cu Cmcm (63) mp-3034 [hull=0.000, icsd=3, PRIMARY]; Mg11(Al2Cu)6 Fd-3m (227) mp-1200279 [hull=0.020, icsd=1, PRIMARY]; Mg2Al5Cu6 Pm-3 (200) mp-30178 [hull=0.000, icsd=1, PRIMARY]; Mg14AlCu Amm2 (38) mp-1028253 [hull=0.054, PRIMARY, AMBIGUOUS]; Mg16Al12Cu R3m (160) mp-1185659 [hull=0.065, PRIMARY]
 - papers: Physical properties of the V-Al5Cu6Mg2 complex intermetallic phase

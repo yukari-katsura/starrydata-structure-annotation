@@ -246,7 +246,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: CuV2S4 (1)
 - measured range: 15-298 K (5th-95th pct of 1 curves)
 - [ref 1] TEDesignLab / ICSD: VCu3S4 P-43m (215) mp-3762 [hull=0.002, icsd=10, PRIMARY]
-- [ref 2] MP, ranked by ICSD evidence: V2CuS4 I-4m2 (119) mp-1104259 [hull=0.059, icsd=7, PRIMARY]; V4Cu3S8 R3m (160) mp-29211 [hull=0.086, icsd=1, PRIMARY]; V3(CuS2)4 R3m (160) mp-1208142 [hull=0.229, PRIMARY]; V7(CuS6)2 P-1 (2) mp-1216478 [hull=0.054, PRIMARY]; VCuS4 Imma (74) mp-1216385 [hull=0.373, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence: V2CuS4 I-4m2 (119) mp-1104259 [hull=0.059, icsd=7, PRIMARY, AMBIGUOUS]; V4Cu3S8 R3m (160) mp-29211 [hull=0.086, icsd=1, PRIMARY]; V3(CuS2)4 R3m (160) mp-1208142 [hull=0.229, PRIMARY]; V7(CuS6)2 P-1 (2) mp-1216478 [hull=0.054, PRIMARY]; VCuS4 Imma (74) mp-1216385 [hull=0.373, PRIMARY]
 - papers: High-pressure study of the metallic spinel CuV2S4
 
 ## Cu-Sb-Se-Tl
@@ -287,7 +287,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3140 | 1 samples | 1 papers | 1 compositions
 - compositions: YbCu0.52Sb (1)
 - measured range: 307-838 K (5th-95th pct of 3 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbCuSb P6_3mc (186) mp-11701 [hull=0.000, icsd=1, PRIMARY]; YbCuSb2 P4/nmm (129) mp-1078982 [hull=0.035, icsd=1, PRIMARY]; Yb2CuSb3 P4/mmm (123) mp-1206807 [hull=2.805, PRIMARY]; YbCuSb P6_3/mmc (194) mp-9439 [hull=0.001, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbCuSb P6_3mc (186) mp-11701 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; YbCuSb2 P4/nmm (129) mp-1078982 [hull=0.035, icsd=1, PRIMARY]; Yb2CuSb3 P4/mmm (123) mp-1206807 [hull=2.805, PRIMARY]; YbCuSb P6_3/mmc (194) mp-9439 [hull=0.001, icsd=1]
 - papers: YbCu0.52(2)Sb: Mixed-valent compound with a layered structure
 
 ## Cu-Se-Sm

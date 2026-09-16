@@ -58,7 +58,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: (Bi0.8La0.2FeO3)0.57(PbTiO3)0.43 (1); (Bi0.8La0.2FeO3)0.57(PbTiO3)0.43(Fe2O3)0.025 (1); (Bi0.8La0.2FeO3)0.57(PbTiO3)0.43(Fe2O3)0.05 (1); (Bi0.8La0.2FeO3)0.57(PbTiO3)0.43(Fe2O3)0.125 (1); (Bi0.8La0.2FeO3)0.57(PbTiO3)0.43(Fe2O3)0.25 (1); (BiFeO3)0.6(PbTiO3)0.27Ba0.13(Zr0.5Ti0.5)0.13O0.39 (1)
 - dopant candidates (<5% at.): La (5), Ba (4), Zr (4)
 - measured range: 322-854 K (5th-95th pct of 9 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ti2Fe3Bi3Pb2O15 Cmm2 (35) mp-1101108 [hull=0.021, PRIMARY]; Ti4FeBiPb4O15 Cmm2 (35) mp-1217456 [hull=0.004, PRIMARY]; TiFe2Bi2PbO9 Cmm2 (35) mp-1216956 [hull=0.022, PRIMARY]; TiFe3Bi3PbO12 P1 (1) mp-1217154 [hull=0.024, PRIMARY]; TiFeBiPbO6 Imm2 (44) mp-1216981 [hull=0.020, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ti2Fe3Bi3Pb2O15 Cmm2 (35) mp-1101108 [hull=0.021, PRIMARY]; Ti4FeBiPb4O15 Cmm2 (35) mp-1217456 [hull=0.004, PRIMARY]; TiFe2Bi2PbO9 Cmm2 (35) mp-1216956 [hull=0.022, PRIMARY, AMBIGUOUS]; TiFe3Bi3PbO12 P1 (1) mp-1217154 [hull=0.024, PRIMARY]; TiFeBiPbO6 Imm2 (44) mp-1216981 [hull=0.020, PRIMARY]
 - papers: Enhanced insulation and piezoelectric properties of 0.57(Bi\n            <sub>0.8</sub>\n            La\n            <sub>0.2</sub>\n            )FeO\n            <sub>3</sub>\n            ‐0.43PbTiO\n            <sub>3</sub>\n            solid solutions with Fe addition | High‐temperature BiFeO\n            <sub>3</sub>\n            –PbTiO\n            <sub>3</sub>\n            ‐Ba(Zr,Ti)O\n            <sub>3</sub>\n            ternary ceramics with excellent piezoelectricity
 
 ## Bi-La-O-S-Se

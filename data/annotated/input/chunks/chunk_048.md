@@ -301,7 +301,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2392 | 1 samples | 1 papers | 1 compositions
 - compositions: Ag9Ga(S0.85Se0.15)6 (1)
 - measured range: 298-804 K (5th-95th pct of 6 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ga2Ag2Se3S C2 (5) mp-1224864 [hull=0.006, PRIMARY]; Ga2Ag2SeS3 C2 (5) mp-1224856 [hull=0.005, PRIMARY]; GaAgSeS Cc (9) mp-1224820 [hull=0.006, PRIMARY]; GaAgSeS I2_12_12_1 (24) mp-1224845 [hull=0.008]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ga2Ag2Se3S C2 (5) mp-1224864 [hull=0.006, PRIMARY]; Ga2Ag2SeS3 C2 (5) mp-1224856 [hull=0.005, PRIMARY]; GaAgSeS Cc (9) mp-1224820 [hull=0.006, PRIMARY, AMBIGUOUS]; GaAgSeS I2_12_12_1 (24) mp-1224845 [hull=0.008]
 - papers: Thermoelectric properties of Ag9GaS6 with ultralow lattice thermal conductivity
 
 ## Ag-Ge-Nd
@@ -341,7 +341,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2398 | 1 samples | 1 papers | 1 compositions
 - compositions: PrInAg2 (1)
 - measured range: 13-291 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Pr2InAg P4/mmm (123) mp-1219894 [hull=0.000, PRIMARY]; Pr2InAg Fm-3m (225) mp-978100 [hull=0.002]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Pr2InAg P4/mmm (123) mp-1219894 [hull=0.000, PRIMARY, AMBIGUOUS]; Pr2InAg Fm-3m (225) mp-978100 [hull=0.002]
 - papers: Non-enhancement of thermoelectric-power coefficient of at low temperatures
 
 ## Ag-K-Mo-Se

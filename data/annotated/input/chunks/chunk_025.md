@@ -226,7 +226,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1229 | 5 samples | 1 papers | 1 compositions
 - compositions: KNO3 (5)
 - measured range: 611-679 K (5th-95th pct of 5 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): KN3O4 P2_1/c (14) mp-3768 [hull=0.169, icsd=6, PRIMARY]; KNO3 Pnma (62) mp-5158 [hull=0.000, icsd=5, PRIMARY]; K2CuPb(NO2)6 Fm-3 (202) mp-19863 [hull=0.085, icsd=4, PRIMARY]; K2BaCo(NO2)6 Fm-3 (202) mp-24872 [hull=0.097, icsd=2, PRIMARY]; K2PrN5O17 Fdd2 (43) mp-1196176 [hull=0.174, icsd=2, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): KN3O4 P2_1/c (14) mp-3768 [hull=0.169, icsd=6, PRIMARY]; KNO3 Pnma (62) mp-5158 [hull=0.000, icsd=5, PRIMARY, AMBIGUOUS]; K2CuPb(NO2)6 Fm-3 (202) mp-19863 [hull=0.085, icsd=4, PRIMARY]; K2BaCo(NO2)6 Fm-3 (202) mp-24872 [hull=0.097, icsd=2, PRIMARY]; K2PrN5O17 Fdd2 (43) mp-1196176 [hull=0.174, icsd=2, PRIMARY]
 - papers: Thermal conductivity measurement of molten salts by the transient hot-wire method (1st report, Construction of probe and preliminary measurement of molten KNO3)
 
 ## La-Ni-Si
@@ -241,7 +241,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Sr1.8La0.2MnMoO6 (1); Sr1.7La0.3MnMoO6 (1); Sr2MnMoO6 (1); Sr1.9La0.1MnMoO6 (1); Sr3MnMo2O9 (1)
 - dopant candidates (<5% at.): La (3)
 - measured range: 85-1246 K (5th-95th pct of 16 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2MnMoO6 P4_2/n (86) mp-705116 [hull=0.007, icsd=1, PRIMARY]; Sr2MnMoO6 I4/m (87) mp-1095141 [hull=0.008, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2MnMoO6 P4_2/n (86) mp-705116 [hull=0.007, icsd=1, PRIMARY, AMBIGUOUS]; Sr2MnMoO6 I4/m (87) mp-1095141 [hull=0.008, icsd=1]
 - papers: La doped effects on structure and thermoelectric properties of Sr2MnMoO6 double-perovskite oxides | Electronic properties in intrinsically disordered double perovskites: Sr 3 MnMo 2 O 9 and Ba 3 MnMo 2 O 9 with Mo 5+ valence state
 
 ## Mn-Ni-Sn
@@ -270,7 +270,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1235 | 5 samples | 3 papers | 5 compositions
 - compositions: (TiO2)0.8(TiN)0.2 (1); N0.2TiO2 (1); Ti34O34N33 (1); Ti33O29N37 (1); Ti41O12N47 (1)
 - measured range: 80-1065 K (5th-95th pct of 8 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ti(NO3)4 P2_1/c (14) mp-30998 [hull=0.000, icsd=1, PRIMARY]; Ti17(NO4)6 Pmmn (59) mp-779712 [hull=0.030, PRIMARY]; Ti2N2O P1 (1) mp-776280 [hull=0.053, PRIMARY]; Ti3N2O3 Cm (8) mp-754790 [hull=0.005, PRIMARY]; Ti3NO4 Cmcm (63) mp-755920 [hull=0.036, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ti(NO3)4 P2_1/c (14) mp-30998 [hull=0.000, icsd=1, PRIMARY]; Ti17(NO4)6 Pmmn (59) mp-779712 [hull=0.030, PRIMARY, AMBIGUOUS]; Ti2N2O P1 (1) mp-776280 [hull=0.053, PRIMARY]; Ti3N2O3 Cm (8) mp-754790 [hull=0.005, PRIMARY, AMBIGUOUS]; Ti3NO4 Cmcm (63) mp-755920 [hull=0.036, PRIMARY]
 - papers: Study of Phases and Thermoelectric Properties of TiO2-TiN Compacts Fabricated by Spark Plasma Sintering | Physical properties of NxTiO2 prepared by sol–gel route | Study of TiO<i>x</i>N<i>y</i> thin film selective surfaces produced by ion assisted deposition
 
 ## Na-O-Sb-Ti
@@ -291,7 +291,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Ti0.83Nb0.17(O0.955N0.045)2 (1); Nb0.2Ti0.8O2 (1); Ti0.80Nb0.20O2 (1); Ti0.60Nb0.40O2 (1); Ti0.40Nb0.60O2 (1)
 - dopant candidates (<5% at.): N (1)
 - measured range: 102-1057 K (5th-95th pct of 18 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TiNb3O6 R-3 (148) mp-29699 [hull=0.000, icsd=1, PRIMARY]; Li2Ti7Nb6O30 P3 (143) mp-759382 [hull=0.055, PRIMARY]; Ti3NbO8 P-1 (2) mp-758428 [hull=0.032, PRIMARY]; Ti15NbO32 P-4m2 (115) mp-1099073 [hull=0.003, PRIMARY]; Ti5Nb2O14 Cmmm (65) mp-758324 [hull=0.033, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TiNb3O6 R-3 (148) mp-29699 [hull=0.000, icsd=1, PRIMARY]; Li2Ti7Nb6O30 P3 (143) mp-759382 [hull=0.055, PRIMARY]; Ti3NbO8 P-1 (2) mp-758428 [hull=0.032, PRIMARY, AMBIGUOUS]; Ti15NbO32 P-4m2 (115) mp-1099073 [hull=0.003, PRIMARY]; Ti5Nb2O14 Cmmm (65) mp-758324 [hull=0.033, PRIMARY]
 - papers: Chemical Tuning of TiO2Nanoparticles and Sintered Compacts for Enhanced Thermoelectric Properties | Carrier generation and transport properties of heavily Nb-doped anatase TiO2 epitaxial films at high temperatures | Thermoelectric properties of Nb-doped TiO2- ceramics reduced at elevated temperature
 
 ## Nd-Ni

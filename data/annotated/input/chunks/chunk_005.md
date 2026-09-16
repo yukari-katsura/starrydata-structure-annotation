@@ -148,7 +148,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Nd0.7Sr0.3MnO3 (12); Nd0.67Sr0.33MnO3 (7); (La0.25Nd0.75)0.7Sr0.3MnO3 (2); Nd0.65Sr0.35MnO3 (1); Nd0.50Sr0.50MnO3 (1); Nd0.43Sr0.57MnO3 (1)
 - dopant candidates (<5% at.): Cu (5), La (4), Ce (1)
 - measured range: 10-368 K (5th-95th pct of 43 curves; full span incl. outliers 10-1325 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2NdMn2O7 I4/mmm (139) mp-1218717 [hull=0.009, PRIMARY]; Sr2NdMn3O9 C2/c (15) mp-1218797 [hull=0.007, PRIMARY]; Sr3NdMn2O8 Amm2 (38) mp-1218352 [hull=0.000, PRIMARY]; Sr4NdMn5O15 C2/m (12) mp-1218675 [hull=0.027, PRIMARY]; SrNd2Mn3O9 Pnma (62) mp-1218259 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2NdMn2O7 I4/mmm (139) mp-1218717 [hull=0.009, PRIMARY, AMBIGUOUS]; Sr2NdMn3O9 C2/c (15) mp-1218797 [hull=0.007, PRIMARY]; Sr3NdMn2O8 Amm2 (38) mp-1218352 [hull=0.000, PRIMARY]; Sr4NdMn5O15 C2/m (12) mp-1218675 [hull=0.027, PRIMARY]; SrNd2Mn3O9 Pnma (62) mp-1218259 [hull=0.000, PRIMARY]
 - papers: Magnon drag contribution to thermopower of Nd0.67Sr0.33MnO3 nanocrystalline manganites | Thermoelectric properties of filling controlled manganites | Strain enhanced spin polarization in Nd0.43Sr0.57MnO3/YBa2Cu3O7 bilayers
 
 ## S-Se-Sn
@@ -223,7 +223,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: BaPb0.7Bi0.3O3 (2); BaPb0.65Bi0.35O3 (2); BaPb0.6Bi0.4O3 (2); Ba0.8Sr0.2Pb0.7Bi0.3O3 (2); Ba0.8Sr0.2Pb0.6Bi0.4O3 (2); Ba0.8Sr0.2Pb0.55Bi0.45O3 (2)
 - dopant candidates (<5% at.): Sr (19), K (1)
 - measured range: 11-300 K (5th-95th pct of 33 curves; full span incl. outliers 10-877 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba3Bi2PbO9 C2/m (12) mp-1228435 [hull=0.001, PRIMARY]; Ba3BiPb2O9 P-1 (2) mp-1228457 [hull=0.006, PRIMARY]; Ba4Bi(PbO4)3 C2/m (12) mp-1228269 [hull=0.000, PRIMARY]; Ba4Bi3PbO12 C2/m (12) mp-1228338 [hull=0.000, PRIMARY]; Ba5BiPb4O15 C2/m (12) mp-1228869 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba3Bi2PbO9 C2/m (12) mp-1228435 [hull=0.001, PRIMARY]; Ba3BiPb2O9 P-1 (2) mp-1228457 [hull=0.006, PRIMARY]; Ba4Bi(PbO4)3 C2/m (12) mp-1228269 [hull=0.000, PRIMARY, AMBIGUOUS]; Ba4Bi3PbO12 C2/m (12) mp-1228338 [hull=0.000, PRIMARY]; Ba5BiPb4O15 C2/m (12) mp-1228869 [hull=0.000, PRIMARY, AMBIGUOUS]
 - papers: Metal–insulator transition and superconductivity in Sr- and La-substituted BaPb1−xBixO3 | Coexistence of electrons and holes inBaBi0.25Pb0.75O3−δdetected by thermoelectric-power measurements | Hydrothermal synthesis of a new Bi-based (Ba0.82K0.18)(Bi0.53Pb0.47)O3 superconductor
 
 ## Ba-Co-O-Y
@@ -232,7 +232,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Ag (4), Ga (4), Al (4), Zn (4), Ca (3)
 - seed hypothesis (confirm): swedenborgite
 - measured range: 11-1000 K (5th-95th pct of 51 curves; full span incl. outliers 10-1123 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaYCo4O7 Cmc2_1 (36) mp-1194048 [hull=0.016, icsd=5, PRIMARY]; BaYCo2O5 P4/mmm (123) mp-24839 [hull=0.067, icsd=5, PRIMARY]; Ba6Y2Co4O15 P2/c (13) mp-1196872 [hull=0.000, icsd=2, PRIMARY]; BaY(CoO2)4 Pca2_1 (29) mp-646218 [hull=0.072, icsd=1, PRIMARY]; Ba2YCoO5 P2_1/c (14) mp-1205054 [hull=0.000, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaYCo4O7 Cmc2_1 (36) mp-1194048 [hull=0.016, icsd=5, PRIMARY, AMBIGUOUS]; BaYCo2O5 P4/mmm (123) mp-24839 [hull=0.067, icsd=5, PRIMARY]; Ba6Y2Co4O15 P2/c (13) mp-1196872 [hull=0.000, icsd=2, PRIMARY]; BaY(CoO2)4 Pca2_1 (29) mp-646218 [hull=0.072, icsd=1, PRIMARY]; Ba2YCoO5 P2_1/c (14) mp-1205054 [hull=0.000, icsd=1, PRIMARY]
 - papers: A novel method to control oxygen stoichiometry and thermoelectric properties in (RE)BaCo2O5+δ | Thermoelectric Properties of Y1−x Ag x BaCo4O7+δ Ceramics | Electronic transport and thermoelectric properties of RBaCo4O7 (R=Dy, Ho, Y, Er)
 
 ## Ce-Co-Fe-Sb
@@ -422,7 +422,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: La0.5Ca0.5FeO3 (5); La0.6Ca0.4Fe0.8Ni0.2O3 (4); La0.6Ca0.4FeO3 (3); La0.6Ca0.4Co0.2Fe0.8O3 (3); La0.3Ca0.7Fe0.8Cr0.2O3 (2); La0.7Ca0.3FeO3 (2)
 - dopant candidates (<5% at.): Co (6), Ni (5), Cr (5), Ba (1)
 - measured range: 303-1255 K (5th-95th pct of 29 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CaLa2(FeO3)3 Pnma (62) mp-1227525 [hull=0.000, PRIMARY]; CaLa3(FeO3)4 Pm (6) mp-1227194 [hull=0.000, PRIMARY]; CaLaFeO4 I4mm (107) mp-1227068 [hull=0.057, PRIMARY]; CaLaFeO4 C222_1 (20) mp-1227123 [hull=0.058]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CaLa2(FeO3)3 Pnma (62) mp-1227525 [hull=0.000, PRIMARY]; CaLa3(FeO3)4 Pm (6) mp-1227194 [hull=0.000, PRIMARY]; CaLaFeO4 I4mm (107) mp-1227068 [hull=0.057, PRIMARY, AMBIGUOUS]; CaLaFeO4 C222_1 (20) mp-1227123 [hull=0.058]
 - papers: Understanding the favorable CO2 tolerance of Ca-doped LaFeO3 perovskite cathode for solid oxide fuel cells | Tailored Sr-Co-free perovskite oxide as an air electrode for high-performance reversible solid oxide cells | Time degradation of electronic and ionic transport in perovskite-like La0.5Ca0.5FeO3−δ
 
 ## Fe-Sb-Yb
@@ -440,7 +440,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Sb (6), Bi (6), Li (1)
 - seed hypothesis (confirm): antifluorite
 - measured range: 103-831 K (5th-95th pct of 83 curves; full span incl. outliers 15-843 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg2Ge Fm-3m (225) mp-408 [hull=0.000, icsd=8, PRIMARY]; Mg3Ge P6_3/m (176) mp-642855 [hull=0.132, icsd=1, PRIMARY]; Mg19Ge5 P-43m (215) mp-1232376 [hull=0.326, PRIMARY]; Mg5Ge Amm2 (38) mp-1185804 [hull=0.111, PRIMARY]; MgGe C2/m (12) mp-1185865 [hull=0.133, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg2Ge Fm-3m (225) mp-408 [hull=0.000, icsd=8, PRIMARY]; Mg3Ge P6_3/m (176) mp-642855 [hull=0.132, icsd=1, PRIMARY]; Mg19Ge5 P-43m (215) mp-1232376 [hull=0.326, PRIMARY]; Mg5Ge Amm2 (38) mp-1185804 [hull=0.111, PRIMARY, AMBIGUOUS]; MgGe C2/m (12) mp-1185865 [hull=0.133, PRIMARY]
 - papers: Influence of Sb doping on thermoelectric properties of Mg2Ge materials | Thermoelectric properties of Mg2Si1−x Ge x prepared by using a solid-state reaction | Composition dependent thermoelectric properties of sintered Mg2Si1−xGex (x=0 to 1) initiated from a melt-grown polycrystalline source
 
 ## Ge-Pb-Se-Te

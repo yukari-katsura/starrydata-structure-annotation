@@ -147,7 +147,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1669 | 3 samples | 1 papers | 3 compositions
 - compositions: Co39Ni61 (1); Co71Ni29 (1); Co24Ni76 (1)
 - measured range: 56-288 K (5th-95th pct of 3 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co3Ni Pm-3m (221) mp-1008349 [hull=0.000, icsd=1, PRIMARY]; CoNi Pm-3m (221) mp-1006883 [hull=0.156, icsd=1, PRIMARY]; CoNi3 P6_3/mmc (194) mp-1183785 [hull=0.019, PRIMARY]; Co3Ni P6_3/mmc (194) mp-1183837 [hull=0.000]; Co3Ni P-6m2 (187) mp-1226559 [hull=0.025]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co3Ni Pm-3m (221) mp-1008349 [hull=0.000, icsd=1, PRIMARY]; CoNi Pm-3m (221) mp-1006883 [hull=0.156, icsd=1, PRIMARY]; CoNi3 P6_3/mmc (194) mp-1183785 [hull=0.019, PRIMARY, AMBIGUOUS]; Co3Ni P6_3/mmc (194) mp-1183837 [hull=0.000]; Co3Ni P-6m2 (187) mp-1226559 [hull=0.025]
 - papers: Magneto-thermopower and magnetoresistance of single Co-Ni alloy nanowires
 
 ## Co-O-Sc-Sr
@@ -267,7 +267,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1686 | 3 samples | 1 papers | 3 compositions
 - compositions: Cu2ZnGeSe2S2 (1); Cu2ZnGeSe3S (1); Cu2ZnGeSe1S3 (1)
 - measured range: 298-676 K (5th-95th pct of 9 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZnCu2Ge(SeS)2 Pmn2_1 (31) mp-1215417 [hull=0.006, PRIMARY]; ZnCu2Ge(SeS)2 Fmm2 (42) mp-1215643 [hull=0.015]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZnCu2Ge(SeS)2 Pmn2_1 (31) mp-1215417 [hull=0.006, PRIMARY, AMBIGUOUS]; ZnCu2Ge(SeS)2 Fmm2 (42) mp-1215643 [hull=0.015]
 - papers: Effect of Isovalent Substitution on the Thermoelectric Properties of the Cu2ZnGeSe4–xSxSeries of Solid Solutions
 
 ## Cu-Ge-Yb

@@ -63,7 +63,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Fe (1)
 - measured range: 15-1000 K (5th-95th pct of 6 curves; full span incl. outliers 15-1468 K)
 - [ref 1] TEDesignLab / ICSD: MgAl2O4 Fd-3m (227) mp-3536 [hull=0.000, icsd=28, PRIMARY]; MgAl2O4 Pnma (62) mp-5857 [hull=0.099, icsd=3]; MgAl2O4 (63)
-- [ref 2] MP, ranked by ICSD evidence: Mg16Al12O I-43m (217) mp-1185684 [hull=0.123, PRIMARY]; CaMg2Al6O12 P-6 (174) mp-1227128 [hull=0.081, PRIMARY]; Mg2Al2O5 P4/mmm (123) mp-1185757 [hull=0.396, PRIMARY]; Mg2AlO6 P-1 (2) mp-1222192 [hull=0.488, PRIMARY]; Mg3AlO4 Pm-3m (221) mp-1024039 [hull=0.334, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence: Mg16Al12O I-43m (217) mp-1185684 [hull=0.123, PRIMARY, AMBIGUOUS]; CaMg2Al6O12 P-6 (174) mp-1227128 [hull=0.081, PRIMARY]; Mg2Al2O5 P4/mmm (123) mp-1185757 [hull=0.396, PRIMARY]; Mg2AlO6 P-1 (2) mp-1222192 [hull=0.488, PRIMARY]; Mg3AlO4 Pm-3m (221) mp-1024039 [hull=0.334, PRIMARY]
 - papers: Thermal Conductivity of MgO,Al2O3, MgAl2O4, andFe3O4Crystals from 3° to 300°K | Achieving ultrahigh dielectric breakdown strength in MgO-based ceramics by composite structure design
 
 ## Al-Rh-Si
@@ -155,7 +155,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 968 | 6 samples | 3 papers | 4 compositions
 - compositions: Fe40Ni40B20 (3); (Fe0.94Ni0.06)84B16 (1); (Fe0.92Ni0.08)84B16 (1); Fe20Ni60B20 (1)
 - measured range: 61-526 K (5th-95th pct of 8 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Fe2NiB Pnma (62) mp-1105860 [hull=0.052, icsd=1, PRIMARY]; Fe3(Ni10B3)2 Fm-3m (225) mp-1193589 [hull=0.032, icsd=1, PRIMARY]; Fe3Ni3B2 P2_1 (4) mp-1224887 [hull=0.048, PRIMARY]; FeNiB Fmmm (69) mp-1224960 [hull=0.054, PRIMARY]; Fe2NiB I-4 (82) mp-1184343 [hull=0.058, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Fe2NiB Pnma (62) mp-1105860 [hull=0.052, icsd=1, PRIMARY, AMBIGUOUS]; Fe3(Ni10B3)2 Fm-3m (225) mp-1193589 [hull=0.032, icsd=1, PRIMARY]; Fe3Ni3B2 P2_1 (4) mp-1224887 [hull=0.048, PRIMARY]; FeNiB Fmmm (69) mp-1224960 [hull=0.054, PRIMARY]; Fe2NiB I-4 (82) mp-1184343 [hull=0.058, icsd=1]
 - papers: Thermoelectric power in some ferromagnetic Fe based amorphous alloys | Influence of small amounts of Co and Ni additives on thermoelectric power in amorphous Fe&lt;inf&gt;84&lt;/inf&gt;B&lt;inf&gt;16&lt;/inf&gt; | Transport properties of Fe-Ni Glasses
 
 ## B-Pr
@@ -306,7 +306,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 988 | 6 samples | 1 papers | 1 compositions
 - compositions: W(CO)6 (6)
 - measured range: 13-293 K (5th-95th pct of 6 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): HW2C9NO10 P-1 (2) mp-1224650 [hull=0.578, PRIMARY]; W2(CO)3 Cmmm (65) mp-1216282 [hull=1.279, PRIMARY]; W2CO Pmm2 (25) mp-1216273 [hull=1.612, PRIMARY]; W4C3O P-6m2 (187) mp-1216217 [hull=1.419, PRIMARY]; WCO2 P4/mmm (123) mp-1216158 [hull=1.333, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): HW2C9NO10 P-1 (2) mp-1224650 [hull=0.578, PRIMARY]; W2(CO)3 Cmmm (65) mp-1216282 [hull=1.279, PRIMARY]; W2CO Pmm2 (25) mp-1216273 [hull=1.612, PRIMARY, AMBIGUOUS]; W4C3O P-6m2 (187) mp-1216217 [hull=1.419, PRIMARY]; WCO2 P4/mmm (123) mp-1216158 [hull=1.333, PRIMARY]
 - papers: Focused-Ion-Beam Direct-Writing of Ultra-Thin Superconducting Tungsten Composite Films
 
 ## C-O-Zn
@@ -321,7 +321,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 990 | 6 samples | 1 papers | 3 compositions
 - compositions: Nd0.75Ca0.25CoO3 (2); Nd0.625Ca0.375CoO3 (2); Nd0.5Ca0.5CoO3 (2)
 - measured range: 10-347 K (5th-95th pct of 6 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CaNdCoO4 I4mm (107) mp-1227058 [hull=0.044, PRIMARY]; CaNdCoO4 Cmcm (63) mp-1227089 [hull=0.050]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CaNdCoO4 I4mm (107) mp-1227058 [hull=0.044, PRIMARY, AMBIGUOUS]; CaNdCoO4 Cmcm (63) mp-1227089 [hull=0.050]
 - papers: Transport and Magnetic Properties of R1-xAxCoO3(R = La, Pr and Nd; A = Ba, Sr and Ca)
 
 ## Ca-Cu-O-Ru

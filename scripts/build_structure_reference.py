@@ -327,6 +327,21 @@ def main():
                         f'polymorph it does list. Falling through to Materials Project.')
                 if e['in_tedesignlab'] and e['mp_id'] is None:
                     row['mp_match'] = 'no MP entry at this space group'
+                if i == 0 and len(ranked) > 1:
+                    # A tie on ICSD evidence broken by a hull margin smaller than
+                    # the accuracy of the calculation is not a real decision.
+                    # SrSi2 has two polymorphs at 5 ICSD references each,
+                    # separated by 3 meV/atom, and the ambient chiral phase is
+                    # the one that loses.
+                    nxt = ranked[1]
+                    if (nxt['n_icsd'] >= 0.8 * e['n_icsd']
+                            and e['e_above_hull'] is not None
+                            and nxt['e_above_hull'] is not None
+                            and abs(nxt['e_above_hull'] - e['e_above_hull']) < 0.01):
+                        row['ambiguous_primary'] = (
+                            f'sg {nxt["spacegroup_number"]} ({nxt["mp_id"]}) is within '
+                            f'10 meV/atom on a comparable ICSD count; the ranking cannot '
+                            f'separate them. Decide from the chemistry.')
                 if i == 0 and e['n_icsd'] < 5:
                     # Thin experimental support for the phase we are calling
                     # primary. Sometimes the ambient structure is simply absent
@@ -378,6 +393,8 @@ def main():
                 ev.append(f'icsd={int(r.n_icsd)}')
             if getattr(r, 'is_primary', False):
                 ev.append('PRIMARY')
+            if isinstance(getattr(r, 'ambiguous_primary', None), str):
+                ev.append('AMBIGUOUS')
             tail = f' [{", ".join(ev)}]' if ev else ''
             out.append(f'{r.reduced_formula}{sym} ({sg}){mp}{tail}')
         return '; '.join(out[:5])

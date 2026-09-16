@@ -29,7 +29,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2252 | 2 samples | 2 papers | 1 compositions
 - compositions: LuIn3 (2)
 - measured range: 12-292 K (5th-95th pct of 3 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LuIn3 Pm-3m (221) mp-977 [hull=0.000, icsd=3, PRIMARY]; Lu2In P6_3/mmc (194) mp-1250 [hull=0.000, icsd=2, PRIMARY]; Lu5In3 P6_3/mcm (193) mp-1188644 [hull=0.016, icsd=1, PRIMARY]; Lu3In5 Pnma (62) mp-1211016 [hull=0.004, PRIMARY]; Lu3In Pm-3m (221) mp-976949 [hull=0.004, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LuIn3 Pm-3m (221) mp-977 [hull=0.000, icsd=3, PRIMARY]; Lu2In P6_3/mmc (194) mp-1250 [hull=0.000, icsd=2, PRIMARY]; Lu5In3 P6_3/mcm (193) mp-1188644 [hull=0.016, icsd=1, PRIMARY]; Lu3In5 Pnma (62) mp-1211016 [hull=0.004, PRIMARY]; Lu3In Pm-3m (221) mp-976949 [hull=0.004, PRIMARY, AMBIGUOUS]
 - papers: Thermoelectric power of the REIn3 single crystals where RE = La, Ce, Pr, Nd, Sm, Gd, Ho, ErIn3, TmandLu | Resistivity and thermopower of monocrystalline TbIn3 and DyIn3
 
 ## In-Ni-Sb
@@ -69,7 +69,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2258 | 2 samples | 1 papers | 2 compositions
 - compositions: Pb1Te1In0.14 (1); Pb1Te1In0.18 (1)
 - measured range: 324-759 K (5th-95th pct of 6 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): In6Te10Pb C2 (5) mp-1224649 [hull=0.000, PRIMARY]; InTe5Pb4 R-3m (166) mp-1223713 [hull=0.025, PRIMARY]; InTe5Pb4 I4/mmm (139) mp-1223727 [hull=0.035]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): In6Te10Pb C2 (5) mp-1224649 [hull=0.000, PRIMARY]; InTe5Pb4 R-3m (166) mp-1223713 [hull=0.025, PRIMARY, AMBIGUOUS]; InTe5Pb4 I4/mmm (139) mp-1223727 [hull=0.035]
 - papers: Thermoelectric Properties of Two-Phase PbTe with Indium Inclusions
 
 ## In-Se-Sn
@@ -84,7 +84,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: ZnIn18SiSn20 (2)
 - dopant candidates (<5% at.): Zn (2), Si (2)
 - measured range: 300-724 K (5th-95th pct of 10 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): In3Sn C2/m (12) mp-1224025 [hull=0.032, PRIMARY]; InSn3 Pm-3m (221) mp-1184776 [hull=0.040, PRIMARY]; InSn4 Cmmm (65) mp-1223653 [hull=0.046, PRIMARY]; In3Sn Pm-3m (221) mp-1184894 [hull=0.045]; InSn3 P-6m2 (187) mp-1223722 [hull=0.050]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): In3Sn C2/m (12) mp-1224025 [hull=0.032, PRIMARY]; InSn3 Pm-3m (221) mp-1184776 [hull=0.040, PRIMARY, AMBIGUOUS]; InSn4 Cmmm (65) mp-1223653 [hull=0.046, PRIMARY]; In3Sn Pm-3m (221) mp-1184894 [hull=0.045]; InSn3 P-6m2 (187) mp-1223722 [hull=0.050]
 - papers: Effect of Cooling Conditions on the Microstructure and Thermoelectric Properties of Zn/Si-Codoped InSb
 
 ## In-Te-Tl
@@ -105,7 +105,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2263 | 2 samples | 1 papers | 2 compositions
 - compositions: KTa0.63Nb0.37O3 (1); KTa0.67Nb0.33O3 (1)
 - measured range: 298-567 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): K2TaNbO6 Fm-3m (225) mp-1207114 [hull=0.007, PRIMARY]; K4Ta3NbO12 R-3m (166) mp-1223769 [hull=0.004, PRIMARY]; K2TaNbO6 P4/mmm (123) mp-1207110 [hull=0.008]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): K2TaNbO6 Fm-3m (225) mp-1207114 [hull=0.007, PRIMARY, AMBIGUOUS]; K4Ta3NbO12 R-3m (166) mp-1223769 [hull=0.004, PRIMARY]; K2TaNbO6 P4/mmm (123) mp-1207110 [hull=0.008]
 - papers: Thermal properties of cubic KTa1−xNbxO3 crystals
 
 ## K-O-Ru
@@ -168,7 +168,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2272 | 2 samples | 1 papers | 2 compositions
 - compositions: Nd0.75La0.25 (1); Nd0.63La0.37 (1)
 - measured range: 10-12 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La3Nd I4/mmm (139) mp-1185150 [hull=0.029, PRIMARY]; LaNd3 Pm-3m (221) mp-1185074 [hull=0.017, PRIMARY]; LaNd3 I4/mmm (139) mp-1185124 [hull=0.021]; LaNd3 P6_3/mmc (194) mp-977225 [hull=0.037]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La3Nd I4/mmm (139) mp-1185150 [hull=0.029, PRIMARY]; LaNd3 Pm-3m (221) mp-1185074 [hull=0.017, PRIMARY, AMBIGUOUS]; LaNd3 I4/mmm (139) mp-1185124 [hull=0.021]; LaNd3 P6_3/mmc (194) mp-977225 [hull=0.037]
 - papers: Thermoelectric power of Nd1−xLaxand Ce1−xLaxalloys
 
 ## La-Ni-O-Rh
@@ -198,7 +198,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: La0.7Sr0.3Mn0.2Ru0.8O3 (1); La0.7Sr0.3Mn0.1Ru0.9O3 (1)
 - dopant candidates (<5% at.): Mn (2)
 - measured range: 30-494 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr4La2Mg(RuO6)2 I4/mmm (139) mp-1218460 [hull=0.048, PRIMARY]; Sr8La3(RuO7)3 P1 (1) mp-684802 [hull=0.003, PRIMARY]; SrLa(RuO3)2 Pmn2_1 (31) mp-1218253 [hull=0.021, PRIMARY]; Sr4La2Mg(RuO6)2 C2/m (12) mp-1173214 [hull=0.055]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr4La2Mg(RuO6)2 I4/mmm (139) mp-1218460 [hull=0.048, PRIMARY, AMBIGUOUS]; Sr8La3(RuO7)3 P1 (1) mp-684802 [hull=0.003, PRIMARY]; SrLa(RuO3)2 Pmn2_1 (31) mp-1218253 [hull=0.021, PRIMARY]; Sr4La2Mg(RuO6)2 C2/m (12) mp-1173214 [hull=0.055]
 - papers: Effects of Ru substitution for Mn on La0.7Sr0.3MnO3 perovskites
 
 ## La-O-Ta
@@ -247,14 +247,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2283 | 2 samples | 1 papers | 1 compositions
 - compositions: LiNiO2 (2)
 - measured range: 150-297 K (5th-95th pct of 2 curves; full span incl. outliers 150-855 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiNiO2 R-3m (166) mp-25592 [hull=0.007, icsd=3, PRIMARY]; Li2NiO2 P-3m1 (164) mp-19308 [hull=0.000, icsd=2, PRIMARY]; Li(NiO2)2 P4_332 (212) mp-774941 [hull=0.000, PRIMARY]; Li(NiO2)3 C2/m (12) mp-1222821 [hull=0.046, PRIMARY]; Li11(NiO2)12 C2/m (12) mp-38676 [hull=0.010, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiNiO2 R-3m (166) mp-25592 [hull=0.007, icsd=3, PRIMARY]; Li2NiO2 P-3m1 (164) mp-19308 [hull=0.000, icsd=2, PRIMARY]; Li(NiO2)2 P4_332 (212) mp-774941 [hull=0.000, PRIMARY, AMBIGUOUS]; Li(NiO2)3 C2/m (12) mp-1222821 [hull=0.046, PRIMARY]; Li11(NiO2)12 C2/m (12) mp-38676 [hull=0.010, PRIMARY]
 - papers: Transport properties of the LiNi1−yCoyO2 system
 
 ## Li-O-Rh
 - rank 2284 | 2 samples | 2 papers | 2 compositions
 - compositions: LiRhO3 (1); LiRh2O4 (1)
 - measured range: 89-299 K (5th-95th pct of 3 curves; full span incl. outliers 89-754 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiRhO2 R-3m (166) mp-14115 [hull=0.000, icsd=1, PRIMARY]; Li(RhO2)3 Cmmm (65) mp-1207037 [hull=2.112, PRIMARY]; Li2RhO3 C2/m (12) mp-754870 [hull=0.000, PRIMARY]; LiRhO2 Fd-3m (227) mp-14476 [hull=0.010, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiRhO2 R-3m (166) mp-14115 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; Li(RhO2)3 Cmmm (65) mp-1207037 [hull=2.112, PRIMARY]; Li2RhO3 C2/m (12) mp-754870 [hull=0.000, PRIMARY]; LiRhO2 Fd-3m (227) mp-14476 [hull=0.010, icsd=1]
 - papers: Spin State Control of the Perovskite Rh/Co Oxides | Band Jahn-Teller Instability and Formation of Valence Bond Solid in a Mixed-Valent Spinel OxideLiRh2O4
 
 ## Li-O-Rh-Zn
@@ -281,7 +281,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2288 | 2 samples | 1 papers | 2 compositions
 - compositions: Mg2.6Mn0.4Sb2 (1); Mg2.7Mn0.3Sb2 (1)
 - measured range: 10-597 K (5th-95th pct of 9 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg14MnSb Amm2 (38) mp-1028074 [hull=0.078, PRIMARY]; Mg5MnSb4 P3m1 (156) mp-1222105 [hull=0.077, PRIMARY]; Mg6MnSb Amm2 (38) mp-1022926 [hull=0.156, PRIMARY]; Mg14MnSb P-6m2 (187) mp-1028069 [hull=0.082]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg14MnSb Amm2 (38) mp-1028074 [hull=0.078, PRIMARY, AMBIGUOUS]; Mg5MnSb4 P3m1 (156) mp-1222105 [hull=0.077, PRIMARY]; Mg6MnSb Amm2 (38) mp-1022926 [hull=0.156, PRIMARY]; Mg14MnSb P-6m2 (187) mp-1028069 [hull=0.082]
 - papers: Thermoelectric properties of Mn-doped Mg–Sb single crystals
 
 ## Mg-N-O-Ti
@@ -309,7 +309,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Li (2)
 - measured range: 63-292 K (5th-95th pct of 2 curves)
 - [ref 1] TEDesignLab / ICSD: Mg3V2O8 Cmce (64) mp-19034 [hull=0.000, icsd=2, PRIMARY]; MgV2O5 Cmcm (63) mp-19003 [hull=0.026, icsd=2, PRIMARY]
-- [ref 2] MP, ranked by ICSD evidence: MgV2O4 Fd-3m (227) mp-18900 [hull=0.090, icsd=3, PRIMARY]; MgV2O6 C2/m (12) mp-1176494 [hull=0.011, icsd=1, PRIMARY]; Mg2V2O7 P-1 (2) mp-32500 [hull=0.000, icsd=1, PRIMARY]; Mg2VO4 Fd-3m (227) mp-32432 [hull=0.099, icsd=1, PRIMARY]; MgV2O6 Pbcn (60) mp-1196870 [hull=0.017, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence: MgV2O4 Fd-3m (227) mp-18900 [hull=0.090, icsd=3, PRIMARY]; MgV2O6 C2/m (12) mp-1176494 [hull=0.011, icsd=1, PRIMARY, AMBIGUOUS]; Mg2V2O7 P-1 (2) mp-32500 [hull=0.000, icsd=1, PRIMARY]; Mg2VO4 Fd-3m (227) mp-32432 [hull=0.099, icsd=1, PRIMARY]; MgV2O6 Pbcn (60) mp-1196870 [hull=0.017, icsd=1]
 - papers: Preparation and physical properties of the spinel Ti and V oxides
 
 ## Mg-Sb-Si
@@ -317,7 +317,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Mg2Si.75Sb0.25 (1); Mg2Si0.97Sb0.33 (1)
 - measured range: 254-794 K (5th-95th pct of 2 curves)
 - [ref 1] TEDesignLab / ICSD: MgSiSb2 I-42d (122) mp-1078680 [hull=0.115, icsd=2, PRIMARY]
-- [ref 2] MP, ranked by ICSD evidence: Mg14SiSb P-6m2 (187) mp-1026689 [hull=0.079, PRIMARY]; Mg6SiSb Amm2 (38) mp-1017349 [hull=0.151, PRIMARY]; Mg14SiSb Amm2 (38) mp-1026698 [hull=0.086]
+- [ref 2] MP, ranked by ICSD evidence: Mg14SiSb P-6m2 (187) mp-1026689 [hull=0.079, PRIMARY, AMBIGUOUS]; Mg6SiSb Amm2 (38) mp-1017349 [hull=0.151, PRIMARY]; Mg14SiSb Amm2 (38) mp-1026698 [hull=0.086]
 - papers: Sb- and Bi-doped Mg2Si: location of the dopants, micro- and nanostructures, electronic structures and thermoelectric properties
 
 ## Mg-Sb-Si-Sn

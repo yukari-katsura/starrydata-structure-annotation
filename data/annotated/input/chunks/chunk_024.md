@@ -310,7 +310,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Cu6Fe4Sn12Se32 (4); Cu2FeSnSe4 (1)
 - measured range: 10-588 K (5th-95th pct of 13 curves; full span incl. outliers 10-850 K)
 - [ref 1] TEDesignLab / ICSD: FeCu2SnSe4 I-42m (121) mp-22612 [hull=0.040, icsd=3, PRIMARY]
-- [ref 2] MP, ranked by ICSD evidence: CdFe4Cu10(SnSe4)5 I-4 (82) mp-1228572 [hull=0.040, PRIMARY]; Fe2Cu3(Sn3Se8)2 Pm (6) mp-1225320 [hull=0.036, PRIMARY]; FeCu2SnSe4 R3m (160) mp-1225270 [hull=0.140]; CdFe4Cu10(SnSe4)5 C2 (5) mp-1228871 [hull=0.041]
+- [ref 2] MP, ranked by ICSD evidence: CdFe4Cu10(SnSe4)5 I-4 (82) mp-1228572 [hull=0.040, PRIMARY, AMBIGUOUS]; Fe2Cu3(Sn3Se8)2 Pm (6) mp-1225320 [hull=0.036, PRIMARY]; FeCu2SnSe4 R3m (160) mp-1225270 [hull=0.140]; CdFe4Cu10(SnSe4)5 C2 (5) mp-1228871 [hull=0.041]
 - papers: Structural and thermoelectric properties of Cu6Fe4Sn12Se32 single crystal | Thermoelectric Properties of Selenospinel Cu6Fe4Sn12Se32 | Variable-range-hopping conduction and low thermal conductivity in chalcogenide spinel CuyFe4Sn12X32 (X = S, Se)
 
 ## Cu-La-O-Pr

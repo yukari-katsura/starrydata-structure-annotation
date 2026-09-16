@@ -291,14 +291,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3290 | 1 samples | 1 papers | 1 compositions
 - compositions: Gd2O3 (1)
 - measured range: 300-1274 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Gd2O3 C2/m (12) mp-643084 [hull=0.039, icsd=5, PRIMARY]; GdO2 P4/nmm (129) mp-21149 [hull=0.141, icsd=1, PRIMARY]; GdO F-43m (216) mp-7870 [hull=0.219, icsd=1, PRIMARY]; GdO3 P6_3/m (176) mp-1206505 [hull=0.667, PRIMARY]; Gd2O3 P-3m1 (164) mp-20470 [hull=0.054, icsd=2]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Gd2O3 C2/m (12) mp-643084 [hull=0.039, icsd=5, PRIMARY]; GdO2 P4/nmm (129) mp-21149 [hull=0.141, icsd=1, PRIMARY, AMBIGUOUS]; GdO F-43m (216) mp-7870 [hull=0.219, icsd=1, PRIMARY]; GdO3 P6_3/m (176) mp-1206505 [hull=0.667, PRIMARY]; Gd2O3 P-3m1 (164) mp-20470 [hull=0.054, icsd=2]
 - papers: Thermal conductivity of gadolinium added uranium mononitride fuel pellets sintered by spark plasma sintering
 
 ## Gd-O-Ru
 - rank 3291 | 1 samples | 1 papers | 1 compositions
 - compositions: Gd2Ru2O7 (1)
 - measured range: 275-771 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Gd3RuO7 Pna2_1 (33) mp-683963 [hull=0.000, icsd=1, PRIMARY]; Gd3Bi(Ru2O7)2 R-3m (166) mp-1224726 [hull=0.013, PRIMARY]; Gd5(RuO7)2 C2/m (12) mp-673761 [hull=0.093, PRIMARY]; Gd3RuO7 Cmcm (63) mp-17237 [hull=0.004, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Gd3RuO7 Pna2_1 (33) mp-683963 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; Gd3Bi(Ru2O7)2 R-3m (166) mp-1224726 [hull=0.013, PRIMARY]; Gd5(RuO7)2 C2/m (12) mp-673761 [hull=0.093, PRIMARY]; Gd3RuO7 Cmcm (63) mp-17237 [hull=0.004, icsd=1]
 - papers: Chemical synthesis and characterization of nano-sized rare-earth ruthenium pyrochlore compounds \n                $$\\hbox {Ln}_{2}\\hbox {Ru}_{2}\\hbox {O}_{7}$$\n                \n                    \n                                    \n                        \n                            \n                                Ln\n                                2\n                            \n                            \n                                Ru\n                                2\n                            \n                            \n                                O\n                                7\n                            \n                        \n                    \n                \n             (Ln = rare earth)
 
 ## Gd-Os-P
@@ -337,7 +337,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3297 | 1 samples | 1 papers | 1 compositions
 - compositions: Gd65.4Y34.6 (1)
 - measured range: 94-218 K (5th-95th pct of 2 curves; full span incl. outliers 94-298 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Gd3Y Pm-3m (221) mp-1184469 [hull=0.050, PRIMARY]; GdY3 I4/mmm (139) mp-1184538 [hull=0.029, PRIMARY]; GdY3 Pm-3m (221) mp-1184639 [hull=0.034]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Gd3Y Pm-3m (221) mp-1184469 [hull=0.050, PRIMARY]; GdY3 I4/mmm (139) mp-1184538 [hull=0.029, PRIMARY, AMBIGUOUS]; GdY3 Pm-3m (221) mp-1184639 [hull=0.034]
 - papers: Transport properties and ultrasonic propagation in single crystal Gd65.4-Y34.6
 
 ## Gd-Zn

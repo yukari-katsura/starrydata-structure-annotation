@@ -263,7 +263,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Bi2Sr2Ca0.6Y0.4O8 (1)
 - dopant candidates (<5% at.): Ca (1), Y (1)
 - measured range: 27-287 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2Bi2O5 Pnma (62) mp-23357 [hull=0.000, icsd=2, PRIMARY]; Sr(BiO2)2 C2/m (12) mp-29048 [hull=0.000, icsd=1, PRIMARY]; Sr4BiO7 P2_1 (4) mp-1191534 [hull=0.032, icsd=1, PRIMARY]; SrBiO3 P2_1/c (14) mp-29164 [hull=0.000, icsd=1, PRIMARY]; Sr4Bi2O I4/mmm (139) mp-1025351 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2Bi2O5 Pnma (62) mp-23357 [hull=0.000, icsd=2, PRIMARY]; Sr(BiO2)2 C2/m (12) mp-29048 [hull=0.000, icsd=1, PRIMARY]; Sr4BiO7 P2_1 (4) mp-1191534 [hull=0.032, icsd=1, PRIMARY]; SrBiO3 P2_1/c (14) mp-29164 [hull=0.000, icsd=1, PRIMARY]; Sr4Bi2O I4/mmm (139) mp-1025351 [hull=0.000, PRIMARY, AMBIGUOUS]
 - papers: Structural and superconducting properties of iodine-intercalated Bi2Sr2Ca1−Y Cu2O
 
 ## Bi-O-Te
@@ -291,7 +291,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: (Ce0.09La0.01)3Bi4Pt3 (1)
 - dopant candidates (<5% at.): Ce (1), La (1)
 - measured range: 11-300 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Bi2Pt Pa-3 (205) mp-22864 [hull=0.003, icsd=4, PRIMARY]; BiPt P6_3/mmc (194) mp-1066078 [hull=0.000, icsd=2, PRIMARY]; BiPt3 I4/mmm (139) mp-1183477 [hull=0.152, PRIMARY]; Bi2Pt P31m (157) mp-1078313 [hull=0.010, icsd=2]; Bi2Pt C2/m (12) mp-1092293 [hull=0.036, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Bi2Pt Pa-3 (205) mp-22864 [hull=0.003, icsd=4, PRIMARY]; BiPt P6_3/mmc (194) mp-1066078 [hull=0.000, icsd=2, PRIMARY]; BiPt3 I4/mmm (139) mp-1183477 [hull=0.152, PRIMARY, AMBIGUOUS]; Bi2Pt P31m (157) mp-1078313 [hull=0.010, icsd=2]; Bi2Pt C2/m (12) mp-1092293 [hull=0.036, icsd=1]
 - papers: Substitutional effects on the electronic transport of the Kondo semiconductorCe3Bi4Pt3
 
 ## Bi-S-Sb-Se-Te

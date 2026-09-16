@@ -171,7 +171,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - solid-solution axis: Ca/(Ca+Sr) spans 0.25-0.67 (median 0.40) over 7 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 16-868 K (5th-95th pct of 24 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2CaTi3O9 P1 (1) mp-1218872 [hull=0.012, PRIMARY]; Sr3CaTi4O12 C2 (5) mp-1218577 [hull=0.010, PRIMARY]; Sr7CaTi8O20 P1 (1) mp-1076695 [hull=0.070, PRIMARY]; Sr7CaTi8O24 Pm-3m (221) mp-1075922 [hull=0.010, PRIMARY]; SrCa3Ti4O12 Pm (6) mp-1218476 [hull=0.010, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2CaTi3O9 P1 (1) mp-1218872 [hull=0.012, PRIMARY, AMBIGUOUS]; Sr3CaTi4O12 C2 (5) mp-1218577 [hull=0.010, PRIMARY]; Sr7CaTi8O20 P1 (1) mp-1076695 [hull=0.070, PRIMARY]; Sr7CaTi8O24 Pm-3m (221) mp-1075922 [hull=0.010, PRIMARY]; SrCa3Ti4O12 Pm (6) mp-1218476 [hull=0.010, PRIMARY]
 - papers: Substitution effect on the thermoelectric properties of alkaline earth titanate | Thermoelectric properties of the electron-doped perovskites Sr1−xCaxTi1−yNbyO3 | Thermoelectric and structural correlations in \n(Sr1−x−yCaxNdy)TiO3\n perovskites
 
 ## Ca-O-Ti
@@ -282,7 +282,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: NiCr2S4 (7)
 - measured range: 305-576 K (5th-95th pct of 21 curves)
 - [ref 1] TEDesignLab / ICSD: Cr2NiS4 C2/m (12) mp-27512 [hull=0.056, icsd=1, PRIMARY]
-- [ref 2] MP, ranked by ICSD evidence: Cr11NiS16 P-1 (2) mp-1226263 [hull=0.026, PRIMARY]; Cr5NiS8 P-1 (2) mp-1226452 [hull=0.012, PRIMARY]; Cr11NiS16 C2/m (12) mp-1226505 [hull=0.030]; Cr5NiS8 P2/m (10) mp-1226130 [hull=0.028]
+- [ref 2] MP, ranked by ICSD evidence: Cr11NiS16 P-1 (2) mp-1226263 [hull=0.026, PRIMARY, AMBIGUOUS]; Cr5NiS8 P-1 (2) mp-1226452 [hull=0.012, PRIMARY]; Cr11NiS16 C2/m (12) mp-1226505 [hull=0.030]; Cr5NiS8 P2/m (10) mp-1226130 [hull=0.028]
 - papers: Ordered-Defect Sulfides as Thermoelectric Materials
 
 ## Cr-Ru-Sb
@@ -318,7 +318,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 890 | 7 samples | 2 papers | 7 compositions
 - compositions: CuMnO2 (1); CuMn1.1O2 (1); CuMn1.15O2 (1); CuMn1.2O2 (1); CuMn1.05O2 (1); CuMn1.143O2 (1)
 - measured range: 298-573 K (5th-95th pct of 31 curves; full span incl. outliers 21-574 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mn3Cu3O8 P4_332 (212) mp-652534 [hull=0.017, icsd=1, PRIMARY]; Mn11Cu7O24 P1 (1) mp-765492 [hull=0.026, PRIMARY]; Mn(Cu3O4)2 Fm-3m (225) mp-769761 [hull=0.000, PRIMARY]; Mn13Cu11O32 C2/m (12) mp-1176662 [hull=0.020, PRIMARY]; Mn2CuO4 Cm (8) mp-34237 [hull=0.039, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mn3Cu3O8 P4_332 (212) mp-652534 [hull=0.017, icsd=1, PRIMARY]; Mn11Cu7O24 P1 (1) mp-765492 [hull=0.026, PRIMARY, AMBIGUOUS]; Mn(Cu3O4)2 Fm-3m (225) mp-769761 [hull=0.000, PRIMARY]; Mn13Cu11O32 C2/m (12) mp-1176662 [hull=0.020, PRIMARY]; Mn2CuO4 Cm (8) mp-34237 [hull=0.039, PRIMARY]
 - papers: Fabrication and thermoelectric properties of CuMn1+xO2 (x=0~0.2) ceramics | <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:mi>A</mml:mi></mml:mrow></mml:math>\n-site \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:msup><mml:mrow><mml:mi>Mn</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:math>\n tuned magnetism and electrical transport properties in the transition-metal-only perovskite oxide \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:mi>Mn</mml:mi><mml:msub><mml:mi>Cu</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:msub><mml:mi>Mn</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:msub><mml:mi mathvariant=\"normal\">O</mml:mi><mml:mn>12</mml:mn></mml:msub></mml:mrow></mml:math>
 
 ## Cu-Mo-S

@@ -231,7 +231,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1379 | 4 samples | 2 papers | 4 compositions
 - compositions: LiNi0.5Co0.5O2 (1); LiNi0.25Co0.75O2 (1); LiNi0.8Co0.2O2 (1); LiCo0.8Ni0.2O2 (1)
 - measured range: 14-1181 K (5th-95th pct of 9 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Li10Co3Ni7O20 P-1 (2) mp-769555 [hull=0.005, PRIMARY]; Li10CoNi9O20 P1 (1) mp-765279 [hull=0.000, PRIMARY]; Li2Co(NiO3)2 Aea2 (41) mp-761662 [hull=0.066, PRIMARY]; Li2Co2NiO6 P-1 (2) mp-1178201 [hull=0.090, PRIMARY]; Li2Co3NiO8 P4_332 (212) mp-762296 [hull=0.001, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Li10Co3Ni7O20 P-1 (2) mp-769555 [hull=0.005, PRIMARY, AMBIGUOUS]; Li10CoNi9O20 P1 (1) mp-765279 [hull=0.000, PRIMARY, AMBIGUOUS]; Li2Co(NiO3)2 Aea2 (41) mp-761662 [hull=0.066, PRIMARY]; Li2Co2NiO6 P-1 (2) mp-1178201 [hull=0.090, PRIMARY]; Li2Co3NiO8 P4_332 (212) mp-762296 [hull=0.001, PRIMARY, AMBIGUOUS]
 - papers: Transport properties of the LiNi1−yCoyO2 system | Thermoelectric properties of LiCo1−xMxO2(M = Cu, Mg, Ni, Zn): Comparison with LiyCoO2and NayCoO2systems
 
 ## Co-Mn-Sn-Ti
@@ -251,7 +251,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Ca0.01NiCo2O4 (1); NiCo2O4 (1); Ca0.03NiCo2O4 (1); Ca0.05NiCo2O4 (1)
 - dopant candidates (<5% at.): Ca (3)
 - measured range: 295-1074 K (5th-95th pct of 15 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co(NiO2)2 Fd-3m (227) mp-769882 [hull=0.054, PRIMARY]; Co(NiO2)4 C2/m (12) mp-772058 [hull=0.014, PRIMARY]; Co2NiO4 Imma (74) mp-38683 [hull=0.000, PRIMARY]; Co2NiO6 Cmce (64) mp-761554 [hull=0.043, PRIMARY]; Co3NiO8 R-3m (166) mp-765866 [hull=0.071, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co(NiO2)2 Fd-3m (227) mp-769882 [hull=0.054, PRIMARY]; Co(NiO2)4 C2/m (12) mp-772058 [hull=0.014, PRIMARY]; Co2NiO4 Imma (74) mp-38683 [hull=0.000, PRIMARY]; Co2NiO6 Cmce (64) mp-761554 [hull=0.043, PRIMARY, AMBIGUOUS]; Co3NiO8 R-3m (166) mp-765866 [hull=0.071, PRIMARY, AMBIGUOUS]
 - papers: Synthesis and thermoelectric characterization of polycrystalline Ni1-xCaxCo2O4(x=0–0.05) spinel materials
 
 ## Co-Ni-Sn-Ti
@@ -265,7 +265,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1384 | 4 samples | 1 papers | 4 compositions
 - compositions: Co2.35Ru0.65O4.43 (1); Co2.5Ru0.5O4.3 (1); Co2.4Ru0.6O4.4 (1); Co2.3Ru0.7O4.47 (1)
 - measured range: 299-1076 K (5th-95th pct of 14 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co2RuO4 Imma (74) mp-34586 [hull=0.029, PRIMARY]; Co5RuO8 R-3m (166) mp-35690 [hull=0.040, PRIMARY]; Co7(RuO6)2 P1 (1) mp-690550 [hull=0.034, PRIMARY]; Co9Ru3O16 P-1 (2) mp-698596 [hull=0.024, PRIMARY]; Co2RuO4 C2/c (15) mp-767177 [hull=0.037]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co2RuO4 Imma (74) mp-34586 [hull=0.029, PRIMARY, AMBIGUOUS]; Co5RuO8 R-3m (166) mp-35690 [hull=0.040, PRIMARY]; Co7(RuO6)2 P1 (1) mp-690550 [hull=0.034, PRIMARY]; Co9Ru3O16 P-1 (2) mp-698596 [hull=0.024, PRIMARY]; Co2RuO4 C2/c (15) mp-767177 [hull=0.037]
 - papers: Synthesis, crystal structures and high-temperature thermoelectric properties of spinel-type cobalt ruthenium oxides
 
 ## Co-O-Sb

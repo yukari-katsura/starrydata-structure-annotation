@@ -75,7 +75,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3509 | 1 samples | 1 papers | 1 compositions
 - compositions: Y3NbO7 (1)
 - measured range: 294-1273 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YNbO4 I4_1/a (88) mp-1095229 [hull=0.002, icsd=20, PRIMARY]; Y3NbO7 Cm (8) mp-676261 [hull=0.246, PRIMARY]; YNbO2 I4_1/amd (141) mp-1207699 [hull=0.644, PRIMARY]; YNbO4 C2/c (15) mp-5387 [hull=0.000, icsd=13]; Y3NbO7 Cmme (67) mp-1101623 [hull=0.254]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YNbO4 I4_1/a (88) mp-1095229 [hull=0.002, icsd=20, PRIMARY]; Y3NbO7 Cm (8) mp-676261 [hull=0.246, PRIMARY, AMBIGUOUS]; YNbO2 I4_1/amd (141) mp-1207699 [hull=0.644, PRIMARY]; YNbO4 C2/c (15) mp-5387 [hull=0.000, icsd=13]; Y3NbO7 Cmme (67) mp-1101623 [hull=0.254]
 - papers: Diffused Lattice Vibration and Ultralow Thermal Conductivity in the Binary Ln–Nb–O Oxide System
 
 ## Nb-O-Yb
@@ -114,7 +114,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3515 | 1 samples | 1 papers | 1 compositions
 - compositions: Nd2SiO5 (1)
 - measured range: 293-293 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nd2Si2O7 P4_1 (76) mp-15225 [hull=0.000, icsd=1, PRIMARY]; KNd9(Si3O13)2 P3 (143) mp-1223480 [hull=0.000, PRIMARY]; La3Nd11(Si3O13)3 P6_3 (173) mp-1224647 [hull=0.000, PRIMARY]; NaNd9(Si3O13)2 P3 (143) mp-1221031 [hull=0.000, PRIMARY]; Nd4CdSi3O13 P6_3 (173) mp-1220265 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nd2Si2O7 P4_1 (76) mp-15225 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; KNd9(Si3O13)2 P3 (143) mp-1223480 [hull=0.000, PRIMARY]; La3Nd11(Si3O13)3 P6_3 (173) mp-1224647 [hull=0.000, PRIMARY]; NaNd9(Si3O13)2 P3 (143) mp-1221031 [hull=0.000, PRIMARY]; Nd4CdSi3O13 P6_3 (173) mp-1220265 [hull=0.000, PRIMARY]
 - papers: Tailoring thermal properties of multi-component rare earth monosilicates
 
 ## Nd-O-Ta
@@ -197,7 +197,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3527 | 1 samples | 1 papers | 1 compositions
 - compositions: SrNi2P4 (1)
 - measured range: 13-300 K (5th-95th pct of 3 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr(Ni5P3)2 Cmce (64) mp-16156 [hull=0.002, icsd=1, PRIMARY]; Sr(NiP)2 Immm (71) mp-29167 [hull=0.000, icsd=1, PRIMARY]; Sr(NiP2)2 Fddd (70) mp-1103788 [hull=0.000, icsd=1, PRIMARY]; SrNi5P3 Cmcm (63) mp-18632 [hull=0.000, icsd=1, PRIMARY]; Sr(Ni5P3)2 Pnma (62) mp-680220 [hull=0.003, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr(Ni5P3)2 Cmce (64) mp-16156 [hull=0.002, icsd=1, PRIMARY, AMBIGUOUS]; Sr(NiP)2 Immm (71) mp-29167 [hull=0.000, icsd=1, PRIMARY]; Sr(NiP2)2 Fddd (70) mp-1103788 [hull=0.000, icsd=1, PRIMARY]; SrNi5P3 Cmcm (63) mp-18632 [hull=0.000, icsd=1, PRIMARY]; Sr(Ni5P3)2 Pnma (62) mp-680220 [hull=0.003, icsd=1]
 - papers: Twisted Kelvin Cells and Truncated Octahedral Cages in the Crystal Structures of Unconventional Clathrates, AM2P4(A = Sr, Ba; M = Cu, Ni)
 
 ## Ni-P-Yb
@@ -279,7 +279,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3539 | 1 samples | 1 papers | 1 compositions
 - compositions: Tb9Ni24Sn49 (1)
 - measured range: 10-296 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TbNiSn Pnma (62) mp-22299 [hull=0.000, icsd=2, PRIMARY]; Tb2Ni2Sn Immm (71) mp-1068217 [hull=0.000, icsd=1, PRIMARY]; Tb6Ni2Sn Immm (71) mp-1105993 [hull=0.029, icsd=1, PRIMARY]; TbNiSn2 Pnma (62) mp-1198844 [hull=0.000, icsd=1, PRIMARY]; Tb9Ni24Sn49 C2/m (12) mp-1217867 [hull=0.025, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TbNiSn Pnma (62) mp-22299 [hull=0.000, icsd=2, PRIMARY]; Tb2Ni2Sn Immm (71) mp-1068217 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; Tb6Ni2Sn Immm (71) mp-1105993 [hull=0.029, icsd=1, PRIMARY]; TbNiSn2 Pnma (62) mp-1198844 [hull=0.000, icsd=1, PRIMARY]; Tb9Ni24Sn49 C2/m (12) mp-1217867 [hull=0.025, PRIMARY]
 - papers: Magnetic and electrical transport properties of RE9Ni24Sn49 compounds (RE=Y, Ce, Pr, Sm and Tb)
 
 ## Ni-Sn-Th
@@ -334,7 +334,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3547 | 1 samples | 1 papers | 1 compositions
 - compositions: OsO2 (1)
 - measured range: 26-295 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): OsO2 P4_2/mnm (136) mp-996 [hull=0.000, icsd=5, PRIMARY]; Os3O Fm-3m (225) mp-1186352 [hull=1.155, PRIMARY]; OsO2 Pa-3 (205) mp-1095264 [hull=0.076, icsd=1]; Os3O P6_3/mmc (194) mp-1186373 [hull=1.162]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): OsO2 P4_2/mnm (136) mp-996 [hull=0.000, icsd=5, PRIMARY]; Os3O Fm-3m (225) mp-1186352 [hull=1.155, PRIMARY, AMBIGUOUS]; OsO2 Pa-3 (205) mp-1095264 [hull=0.076, icsd=1]; Os3O P6_3/mmc (194) mp-1186373 [hull=1.162]
 - papers: Growth and characterization of OsO2 single crystals
 
 ## O-Os-Sr
@@ -356,5 +356,5 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: K1.2P4W8O32 (1)
 - dopant candidates (<5% at.): K (1)
 - measured range: 12-289 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): PWO5 Pna2_1 (33) mp-32540 [hull=0.000, icsd=1, PRIMARY]; P2W2O11 Pnma (62) mp-19522 [hull=0.000, icsd=1, PRIMARY]; P2WO8 C2/m (12) mp-687234 [hull=0.000, icsd=1, PRIMARY]; P(W3O10)2 P2_12_12_1 (19) mp-652282 [hull=0.003, icsd=1, PRIMARY]; P3RuW2O15 C2/c (15) mp-1194833 [hull=0.000, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): PWO5 Pna2_1 (33) mp-32540 [hull=0.000, icsd=1, PRIMARY]; P2W2O11 Pnma (62) mp-19522 [hull=0.000, icsd=1, PRIMARY]; P2WO8 C2/m (12) mp-687234 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; P(W3O10)2 P2_12_12_1 (19) mp-652282 [hull=0.003, icsd=1, PRIMARY]; P3RuW2O15 C2/c (15) mp-1194833 [hull=0.000, icsd=1, PRIMARY]
 - papers: Detailed investigation of the phase transition in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:msub><mml:mi mathvariant=\"normal\">K</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:msub><mml:mi mathvariant=\"normal\">P</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:msub><mml:mi mathvariant=\"normal\">W</mml:mi><mml:mn>8</mml:mn></mml:msub><mml:msub><mml:mi mathvariant=\"normal\">O</mml:mi><mml:mn>32</mml:mn></mml:msub></mml:mrow></mml:math>and experimental arguments for a charge density wave due to hidden nesting

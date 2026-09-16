@@ -72,7 +72,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1808 | 3 samples | 1 papers | 1 compositions
 - compositions: Sr (3)
 - measured range: 288-899 K (5th-95th pct of 4 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr Fm-3m (225) mp-76 [hull=0.000, icsd=5, PRIMARY]; Sr Im-3m (229) mp-95 [hull=0.009, icsd=4]; Sr P6/mmm (191) mp-19858 [hull=0.225, icsd=4]; Sr P6_3/mmc (194) mp-867202 [hull=0.005, icsd=3]; Sr I4_1/amd (141) mp-10617 [hull=0.262, icsd=2]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr Fm-3m (225) mp-76 [hull=0.000, icsd=5, PRIMARY, AMBIGUOUS]; Sr Im-3m (229) mp-95 [hull=0.009, icsd=4]; Sr P6/mmm (191) mp-19858 [hull=0.225, icsd=4]; Sr P6_3/mmc (194) mp-867202 [hull=0.005, icsd=3]; Sr I4_1/amd (141) mp-10617 [hull=0.262, icsd=2]
 - papers: The electrical resistivity and thermoelectric power of Ca and Sr above 300 K
 
 ## Ta-Te
@@ -102,7 +102,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Ag0.92Au0.06Pd0.02 (1); Ag0.89Au0.11 (1)
 - dopant candidates (<5% at.): Pd (1)
 - measured range: 24-92 K (5th-95th pct of 2 curves; full span incl. outliers 24-263 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ag3Au I4/mmm (139) mp-1183214 [hull=0.000, PRIMARY]; AgAu R-3m (166) mp-1229092 [hull=0.000, PRIMARY]; AgAu3 P6_3/mmc (194) mp-985287 [hull=0.000, PRIMARY]; Ag3Au Pm-3m (221) mp-1183137 [hull=0.005]; Ag3Au P6_3/mmc (194) mp-1183205 [hull=0.017]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ag3Au I4/mmm (139) mp-1183214 [hull=0.000, PRIMARY, AMBIGUOUS]; AgAu R-3m (166) mp-1229092 [hull=0.000, PRIMARY, AMBIGUOUS]; AgAu3 P6_3/mmc (194) mp-985287 [hull=0.000, PRIMARY, AMBIGUOUS]; Ag3Au Pm-3m (221) mp-1183137 [hull=0.005]; Ag3Au P6_3/mmc (194) mp-1183205 [hull=0.017]
 - papers: Characterization of the thermal conductivity and mechanical properties of sheath alloy materials for Bi-2223 superconductor tapes | Thermal and electrical properties of Ag-Au and Ag-Cu alloy tapes for metal stabilizers of oxide superconductors
 
 ## Ag-Ba-Eu-Sb
@@ -233,7 +233,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1832 | 2 samples | 1 papers | 1 compositions
 - compositions: AgNiO2 (2)
 - measured range: 11-294 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ni(AgO)2 R-3m (166) mp-19405 [hull=0.043, icsd=14, PRIMARY]; NiAgO2 P6_3/mmc (194) mp-19284 [hull=0.000, icsd=1, PRIMARY]; NiAgO2 R-3m (166) mp-19069 [hull=0.001, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ni(AgO)2 R-3m (166) mp-19405 [hull=0.043, icsd=14, PRIMARY]; NiAgO2 P6_3/mmc (194) mp-19284 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; NiAgO2 R-3m (166) mp-19069 [hull=0.001, icsd=1]
 - papers: On the electrical properties of polycrystalline delafossite-type AgNiO2
 
 ## Ag-Te-Tm

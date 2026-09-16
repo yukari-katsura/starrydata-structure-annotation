@@ -69,7 +69,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3408 | 1 samples | 1 papers | 1 compositions
 - compositions: UIr3 (1)
 - measured range: 15-302 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): UIr P2_1/c (14) mp-2236 [hull=0.000, icsd=4, PRIMARY]; UIr3 Pm-3m (221) mp-1044 [hull=0.000, icsd=3, PRIMARY]; UIr2 Fd-3m (227) mp-1655 [hull=0.027, icsd=2, PRIMARY]; UIr P2_1 (4) mp-1105762 [hull=0.002, icsd=4]; UIr P-1 (2) mp-644899 [hull=0.437, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): UIr P2_1/c (14) mp-2236 [hull=0.000, icsd=4, PRIMARY, AMBIGUOUS]; UIr3 Pm-3m (221) mp-1044 [hull=0.000, icsd=3, PRIMARY]; UIr2 Fd-3m (227) mp-1655 [hull=0.027, icsd=2, PRIMARY]; UIr P2_1 (4) mp-1105762 [hull=0.002, icsd=4]; UIr P-1 (2) mp-644899 [hull=0.437, icsd=1]
 - papers: Some Characteristics of the Thermoelectric Power in Uranium Intermetallic Compounds
 
 ## Ir-V
@@ -158,7 +158,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3421 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.6Sr0.4Mn0.7Zn0.3O3 (1)
 - measured range: 50-474 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2La2MnZnO8 Amm2 (38) mp-1218782 [hull=0.034, PRIMARY]; Sr2La2MnZnO8 C2/m (12) mp-1173272 [hull=0.036]; Sr2La2MnZnO8 P4/mmm (123) mp-1218735 [hull=0.082]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2La2MnZnO8 Amm2 (38) mp-1218782 [hull=0.034, PRIMARY, AMBIGUOUS]; Sr2La2MnZnO8 C2/m (12) mp-1173272 [hull=0.036]; Sr2La2MnZnO8 P4/mmm (123) mp-1218735 [hull=0.082]
 - papers: Effects of Zn substitution on the magnetic and transport properties of La0.6Sr0.4Mn1−yZnyO3−δ (0≤y≤0.3)
 
 ## La-Mo-Ni-O
@@ -197,7 +197,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3427 | 1 samples | 1 papers | 1 compositions
 - compositions: LaPO4 (1)
 - measured range: 301-1268 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaPO4 P2_1/c (14) mp-3962 [hull=0.000, icsd=5, PRIMARY]; La(PO3)3 C222_1 (20) mp-9646 [hull=0.000, icsd=1, PRIMARY]; LaP5O14 Pmna (53) mp-1204624 [hull=0.000, icsd=1, PRIMARY]; La2P4O13 C222_1 (20) mp-771240 [hull=0.003, PRIMARY]; La3PO7 Cm (8) mp-779590 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaPO4 P2_1/c (14) mp-3962 [hull=0.000, icsd=5, PRIMARY]; La(PO3)3 C222_1 (20) mp-9646 [hull=0.000, icsd=1, PRIMARY]; LaP5O14 Pmna (53) mp-1204624 [hull=0.000, icsd=1, PRIMARY]; La2P4O13 C222_1 (20) mp-771240 [hull=0.003, PRIMARY, AMBIGUOUS]; La3PO7 Cm (8) mp-779590 [hull=0.000, PRIMARY]
 - papers: Thermophysical properties of rare earth barium aluminates
 
 ## La-O-Pb-Sr
@@ -251,7 +251,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3435 | 1 samples | 1 papers | 1 compositions
 - compositions: LaRh2Si2 (1)
 - measured range: 17-300 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La(SiRh)2 I4/mmm (139) mp-5936 [hull=0.000, icsd=7, PRIMARY]; LaSi2Rh3 P6/mmm (191) mp-29726 [hull=0.000, icsd=1, PRIMARY]; La2Si3Rh P6_3/mmc (194) mp-1191810 [hull=0.000, icsd=1, PRIMARY]; La2Si5Rh3 Ibam (72) mp-8620 [hull=0.000, icsd=1, PRIMARY]; La3Si2Rh3 Pnma (62) mp-601852 [hull=0.000, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La(SiRh)2 I4/mmm (139) mp-5936 [hull=0.000, icsd=7, PRIMARY]; LaSi2Rh3 P6/mmm (191) mp-29726 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; La2Si3Rh P6_3/mmc (194) mp-1191810 [hull=0.000, icsd=1, PRIMARY]; La2Si5Rh3 Ibam (72) mp-8620 [hull=0.000, icsd=1, PRIMARY]; La3Si2Rh3 Pnma (62) mp-601852 [hull=0.000, icsd=1, PRIMARY]
 - papers: Electrical resistivity and thermopower studies of Ce(Rh1−xRux)2Si2 compounds with 0 ⩽ x ⩽ 0.4
 
 ## La-Ru

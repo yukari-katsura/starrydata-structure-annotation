@@ -214,7 +214,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2079 | 2 samples | 1 papers | 2 compositions
 - compositions: (Ce3Si2)26.53(CeO2)73.47 (1); (Ce3Si2)13.4(CeO2)86.6 (1)
 - measured range: 298-1272 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce2Si2O7 P4_1 (76) mp-672208 [hull=0.000, icsd=3, PRIMARY]; CeSiO4 I4_1/amd (141) mp-10523 [hull=0.033, icsd=1, PRIMARY]; CaCe4Si3O13 P6_3 (173) mp-1229253 [hull=0.000, PRIMARY]; Ce2Si2O7 P2_1/c (14) mp-662527 [hull=0.000, icsd=3]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce2Si2O7 P4_1 (76) mp-672208 [hull=0.000, icsd=3, PRIMARY, AMBIGUOUS]; CeSiO4 I4_1/amd (141) mp-10523 [hull=0.033, icsd=1, PRIMARY]; CaCe4Si3O13 P6_3 (173) mp-1229253 [hull=0.000, PRIMARY]; Ce2Si2O7 P2_1/c (14) mp-662527 [hull=0.000, icsd=3]
 - papers: Fabrication and thermal conductivity of CeO2–Ce3Si2 composite
 
 ## Ce-O-Sm

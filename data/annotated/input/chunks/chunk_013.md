@@ -194,7 +194,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: (PbO)50(V2O5)50 (2); (ZnO)0.1(PbO)0.4(V2O5)0.5 (1); (PbO)0.5(V2O5)0.5 (1); (ZnO)0.05(PbO)0.45(V2O5)0.5 (1); (ZnO)0.15(PbO)0.35(V2O5)0.5 (1); (Ag2O)5(PbO)45(V2O5)50 (1)
 - dopant candidates (<5% at.): Zn (3), Cd (3), Ag (2)
 - measured range: 298-500 K (5th-95th pct of 11 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): VPbO3 P4mm (99) mp-25119 [hull=0.026, icsd=6, PRIMARY]; V3Pb5ClO12 P6_3/m (176) mp-628782 [hull=0.000, icsd=6, PRIMARY]; V2Pb3O8 C2 (5) mp-25142 [hull=0.003, icsd=4, PRIMARY]; V6PbO11 P6_3/mmc (194) mp-25790 [hull=0.032, icsd=2, PRIMARY]; V3Pb5O12F P6_3/m (176) mp-1207903 [hull=0.000, icsd=2, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): VPbO3 P4mm (99) mp-25119 [hull=0.026, icsd=6, PRIMARY]; V3Pb5ClO12 P6_3/m (176) mp-628782 [hull=0.000, icsd=6, PRIMARY]; V2Pb3O8 C2 (5) mp-25142 [hull=0.003, icsd=4, PRIMARY]; V6PbO11 P6_3/mmc (194) mp-25790 [hull=0.032, icsd=2, PRIMARY, AMBIGUOUS]; V3Pb5O12F P6_3/m (176) mp-1207903 [hull=0.000, icsd=2, PRIMARY]
 - papers: Transport properties of ZnO substituted lead vanadate glass system at eutectic composition | Anomalous temperature variation of thermoelectric power in CdO and Ag2O substituted lead vanadate glass system
 
 ## O-Rh
@@ -285,7 +285,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - solid-solution axis: Fe/(Fe+Ru) spans 0.30-0.78 (median 0.70) over 4 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 10-300 K (5th-95th pct of 10 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La2FeAs2RuO2 P-4m2 (115) mp-1223264 [hull=0.112, PRIMARY]; La4FeAs4Ru3O4 P-42m (111) mp-1223053 [hull=0.001, PRIMARY]; La4FeAs4Ru3O4 P-4m2 (115) mp-1223024 [hull=0.005]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La2FeAs2RuO2 P-4m2 (115) mp-1223264 [hull=0.112, PRIMARY]; La4FeAs4Ru3O4 P-42m (111) mp-1223053 [hull=0.001, PRIMARY, AMBIGUOUS]; La4FeAs4Ru3O4 P-4m2 (115) mp-1223024 [hull=0.005]
 - papers: Superconducting Transition Temperatures and Transport Properties of LaFe1-yRuyAsO0.89F0.11and LaFeAsO0.89-xF0.11+x
 
 ## B-Co
@@ -364,7 +364,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Ti (1), C (1)
 - seed hypothesis (confirm): tungsten_bronze
 - measured range: 300-1069 K (5th-95th pct of 25 curves; full span incl. outliers 10-1072 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba3SrNb2O9 P-3m1 (164) mp-1103862 [hull=0.021, icsd=1, PRIMARY]; Ba2Sr3Nb10O30 P1 (1) mp-1228768 [hull=0.036, PRIMARY]; Ba2Sr3Nb10O30 P2 (3) mp-1228700 [hull=0.043]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba3SrNb2O9 P-3m1 (164) mp-1103862 [hull=0.021, icsd=1, PRIMARY]; Ba2Sr3Nb10O30 P1 (1) mp-1228768 [hull=0.036, PRIMARY, AMBIGUOUS]; Ba2Sr3Nb10O30 P2 (3) mp-1228700 [hull=0.043]
 - papers: Semiconducting large bandgap oxides as potential thermoelectric materials for high-temperature power generation? | Thermoelectric Properties of Reduced Polycrystalline Sr0.5Ba0.5Nb2O6Fabricated Via Solution Combustion Synthesis | Thermal conductivity and thermoelectric performance of SrxBa1−xNb2O6 ceramics at high temperatures
 
 ## Be-O
@@ -405,7 +405,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: C4H2S (3); (CH3Cl)7.69(C)86.18(C2S4Ni)6.13 (2); C5H4S (2); C36H32Cl4GaS24 (1); C36H32AuBr2S24 (1); C6H2S2 (1)
 - dopant candidates (<5% at.): Cl (3), Ni (2), Ga (1), Br (1), Au (1)
 - measured range: 10-340 K (5th-95th pct of 34 curves; full span incl. outliers 10-381 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CuH12C5S4N P-42_1c (114) mp-698375 [hull=0.108, icsd=1, PRIMARY]; H2CS3 P2_1/c (14) mp-709098 [hull=0.174, icsd=1, PRIMARY]; AgH12C4S5N Cc (9) mp-698405 [hull=0.081, icsd=1, PRIMARY]; H10PbC6S2IN P-1 (2) mp-1194627 [hull=0.109, icsd=1, PRIMARY]; FeH21C7S3N P2_1/c (14) mp-1201806 [hull=0.131, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CuH12C5S4N P-42_1c (114) mp-698375 [hull=0.108, icsd=1, PRIMARY, AMBIGUOUS]; H2CS3 P2_1/c (14) mp-709098 [hull=0.174, icsd=1, PRIMARY]; AgH12C4S5N Cc (9) mp-698405 [hull=0.081, icsd=1, PRIMARY]; H10PbC6S2IN P-1 (2) mp-1194627 [hull=0.109, icsd=1, PRIMARY]; FeH21C7S3N P2_1/c (14) mp-1201806 [hull=0.131, icsd=1, PRIMARY]
 - papers: Novel Hybrid Organic Thermoelectric Materials:Three-Component Hybrid Films Consisting of a Nanoparticle Polymer Complex, Carbon Nanotubes, and Vinyl Polymer | Dimerization Effect on the Physical Properties in New One-Dimensional Organic Conductors: (ChTM-TTP)2AuBr2, (ChTM-TTP)2GaCl4, and (ChTM-TTP)ReO4 | Thermoelectric Performances of Free-Standing Polythiophene and Poly(3-Methylthiophene) Nanofilms
 
 ## Ca-Co-H-O

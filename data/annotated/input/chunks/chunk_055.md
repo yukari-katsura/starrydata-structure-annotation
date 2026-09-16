@@ -218,7 +218,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2732 | 1 samples | 1 papers | 1 compositions
 - compositions: Bi2Mg2CoO6 (1)
 - measured range: 304-1010 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg14CoBiO16 P4/mmm (123) mp-1034825 [hull=0.131, PRIMARY]; Mg30CoBiO32 P4/mmm (123) mp-1036911 [hull=0.061, PRIMARY]; Mg6CoBiO8 P4/mmm (123) mp-1031710 [hull=0.223, PRIMARY]; Mg14CoBiO16 Pmmm (47) mp-1035048 [hull=0.135]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg14CoBiO16 P4/mmm (123) mp-1034825 [hull=0.131, PRIMARY, AMBIGUOUS]; Mg30CoBiO32 P4/mmm (123) mp-1036911 [hull=0.061, PRIMARY]; Mg6CoBiO8 P4/mmm (123) mp-1031710 [hull=0.223, PRIMARY]; Mg14CoBiO16 Pmmm (47) mp-1035048 [hull=0.135]
 - papers: Synthesis and Development of Thermoelectric Properties in Layered Bi2A2CoO6
 
 ## Bi-Co-O-Pb-Sr

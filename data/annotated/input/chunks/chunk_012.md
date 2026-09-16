@@ -68,7 +68,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: CaIrO3 (12)
 - seed hypothesis (confirm): perovskite, post_perovskite  <-- MIXED, split per composition
 - measured range: 10-1023 K (5th-95th pct of 10 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CaIrO3 Cmcm (63) mp-4243 [hull=0.000, icsd=18, PRIMARY]; Ca4IrO6 R-3c (167) mp-4100 [hull=0.023, icsd=2, PRIMARY]; Ca15Ni(IrO6)4 P2 (3) mp-1227837 [hull=0.033, PRIMARY]; Ca7Ni(IrO6)2 R32 (155) mp-1227125 [hull=0.045, PRIMARY]; CaIrO3 Pm-3m (221) mp-1016872 [hull=0.314]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CaIrO3 Cmcm (63) mp-4243 [hull=0.000, icsd=18, PRIMARY]; Ca4IrO6 R-3c (167) mp-4100 [hull=0.023, icsd=2, PRIMARY]; Ca15Ni(IrO6)4 P2 (3) mp-1227837 [hull=0.033, PRIMARY, AMBIGUOUS]; Ca7Ni(IrO6)2 R32 (155) mp-1227125 [hull=0.045, PRIMARY]; CaIrO3 Pm-3m (221) mp-1016872 [hull=0.314]
 - papers: Persistent semi-metal-like nature of epitaxial perovskite CaIrO<sub>3</sub> thin films | Thermoelectricity of CaIrO3 ceramics prepared by spark plasma sintering | Contrasted Sn substitution effects on Dirac line node semimetals SrIrO<sub>3</sub> and CaIrO<sub>3</sub>
 
 ## Ca-La-Rh-Sn
@@ -128,7 +128,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Co3V2O8 (11); CoV2O4 (1)
 - seed hypothesis (confirm): spinel
 - measured range: 10-193 K (5th-95th pct of 12 curves; full span incl. outliers 10-300 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): V2CoO8 Pnma (62) mp-1194802 [hull=0.228, icsd=3, PRIMARY]; V2CoO6 C2/m (12) mp-19311 [hull=0.010, icsd=1, PRIMARY]; V2Co2O7 P2_1/c (14) mp-622282 [hull=0.000, PRIMARY]; V2CoO4 Fd-3m (227) mp-765825 [hull=0.000, PRIMARY]; V3Co10AsO20 C2/m (12) mp-1208112 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): V2CoO8 Pnma (62) mp-1194802 [hull=0.228, icsd=3, PRIMARY]; V2CoO6 C2/m (12) mp-19311 [hull=0.010, icsd=1, PRIMARY, AMBIGUOUS]; V2Co2O7 P2_1/c (14) mp-622282 [hull=0.000, PRIMARY]; V2CoO4 Fd-3m (227) mp-765825 [hull=0.000, PRIMARY]; V3Co10AsO20 C2/m (12) mp-1208112 [hull=0.000, PRIMARY]
 - papers: Nonlinear Behavior in the Electrical Resistance of Strongly Correlated Insulators | Heat switch effect in an antiferromagnetic insulator Co3V2O8
 
 ## Cs-I-Sn
@@ -136,7 +136,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: CsSnI2.99Cl0.01 (5); CsSnI3 (2); CsSn0.8Ge0.2I3 (1); CsSn0.9Ge0.1I3 (1); (CsSnI3)0.995(PbI2)0.005 (1); (CsSnI3)0.99(PbI2)0.01 (1)
 - dopant candidates (<5% at.): Cl (5), Pb (3), Ge (2)
 - measured range: 293-522 K (5th-95th pct of 55 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CsSnI3 Pnma (62) mp-27381 [hull=0.000, icsd=2, PRIMARY]; Cs2SnI6 Fm-3m (225) mp-27636 [hull=0.000, icsd=2, PRIMARY]; CsSnI3 P4/mbm (127) mp-616378 [hull=0.003, icsd=2]; CsSnI3 Pm-3m (221) mp-614013 [hull=0.007, icsd=2]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CsSnI3 Pnma (62) mp-27381 [hull=0.000, icsd=2, PRIMARY, AMBIGUOUS]; Cs2SnI6 Fm-3m (225) mp-27636 [hull=0.000, icsd=2, PRIMARY]; CsSnI3 P4/mbm (127) mp-616378 [hull=0.003, icsd=2]; CsSnI3 Pm-3m (221) mp-614013 [hull=0.007, icsd=2]
 - papers: Enhanced control of self-doping in halide perovskites for improved thermoelectric performance | Enhanced Thermoelectric Performance in Lead-Free Inorganic CsSn1–xGexI3 Perovskite Semiconductors | Enhanced thermoelectric performance in inorganic CsSnI3 perovskite by doping with PbI2
 
 ## Cu-In-Te-Zn
@@ -196,7 +196,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): rocksalt
 - measured range: 10-1000 K (5th-95th pct of 13 curves; full span incl. outliers 10-1154 K)
 - [ref 1] TEDesignLab / ICSD: MgO Fm-3m (225) mp-1265 [hull=0.000, icsd=54, PRIMARY]; MgO2 Pa-3 (205) mp-2589 [hull=0.024, icsd=2]; MgO P6_3/mmc (194) mp-1192189 [hull=0.040, icsd=1]; MgO Ibam (72) mp-1192043 [hull=0.063, icsd=1]; MgO P6/mcc (192) mp-1190533 [hull=0.113, icsd=1]
-- [ref 2] MP, ranked by ICSD evidence: MgO2 C2/m (12) mp-1180260 [hull=0.531, icsd=9, PRIMARY]; BaMg30AlO32 P4/mmm (123) mp-1037958 [hull=0.107, PRIMARY]; YMg30BO32 P4/mmm (123) mp-1037198 [hull=0.129, PRIMARY]; YMg30AlO32 P4/mmm (123) mp-1038325 [hull=0.088, PRIMARY]; BaHfMg14O16 P4/mmm (123) mp-1033883 [hull=0.310, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence: MgO2 C2/m (12) mp-1180260 [hull=0.531, icsd=9, PRIMARY]; BaMg30AlO32 P4/mmm (123) mp-1037958 [hull=0.107, PRIMARY]; YMg30BO32 P4/mmm (123) mp-1037198 [hull=0.129, PRIMARY]; YMg30AlO32 P4/mmm (123) mp-1038325 [hull=0.088, PRIMARY]; BaHfMg14O16 P4/mmm (123) mp-1033883 [hull=0.310, PRIMARY, AMBIGUOUS]
 - papers: Enhanced Thermoelectric Power Factor of NaxCoO2Thin Films by Structural Engineering | Revealing the Origin of “Phonon Glass-Electron Crystal” Behavior in Thermoelectric Layered Cobaltate by Accurate Displacement Measurement | Superconducting fast microbolometers operating below their critical temperature
 
 ## Mg-Sn-Te
@@ -376,7 +376,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 596 | 11 samples | 3 papers | 3 compositions
 - compositions: BaIrO3 (9); Ba2IrO4 (1); Ba2Ir3O9 (1)
 - measured range: 10-322 K (5th-95th pct of 11 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaIrO3 Pm-3m (221) mp-5660 [hull=0.141, icsd=3, PRIMARY]; Ba4Ir3O10 P2_1/c (14) mp-17102 [hull=0.000, icsd=1, PRIMARY]; Ba2IrO4 I4/mmm (139) mp-755117 [hull=0.021, icsd=1, PRIMARY]; Ba7Ir6O19 C2/m (12) mp-28867 [hull=0.008, icsd=1, PRIMARY]; Ba(IrO3)2 R3 (146) mp-674187 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaIrO3 Pm-3m (221) mp-5660 [hull=0.141, icsd=3, PRIMARY]; Ba4Ir3O10 P2_1/c (14) mp-17102 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; Ba2IrO4 I4/mmm (139) mp-755117 [hull=0.021, icsd=1, PRIMARY]; Ba7Ir6O19 C2/m (12) mp-28867 [hull=0.008, icsd=1, PRIMARY]; Ba(IrO3)2 R3 (146) mp-674187 [hull=0.000, PRIMARY]
 - papers: Transition from a weak ferromagnetic insulator to an exchange-enhanced paramagnetic metal in theBaIrO3polytypes | Ba<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:msub><mml:mrow /><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:math>IrO<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:msub><mml:mrow /><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:math>: A spin-orbit Mott insulating quasi-two-dimensional antiferromagnet | Ba2Ir3O9: a new 5d mixed-valence metallic oxide with KSbO3-type structure
 
 ## Ba-Ni-Si

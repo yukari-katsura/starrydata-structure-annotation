@@ -214,7 +214,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2829 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca2.2Mg0.8Co4O9 (1)
 - measured range: 303-992 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca7Mg(Co2O5)4 P1 (1) mp-1076526 [hull=0.044, PRIMARY]; Ca7Mg(CoO3)8 Pm-3m (221) mp-1076128 [hull=0.209, PRIMARY]; CaMg14CoO16 Pmmm (47) mp-1036443 [hull=0.035, PRIMARY]; CaMg30CoO32 P4/mmm (123) mp-1038117 [hull=0.016, PRIMARY]; CaMg6CoO8 P4/mmm (123) mp-1032957 [hull=0.113, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca7Mg(Co2O5)4 P1 (1) mp-1076526 [hull=0.044, PRIMARY]; Ca7Mg(CoO3)8 Pm-3m (221) mp-1076128 [hull=0.209, PRIMARY]; CaMg14CoO16 Pmmm (47) mp-1036443 [hull=0.035, PRIMARY, AMBIGUOUS]; CaMg30CoO32 P4/mmm (123) mp-1038117 [hull=0.016, PRIMARY]; CaMg6CoO8 P4/mmm (123) mp-1032957 [hull=0.113, PRIMARY]
 - papers: Cation substituted (Ca2CoO3)xCoO2 films and their thermoelectric properties
 
 ## Ca-Co-O-Pb-Sr

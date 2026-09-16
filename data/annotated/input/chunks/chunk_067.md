@@ -210,7 +210,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3328 | 1 samples | 1 papers | 1 compositions
 - compositions: YPtGe (1)
 - measured range: 14-297 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Y3Ge13Pt4 Cc (9) mp-1200879 [hull=0.061, icsd=1, PRIMARY]; Y(GePt)2 Pmn2_1 (31) mp-1084838 [hull=0.011, icsd=1, PRIMARY]; YGePt Pnma (62) mp-1095607 [hull=0.000, icsd=1, PRIMARY]; YGe2Pt Immm (71) mp-1105716 [hull=0.000, icsd=1, PRIMARY]; Y2(GePt3)3 C2/c (15) mp-1207911 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Y3Ge13Pt4 Cc (9) mp-1200879 [hull=0.061, icsd=1, PRIMARY, AMBIGUOUS]; Y(GePt)2 Pmn2_1 (31) mp-1084838 [hull=0.011, icsd=1, PRIMARY]; YGePt Pnma (62) mp-1095607 [hull=0.000, icsd=1, PRIMARY]; YGe2Pt Immm (71) mp-1105716 [hull=0.000, icsd=1, PRIMARY]; Y2(GePt3)3 C2/c (15) mp-1207911 [hull=0.000, PRIMARY]
 - papers: Electrical and magnetic properties of YbPdGe and YbPtGe
 
 ## Ge-Rh
@@ -266,7 +266,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3336 | 1 samples | 1 papers | 1 compositions
 - compositions: V17Ge31 (1)
 - measured range: 308-915 K (5th-95th pct of 4 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): V3Ge Pm-3n (223) mp-1078697 [hull=0.000, icsd=17, PRIMARY]; V5Ge3 I4/mcm (140) mp-1105285 [hull=0.000, icsd=2, PRIMARY]; V11Ge8 Pnma (62) mp-1199253 [hull=0.000, icsd=2, PRIMARY]; V17Ge31 P-4n2 (118) mp-680383 [hull=0.000, icsd=1, PRIMARY]; VGe2 P6_222 (180) mp-1084800 [hull=0.021, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): V3Ge Pm-3n (223) mp-1078697 [hull=0.000, icsd=17, PRIMARY]; V5Ge3 I4/mcm (140) mp-1105285 [hull=0.000, icsd=2, PRIMARY, AMBIGUOUS]; V11Ge8 Pnma (62) mp-1199253 [hull=0.000, icsd=2, PRIMARY]; V17Ge31 P-4n2 (118) mp-680383 [hull=0.000, icsd=1, PRIMARY]; VGe2 P6_222 (180) mp-1084800 [hull=0.021, icsd=1, PRIMARY]
 - papers: Crystal Structure and Thermoelectric Properties of the Incommensurate Chimney–Ladder Compound VGeγ (γ ~1.82)
 
 ## H-La-Mg-O

@@ -254,7 +254,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: BaZr0.4Ce0.4Y0.2O3 (1)
 - dopant candidates (<5% at.): Y (1)
 - measured range: 573-1173 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2CeZrO6 P4/mmm (123) mp-1228386 [hull=0.032, PRIMARY]; Ba5Ce4ZrO15 C2/m (12) mp-1228442 [hull=0.009, PRIMARY]; Ba5Ce4ZrO15 P-1 (2) mp-1228741 [hull=0.010]; Ba5Ce4ZrO15 Cmmm (65) mp-1228097 [hull=0.039]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2CeZrO6 P4/mmm (123) mp-1228386 [hull=0.032, PRIMARY]; Ba5Ce4ZrO15 C2/m (12) mp-1228442 [hull=0.009, PRIMARY, AMBIGUOUS]; Ba5Ce4ZrO15 P-1 (2) mp-1228741 [hull=0.010]; Ba5Ce4ZrO15 Cmmm (65) mp-1228097 [hull=0.039]
 - papers: In situ formation of a 3D core-shell and triple-conducting oxygen reduction reaction electrode for proton-conducting SOFCs
 
 ## Ba-Co-Cu-Ho-O
@@ -301,7 +301,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2642 | 1 samples | 1 papers | 1 compositions
 - compositions: BaTmCo4O7 (1)
 - measured range: 299-853 K (5th-95th pct of 5 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaTmCo4O7 Pna2_1 (33) mp-1203002 [hull=0.002, icsd=1, PRIMARY]; BaTmCo4O7 Cc (9) mp-1192892 [hull=0.005, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaTmCo4O7 Pna2_1 (33) mp-1203002 [hull=0.002, icsd=1, PRIMARY, AMBIGUOUS]; BaTmCo4O7 Cc (9) mp-1192892 [hull=0.005, icsd=1]
 - papers: Structural and thermoelectric properties of BaRCo4O7 (R = Dy, Ho, Er, Tm, Yb, and Lu)
 
 ## Ba-Co-O-Zr

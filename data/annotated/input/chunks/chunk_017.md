@@ -22,7 +22,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 801 | 8 samples | 4 papers | 6 compositions
 - compositions: (La0.7Sr0.3MnO3)(La0.7Sr0.3FeO3) (3); SrLaFeMnO6 (1); Sr1.4La0.6FeMnO6 (1); Sr1.2La0.8FeMnO6 (1); La0.5Sr0.5Mn0.5Fe0.5O3 (1); La0.7Sr0.3Mn0.7Fe0.3O3 (1)
 - measured range: 81-1125 K (5th-95th pct of 8 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr3La7Mn7(FeO10)3 P1 (1) mp-706341 [hull=0.000, PRIMARY]; Sr3La7Mn8(FeO15)2 P1 (1) mp-705096 [hull=0.000, PRIMARY]; Sr3La7Mn9FeO30 C2 (5) mp-1173239 [hull=0.011, PRIMARY]; SrLaMnFeO6 Pc (7) mp-1218252 [hull=0.000, PRIMARY]; SrLaMnFeO6 P2/c (13) mp-705491 [hull=0.000]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr3La7Mn7(FeO10)3 P1 (1) mp-706341 [hull=0.000, PRIMARY]; Sr3La7Mn8(FeO15)2 P1 (1) mp-705096 [hull=0.000, PRIMARY]; Sr3La7Mn9FeO30 C2 (5) mp-1173239 [hull=0.011, PRIMARY]; SrLaMnFeO6 Pc (7) mp-1218252 [hull=0.000, PRIMARY, AMBIGUOUS]; SrLaMnFeO6 P2/c (13) mp-705491 [hull=0.000]
 - papers: Thickness dependence of exchange coupling in (111)-oriented perovskite oxide superlattices | Electron doping of Sr<sub>2</sub>FeMoO<sub>6−δ</sub> as high performance anode materials for solid oxide fuel cells | Effect of Fe and Co doping on structural and electrical properties of La0.5Sr1.5MnO4 layered-structure and the corresponding La0.5Sr0.5MnO3 perovskite
 
 ## Fe-Li-O
@@ -30,7 +30,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Li0.45Zn0.1La0.04Fe2.41O4 (1); Li0.4Cd0.2Fe2.4O4 (1); Li0.4Zn0.2Fe2.4O4 (1); Mg0.1Al0.2Li0.45Fe2.25O4 (1); Li0.45Mg0.1Fe2.45O4 (1); Li0.6Ge0.2Fe2.2O4 (1)
 - dopant candidates (<5% at.): Zn (2), Mg (2), La (1), Cd (1), Al (1), Ge (1), Cu (1)
 - measured range: 197-1121 K (5th-95th pct of 10 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiFe5O8 P4_332 (212) mp-31768 [hull=0.040, icsd=13, PRIMARY]; LiFeO2 I4_1/amd (141) mp-18782 [hull=0.018, icsd=4, PRIMARY]; Li5FeO4 Pbca (61) mp-19511 [hull=0.000, icsd=1, PRIMARY]; Li(Fe2O3)4 Cc (9) mp-1178116 [hull=0.048, PRIMARY]; Li11(FeO3)4 Pm (6) mp-849463 [hull=0.125, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiFe5O8 P4_332 (212) mp-31768 [hull=0.040, icsd=13, PRIMARY]; LiFeO2 I4_1/amd (141) mp-18782 [hull=0.018, icsd=4, PRIMARY]; Li5FeO4 Pbca (61) mp-19511 [hull=0.000, icsd=1, PRIMARY]; Li(Fe2O3)4 Cc (9) mp-1178116 [hull=0.048, PRIMARY, AMBIGUOUS]; Li11(FeO3)4 Pm (6) mp-849463 [hull=0.125, PRIMARY]
 - papers: Correlation of the physico chemical properties of Zn-substituted Li–La ferrite | Electrical conductivity and thermoelectric power of lithium-cadmium ferrites | Electrical Conductivity and Thermoelectric Power of LithiumZinc Ferrites
 
 ## Fe-P-S
@@ -187,7 +187,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Nb (8)
 - measured range: 77-423 K (5th-95th pct of 8 curves)
 - [ref 1] TEDesignLab / ICSD: TiPbO3 P4mm (99) mp-20459 [hull=0.000, icsd=30, PRIMARY]; Ti3PbO7 (11) [PRIMARY]; TiPbO3 Pm-3m (221) mp-19845 [hull=0.040, icsd=10]; TiPbO3 I4/m (87) mp-1106215 [hull=0.002, icsd=3]; TiPbO3 (47)
-- [ref 2] MP, ranked by ICSD evidence: HfTi4(PbO3)5 Cm (8) mp-1224605 [hull=0.013, PRIMARY]; Ti10Bi(Pb3O10)3 P1 (1) mp-677372 [hull=0.021, PRIMARY]; MgTi3Pb5WO15 P4/nmm (129) mp-694933 [hull=0.054, PRIMARY]; Ti3TePb4O13 R3m (160) mp-1217292 [hull=0.001, PRIMARY]; HfTi4(PbO3)5 Pmm2 (25) mp-1224660 [hull=0.014]
+- [ref 2] MP, ranked by ICSD evidence: HfTi4(PbO3)5 Cm (8) mp-1224605 [hull=0.013, PRIMARY, AMBIGUOUS]; Ti10Bi(Pb3O10)3 P1 (1) mp-677372 [hull=0.021, PRIMARY]; MgTi3Pb5WO15 P4/nmm (129) mp-694933 [hull=0.054, PRIMARY]; Ti3TePb4O13 R3m (160) mp-1217292 [hull=0.001, PRIMARY]; HfTi4(PbO3)5 Pmm2 (25) mp-1224660 [hull=0.014]
 - papers: Coexistence of polar distortion and metallicity in \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:msub><mml:mi>PbTi</mml:mi><mml:mrow><mml:mn>1</mml:mn><mml:mtext>−</mml:mtext><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mi>Nb</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:msub><mml:mi mathvariant=\"normal\">O</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:mrow></mml:math>
 
 ## Pb-Sb-Te
@@ -259,7 +259,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: AgIn0.9Sn0.1O2 (2); AgIn0.95Sn0.05O2 (2); AgIn0.93Sn0.07O2 (1); AgIn0.97Sn0.03O2 (1); AgInO2 (1)
 - dopant candidates (<5% at.): Sn (6)
 - measured range: 301-778 K (5th-95th pct of 11 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): InAgO2 P6_3/mmc (194) mp-20329 [hull=0.000, icsd=1, PRIMARY]; InAgO2 R-3m (166) mp-22660 [hull=0.001, icsd=1]; InAgO2 R3m (160) mp-1097001 [hull=0.111]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): InAgO2 P6_3/mmc (194) mp-20329 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; InAgO2 R-3m (166) mp-22660 [hull=0.001, icsd=1]; InAgO2 R3m (160) mp-1097001 [hull=0.111]
 - papers: Temperature Dependences of Electric Resistivity and Thermoelectric Power on Sn FractionXin Polycrystalline n-AgIn1-XSnXO2Compounds | Thermoelectric properties of delafossite-type layered oxides AgIn1−xSnxO2
 
 ## Ag-Sn
@@ -310,7 +310,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: LaAlO3 (7)
 - measured range: 10-356 K (5th-95th pct of 8 curves)
 - [ref 1] TEDesignLab / ICSD: LaAlO3 Pm-3m (221) mp-5304 [hull=0.007, icsd=69, PRIMARY]; LaAlO3 R-3c (167) mp-2920 [hull=0.000, icsd=33]; LaAlO3 I4/mcm (140) mp-1080080 [hull=0.001, icsd=2]; LaAlO3 Imma (74) mp-1080060 [hull=0.001, icsd=1]; LaAlO3 (15)
-- [ref 2] MP, ranked by ICSD evidence: La2Al4O9 Pbam (55) mp-768382 [hull=0.078, PRIMARY]; La3Al5O12 Ia-3d (230) mp-780432 [hull=0.034, PRIMARY]; La3AlO6 Cmc2_1 (36) mp-1178155 [hull=0.020, PRIMARY]; La3AlO Pm-3m (221) mp-1206996 [hull=0.000, PRIMARY]; La4Al6O15 C2/c (15) mp-1024042 [hull=0.071, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence: La2Al4O9 Pbam (55) mp-768382 [hull=0.078, PRIMARY]; La3Al5O12 Ia-3d (230) mp-780432 [hull=0.034, PRIMARY]; La3AlO6 Cmc2_1 (36) mp-1178155 [hull=0.020, PRIMARY]; La3AlO Pm-3m (221) mp-1206996 [hull=0.000, PRIMARY]; La4Al6O15 C2/c (15) mp-1024042 [hull=0.071, PRIMARY, AMBIGUOUS]
 - papers: Enhanced Thermoelectric Power Factor of NaxCoO2Thin Films by Structural Engineering | Strain Effect on Oxygen Evolution Reaction Activity of Epitaxial NdNiO<sub>3</sub> Thin Films | Irradiation induced modification in transport properties of LaNiO<sub>3</sub> thin films: An x-ray absorption study
 
 ## Al-Mn-Y

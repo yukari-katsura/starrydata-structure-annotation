@@ -131,7 +131,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2668 | 1 samples | 1 papers | 1 compositions
 - compositions: BaFe0.7Ti0.3O3 (1)
 - measured range: 629-1201 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2Ti4Fe2O13 C2/m (12) mp-1214656 [hull=0.012, PRIMARY]; Ba2TiFeO6 P3m1 (156) mp-1228536 [hull=0.015, PRIMARY]; Ba3Ti(FeO4)2 Ama2 (40) mp-1228283 [hull=0.026, PRIMARY]; Ba3TiFe2O9 P6_3mc (186) mp-1228231 [hull=0.000, PRIMARY]; BaTi2Fe4O11 C2/c (15) mp-1227638 [hull=0.051, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2Ti4Fe2O13 C2/m (12) mp-1214656 [hull=0.012, PRIMARY]; Ba2TiFeO6 P3m1 (156) mp-1228536 [hull=0.015, PRIMARY]; Ba3Ti(FeO4)2 Ama2 (40) mp-1228283 [hull=0.026, PRIMARY]; Ba3TiFe2O9 P6_3mc (186) mp-1228231 [hull=0.000, PRIMARY, AMBIGUOUS]; BaTi2Fe4O11 C2/c (15) mp-1227638 [hull=0.051, PRIMARY]
 - papers: High-temperature thermoelectric properties of BaFexTi1^|^minus;xO3^|^minus;^|^delta; ceramics
 
 ## Ba-Fe-O-Zn
@@ -222,7 +222,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2682 | 1 samples | 1 papers | 1 compositions
 - compositions: Y0.5Ba0.5MnO3 (1)
 - measured range: 166-399 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaYMn2O5 P4/mmm (123) mp-18850 [hull=0.000, icsd=5, PRIMARY]; Ba5Y8Mn4O21 I4/m (87) mp-1199104 [hull=0.004, icsd=1, PRIMARY]; Ba2Y2Mn4O11 Cmmm (65) mp-1214593 [hull=0.031, PRIMARY]; BaYMn2O6 P2/c (13) mp-18739 [hull=0.075, PRIMARY]; BaYMn2O5 P4/nmm (129) mp-1189786 [hull=0.000]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaYMn2O5 P4/mmm (123) mp-18850 [hull=0.000, icsd=5, PRIMARY]; Ba5Y8Mn4O21 I4/m (87) mp-1199104 [hull=0.004, icsd=1, PRIMARY]; Ba2Y2Mn4O11 Cmmm (65) mp-1214593 [hull=0.031, PRIMARY, AMBIGUOUS]; BaYMn2O6 P2/c (13) mp-18739 [hull=0.075, PRIMARY]; BaYMn2O5 P4/nmm (129) mp-1189786 [hull=0.000]
 - papers: <i>A</i>-site Randomness Effect on Structural and Physical Properties of Ba-based Perovskite Manganites
 
 ## Ba-Mo-O-Sr-Ti

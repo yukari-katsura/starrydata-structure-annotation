@@ -81,7 +81,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): inte_tlse, in4se3  <-- MIXED, split per composition
 - measured range: 12-736 K (5th-95th pct of 99 curves; full span incl. outliers 10-776 K)
 - [ref 1] TEDesignLab / ICSD: In4Te3 Pnnm (58) mp-617281 [hull=0.000, icsd=9, PRIMARY]; In2Te5 (9)
-- [ref 2] MP, ranked by ICSD evidence: InTe Fm-3m (225) mp-2597 [hull=0.008, icsd=10, PRIMARY]; In2Te3 F-43m (216) mp-622511 [hull=0.038, icsd=2, PRIMARY]; In2Te5 C2/c (15) mp-1197742 [hull=0.006, icsd=1, PRIMARY]; In7Te10 R32 (155) mp-669311 [hull=0.000, icsd=1, PRIMARY]; InTe I4/mcm (140) mp-20320 [hull=0.013, icsd=9]
+- [ref 2] MP, ranked by ICSD evidence: InTe Fm-3m (225) mp-2597 [hull=0.008, icsd=10, PRIMARY, AMBIGUOUS]; In2Te3 F-43m (216) mp-622511 [hull=0.038, icsd=2, PRIMARY]; In2Te5 C2/c (15) mp-1197742 [hull=0.006, icsd=1, PRIMARY]; In7Te10 R32 (155) mp-669311 [hull=0.000, icsd=1, PRIMARY]; InTe I4/mcm (140) mp-20320 [hull=0.013, icsd=9]
 - papers: Thermoelectric properties of polycrystalline In4Se3 and In4Te3 | Thermoelectric properties of bipolar diffusion effect on In4Se3−xTex compounds | The Origin of Ultralow Thermal Conductivity in InTe: Lone-Pair-Induced Anharmonic Rattling
 
 ## Mo-Sb
@@ -255,7 +255,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Cr0.003Cd0.21Hg0.79Se (3); Cr0.0003Cd0.21Hg0.79Se (3); Cr0.03Cd0.21Hg0.79Se (3); Co0.003Cd0.24Hg0.76Se (2); Fe0.03Cd0.35Hg0.65Se (2); Co0.03Cd0.24Hg0.76Se (2)
 - dopant candidates (<5% at.): Co (10), Cr (9), Fe (3)
 - measured range: 90-399 K (5th-95th pct of 22 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cd4HgSe5 P3m1 (156) mp-1226897 [hull=0.007, PRIMARY]; CdHg4Se5 I-4m2 (119) mp-1226731 [hull=0.005, PRIMARY]; CdHgSe2 R3m (160) mp-1226733 [hull=0.005, PRIMARY]; CdHg4Se5 R-3m (166) mp-1226756 [hull=0.170]; CdHgSe2 P-4m2 (115) mp-1226729 [hull=0.007]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cd4HgSe5 P3m1 (156) mp-1226897 [hull=0.007, PRIMARY]; CdHg4Se5 I-4m2 (119) mp-1226731 [hull=0.005, PRIMARY]; CdHgSe2 R3m (160) mp-1226733 [hull=0.005, PRIMARY, AMBIGUOUS]; CdHg4Se5 R-3m (166) mp-1226756 [hull=0.170]; CdHgSe2 P-4m2 (115) mp-1226729 [hull=0.007]
 - papers: Effect of Fe, Co, and Cr impurities on the thermoelectric properties of Cd x Hg1−x Se
 
 ## Ce-Ni
@@ -317,7 +317,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Li (4), Ga (3), In (3), Al (2), A0+ (1), Na (1)
 - seed hypothesis (confirm): rocksalt_oxide
 - measured range: 124-776 K (5th-95th pct of 30 curves; full span incl. outliers 113-1267 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NiO Fm-3m (225) mp-19009 [hull=0.000, icsd=32, PRIMARY]; Mn(Ni9O10)2 I4/mmm (139) mp-763814 [hull=0.000, PRIMARY]; Ni15O16 Im-3m (229) mp-705519 [hull=0.042, PRIMARY]; Mn3(Ni17O20)2 I4/mmm (139) mp-762377 [hull=0.000, PRIMARY]; Ni2O5 C2/c (15) mp-1094139 [hull=0.517, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NiO Fm-3m (225) mp-19009 [hull=0.000, icsd=32, PRIMARY]; Mn(Ni9O10)2 I4/mmm (139) mp-763814 [hull=0.000, PRIMARY]; Ni15O16 Im-3m (229) mp-705519 [hull=0.042, PRIMARY, AMBIGUOUS]; Mn3(Ni17O20)2 I4/mmm (139) mp-762377 [hull=0.000, PRIMARY]; Ni2O5 C2/c (15) mp-1094139 [hull=0.517, PRIMARY]
 - papers: Synthesis and thermoelectric performance of Li-doped NiO ceramics | Some physico-chemical properties of pure and doped nickel oxide. Electrical conductivity and thermoelectric power measurements | High performance p-type thermoelectric oxide based on NiO
 
 ## Si-Ta-Te
@@ -351,7 +351,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Mo (3), Sb (2), Bi (2), Ca (1), Ti (1), Zr (1), Cu (1), Nb (1), Sn (1), Sc (1)
 - seed hypothesis (confirm): brownmillerite
 - measured range: 369-1272 K (5th-95th pct of 21 curves; full span incl. outliers 298-1280 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2FeCoO6 P4/mmm (123) mp-1218834 [hull=0.030, PRIMARY]; Sr5Fe4CoO10 P4/mmm (123) mp-1218452 [hull=0.080, PRIMARY]; Sr8Fe4Co4O23 I4/mmm (139) mp-1218682 [hull=0.028, PRIMARY]; Sr8Fe7CoO20 P1 (1) mp-1076165 [hull=0.004, PRIMARY]; Sr8Fe7CoO24 Pm-3m (221) mp-1077660 [hull=0.011, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2FeCoO6 P4/mmm (123) mp-1218834 [hull=0.030, PRIMARY, AMBIGUOUS]; Sr5Fe4CoO10 P4/mmm (123) mp-1218452 [hull=0.080, PRIMARY]; Sr8Fe4Co4O23 I4/mmm (139) mp-1218682 [hull=0.028, PRIMARY]; Sr8Fe7CoO20 P1 (1) mp-1076165 [hull=0.004, PRIMARY]; Sr8Fe7CoO24 Pm-3m (221) mp-1077660 [hull=0.011, PRIMARY]
 - papers: Synthesis, Crystal Chemistry, and Electrical Properties of the Intergrowth Oxides Sr4−xCaxFe6−yCoyO13+δ | Reducing the Cobalt Content in SrCo<sub>0.95</sub>Ti<sub>0.05</sub>O<sub>3-δ</sub>-Based Perovskites to Produce Cleaner Cathodes for IT-SOFCs | Electrical conductivity and oxygen nonstoichiometry of SrCo0.25Fe0.75O3-δ
 
 ## Cu-La-O-Sr
@@ -388,7 +388,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Ca (7)
 - seed hypothesis (confirm): vanadium_bronze
 - measured range: 88-309 K (5th-95th pct of 21 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NaV2O5 Pmmn (59) mp-19111 [hull=0.025, icsd=12, PRIMARY]; NaVO3 C2/c (15) mp-19083 [hull=0.000, icsd=5, PRIMARY]; NaVO2 R-3m (166) mp-19391 [hull=0.000, icsd=3, PRIMARY]; NaV2O4 Pmmn (59) mp-783905 [hull=0.019, icsd=2, PRIMARY]; Na2VO4 P-1 (2) mp-1194140 [hull=0.114, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NaV2O5 Pmmn (59) mp-19111 [hull=0.025, icsd=12, PRIMARY]; NaVO3 C2/c (15) mp-19083 [hull=0.000, icsd=5, PRIMARY]; NaVO2 R-3m (166) mp-19391 [hull=0.000, icsd=3, PRIMARY]; NaV2O4 Pmmn (59) mp-783905 [hull=0.019, icsd=2, PRIMARY]; Na2VO4 P-1 (2) mp-1194140 [hull=0.114, icsd=1, PRIMARY, AMBIGUOUS]
 - papers: Correlation and disorder effects for the electronic transport in the low-dimensional system NaxCa1−xV2O5and NaxV2O5
 
 ## Ni-Ti
@@ -397,7 +397,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Cu (2)
 - seed hypothesis (confirm): b2_cscl
 - measured range: 11-396 K (5th-95th pct of 61 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TiNi P2_1/m (11) mp-1048 [hull=0.001, icsd=21, PRIMARY]; Ti2Ni Fd-3m (227) mp-1808 [hull=0.000, icsd=7, PRIMARY]; TiNi3 P6_3/mmc (194) mp-1409 [hull=0.000, icsd=7, PRIMARY]; Ti3Ni Pm-3m (221) mp-981209 [hull=0.127, PRIMARY]; TiNi4 R-3m (166) mp-1216809 [hull=0.380, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TiNi P2_1/m (11) mp-1048 [hull=0.001, icsd=21, PRIMARY]; Ti2Ni Fd-3m (227) mp-1808 [hull=0.000, icsd=7, PRIMARY]; TiNi3 P6_3/mmc (194) mp-1409 [hull=0.000, icsd=7, PRIMARY]; Ti3Ni Pm-3m (221) mp-981209 [hull=0.127, PRIMARY, AMBIGUOUS]; TiNi4 R-3m (166) mp-1216809 [hull=0.380, PRIMARY]
 - papers: Cu-substitution effect on thermoelectric properties of the TiNi-based shape memory alloys | Thermal and transport properties of as-grown Ni-rich TiNi shape memory alloys | Internal friction of Ti–Ni alloys
 
 ## Pb-S-Se
@@ -449,7 +449,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Pd (2), Si (2)
 - seed hypothesis (confirm): thcr2si2_122
 - measured range: 10-345 K (5th-95th pct of 33 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeNiGe2 Cmcm (63) mp-3541 [hull=0.000, icsd=5, PRIMARY]; Ce(NiGe)2 I4/mmm (139) mp-3325 [hull=0.000, icsd=4, PRIMARY]; Ce2NiGe3 P6/mmm (191) mp-1102475 [hull=0.007, icsd=2, PRIMARY]; CeNiGe Pnma (62) mp-20616 [hull=0.000, icsd=1, PRIMARY]; Ce5NiGe2 P4/ncc (130) mp-616173 [hull=0.052, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeNiGe2 Cmcm (63) mp-3541 [hull=0.000, icsd=5, PRIMARY]; Ce(NiGe)2 I4/mmm (139) mp-3325 [hull=0.000, icsd=4, PRIMARY]; Ce2NiGe3 P6/mmm (191) mp-1102475 [hull=0.007, icsd=2, PRIMARY]; CeNiGe Pnma (62) mp-20616 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; Ce5NiGe2 P4/ncc (130) mp-616173 [hull=0.052, icsd=1, PRIMARY]
 - papers: Thermoelectric properties of Ce(Ni, Pd)2Ge2 at low temperatures below 1K | Thermal and electron transport properties of Ce2Ni3Ge5 and Ce3NiGe2: Example of Kondo behavior in the presence of the crystalline field effect | Anisotropic transport and magnetic properties of CeNi2Ge2
 
 ## Co-S-Sb

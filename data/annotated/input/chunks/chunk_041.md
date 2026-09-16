@@ -118,7 +118,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2015 | 2 samples | 1 papers | 1 compositions
 - compositions: Bi2Rh2O7 (2)
 - measured range: 30-294 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Bi12Rh12O41 Imm2 (44) mp-760121 [hull=0.001, PRIMARY]; Bi8Rh8O27 R3m (160) mp-766286 [hull=0.009, PRIMARY]; CeBi2(Rh2O5)3 Pm (6) mp-1227635 [hull=0.015, PRIMARY]; Bi12Rh12O41 P3m1 (156) mp-686044 [hull=0.008]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Bi12Rh12O41 Imm2 (44) mp-760121 [hull=0.001, PRIMARY, AMBIGUOUS]; Bi8Rh8O27 R3m (160) mp-766286 [hull=0.009, PRIMARY]; CeBi2(Rh2O5)3 Pm (6) mp-1227635 [hull=0.015, PRIMARY]; Bi12Rh12O41 P3m1 (156) mp-686044 [hull=0.008]
 - papers: Impact of iso-structural template layer on stabilizing pyrochlore Bi2Rh2O7
 
 ## Bi-Pd-Y
@@ -183,13 +183,13 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2025 | 2 samples | 1 papers | 2 compositions
 - compositions: C13.71O42.95Na15.9Co27.41 (1); C5.48O48.8Na19.03Co26.69 (1)
 - measured range: 399-901 K (5th-95th pct of 6 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NaCo(CO)4 Pbcm (57) mp-609284 [hull=0.362, icsd=1, PRIMARY]; Na4Co2C4SO16 Fddd (70) mp-1176472 [hull=0.034, PRIMARY]; Na4Co2P(CO4)4 Fddd (70) mp-771217 [hull=0.064, PRIMARY]; Na5Co2As(CO4)4 C2/c (15) mp-777426 [hull=0.055, PRIMARY]; Na5CoCO5 Pmm2 (25) mp-1221135 [hull=0.030, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NaCo(CO)4 Pbcm (57) mp-609284 [hull=0.362, icsd=1, PRIMARY]; Na4Co2C4SO16 Fddd (70) mp-1176472 [hull=0.034, PRIMARY, AMBIGUOUS]; Na4Co2P(CO4)4 Fddd (70) mp-771217 [hull=0.064, PRIMARY]; Na5Co2As(CO4)4 C2/c (15) mp-777426 [hull=0.055, PRIMARY, AMBIGUOUS]; Na5CoCO5 Pmm2 (25) mp-1221135 [hull=0.030, PRIMARY]
 - papers: Synthesis and Electrical Properties of γ-Na x Co2O4 via a Citrate Sol–Gel Method with Polyethylene Glycol 400
 
 ## C-Co-O
 - rank 2026 | 2 samples | 1 papers | 1 compositions
 - compositions: C3Co4O9 (2)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co(CO)4 P2_1/m (11) mp-609229 [hull=0.402, icsd=3, PRIMARY]; CoCO3 R-3c (167) mp-24854 [hull=0.000, icsd=3, PRIMARY]; Co3SnC12ClO12 P2_1/c (14) mp-1202020 [hull=0.368, icsd=2, PRIMARY]; Fe2Co4Ge2(CO)21 C2/c (15) mp-652793 [hull=0.510, icsd=2, PRIMARY]; Co3C10O9 P3_121 (152) mp-647768 [hull=0.466, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co(CO)4 P2_1/m (11) mp-609229 [hull=0.402, icsd=3, PRIMARY]; CoCO3 R-3c (167) mp-24854 [hull=0.000, icsd=3, PRIMARY]; Co3SnC12ClO12 P2_1/c (14) mp-1202020 [hull=0.368, icsd=2, PRIMARY]; Fe2Co4Ge2(CO)21 C2/c (15) mp-652793 [hull=0.510, icsd=2, PRIMARY]; Co3C10O9 P3_121 (152) mp-647768 [hull=0.466, icsd=1, PRIMARY, AMBIGUOUS]
 - papers: High-temperature thermoelectric properties of Ca3Co4O9+δ with Eu substitution
 
 ## C-Co-O-Sr

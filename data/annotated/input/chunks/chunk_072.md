@@ -23,7 +23,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: PbO (1)
 - measured range: 291-663 K (5th-95th pct of 1 curves)
 - [ref 1] TEDesignLab / ICSD: PbO P4/nmm (129) mp-19921 [hull=0.000, icsd=21, PRIMARY]; Pb3O4 P4_2/mbc (135) mp-22633 [hull=0.000, icsd=13, PRIMARY]; Pb2O3 P2_1/c (14) mp-20078 [hull=0.010, icsd=1, PRIMARY]; PbO2 P4_2/mnm (136) mp-20725 [hull=0.000, icsd=7]; Pb3O4 Pbam (55) mp-21452 [hull=0.000, icsd=7]
-- [ref 2] MP, ranked by ICSD evidence: PbO2 Pnma (62) mp-1101843 [hull=0.058, icsd=9, PRIMARY]; Pb3O Pm-3m (221) mp-1186421 [hull=0.731, PRIMARY]; Pb3O5 Cmce (64) mp-651870 [hull=0.043, PRIMARY]; PbO2 Pbcn (60) mp-20633 [hull=0.008, icsd=6]; PbO2 Fm-3m (225) mp-20158 [hull=0.106, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence: PbO2 Pnma (62) mp-1101843 [hull=0.058, icsd=9, PRIMARY]; Pb3O Pm-3m (221) mp-1186421 [hull=0.731, PRIMARY, AMBIGUOUS]; Pb3O5 Cmce (64) mp-651870 [hull=0.043, PRIMARY]; PbO2 Pbcn (60) mp-20633 [hull=0.008, icsd=6]; PbO2 Fm-3m (225) mp-20158 [hull=0.106, icsd=1]
 - papers: Electrical and thermal properties of Bi/sub 2/O/sub 3/, PbO and mixed oxides of Bi/sub 2/O/sub 3/-PbO system
 
 ## O-Pb-Te
@@ -64,7 +64,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: RbFe0.33W1.67O6 (1)
 - dopant candidates (<5% at.): Fe (1)
 - measured range: 328-1026 K (5th-95th pct of 4 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Rb2WO4 C2/m (12) mp-18864 [hull=0.000, icsd=2, PRIMARY]; Rb(WO3)3 P6mm (183) mp-1194279 [hull=0.008, icsd=1, PRIMARY]; Rb2W2O7 P2_1/c (14) mp-19144 [hull=0.000, icsd=1, PRIMARY]; Rb(WO4)8 C2/m (12) mp-1198691 [hull=0.350, icsd=1, PRIMARY]; Rb(WO3)6 Pnnm (58) mp-698610 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Rb2WO4 C2/m (12) mp-18864 [hull=0.000, icsd=2, PRIMARY]; Rb(WO3)3 P6mm (183) mp-1194279 [hull=0.008, icsd=1, PRIMARY, AMBIGUOUS]; Rb2W2O7 P2_1/c (14) mp-19144 [hull=0.000, icsd=1, PRIMARY]; Rb(WO4)8 C2/m (12) mp-1198691 [hull=0.350, icsd=1, PRIMARY]; Rb(WO3)6 Pnnm (58) mp-698610 [hull=0.000, PRIMARY, AMBIGUOUS]
 - papers: Crystal Structure and Thermoelectric Properties of β-Pyrochlore-Type Alkali Iron Tungsten Oxides with Cage-Like Structure
 
 ## O-Rh-Te
@@ -137,7 +137,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3567 | 1 samples | 1 papers | 1 compositions
 - compositions: (WO)0.95(Tb4O7)0.05 (1)
 - measured range: 520-971 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Tb2(WO4)3 P2_1/c (14) mp-770516 [hull=0.016, PRIMARY]; Tb2WO6 P2_12_12_1 (19) mp-771443 [hull=0.000, PRIMARY]; TbWO5 P2_1/c (14) mp-1208379 [hull=0.130, PRIMARY]; Tb2(WO4)3 C2/c (15) mp-770351 [hull=0.034]; Tb2(WO4)3 Pba2 (32) mp-770342 [hull=0.043]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Tb2(WO4)3 P2_1/c (14) mp-770516 [hull=0.016, PRIMARY]; Tb2WO6 P2_12_12_1 (19) mp-771443 [hull=0.000, PRIMARY, AMBIGUOUS]; TbWO5 P2_1/c (14) mp-1208379 [hull=0.130, PRIMARY]; Tb2(WO4)3 C2/c (15) mp-770351 [hull=0.034]; Tb2(WO4)3 Pba2 (32) mp-770342 [hull=0.043]
 - papers: Microstructure and thermoelectric properties of tungsten trioxide ceramics doped with a low amount of terbium dioxide
 
 ## O-Te-Ti
@@ -152,7 +152,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Zr0.76Y0.08Ti0.16O1.96 (1)
 - dopant candidates (<5% at.): Y (1)
 - measured range: 472-1273 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZrTi2O P6/mmm (191) mp-27296 [hull=0.324, icsd=1, PRIMARY]; Zr3TiO8 I-42m (121) mp-1207388 [hull=0.033, PRIMARY]; Zr5Ti7O24 Pc (7) mp-761840 [hull=0.031, PRIMARY]; ZrTi2O6 P1 (1) mp-757504 [hull=0.047, PRIMARY]; ZrTiO3 Pm-3m (221) mp-1183045 [hull=0.725, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZrTi2O P6/mmm (191) mp-27296 [hull=0.324, icsd=1, PRIMARY]; Zr3TiO8 I-42m (121) mp-1207388 [hull=0.033, PRIMARY]; Zr5Ti7O24 Pc (7) mp-761840 [hull=0.031, PRIMARY, AMBIGUOUS]; ZrTi2O6 P1 (1) mp-757504 [hull=0.047, PRIMARY]; ZrTiO3 Pm-3m (221) mp-1183045 [hull=0.725, PRIMARY]
 - papers: Effect of lattice defects on thermal conductivity of Ti-doped, Y2O3-stabilized ZrO2
 
 ## O-Tl
@@ -181,7 +181,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3573 | 1 samples | 1 papers | 1 compositions
 - compositions: OsP2 (1)
 - measured range: 299-460 K (5th-95th pct of 2 curves; full span incl. outliers 299-689 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): P4Os P2_1/c (14) mp-1087509 [hull=0.000, icsd=1, PRIMARY]; P4Os P-1 (2) mp-1103842 [hull=0.000, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): P4Os P2_1/c (14) mp-1087509 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; P4Os P-1 (2) mp-1103842 [hull=0.000, icsd=1]
 - papers: Crystal Growth and Characterization of the Narrow-Band-Gap Semiconductors OsPn2(Pn = P, As, Sb)
 
 ## Os-P-Pr
@@ -287,7 +287,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: AgPb10Sb12 (1)
 - dopant candidates (<5% at.): Ag (1)
 - measured range: 300-480 K (5th-95th pct of 3 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sb3Pb P6_3/mmc (194) mp-973199 [hull=0.186, PRIMARY]; SbPb Fm-3m (225) mp-1206982 [hull=0.070, PRIMARY]; SbPb3 P-6m2 (187) mp-1219498 [hull=0.087, PRIMARY]; SbPb4 R-3m (166) mp-1219484 [hull=0.054, PRIMARY]; SbPb Cmmm (65) mp-1219460 [hull=0.133]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sb3Pb P6_3/mmc (194) mp-973199 [hull=0.186, PRIMARY]; SbPb Fm-3m (225) mp-1206982 [hull=0.070, PRIMARY]; SbPb3 P-6m2 (187) mp-1219498 [hull=0.087, PRIMARY, AMBIGUOUS]; SbPb4 R-3m (166) mp-1219484 [hull=0.054, PRIMARY]; SbPb Cmmm (65) mp-1219460 [hull=0.133]
 - papers: Preparation and thermoelectric properties of AgPbmSbTe2+m alloys
 
 ## Pb-Se-Sr

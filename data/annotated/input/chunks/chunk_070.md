@@ -56,7 +56,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3456 | 1 samples | 1 papers | 1 compositions
 - compositions: Lu5Si3 (1)
 - measured range: 13-294 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Lu5Si3 P6_3/mcm (193) mp-11908 [hull=0.000, icsd=4, PRIMARY]; LuSi2 P6/mmm (191) mp-1103 [hull=0.098, icsd=4, PRIMARY]; LuSi Cmcm (63) mp-1001612 [hull=0.000, icsd=2, PRIMARY]; Lu3Si Pm-3m (221) mp-1185426 [hull=0.238, PRIMARY]; LuSi3 Pm-3m (221) mp-973668 [hull=0.234, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Lu5Si3 P6_3/mcm (193) mp-11908 [hull=0.000, icsd=4, PRIMARY]; LuSi2 P6/mmm (191) mp-1103 [hull=0.098, icsd=4, PRIMARY]; LuSi Cmcm (63) mp-1001612 [hull=0.000, icsd=2, PRIMARY]; Lu3Si Pm-3m (221) mp-1185426 [hull=0.238, PRIMARY, AMBIGUOUS]; LuSi3 Pm-3m (221) mp-973668 [hull=0.234, PRIMARY]
 - papers: Thermoelectric properties of Yb5Si3
 
 ## Lu-Zn
@@ -76,14 +76,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mg-Ni
 - rank 3459 | 1 samples | 1 papers | 1 compositions
 - compositions: Mg2Ni (1)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg2Ni P6_222 (180) mp-2137 [hull=0.000, icsd=13, PRIMARY]; MgNi2 P6_3/mmc (194) mp-2675 [hull=0.000, icsd=6, PRIMARY]; MgNi P4/mmm (123) mp-1018140 [hull=0.048, icsd=1, PRIMARY]; MgNi3 Pm-3m (221) mp-1063661 [hull=0.114, icsd=1, PRIMARY]; Nd(Mg10Ni)2 Fd-3m (227) mp-1195878 [hull=0.010, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg2Ni P6_222 (180) mp-2137 [hull=0.000, icsd=13, PRIMARY]; MgNi2 P6_3/mmc (194) mp-2675 [hull=0.000, icsd=6, PRIMARY]; MgNi P4/mmm (123) mp-1018140 [hull=0.048, icsd=1, PRIMARY, AMBIGUOUS]; MgNi3 Pm-3m (221) mp-1063661 [hull=0.114, icsd=1, PRIMARY]; Nd(Mg10Ni)2 Fd-3m (227) mp-1195878 [hull=0.010, icsd=1, PRIMARY]
 - papers: Temperature dependence of magnetoresistance and Hall effect in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant=\"normal\">Mg</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant=\"normal\">NiH</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math>films
 
 ## Mg-Ni-Sb
 - rank 3460 | 1 samples | 1 papers | 1 compositions
 - compositions: MgNiSb (1)
 - measured range: 199-379 K (5th-95th pct of 3 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MgNiSb F-43m (216) mp-15778 [hull=0.000, icsd=1, PRIMARY]; MgNi2Sb Fm-3m (225) mp-30773 [hull=0.072, icsd=1, PRIMARY]; Mg6NiSb Amm2 (38) mp-1099292 [hull=0.157, PRIMARY]; Mg14NiSb Amm2 (38) mp-1028357 [hull=0.079, PRIMARY]; Mg14NiSb P-6m2 (187) mp-1028340 [hull=0.080]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MgNiSb F-43m (216) mp-15778 [hull=0.000, icsd=1, PRIMARY]; MgNi2Sb Fm-3m (225) mp-30773 [hull=0.072, icsd=1, PRIMARY]; Mg6NiSb Amm2 (38) mp-1099292 [hull=0.157, PRIMARY]; Mg14NiSb Amm2 (38) mp-1028357 [hull=0.079, PRIMARY, AMBIGUOUS]; Mg14NiSb P-6m2 (187) mp-1028340 [hull=0.080]
 - papers: Thermoelectric properties of ScCoSb, ScNi0.86Sb and MgNiSb compounds
 
 ## Mg-O-Sb-Si
@@ -97,14 +97,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Zn0.8379Mg0.1596Al0.0025O (1)
 - dopant candidates (<5% at.): Al (1)
 - measured range: 286-1165 K (5th-95th pct of 5 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg2ZnO3 P-3m1 (164) mp-1222123 [hull=0.047, PRIMARY]; Mg3ZnO4 Pm-3m (221) mp-1024045 [hull=0.032, PRIMARY]; MgZn2O3 P-3m1 (164) mp-1221931 [hull=0.095, PRIMARY]; MgZn3O4 Cm (8) mp-1221958 [hull=0.013, PRIMARY]; MgZn4O5 P3m1 (156) mp-1221986 [hull=0.013, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg2ZnO3 P-3m1 (164) mp-1222123 [hull=0.047, PRIMARY]; Mg3ZnO4 Pm-3m (221) mp-1024045 [hull=0.032, PRIMARY, AMBIGUOUS]; MgZn2O3 P-3m1 (164) mp-1221931 [hull=0.095, PRIMARY]; MgZn3O4 Cm (8) mp-1221958 [hull=0.013, PRIMARY]; MgZn4O5 P3m1 (156) mp-1221986 [hull=0.013, PRIMARY]
 - papers: Thermoelectric properties of (Zn1−yMgy)1−xAlxO ceramics prepared by the polymerized complex method
 
 ## Mg-Pb
 - rank 3463 | 1 samples | 1 papers | 1 compositions
 - compositions: Mg2Pb (1)
 - measured range: 10-181 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg2Pb Fm-3m (225) mp-20724 [hull=0.000, icsd=7, PRIMARY]; Mg149Pb P-6m2 (187) mp-1185570 [hull=0.000, PRIMARY]; Mg3Pb I4/mmm (139) mp-978293 [hull=0.012, PRIMARY]; Mg5Pb R32 (155) mp-1185832 [hull=0.024, PRIMARY]; MgPb C2/m (12) mp-1185919 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg2Pb Fm-3m (225) mp-20724 [hull=0.000, icsd=7, PRIMARY]; Mg149Pb P-6m2 (187) mp-1185570 [hull=0.000, PRIMARY]; Mg3Pb I4/mmm (139) mp-978293 [hull=0.012, PRIMARY, AMBIGUOUS]; Mg5Pb R32 (155) mp-1185832 [hull=0.024, PRIMARY, AMBIGUOUS]; MgPb C2/m (12) mp-1185919 [hull=0.000, PRIMARY]
 - papers: Thermal conductivity of magnesium plumbide
 
 ## Mg-Pb-Sb
@@ -138,7 +138,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Y4.5Tb4.5Mg42Zn57 (1)
 - dopant candidates (<5% at.): Y (1), Tb (1)
 - measured range: 14-292 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MgZn2 P6_3/mmc (194) mp-1124 [hull=0.000, icsd=8, PRIMARY]; Mg2Zn11 Pm-3 (200) mp-30784 [hull=0.000, icsd=1, PRIMARY]; Mg4Zn7 C2/m (12) mp-680671 [hull=0.000, icsd=1, PRIMARY]; Mg149Zn P-6m2 (187) mp-1185642 [hull=0.000, PRIMARY]; Mg2Zn Cmcm (63) mp-1094422 [hull=0.026, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MgZn2 P6_3/mmc (194) mp-1124 [hull=0.000, icsd=8, PRIMARY]; Mg2Zn11 Pm-3 (200) mp-30784 [hull=0.000, icsd=1, PRIMARY]; Mg4Zn7 C2/m (12) mp-680671 [hull=0.000, icsd=1, PRIMARY]; Mg149Zn P-6m2 (187) mp-1185642 [hull=0.000, PRIMARY]; Mg2Zn Cmcm (63) mp-1094422 [hull=0.026, PRIMARY, AMBIGUOUS]
 - papers: Magnetic and transport properties of single-grainR−Mg−Znicosahedral quasicrystals [R=Y,(Y1−xGdx),(Y1−xTbx),Tb, Dy, Ho, and Er]
 
 ## Mn-Mo-S
@@ -176,7 +176,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3474 | 1 samples | 1 papers | 1 compositions
 - compositions: Sr0.7Si0.3MnO3 (1)
 - measured range: 773-1073 K (5th-95th pct of 5 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaSr2Mn2(Si2O7)2 C2 (5) mp-19122 [hull=0.001, icsd=2, PRIMARY]; Sr2MnSi2O7 P-42_1m (113) mp-1191740 [hull=0.000, icsd=1, PRIMARY]; SrMn2(SiO5)2 P2_1/m (11) mp-1218300 [hull=0.207, PRIMARY]; SrMn2(SiO5)2 Cmcm (63) mp-1208671 [hull=0.215]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaSr2Mn2(Si2O7)2 C2 (5) mp-19122 [hull=0.001, icsd=2, PRIMARY]; Sr2MnSi2O7 P-42_1m (113) mp-1191740 [hull=0.000, icsd=1, PRIMARY]; SrMn2(SiO5)2 P2_1/m (11) mp-1218300 [hull=0.207, PRIMARY, AMBIGUOUS]; SrMn2(SiO5)2 Cmcm (63) mp-1208671 [hull=0.215]
 - papers: Fabrication and thermoelectric properties of Sr1−xSixMnO3−δ
 
 ## Mn-O-Sm
@@ -268,7 +268,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3487 | 1 samples | 1 papers | 1 compositions
 - compositions: Zr3Mn4Si6 (1)
 - measured range: 303-1110 K (5th-95th pct of 4 curves; full span incl. outliers 303-1170 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZrMnSi Pnma (62) mp-22227 [hull=0.000, icsd=2, PRIMARY]; ZrMnSi2 Immm (71) mp-18059 [hull=0.007, icsd=1, PRIMARY]; Zr3(Mn2Si3)2 P4_2/mbc (135) mp-31310 [hull=0.002, icsd=1, PRIMARY]; Zr3Mn8Si P3m1 (156) mp-1215733 [hull=0.093, PRIMARY]; ZrMnSi2 Pbam (55) mp-1197723 [hull=0.013, icsd=1]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZrMnSi Pnma (62) mp-22227 [hull=0.000, icsd=2, PRIMARY]; ZrMnSi2 Immm (71) mp-18059 [hull=0.007, icsd=1, PRIMARY, AMBIGUOUS]; Zr3(Mn2Si3)2 P4_2/mbc (135) mp-31310 [hull=0.002, icsd=1, PRIMARY]; Zr3Mn8Si P3m1 (156) mp-1215733 [hull=0.093, PRIMARY]; ZrMnSi2 Pbam (55) mp-1197723 [hull=0.013, icsd=1]
 - papers: Thermoelectric Properties of Zr3Mn4Si6 and TiMnSi2
 
 ## Mn-Sn-Th
@@ -328,7 +328,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3496 | 1 samples | 1 papers | 1 compositions
 - compositions: Tb2Mo2O7 (1)
 - measured range: 12-281 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Tb2Mo2O7 Fd-3m (227) mp-19200 [hull=0.006, icsd=4, PRIMARY]; Tb2(MoO4)3 Pba2 (32) mp-19534 [hull=0.000, icsd=3, PRIMARY]; Tb5(MoO6)2 C2/m (12) mp-1105460 [hull=0.005, icsd=1, PRIMARY]; Tb4Mo4O11 Pbam (55) mp-32040 [hull=0.158, icsd=1, PRIMARY]; KTb2Cu(MoO4)4 C2/c (15) mp-699636 [hull=0.020, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Tb2Mo2O7 Fd-3m (227) mp-19200 [hull=0.006, icsd=4, PRIMARY]; Tb2(MoO4)3 Pba2 (32) mp-19534 [hull=0.000, icsd=3, PRIMARY, AMBIGUOUS]; Tb5(MoO6)2 C2/m (12) mp-1105460 [hull=0.005, icsd=1, PRIMARY]; Tb4Mo4O11 Pbam (55) mp-32040 [hull=0.158, icsd=1, PRIMARY]; KTb2Cu(MoO4)4 C2/c (15) mp-699636 [hull=0.020, icsd=1, PRIMARY]
 - papers: Thermoelectric power of RE2Mo2O7 pyrochlores
 
 ## Mo-O-Tm

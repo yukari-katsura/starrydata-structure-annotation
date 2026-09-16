@@ -193,7 +193,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3076 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.85Sr1.15GaCuO5 (1)
 - measured range: 24-310 K (5th-95th pct of 1 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SrLaGaCuO5 Cm (8) mp-1218226 [hull=0.031, PRIMARY]; SrLaGaCuO5 Cc (9) mp-1173173 [hull=0.038]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SrLaGaCuO5 Cm (8) mp-1218226 [hull=0.031, PRIMARY, AMBIGUOUS]; SrLaGaCuO5 Cc (9) mp-1173173 [hull=0.038]
 - papers: Thermoelectric power in single-layer copper oxides
 
 ## Cu-Ga-U

@@ -55,7 +55,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1706 | 3 samples | 1 papers | 1 compositions
 - compositions: Er2Zr2O7 (3)
 - measured range: 303-772 K (5th-95th pct of 3 curves; full span incl. outliers 303-873 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Er2Zr2O7 C2/m (12) mp-1178353 [hull=0.082, PRIMARY]; Er2Zr8O19 P-4m2 (115) mp-675556 [hull=0.093, PRIMARY]; Er4Zr3O12 P-1 (2) mp-675065 [hull=0.000, PRIMARY]; Er2Zr2O7 Fd-3m (227) mp-756545 [hull=0.082]; Er2Zr2O7 Pmma (51) mp-674842 [hull=0.152]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Er2Zr2O7 C2/m (12) mp-1178353 [hull=0.082, PRIMARY, AMBIGUOUS]; Er2Zr8O19 P-4m2 (115) mp-675556 [hull=0.093, PRIMARY]; Er4Zr3O12 P-1 (2) mp-675065 [hull=0.000, PRIMARY]; Er2Zr2O7 Fd-3m (227) mp-756545 [hull=0.082]; Er2Zr2O7 Pmma (51) mp-674842 [hull=0.152]
 - papers: Electrical and thermal conductivities of rare-earth A2Zr2O7 (A = Pr, Nd, Sm, Gd, and Er)
 
 ## Er-Zr
@@ -137,7 +137,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: LaFe11.40Co0.52Si1.09 (1); LaFe11.5Si1.5 (1); La(Fe0.88Si0.12)13 (1)
 - dopant candidates (<5% at.): Co (1)
 - measured range: 26-343 K (5th-95th pct of 7 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La(FeSi)2 I4/mmm (139) mp-4088 [hull=0.000, icsd=3, PRIMARY]; LaFe9Si4 I4/mcm (140) mp-662529 [hull=0.014, icsd=2, PRIMARY]; LaFeSi2 Cmcm (63) mp-1080643 [hull=0.000, icsd=1, PRIMARY]; LaFe8Si5 I4/mcm (140) mp-1211378 [hull=0.033, PRIMARY]; La2FeSi3 P-6m2 (187) mp-1223271 [hull=0.161, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La(FeSi)2 I4/mmm (139) mp-4088 [hull=0.000, icsd=3, PRIMARY]; LaFe9Si4 I4/mcm (140) mp-662529 [hull=0.014, icsd=2, PRIMARY]; LaFeSi2 Cmcm (63) mp-1080643 [hull=0.000, icsd=1, PRIMARY]; LaFe8Si5 I4/mcm (140) mp-1211378 [hull=0.033, PRIMARY, AMBIGUOUS]; La2FeSi3 P-6m2 (187) mp-1223271 [hull=0.161, PRIMARY]
 - papers: The maximal cooling power of magnetic and thermoelectric refrigerators with La(FeCoSi)13 alloys | Thermal transport properties of magnetic refrigerants La(FexSi1−x)13 and their hydrides, and Gd5Si2Ge2 and MnAs
 
 ## Fe-Mn
@@ -227,7 +227,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Ga90.15Sn6.64Zn3.21Na0.32 (1); Ga90.15Sn6.64Zn3.21Na0.16 (1); Ga90.15Sn6.64Zn3.21Na1.57 (1)
 - dopant candidates (<5% at.): Zn (3), Na (3)
 - measured range: 307-908 K (5th-95th pct of 9 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ga3Sn I4/mmm (139) mp-1184031 [hull=0.049, PRIMARY]; GaSn3 I4/mmm (139) mp-1184266 [hull=0.049, PRIMARY]; Ga3Sn Fm-3m (225) mp-1183986 [hull=0.052]; Ga3Sn Pm-3m (221) mp-1183978 [hull=0.062]; GaSn3 P6_3/mmc (194) mp-1184285 [hull=0.068]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ga3Sn I4/mmm (139) mp-1184031 [hull=0.049, PRIMARY, AMBIGUOUS]; GaSn3 I4/mmm (139) mp-1184266 [hull=0.049, PRIMARY]; Ga3Sn Fm-3m (225) mp-1183986 [hull=0.052]; Ga3Sn Pm-3m (221) mp-1183978 [hull=0.062]; GaSn3 P6_3/mmc (194) mp-1184285 [hull=0.068]
 - papers: Potential cooling agents for fast nuclear reactors: Sodium influence on the thermophysical properties of liquid Ga-Sn-Zn eutectic alloys
 
 ## Gd

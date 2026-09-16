@@ -99,7 +99,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: (Ba0.6Sr0.4)0.95La0.05SnO3 (1); (Ba0.4Sr0.6)0.95La0.05SnO3 (1)
 - dopant candidates (<5% at.): La (2)
 - measured range: 368-1069 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba3Sr(SnO3)4 Pmmm (47) mp-1228079 [hull=0.014, PRIMARY]; Ba4Sr(SnO3)5 P4/mmm (123) mp-1228076 [hull=0.011, PRIMARY]; BaSr(SnO3)2 P4/mmm (123) mp-1227742 [hull=0.024, PRIMARY]; BaSr2(SnO3)3 C2 (5) mp-1227830 [hull=0.012, PRIMARY]; BaSr3(SnO3)4 Pm (6) mp-1227795 [hull=0.021, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba3Sr(SnO3)4 Pmmm (47) mp-1228079 [hull=0.014, PRIMARY]; Ba4Sr(SnO3)5 P4/mmm (123) mp-1228076 [hull=0.011, PRIMARY, AMBIGUOUS]; BaSr(SnO3)2 P4/mmm (123) mp-1227742 [hull=0.024, PRIMARY, AMBIGUOUS]; BaSr2(SnO3)3 C2 (5) mp-1227830 [hull=0.012, PRIMARY]; BaSr3(SnO3)4 Pm (6) mp-1227795 [hull=0.021, PRIMARY]
 - papers: High-Temperature Thermoelectric Properties of La-Doped Ba1-xSrxSnO3 Ceramics
 
 ## Ba-O-Ti-Zr
@@ -241,7 +241,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1983 | 2 samples | 1 papers | 1 compositions
 - compositions: BiCoO3 (2)
 - measured range: 10-295 K (5th-95th pct of 8 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CoBiO3 Pnma (62) mp-1188346 [hull=0.117, icsd=1, PRIMARY]; Co(Bi3O5)4 I23 (197) mp-694906 [hull=0.019, PRIMARY]; Co(Bi5O8)5 C2 (5) mp-706332 [hull=0.030, PRIMARY]; Co(BiO3)2 P321 (150) mp-766738 [hull=0.000, PRIMARY]; Co3BiO8 P4_332 (212) mp-774284 [hull=0.048, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CoBiO3 Pnma (62) mp-1188346 [hull=0.117, icsd=1, PRIMARY]; Co(Bi3O5)4 I23 (197) mp-694906 [hull=0.019, PRIMARY]; Co(Bi5O8)5 C2 (5) mp-706332 [hull=0.030, PRIMARY, AMBIGUOUS]; Co(BiO3)2 P321 (150) mp-766738 [hull=0.000, PRIMARY]; Co3BiO8 P4_332 (212) mp-774284 [hull=0.048, PRIMARY, AMBIGUOUS]
 - papers: Synthesis, Characterization, and Thermoelectric Properties of Electrospun Boron-Doped Barium-Stabilized Bismuth-Cobalt Oxide Nanoceramics
 
 ## Bi-Cs-Pb-Te
@@ -348,5 +348,5 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Ho2Sn0.2Bi0.8O3 (1); Ho2BiO3 (1)
 - dopant candidates (<5% at.): Sn (1)
 - measured range: 10-398 K (5th-95th pct of 2 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ho2BiO2 I4/mmm (139) mp-1067937 [hull=0.000, icsd=3, PRIMARY]; Ho(Bi3O5)4 I23 (197) mp-769405 [hull=0.059, PRIMARY]; Ho2Bi2O7 Fd-3m (227) mp-769229 [hull=0.093, PRIMARY]; HoBiO3 R3c (161) mp-1178162 [hull=0.032, PRIMARY]; HoBiO3 Pnma (62) mp-770830 [hull=0.036]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ho2BiO2 I4/mmm (139) mp-1067937 [hull=0.000, icsd=3, PRIMARY]; Ho(Bi3O5)4 I23 (197) mp-769405 [hull=0.059, PRIMARY]; Ho2Bi2O7 Fd-3m (227) mp-769229 [hull=0.093, PRIMARY]; HoBiO3 R3c (161) mp-1178162 [hull=0.032, PRIMARY, AMBIGUOUS]; HoBiO3 Pnma (62) mp-770830 [hull=0.036]
 - papers: Rare-Earth Pnictide Oxides (RE,Ca)mPnnOm (Pn = Sb, Bi): A Review of Crystal Structures, Chemistry, Compositions, and Physical Properties

@@ -114,7 +114,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3015 | 1 samples | 1 papers | 1 compositions
 - compositions: CuCr0.7Mg0.3O2 (1)
 - measured range: 305-772 K (5th-95th pct of 5 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg14CrCuO16 Pmmm (47) mp-1035284 [hull=0.044, PRIMARY]; Mg30CrCuO32 P4/mmm (123) mp-1037287 [hull=0.022, PRIMARY]; Mg6CrCuO8 P4/mmm (123) mp-1032334 [hull=0.087, PRIMARY]; Mg14CrCuO16 P4/mmm (123) mp-1035311 [hull=0.050]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg14CrCuO16 Pmmm (47) mp-1035284 [hull=0.044, PRIMARY, AMBIGUOUS]; Mg30CrCuO32 P4/mmm (123) mp-1037287 [hull=0.022, PRIMARY]; Mg6CrCuO8 P4/mmm (123) mp-1032334 [hull=0.087, PRIMARY]; Mg14CrCuO16 P4/mmm (123) mp-1035311 [hull=0.050]
 - papers: Effects of multi-scale defects on the thermoelectric properties of delafossite CuCr1-xMgxO2 materials
 
 ## Cr-Cu-S-Sb

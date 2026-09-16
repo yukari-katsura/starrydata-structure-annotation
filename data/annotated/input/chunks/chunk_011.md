@@ -58,7 +58,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): W (3)
 - seed hypothesis (confirm): tungsten_bronze
 - measured range: 18-290 K (5th-95th pct of 14 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Rb2MoO4 C2/m (12) mp-19212 [hull=0.000, icsd=1, PRIMARY]; Rb4Te(MoO4)6 C2/c (15) mp-1199659 [hull=0.175, icsd=1, PRIMARY]; Rb3FeMo4O15 P2_1/c (14) mp-1199199 [hull=0.006, icsd=1, PRIMARY]; Rb3(MoO3)10 C2/m (12) mp-1202770 [hull=0.019, icsd=1, PRIMARY]; Rb2Te(MoO5)3 P2_1/c (14) mp-1179896 [hull=0.382, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Rb2MoO4 C2/m (12) mp-19212 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; Rb4Te(MoO4)6 C2/c (15) mp-1199659 [hull=0.175, icsd=1, PRIMARY]; Rb3FeMo4O15 P2_1/c (14) mp-1199199 [hull=0.006, icsd=1, PRIMARY]; Rb3(MoO3)10 C2/m (12) mp-1202770 [hull=0.019, icsd=1, PRIMARY]; Rb2Te(MoO5)3 P2_1/c (14) mp-1179896 [hull=0.382, icsd=1, PRIMARY]
 - papers: Structural, Magnetic and Electronic Transport Properties of Novel Hollandite-Type Molybdenum Oxide, Rb1.5Mo8O16 | Electronic structure and transport properties of K-doped blue bronze Rb0.15K0.15MoO3 | Thermal transport properties and electronic structure of W-doped rubidium blue bronzes Rb0.3Mo1−xWxO3 (x=0, 0.001, 0.003, 0.005)
 
 ## N-Sc
@@ -313,7 +313,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Sb (7), Cu (7)
 - measured range: 173-862 K (5th-95th pct of 34 curves; full span incl. outliers 129-871 K)
 - [ref 1] TEDesignLab / ICSD: Ga2Te5 I4/m (87) mp-2371 [hull=0.000, icsd=3, PRIMARY]; GaTe P6_3/mmc (194) mp-10009 [hull=0.004, icsd=1, PRIMARY]; GaTe (12)
-- [ref 2] MP, ranked by ICSD evidence: Ga2Te3 R-3m (166) mp-1070116 [hull=0.332, icsd=1, PRIMARY]; Ga7Te10 R32 (155) mp-18388 [hull=0.000, icsd=1, PRIMARY]; Ga3Te I4/mmm (139) mp-1184010 [hull=0.203, PRIMARY]; Ga2Te3 Cc (9) mp-38970 [hull=0.000]; Ga2Te3 Imm2 (44) mp-1224840 [hull=0.016]
+- [ref 2] MP, ranked by ICSD evidence: Ga2Te3 R-3m (166) mp-1070116 [hull=0.332, icsd=1, PRIMARY]; Ga7Te10 R32 (155) mp-18388 [hull=0.000, icsd=1, PRIMARY]; Ga3Te I4/mmm (139) mp-1184010 [hull=0.203, PRIMARY, AMBIGUOUS]; Ga2Te3 Cc (9) mp-38970 [hull=0.000]; Ga2Te3 Imm2 (44) mp-1224840 [hull=0.016]
 - papers: Thermoelectric properties of splat‐cooled amorphous In20Te80, Ga20Te80, and Ge15Te85 | Thermoelectric power (TEP) of layered chalcogenides GaTe crystals | Engineered cation vacancy plane responsible for the reduction in lattice thermal conductivity and improvement in the thermoelectric property of Ga2Te3-based semiconductors
 
 ## Mn-Ni-Sb-Ti
@@ -334,7 +334,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: TlSbTe2 (4); Tl9SbTe6 (2); TlSbTe6 (1); Tl9Sb0.95Sn0.05Te6 (1); Tl9Sb0.97Sn0.03Te6 (1); Tl9Sb0.9Sn0.1Te6 (1)
 - dopant candidates (<5% at.): Sn (3), Pb (3)
 - measured range: 297-720 K (5th-95th pct of 51 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TlSbTe2 R-3m (166) mp-4573 [hull=0.597, icsd=3, PRIMARY]; Tl9SbTe6 I4 (79) mp-34292 [hull=0.146, PRIMARY]; TlSbTe2 C2/m (12) mp-634989 [hull=0.951]; Tl9SbTe6 P4/m (83) mp-686086 [hull=0.148]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TlSbTe2 R-3m (166) mp-4573 [hull=0.597, icsd=3, PRIMARY]; Tl9SbTe6 I4 (79) mp-34292 [hull=0.146, PRIMARY, AMBIGUOUS]; TlSbTe2 C2/m (12) mp-634989 [hull=0.951]; Tl9SbTe6 P4/m (83) mp-686086 [hull=0.148]
 - papers: Thermoelectric properties of thallium antimony telluride | Thermoelectric properties of Sn- and Pb-doped Tl9BiTe6 and Tl9SbTe6 | Thermoelectric Properties of Thallium Compounds with Extremely Low Thermal Conductivity
 
 ## Sn

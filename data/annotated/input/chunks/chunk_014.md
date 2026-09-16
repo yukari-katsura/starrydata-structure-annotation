@@ -31,7 +31,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 652 | 10 samples | 5 papers | 7 compositions
 - compositions: Cd6Yb (3); Cd84Yb16 (2); Cd86Yb14 (1); Cd83Yb17 (1); Cd85Yb15 (1); Cd5.7Yb (1)
 - measured range: 11-300 K (5th-95th pct of 31 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbCd Pm-3m (221) mp-1857 [hull=0.000, icsd=3, PRIMARY]; YbCd2 P6_3/mmc (194) mp-1102731 [hull=0.012, icsd=1, PRIMARY]; Yb3Cd Pm-3m (221) mp-1187925 [hull=0.073, PRIMARY]; YbCd3 Fm-3m (225) mp-865366 [hull=0.000, PRIMARY]; YbCd6 I23 (197) mp-680604 [hull=0.000, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbCd Pm-3m (221) mp-1857 [hull=0.000, icsd=3, PRIMARY]; YbCd2 P6_3/mmc (194) mp-1102731 [hull=0.012, icsd=1, PRIMARY]; Yb3Cd Pm-3m (221) mp-1187925 [hull=0.073, PRIMARY]; YbCd3 Fm-3m (225) mp-865366 [hull=0.000, PRIMARY, AMBIGUOUS]; YbCd6 I23 (197) mp-680604 [hull=0.000, PRIMARY, AMBIGUOUS]
 - papers: Thermoelectric properties of binary Cd-Yb quasicrystals and Cd6Yb | Electronic transport in Cd–Yb and Y–Mg–Zn quasicrystals | Thermoelectric Properties of Binary Cd–Yb Quasicrystal and Its Approximant
 
 ## Ce-Cu-La-Si
@@ -135,7 +135,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 665 | 10 samples | 2 papers | 4 compositions
 - compositions: La0.75Sr0.25Cr0.5Mn0.5O3 (5); La0.75Sr0.25Cr0.4Mn0.6O3 (2); La0.75Sr0.25Cr0.6Mn0.4O3 (2); La0.75Sr0.25Cr0.3Mn0.7O3 (1)
 - measured range: 574-1172 K (5th-95th pct of 10 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr3LaMnCrO8 Amm2 (38) mp-1218443 [hull=0.000, PRIMARY]; SrLa3Mn2Cr2O12 P2 (3) mp-1218286 [hull=0.015, PRIMARY]; SrLa3Mn3CrO12 R3 (146) mp-1218266 [hull=0.011, PRIMARY]; SrLa3Mn2Cr2O12 C2 (5) mp-1218313 [hull=0.020]; SrLa3Mn2Cr2O12 P1 (1) mp-1218314 [hull=0.033]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr3LaMnCrO8 Amm2 (38) mp-1218443 [hull=0.000, PRIMARY]; SrLa3Mn2Cr2O12 P2 (3) mp-1218286 [hull=0.015, PRIMARY, AMBIGUOUS]; SrLa3Mn3CrO12 R3 (146) mp-1218266 [hull=0.011, PRIMARY]; SrLa3Mn2Cr2O12 C2 (5) mp-1218313 [hull=0.020]; SrLa3Mn2Cr2O12 P1 (1) mp-1218314 [hull=0.033]
 - papers: Cr doping effect in B-site of La0.75Sr0.25MnO3 on its phase stability and performance as an SOFC anode | La0.75Sr0.25Cr0.5Mn0.5O3−δ+Cu composite anode running on H2 and CH4 fuels
 
 ## Eu-Ga-Ge

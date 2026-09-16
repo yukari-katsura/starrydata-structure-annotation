@@ -83,7 +83,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1460 | 4 samples | 1 papers | 1 compositions
 - compositions: La3LiMn4O12 (4)
 - measured range: 10-400 K (5th-95th pct of 5 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiLa2Mn3O9 P-3m1 (164) mp-1222383 [hull=0.107, PRIMARY]; LiLa3MnO7 P2_1/c (14) mp-769464 [hull=0.000, PRIMARY]; LiLa4MnO8 I4_1/amd (141) mp-770950 [hull=0.036, PRIMARY]; LiLa6Mn3O14 Pc (7) mp-771521 [hull=0.045, PRIMARY]; LiLa3MnO7 P2_1/m (11) mp-1222623 [hull=0.001]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiLa2Mn3O9 P-3m1 (164) mp-1222383 [hull=0.107, PRIMARY]; LiLa3MnO7 P2_1/c (14) mp-769464 [hull=0.000, PRIMARY, AMBIGUOUS]; LiLa4MnO8 I4_1/amd (141) mp-770950 [hull=0.036, PRIMARY, AMBIGUOUS]; LiLa6Mn3O14 Pc (7) mp-771521 [hull=0.045, PRIMARY]; LiLa3MnO7 P2_1/m (11) mp-1222623 [hull=0.001]
 - papers: Effect of bismuth doping on the physical properties of La–Li–Mn–O manganite
 
 ## La-Mn-Nd-O-Sr
@@ -134,7 +134,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: MgTi2O5(TiN)0.359 (1); MgTi2O5 (1); MgTi2.67O6.34(TiN)0.455 (1); Ti0.73Mg0.27O (1)
 - dopant candidates (<5% at.): N (2)
 - measured range: 11-973 K (5th-95th pct of 16 curves)
-- [ref 1] TEDesignLab / ICSD: MgTiO3 R-3 (148) mp-3771 [hull=0.000, icsd=30, PRIMARY]; MgTi2O4 P4_12_12 (92) mp-1194382 [hull=0.017, icsd=1, PRIMARY]
+- [ref 1] TEDesignLab / ICSD: MgTiO3 R-3 (148) mp-3771 [hull=0.000, icsd=30, PRIMARY]; MgTi2O4 P4_12_12 (92) mp-1194382 [hull=0.017, icsd=1, PRIMARY, AMBIGUOUS]
 - [ref 2] MP, ranked by ICSD evidence: MgTi2O5 Cmcm (63) mp-28232 [hull=0.000, icsd=1, PRIMARY]; Mg2TiO P-1 (2) mp-675042 [hull=0.667, PRIMARY]; Mg11Ti25O60 P1 (1) mp-757825 [hull=0.000, PRIMARY]; Mg2Ti2O5 Ima2 (46) mp-1076652 [hull=0.254, PRIMARY]; MgTi2O4 Fd-3m (227) mp-27872 [hull=0.017, icsd=1]
 - papers: Thermoelectric properties of MgTi2O5/TiN conductive composites prepared via reactive spark plasma sintering for high temperature functional applications | Mg-doping enhanced superconductivity and ferromagnetism in Ti1−\n Mg O films
 
@@ -342,7 +342,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: (ZnO)4.2(SiO2)3.3 (1); (ZnO)4.9(SiO2)3.3 (1); (ZnO)5.6(SiO2)3.3 (1); (ZnO)6.3(SiO2)3.3 (1)
 - measured range: 73-296 K (5th-95th pct of 4 curves)
 - [ref 1] TEDesignLab / ICSD: Zn2SiO4 Pnma (62) mp-1020594 [hull=0.010, icsd=1]; Zn2SiO4 Pbca (61) mp-1020636 [hull=0.052, icsd=1]; Zn2SiO4 P2_1/c (14) mp-1020721 [hull=0.111, icsd=1]; Zn2SiO4 Imma (74) mp-1020717 [hull=0.122, icsd=1]; ZnSiO3 R-3 (148) mp-1020623 [hull=0.148, icsd=1]
-- [ref 2] MP, ranked by ICSD evidence: Zn2SiO5 Imm2 (44) mp-1189355 [hull=0.435, icsd=6, PRIMARY]; Zn2SiO4 R-3 (148) mp-3789 [hull=0.000, icsd=5, PRIMARY]; ZnSiO3 Pbca (61) mp-619034 [hull=0.054, icsd=2, PRIMARY]; Zn4Si2O9 Imm2 (44) mp-1103526 [hull=0.147, icsd=2, PRIMARY]; KMn2Zn3(Si2O5)6 P6cc (184) mp-704116 [hull=0.018, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence: Zn2SiO5 Imm2 (44) mp-1189355 [hull=0.435, icsd=6, PRIMARY]; Zn2SiO4 R-3 (148) mp-3789 [hull=0.000, icsd=5, PRIMARY]; ZnSiO3 Pbca (61) mp-619034 [hull=0.054, icsd=2, PRIMARY, AMBIGUOUS]; Zn4Si2O9 Imm2 (44) mp-1103526 [hull=0.147, icsd=2, PRIMARY]; KMn2Zn3(Si2O5)6 P6cc (184) mp-704116 [hull=0.018, icsd=1, PRIMARY]
 - papers: Structure and Electrical Properties of (ZnO/SiO2)25 Thin Films
 
 ## O-Sm

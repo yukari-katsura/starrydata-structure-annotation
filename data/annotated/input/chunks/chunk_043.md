@@ -134,7 +134,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: (Mn0.5Co0.5)3O4 (1); Cu0.23Mn1.44Co1.32O4 (1)
 - dopant candidates (<5% at.): Cu (1)
 - measured range: 309-1067 K (5th-95th pct of 3 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mn(CoO2)2 P1 (1) mp-767807 [hull=0.041, PRIMARY]; Mn(CoO2)4 C2/m (12) mp-773238 [hull=0.070, PRIMARY]; Mn(CoO3)2 C2/m (12) mp-763057 [hull=0.025, PRIMARY]; Mn2Co2O5 P4/mmm (123) mp-974861 [hull=0.522, PRIMARY]; Mn2Co5O12 C2 (5) mp-771625 [hull=0.106, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mn(CoO2)2 P1 (1) mp-767807 [hull=0.041, PRIMARY]; Mn(CoO2)4 C2/m (12) mp-773238 [hull=0.070, PRIMARY]; Mn(CoO3)2 C2/m (12) mp-763057 [hull=0.025, PRIMARY, AMBIGUOUS]; Mn2Co2O5 P4/mmm (123) mp-974861 [hull=0.522, PRIMARY]; Mn2Co5O12 C2 (5) mp-771625 [hull=0.106, PRIMARY]
 - papers: Development and electrical properties of wurtzite (Al,Ti)N materials for thin film thermistors | Formation of sol–gel derived (Cu,Mn,Co)3O4 spinel and its electrical properties
 
 ## Co-Mn-Si

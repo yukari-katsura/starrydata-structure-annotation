@@ -28,7 +28,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1752 | 3 samples | 2 papers | 1 compositions
 - compositions: KOs2O6 (3)
 - measured range: 11-680 K (5th-95th pct of 3 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): K(OsO3)2 Fd-3m (227) mp-4788 [hull=0.012, icsd=7, PRIMARY]; K2OsO6 I4/m (87) mp-1080446 [hull=0.264, icsd=1, PRIMARY]; K2OsO5 P-6 (174) mp-762088 [hull=0.000, PRIMARY]; KOsO3 Pm-3m (221) mp-1185009 [hull=0.041, PRIMARY]; K(OsO3)2 R3m (160) mp-675028 [hull=0.012]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): K(OsO3)2 Fd-3m (227) mp-4788 [hull=0.012, icsd=7, PRIMARY]; K2OsO6 I4/m (87) mp-1080446 [hull=0.264, icsd=1, PRIMARY]; K2OsO5 P-6 (174) mp-762088 [hull=0.000, PRIMARY, AMBIGUOUS]; KOsO3 Pm-3m (221) mp-1185009 [hull=0.041, PRIMARY]; K(OsO3)2 R3m (160) mp-675028 [hull=0.012]
 - papers: Manifestations of fine features of the density of states in the transport properties ofKOs2O6 | Chemical trends of superconducting properties in pyrochlore oxides
 
 ## K-O-V
@@ -43,7 +43,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1754 | 3 samples | 1 papers | 2 compositions
 - compositions: La0.33Li0.59NbO3 (2); La0.33Li0.44NbO3 (1)
 - measured range: 24-295 K (5th-95th pct of 3 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Li2LaNb6O18 Pmmm (47) mp-1210870 [hull=0.099, PRIMARY]; Li4La3Nb12O36 C2/m (12) mp-762374 [hull=0.080, PRIMARY]; Li5La3Nb14O42 C2/m (12) mp-768083 [hull=0.086, PRIMARY]; Li5La3Nb2O12 P1 (1) mp-761986 [hull=0.054, PRIMARY]; Li5La4TiNb7O28 P1 (1) mp-781824 [hull=0.051, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Li2LaNb6O18 Pmmm (47) mp-1210870 [hull=0.099, PRIMARY]; Li4La3Nb12O36 C2/m (12) mp-762374 [hull=0.080, PRIMARY]; Li5La3Nb14O42 C2/m (12) mp-768083 [hull=0.086, PRIMARY]; Li5La3Nb2O12 P1 (1) mp-761986 [hull=0.054, PRIMARY, AMBIGUOUS]; Li5La4TiNb7O28 P1 (1) mp-781824 [hull=0.051, PRIMARY]
 - papers: Metallization of La1/3NbO3 by lithium incorporation
 
 ## La-Mn-O-Sr-Ti
@@ -107,7 +107,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1763 | 3 samples | 1 papers | 1 compositions
 - compositions: Li0.33MoO3 (3)
 - measured range: 96-507 K (5th-95th pct of 9 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiMoO2 R-3m (166) mp-19338 [hull=0.011, icsd=3, PRIMARY]; Li2MoO4 R-3 (148) mp-25080 [hull=0.000, icsd=1, PRIMARY]; Li12Mo5O17 P-1 (2) mp-1199885 [hull=0.018, icsd=1, PRIMARY]; Li4Mo3O8 R-3m (166) mp-690551 [hull=0.059, icsd=1, PRIMARY]; Li4MoO5 P-1 (2) mp-19117 [hull=0.000, icsd=1, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiMoO2 R-3m (166) mp-19338 [hull=0.011, icsd=3, PRIMARY]; Li2MoO4 R-3 (148) mp-25080 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; Li12Mo5O17 P-1 (2) mp-1199885 [hull=0.018, icsd=1, PRIMARY]; Li4Mo3O8 R-3m (166) mp-690551 [hull=0.059, icsd=1, PRIMARY]; Li4MoO5 P-1 (2) mp-19117 [hull=0.000, icsd=1, PRIMARY]
 - papers: Anisotropic transport in the quasi-one-dimensional semiconductor Li0.33MoO3
 
 ## Li-Nd-O-Ti
@@ -122,7 +122,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1765 | 3 samples | 1 papers | 3 compositions
 - compositions: Mg1.7Mn0.3Si (1); Mg1.6Mn0.4Si (1); Mg1.8Mn0.2Si (1)
 - measured range: 11-298 K (5th-95th pct of 12 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg14MnSi Amm2 (38) mp-1028099 [hull=0.123, PRIMARY]; Mg6MnSi Amm2 (38) mp-1023005 [hull=0.232, PRIMARY]; Mg14MnSi P-6m2 (187) mp-1028096 [hull=0.131]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mg14MnSi Amm2 (38) mp-1028099 [hull=0.123, PRIMARY, AMBIGUOUS]; Mg6MnSi Amm2 (38) mp-1023005 [hull=0.232, PRIMARY]; Mg14MnSi P-6m2 (187) mp-1028096 [hull=0.131]
 - papers: Correlation between the magnetic and thermoelectric properties in Mg2−xMnxSi
 
 ## Mg-Sb-Sn
@@ -305,7 +305,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Ce (1)
 - measured range: 300-2078 K (5th-95th pct of 3 curves)
 - [ref 1] TEDesignLab / ICSD: Y2O3 P-3m1 (164) mp-13061 [hull=0.071, icsd=3]; Y2O3 Pnma (62) mp-1178770 [hull=0.122, icsd=1]; Y2O3 (12)
-- [ref 2] MP, ranked by ICSD evidence: Y2O3 Ia-3 (206) mp-2652 [hull=0.000, icsd=44, PRIMARY]; YO2 P2_1/m (11) mp-1206610 [hull=0.178, icsd=1, PRIMARY]; YO3 Pnma (62) mp-1189335 [hull=0.452, icsd=1, PRIMARY]; Y15TmO24 C2 (5) mp-757001 [hull=0.001, PRIMARY]; SmY15O24 C2 (5) mp-757791 [hull=0.001, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence: Y2O3 Ia-3 (206) mp-2652 [hull=0.000, icsd=44, PRIMARY]; YO2 P2_1/m (11) mp-1206610 [hull=0.178, icsd=1, PRIMARY]; YO3 Pnma (62) mp-1189335 [hull=0.452, icsd=1, PRIMARY, AMBIGUOUS]; Y15TmO24 C2 (5) mp-757001 [hull=0.001, PRIMARY]; SmY15O24 C2 (5) mp-757791 [hull=0.001, PRIMARY]
 - papers: Measurement of Thermal Diffusivity for Y<sub>2</sub>O<sub>3</sub> Sintered Bodies | Thermally self-managing YAG:Ce–Al2O3color converters enabling high-brightness laser-driven solid state lighting in a transmissive configuration
 
 ## O-Yb-Zr

@@ -61,7 +61,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Ca (10), La (9)
 - seed hypothesis (confirm): layered_double_perovskite
 - measured range: 10-399 K (5th-95th pct of 88 curves; full span incl. outliers 10-1125 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaNdCo2O5 Pmmm (47) mp-24853 [hull=0.047, icsd=5, PRIMARY]; Ba2Nd2Co4O11 Pmmm (47) mp-24879 [hull=0.054, icsd=5, PRIMARY]; BaNd(CoO3)2 P4/mmm (123) mp-1079144 [hull=0.092, icsd=2, PRIMARY]; BaNd2CoO5 Immm (71) mp-19118 [hull=0.035, icsd=1, PRIMARY]; Ba3Nd3(Co3O8)2 C2/m (12) mp-1228415 [hull=0.048, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaNdCo2O5 Pmmm (47) mp-24853 [hull=0.047, icsd=5, PRIMARY, AMBIGUOUS]; Ba2Nd2Co4O11 Pmmm (47) mp-24879 [hull=0.054, icsd=5, PRIMARY]; BaNd(CoO3)2 P4/mmm (123) mp-1079144 [hull=0.092, icsd=2, PRIMARY]; BaNd2CoO5 Immm (71) mp-19118 [hull=0.035, icsd=1, PRIMARY]; Ba3Nd3(Co3O8)2 C2/m (12) mp-1228415 [hull=0.048, PRIMARY]
 - papers: A novel method to control oxygen stoichiometry and thermoelectric properties in (RE)BaCo2O5+δ | Impact of charge doping, oxygen disorder and hydrostatic pressure on thermoelectric and magnetic properties of NdBa0.94La0.06Co2O5+δ | Origin of the large thermoelectric power in oxygen-variableRBaCo2O5+x(R=Gd,Nd)
 
 ## Bi-Cu-O-Sr
@@ -70,7 +70,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Ca (17), Y (10), La (8), Pb (6), Ce (5), Cd (2)
 - seed hypothesis (confirm): bscco_cuprate
 - measured range: 10-742 K (5th-95th pct of 59 curves; full span incl. outliers 10-978 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr10Cu5Bi10O29 P1 (1) mp-667638 [hull=0.068, PRIMARY]; Sr4Cu2Bi4O13 C2 (5) mp-1218715 [hull=0.121, PRIMARY]; Sr10Cu5Bi10O29 C2 (5) mp-652781 [hull=0.072]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr10Cu5Bi10O29 P1 (1) mp-667638 [hull=0.068, PRIMARY, AMBIGUOUS]; Sr4Cu2Bi4O13 C2 (5) mp-1218715 [hull=0.121, PRIMARY]; Sr10Cu5Bi10O29 C2 (5) mp-652781 [hull=0.072]
 - papers: Thermoelectric power of the system | Thermoelectric study of PbxBi2-xSr2Ca2Cu3Oy superconductors | Thermoelectric power of single crystals
 
 ## Co-Nd-O-Sr
@@ -106,7 +106,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Bi (5), Ca (4), Ag (1), La (1)
 - seed hypothesis (confirm): perovskite
 - measured range: 10-875 K (5th-95th pct of 70 curves; full span incl. outliers 10-1296 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2PrMn3O9 C2/c (15) mp-1218779 [hull=0.003, PRIMARY]; Sr3PrMn2O8 Amm2 (38) mp-1218451 [hull=0.000, PRIMARY]; Sr3PrMn4O12 Amm2 (38) mp-1218481 [hull=0.005, PRIMARY]; Sr4Pr6Mn9BiO30 Pm (6) mp-1173250 [hull=0.028, PRIMARY]; Sr4PrMn5O15 C2/m (12) mp-1218591 [hull=0.023, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2PrMn3O9 C2/c (15) mp-1218779 [hull=0.003, PRIMARY]; Sr3PrMn2O8 Amm2 (38) mp-1218451 [hull=0.000, PRIMARY]; Sr3PrMn4O12 Amm2 (38) mp-1218481 [hull=0.005, PRIMARY, AMBIGUOUS]; Sr4Pr6Mn9BiO30 Pm (6) mp-1173250 [hull=0.028, PRIMARY]; Sr4PrMn5O15 C2/m (12) mp-1218591 [hull=0.023, PRIMARY]
 - papers: Magnetotransport, thermoelectric power, thermal conductivity and specific heat of Pr2/3Sr1/3MnO3 manganite | P-Type Thermoelectric Properties of Pr<sub>1&minus;<i>x</i></sub>Sr<sub><i>x</i></sub>MnO<sub>3</sub> (0.1≦<i>x</i>≦0.3) and La<sub>1&minus;<i>x</i></sub>Sr<sub><i>x</i></sub>FeO<sub>3</sub> (0.1≦<i>x</i>≦0.3) | Electrical resistivity, thermoelectric power and electron spin resonance studies on Pr(1−x)SrxMnO3 (x=0.2, 0.26 and 0.3)
 
 ## Bi-Pb-Te
@@ -151,7 +151,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Y (13), Ti (11), Ga (4), Sb (1), Zn (1)
 - seed hypothesis (confirm): bixbyite
 - measured range: 77-1267 K (5th-95th pct of 65 curves; full span incl. outliers 18-1272 K)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): In15SnO24 R-3 (148) mp-867998 [hull=0.000, PRIMARY]; In2Sn2O7 Fd-3m (227) mp-755027 [hull=0.092, PRIMARY]; In4(SnO4)3 P-1 (2) mp-676320 [hull=0.039, PRIMARY]; In15SnO24 C2 (5) mp-766006 [hull=0.001]; In4(SnO4)3 P1 (1) mp-673669 [hull=0.039]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): In15SnO24 R-3 (148) mp-867998 [hull=0.000, PRIMARY, AMBIGUOUS]; In2Sn2O7 Fd-3m (227) mp-755027 [hull=0.092, PRIMARY]; In4(SnO4)3 P-1 (2) mp-676320 [hull=0.039, PRIMARY, AMBIGUOUS]; In15SnO24 C2 (5) mp-766006 [hull=0.001]; In4(SnO4)3 P1 (1) mp-673669 [hull=0.039]
 - papers: Enhanced Densification and Thermoelectric Performance of In4Sn3O12 by Reactive Sintering in the In-Sn-Ga-O System | Structure and Thermoelectric Properties of Me-Substituted In4Sn3O12, Me=Y and Ti | Substitution effect of tetravalent and pentavalent elements on thermoelectric properties in In<sub>2</sub>O<sub>3</sub>-SnO<sub>2</sub> system
 
 ## Nb-O
@@ -246,7 +246,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): nias
 - measured range: 117-873 K (5th-95th pct of 167 curves)
 - [ref 1] TEDesignLab / ICSD: MnTe P6_3/mmc (194) mp-404 [hull=0.008, icsd=18, PRIMARY]; MnTe2 Pa-3 (205) mp-21893 [hull=0.000, icsd=4, PRIMARY]; MnTe Pnma (62) mp-1080073 [hull=0.005, icsd=1]; MnTe F-43m (216) mp-1009222 [hull=0.037, icsd=1]
-- [ref 2] MP, ranked by ICSD evidence: Mn3Te Fm-3m (225) mp-1185993 [hull=0.306, PRIMARY]; MnTe Fm-3m (225) mp-1406 [hull=0.054, icsd=2]; MnTe P2_1/m (11) mp-672389 [hull=0.001]; MnTe Imma (74) mp-1172860 [hull=0.605]; Mn3Te P6_3/mmc (194) mp-1185988 [hull=0.312]
+- [ref 2] MP, ranked by ICSD evidence: Mn3Te Fm-3m (225) mp-1185993 [hull=0.306, PRIMARY, AMBIGUOUS]; MnTe Fm-3m (225) mp-1406 [hull=0.054, icsd=2]; MnTe P2_1/m (11) mp-672389 [hull=0.001]; MnTe Imma (74) mp-1172860 [hull=0.605]; Mn3Te P6_3/mmc (194) mp-1185988 [hull=0.312]
 - papers: Thermoelectric properties of non-stoichiometric MnTe compounds | Effects of Mn substitution on the phases and thermoelectric properties of Ge0.8Pb0.2Te alloy | Thermoelectric study of crossroads material MnTe via sulfur doping
 
 ## Cd-O-Te
@@ -301,7 +301,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Ni (9), Ge (3), Gd (3), Cr (2), Nd (2), Sm (2), Cu (1), Sr (1), La (1), Ba (1), Pr (1)
 - seed hypothesis (confirm): spinel
 - measured range: 303-975 K (5th-95th pct of 84 curves)
-- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Fe2CoO4 Imma (74) mp-34501 [hull=0.034, icsd=2, PRIMARY]; Fe(CoO3)2 C2/m (12) mp-761530 [hull=0.105, PRIMARY]; Fe(CoO2)2 Imma (74) mp-767034 [hull=0.030, PRIMARY]; Fe19Co5O32 C2/m (12) mp-762884 [hull=0.024, PRIMARY]; Fe2Co3O10 Pm (6) mp-778217 [hull=0.113, PRIMARY]
+- [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Fe2CoO4 Imma (74) mp-34501 [hull=0.034, icsd=2, PRIMARY]; Fe(CoO3)2 C2/m (12) mp-761530 [hull=0.105, PRIMARY, AMBIGUOUS]; Fe(CoO2)2 Imma (74) mp-767034 [hull=0.030, PRIMARY]; Fe19Co5O32 C2/m (12) mp-762884 [hull=0.024, PRIMARY]; Fe2Co3O10 Pm (6) mp-778217 [hull=0.113, PRIMARY]
 - papers: Magnetic and Thermoelectric Properties of Cobalt Ferrite | Thermoelectric power studies of Co–Cr nano ferrites | Thermoelectric Properties of Sintered (MnyCo1-y) Fe2O4
 
 ## Se-Ti
