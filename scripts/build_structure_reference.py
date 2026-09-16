@@ -99,6 +99,9 @@ def main():
             'band_gap': r.get('Eg (eV)'),
             'kL': r.get('kL'),
             'beta_pn': r.get('beta (p,n)'),
+            # Which TEDesignLab paper produced this row; see
+            # data/reference/CITATIONS.md for the marker -> reference mapping.
+            'tedl_cite': r.get('cite'),
             'n_icsd': 1,
             'is_experimental': True,
             'group': r.get('comment'),
@@ -141,6 +144,7 @@ def main():
             'band_gap': r['band_gap'],
             'kL': None,
             'beta_pn': None,
+            'tedl_cite': None,
             'n_icsd': n_icsd,
             'is_experimental': n_icsd > 0,
             'group': None,
@@ -248,7 +252,9 @@ def main():
                     tt = t[t.spacegroup_number == sg].iloc[0]
                     by_sg[sg] = {'spacegroup_number': sg, 'in_tedesignlab': True,
                                  'band_gap': tt.band_gap, 'kL': tt.kL,
-                                 'beta_pn': tt.beta_pn, 'mp_id': None,
+                                 'beta_pn': tt.beta_pn,
+                                 'tedl_cite': getattr(tt, 'tedl_cite', None),
+                                 'mp_id': None,
                                  'spacegroup_symbol': None, 'e_above_hull': None,
                                  'n_icsd': 0}
             if m is not None:

@@ -93,7 +93,10 @@ Read these before treating the output as reference data.
 - **Structure references**: TEDesignLab and Materials Project. **Cite them if
   you use anything derived from them** — full references and BibTeX in
   [`data/reference/CITATIONS.md`](data/reference/CITATIONS.md). TEDesignLab is
-  Gorai et al., *Comput. Mater. Sci.* **112**, 368–376 (2016).
+  Gorai et al., *Comput. Mater. Sci.* **112**, 368–376 (2016); its `cite`
+  markers [1]–[5] are resolved to five papers there, and the marker travels
+  through the pipeline as `tedl_cite` so any borrowed space group or descriptor
+  is traceable to its source.
 - **Taxonomy lineage**: merges a survey-derived list with the v0.2 ontology in
   `data/lineage/`, itself drafted with ChatGPT. Every prototype records its
   sources in `merged_from`.

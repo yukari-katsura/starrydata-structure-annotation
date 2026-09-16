@@ -26,30 +26,30 @@ The database paper, to be cited whenever these data are used:
 }
 ```
 
-### Methods behind the tabulated descriptors
+### The `cite` column: markers [1]-[5] resolved
 
-The spreadsheet's `cite` column carries markers `[1]`–`[5]` identifying the
-source of each row's computed quantities. The reference list resolving those
-markers is rendered on the TEDesignLab page itself and is not reproduced in the
-downloadable file, so the mapping from marker to reference is **not established
-here**. The two methods papers that define the descriptors used in this project
-— the band effective masses, mobilities, lattice thermal conductivity and the
-β quality factor — are:
+Every row of the spreadsheet carries a marker in its `cite` column identifying
+which paper produced that row's computed quantities. The reference list is
+rendered on the TEDesignLab page but is not included in the download; it is
+reproduced here, with all five verified against Crossref.
 
-> Yan, J.; Gorai, P.; Ortiz, B.; Miller, S.; Barnett, S. A.; Mason, T.;
-> Stevanović, V.; Toberer, E. S.
-> **Material descriptors for predicting thermoelectric performance.**
-> *Energy & Environmental Science* **8**, 983–994 (2015).
-> <https://doi.org/10.1039/c4ee03157a>
+| marker | rows | reference |
+|---:|---:|---|
+| [1] | 735 | Miller, S. A.; Gorai, P.; Aydemir, U.; Mason, T. O.; Stevanović, V.; Toberer, E. S.; Snyder, G. J. **SnO as a potential oxide thermoelectric candidate.** *J. Mater. Chem. C* **5**, 8854–8861 (2017). [10.1039/c7tc01623a](https://doi.org/10.1039/c7tc01623a) |
+| [2] | 477 | Gorai, P.; Gao, D.; Ortiz, B.; Miller, S.; Barnett, S. A.; Mason, T. O.; Lv, Q.; Stevanović, V.; Toberer, E. S. **TE Design Lab: A virtual laboratory for thermoelectric material design.** *Comput. Mater. Sci.* **112**, 368–376 (2016). [10.1016/j.commatsci.2015.11.006](https://doi.org/10.1016/j.commatsci.2015.11.006) |
+| [3] | 616 | Yan, J.; Gorai, P.; Ortiz, B.; Miller, S.; Barnett, S. A.; Mason, T. O.; Stevanović, V.; Toberer, E. S. **Material descriptors for predicting thermoelectric performance.** *Energy Environ. Sci.* **8**, 983–994 (2015). [10.1039/c4ee03157a](https://doi.org/10.1039/c4ee03157a) |
+| [4] | 795 | Gorai, P.; Toberer, E. S.; Stevanović, V. **Thermoelectricity in transition metal compounds: the role of spin disorder.** *Phys. Chem. Chem. Phys.* **18**, 31777–31786 (2016). [10.1039/c6cp06943f](https://doi.org/10.1039/c6cp06943f) |
+| [5] | 78 | Ortiz, B. R.; Peng, W.; Gomes, L. C.; Gorai, P.; Zhu, T.; Smiadak, D. M.; Snyder, G. J.; Stevanović, V.; Ertekin, E.; Zevalkink, A.; Toberer, E. S. **Ultralow thermal conductivity in diamond-like semiconductors: selective scattering of phonons from antisite defects.** *Chem. Mater.* **30**, 3395–3409 (2018). [10.1021/acs.chemmater.8b00890](https://doi.org/10.1021/acs.chemmater.8b00890) |
 
-> Gorai, P.; Parilla, P.; Toberer, E. S.; Stevanović, V.
-> **Computational exploration of the binary A₁B₁ chemical space for
-> thermoelectric performance.**
-> *Chemistry of Materials* **27**, 6213–6221 (2015).
-> <https://doi.org/10.1021/acs.chemmater.5b01179>
+The marker is carried through the pipeline as `tedl_cite` in
+`data/annotated/input/df_structure_refs.parquet` and
+`df_structure_candidates.parquet`, so any space group or descriptor taken from
+TEDesignLab can be traced to the paper that produced it.
 
-All three references were verified against Crossref rather than transcribed
-from the web page.
+Note that [4] (spin disorder, 795 rows) is the single largest contributor —
+magnetic transition-metal compounds, where the reported transport quantities
+depend on how spin disorder was treated. Worth knowing before comparing a
+descriptor across markers.
 
 ### Redistribution
 
