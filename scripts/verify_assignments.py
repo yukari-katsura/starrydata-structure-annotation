@@ -94,6 +94,22 @@ def main():
     rep = Report()
 
     tax = {p['id']: p for p in json.load(open(TAX))['prototypes']}
+    # A prototype proposed during annotation and not yet folded into the seed is
+    # legitimate: the process requires proposing before use. check_annotations.py
+    # accepts both, and this gate must agree or it blocks correct work.
+    proposed = {}
+    pp = ANN + 'taxonomy/prototypes_proposed.jsonl'
+    if os.path.exists(pp):
+        for line in open(pp):
+            line = line.strip()
+            if line:
+                try:
+                    d = json.loads(line)
+                    if d.get('id'):
+                        proposed[d['id']] = d
+                except Exception:
+                    pass
+    known_protos = set(tax) | set(proposed)
     records = [json.loads(l) for l in open(LEDGER) if l.strip()]
     hosts = pd.read_parquet(HOSTS)
     known_hosts = set(hosts.host_system)
@@ -101,9 +117,14 @@ def main():
     compa = pd.read_parquet(COMPA) if os.path.exists(COMPA) else pd.DataFrame()
 
     # ---------------- INVARIANTS ----------------
-    bad = [r['host_system'] for r in records if r['prototype_id'] not in tax]
-    rep.add('INVARIANT', 'every prototype_id is defined in the taxonomy',
-            FAIL if bad else PASS, f'undefined: {bad[:5]}')
+    bad = [(r['host_system'], r['prototype_id']) for r in records
+           if r['prototype_id'] not in known_protos]
+    rep.add('INVARIANT', 'every prototype_id is defined (seed or proposed)',
+            FAIL if bad else PASS,
+            'undefined prototype_id: ' + ', '.join(f'{p!r} (host {h})' for h, p in bad[:5]))
+    if proposed:
+        rep.add('INVARIANT', f'{len(proposed)} prototypes proposed and pending review',
+                WARN, ', '.join(sorted(proposed)))
 
     seen = [r['host_system'] for r in records]
     dup = {h for h in seen if seen.count(h) > 1}
@@ -120,7 +141,7 @@ def main():
             'missing or duplicated assignment_id')
 
     if len(compa):
-        badp = sorted(set(compa.prototype_id) - set(tax))
+        badp = sorted(set(compa.prototype_id) - known_protos)
         rep.add('INVARIANT', 'composition splits use defined prototypes',
                 FAIL if badp else PASS, f'undefined: {badp[:5]}')
 

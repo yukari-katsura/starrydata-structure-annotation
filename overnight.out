@@ -1,0 +1,19 @@
+annotating chunks 5..5
+  python: /Users/yukarikatsura/python/starrydata-structure-annotation/.venv/bin/python
+  log:    /Users/yukarikatsura/python/starrydata-structure-annotation/run_chunks.20260916-1814.log
+=== chunk 005  18:14  (ledger: 200) ===
+  claude rc=0 subtype=success  quota: 5h=0.46 7d=0.09
+  +50 records
+  GATE FAILED after chunk 005 -- stopping, not committed.
+
+INVARIANT
+  FAIL  every prototype_id is defined in the taxonomy
+          undefined: ['O-Pb-Pd']
+REGRESSION: 20 checks, all pass
+
+AGREEMENT
+  warn  70 assignments have no reference to test against
+          these rest on model knowledge alone
+
+29 checks, 1 failed
+36 assignments disagree with the references (run with --apply to downgrade them)
