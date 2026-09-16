@@ -379,6 +379,11 @@ sg 141, with band gaps of 3.50 and 3.15 eV.
 python scripts/export_csv.py --both     # -> data/annotated/csv/
 ```
 
+Four tables are exported: `df_annotated_samples`, `df_annotated_compositions`,
+`df_tedl_linked_samples` and `df_tedl_entries` (the TEDesignLab feature table,
+0.5 MB, 2,701 x 29). `--flat` applies only to the tables that contain JSON
+columns; the entries table has none, so it is written once.
+
 Parquet stays the source of truth -- it preserves dtypes and nulls and is about
 a tenth the size. The CSVs are a convenience copy and are gitignored.
 

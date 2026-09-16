@@ -23,8 +23,12 @@ import pandas as pd
 
 _P = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ANN = os.path.join(_P, 'data', 'annotated') + os.sep
-TABLES = [('df_annotated_samples', 'samples'),
-          ('df_annotated_compositions', 'compositions')]
+# (stem, subdirectory it lives in). Tables without JSON columns are exported
+# once; --flat is a no-op for them.
+TABLES = [('df_annotated_samples', ''),
+          ('df_annotated_compositions', ''),
+          ('df_tedl_linked_samples', ''),
+          ('df_tedl_entries', 'input/')]
 
 
 def flatten(d):
@@ -72,12 +76,15 @@ def main():
 
     outdir = ANN + 'csv' + os.sep
     os.makedirs(outdir, exist_ok=True)
-    for stem, label in TABLES:
-        src = ANN + stem + '.parquet'
+    for stem, sub in TABLES:
+        src = ANN + sub + stem + '.parquet'
         if not os.path.exists(src):
             continue
         d = pd.read_parquet(src)
-        for m in modes:
+        has_json = any(c in d.columns for c in ('phases_json', 'dopants_json'))
+        # nothing to flatten in a table with no JSON columns
+        tbl_modes = modes if has_json else ['full']
+        for m in dict.fromkeys(tbl_modes):
             out = flatten(d) if m == 'flat' else d
             name = f'{stem}{"_flat" if m == "flat" else ""}.csv'
             path = outdir + name
