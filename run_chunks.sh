@@ -14,7 +14,27 @@ set -uo pipefail
 FROM=${1:?usage: run_chunks.sh FROM TO}
 TO=${2:?usage: run_chunks.sh FROM TO}
 REPO="$(cd "$(dirname "$0")" && pwd)"
-PY="${PY:-python}"
+# Find an interpreter that actually has the dependencies. The repo has no venv
+# of its own and `python` is not on PATH on this machine, so defaulting to it
+# would fail only after a chunk had already been annotated -- twenty minutes in.
+find_py() {
+  local c
+  for c in "${PY:-}" "$REPO/.venv/bin/python" \
+           "$(dirname "$REPO")/starrydata-explorer/.venv/bin/python" \
+           python3 python; do
+    [ -n "$c" ] || continue
+    command -v "$c" >/dev/null 2>&1 || [ -x "$c" ] || continue
+    if "$c" -c "import pandas, pymatgen, openpyxl" >/dev/null 2>&1; then
+      echo "$c"; return 0
+    fi
+  done
+  return 1
+}
+if ! PY=$(find_py); then
+  echo "No Python with pandas, pymatgen and openpyxl found." >&2
+  echo "Set PY to one explicitly:  PY=/path/to/python ./run_chunks.sh $*" >&2
+  exit 1
+fi
 STAMP=$(date +%Y%m%d-%H%M)
 LOG="$REPO/run_chunks.$STAMP.log"
 LEDGER="$REPO/data/annotated/annotations/family_assignments.jsonl"
@@ -27,7 +47,9 @@ QUOTA_STOP=${QUOTA_STOP:-0.85}
 MIN_RECORDS=${MIN_RECORDS:-40}   # a chunk is 50 hosts; well short means it failed
 
 say() { echo "$*" | tee -a "$LOG"; }
-say "annotating chunks $FROM..$TO, log: $LOG"
+say "annotating chunks $FROM..$TO"
+say "  python: $PY"
+say "  log:    $LOG"
 
 for n in $(seq "$FROM" "$TO"); do
   CH=$(printf '%03d' "$n")
