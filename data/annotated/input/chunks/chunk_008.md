@@ -25,7 +25,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): spinel
 - measured range: 11-1073 K (5th-95th pct of 37 curves; full span incl. outliers 11-2802 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Zn(FeO2)2 Fd-3m (227) mp-19313 [hull=0.000, icsd=31, PRIMARY]; LiZn4Fe13O24 Cm (8) mp-769606 [hull=0.075, PRIMARY]; LiZn2Fe9O16 Cm (8) mp-771993 [hull=0.057, PRIMARY]; LiZn6Fe17O32 Cm (8) mp-771348 [hull=0.106, PRIMARY]; Zn(Fe2O3)4 P1 (1) mp-1100888 [hull=0.030, PRIMARY]
-- papers: Thermoelectric Transport Properties of Fe-Enriched ZnO with High-Temperature Nanostructure Refinement | Correlation of the physico chemical properties of Zn-substituted Li–La ferrite | Electrical Conductivity and Thermoelectric Power of LithiumZinc Ferrites
+- papers: https://doi.org/10.1021/am509050a (Thermoelectric Transport Properties of Fe-Enriched ZnO with High-Tempe...) | https://doi.org/10.1016/j.ceramint.2004.05.017 (Correlation of the physico chemical properties of Zn-substituted Li–La...) | https://doi.org/10.1002/crat.2170250918 (Electrical Conductivity and Thermoelectric Power of LithiumZinc Ferrites)
 
 ## Nb
 - rank 352 | 20 samples | 5 papers | 1 compositions
@@ -33,7 +33,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): solid_solution_alloy
 - measured range: 10-1407 K (5th-95th pct of 21 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nb Im-3m (229) mp-75 [hull=0.000, icsd=18, PRIMARY]; Nb C2/m (12) mp-1104341 [hull=0.000, icsd=1]; Nb Fm-3m (225) mp-8636 [hull=0.342, icsd=1]; Nb P1 (1) mp-1094120 [hull=0.199]
-- papers: Intrinsic thermoelectric power of group VB metals | Thermoelectric Properties of Niobium in the Temperature Range 300°–1200°K | Thermoelectric properties of certain metals with a high melting point
+- papers: https://doi.org/10.1063/1.3698169 (Intrinsic thermoelectric power of group VB metals) | https://doi.org/10.1063/1.1714399 (Thermoelectric Properties of Niobium in the Temperature Range 300°–1200°K) | https://doi.org/10.1007/bf00976954 (Thermoelectric properties of certain metals with a high melting point)
 
 ## O-Pr-Ti
 - rank 353 | 20 samples | 3 papers | 4 compositions
@@ -41,7 +41,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Sr (9), Ca (1)
 - measured range: 22-973 K (5th-95th pct of 25 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Pr2Ti2O7 P2_1 (4) mp-15201 [hull=0.000, icsd=1, PRIMARY]; Pr2TiO5 Pnma (62) mp-1195324 [hull=0.000, icsd=1, PRIMARY]; Pr10Ti9GaO34 P2_1/c (14) mp-1211796 [hull=0.017, PRIMARY]; Pr5Ti4GaO17 Pc (7) mp-1220762 [hull=0.015, PRIMARY]; PrTiO3 R-3c (167) mp-753948 [hull=0.029, PRIMARY]
-- papers: Neodymium-Strontium Titanate: A New Ceramic for an Old Problem | Enhancing the thermoelectric properties of Sr\n            \n              1−\n              x\n            \n            Pr\n            \n              2\n              x\n              /3\n            \n            □\n            \n              x\n            \n            /3\n            TiO\n            \n              3±\n              δ\n            \n            through control of crystal structure and microstructure | Nonlinear Behavior in the Electrical Resistance of Strongly Correlated Insulators
+- papers: https://doi.org/10.1007/s11664-014-3058-9 (Neodymium-Strontium Titanate: A New Ceramic for an Old Problem) | https://doi.org/10.1098/rsta.2019.0037 (Enhancing the thermoelectric properties of Sr\n            \n         ...) | https://doi.org/10.7566/jpsj.89.044702 (Nonlinear Behavior in the Electrical Resistance of Strongly Correlated...)
 
 ## S-Sn-Ti
 - rank 354 | 20 samples | 6 papers | 11 compositions
@@ -50,14 +50,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): misfit_layered_chalcogenide
 - measured range: 305-722 K (5th-95th pct of 106 curves; full span incl. outliers 26-774 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ti3Sn5S12 Pm (6) mp-1217186 [hull=0.014, PRIMARY]
-- papers: Intercalation: Building a Natural Superlattice for Better Thermoelectric Performance in Layered Chalcogenides | Low-Thermal-Conductivity (MS)1+x(TiS2)2 (M = Pb, Bi, Sn) Misfit Layer Compounds for Bulk Thermoelectric Materials | Effect of multisite alloying and chloride doping for realizing a high thermoelectric performance in misfit-layered chalcogenide
+- papers: https://doi.org/10.1007/s11664-011-1565-5 (Intercalation: Building a Natural Superlattice for Better Thermoelectr...) | https://doi.org/10.3390/ma3042606 (Low-Thermal-Conductivity (MS)1+x(TiS2)2 (M = Pb, Bi, Sn) Misfit Layer ...) | https://doi.org/10.1016/j.jallcom.2020.155756 (Effect of multisite alloying and chloride doping for realizing a high ...)
 
 ## Al-Ce-Cu-Ni
 - rank 355 | 19 samples | 4 papers | 5 compositions
 - compositions: Ce(Ni0.7Cu0.3)2Al3 (11); Ce(Ni0.6Cu0.4)2Al3 (4); Ce(Ni0.8Cu0.2)2Al3 (2); Ce(Ni0.4Cu0.6)2Al3 (1); Ce(Ni0.5Cu0.5)2Al3 (1)
 - measured range: 10-296 K (5th-95th pct of 29 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeAl(CuNi)2 Cmmm (65) mp-1226666 [hull=0.023, PRIMARY]; CeAl(CuNi)2 Amm2 (38) mp-1226667 [hull=0.098]
-- papers: Mangnetoresistance Of Heavy Fermion-like Compound Ce(Ni1-xCux)2Al3 | Magnetic, Thermal and Transport Properties of Ce(Ni1-xCux)2Al3: The Dominant Role of Electronic Change | Enhancement in thermoelectric power of Ce(Ni1−xCux)2Al3: An implication of two-band conduction
+- papers: https://doi.org/10.5185/amlett.2015.5768 (Mangnetoresistance Of Heavy Fermion-like Compound Ce(Ni1-xCux)2Al3) | https://doi.org/10.1143/jpsj.73.681 (Magnetic, Thermal and Transport Properties of Ce(Ni1-xCux)2Al3: The Do...) | https://doi.org/10.1002/pssb.201451317 (Enhancement in thermoelectric power of Ce(Ni1−xCux)2Al3: An implicatio...)
 
 ## Al-Co-Ni
 - rank 356 | 19 samples | 8 papers | 5 compositions
@@ -65,7 +65,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): quasicrystal_approximant
 - measured range: 10-872 K (5th-95th pct of 32 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Al18Co5Ni3 Cm (8) mp-1229050 [hull=0.003, PRIMARY]; Al2CoNi P4/mmm (123) mp-1228913 [hull=0.013, PRIMARY]; Al9Co2Ni Immm (71) mp-1228742 [hull=0.017, PRIMARY]; AlCo2Ni I4/mmm (139) mp-1214822 [hull=0.104, PRIMARY]; AlCoNi6 P4/mmm (123) mp-1228972 [hull=0.019, PRIMARY]
-- papers: Intrinsic anisotropic magnetic, electrical, and thermal transport properties of<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mi>d</mml:mi></mml:math>-Al-Co-Ni decagonal quasicrystals | Heat Transport in Aluminum-Based Quasicrystals i-AlPdMn, i-AlCuFe, and d-AlCoNi | Micro-surface and bulk thermal behavior of a single-grain decagonal Al–Ni–Co quasicrystal
+- papers: https://doi.org/10.1103/physrevb.85.024205 (Intrinsic anisotropic magnetic, electrical, and thermal transport prop...) | https://doi.org/10.1002/ijch.201100150 (Heat Transport in Aluminum-Based Quasicrystals i-AlPdMn, i-AlCuFe, and...) | https://doi.org/10.1016/j.jnoncrysol.2003.11.064 (Micro-surface and bulk thermal behavior of a single-grain decagonal Al...)
 
 ## As-Ga
 - rank 357 | 19 samples | 7 papers | 2 compositions
@@ -75,7 +75,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - measured range: 11-360 K (5th-95th pct of 30 curves; full span incl. outliers 10-1182 K)
 - [ref 1] TEDesignLab / ICSD: GaAs F-43m (216) mp-2534 [hull=0.000, icsd=29, PRIMARY]; GaAs P6_3mc (186) mp-8883 [hull=0.013, icsd=2]
 - [ref 2] MP, ranked by ICSD evidence: Ga3As Pm-3m (221) mp-1184232 [hull=0.257, PRIMARY]; GaAs3 Fm-3m (225) mp-1183979 [hull=0.506, PRIMARY]; GaAs Pa-3 (205) mp-15619 [hull=0.144, icsd=1]; GaAs Imm2 (44) mp-603640 [hull=0.353, icsd=1]; GaAs Pmm2 (25) mp-1059094 [hull=0.437, icsd=1]
-- papers: Nanograined Half-Heusler Semiconductors as Advanced Thermoelectrics: An Ab Initio High-Throughput Statistical Study | Evolution of structural and thermoelectric properties of indium-ion-implanted epitaxial GaAs | Influence of embedded indium nanocrystals on GaAs thermoelectric properties
+- papers: https://doi.org/10.1002/adfm.201401201 (Nanograined Half-Heusler Semiconductors as Advanced Thermoelectrics: A...) | https://doi.org/10.1063/1.3687912 (Evolution of structural and thermoelectric properties of indium-ion-im...) | https://doi.org/10.1063/1.4816087 (Influence of embedded indium nanocrystals on GaAs thermoelectric prope...)
 
 ## As-Ga-In
 - rank 358 | 19 samples | 5 papers | 13 compositions
@@ -84,7 +84,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): sphalerite
 - measured range: 31-780 K (5th-95th pct of 41 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): In2GaAs3 I-4m2 (119) mp-1223859 [hull=0.027, PRIMARY]; InGa5As4 R3m (160) mp-1224045 [hull=0.135, PRIMARY]; InGaAs2 P-4m2 (115) mp-1223781 [hull=0.030, PRIMARY, AMBIGUOUS]; InGaAs2 R3m (160) mp-1223791 [hull=0.035]
-- papers: Thermoelectric Transport in InGaAs with High Concentration of Rare-Earth TbAs Embedded Nanoparticles | ErAs:InGaAs∕InGaAlAs superlattice thin-film power generator array | Cross-plane lattice and electronic thermal conductivities of ErAs:InGaAs∕InGaAlAs superlattices
+- papers: https://doi.org/10.1007/s11664-012-2097-3 (Thermoelectric Transport in InGaAs with High Concentration of Rare-Ear...) | https://doi.org/10.1063/1.2186387 (ErAs:InGaAs∕InGaAlAs superlattice thin-film power generator array) | https://doi.org/10.1063/1.2207829 (Cross-plane lattice and electronic thermal conductivities of ErAs:InGa...)
 
 ## Ba-Co-La-O
 - rank 359 | 19 samples | 8 papers | 8 compositions
@@ -93,14 +93,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): layered_double_perovskite
 - measured range: 12-1238 K (5th-95th pct of 21 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaLa(CoO3)2 P4/mmm (123) mp-24855 [hull=0.072, icsd=1, PRIMARY]; Ba3La7Mn2(Co4O15)2 P2/m (10) mp-694945 [hull=0.048, PRIMARY]; Ba3La7Mn(Co3O10)3 P2/m (10) mp-704461 [hull=0.051, PRIMARY]; Ba4La4Co8O17 P2_1/c (14) mp-1229302 [hull=0.111, PRIMARY]; Ba4La4Co8O23 C2/m (12) mp-1228530 [hull=0.041, PRIMARY]
-- papers: Electron transport and thermoelectric properties of layered perovskite LaBaCo2O5.5 | Transport and Magnetic Properties of R1-xAxCoO3(R = La, Pr and Nd; A = Ba, Sr and Ca) | Effect of Nb5+ content on the high temperature properties of the mixed conductors system La1−xBaxCo1−yNbyO3−δ with 0.6 ≤ x ≤ 1.0 and 0 ≤ y ≤ 0.4
+- papers: https://doi.org/10.1088/0953-8984/21/5/056007 (Electron transport and thermoelectric properties of layered perovskite...) | https://doi.org/10.1143/jpsj.72.873 (Transport and Magnetic Properties of R1-xAxCoO3(R = La, Pr and Nd; A =...) | https://doi.org/10.1016/j.ssi.2016.12.016 (Effect of Nb5+ content on the high temperature properties of the mixed...)
 
 ## Bi-F-O-Pr-S
 - rank 360 | 19 samples | 1 papers | 2 compositions
 - compositions: PrO0.3F0.7BiS2 (10); PrO0.5F0.5BiS2 (9)
 - seed hypothesis (confirm): bis2_layered
 - measured range: 12-295 K (5th-95th pct of 2 curves)
-- papers: Superconducting and magneto-transport properties of BiS2 based superconductor PrO1-xFxBiS2 (x = 0 to 0.9)
+- papers: https://doi.org/10.1063/1.4859535 (Superconducting and magneto-transport properties of BiS2 based superco...)
 
 ## Bi-K-Se
 - rank 361 | 19 samples | 7 papers | 10 compositions
@@ -109,7 +109,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): bi_chalcogenide_complex
 - measured range: 12-874 K (5th-95th pct of 48 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): K2Bi8Se13 C2/m (12) mp-28800 [hull=0.000, icsd=1, PRIMARY]; K3BiSe3 P2_13 (198) mp-28980 [hull=0.000, icsd=1, PRIMARY]; KBiSe2 I4_1/amd (141) mp-36539 [hull=0.054, PRIMARY]; K2Bi8Se13 P2_1/m (11) mp-1224244 [hull=0.030]; KBiSe2 P4/mmm (123) mp-1223436 [hull=0.209]
-- papers: Thermoelectric Properties and Site-Selective Rb+/K+Distribution in the K2-xRbxBi8Se13Series | Structure inhomogeneities, shallow defects, and charge transport in the series of thermoelectric materials K2Bi8−xSbxSe13 | Thermoelectric Properties of Hot-Pressed β-K2Bi8Se13−x S x Materials
+- papers: https://doi.org/10.1021/cm034185v (Thermoelectric Properties and Site-Selective Rb+/K+Distribution in the...) | https://doi.org/10.1063/1.2365718 (Structure inhomogeneities, shallow defects, and charge transport in th...) | https://doi.org/10.1007/s11664-012-2331-z (Thermoelectric Properties of Hot-Pressed β-K2Bi8Se13−x S x Materials)
 
 ## Bi-S-Ti
 - rank 362 | 19 samples | 5 papers | 15 compositions
@@ -117,7 +117,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Cr (4), Fe (1), Co (1), Ni (1), V (1), Mn (1), Cu (1), Zn (1), Ca (1), Sr (1), Mg (1)
 - seed hypothesis (confirm): misfit_layered_chalcogenide
 - measured range: 297-785 K (5th-95th pct of 92 curves; full span incl. outliers 15-792 K)
-- papers: Effects of Transition Metal Substitution on the Thermoelectric Properties of Metallic (BiS)1.2(TiS2)2 Misfit Layer Sulfide | Effects of alkaline earth doping on the thermoelectric properties of misfit layer sulfides | Enhanced thermoelectric properties of bismuth intercalated compounds BixTiS2
+- papers: https://doi.org/10.1007/s11664-013-2894-3 (Effects of Transition Metal Substitution on the Thermoelectric Propert...) | https://doi.org/10.1016/j.scriptamat.2012.02.010 (Effects of alkaline earth doping on the thermoelectric properties of m...) | https://doi.org/10.1016/j.ssc.2005.04.029 (Enhanced thermoelectric properties of bismuth intercalated compounds B...)
 
 ## C-H-N
 - rank 363 | 19 samples | 7 papers | 14 compositions
@@ -126,7 +126,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): organic_polymer
 - measured range: 200-413 K (5th-95th pct of 92 curves; full span incl. outliers 158-527 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): H5CN3 Pbca (61) mp-1196017 [hull=0.007, icsd=7, PRIMARY]; HC2N3 P1 (1) mp-1200473 [hull=0.005, icsd=4, PRIMARY]; H2CN2 P2_1/c (14) mp-30094 [hull=0.041, icsd=2, PRIMARY]; CuH12Pt(CN2)4 Pnma (62) mp-1196682 [hull=0.104, icsd=2, PRIMARY]; CrCoH18(CN2)6 R-3 (148) mp-24376 [hull=0.070, icsd=2, PRIMARY]
-- papers: One-pot fabrication and thermoelectric properties of Ag nanoparticles–polyaniline hybrid nanocomposites | A three-in-one improvement in thermoelectric properties of polyaniline brought by nanostructures | Investigating thermoelectric properties of doped polyaniline nanowires
+- papers: https://doi.org/10.1039/c4ra02136c (One-pot fabrication and thermoelectric properties of Ag nanoparticles–...) | https://doi.org/10.1016/j.synthmet.2010.09.014 (A three-in-one improvement in thermoelectric properties of polyaniline...) | https://doi.org/10.1016/j.synthmet.2014.01.007 (Investigating thermoelectric properties of doped polyaniline nanowires)
 
 ## Cd-Eu-Sb
 - rank 364 | 19 samples | 10 papers | 9 compositions
@@ -135,7 +135,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): caal2si2_zintl, zintl_11_6_12  <-- MIXED, split per composition
 - measured range: 12-780 K (5th-95th pct of 80 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Eu(CdSb)2 P-3m1 (164) mp-19774 [hull=0.000, icsd=1, PRIMARY]
-- papers: High-Temperature Thermoelectric Properties of the Solid–Solution Zintl Phase Eu11Cd6Sb12–xAsx(x< 3) | High Temperature Thermoelectric Properties of the Solid-Solution Zintl Phase Eu11Cd6–xZnxSb12 | Thermoelectric properties of Eu(Zn1−xCdx)2Sb2
+- papers: https://doi.org/10.1021/cm403345a (High-Temperature Thermoelectric Properties of the Solid–Solution Zintl...) | https://doi.org/10.1021/acs.chemmater.5b01301 (High Temperature Thermoelectric Properties of the Solid-Solution Zintl...) | https://doi.org/10.1039/b916346h (Thermoelectric properties of Eu(Zn1−xCdx)2Sb2)
 
 ## Ce-La-Ni
 - rank 365 | 19 samples | 4 papers | 15 compositions
@@ -145,7 +145,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 10-300 K (5th-95th pct of 43 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaCeNi10 Pmmm (47) mp-1223428 [hull=0.000, PRIMARY]
-- papers: Thermoelectric power of (Ce1−xLax)Ni single crystals | Thermoelectric power of some Ce compounds of the dilute Kondo type | Transport properties of heavy fermion compound Ce7Ni3
+- papers: https://doi.org/10.1016/0304-8853(87)90672-x (Thermoelectric power of (Ce1−xLax)Ni single crystals) | https://doi.org/10.1016/0304-8853(87)90671-8 (Thermoelectric power of some Ce compounds of the dilute Kondo type) | https://doi.org/10.1016/s0304-8853(98)00192-9 (Transport properties of heavy fermion compound Ce7Ni3)
 
 ## Co-Hf-Sb-Sn-Ti
 - rank 366 | 19 samples | 6 papers | 8 compositions
@@ -154,7 +154,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - solid-solution axis: Hf/(Hf+Ti) spans 0.25-0.80 (median 0.70) over 8 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 23-1091 K (5th-95th pct of 73 curves)
-- papers: Thermoelectric Property Study of Nanostructured p-Type Half-Heuslers (Hf, Zr, Ti)CoSb0.8Sn0.2 | Fine tuning of thermoelectric performance in phase-separated half-Heusler compounds | Enhanced thermoelectric performance in the p-type half-Heusler (Ti/Zr/Hf)CoSb0.8Sn0.2 system via phase separation
+- papers: https://doi.org/10.1002/aenm.201200973 (Thermoelectric Property Study of Nanostructured p-Type Half-Heuslers (...) | https://doi.org/10.1039/c5tc01196e (Fine tuning of thermoelectric performance in phase-separated half-Heus...) | https://doi.org/10.1039/c4cp02561j (Enhanced thermoelectric performance in the p-type half-Heusler (Ti/Zr/...)
 
 ## Co-In-S-Sn
 - rank 367 | 19 samples | 3 papers | 19 compositions
@@ -163,7 +163,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): shandite
 - measured range: 30-679 K (5th-95th pct of 69 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): InCo3SnS2 R-3m (166) mp-1077901 [hull=0.000, icsd=2, PRIMARY]
-- papers: Interplay of Metal-Atom Ordering, Fermi Level Tuning, and Thermoelectric Properties in Cobalt Shandites Co3M2S2(M = Sn, In) | The effect of simultaneous substitution on the electronic band structure and thermoelectric properties of Se-doped Co3SnInS2 with the Kagome lattice | Improved Thermoelectric Performance through Double Substitution in Shandite-Type Mixed-Metal Sulfides
+- papers: https://doi.org/10.1021/acs.chemmater.5b00801 (Interplay of Metal-Atom Ordering, Fermi Level Tuning, and Thermoelectr...) | https://doi.org/10.1016/j.ssc.2014.09.006 (The effect of simultaneous substitution on the electronic band structu...) | https://doi.org/10.1021/acsaem.9b02272 (Improved Thermoelectric Performance through Double Substitution in Sha...)
 
 ## Co-La-Ni-O
 - rank 368 | 19 samples | 10 papers | 10 compositions
@@ -171,7 +171,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Fe (1)
 - measured range: 14-1171 K (5th-95th pct of 30 curves; full span incl. outliers 13-1238 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La2CoNiO6 R-3 (148) mp-1223259 [hull=0.000, PRIMARY]
-- papers: Thermoelectric properties of LaNi[sub 1−x]Co[sub x]O[sub 3] solid solution | Development of Perovskite-type Cobaltates and Manganates for Thermoelectric Oxide Modules | Fabrication of p- and n-type Thermoelectric Cobalt Oxides through the Powder-In-Tube Method
+- papers: https://doi.org/10.1063/1.1629393 (Thermoelectric properties of LaNi[sub 1−x]Co[sub x]O[sub 3] solid solu...) | https://doi.org/10.4191/kcers.2010.47.1.047 (Development of Perovskite-type Cobaltates and Manganates for Thermoele...) | https://doi.org/10.1109/ict.2006.331371 (Fabrication of p- and n-type Thermoelectric Cobalt Oxides through the ...)
 
 ## Co-O-Pr-Sr
 - rank 369 | 19 samples | 8 papers | 13 compositions
@@ -180,7 +180,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): ruddlesden_popper
 - measured range: 12-1166 K (5th-95th pct of 19 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SrPr(CoO3)2 Pc (7) mp-1218091 [hull=0.000, PRIMARY]
-- papers: Studies of structural, magnetic, electrical and thermal properties in layered perovskite cobaltite SrLnCoO4 (Ln = La, Ce, Pr, Nd, Eu, Gd and Tb) | Transport and Magnetic Properties of R1-xAxCoO3(R = La, Pr and Nd; A = Ba, Sr and Ca) | Dielectric, magnetic, and magnetotransport properties in Sr doped two-dimensional RE2CoO4 (RE=Pr,Eu) compounds
+- papers: https://doi.org/10.1088/0022-3727/41/4/045404 (Studies of structural, magnetic, electrical and thermal properties in ...) | https://doi.org/10.1143/jpsj.72.873 (Transport and Magnetic Properties of R1-xAxCoO3(R = La, Pr and Nd; A =...) | https://doi.org/10.1063/1.2830797 (Dielectric, magnetic, and magnetotransport properties in Sr doped two-...)
 
 ## Co-O-Y
 - rank 370 | 19 samples | 4 papers | 11 compositions
@@ -188,13 +188,13 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Ca (6), Sr (4), Ni (3)
 - measured range: 118-1091 K (5th-95th pct of 40 curves; full span incl. outliers 110-3000 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YCoO3 Pnma (62) mp-691138 [hull=0.021, icsd=5, PRIMARY]; Y2Co2O5 P4/mmm (123) mp-1187759 [hull=0.419, PRIMARY]
-- papers: Effect of Sr substitution on electrical transport and thermoelectric properties of Y1−xSrxCoO3 (0≤x≤0.2) prepared by sol–gel process | Electrical transport and thermoelectric properties of Ni-doped perovskite-type YCo1−xNixO3(0 ≤x≤ 0.07) prepared by sol-gel process | Electrical transport and thermoelectric properties of Y1−xCaxCoO3 (0⩽x⩽0.1) at high temperatures
+- papers: https://doi.org/10.1016/j.ceramint.2013.03.095 (Effect of Sr substitution on electrical transport and thermoelectric p...) | https://doi.org/10.1088/1674-1056/22/5/057201 (Electrical transport and thermoelectric properties of Ni-doped perovsk...) | https://doi.org/10.1063/1.2721381 (Electrical transport and thermoelectric properties of Y1−xCaxCoO3 (0⩽x...)
 
 ## Co-Pt-Sb-Sn-Zr
 - rank 371 | 19 samples | 2 papers | 9 compositions
 - compositions: Zr(Co0.8Pt0.2)(Sb0.7Sn0.3) (3); Zr(Co0.8Pt0.2)(Sb0.8Sn0.2) (2); Zr(Co0.6Pt0.4)(Sb0.75Sn0.25) (2); Zr(Co0.7Pt0.3)(Sb0.8Sn0.2) (2); Zr(Co0.7Pt0.3)(Sb0.7Sn0.3) (2); Zr(Co0.8Pt0.2)(Sb0.65Sn0.35) (2)
 - measured range: 11-318 K (5th-95th pct of 52 curves)
-- papers: Half-Heusler phases as prospective p-type thermoelectric materials | Thermoelectric properties of semimetallic (Zr, Hf)CoSb half-Heusler phases
+- papers: https://doi.org/10.1109/ict.2005.1519965 (Half-Heusler phases as prospective p-type thermoelectric materials) | https://doi.org/10.1063/1.1305829 (Thermoelectric properties of semimetallic (Zr, Hf)CoSb half-Heusler ph...)
 
 ## Cu-La-O-S
 - rank 372 | 19 samples | 4 papers | 19 compositions
@@ -203,7 +203,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): zrcusias_1111
 - measured range: 11-300 K (5th-95th pct of 26 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaCuSO P4/nmm (129) mp-6088 [hull=0.000, icsd=4, PRIMARY]; La2CuS2O P4/mmm (123) mp-1213297 [hull=1.547, PRIMARY]; La5Cu6S7O4 Ima2 (46) mp-1223375 [hull=0.010, PRIMARY]
-- papers: Effects of the Cu off-stoichiometry on transport properties of wide gap p-type semiconductor, layered oxysulfide LaCuSO | Sr and Mn co-doped LaCuSO: A wide band gap oxide diluted magnetic semiconductor with <i>T<sub>C</sub></i> around 200 K | Electrical resistivity and photoemission spectra of layered oxysulfide (La1$minus;xCaxO)Cu1$minus;xNixS
+- papers: https://doi.org/10.1063/1.4890302 (Effects of the Cu off-stoichiometry on transport properties of wide ga...) | https://doi.org/10.1063/1.4813540 (Sr and Mn co-doped LaCuSO: A wide band gap oxide diluted magnetic semi...) | https://doi.org/10.1016/s0921-4526(02)02579-6 (Electrical resistivity and photoemission spectra of layered oxysulfide...)
 
 ## Cu-O-Pr
 - rank 373 | 19 samples | 5 papers | 11 compositions
@@ -212,7 +212,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): ruddlesden_popper
 - measured range: 10-301 K (5th-95th pct of 19 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Pr2CuO4 I4/mmm (139) mp-4181 [hull=0.000, icsd=12, PRIMARY]; PrCuO2 R-3m (166) mp-13694 [hull=0.000, icsd=2, PRIMARY]; Pr2Cu2O5 Pbam (55) mp-1188871 [hull=0.061, icsd=1, PRIMARY]; Pr(CuO2)2 I4_1/a (88) mp-1101476 [hull=0.000, PRIMARY]; PrCuO3 Pm-3m (221) mp-1186515 [hull=0.026, PRIMARY]
-- papers: Superconductivity and thermoelectric power ofPr1.85Ce0.15CuO4−y | Thermoelectric power in Gd1.85−xPrxCe0.15CuO4 system | Thermoelectric power ofNd1.85Ce0.15CuO4−yandPr1.85Ce0.15CuO4−y
+- papers: https://doi.org/10.1103/physrevb.41.2623 (Superconductivity and thermoelectric power ofPr1.85Ce0.15CuO4−y) | https://doi.org/10.1016/0921-4526(94)91263-7 (Thermoelectric power in Gd1.85−xPrxCe0.15CuO4 system) | https://doi.org/10.1103/physrevb.40.7310 (Thermoelectric power ofNd1.85Ce0.15CuO4−yandPr1.85Ce0.15CuO4−y)
 
 ## Ga-Sb
 - rank 374 | 19 samples | 4 papers | 15 compositions
@@ -220,7 +220,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Te (9), Zn (4), Fe (3)
 - measured range: 81-875 K (5th-95th pct of 67 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GaSb F-43m (216) mp-1156 [hull=0.000, icsd=15, PRIMARY]; Ga3Sb I4/mmm (139) mp-1184258 [hull=0.155, PRIMARY]; GaSb3 Fm-3m (225) mp-1184224 [hull=0.272, PRIMARY]; GaSb P6_3mc (186) mp-1018059 [hull=0.015, icsd=1]; GaSb I-4m2 (119) mp-1224785 [hull=0.193]
-- papers: Thermoelectric properties of Zn-doped GaSb | Improved Thermoelectric Properties in Ga2Te3-GaSb Vacancy Compounds | Nanostructuring and Thermoelectric Characterization of (GaSb)3(1−x)(Ga2Te3) x
+- papers: https://doi.org/10.1063/1.3678012 (Thermoelectric properties of Zn-doped GaSb) | https://doi.org/10.1007/s11664-012-2052-3 (Improved Thermoelectric Properties in Ga2Te3-GaSb Vacancy Compounds) | https://doi.org/10.1007/s11664-012-2405-y (Nanostructuring and Thermoelectric Characterization of (GaSb)3(1−x)(Ga...)
 
 ## H-Pd
 - rank 375 | 19 samples | 1 papers | 9 compositions
@@ -229,7 +229,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): interstitial_hydride
 - measured range: 82-297 K (5th-95th pct of 19 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): HPd Fm-3m (225) mp-24289 [hull=0.000, icsd=2, PRIMARY]; H3Pd4 R-3m (166) mp-1224413 [hull=0.001, PRIMARY]; H4Pd3 P4mm (99) mp-1224352 [hull=0.102, PRIMARY]; HPd3 P6_3/mmc (194) mp-983407 [hull=0.520, PRIMARY, AMBIGUOUS]; HPd P6_3mc (186) mp-1184548 [hull=0.000]
-- papers: Thermoelectric power of hydrogenated palladium and some of its dilute alloys, between 80 and 300 K
+- papers: https://doi.org/10.1016/s0925-8388(00)01507-3 (Thermoelectric power of hydrogenated palladium and some of its dilute ...)
 
 ## Ir-O-Y
 - rank 376 | 19 samples | 5 papers | 10 compositions
@@ -238,7 +238,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): pyrochlore
 - measured range: 10-348 K (5th-95th pct of 19 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Y2Ir2O7 Fd-3m (227) mp-1191749 [hull=0.000, icsd=1, PRIMARY]
-- papers: Spin–Glass-like Transition and Hall Resistivity of Y2-xBixIr2O7 | Coexistence of high electrical conductivity and weak ferromagnetism in Cr doped Y    2Ir    2O    7 pyrochlore iridates | Nonequilibrium low temperature phase in pyrochlore iridate Y2Ir2O7: Possibility of glass-like dynamics
+- papers: https://doi.org/10.1143/jpsj.72.1226 (Spin–Glass-like Transition and Hall Resistivity of Y2-xBixIr2O7) | https://doi.org/10.1063/1.5100316 (Coexistence of high electrical conductivity and weak ferromagnetism in...) | https://doi.org/10.1016/j.jmmm.2016.02.033 (Nonequilibrium low temperature phase in pyrochlore iridate Y2Ir2O7: Po...)
 
 ## N-U
 - rank 377 | 19 samples | 8 papers | 4 compositions
@@ -247,7 +247,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): rocksalt_nitride_carbide
 - measured range: 243-1981 K (5th-95th pct of 21 curves; full span incl. outliers 243-2596 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): UN Fm-3m (225) mp-1865 [hull=0.000, icsd=25, PRIMARY]; U2N3 P-3m1 (164) mp-973 [hull=0.019, icsd=6, PRIMARY]; UN2 Fm-3m (225) mp-1776 [hull=0.000, icsd=2, PRIMARY]; U16N25 R3 (146) mp-32742 [hull=0.006, PRIMARY]; U4N7 I4cm (108) mp-32590 [hull=0.000, PRIMARY]
-- papers: Uranium Nitride U2N3 as a novel thermoelectric material | Material property correlations for uranium mononitride | Coupled analysis for new fuel design using UN and UC for SCWR
+- papers: https://doi.org/10.1016/j.matlet.2016.04.207 (Uranium Nitride U2N3 as a novel thermoelectric material) | https://doi.org/10.1016/0022-3115(90)90376-x (Material property correlations for uranium mononitride) | https://doi.org/10.1016/j.pnucene.2012.11.001 (Coupled analysis for new fuel design using UN and UC for SCWR)
 
 ## Nb-O-W
 - rank 378 | 19 samples | 4 papers | 12 compositions
@@ -255,7 +255,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): block_shear_niobate
 - measured range: 299-1171 K (5th-95th pct of 60 curves; full span incl. outliers 298-1273 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nb12WO33 C2 (5) mp-1198790 [hull=0.041, icsd=1, PRIMARY]; NbWO7 Ima2 (46) mp-1220547 [hull=0.376, PRIMARY]; Nb12WO33 P1 (1) mp-704637 [hull=0.007]
-- papers: Single-step preparation and consolidation of reduced early-transition-metal oxide/metal n-type thermoelectric composites | Tetragonal tungsten bronzes Nb8−xW9+xO47−δ: optimization strategies and transport properties of a new n-type thermoelectric oxide | Thermophysical properties of rare earth barium aluminates
+- papers: https://doi.org/10.1063/1.4931161 (Single-step preparation and consolidation of reduced early-transition-...) | https://doi.org/10.1039/c5mh00033e (Tetragonal tungsten bronzes Nb8−xW9+xO47−δ: optimization strategies an...) | https://doi.org/10.1111/jace.15504 (Thermophysical properties of rare earth barium aluminates)
 
 ## Ag-S-Te
 - rank 379 | 18 samples | 2 papers | 12 compositions
@@ -267,7 +267,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
   !! MEASUREMENT CROSSES A TRANSITION: ag2se_naumannite -> bcc_superionic at ~406 K (P212121 -> bcc superionic, ~406 K. Ag2Te transforms near ~418 K.)
      Record each phase with its own temperature range, not a single prototype.
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ag2TeS3 Cc (9) mp-29163 [hull=0.000, icsd=1, PRIMARY]
-- papers: Semiconductor glass with superior flexibility and high room temperature thermoelectric performance | Ductile inorganic amorphous/crystalline composite Ag4TeS with phonon-glass electron-crystal transport behavior and excellent stability of high thermoelectric performance on plastic deformation
+- papers: https://doi.org/10.1126/sciadv.aaz8423 (Semiconductor glass with superior flexibility and high room temperatur...) | https://doi.org/10.1016/j.actamat.2021.117231 (Ductile inorganic amorphous/crystalline composite Ag4TeS with phonon-g...)
 
 ## Al-La
 - rank 380 | 18 samples | 7 papers | 10 compositions
@@ -276,7 +276,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): laves_phase
 - measured range: 10-324 K (5th-95th pct of 11 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaAl2 Fd-3m (227) mp-2694 [hull=0.000, icsd=15, PRIMARY]; LaAl3 P6_3/mmc (194) mp-959 [hull=0.000, icsd=4, PRIMARY]; LaAl4 I4/mmm (139) mp-21109 [hull=0.017, icsd=3, PRIMARY]; La3Al P6_3/mmc (194) mp-1084828 [hull=0.023, icsd=2, PRIMARY]; La3Al11 Immm (71) mp-16505 [hull=0.000, icsd=2, PRIMARY]
-- papers: Thermoelectric power of RAl2 | Giant thermoelectric power of (La, Ce)Al2 | Influence of the crystalline field on the Kondo effect: Cerium and ytterbium impurities
+- papers: https://doi.org/10.1016/0304-8853(83)90564-4 (Thermoelectric power of RAl2) | https://doi.org/10.1007/bf00655628 (Giant thermoelectric power of (La, Ce)Al2) | https://doi.org/10.1016/0378-4363(77)90404-1 (Influence of the crystalline field on the Kondo effect: Cerium and ytt...)
 
 ## Al-Ru
 - rank 381 | 18 samples | 6 papers | 15 compositions
@@ -284,7 +284,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Fe (6), Ce (3), Si (2), Mn (2), Y (2), La (1)
 - measured range: 12-975 K (5th-95th pct of 41 curves; full span incl. outliers 11-1091 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Al2Ru Fddd (70) mp-10910 [hull=0.000, icsd=2, PRIMARY]; Al13Ru4 C2/m (12) mp-17880 [hull=0.000, icsd=2, PRIMARY]; Al3Ru2 I4/mmm (139) mp-1070580 [hull=0.001, icsd=1, PRIMARY]; Al12Ru P-43m (215) mp-1198296 [hull=0.142, icsd=1, PRIMARY]; Al3Ru P6_3/mmc (194) mp-1188814 [hull=0.177, icsd=1, PRIMARY]
-- papers: Synthesis and thermoelectric properties of silicon- and manganese-doped Ru1−xFexAl2 | Thermoelectric Properties of Binary Semiconducting Intermetallic Compounds Al<SUB>2</SUB>Ru and Ga<SUB>2</SUB>Ru Synthesized by Spark Plasma Sintering Process | Microstructure and Thermal Conductivity of RuAl<sub>2</sub> Prepared by a Single-Roll Melt-Spinning Method
+- papers: https://doi.org/10.1016/j.jallcom.2009.12.048 (Synthesis and thermoelectric properties of silicon- and manganese-dope...) | https://doi.org/10.2320/matertrans.e-m2010807 (Thermoelectric Properties of Binary Semiconducting Intermetallic Compo...) | https://doi.org/10.2320/jinstmet.ja201502 (Microstructure and Thermal Conductivity of RuAl<sub>2</sub> Prepared b...)
 
 ## Ba-Co-O-Pr
 - rank 382 | 18 samples | 6 papers | 14 compositions
@@ -293,7 +293,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): layered_double_perovskite
 - measured range: 12-1123 K (5th-95th pct of 18 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaPr(CoO3)2 P4/mmm (123) mp-24856 [hull=0.079, icsd=2, PRIMARY]; Ba2Pr2Co4O11 I4/mmm (139) mp-1228571 [hull=0.041, PRIMARY, AMBIGUOUS]; Ba2Pr3(CoO3)5 P-1 (2) mp-1229013 [hull=0.062, PRIMARY]; Ba4Pr4Co8O23 P4/mmm (123) mp-1228513 [hull=0.065, PRIMARY]; Ba6Pr2Co4O15 P1 (1) mp-1228751 [hull=0.000, PRIMARY]
-- papers: Transport and Magnetic Properties of R1-xAxCoO3(R = La, Pr and Nd; A = Ba, Sr and Ca) | Praseodymium-deficiency Pr0.94BaCo2O6- double perovskite: A promising high performance cathode material for intermediate-temperature solid oxide fuel cells | A-site calcium-doped Pr 1−x Ca x BaCo 2 O 5+δ double perovskites as cathodes for intermediate-temperature solid oxide fuel cells
+- papers: https://doi.org/10.1143/jpsj.72.873 (Transport and Magnetic Properties of R1-xAxCoO3(R = La, Pr and Nd; A =...) | https://doi.org/10.1016/j.jpowsour.2015.06.007 (Praseodymium-deficiency Pr0.94BaCo2O6- double perovskite: A promising ...) | https://doi.org/10.1016/j.jpowsour.2016.02.071 (A-site calcium-doped Pr 1−x Ca x BaCo 2 O 5+δ double perovskites as ca...)
 
 ## Ba-O-Pb-Sr
 - rank 383 | 18 samples | 5 papers | 17 compositions
@@ -303,14 +303,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 295-1082 K (5th-95th pct of 32 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaSr(PbO3)2 Pmc2_1 (26) mp-1227843 [hull=0.007, PRIMARY]
-- papers: Preparation of Perovskite-Type Sr1-xBaxPbO3 Ceramics by an Oxalate Coprecipitation Method and the Thermoelectric Properties | Synthesis and thermoelectric properties of ceramics based on barium-strontium metaplumbates | Thermoelectric properties of A-site doped perovskites (Sr0.6Ba0.4)1−xMxPbO3 (M=La, K)
+- papers: https://doi.org/10.2497/jjspm.55.408 (Preparation of Perovskite-Type Sr1-xBaxPbO3 Ceramics by an Oxalate Cop...) | https://doi.org/10.1134/s1087659613040068 (Synthesis and thermoelectric properties of ceramics based on barium-st...) | https://doi.org/10.1016/j.jallcom.2004.07.061 (Thermoelectric properties of A-site doped perovskites (Sr0.6Ba0.4)1−xM...)
 
 ## Bi-C-Te
 - rank 384 | 18 samples | 10 papers | 15 compositions
 - compositions: Bi2Te3C0.6 (2); Bi2Te3C0.67 (2); Bi2Te3C2 (2); Bi2Te3C0.3 (1); Bi2Te3C3 (1); Bi2Te3C0.5 (1)
 - seed hypothesis (confirm): composite_multiphase
 - measured range: 14-496 K (5th-95th pct of 81 curves)
-- papers: The influence of CNTs on the thermoelectric properties of a CNT/Bi2Te3 composite | Fabrication and Thermoelectric Properties of Graphene/Bi2Te3Composite Materials | Fabrication Process and Thermoelectric Properties of CNT/Bi2(Se,Te)3Composites
+- papers: https://doi.org/10.1016/j.carbon.2012.10.008 (The influence of CNTs on the thermoelectric properties of a CNT/Bi2Te3...) | https://doi.org/10.1155/2013/210767 (Fabrication and Thermoelectric Properties of Graphene/Bi2Te3Composite ...) | https://doi.org/10.1155/2015/202415 (Fabrication Process and Thermoelectric Properties of CNT/Bi2(Se,Te)3Co...)
 
 ## Cd-Sb-Yb-Zn
 - rank 385 | 18 samples | 4 papers | 15 compositions
@@ -319,14 +319,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - solid-solution axis: Cd/(Cd+Zn) spans 0.20-0.85 (median 0.60) over 15 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 297-705 K (5th-95th pct of 75 curves)
-- papers: Synthesis and high thermoelectric efficiency of Zintl phase YbCd2−xZnxSb2 | Zintl phase compounds AM2Sb2 (A=Ca, Sr, Ba, Eu, Yb; M=Zn, Cd) and their substitution variants: a class of potential thermoelectric materials | Designing high-performance layered thermoelectric materials through orbital engineering
+- papers: https://doi.org/10.1063/1.3040321 (Synthesis and high thermoelectric efficiency of Zintl phase YbCd2−xZnxSb2) | https://doi.org/10.1016/s1002-0721(12)60398-6 (Zintl phase compounds AM2Sb2 (A=Ca, Sr, Ba, Eu, Yb; M=Zn, Cd) and thei...) | https://doi.org/10.1038/ncomms10892 (Designing high-performance layered thermoelectric materials through or...)
 
 ## Co-Fe-Na-O
 - rank 386 | 18 samples | 4 papers | 8 compositions
 - compositions: NaCo1.6Fe0.4O4 (3); NaCo1.4Fe0.6O4 (3); NaCo1.5Fe0.5O4 (2); NaCo0.8Fe1.2O4 (2); NaCo0.6Fe1.4O4 (2); NaCoFeO4 (2)
 - seed hypothesis (confirm): naxcoo2_layered
 - measured range: 51-1436 K (5th-95th pct of 26 curves)
-- papers: Thermoelectric Properties of NaCo2–x Fe x O y | Thermoelectric Properties of NaCo2 − x Fe x O y | Thermopower Enhancement from Engineering the Na0.7CoO2 Interacting Fermiology via Fe Doping
+- papers: https://doi.org/10.1007/s11664-007-0158-9 (Thermoelectric Properties of NaCo2–x Fe x O y) | https://doi.org/10.1007/s11664-007-0241-2 (Thermoelectric Properties of NaCo2 − x Fe x O y) | https://doi.org/10.1155/2018/9725321 (Thermopower Enhancement from Engineering the Na0.7CoO2 Interacting Fer...)
 
 ## Cr-Ni
 - rank 387 | 18 samples | 8 papers | 14 compositions
@@ -334,7 +334,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): solid_solution_alloy
 - measured range: 10-1299 K (5th-95th pct of 19 curves; full span incl. outliers 10-2493 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cr3Ni Pm-3m (221) mp-1008278 [hull=0.148, icsd=1, PRIMARY]; CrNi3 I4/mmm (139) mp-1007923 [hull=0.001, icsd=1, PRIMARY, AMBIGUOUS]; Cr2Ni Fd-3m (227) mp-1077252 [hull=0.269, icsd=1, PRIMARY]; CrNi2 Fd-3m (227) mp-1077077 [hull=0.214, icsd=1, PRIMARY]; Cr22Ni50Mo3 P1 (1) mp-767825 [hull=0.000, PRIMARY]
-- papers: Electrical and thermoelectric properties of some metallic thermoelectric materials | Transport properties of some hydrogenated nickel-based alloys | Effect of dissolved hydrogen on electron transport in nickel–chromium alloys
+- papers: https://doi.org/10.1016/0013-7480(70)90070-7 (Electrical and thermoelectric properties of some metallic thermoelectr...) | https://doi.org/10.1016/j.jallcom.2004.11.126 (Transport properties of some hydrogenated nickel-based alloys) | https://doi.org/10.1016/s0925-8388(02)00048-8 (Effect of dissolved hydrogen on electron transport in nickel–chromium ...)
 
 ## Cu-Ge-Se
 - rank 388 | 18 samples | 5 papers | 16 compositions
@@ -343,7 +343,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): cu2gese3
 - measured range: 15-752 K (5th-95th pct of 68 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cu2GeSe3 Imm2 (44) mp-4728 [hull=0.000, icsd=2, PRIMARY]; Cu8GeSe6 Cc (9) mp-1225860 [hull=0.062, PRIMARY]; Cu2GeSe3 Cc (9) mp-677105 [hull=0.002, icsd=1]; Cu2GeSe3 Fdd2 (43) mp-1225866 [hull=0.004]
-- papers: Crystallographic Control at the Nanoscale To Enhance Functionality: Polytypic Cu2GeSe3Nanoparticles as Thermoelectric Materials | Thermoelectric properties of Indium doped Cu2GeSe3 | Thermoelectric properties of ternary diamondlike semiconductors Cu2Ge1+xSe3
+- papers: https://doi.org/10.1021/cm303252q (Crystallographic Control at the Nanoscale To Enhance Functionality: Po...) | https://doi.org/10.1016/j.intermet.2014.05.006 (Thermoelectric properties of Indium doped Cu2GeSe3) | https://doi.org/10.1063/1.3488021 (Thermoelectric properties of ternary diamondlike semiconductors Cu2Ge1...)
 
 ## Cu-O-Ti
 - rank 389 | 18 samples | 3 papers | 18 compositions
@@ -352,13 +352,13 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): composite_multiphase
 - measured range: 173-976 K (5th-95th pct of 18 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ti3Cu3O Fd-3m (227) mp-21457 [hull=0.000, icsd=2, PRIMARY]; Ti4Cu2O Fd-3m (227) mp-22432 [hull=0.000, icsd=2, PRIMARY]; Ti3CuO8 P-4m2 (115) mp-1103016 [hull=0.081, icsd=1, PRIMARY]; Er2Ti12(CuO4)9 P-3 (147) mp-1225949 [hull=0.061, PRIMARY]; Dy2Ti12(CuO4)9 P-3 (147) mp-1225647 [hull=0.060, PRIMARY]
-- papers: Effect of Cu powder addition on thermoelectric properties of Cu/TiO2−x composites | Novel thermoelectric properties of complex transition-metal oxides | Analysis of complex impedance and electrical conductivity of YCr0.5Mn0.5O3–CaCu3Ti4O12 negative temperature coefficient ceramics
+- papers: https://doi.org/10.1016/j.ceramint.2013.01.107 (Effect of Cu powder addition on thermoelectric properties of Cu/TiO2−x...) | https://doi.org/10.1039/b914661j (Novel thermoelectric properties of complex transition-metal oxides) | https://doi.org/10.1016/j.ceramint.2022.05.150 (Analysis of complex impedance and electrical conductivity of YCr0.5Mn0...)
 
 ## Gd-Mn-O-Sr
 - rank 390 | 18 samples | 3 papers | 5 compositions
 - compositions: Gd0.5Sr0.5MnO3 (6); Gd0.6Sr0.4MnO3 (3); Gd0.7Sr0.3MnO3 (3); Gd0.4Sr0.6MnO3 (3); Gd0.3Sr0.7MnO3 (3)
 - measured range: 11-1144 K (5th-95th pct of 18 curves)
-- papers: Colossal thermoelectric power in Gd-Sr manganites | Structural, electrical, magnetic and thermal properties of Gd1–xSrxMnO3 (0.2≤x≤0.5) manganites | Role of structural distortion on thermoelectric aspects of heavily Sr2+ doped GdMnO3
+- papers: https://doi.org/10.1209/0295-5075/91/17008 (Colossal thermoelectric power in Gd-Sr manganites) | https://doi.org/10.1016/j.physb.2015.09.025 (Structural, electrical, magnetic and thermal properties of Gd1–xSrxMnO...) | https://doi.org/10.1063/1.5027125 (Role of structural distortion on thermoelectric aspects of heavily Sr2...)
 
 ## Ge-Pb-Sn-Te
 - rank 391 | 18 samples | 4 papers | 12 compositions
@@ -367,7 +367,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - solid-solution axis: Ge/(Ge+Sn) spans 0.11-0.86 (median 0.35) over 12 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 296-886 K (5th-95th pct of 73 curves)
-- papers: Phase morphology effects on the thermoelectric properties of Pb0.25Sn0.25Ge0.5Te | High Thermoelectric Figure of Merit and Nanostructuring in Bulkp-type Gex(SnyPb1−y)1−xTe Alloys Following a Spinodal Decomposition Reaction† | Band Inversion Induced Multiple Electronic Valleys for High Thermoelectric Performance of SnTe with Strong Lattice Softening
+- papers: https://doi.org/10.1016/j.actamat.2012.11.027 (Phase morphology effects on the thermoelectric properties of Pb0.25Sn0...) | https://doi.org/10.1021/cm902009t (High Thermoelectric Figure of Merit and Nanostructuring in Bulkp-type ...) | https://doi.org/10.1016/j.nanoen.2019.104395 (Band Inversion Induced Multiple Electronic Valleys for High Thermoelec...)
 
 ## Ge-Pt
 - rank 392 | 18 samples | 3 papers | 18 compositions
@@ -375,7 +375,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Pr (10), Ce (10), La (8), Eu (5), Th (3)
 - measured range: 12-297 K (5th-95th pct of 18 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GePt3 I4/mcm (140) mp-16315 [hull=0.000, icsd=4, PRIMARY]; Ge2Pt3 Pnma (62) mp-21673 [hull=0.000, icsd=2, PRIMARY]; Ge2Pt Pnnm (58) mp-1543 [hull=0.003, icsd=2, PRIMARY]; GePt2 P-62m (189) mp-20061 [hull=0.031, icsd=2, PRIMARY]; Ge3Pt P6_3/mmc (194) mp-1184728 [hull=0.326, PRIMARY]
-- papers: Probing the superconductivity ofPrPt4Ge12through Ce substitution | Crossover and coexistence of superconductivity and antiferromagnetism in the filled-skutterudite system \nPr1−xEuxPt4Ge12 | Superconducting and normal state properties of the systemsLa1−xMxPt4Ge12(M = Ce,Th)
+- papers: https://doi.org/10.1103/physrevb.89.035145 (Probing the superconductivity ofPrPt4Ge12through Ce substitution) | https://doi.org/10.1103/physrevb.95.134517 (Crossover and coexistence of superconductivity and antiferromagnetism ...) | https://doi.org/10.1103/physrevb.94.094501 (Superconducting and normal state properties of the systemsLa1−xMxPt4Ge...)
 
 ## La-S
 - rank 393 | 18 samples | 5 papers | 17 compositions
@@ -385,7 +385,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - measured range: 296-1457 K (5th-95th pct of 45 curves; full span incl. outliers 287-1500 K)
 - [ref 1] TEDesignLab / ICSD: LaS2 Pnma (62) mp-1508 [hull=0.000, icsd=3, PRIMARY]; La2S3 Pnma (62) mp-7475 [hull=0.000, icsd=3, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: LaS Fm-3m (225) mp-2350 [hull=0.000, icsd=12, PRIMARY]; La3S4 I-43d (220) mp-567 [hull=0.023, icsd=7, PRIMARY]; La10US16 P-4 (81) mp-675741 [hull=0.045, PRIMARY]; La4S7 I-42m (121) mp-1223154 [hull=0.078, PRIMARY]; LaS2 P4/nmm (129) mp-1018751 [hull=0.095, icsd=2]
-- papers: Thermoelectric properties of lanthanum sesquisulfide with Ti additive | Preparation of γ‐LaSy(1.33<y<1.50) alloys by the pressure‐assisted reaction sintering method and their thermoelectric properties | Thermoelectric properties of lanthanum sulfide
+- papers: https://doi.org/10.1063/1.1999845 (Thermoelectric properties of lanthanum sesquisulfide with Ti additive) | https://doi.org/10.1063/1.335373 (Preparation of γ‐LaSy(1.33<y<1.50) alloys by the pressure‐assisted rea...) | https://doi.org/10.1063/1.336088 (Thermoelectric properties of lanthanum sulfide)
 
 ## Mo-O-Sr
 - rank 394 | 18 samples | 11 papers | 17 compositions
@@ -394,7 +394,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): perovskite
 - measured range: 10-1123 K (5th-95th pct of 18 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SrMoO4 I4_1/a (88) mp-18834 [hull=0.000, icsd=13, PRIMARY]; SrMoO3 Pm-3m (221) mp-18747 [hull=0.071, icsd=5, PRIMARY]; Sr2MoO4 I4/mmm (139) mp-19237 [hull=0.011, icsd=1, PRIMARY]; Sr3MoO6 Fm-3m (225) mp-1205668 [hull=0.110, PRIMARY]; Sr3Mo2O7 I4/mmm (139) mp-1208726 [hull=0.030, PRIMARY]
-- papers: Thermal and electrical properties of perovskite-type strontium molybdate | Electrochemical Performance of SrMg<sub>0.1</sub>Mo<sub>0.9</sub>O<sub>3</sub>-Based Composites for Solid Oxide Fuel Cell Anodes | SrMo0.9Co0.1O3−δ: A potential anode for intermediate-temperature solid-oxide fuel cells (IT-SOFC)
+- papers: https://doi.org/10.1016/j.jallcom.2004.08.038 (Thermal and electrical properties of perovskite-type strontium molybdate) | https://doi.org/10.1021/acsaem.1c03029 (Electrochemical Performance of SrMg<sub>0.1</sub>Mo<sub>0.9</sub>O<sub...) | https://doi.org/10.1016/j.jpowsour.2014.02.031 (SrMo0.9Co0.1O3−δ: A potential anode for intermediate-temperature solid...)
 
 ## Nb-Si-Te
 - rank 395 | 18 samples | 3 papers | 14 compositions
@@ -402,7 +402,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Mo (7), Ti (4), Sb (1)
 - measured range: 10-302 K (5th-95th pct of 51 curves; full span incl. outliers 10-374 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nb2SiTe4 P2_1/c (14) mp-29072 [hull=0.000, icsd=1, PRIMARY]; Nb4SiTe4 Pbam (55) mp-1232409 [hull=0.000, PRIMARY]; Nb2SiTe4 P-1 (2) mp-1173475 [hull=0.030]; Nb2SiTe4 P1 (1) mp-690578 [hull=0.270]
-- papers: Hole-doped M4SiTe4 (M = Ta, Nb) as an efficient p-type thermoelectric material for low-temperature applications | Thermoelectric properties of layered ternary telluride \nNb3SiTe6 | Large thermoelectric power factor in one-dimensional telluride Nb4SiTe4and substituted compounds
+- papers: https://doi.org/10.1063/1.5109590 (Hole-doped M4SiTe4 (M = Ta, Nb) as an efficient p-type thermoelectric ...) | https://doi.org/10.1103/physrevmaterials.4.094205 (Thermoelectric properties of layered ternary telluride \nNb3SiTe6) | https://doi.org/10.1063/1.5023427 (Large thermoelectric power factor in one-dimensional telluride Nb4SiTe...)
 
 ## O-Sr-V
 - rank 396 | 18 samples | 5 papers | 13 compositions
@@ -411,7 +411,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - seed hypothesis (confirm): perovskite
 - measured range: 11-1283 K (5th-95th pct of 18 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SrV6O11 P6_3/mmc (194) mp-25128 [hull=0.034, icsd=4, PRIMARY]; Sr2VO4 I4/mmm (139) mp-18972 [hull=0.026, icsd=4, PRIMARY]; Sr5V3ClO12 P6_3/m (176) mp-705168 [hull=0.000, icsd=4, PRIMARY]; SrVO3 Pm-3m (221) mp-18717 [hull=0.036, icsd=3, PRIMARY]; Sr2V2O7 P-1 (2) mp-19368 [hull=0.001, icsd=2, PRIMARY]
-- papers: Thermoelectric response in the incoherent transport region near Mott transition: The case study of La1−xSrxVO3 | Metal-insulator transition in SrTi<sub>1−</sub><sub><i>x</i></sub>V<sub><i>x</i></sub>O<sub>3</sub>thin films | Solid-phase epitaxial growth of the correlated-electron transparent conducting oxide \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:mi>SrV</mml:mi><mml:msub><mml:mi mathvariant=\"normal\">O</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:mrow></mml:math>
+- papers: https://doi.org/10.1103/physrevb.83.165127 (Thermoelectric response in the incoherent transport region near Mott t...) | https://doi.org/10.1063/1.4836576 (Metal-insulator transition in SrTi<sub>1−</sub><sub><i>x</i></sub>V<su...) | https://doi.org/10.1103/physrevmaterials.5.083402 (Solid-phase epitaxial growth of the correlated-electron transparent co...)
 
 ## Pb-Se-Sn-Te
 - rank 397 | 18 samples | 5 papers | 17 compositions
@@ -421,7 +421,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 297-879 K (5th-95th pct of 90 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SnTePbSe R3m (160) mp-1218892 [hull=0.024, PRIMARY]; SnTePbSe P4/mmm (123) mp-1218887 [hull=0.065]
-- papers: Thermoelectric performance of PbSnTeSe high-entropy alloys | Thermoelectric transport properties of Pb–Sn–Te–Se system | Tuning figure of merit in Na doped nanocrystalline PbSnTeSe high entropy alloy via band engineering
+- papers: https://doi.org/10.1080/21663831.2016.1244116 (Thermoelectric performance of PbSnTeSe high-entropy alloys) | https://doi.org/10.1007/s12598-017-0991-9 (Thermoelectric transport properties of Pb–Sn–Te–Se system) | https://doi.org/10.1016/j.mssp.2021.106270 (Tuning figure of merit in Na doped nanocrystalline PbSnTeSe high entro...)
 
 ## Se-Te
 - rank 398 | 18 samples | 7 papers | 18 compositions
@@ -432,7 +432,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 295-701 K (5th-95th pct of 59 curves; full span incl. outliers 293-774 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Te3Se P6_3/mmc (194) mp-1187404 [hull=0.200, PRIMARY]
-- papers: Effect of selenium on the thermoelectric properties of tellurium | Comprehensive study of tellurium based glass ceramics for thermoelectric application | Effects of Bi2Se3Amount in Thermoelectric Performance of Bi2(TeSe)3Materials Fabricated by High-Energy Ball Milling
+- papers: https://doi.org/10.1007/bf00891150 (Effect of selenium on the thermoelectric properties of tellurium) | https://doi.org/10.1179/1743676115y.0000000054 (Comprehensive study of tellurium based glass ceramics for thermoelectr...) | https://doi.org/10.1111/ijac.12534 (Effects of Bi2Se3Amount in Thermoelectric Performance of Bi2(TeSe)3Mat...)
 
 ## Ag-In-Se
 - rank 399 | 17 samples | 5 papers | 12 compositions
@@ -442,7 +442,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - measured range: 298-908 K (5th-95th pct of 56 curves)
 - [ref 1] TEDesignLab / ICSD: InAgSe2 I-42d (122) mp-20554 [hull=0.000, icsd=13, PRIMARY]; In5AgSe8 (111)
 - [ref 2] MP, ranked by ICSD evidence: In5AgSe8 C2 (5) mp-1224092 [hull=0.003, PRIMARY]; In2AgSe4 I-4 (82) mp-1025331 [hull=0.090, PRIMARY]; InAgSe2 R-3m (166) mp-1007685 [hull=0.099, icsd=1]; InAgSe2 R3m (160) mp-1223807 [hull=0.071]; InAgSe2 I4_1/amd (141) mp-35071 [hull=0.111]
-- papers: Microstructure modulation responsible for the improvement in thermoelectric property of a wide-gap AgIn5Se8 semiconductor | Site occupations of Zn in AgInSe2-based chalcopyrites responsible for modified structures and significantly improved thermoelectric performance | Modified structures and improved thermoelectric property in Ag-added polycrystalline In2Se3
+- papers: https://doi.org/10.1016/j.intermet.2012.07.013 (Microstructure modulation responsible for the improvement in thermoele...) | https://doi.org/10.1039/c4ra03054k (Site occupations of Zn in AgInSe2-based chalcopyrites responsible for ...) | https://doi.org/10.1016/j.scriptamat.2010.11.026 (Modified structures and improved thermoelectric property in Ag-added p...)
 
 ## Al-As-Ga-In
 - rank 400 | 17 samples | 7 papers | 10 compositions
@@ -452,4 +452,4 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - solid-solution axis: Al/(Al+Ga) spans 0.20-0.51 (median 0.40) over 10 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 38-854 K (5th-95th pct of 35 curves)
-- papers: Recent Developments in Semiconductor Thermoelectric Physics and Materials | Thermoelectric power generator module of 16×16 Bi2Te3 and 0.6% ErAs:(InGaAs)1−x(InAlAs)x segmented elements | High efficiency semimetal/semiconductor nanocomposite thermoelectric materials
+- papers: https://doi.org/10.1146/annurev-matsci-062910-100445 (Recent Developments in Semiconductor Thermoelectric Physics and Materials) | https://doi.org/10.1063/1.3213347 (Thermoelectric power generator module of 16×16 Bi2Te3 and 0.6% ErAs:(I...) | https://doi.org/10.1063/1.3514145 (High efficiency semimetal/semiconductor nanocomposite thermoelectric m...)

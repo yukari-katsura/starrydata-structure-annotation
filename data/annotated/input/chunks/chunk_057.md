@@ -23,55 +23,55 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: C6H7NCl (1)
 - measured range: 280-320 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): FeH12C2(NCl2)2 P4_2/ncm (138) mp-1194613 [hull=0.050, icsd=19, PRIMARY]; Sb2H30C9(NCl3)3 Pc (7) mp-709030 [hull=0.065, icsd=4, PRIMARY]; HgH20C6(NCl2)2 P2_1/c (14) mp-1197209 [hull=0.082, icsd=2, PRIMARY]; H24PdC8(NCl2)2 P4_2/mnm (136) mp-707284 [hull=0.095, icsd=2, PRIMARY]; FeH16C4(NCl2)2 P2_1/c (14) mp-709074 [hull=0.060, icsd=2, PRIMARY]
-- papers: Investigating thermoelectric properties of doped polyaniline nanowires
+- papers: https://doi.org/10.1016/j.synthmet.2014.01.007 (Investigating thermoelectric properties of doped polyaniline nanowires)
 
 ## C-Co-Ga
 - rank 2802 | 1 samples | 1 papers | 1 compositions
 - compositions: GaCCo3 (1)
 - measured range: 14-328 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ga2Co6C P4/mmm (123) mp-1224829 [hull=0.039, PRIMARY]
-- papers: Good Thermoelectric Performance in Strongly Correlated System SnCCo3with Antiperovskite Structure
+- papers: https://doi.org/10.1021/ic500026t (Good Thermoelectric Performance in Strongly Correlated System SnCCo3wi...)
 
 ## C-Co-Ge
 - rank 2803 | 1 samples | 1 papers | 1 compositions
 - compositions: GeCCo3 (1)
 - measured range: 29-327 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co12Ge4C P4/mmm (123) mp-1226575 [hull=0.068, PRIMARY]
-- papers: Good Thermoelectric Performance in Strongly Correlated System SnCCo3with Antiperovskite Structure
+- papers: https://doi.org/10.1021/ic500026t (Good Thermoelectric Performance in Strongly Correlated System SnCCo3wi...)
 
 ## C-Cr-Ge
 - rank 2804 | 1 samples | 1 papers | 1 compositions
 - compositions: GeCCr3 (1)
 - measured range: 12-299 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cr2GeC P6_3/mmc (194) mp-922991 [hull=0.007, icsd=3, PRIMARY]; Cr3GeC Cmcm (63) mp-1079343 [hull=0.031, icsd=2, PRIMARY]
-- papers: Synthesis and characterization of Ge–Cr-based intermetallic compounds: GeCr3, GeCCr3, and GeNCr3
+- papers: https://doi.org/10.1016/j.jallcom.2013.09.086 (Synthesis and characterization of Ge–Cr-based intermetallic compounds:...)
 
 ## C-Cu-H-O
 - rank 2805 | 1 samples | 1 papers | 1 compositions
 - compositions: Cu3(CO3)2(OH)2 (1)
 - measured range: 12-147 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cu3H2(CO4)2 P2_1/c (14) mp-23733 [hull=0.007, icsd=5, PRIMARY]; Cu2H4CO5 P2_1 (4) mp-1192779 [hull=0.170, icsd=1, PRIMARY]; Cu3H10(C4O7)2 P2_1/c (14) mp-1204488 [hull=0.237, icsd=1, PRIMARY]; CuH2(CO2)2 P2_1/c (14) mp-643934 [hull=0.228, icsd=1, PRIMARY]; CuH3C3O4 P2_1/c (14) mp-1194779 [hull=0.193, icsd=1, PRIMARY]
-- papers: Thermal Conductivity and Spin State of the Spin Diamond-Chain System Azurite Cu3(CO3)2(OH)2
+- papers: https://doi.org/10.7566/jpsj.85.034715 (Thermal Conductivity and Spin State of the Spin Diamond-Chain System A...)
 
 ## C-Cu-O
 - rank 2806 | 1 samples | 1 papers | 1 compositions
 - compositions: CuOC0.7 (1)
 - measured range: 301-684 K (5th-95th pct of 4 curves; full span incl. outliers 301-775 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cu2CO5 P2_1/c (14) mp-1198809 [hull=0.113, icsd=9, PRIMARY]; Cu(CO2)2 P2_1/c (14) mp-1104057 [hull=0.547, icsd=2, PRIMARY]; Cu3(CO4)2 P2_1/c (14) mp-1192764 [hull=0.000, icsd=2, PRIMARY]; Cu(CO3)2 P2_1/c (14) mp-1201134 [hull=0.636, icsd=2, PRIMARY]; Cu(CO2)4 P2_1/c (14) mp-1192806 [hull=0.329, icsd=1, PRIMARY]
-- papers: Nanocomposites of CuO/SWCNT: Promising thermoelectric materials for mid-temperature thermoelectric generators
+- papers: https://doi.org/10.1016/j.jeurceramsoc.2019.04.036 (Nanocomposites of CuO/SWCNT: Promising thermoelectric materials for mi...)
 
 ## C-Cu-Se-Sn
 - rank 2807 | 1 samples | 1 papers | 1 compositions
 - compositions: C0.33Cu2SnSe3 (1)
 - measured range: 300-700 K (5th-95th pct of 5 curves)
-- papers: Enhanced Thermoelectric Performance of Cu2SnSe3-Based Composites Incorporated with Nano-Fullerene
+- papers: https://doi.org/10.3390/ma9080629 (Enhanced Thermoelectric Performance of Cu2SnSe3-Based Composites Incor...)
 
 ## C-Eu
 - rank 2808 | 1 samples | 1 papers | 1 compositions
 - compositions: EuC2 (1)
 - measured range: 10-299 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): EuC2 I4/mmm (139) mp-1018177 [hull=0.000, icsd=2, PRIMARY]; EuC6 P6_3/mmc (194) mp-1103990 [hull=0.000, icsd=1, PRIMARY]; EuC10 Im-3 (204) mp-1182736 [hull=0.672, PRIMARY]; EuC2 C2/c (15) mp-1077301 [hull=0.026, icsd=1]
-- papers: Structural Phase Transitions in EuC<sub>2</sub>
+- papers: https://doi.org/10.1021/ic901979v (Structural Phase Transitions in EuC<sub>2</sub>)
 
 ## C-F-H-S
 - rank 2809 | 1 samples | 1 papers | 1 compositions
@@ -79,7 +79,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): B (1), N (1)
 - measured range: 10-286 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): PH18PtC6S3BrF6 P2_1/c (14) mp-1204443 [hull=0.000, icsd=1, PRIMARY]; PH18PtC6S3ClF6 P2_1/c (14) mp-1202301 [hull=0.001, icsd=1, PRIMARY]
-- papers: β”-(CNB-EDT-TTF)4BF4; Anion Disorder Effects in Bilayer Molecular Metals
+- papers: https://doi.org/10.3390/cryst8040142 (β”-(CNB-EDT-TTF)4BF4; Anion Disorder Effects in Bilayer Molecular Metals)
 
 ## C-Fe-Si
 - rank 2810 | 1 samples | 1 papers | 1 compositions
@@ -87,27 +87,27 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): Co (1)
 - measured range: 573-973 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Fe5SiC Cmc2_1 (36) mp-1212719 [hull=0.022, PRIMARY]
-- papers: Optimization of properties of Fe/sub 1-x/Co/sub x/Si/sub 2+z/ for energy conversion and sensors
+- papers: https://doi.org/10.1109/ict.2002.1190270 (Optimization of properties of Fe/sub 1-x/Co/sub x/Si/sub 2+z/ for ener...)
 
 ## C-H-I-P
 - rank 2811 | 1 samples | 1 papers | 1 compositions
 - compositions: PCDIPT (1)
 - measured range: 293-403 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): P2H19C6I7N P-1 (2) mp-1196394 [hull=0.000, icsd=1, PRIMARY]
-- papers: Doping High‐Mobility Donor–Acceptor Copolymer Semiconductors with an Organic Salt for High‐Performance Thermoelectric Materials
+- papers: https://doi.org/10.1002/aelm.201900945 (Doping High‐Mobility Donor–Acceptor Copolymer Semiconductors with an O...)
 
 ## C-H-N-Te
 - rank 2812 | 1 samples | 1 papers | 1 compositions
 - compositions: (C6H7N)37(Te)63 (1)
 - measured range: 313-482 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaTe3H15(CN)3 C2/c (15) mp-1197650 [hull=0.059, icsd=1, PRIMARY]; MnTe2H20(CN)4 C2/c (15) mp-1198837 [hull=0.078, icsd=1, PRIMARY]
-- papers: Flexible low-grade energy utilization devices based on high-performance thermoelectric polyaniline/tellurium nanorod hybrid films
+- papers: https://doi.org/10.1039/c6ta01140c (Flexible low-grade energy utilization devices based on high-performanc...)
 
 ## C-H-O-S-Se
 - rank 2813 | 1 samples | 1 papers | 1 compositions
 - compositions: (C4H2Se)(C6H4O2S) (1)
 - measured range: 145-305 K (5th-95th pct of 2 curves)
-- papers: Thermoelectric Properties of Poly(selenophene-co-3, 4-ethylenedioxythiophene) via Electropolymerization
+- papers: https://doi.org/10.1007/s11664-016-5197-7 (Thermoelectric Properties of Poly(selenophene-co-3, 4-ethylenedioxythi...)
 
 ## C-H-O-Se
 - rank 2814 | 1 samples | 1 papers | 1 compositions
@@ -115,60 +115,60 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - dopant candidates (<5% at.): S (1)
 - measured range: 145-305 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): H6C2SeO P-1 (2) mp-1189850 [hull=0.258, icsd=1, PRIMARY]; U2H18C4Se3N2O17 P2_12_12_1 (19) mp-1195410 [hull=0.324, icsd=1, PRIMARY]
-- papers: Thermoelectric Properties of Poly(selenophene-co-3, 4-ethylenedioxythiophene) via Electropolymerization
+- papers: https://doi.org/10.1007/s11664-016-5197-7 (Thermoelectric Properties of Poly(selenophene-co-3, 4-ethylenedioxythi...)
 
 ## C-H-Sb-Te
 - rank 2815 | 1 samples | 1 papers | 1 compositions
 - compositions: (HSC6H4OH)39.14(Sb2Te3)60.86 (1)
 - dopant candidates (<5% at.): S (1), O (1)
 - measured range: 298-499 K (5th-95th pct of 6 curves)
-- papers: An Organic–Inorganic Superlattice with Nanocrystal‐Amorphous Composite Nanolayers for Ultrahigh Thermoelectric Performance
+- papers: https://doi.org/10.1002/sstr.202400201 (An Organic–Inorganic Superlattice with Nanocrystal‐Amorphous Composite...)
 
 ## C-Li-Mg-O-Si
 - rank 2816 | 1 samples | 1 papers | 1 compositions
 - compositions: Mg2SiLi5C2.5O7.5 (1)
 - measured range: 305-862 K (5th-95th pct of 4 curves)
-- papers: Fabrication and thermoelectric properties of Mg2Si-based composites using reduction reaction with additives
+- papers: https://doi.org/10.1016/j.intermet.2012.08.026 (Fabrication and thermoelectric properties of Mg2Si-based composites us...)
 
 ## C-Mn-Sn
 - rank 2817 | 1 samples | 1 papers | 1 compositions
 - compositions: SnCMn3 (1)
 - measured range: 11-330 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mn3SnC Pm-3m (221) mp-991257 [hull=0.055, icsd=4, PRIMARY]
-- papers: Good Thermoelectric Performance in Strongly Correlated System SnCCo3with Antiperovskite Structure
+- papers: https://doi.org/10.1021/ic500026t (Good Thermoelectric Performance in Strongly Correlated System SnCCo3wi...)
 
 ## C-Ni-Ti
 - rank 2818 | 1 samples | 1 papers | 1 compositions
 - compositions: (TiC)89.86(Ni3Al)10.14 (1)
 - dopant candidates (<5% at.): Al (1)
 - measured range: 292-1311 K (5th-95th pct of 1 curves)
-- papers: Densification and Thermal Properties of TiC-Ni3Al Composites Materials.
+- papers: https://doi.org/10.2497/jjspm.43.278 (Densification and Thermal Properties of TiC-Ni3Al Composites Materials.)
 
 ## C-O-S-Ti
 - rank 2819 | 1 samples | 1 papers | 1 compositions
 - compositions: TiO2SC (1)
 - measured range: 1223-1323 K (5th-95th pct of 1 curves)
-- papers: Concentration of electrons at grain boundaries in TiO2 (rutile): Impact on charge transport and reactivity
+- papers: https://doi.org/10.1016/j.cattod.2013.11.039 (Concentration of electrons at grain boundaries in TiO2 (rutile): Impac...)
 
 ## C-O-Zr
 - rank 2820 | 1 samples | 1 papers | 1 compositions
 - compositions: Y0.06ZrO2C0.3 (1)
 - dopant candidates (<5% at.): Y (1)
 - measured range: 302-672 K (5th-95th pct of 5 curves)
-- papers: Mechanically reliable thermoelectric (TE) nanocomposites by dispersing and embedding TE-nanostructures inside a tetragonal ZrO2matrix: the concept and experimental demonstration in graphene oxide–3YSZ system
+- papers: https://doi.org/10.1088/1468-6996/15/1/014201 (Mechanically reliable thermoelectric (TE) nanocomposites by dispersing...)
 
 ## C-Pu-U
 - rank 2821 | 1 samples | 1 papers | 1 compositions
 - compositions: (U)81.14(PuC)18.86 (1)
 - measured range: 750-1309 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): PuU4C5 R-3m (166) mp-1219737 [hull=0.184, PRIMARY]; PuUC2 R-3m (166) mp-1219685 [hull=0.017, PRIMARY]; PuUC3 I2_13 (199) mp-1219701 [hull=0.000, PRIMARY]
-- papers: U-PuO2, U-PuC, U-PuN cermet fuel for fast reactor
+- papers: https://doi.org/10.1016/j.jnucmat.2017.11.010 (U-PuO2, U-PuC, U-PuN cermet fuel for fast reactor)
 
 ## C-S-W
 - rank 2822 | 1 samples | 1 papers | 1 compositions
 - compositions: WS2C0.2 (1)
 - measured range: 290-780 K (5th-95th pct of 5 curves)
-- papers: Enhanced Thermoelectric Properties of WS2/Single-Walled Carbon Nanohorn Nanocomposites
+- papers: https://doi.org/10.3390/cryst10020140 (Enhanced Thermoelectric Properties of WS2/Single-Walled Carbon Nanohor...)
 
 ## C-Sn
 - rank 2823 | 1 samples | 1 papers | 1 compositions
@@ -176,154 +176,154 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - measured range: 11-30 K (5th-95th pct of 2 curves; full span incl. outliers 11-290 K)
 - [ref 1] TEDesignLab / ICSD: SnC F-43m (216) mp-1009820 [hull=0.815, icsd=1, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: SnC Fm-3m (225) mp-1009822 [hull=1.293, icsd=1]
-- papers: Thermoelectric power of Ce(Pb1−xSnx)3
+- papers: https://doi.org/10.1016/0304-8853(88)90399-x (Thermoelectric power of Ce(Pb1−xSnx)3)
 
 ## C-W
 - rank 2824 | 1 samples | 1 papers | 1 compositions
 - compositions: C90W10 (1)
 - measured range: 307-906 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): WC P-6m2 (187) mp-1894 [hull=0.000, icsd=20, PRIMARY]; W2C Pbcn (60) mp-2034 [hull=0.066, icsd=3, PRIMARY]; W3C I4/mmm (139) mp-979413 [hull=1.341, PRIMARY]; W9C4 R32 (155) mp-684989 [hull=0.074, PRIMARY]; WC Fm-3m (225) mp-13136 [hull=0.451, icsd=4]
-- papers: Thermal diffusivity/conductivity of doped graphites
+- papers: https://doi.org/10.1016/0022-3115(95)00068-2 (Thermal diffusivity/conductivity of doped graphites)
 
 ## Ca-Ce-O
 - rank 2825 | 1 samples | 1 papers | 1 compositions
 - compositions: CaCeO3 (1)
 - measured range: 580-1460 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca2CeO4 Pbam (55) mp-755597 [hull=0.021, PRIMARY]; CaCeO3 Pnma (62) mp-756365 [hull=0.059, PRIMARY]; Ca2CeO4 Pbca (61) mp-770977 [hull=0.065]
-- papers: Thermophysical properties of BaUO3
+- papers: https://doi.org/10.1016/s0022-3115(01)00474-3 (Thermophysical properties of BaUO3)
 
 ## Ca-Ce-Sb
 - rank 2826 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3CeSb3 (1)
 - measured range: 300-597 K (5th-95th pct of 1 curves)
-- papers: Synthesis and Transport Properties of the Family of Zintl Phases Ca<sub>3</sub>RESb<sub>3</sub> (RE = La–Nd, Sm, Gd–Tm, Lu): Exploring the Roles of Crystallographic Disorder and Core 4f Electrons for Enhancing Thermoelectric Performance
+- papers: https://doi.org/10.1021/acs.chemmater.1c03300 (Synthesis and Transport Properties of the Family of Zintl Phases Ca<su...)
 
 ## Ca-Co-Fe-O-Sr
 - rank 2827 | 1 samples | 1 papers | 1 compositions
 - compositions: Sr2.4Ca1.6Fe4.5Co1.5O13 (1)
 - measured range: 454-1175 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2Ca2Fe(CoO4)3 Pm (6) mp-1099605 [hull=0.071, PRIMARY]; Sr2Ca2Fe3CoO10 P1 (1) mp-1076147 [hull=0.018, PRIMARY]; Sr2Ca2Fe3CoO12 Pm (6) mp-1075966 [hull=0.048, PRIMARY]; Sr2Ca2FeCo3O10 P1 (1) mp-1099665 [hull=0.024, PRIMARY]; Sr2Ca6Fe3(CoO4)5 P1 (1) mp-1076198 [hull=0.031, PRIMARY]
-- papers: Synthesis, Crystal Chemistry, and Electrical Properties of the Intergrowth Oxides Sr4−xCaxFe6−yCoyO13+δ
+- papers: https://doi.org/10.1006/jssc.1999.8261 (Synthesis, Crystal Chemistry, and Electrical Properties of the Intergr...)
 
 ## Ca-Co-I-O
 - rank 2828 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3Co3.9I40.1O9 (1)
-- papers: Strengthening of Thermoelectric Performance via Ir Doping in Layered Ca3Co4O9System
+- papers: https://doi.org/10.1111/jace.12676 (Strengthening of Thermoelectric Performance via Ir Doping in Layered C...)
 
 ## Ca-Co-Mg-O
 - rank 2829 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca2.2Mg0.8Co4O9 (1)
 - measured range: 303-992 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca7Mg(Co2O5)4 P1 (1) mp-1076526 [hull=0.044, PRIMARY]; Ca7Mg(CoO3)8 Pm-3m (221) mp-1076128 [hull=0.209, PRIMARY]; CaMg14CoO16 Pmmm (47) mp-1036443 [hull=0.035, PRIMARY, AMBIGUOUS]; CaMg30CoO32 P4/mmm (123) mp-1038117 [hull=0.016, PRIMARY]; CaMg6CoO8 P4/mmm (123) mp-1032957 [hull=0.113, PRIMARY]
-- papers: Cation substituted (Ca2CoO3)xCoO2 films and their thermoelectric properties
+- papers: https://doi.org/10.1063/1.1489706 (Cation substituted (Ca2CoO3)xCoO2 films and their thermoelectric prope...)
 
 ## Ca-Co-O-Pb-Sr
 - rank 2830 | 1 samples | 1 papers | 1 compositions
 - compositions: Pb0.7SrCaCo0.3O3(CoO2)1.71 (1)
 - measured range: 11-341 K (5th-95th pct of 2 curves)
-- papers: Thermopower enhancement in misfit cobaltites
+- papers: https://doi.org/10.1063/1.1494114 (Thermopower enhancement in misfit cobaltites)
 
 ## Ca-Co-O-Rh
 - rank 2831 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3CoRhO6 (1)
 - measured range: 26-1088 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca3CoRhO6 R-3c (167) mp-1191540 [hull=0.051, PRIMARY]; Ca6Co3RhO12 R-3 (148) mp-1227118 [hull=0.042, PRIMARY]
-- papers: Magnetic and thermoelectric properties of quasi-one-dimensional oxides An+2CoBnO3n+3 (A=Ca,Sr, B=Co,Rh,Ir; n=1–3)
+- papers: https://doi.org/10.1063/1.2828575 (Magnetic and thermoelectric properties of quasi-one-dimensional oxides...)
 
 ## Ca-Co-O-Sb
 - rank 2832 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca2SbCo4O9 (1)
 - measured range: 11-297 K (5th-95th pct of 4 curves)
-- papers: Low temperature electrical and thermal transport properties of the Ca3−xSbxCo4O9 system
+- papers: https://doi.org/10.1007/s10854-012-0792-8 (Low temperature electrical and thermal transport properties of the Ca3...)
 
 ## Ca-Co-O-Sm
 - rank 2833 | 1 samples | 1 papers | 1 compositions
 - compositions: Sm0.6Ca0.4CoO3 (1)
 - measured range: 522-1225 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CaSmCoO4 Cmc2_1 (36) mp-1227147 [hull=0.039, PRIMARY]
-- papers: Comparative investigation of dual-phase membranes containing cobalt and iron-based mixed conducting perovskite for oxygen permeation
+- papers: https://doi.org/10.1016/j.memsci.2014.03.047 (Comparative investigation of dual-phase membranes containing cobalt an...)
 
 ## Ca-Co-O-Y
 - rank 2834 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca2YCo4O9 (1)
 - measured range: 11-295 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca9Y3(CoO6)4 P1 (1) mp-1227804 [hull=0.055, PRIMARY]
-- papers: Enhanced thermoelectric properties induced by chemical pressure in Ca3Co4O9
+- papers: https://doi.org/10.1016/j.ceramint.2013.10.090 (Enhanced thermoelectric properties induced by chemical pressure in Ca3...)
 
 ## Ca-Cr-Gd-O
 - rank 2835 | 1 samples | 1 papers | 1 compositions
 - compositions: Gd0.70Ca0.30CrO3 (1)
 - measured range: 63-312 K (5th-95th pct of 2 curves; full span incl. outliers 63-390 K)
-- papers: Magnetic and transport properties of Gd1−xCaxCrO3 (x=0.0–0.3): Effect of orbital degeneracy in thermoelectric power
+- papers: https://doi.org/10.1016/j.ceramint.2015.07.195 (Magnetic and transport properties of Gd1−xCaxCrO3 (x=0.0–0.3): Effect ...)
 
 ## Ca-Cr-La-O
 - rank 2836 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.7Ca0.3Cr0.97O3 (1)
 - measured range: 773-1123 K (5th-95th pct of 1 curves)
-- papers: Evaluation of simple, easily sintered La0.7Ca0.3Cr0.97 O3−δ perovskite oxide as novel interconnect material for solid oxide fuel cells
+- papers: https://doi.org/10.1016/j.jallcom.2009.01.039 (Evaluation of simple, easily sintered La0.7Ca0.3Cr0.97 O3−δ perovskite...)
 
 ## Ca-Cr-Na-O
 - rank 2837 | 1 samples | 1 papers | 1 compositions
 - compositions: Na0.5Ca0.5Cr2O4 (1)
 - measured range: 11-370 K (5th-95th pct of 2 curves)
-- papers: Electronic, thermoelectric, and magneto-dielectric properties of Ca1−xNaxCr2O4
+- papers: https://doi.org/10.1063/1.4810855 (Electronic, thermoelectric, and magneto-dielectric properties of Ca1−x...)
 
 ## Ca-Cu-O-Pd
 - rank 2838 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca0.7Na0.3Pd2.5Cu0.5O4 (1)
 - dopant candidates (<5% at.): Na (1)
 - measured range: 202-301 K (5th-95th pct of 1 curves)
-- papers: Logarithmic Temperature Dependence of Resistivity for Ca<sub><b>0.7</b></sub>Na<sub><b>0.3</b></sub>Pd<sub><b>3</b></sub>O<sub><b>4</b></sub>Doped with Cu
+- papers: https://doi.org/10.1143/jpsj.69.4112 (Logarithmic Temperature Dependence of Resistivity for Ca<sub><b>0.7</b...)
 
 ## Ca-Cu-Sb-Zn
 - rank 2839 | 1 samples | 1 papers | 1 compositions
 - compositions: CaZn0.25Cu0.5Sb (1)
 - measured range: 301-971 K (5th-95th pct of 4 curves)
-- papers: Structure transition and thermoelectric properties related to AZn(1-x)/2CuxSb (A = Ca, Eu, Sr; 0<x<1) Zintl phases
+- papers: https://doi.org/10.1016/j.jallcom.2019.152508 (Structure transition and thermoelectric properties related to AZn(1-x)...)
 
 ## Ca-Dy-O-Sb
 - rank 2840 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca2Dy7Sb5O5 (1)
 - measured range: 12-369 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca2Dy3Sb3O14 C2/c (15) mp-1227760 [hull=0.010, PRIMARY]
-- papers: Investigation of the transport properties and compositions of the Ca2RE7Pn5O5 series (RE=Pr, Sm, Gd, Dy; Pn=Sb, Bi)
+- papers: https://doi.org/10.1016/j.jssc.2016.04.015 (Investigation of the transport properties and compositions of the Ca2R...)
 
 ## Ca-Fe-La-Ni-O
 - rank 2841 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.6Ca0.4Fe0.7Ni0.3O3 (1)
 - measured range: 773-1073 K (5th-95th pct of 1 curves)
-- papers: Synthesis and electrochemical performance of La0.6Ca0.4Fe1−xNixO3 (x=0.1, 0.2, 0.3) material for solid oxide fuel cell cathode
+- papers: https://doi.org/10.1016/j.jpowsour.2008.12.009 (Synthesis and electrochemical performance of La0.6Ca0.4Fe1−xNixO3 (x=0...)
 
 ## Ca-Fe-O-Ru
 - rank 2842 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca2FeRuO6 (1)
 - measured range: 110-299 K (5th-95th pct of 1 curves)
-- papers: Reentrant magnetism at the borderline between long-range antiferromagnetic order and spin-glass behavior in the \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mi>B</mml:mi></mml:math>\n-site disordered perovskite system \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:mi mathvariant=\"normal\">C</mml:mi><mml:msub><mml:mi mathvariant=\"normal\">a</mml:mi><mml:mrow><mml:mn>2</mml:mn><mml:mo>−</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mi mathvariant=\"normal\">S</mml:mi><mml:msub><mml:mi mathvariant=\"normal\">r</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mi>FeRu</mml:mi><mml:msub><mml:mi mathvariant=\"normal\">O</mml:mi><mml:mn>6</mml:mn></mml:msub></mml:mrow></mml:math>
+- papers: https://doi.org/10.1103/physrevb.98.224423 (Reentrant magnetism at the borderline between long-range antiferromagn...)
 
 ## Ca-Fe-O-Ru-Sr
 - rank 2843 | 1 samples | 1 papers | 1 compositions
 - compositions: CaSrFeRuO6 (1)
 - measured range: 71-298 K (5th-95th pct of 1 curves)
-- papers: Reentrant magnetism at the borderline between long-range antiferromagnetic order and spin-glass behavior in the \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mi>B</mml:mi></mml:math>\n-site disordered perovskite system \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:mi mathvariant=\"normal\">C</mml:mi><mml:msub><mml:mi mathvariant=\"normal\">a</mml:mi><mml:mrow><mml:mn>2</mml:mn><mml:mo>−</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mi mathvariant=\"normal\">S</mml:mi><mml:msub><mml:mi mathvariant=\"normal\">r</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mi>FeRu</mml:mi><mml:msub><mml:mi mathvariant=\"normal\">O</mml:mi><mml:mn>6</mml:mn></mml:msub></mml:mrow></mml:math>
+- papers: https://doi.org/10.1103/physrevb.98.224423 (Reentrant magnetism at the borderline between long-range antiferromagn...)
 
 ## Ca-Ga
 - rank 2844 | 1 samples | 1 papers | 1 compositions
 - compositions: CaGa4 (1)
 - measured range: 17-286 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CaGa4 I4/mmm (139) mp-1976 [hull=0.000, icsd=4, PRIMARY]; CaGa2 P6_3/mmc (194) mp-11284 [hull=0.000, icsd=4, PRIMARY]; CaGa Cmcm (63) mp-6914 [hull=0.000, icsd=3, PRIMARY]; Ca3Ga8 Immm (71) mp-12611 [hull=0.011, icsd=2, PRIMARY]; Ca11Ga7 Fm-3m (225) mp-30474 [hull=0.000, icsd=1, PRIMARY]
-- papers: Characteristic Fermi surfaces and charge density wave in SrAl4 and related compounds with the BaAl4-type tetragonal structure
+- papers: https://doi.org/10.1016/j.jallcom.2015.08.193 (Characteristic Fermi surfaces and charge density wave in SrAl4 and rel...)
 
 ## Ca-Gd-O-Sb
 - rank 2845 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca2Gd7Sb5O5 (1)
 - measured range: 11-374 K (5th-95th pct of 3 curves)
-- papers: Investigation of the transport properties and compositions of the Ca2RE7Pn5O5 series (RE=Pr, Sm, Gd, Dy; Pn=Sb, Bi)
+- papers: https://doi.org/10.1016/j.jssc.2016.04.015 (Investigation of the transport properties and compositions of the Ca2R...)
 
 ## Ca-Gd-Sb
 - rank 2846 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3GdSb3 (1)
 - measured range: 300-597 K (5th-95th pct of 1 curves)
-- papers: Synthesis and Transport Properties of the Family of Zintl Phases Ca<sub>3</sub>RESb<sub>3</sub> (RE = La–Nd, Sm, Gd–Tm, Lu): Exploring the Roles of Crystallographic Disorder and Core 4f Electrons for Enhancing Thermoelectric Performance
+- papers: https://doi.org/10.1021/acs.chemmater.1c03300 (Synthesis and Transport Properties of the Family of Zintl Phases Ca<su...)
 
 ## Ca-Ge-O
 - rank 2847 | 1 samples | 1 papers | 1 compositions
@@ -331,23 +331,23 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - measured range: 10-392 K (5th-95th pct of 3 curves)
 - [ref 1] TEDesignLab / ICSD: CaGeO3 Pnma (62) mp-8130 [hull=0.108, icsd=19, PRIMARY]; CaGe2O5 C2/c (15) mp-3707 [hull=0.006, icsd=9, PRIMARY]; Ca2GeO4 I4/mmm (139) mp-13650 [hull=0.146, icsd=1, PRIMARY]; Ca2GeO4 P-3m1 (164) mp-1019561 [hull=0.189, icsd=1]; CaGe2O5 (1)
 - [ref 2] MP, ranked by ICSD evidence: Ca3GeO Pm-3m (221) mp-9721 [hull=0.001, icsd=2, PRIMARY]; Ca2Ge7O16 P-4b2 (117) mp-29273 [hull=0.000, icsd=2, PRIMARY]; Ca5(GeO5)2 P2_1/c (14) mp-1197278 [hull=0.075, icsd=1, PRIMARY]; CaGe2O5 Pbam (55) mp-4279 [hull=0.005, icsd=2]; CaGeO3 P-1 (2) mp-17761 [hull=0.000, icsd=1]
-- papers: Thermoelectric properties of inverse perovskites A3TtO (A = Mg, Ca; Tt = Si, Ge): Computational and experimental investigations
+- papers: https://doi.org/10.1063/1.5095247 (Thermoelectric properties of inverse perovskites A3TtO (A = Mg, Ca; Tt...)
 
 ## Ca-Hf-O-Sc
 - rank 2848 | 1 samples | 1 papers | 1 compositions
 - compositions: CaHf0.7Sc0.3O3 (1)
 - measured range: 674-1174 K (5th-95th pct of 1 curves)
-- papers: Influence of Sc concentration on transport properties of CaHf1-xScxO3-α
+- papers: https://doi.org/10.1007/s11581-021-03975-5 (Influence of Sc concentration on transport properties of CaHf1-xScxO3-α)
 
 ## Ca-K-Mn-O
 - rank 2849 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca0.9Gd0.1MnO3(K2CO3)0.2 (1)
 - dopant candidates (<5% at.): C (1), Gd (1)
 - measured range: 328-1069 K (5th-95th pct of 1 curves)
-- papers: Improvement of thermoelectric properties of Ca0.9Gd0.1MnO3 by powder engineering through K2CO3 additions
+- papers: https://doi.org/10.1007/s10853-018-3058-x (Improvement of thermoelectric properties of Ca0.9Gd0.1MnO3 by powder e...)
 
 ## Ca-La-Sb
 - rank 2850 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca3LaSb3 (1)
 - measured range: 300-589 K (5th-95th pct of 1 curves)
-- papers: Synthesis and Transport Properties of the Family of Zintl Phases Ca<sub>3</sub>RESb<sub>3</sub> (RE = La–Nd, Sm, Gd–Tm, Lu): Exploring the Roles of Crystallographic Disorder and Core 4f Electrons for Enhancing Thermoelectric Performance
+- papers: https://doi.org/10.1021/acs.chemmater.1c03300 (Synthesis and Transport Properties of the Family of Zintl Phases Ca<su...)

@@ -416,6 +416,25 @@ def main():
                 break
         return ' | '.join(seen)
 
+    def top_papers(g):
+        """Representative papers as resolvable DOI links.
+
+        Assignments made from composition alone cannot be confirmed without the
+        paper, so the source has to be one click away at the point of decision.
+        """
+        out, seen = [], set()
+        for doi, title in g:
+            if not isinstance(doi, str) or doi in seen:
+                continue
+            seen.add(doi)
+            t = str(title).strip().strip('"') if isinstance(title, str) else ''
+            t = (t[:70] + '...') if len(t) > 73 else t
+            out.append(f'https://doi.org/{doi}' + (f' ({t})' if t else ''))
+            if len(out) >= N_EXAMPLE_TITLES:
+                break
+        return ' | '.join(out)
+
+    df_s['_doi_title'] = list(zip(df_s.DOI, df_s.title))
     df_host = (df_s.groupby('host_system')
                    .agg(n_samples=('sample_id', 'size'),
                         n_papers=('SID', 'nunique'),
@@ -424,7 +443,8 @@ def main():
                         example_compositions=('composition', top_comps),
                         dopant_candidates=('dopant_candidates', top_dopants),
                         holdout_hand_labels=('holdout_hand_label', top_families),
-                        example_titles=('title', top_titles))
+                        example_titles=('title', top_titles),
+                        example_papers=('_doi_title', top_papers))
                    .reset_index())
 
     df_host = df_host.sort_values(['n_samples', 'host_system'],
@@ -626,7 +646,9 @@ def main():
                              if isinstance(t1, str) and t1
                              else '[ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry)')
                     lines.append(f'- {label}: {t2}')
-            if r.example_titles:
+            if getattr(r, 'example_papers', None):
+                lines.append(f'- papers: {r.example_papers}')
+            elif r.example_titles:
                 lines.append(f'- papers: {r.example_titles}')
             lines.append('')
         with open(f'{chunk_dir}chunk_{chunk_id:03d}.md', 'w') as f:

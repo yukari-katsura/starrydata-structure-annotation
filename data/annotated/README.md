@@ -303,6 +303,30 @@ and `confidence_note`: `misfit_cobaltite` and `misfit_layered_chalcogenide`
 so), `bi_chalcogenide_complex` (every composition is effectively its own
 structure), and `amorphous` / `metallic_glass` / `composite_multiphase` (skip).
 
+### Checking an assignment against the paper
+
+Nothing here has been read out of a paper, so `experimentally_confirmed` is
+false throughout. `scripts/build_review_queue.py` ranks the cases where that
+matters and links the specific papers that would settle each:
+
+```bash
+python scripts/build_review_queue.py           # top 40 into validation/needs_review.md
+python scripts/build_review_queue.py --top 71  # all of them
+```
+
+A host is queued when it is mixed, when confidence is low or medium, when a
+transition temperature came from a taxonomy default rather than a paper, when
+the structure reference could not separate two polymorphs, or when a reference
+or taxonomy disagreement was recorded.
+
+Currently **71 of 150 hosts, covering 19,725 samples**. The dominant reason is
+`MIXED` (47 hosts) — one label standing over several real structures. For those
+the report lists each competing composition separately with the papers reporting
+it, so the split can be made by reading rather than guessing.
+
+Chunk files also carry DOI links directly on the `papers:` line, so the source
+is one click away at the moment of assignment.
+
 ### Where doping work happens
 
 Split by the kind of work, not by topic. The judgement is per host; the

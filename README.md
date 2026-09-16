@@ -19,6 +19,7 @@ structures, identify dopants and compute doping levels.
 | `data/annotated/df_annotated_samples.parquet` | 30,068 samples joined to a structure |
 | `data/annotated/by_family/` | per-prototype shards |
 | `data/annotated/taxonomy/prototypes_seed_v3.json` | 153 structure prototypes |
+| `data/annotated/validation/needs_review.md` | what still needs a paper, with DOI links |
 | `data/annotated/validation/` | held-out curator labels, reference comparison |
 | `data/annotated/README.md` | **the detailed methodology** |
 
@@ -77,7 +78,9 @@ committed annotation outputs do not depend on re-running it.
 Read these before treating the output as reference data.
 
 - **Nothing is verified against a paper.** All assignments rest on composition
-  and model knowledge. Against ICSD-backed space groups the taxonomy's
+  and model knowledge. `validation/needs_review.md` ranks the 71 host systems
+  (19,725 samples) where this matters most and links the papers that would
+  settle each. Against ICSD-backed space groups the taxonomy's
   prototype is *present* among measured structures for 82% of testable host
   systems and is the *best-attested* one for 63%; the 55 disagreements are in
   `data/annotated/validation/taxonomy_vs_references.md`.
