@@ -159,6 +159,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 919 | 7 samples | 3 papers | 5 compositions
 - compositions: Sr2TiMoO6 (3); Ba0.1Sr1.9TiMoO6 (1); La0.3Sr1.7TiMoO6 (1); La0.15Sr1.85TiMoO6 (1); La0.25Sr1.75TiMoO6 (1)
 - dopant candidates (<5% at.): La (3), Ba (1)
+- curator composition details (from the paper): bulk (pressed and sintered) (4); polycrystalline (3)
 - measured range: 332-1235 K (5th-95th pct of 7 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2TiMoO6 I4/m (87) mp-1078580 [hull=0.003, icsd=1, PRIMARY]; Sr2TiMoO6 Fm-3m (225) mp-1218376 [hull=0.031]
 - papers: https://doi.org/10.1016/j.scriptamat.2016.11.033 (Environmental friendly Sr2TiMoO6 double perovskite for high temperatur...) | https://doi.org/10.1016/j.jallcom.2017.03.264 (Effect of Ba-doping on high temperature thermoelectric properties of S...) | https://doi.org/10.1039/c7dt00848a (Metal-like electrical conductivity in La<sub>x</sub>Sr<sub>2−x</sub>Ti...)
@@ -199,6 +200,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 924 | 7 samples | 2 papers | 7 compositions
 - compositions: (NbO)12(SrTiNb0.2O3)12 (1); (NbO)12(SrTiNb0.2O3)6 (1); (NbO)1(SrTiNb0.2O3)12 (1); (NbO)9(SrTiNb0.2O3)12 (1); (NbO)9(SrTiNb0.2O3)6 (1); (NbO)9(SrTiNb0.2O3)3 (1)
 - dopant candidates (<5% at.): La (1)
+- curator composition details (from the paper): [(NbOx)12/(STNO)12]2 superlattice (1); [(NbOx)12/(STNO)6]2 super lattice (1); [(NbOx)1/(STNO)12]20 superlattice (1); [(NbOx)9/(STNO)12]2 super lattice (1); [(NbOx)9/(STNO)6]2 superlattice (1)
 - sample form: Film (4); multilayer film (2); Bulk (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 297-1003 K (5th-95th pct of 22 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2LaTi2Nb3O15 Pbam (55) mp-1218793 [hull=0.067, PRIMARY]; Sr3TiNb4O15 Pc (7) mp-1218661 [hull=0.049, PRIMARY]; Sr4Ti3Nb2O15 R-3m (166) mp-1218495 [hull=0.030, PRIMARY]
@@ -240,6 +242,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## O-Sm-Zr
 - rank 929 | 7 samples | 5 papers | 1 compositions
 - compositions: Sm2Zr2O7 (7)
+- curator composition details (from the paper): Sm2Zr2O7(Phases present : Pyrochlore + Fluorite) (1)
 - sample form: Bulk (2)
 - measured range: 293-1272 K (5th-95th pct of 7 curves; full span incl. outliers 293-1673 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sm2Zr2O7 Fd-3m (227) mp-4408 [hull=0.000, icsd=3, PRIMARY]; Sm2Zr8O19 P-4m2 (115) mp-1173100 [hull=0.016, PRIMARY]; Sm4ZrO8 Immm (71) mp-1173349 [hull=0.216, PRIMARY]; SmZr4O9 Imm2 (44) mp-760533 [hull=0.099, PRIMARY]; Sm2Zr2O7 P2_1 (4) mp-772758 [hull=0.022]
@@ -248,6 +251,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## O-Sn-Zn
 - rank 930 | 7 samples | 3 papers | 6 compositions
 - compositions: ZnSnO (2); Zn2SnO4 (1); Sn0.5ZnO1.5 (1); Sn0.15ZnO1.15 (1); Sn0.2ZnO1.2 (1); Sn0.3ZnO1.3 (1)
+- curator composition details (from the paper): x = [Sn]/[Zn] (4)
 - sample form: Powder (2); Bulk (1)
 - measured range: 303-1073 K (5th-95th pct of 8 curves)
 - [ref 1] TEDesignLab / ICSD: ZnSnO3 R3c (161) mp-13334 [hull=0.041, icsd=2, PRIMARY]; ZnSnO3 R-3 (148) mp-14628 [hull=0.055, icsd=1]
@@ -268,6 +272,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 932 | 7 samples | 2 papers | 7 compositions
 - compositions: Sb10(V2O5)50(TeO2)40 (1); Sb12(V2O5)48(TeO2)40 (1); Sb12(V2O5)45(TeO2)40 (1); (V2O5)60(TeO2)40 (1); Sb5(V2O5)55(TeO2)40 (1); Sb8(V2O5)52(TeO2)40 (1)
 - dopant candidates (<5% at.): Sb (5)
+- curator composition details (from the paper): 10Sb-50V2O5-40TeO2 (1); 12Sb-48V2O5-40TeO2 (1); 15Sb-45V2O5-40TeO2 (1); 60V2O5-40TeO2 (1); 5Sb-55V2O5- 40TeO2 (1)
 - sample form: SingleCrystal (1)
 - solid-solution axis: O/(O+Te) spans 0.33-0.90 (median 0.89) over 7 compositions
      CHECK: same periodic group, but oxygen often occupies its own sublattice (BiCuSeO, LaFeAsO) rather than substituting for the heavier chalcogen. Confirm the two share a site before treating this as a substitution axis.
@@ -278,6 +283,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Pb-Se-Ti
 - rank 933 | 7 samples | 1 papers | 5 compositions
 - compositions: PbTiSe3 (2); PbTi2Se5 (2); PbTi3Se7 (1); PbTi4Se9 (1); PbTi6Se13 (1)
+- curator composition details (from the paper): (PbSe)1+δ(TiSe2)n with 1 ≤ n ≤ 18 (6); (PbSe)1+δ(TiSe2)n thin-film intergrowths are reported for 1 ≤ n ≤ 18 (1)
 - measured range: 19-287 K (5th-95th pct of 7 curves)
 - papers: https://doi.org/10.1039/c5tc01570g (Carrier dilution in TiSe2based intergrowth compounds for enhanced ther...)
 
@@ -331,6 +337,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## S-Ta
 - rank 940 | 7 samples | 1 papers | 6 compositions
 - compositions: TaS2 (2); TaS2.004 (1); TaS2.002 (1); TaS2.003 (1); TaS2.005 (1); TaS2.008 (1)
+- curator composition details (from the paper): xes=0 (1); xes=5 mg/cc (1); xes=8 mg/cc (1)
 - measured range: 12-299 K (5th-95th pct of 7 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TaS2 Fmm2 (42) mp-1411 [hull=0.002, icsd=8, PRIMARY]; TaS3 P2_1/m (11) mp-30527 [hull=0.000, icsd=2, PRIMARY]; Ta3S2 Aem2 (39) mp-1826 [hull=0.000, icsd=1, PRIMARY]; Ta6S C2/c (15) mp-27467 [hull=0.004, icsd=1, PRIMARY]; TaS P-6m2 (187) mp-10628 [hull=0.211, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1023/a:1014749121869 ([])
@@ -339,6 +346,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 941 | 7 samples | 3 papers | 2 compositions
 - compositions: Sb2Se3Te0.01 (5); Sb2Se3 (2)
 - dopant candidates (<5% at.): Te (5)
+- curator composition details (from the paper): 61.3 at% Se–37.6 at% Sb–1.1 at% Te (5)
 - sample form: Bulk (1)
 - measured range: 300-540 K (5th-95th pct of 9 curves; full span incl. outliers 300-800 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sb2Se3 Pnma (62) mp-2160 [hull=0.000, icsd=11, PRIMARY]

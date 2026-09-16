@@ -58,6 +58,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Ba-Cr-O-Ti
 - rank 2506 | 1 samples | 1 papers | 1 compositions
 - compositions: Ba2Ti2Cr2As4O (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 21-384 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2016.10.152 (Synthesis, crystal structure and physical properties of a new oxypnict...)
 
@@ -119,6 +120,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2515 | 1 samples | 1 papers | 1 compositions
 - compositions: GdCo0.95Fe0.05AsO (1)
 - dopant candidates (<5% at.): Fe (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 11-40 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1103/physrevb.91.125106 (Magnetocrystalline anisotropic effect in<mml:math xmlns:mml=\"http://w...)
 
@@ -190,6 +192,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-F-Fe-O-Sm-Te
 - rank 2525 | 1 samples | 1 papers | 1 compositions
 - compositions: Sm4Fe2As2Te0.72O3.8F1.2 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 11-302 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1088/0953-8984/28/11/115701 (Upper critical field, pressure-dependent superconductivity and electro...)
 
@@ -205,6 +208,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2527 | 1 samples | 1 papers | 1 compositions
 - compositions: ThFeAsN0.92O0.08 (1)
 - dopant candidates (<5% at.): O (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 11-35 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1088/1361-648x/aac402 (Peculiar phase diagram with isolated superconducting regions in ThFeAs...)
 
@@ -225,6 +229,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Fe-O-Pr-Te
 - rank 2530 | 1 samples | 1 papers | 1 compositions
 - compositions: Pr4Fe2As2TeO4 (1)
+- curator composition details (from the paper): single crystal (1)
 - measured range: 25-301 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1103/physrevb.93.094519 (Magnetotransport studies of superconducting<mml:math xmlns:mml=\"http:...)
 
@@ -274,6 +279,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Nd-O-Pd
 - rank 2537 | 1 samples | 1 papers | 1 compositions
 - compositions: Nd10Pd3As8O10 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 11-295 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1039/c6tc02060g (Palladium pnictide oxides Nd<sub>10</sub>Pd<sub>3</sub>As<sub>8</sub>O...)
 
@@ -328,6 +334,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Se-Te-Tl
 - rank 2545 | 1 samples | 1 papers | 1 compositions
 - compositions: As11.76Se23.53Te17.65Tl47.06 (1)
+- curator composition details (from the paper): As11.76Se23.53Te17.65Tl47.06 (1)
 - measured range: 125-318 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1063/1.1702619 (Thermoelectric Properties of Diphasal Systems Combining As2Te3 and Tl2...)
 

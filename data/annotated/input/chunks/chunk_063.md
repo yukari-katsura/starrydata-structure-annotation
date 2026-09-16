@@ -150,6 +150,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3118 | 1 samples | 1 papers | 1 compositions
 - compositions: (Ni0.47Cu0.53)(SiO2)0.04 (1)
 - dopant candidates (<5% at.): Si (1)
+- curator composition details (from the paper): 10vol.%SiO2 (1)
 - measured range: 304-1073 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cu(NiO2)2 Fd-3m (227) mp-769689 [hull=0.004, PRIMARY]; Cu2Ni11O13 Immm (71) mp-761502 [hull=0.020, PRIMARY]; Cu2NiO4 I4_1/a (88) mp-771115 [hull=0.095, PRIMARY]; Cu6NiO6 Fm-3m (225) mp-1147668 [hull=0.237, PRIMARY]; CuNi3O4 Cmmm (65) mp-761415 [hull=0.065, PRIMARY]
 - papers: https://doi.org/10.1016/s0925-8388(03)00295-0 (Thermoelectric properties of constantan/spherical SiO2 and Al2O3 parti...)
@@ -186,6 +187,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-O-S-Sc-Sr
 - rank 3123 | 1 samples | 1 papers | 1 compositions
 - compositions: Sr3Cu2Sc2O5S2 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 149-449 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr3Sc2Cu2S2O5 I4/mmm (139) mp-15900 [hull=0.041, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1063/1.2817643 (A promising p-type transparent conducting material: Layered oxysulfide...)
@@ -194,6 +196,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3124 | 1 samples | 1 papers | 1 compositions
 - compositions: Sr1.8Ca0.2CuO2S2 (1)
 - dopant candidates (<5% at.): Ca (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 31-296 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2Cu3(SO)2 I4/mmm (139) mp-7112 [hull=0.130, icsd=1, PRIMARY]; Sr2CuSO2 P4/mmm (123) mp-1147582 [hull=0.180, PRIMARY]
 - papers: https://doi.org/10.1063/1.2173638 (Electronic nature of layered oxysulfide Sr2−xCaxCu2CoO2S2 with CoO2 pl...)
@@ -371,6 +374,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Y
 - rank 3148 | 1 samples | 1 papers | 1 compositions
 - compositions: YCu2 (1)
+- curator composition details (from the paper): annealed in an evacuated quartz tube at 700 "C for one week (1)
 - sample form: Polycrystal (1)
 - measured range: 12-274 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YCu Pm-3m (221) mp-712 [hull=0.021, icsd=7, PRIMARY]; YCu2 Imma (74) mp-2698 [hull=0.000, icsd=4, PRIMARY]; YCu5 P6/mmm (191) mp-2797 [hull=0.000, icsd=4, PRIMARY]; Y2Cu3 Cmcm (63) mp-1190402 [hull=0.620, icsd=1, PRIMARY]; Y4Cu19Pb R3m (160) mp-1216359 [hull=0.028, PRIMARY]

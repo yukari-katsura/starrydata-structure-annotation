@@ -83,6 +83,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Fe-Ga-Ni-O
 - rank 2660 | 1 samples | 1 papers | 1 compositions
 - compositions: GaBaFeNiO5 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 523-1123 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.electacta.2015.09.146 (Cobalt-free double perovskite cathode GdBaFeNiO5+δ and electrochemical...)
 
@@ -238,12 +239,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Mo-O-Sr-Ti
 - rank 2683 | 1 samples | 1 papers | 1 compositions
 - compositions: BaSrTiMoO6 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 335-1237 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2017.03.264 (Effect of Ba-doping on high temperature thermoelectric properties of S...)
 
 ## Ba-Mo-O-Ti
 - rank 2684 | 1 samples | 1 papers | 1 compositions
 - compositions: BaTiMoO6 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 335-1240 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba3TiMoO8 R3m (160) mp-1228461 [hull=0.030, PRIMARY]; Ba5Ti4MoO15 Cmmm (65) mp-1228035 [hull=0.006, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2017.03.264 (Effect of Ba-doping on high temperature thermoelectric properties of S...)

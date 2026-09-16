@@ -49,6 +49,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1605 | 3 samples | 3 papers | 3 compositions
 - compositions: Y2O1.6Bi1.5 (1); Bi0.95Sr0.05YO3 (1); Y2O2Bi (1)
 - dopant candidates (<5% at.): Sr (1)
+- curator composition details (from the paper): bulk (pressed and sintered) (1)
 - measured range: 21-298 K (5th-95th pct of 3 curves; full span incl. outliers 21-1012 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Y2BiO2 I4/mmm (139) mp-1070510 [hull=0.000, icsd=1, PRIMARY]; Y(Bi5O8)3 Pm (6) mp-860892 [hull=0.051, PRIMARY]; Y(Bi3O5)4 I23 (197) mp-769643 [hull=0.058, PRIMARY]; Y(BiO2)3 R-3 (148) mp-754107 [hull=0.043, PRIMARY]; Y2Bi2O7 P2_1 (4) mp-772305 [hull=0.063, PRIMARY]
 - papers: https://doi.org/10.1021/jacs.6b05275 (Two-Dimensional Superconductivity Emerged at Monatomic Bi<sup>2–</sup>...) | https://doi.org/10.1016/j.matchemphys.2016.11.052 (Sr doped BiMO 3 (M = Mn, Fe, Y) perovskites: Structure correlated ther...) | https://doi.org/10.1063/1.4983280 (Magnetic and magnetotransport properties of ThCr<sub>2</sub>Si<sub>2</...)
@@ -84,6 +85,10 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1610 | 3 samples | 2 papers | 3 compositions
 - compositions: TiS2(C6H16N)0.08(H2O)0.22(C2H6SO)0.03 (1); TiS2(C6H16N)0.08(H2O)0.22(C2H6OS)0.03 (1); TiS2((C4H9)4N)0.013(C6H16N)0.019 (1)
 - dopant candidates (<5% at.): N (3), O (2)
+- curator composition details (from the paper): HA	C6H16N	hexylammonium
+DMSO	C2H6SO	Dimethyl Sulfoxide (1); HA:Hexylammonium C6H16N
+DMSO:Dimethyl Sulfoxide C2H6OS (1); HA:Hexylammonium C6H16N
+TBA:Tetrabutylammonium (C4H9)4N (1)
 - sample form: multilayer film (2); Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 299-413 K (5th-95th pct of 19 curves)
 - papers: https://doi.org/10.1038/nmat4251 (Flexible n-type thermoelectric materials by organic intercalation of l...) | https://doi.org/10.1038/s41467-017-01149-4 (Ultrahigh thermoelectric power factor in flexible hybrid inorganic-org...)
@@ -149,6 +154,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Co-La-Mn-O
 - rank 1619 | 3 samples | 2 papers | 2 compositions
 - compositions: LaCaMnCoO6 (2); La1.5Ca0.5CoMnO6 (1)
+- curator composition details (from the paper): single crystal (1); polycrystalline (1)
 - measured range: 47-296 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1063/1.3059592 (Magnetic, transport, and magnetocaloric properties of double perovskit...) | https://doi.org/10.1063/1.5004600 (Influence of magnetic frustration and structural disorder on magnetoca...)
 
@@ -266,6 +272,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1634 | 3 samples | 2 papers | 2 compositions
 - compositions: Cd3P2 (2); Cd3(P0.9As0.1)2 (1)
 - dopant candidates (<5% at.): As (1)
+- curator composition details (from the paper): 90mol.%Cd3P2-10mol.%Cd3As2 (1)
 - sample form: Bulk (1); SingleCrystal (1)
 - measured range: 71-526 K (5th-95th pct of 3 curves; full span incl. outliers 71-619 K)
 - [ref 1] TEDesignLab / ICSD: CdP2 P4_12_12 (92) mp-12112 [hull=0.000, icsd=3, PRIMARY, AMBIGUOUS]; CdP4 P2_1/c (14) mp-7904 [hull=0.009, icsd=2, PRIMARY]; CdP2 Pna2_1 (33) mp-402 [hull=0.001, icsd=3]; CdP2 P4_32_12 (96) mp-913 [hull=0.000, icsd=2]

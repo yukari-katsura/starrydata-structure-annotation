@@ -68,6 +68,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 656 | 10 samples | 5 papers | 4 compositions
 - compositions: CeO2 (6); Gd0.1Ce0.9O2 (2); (Ce3Si2)3.86(CeO2)96.14 (1); Ce0.9Sm0.1O1.95 (1)
 - dopant candidates (<5% at.): Gd (2), Si (1), Sm (1)
+- curator composition details (from the paper): bulk (pressed and sintered) (5)
 - sample form: pellets (2); Other (1)
 - measured range: 75-1273 K (5th-95th pct of 10 curves; full span incl. outliers 75-1868 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeO2 Fm-3m (225) mp-20194 [hull=0.000, icsd=49, PRIMARY]; Ce2O3 P-3m1 (164) mp-2721 [hull=0.039, icsd=6, PRIMARY]; Ce7O12 R-3 (148) mp-2629 [hull=0.000, icsd=3, PRIMARY]; CeO3 P6_3/m (176) mp-1205900 [hull=0.503, icsd=1, PRIMARY]; CeO Fm-3m (225) mp-10688 [hull=0.000, icsd=1, PRIMARY]
@@ -86,6 +87,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 658 | 10 samples | 3 papers | 5 compositions
 - compositions: CuCoO2 (3); CuCo0.9998Mg0.0002O2 (2); CuCo0.9991Mg0.0009O2 (2); CuCo0.9984Mg0.0016O2 (2); Co1.6Cu0.4O4 (1)
 - dopant candidates (<5% at.): Mg (6)
+- curator composition details (from the paper): CuCoO2 (1)
 - measured range: 11-423 K (5th-95th pct of 11 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co(CuO2)4 P-1 (2) mp-773271 [hull=0.039, PRIMARY]; Co(CuO3)2 Fmmm (69) mp-1226484 [hull=0.323, PRIMARY]; Co11CuO16 P2/m (10) mp-761492 [hull=0.101, PRIMARY]; Co21Cu3O32 R3m (160) mp-761377 [hull=0.006, PRIMARY]; Co25Cu11O48 Cm (8) mp-762204 [hull=0.004, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2009.09.124 (Characterization of delafossite-type CuCoO2 prepared by ion exchange) | https://doi.org/10.35848/1347-4065/abd448 (Electrical resistivity and thermopower of hole-doped delafossite CuCoO...) | https://doi.org/10.1103/physrevb.65.195106 (Impurity-induced transition and impurity-enhanced thermopower in the t...)
@@ -144,6 +146,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cr-La-Mn-O-Sr
 - rank 665 | 10 samples | 2 papers | 4 compositions
 - compositions: La0.75Sr0.25Cr0.5Mn0.5O3 (5); La0.75Sr0.25Cr0.4Mn0.6O3 (2); La0.75Sr0.25Cr0.6Mn0.4O3 (2); La0.75Sr0.25Cr0.3Mn0.7O3 (1)
+- curator composition details (from the paper): The logarithmic values in Fig 8 were converted by making them exponents of 10
+original va... (1)
 - measured range: 574-1172 K (5th-95th pct of 10 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr3LaMnCrO8 Amm2 (38) mp-1218443 [hull=0.000, PRIMARY]; SrLa3Mn2Cr2O12 P2 (3) mp-1218286 [hull=0.015, PRIMARY, AMBIGUOUS]; SrLa3Mn3CrO12 R3 (146) mp-1218266 [hull=0.011, PRIMARY]; SrLa3Mn2Cr2O12 C2 (5) mp-1218313 [hull=0.020]; SrLa3Mn2Cr2O12 P1 (1) mp-1218314 [hull=0.033]
 - papers: https://doi.org/10.1007/s12598-009-0072-9 (Cr doping effect in B-site of La0.75Sr0.25MnO3 on its phase stability ...) | https://doi.org/10.1016/j.ssi.2006.04.046 (La0.75Sr0.25Cr0.5Mn0.5O3−δ+Cu composite anode running on H2 and CH4 fuels)
@@ -168,6 +172,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 668 | 10 samples | 3 papers | 9 compositions
 - compositions: LaFePO (2); LaFePO0.92F0.08 (1); LaFePO0.97F0.03 (1); LaFePO0.9F0.1 (1); LaFePO0.95F0.05 (1); La0.9Sr0.1FePO (1)
 - dopant candidates (<5% at.): F (4), Ce (3), Sr (1)
+- curator composition details (from the paper): polycrystalline (4)
 - sample form: Bulk (5)
 - measured range: 13-298 K (5th-95th pct of 30 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La2FeP2O P4/mmm (123) mp-1211330 [hull=1.819, PRIMARY]
@@ -219,6 +224,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 674 | 10 samples | 3 papers | 9 compositions
 - compositions: Li1.1Ti2O4 (2); LiTi2O4 (1); Li1.1Ti1.9O4 (1); Li0.8Ti2.2O4 (1); Li1.2Ti1.8O4 (1); Li0.9Ti2.1O4 (1)
 - dopant candidates (<5% at.): V (2)
+- curator composition details (from the paper): thermal reaction (5)
 - measured range: 10-298 K (5th-95th pct of 10 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiTi2O4 Fd-3m (227) mp-5670 [hull=0.000, icsd=6, PRIMARY]; Li2TiO3 C2/c (15) mp-2931 [hull=0.000, icsd=5, PRIMARY]; Li2Ti3O7 P2_1/m (11) mp-1190132 [hull=0.013, icsd=2, PRIMARY]; Li2Ti6O13 C2/m (12) mp-1190625 [hull=0.015, icsd=2, PRIMARY]; LiTiO2 I4_1/amd (141) mp-38280 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1007/bf00654827 (Superconducting and normal state properties of Li1+x Ti2?x O4 spinel c...) | https://doi.org/10.1016/j.physb.2006.01.444 (The V and Mn doping effects on Spinel superconductor LiTi2O4) | https://doi.org/10.1023/a:1022971807769 ([])
@@ -228,6 +234,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: NdMnO3 (4); Nd0.88Na0.18MnO2.98 (1); Nd0.95Na0.03MnO3.09 (1); Nd0.73Na0.21MnO2.97 (1); Nd0.89Na0.10MnO3.03 (1); Nd0.84Na0.17MnO3.08 (1)
 - dopant candidates (<5% at.): Na (6)
 - seed hypothesis (confirm): perovskite
+- curator composition details (from the paper): Nd0.8Na0.2MnO3　at no magnetic field (1); NdMnO3 b-axis (1); 2.3. Susceptibility, magnetization, and resistivity measurements
+... For temperatures T l... (1)
 - sample form: Polycrystal (1); SingleCrystal (1); rod-shaped (1)
 - measured range: 11-1073 K (5th-95th pct of 15 curves; full span incl. outliers 11-1239 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NdMn2O5 Pbam (55) mp-19393 [hull=0.000, icsd=5, PRIMARY]; NdMnO3 Pnma (62) mp-25051 [hull=0.000, icsd=4, PRIMARY]; Nd20Mn20O59 P1 (1) mp-1173621 [hull=0.013, PRIMARY]; Nd20Mn19O60 P-1 (2) mp-1173614 [hull=0.006, PRIMARY]; Nd9Mn10O30 P1 (1) mp-1173531 [hull=0.028, PRIMARY]
@@ -323,6 +331,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-Bi-Te
 - rank 686 | 9 samples | 3 papers | 3 compositions
 - compositions: AgBiTe (7); Ag0.4Bi2Te3 (1); Ag1.6969Te0.848Bi0.304Te0.456 (1)
+- curator composition details (from the paper): Bi2Te3 with 5 vol% Ag nano particle (1)
 - sample form: Film (7)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 298-580 K (5th-95th pct of 18 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): AgBiTe2 R-3m (166) mp-29656 [hull=0.018, icsd=2, PRIMARY]; Ag(BiTe2)3 Cmmm (65) mp-1206226 [hull=1.500, PRIMARY]; AgBiTe2 P-3m1 (164) mp-1182952 [hull=0.163]; AgBiTe2 P4/mmm (123) mp-1229085 [hull=0.266]
@@ -450,6 +459,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 700 | 9 samples | 1 papers | 9 compositions
 - compositions: Ba1Cu2Se3 (1); Ba0.99Na0.01Cu2Se2 (1); Ba0.985Na0.015Cu2Se2 (1); Ba0.975Na0.025Cu2Se2 (1); Ba0.9Na0.1Cu2Se2 (1); Ba0.995Na0.005Cu2Se2 (1)
 - dopant candidates (<5% at.): Na (8)
+- curator composition details (from the paper): mixture (1)
 - measured range: 21-771 K (5th-95th pct of 42 curves)
 - [ref 1] TEDesignLab / ICSD: Ba(CuSe)2 Pnma (62) mp-4473 [hull=0.004, icsd=2, PRIMARY]; Ba(CuSe)2 I4/mmm (139) mp-10437 [hull=0.036, icsd=1]
 - papers: https://doi.org/10.1039/c4dt03556a (BaCu2Se2 based compounds as promising thermoelectric materials)

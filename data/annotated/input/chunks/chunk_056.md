@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Fe-O-Sr
 - rank 2751 | 1 samples | 1 papers | 1 compositions
 - compositions: Bi0.50Sr0.50FeO3 (1)
+- curator composition details (from the paper): bulk (pressed and sintered) (1)
 - measured range: 572-1013 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr15Fe10(Bi5O23)2 C222 (21) mp-617430 [hull=0.010, icsd=2, PRIMARY]; BaSr6Fe3Bi3O16 I4mm (107) mp-1227908 [hull=0.079, PRIMARY]; Sr2FeBiO6 Fm-3m (225) mp-1205525 [hull=0.031, PRIMARY]; Sr4Fe4Bi5PbO18 Amm2 (38) mp-1218774 [hull=0.164, PRIMARY]; Sr4Fe6Bi7PbO24 Amm2 (38) mp-1218820 [hull=0.167, PRIMARY]
 - papers: https://doi.org/10.1016/j.matchemphys.2016.11.052 (Sr doped BiMO 3 (M = Mn, Fe, Y) perovskites: Structure correlated ther...)
@@ -94,6 +95,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Ir-Na-O
 - rank 2761 | 1 samples | 1 papers | 1 compositions
 - compositions: Bi2NaIrO6 (1)
+- curator composition details (from the paper): single crystal (1)
 - measured range: 102-340 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1002/chem.201804226 (On\n            <i>J</i>\n            <sub>eff</sub>\n            =0 G...)
 
@@ -163,6 +165,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Mn-O
 - rank 2771 | 1 samples | 1 papers | 1 compositions
 - compositions: Bi2Mn4O10 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 307-572 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MnBiO3 C2/c (15) mp-25035 [hull=0.027, icsd=9, PRIMARY]; Mn7BiO12 C2/m (12) mp-1189861 [hull=0.037, icsd=2, PRIMARY]; Mn2Bi3O7 Cmc2_1 (36) mp-1190266 [hull=0.071, icsd=2, PRIMARY]; Mn16Bi16O45 I-43d (220) mp-1198549 [hull=0.042, icsd=1, PRIMARY]; Mn(Bi5O8)5 C2 (5) mp-763158 [hull=0.030, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2015.08.165 (Magnetic and transport properties assisted by local distortions in Bi ...)
@@ -260,6 +263,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-O-Sb-Te-Zr
 - rank 2784 | 1 samples | 1 papers | 1 compositions
 - compositions: ((Bi2Te3)0.25(Sb2Te3)0.75)74.24(ZrO2)25.76 (1)
+- curator composition details (from the paper): p-type Bi2Te3 + 75%Sb2Te3 (hereafter referred to as BiSbTe) alloy powder+ 6 wt%ZrO2 (1)
 - sample form: Composite (1)
 - measured range: 299-500 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.1063/1.4984914 (Enhanced thermoelectric figure-of-merit in Bi-Sb-Te nanocomposites wit...)
@@ -378,6 +382,9 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## C-Cl-H
 - rank 2800 | 1 samples | 1 papers | 1 compositions
 - compositions: (CH3Cl)27.88(C)72.12 (1)
+- curator composition details (from the paper): PVC,  CH3Cl ,name polyvinyl chloride, CAS.No: 9002-86-2
+
+C/PVC=8:13 (1)
 - sample form: Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 290-340 K (5th-95th pct of 5 curves; full span incl. outliers 290-380 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): H3CCl Cmc2_1 (36) mp-1078233 [hull=0.078, icsd=4, PRIMARY]; FeH20C8NCl4 Pca2_1 (29) mp-1194614 [hull=0.046, icsd=2, PRIMARY]; AlSnPH18(C3Cl2)2 Pnma (62) mp-1199681 [hull=0.037, icsd=1, PRIMARY]; AlSiPH9C3NCl6 P2_1/c (14) mp-1197294 [hull=0.123, icsd=1, PRIMARY]; FeH12C4NCl4 Pma2 (28) mp-603940 [hull=0.085, icsd=1, PRIMARY]

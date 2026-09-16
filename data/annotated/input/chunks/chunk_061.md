@@ -216,6 +216,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cr-La-Mn-O-Y
 - rank 3028 | 1 samples | 1 papers | 1 compositions
 - compositions: YLaMnCrO6 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 180-299 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2015.05.158 (Effects of La-doping on the ferrimagnetism in double perovskite Y2MnCrO6)
 

@@ -80,6 +80,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Dy-Mn-O
 - rank 2959 | 1 samples | 1 papers | 1 compositions
 - compositions: DyMn0.5Co0.5O3 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 59-298 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Dy2MnCoO6 P2_1/c (14) mp-1226407 [hull=0.440, PRIMARY]
 - papers: https://doi.org/10.1063/1.3672067 (Structural, magnetic, transport and magnetocaloric properties of metam...)
@@ -149,6 +150,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Fe-La-Mn-O
 - rank 2969 | 1 samples | 1 papers | 1 compositions
 - compositions: La2Co0.5Fe0.5MnO6 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 151-298 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2017.03.331 (Magnetic properties, resistivity and magnetoresistance effects of doub...)
 
@@ -223,6 +225,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-La-Mg-Mn-O
 - rank 2980 | 1 samples | 1 papers | 1 compositions
 - compositions: La2Co0.5Mg0.5MnO6 (1)
+- curator composition details (from the paper): bulk (pressed and sintered) (1)
 - measured range: 262-348 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1088/2053-1591/aa6920 (Magnetic properties and magnetoresistance effect of La<sub>2</sub>Co<s...)
 
@@ -271,6 +274,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Na-O-Ti
 - rank 2987 | 1 samples | 1 papers | 1 compositions
 - compositions: Na0.4Co0.2Ti0.8O2 (1)
+- curator composition details (from the paper): NaxMx/2Ti1−x/2O2 (M=Co, Ni and Fe) (1)
 - measured range: 291-1072 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1016/s0272-8842(02)00050-0 (Thermoelectric characterization of NaxMx/2Ti1−x/2O2 (M=Co, Ni and Fe) ...)
 

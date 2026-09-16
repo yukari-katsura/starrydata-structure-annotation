@@ -136,6 +136,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1717 | 3 samples | 2 papers | 2 compositions
 - compositions: La1.5Sr0.5Ni0.5Fe0.5O4 (2); La0.7Sr0.3Ti0.1Fe0.6Ni0.3O3 (1)
 - dopant candidates (<5% at.): Ti (1)
+- curator composition details (from the paper): bulk (sintered pellet) (2)
 - sample form: pellets (1)
 - measured range: 383-1073 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1016/j.electacta.2016.10.025 (Electrochemical Performance of La 1.5 Sr 0.5 Ni 1-x Fe x O 4+ δ Cathod...) | https://doi.org/10.1016/j.jpowsour.2020.228498 (Performance evaluation of highly active and novel La0.7Sr0.3Ti0.1Fe0.6...)
@@ -158,6 +159,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Mn-Nd-O-Se
 - rank 1720 | 3 samples | 1 papers | 3 compositions
 - compositions: Nd2(Fe0.625Mn0.375)2Se2O3 (1); Nd2(Fe0.75Mn0.25)2Se2O3 (1); Nd2FeMnSe2O3 (1)
+- curator composition details (from the paper): Nd2(Fe1−xMnx)2Se2O3 (1)
 - measured range: 72-324 K (5th-95th pct of 9 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2014.08.145 (Synthesis, structure and properties of new layered oxyselenides Nd2(Fe...)
 
@@ -238,6 +240,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1731 | 3 samples | 1 papers | 3 compositions
 - compositions: Ga90.15Sn6.64Zn3.21Na0.32 (1); Ga90.15Sn6.64Zn3.21Na0.16 (1); Ga90.15Sn6.64Zn3.21Na1.57 (1)
 - dopant candidates (<5% at.): Zn (3), Na (3)
+- curator composition details (from the paper): Ga–Sn–Zn eutectic alloy, with a composition of 90.15 of Ga, 6.64 of Sn, and 3.21 of Zn (3)
 - measured range: 307-908 K (5th-95th pct of 9 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ga3Sn I4/mmm (139) mp-1184031 [hull=0.049, PRIMARY, AMBIGUOUS]; GaSn3 I4/mmm (139) mp-1184266 [hull=0.049, PRIMARY]; Ga3Sn Fm-3m (225) mp-1183986 [hull=0.052]; Ga3Sn Pm-3m (221) mp-1183978 [hull=0.062]; GaSn3 P6_3/mmc (194) mp-1184285 [hull=0.068]
 - papers: https://doi.org/10.1016/j.molliq.2019.112024 (Potential cooling agents for fast nuclear reactors: Sodium influence o...)

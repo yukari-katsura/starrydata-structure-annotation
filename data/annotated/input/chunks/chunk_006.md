@@ -23,6 +23,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: LaSrNiO4 (8); LaSrNi0.8Sc0.2O4.00 (3); LaSrNi0.9Sc0.1O3.99 (3); La1.5Sr0.5NiO4 (3); LaSrNiO3.97 (3); La1.5Sr0.5Ni0.7Fe0.3O4 (2)
 - dopant candidates (<5% at.): Sc (6), Fe (2), Mn (2)
 - seed hypothesis (confirm): ruddlesden_popper
+- curator composition details (from the paper): bulk (sintered pellet) (4); bulk (pressed and sintered) (2); spray-ICP (1)
 - sample form: Bulk (9)
 - measured range: 10-1235 K (5th-95th pct of 28 curves; full span incl. outliers 10-1407 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr4La4Cr(NiO5)3 P2/m (10) mp-1173211 [hull=0.069, PRIMARY]; Sr5La5Cu(NiO5)4 P1 (1) mp-690554 [hull=0.000, PRIMARY]; SrLa3(NiO4)2 Amm2 (38) mp-1218254 [hull=0.008, PRIMARY]; SrLaNiO4 Cmcm (63) mp-1218178 [hull=0.001, PRIMARY]
@@ -66,6 +67,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Ba8Ni2.9Zn1.2Ge41.9 (6); Ba8Ni2.8Zn2.4Ge40.8 (4); Ba8Ni2.8Zn1.5Ge41.7 (4); Ba8Ni3.5Ge42.1 (3); Ba8Ni4Ge42 (2); Ba8Ni5Ge41 (2)
 - dopant candidates (<5% at.): Zn (14)
 - seed hypothesis (confirm): clathrate_i
+- curator composition details (from the paper): 0 ≤x≤ 0.6 (3); Fig. 8 Au and Ni represent the data of Ba8Au5.3Ge40.7 and Ba8Ni3.5Ge42.1 (1)
 - sample form: Bulk (3)
 - measured range: 10-841 K (5th-95th pct of 54 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2Ni5Ge4 C2/m (12) mp-1095498 [hull=0.000, icsd=1, PRIMARY]; Ba4Ni3Ge20 Pm-3n (223) mp-30169 [hull=0.018, icsd=1, PRIMARY]
@@ -181,6 +183,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Co0.8Sb2.4Ni0.2Sb0.2 (5); Ce0.3Ni1.5Co2.5Sb12 (4); Co0.8Ni0.2Sb3 (2); Co7.3Ni2.7Sb30 (2); Co7.2Ni2.8Sb30 (1); Co0.79Ni0.21Sb2.88Sn0.12 (1)
 - dopant candidates (<5% at.): Ce (5), Sn (1)
 - seed hypothesis (confirm): skutterudite
+- curator composition details (from the paper): annealing: 360degC 35min in Ar. (1)
 - sample form: Bulk (3); Film (3); Other (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 26-886 K (5th-95th pct of 83 curves; full span incl. outliers 23-948 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co4NiSb12 Im-3 (204) mp-1106327 [hull=0.159, icsd=1, PRIMARY]; Co3NiSb12 R-3 (148) mp-1226458 [hull=0.004, PRIMARY]; CoNiSb P6_3/mmc (194) mp-1025009 [hull=0.217, PRIMARY]; CoNiSb6 C2/m (12) mp-1226120 [hull=0.009, PRIMARY]; CoNiSb P3m1 (156) mp-1226172 [hull=0.237]
@@ -199,6 +202,9 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Y0.8Ca0.2CrO3 (6); Y0.8Ca0.2Cr0.9Co0.1O3 (4); Y0.8Ca0.2Cr0.8Co0.2O3 (2); YCrO3 (2); Y0.8Ca0.2Cr0.85Ni0.15O3 (2); Y0.8Ca0.2Cr0.9Ni0.1O3 (2)
 - dopant candidates (<5% at.): Ca (22), Co (6), Ni (4), Mn (3), Cu (2), Fe (2), Sr (2)
 - seed hypothesis (confirm): perovskite
+- curator composition details (from the paper): The logarithmic values in Fig 6a were converted by making them exponents of e
+original va... (1); The logarithmic values in Fig 8 were converted by making them exponents of e
+original val... (1)
 - measured range: 25-1663 K (5th-95th pct of 30 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YCrO4 I4_1/amd (141) mp-18825 [hull=0.000, icsd=3, PRIMARY]; YCrO3 Pnma (62) mp-18725 [hull=0.000, icsd=3, PRIMARY]; YCrO5 P2_1/c (14) mp-1204332 [hull=0.087, icsd=1, PRIMARY]; Y3LuCr4O16 P-4m2 (115) mp-1216164 [hull=0.008, PRIMARY]; YCr2O2 I4_1/amd (141) mp-1208171 [hull=1.045, PRIMARY]
 - papers: https://doi.org/10.1149/1.3337156 (Calcium- and Cobalt-Doped Yttrium Chromites as an Interconnect Materia...) | https://doi.org/10.1063/1.4868435 (Electrical conductivity anomaly and X-ray photoelectron spectroscopy i...) | https://doi.org/10.1016/j.ssi.2011.04.008 (Effect of nickel substitution on defect chemistry, electrical properti...)
@@ -290,6 +296,9 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 278 | 26 samples | 10 papers | 23 compositions
 - compositions: LaNi0.6Fe0.4O3 (4); LaNi0.60Fe0.40O3 (1); LaNi0.40Fe0.60O3 (1); LaFe0.6Ni0.4O3 (1); LaFe0.5Ni0.5O3 (1); LaFe0.4Ni0.6O3 (1)
 - dopant candidates (<5% at.): Sr (4), Mn (3), Ga (1), Cr (1)
+- curator composition details (from the paper): bulk (sintered pellet) (17); The logarithmic values in Fig 8 were converted by making them exponents of 10
+original va... (6); The logarithmic values in Fig 9 were converted by making them exponents of 10
+original va... (6); polycrystalline (5); thin film (4)
 - sample form: rod-shaped (1)
 - measured range: 19-1279 K (5th-95th pct of 31 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La2FeNiO6 P2_1/c (14) mp-1223335 [hull=0.000, PRIMARY]; La4Fe(NiO4)3 P-1 (2) mp-1223166 [hull=0.002, PRIMARY]; La4Fe(NiO5)2 I4mm (107) mp-1223077 [hull=0.065, PRIMARY]; La4Fe3NiO12 P-1 (2) mp-1223185 [hull=0.000, PRIMARY]; La5Fe4NiO15 C2/m (12) mp-1223413 [hull=0.007, PRIMARY]
@@ -406,6 +415,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: CuCrS2 (17); Cu0.9CrS2 (2); CuCrS2.00 (1); CuCrS2.01 (1); CuCrS2.02 (1); CuCrS2.10 (1)
 - dopant candidates (<5% at.): Sb (2)
 - seed hypothesis (confirm): cucrs2_layered
+- curator composition details (from the paper): see table1 (5); see table1(crystal flake) (1)
 - sample form: Bulk (11)
 - measured range: 16-915 K (5th-95th pct of 81 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cr2CuS4 Fd-3m (227) mp-22803 [hull=0.000, icsd=16, PRIMARY]; CrCuS2 R3m (160) mp-5862 [hull=0.039, icsd=4, PRIMARY]; Cr8Cu3NiS16 R3m (160) mp-1226091 [hull=0.000, PRIMARY]; CrCuS4 P2_1/c (14) mp-1226309 [hull=0.008, PRIMARY]; MnCr8Cu3S16 R3m (160) mp-1221752 [hull=0.000, PRIMARY, AMBIGUOUS]
@@ -460,6 +470,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 295 | 25 samples | 6 papers | 6 compositions
 - compositions: Sr(Zr0.9Yb0.05Gd0.05)O2.95 (8); Sr(Zr0.85Yb0.075Gd0.075)O2.925 (5); Sr(Zr0.8Yb0.1Gd0.1)O2.9 (5); SrZrO3 (3); SrZr0.8Co0.2O3 (2); SrZr0.85Al0.15O2.925 (2)
 - dopant candidates (<5% at.): Yb (18), Gd (18), Co (2), Al (2)
+- curator composition details (from the paper): preparation of coatings: current (550A), Ar(35L/min), H2(7L/min) (1); preparation of coatings: current (600A), Ar(35L/min), H2(7L/min) (1); preparation of coatings: current (600A), Ar(40L/min), H2(10L/min) (1)
 - sample form: Coating (18); Bulk (1)
 - measured range: 299-1674 K (5th-95th pct of 25 curves)
 - [ref 1] TEDesignLab / ICSD: SrZrO3 I4/mcm (140) mp-5076 [hull=0.013, icsd=10, PRIMARY]; SrZrO3 Pm-3m (221) mp-3323 [hull=0.055, icsd=10]; SrZrO3 Pnma (62) mp-4387 [hull=0.000, icsd=6]; SrZrO3 Cmcm (63) mp-3626 [hull=0.008, icsd=2]; Sr3Zr2O7 (47)
@@ -481,6 +492,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: (PbTe)0.65(PbS)0.25(PbSe)0.1 (5); Pb0.98Na0.02Te0.76Se0.12S0.12 (2); Pb0.98Na0.02Te0.8Se0.1S0.1 (2); PbTe0.1Se0.4S0.5 (2); (PbTe)0.75(PbSe)0.1(PbS)0.15 (1); (PbTe)0.8(PbSe)0.1(PbS)0.1 (1)
 - dopant candidates (<5% at.): Na (10), Cd (5), Sb (4)
 - seed hypothesis (confirm): rocksalt
+- curator composition details (from the paper): Na-doped (5)
 - sample form: Bulk (10)
 - solid-solution axis: Se/(Se+Te) spans 0.11-0.86 (median 0.67) over 18 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
@@ -504,6 +516,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Ag (5); Ag0.9995Mg0.0005 (2); Ag96.85Mn3.85 (1); Ag98.32Pt1.68 (1); Ag97.75Pt2.25 (1); Ag98.07Mn1.93 (1)
 - dopant candidates (<5% at.): Au (5), Pd (4), Mn (3), Pt (3), Mg (3), Cu (2)
 - seed hypothesis (confirm): solid_solution_alloy
+- curator composition details (from the paper): silver nanowire (NW 3) (1)
 - sample form: Other (7)
 - measured range: 13-946 K (5th-95th pct of 34 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ag Fm-3m (225) mp-124 [hull=0.000, icsd=22, PRIMARY]; Ag P6_3/mmc (194) mp-8566 [hull=0.006, icsd=1]; Ag R-3m (166) mp-989737 [hull=0.003]

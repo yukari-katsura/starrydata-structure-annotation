@@ -36,6 +36,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3353 | 1 samples | 1 papers | 1 compositions
 - compositions: Hf0.75Zr0.25NiSb0.01 (1)
 - dopant candidates (<5% at.): Sb (1)
+- curator composition details (from the paper): Hf0.75Zr0.25NiSn with 0% V and 1% Sb (white circles) (1)
 - measured range: 321-1091 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1103/physrevb.83.235211 (Introduction of resonant states and enhancement of thermoelectric prop...)
 
@@ -193,6 +194,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3375 | 1 samples | 1 papers | 1 compositions
 - compositions: In4Ti1.5Mo0.5Mo14O26 (1)
 - dopant candidates (<5% at.): Ti (1)
+- curator composition details (from the paper): single crystal (1)
 - measured range: 12-293 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): In2(MoO4)3 P2_1/c (14) mp-705134 [hull=0.000, icsd=1, PRIMARY]; In5(Mo9O14)2 P2_1/c (14) mp-1204440 [hull=0.271, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.jssc.2015.03.030 (The cluster compound In4Ti1.5Mo0.5Mo14O26 containing Mo14 clusters and...)
@@ -237,6 +239,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## In-Pb-Sb
 - rank 3381 | 1 samples | 1 papers | 1 compositions
 - compositions: Pb0008In4Sb2.5 (1)
+- curator composition details (from the paper): In4Se2.5 + M (0.8 at.%) from In (99.99%), Se (99.99%), Cu (99.99%), Pb (99.9%) and I2 (99.... (1)
 - measured range: 292-723 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1039/c4ta05508j (Multiple heteroatom induced carrier engineering and hierarchical nanos...)
 

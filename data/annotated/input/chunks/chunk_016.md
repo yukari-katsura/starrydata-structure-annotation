@@ -32,6 +32,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 752 | 9 samples | 7 papers | 3 compositions
 - compositions: Ti (7); Li(Ti0.99V0.01)24 (1); Ti97Al3 (1)
 - dopant candidates (<5% at.): Li (1), V (1), Al (1)
+- curator composition details (from the paper): QDSL (1)
 - sample form: Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 11-1063 K (5th-95th pct of 16 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ti P6_3/mmc (194) mp-46 [hull=0.007, icsd=31, PRIMARY]; Ti Im-3m (229) mp-73 [hull=0.114, icsd=5]; Ti P6/mmm (191) mp-72 [hull=0.000, icsd=2]; Ti Fm-3m (225) mp-6985 [hull=0.063, icsd=2]
@@ -112,6 +113,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Fe-K-Sr
 - rank 762 | 8 samples | 1 papers | 8 compositions
 - compositions: K0.522Sr0.48Fe2As2 (1); K0.62Sr0.38Fe2As2 (1); K0.72Sr0.28Fe2As2 (1); K0.35Sr0.65Fe2As2 (1); K0.42Sr0.58Fe2As2 (1); K0.27Sr0.73Fe2As2 (1)
+- curator composition details (from the paper): seebeck coefficient:calculate from S/T (8)
 - sample form: Polycrystal (8)
 - measured range: 13-326 K (5th-95th pct of 8 curves)
 - papers: https://doi.org/10.1103/physrevb.79.104504 (Evidence of quantum criticality in the phase diagram ofKxSr1−xFe2As2fr...)
@@ -157,6 +159,11 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 768 | 8 samples | 3 papers | 8 compositions
 - compositions: Ba0.5Sr0.4La0.1TiO3 (1); Ba0.3Sr0.6La0.1TiO3 (1); Ba0.7Sr0.3TiO3 (1); Ba0.65Sr0.35TiO3 (1); (Y2O3)0.0016(Ba0.7Sr0.3TiO3)0.9984 (1); (Y2O3)0.0024(Ba0.7Sr0.3TiO3)0.9976 (1)
 - dopant candidates (<5% at.): Y (4), La (2)
+- curator composition details (from the paper): The logarithmic values in Fig 5b were converted by making them exponents of 10
+original v... (1); The logarithmic values in Fig 5c were converted by making them exponents of 10
+original v... (1); The logarithmic values in Fig 5d were converted by making them exponents of 10
+original v... (1); The logarithmic values in Fig 5a were converted by making them exponents of 10
+original v... (1)
 - sample form: Bulk (2)
 - solid-solution axis: Ba/(Ba+Sr) spans 0.33-0.70 (median 0.70) over 8 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
@@ -177,6 +184,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 770 | 8 samples | 4 papers | 5 compositions
 - compositions: Bi2O3 (3); Bi24CoO37(Bi0.9La0.1)FeO3 (2); Bi24CoO37 (1); Bi12PbO19 (1); Bi25FeO39 (1)
 - dopant candidates (<5% at.): Co (3), Fe (3), La (2), Pb (1)
+- curator composition details (from the paper): polycrystalline (1)
 - sample form: Unknown (3)
 - measured range: 87-930 K (5th-95th pct of 14 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Si(Bi3O5)4 I23 (197) mp-23492 [hull=0.007, icsd=14, PRIMARY]; Bi2O3 P2_1/c (14) mp-23262 [hull=0.000, icsd=10, PRIMARY]; Ge(Bi3O5)4 I23 (197) mp-23352 [hull=0.001, icsd=4, PRIMARY]; ReBi9O17 P2_1/c (14) mp-1197231 [hull=0.007, icsd=3, PRIMARY]; CrBi8O15 P2_1/m (11) mp-705013 [hull=0.003, icsd=1, PRIMARY]
@@ -186,6 +194,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 771 | 8 samples | 2 papers | 6 compositions
 - compositions: Bi4Ti3O12 (3); Na0.5Bi4.5Ti4O15 (1); Na0.5Bi4.482Er0.018Ti4O15 (1); Na0.5Bi4.475Er0.025Ti4O15 (1); Na0.5Bi4.494Er0.006Ti4O15 (1); Na0.5Bi4.488Er0.012Ti4O15 (1)
 - dopant candidates (<5% at.): Na (5), Er (4)
+- curator composition details (from the paper): polycrystalline (2)
 - sample form: Polycrystal (3)
 - measured range: 373-1273 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ti3(BiO3)4 Aea2 (41) mp-23427 [hull=0.000, icsd=7, PRIMARY]; Ti(Bi3O5)4 I23 (197) mp-23494 [hull=0.008, icsd=3, PRIMARY]; Ti4Bi2O11 C2/m (12) mp-28962 [hull=0.006, icsd=1, PRIMARY]; Ti2Bi2O7 Pna2_1 (33) mp-1200889 [hull=0.011, icsd=1, PRIMARY]; Ti8BiO7 Cmmm (65) mp-1105121 [hull=0.025, icsd=1, PRIMARY]
@@ -302,6 +311,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Fe-La-O-P
 - rank 785 | 8 samples | 1 papers | 8 compositions
 - compositions: La0.7Ce0.3FePO (1); La0.6Ce0.4FePO (1); La0.5Ce0.5FePO (1); La0.4Ce0.6FePO (1); La0.33Ce0.67FePO (1); La0.3Ce0.7FePO (1)
+- curator composition details (from the paper): polycrystalline (8)
 - solid-solution axis: Ce/(Ce+La) spans 0.20-0.80 (median 0.60) over 8 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 10-298 K (5th-95th pct of 8 curves)
@@ -310,6 +320,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Ga-Ni
 - rank 786 | 8 samples | 5 papers | 5 compositions
 - compositions: Ce2Ni2Ga (3); CeNiGa (2); CeNi4Ga (1); Ce(Ni0.865Ga0.135)5 (1); Ce(Ni0.9Ga0.1)5 (1)
+- curator composition details (from the paper): annealing at 623 K (1)
 - sample form: Bulk (5); Ribbon (2); Polycrystal (1)
 - measured range: 10-884 K (5th-95th pct of 13 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeGa2Ni Cmmm (65) mp-1025446 [hull=0.000, icsd=3, PRIMARY]; CeGaNi P-62m (189) mp-31492 [hull=0.000, icsd=2, PRIMARY]; Ce3Ga10Ni Pmmm (47) mp-1104373 [hull=0.023, icsd=1, PRIMARY]; Ce3(GaNi)2 Pbcm (57) mp-1194147 [hull=0.038, icsd=1, PRIMARY]; Ce2Ga10Ni I4/mmm (139) mp-7720 [hull=0.015, icsd=1, PRIMARY]
@@ -337,6 +348,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 789 | 8 samples | 3 papers | 4 compositions
 - compositions: Gd0.7Sr0.3CoO3 (3); SrGdCoO4 (3); Sr3GdCo3.9Ga0.1O10.5 (1); Sr3GdCo4O10.5 (1)
 - dopant candidates (<5% at.): Ga (1)
+- curator composition details (from the paper): The logarithmic values in Fig 1 were converted by making them exponents of 10
+original va... (2)
 - sample form: Bulk (2)
 - measured range: 10-1156 K (5th-95th pct of 12 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SrGd2Co2O7 P4_2/mnm (136) mp-606149 [hull=0.041, icsd=1, PRIMARY]; SrGd(CoO3)2 Fm-3m (225) mp-1218287 [hull=0.173, PRIMARY]; SrGdCoO4 I4mm (107) mp-1218232 [hull=0.062, PRIMARY]; SrGdCoO4 Cmcm (63) mp-1218280 [hull=0.115]
@@ -400,6 +413,9 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 796 | 8 samples | 3 papers | 6 compositions
 - compositions: YMn0.5Cr0.5O3 (3); YCr0.6Mn0.4O3 (1); YCr0.5Mn0.5O3 (1); Y1.7La0.3MnCrO6 (1); Y1.6La0.2MnCrO6 (1); Y1.9La0.1MnCrO6 (1)
 - dopant candidates (<5% at.): La (3)
+- curator composition details (from the paper): polycrystalline (3); The logarithmic values in Fig 8 were converted by making them exponents of e
+original val... (1); The logarithmic values in Fig 6a were converted by making them exponents of e
+original va... (1)
 - measured range: 25-301 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Y2MnCrO6 P2_1/c (14) mp-1189214 [hull=0.016, icsd=2, PRIMARY]; YMnCrO5 Pbam (55) mp-1207744 [hull=0.034, PRIMARY]
 - papers: https://doi.org/10.1063/1.4868435 (Electrical conductivity anomaly and X-ray photoelectron spectroscopy i...) | https://doi.org/10.1016/j.jallcom.2015.05.158 (Effects of La-doping on the ferrimagnetism in double perovskite Y2MnCrO6) | https://doi.org/10.1016/j.jallcom.2016.06.113 (Evolution of electric polarization and magnetic properties in half-Cr-...)
@@ -432,6 +448,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 800 | 8 samples | 4 papers | 5 compositions
 - compositions: DyMnO3 (4); Dy0.9Eu0.1MnO3 (1); Dy0.9K0.1MnO3 (1); Dy0.8K0.2MnO3 (1); Dy0.9Bi0.1MnO3 (1)
 - dopant candidates (<5% at.): K (2), Eu (1), Bi (1)
+- curator composition details (from the paper): 2.3. Susceptibility, magnetization, and resistivity measurements
+... For temperatures T l... (1)
 - measured range: 135-301 K (5th-95th pct of 8 curves; full span incl. outliers 135-1366 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): DyMnO3 P6_3cm (185) mp-636982 [hull=0.000, icsd=2, PRIMARY]; DyMn2O5 Pbam (55) mp-25040 [hull=0.000, icsd=1, PRIMARY]; DyMn2O4 R-3m (166) mp-1096947 [hull=0.033, PRIMARY]; Dy2Mn2O7 Fd-3m (227) mp-779967 [hull=0.000, PRIMARY]; DyMnO3 Pnma (62) mp-25019 [hull=0.023, icsd=2]
 - papers: https://doi.org/10.1039/c8ra00224j (Modification of low temperature magnetic interactions in Dy1−xEuxMnO3) | https://doi.org/10.1063/1.4977717 (Effects of Dy sub lattice dilution on transport and magnetic propertie...) | https://doi.org/10.1016/j.jallcom.2016.11.373 (Role of trivalent bismuth ion substitution at Dy site on the physical ...)

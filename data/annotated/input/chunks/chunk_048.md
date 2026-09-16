@@ -153,6 +153,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## S-U
 - rank 2369 | 2 samples | 1 papers | 1 compositions
 - compositions: US (2)
+- curator composition details (from the paper): Uranium Monosulfide (2)
 - measured range: 273-1277 K (5th-95th pct of 4 curves; full span incl. outliers 273-1349 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): US Fm-3m (225) mp-2423 [hull=0.000, icsd=22, PRIMARY]; US2 Pnma (62) mp-639 [hull=0.003, icsd=5, PRIMARY]; U3S5 Pnma (62) mp-22536 [hull=0.000, icsd=5, PRIMARY]; U2S3 Pnma (62) mp-22126 [hull=0.000, icsd=5, PRIMARY]; US3 P2_1/m (11) mp-12406 [hull=0.000, icsd=3, PRIMARY]
 - papers: https://doi.org/10.1063/1.1702883 (Thermoelectric Properties of Uranium Monosulfide, Thorium Monosulfide,...)
@@ -237,6 +238,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-B-I-O
 - rank 2380 | 1 samples | 1 papers | 1 compositions
 - compositions: (AgI)0.79(Ag2O)0.21(B2O3)0.21 (1)
+- curator composition details (from the paper): see ref1 (1)
 - measured range: 337-490 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/0167-2738(82)90057-1 (Thermoelectric power of the vitreous electrolyte (AgI)0.79(Ag2O.B2O3)0.21)
 
@@ -249,6 +251,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-Bi-Co-O-Sr
 - rank 2382 | 1 samples | 1 papers | 1 compositions
 - compositions: Ag1.2Bi2Sr2Co2O8.6 (1)
+- curator composition details (from the paper): Ag2O 15wt% (1)
 - sample form: Bulk (1)
 - measured range: 332-973 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2012.11.107 (High temperature thermoelectric properties of Bi2Sr2Co2Oy/Ag composites)
@@ -293,6 +296,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-Cr-Mg-O
 - rank 2388 | 1 samples | 1 papers | 1 compositions
 - compositions: AgCr0.8Mg0.2O2 (1)
+- curator composition details (from the paper): thin film (1)
 - measured range: 168-300 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1039/c6tc04848j (Facile chemical solution synthesis of p-type delafossite Ag-based tran...)
 

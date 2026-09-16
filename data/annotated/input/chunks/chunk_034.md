@@ -46,6 +46,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Cu-Na-O
 - rank 1654 | 3 samples | 3 papers | 2 compositions
 - compositions: Na(Co0.8Cu0.2)2O4 (2); Na0.6Cu0.4Co2O4 (1)
+- curator composition details (from the paper): x=0.4 (1)
 - sample form: Bulk (2)
 - measured range: 573-1074 K (5th-95th pct of 7 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2005.08.081 (Influence of partial substitution of Cu for Co on the thermoelectric p...) | https://doi.org/10.1021/cm300159w (Thermoelectric Solid-Oxide Fuel Cells with Extra Power Conversion from...) | https://doi.org/10.1109/ict.2005.1519899 (Microstructure and high-temperature thermoelectric properties of Cu-do...)
@@ -84,6 +85,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1659 | 3 samples | 1 papers | 3 compositions
 - compositions: Co0.5Zn0.5Cr0.1Fe1.9O4 (1); Co0.5Zn0.5Cr0.2Fe1.8O4 (1); Co0.5Zn.5Cr0.3Fe1.7O4 (1)
 - dopant candidates (<5% at.): Cr (3)
+- curator composition details (from the paper): polycrystalline (3)
 - measured range: 303-479 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Zn3Fe12(CoO12)2 Imm2 (44) mp-1216048 [hull=0.072, PRIMARY]; Zn3Fe8CoO16 P-4m2 (115) mp-1215745 [hull=0.001, PRIMARY]; ZnFe4CoO8 F-43m (216) mp-1215623 [hull=0.001, PRIMARY]; ZnFe8Co3O16 P-4m2 (115) mp-1215842 [hull=0.000, PRIMARY]; ZnFe4CoO8 R3m (160) mp-1215658 [hull=0.061]
 - papers: https://doi.org/10.1016/j.jmmm.2015.04.104 (Investigation of structural and temperature dependent electromagnetic ...)
@@ -257,6 +259,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1682 | 3 samples | 2 papers | 3 compositions
 - compositions: (Nb0.5Cu0.5)Sr2EuCu2O8 (1); Sr0.78Eu0.22CuO2 (1); Sr0.796Eu0.204CuO2 (1)
 - dopant candidates (<5% at.): Nb (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 11-300 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2015.06.001 (Structure and superconductivity in new Nb-based cuprates (Nb,Ti,Cu)Sr2...) | https://doi.org/10.1103/physrevb.106.l100503 (Percolative superconductivity in electron-doped \n<mml:math xmlns:mml=...)
 
@@ -277,6 +280,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Fe-O-Zn
 - rank 1685 | 3 samples | 2 papers | 3 compositions
 - compositions: Cu0.6Zn0.4Fe2O4 (1); Cu0.4Zn0.6Fe2O4 (1); Cu0.5Zn0.5Fe2O4 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 303-483 K (5th-95th pct of 3 curves; full span incl. outliers 303-621 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZnFe4CuO8 R3m (160) mp-1215656 [hull=0.041, PRIMARY]
 - papers: https://doi.org/10.1016/s0925-8388(99)00287-x (Thermoelectric power studies of zinc substituted copper ferrites) | https://doi.org/10.1016/j.jmmm.2015.04.104 (Investigation of structural and temperature dependent electromagnetic ...)
@@ -323,6 +327,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-N-Ta
 - rank 1691 | 3 samples | 1 papers | 3 compositions
 - compositions: Cu0.35(TaN)0.65 (1); Cu0.3(TaN)0.7 (1); Cu0.25(TaN)0.75 (1)
+- curator composition details (from the paper): Cu 1.426 W/cm2 (1); Cu 1.316 W/cm2 (1); Cu 1.097 W/cm2 (1)
 - measured range: 274-373 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TaCuN2 R-3m (166) mp-8927 [hull=0.127, icsd=1, PRIMARY]
 - papers: https://doi.org/10.3938/jkps.54.2323 (Electrical Resistivities and TCR Behavior of Co-Sputtered TaN-(Ag, Cu)...)
@@ -342,6 +347,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Nd-Ni-O-Sr
 - rank 1694 | 3 samples | 1 papers | 3 compositions
 - compositions: Nd1.6Sr1.4Ni0.6Cu0.4O4 (1); Nd1.6Sr1.4Ni0.5Cu0.5O4 (1); Nd1.6Sr1.4Ni0.4Cu0.6O4 (1)
+- curator composition details (from the paper): sintering method (3)
 - measured range: 13-296 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr5Nd5Cu(NiO5)4 P1 (1) mp-743818 [hull=0.161, PRIMARY]
 - papers: https://doi.org/10.1088/1742-6596/121/5/052013 (Pressure studies on the electrical properties in R2-xSrxNi1-yCuyO4+δ(R...)

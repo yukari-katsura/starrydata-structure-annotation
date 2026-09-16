@@ -311,6 +311,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Er-Nb-S
 - rank 3193 | 1 samples | 1 papers | 1 compositions
 - compositions: (Er2S2)2NbS2 (1)
+- curator composition details (from the paper): We assigned the [NbS2] slab to subsystem 1 and the [Ln2S2] block to subsystem 2 (1)
 - measured range: 12-299 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1007/s11664-012-2443-5 (Crystal Structure and Thermoelectric Properties of Misfit-Layered Sulf...)
 

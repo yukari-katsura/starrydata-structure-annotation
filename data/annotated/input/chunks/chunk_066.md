@@ -109,6 +109,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ga-La-O-Sr
 - rank 3263 | 1 samples | 1 papers | 1 compositions
 - compositions: SrLaGaO4 (1)
+- curator composition details (from the paper): thin film (1)
 - measured range: 34-400 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2LaGa11O20 Cm (8) mp-1218805 [hull=0.015, PRIMARY]; Sr2LaGaO5 Fmmm (69) mp-1218758 [hull=0.030, PRIMARY]; SrLaGa3O7 Cmm2 (35) mp-1218197 [hull=0.000, PRIMARY]; SrLaGaO4 I4mm (107) mp-1218152 [hull=0.050, PRIMARY]
 - papers: https://doi.org/10.1088/1361-6463/ab3ddb (High-temperature ferromagnetic insulating phase in strained La<sub>0.8...)

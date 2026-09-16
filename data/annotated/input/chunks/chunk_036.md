@@ -180,6 +180,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## N-O-Ta
 - rank 1772 | 3 samples | 1 papers | 1 compositions
 - compositions: TaON (3)
+- curator composition details (from the paper): annealed at 800 °C under base pressure in the growth chamber (1)
 - measured range: 11-299 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TaNO P2_1/c (14) mp-4165 [hull=0.000, icsd=6, PRIMARY]; Ta2N3O P6/mmm (191) mp-1019262 [hull=0.969, icsd=1, PRIMARY]; Ta3NO6 Cm (8) mp-1193678 [hull=0.000, icsd=1, PRIMARY]; TaN3O8 I-42m (121) mp-1208577 [hull=2.165, PRIMARY]; TaNO C2/m (12) mp-5813 [hull=0.012, icsd=5]
 - papers: https://doi.org/10.1021/cm402720d (High-Mobility Electron Conduction in Oxynitride: Anatase TaON)
@@ -316,6 +317,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## O-Sr-Ti-V
 - rank 1791 | 3 samples | 1 papers | 3 compositions
 - compositions: SrTi0.33V0.67O3 (1); SrTi0.5V0.5O3 (1); SrTi0.67V0.33O3 (1)
+- curator composition details (from the paper): thin film (3)
 - measured range: 10-298 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1063/1.4836576 (Metal-insulator transition in SrTi<sub>1−</sub><sub><i>x</i></sub>V<su...)
 

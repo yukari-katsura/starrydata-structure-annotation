@@ -33,6 +33,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 452 | 16 samples | 5 papers | 14 compositions
 - compositions: Pd (3); Pd0.97Ce0.03 (1); Pd0.97Ce0.03H0.05 (1); Fe0.001Pd (1); Fe0.0004Pd (1); Fe0.0002Pd (1)
 - dopant candidates (<5% at.): Fe (4), Ru (4), Rh (3), Ce (2), H (1)
+- curator composition details (from the paper): cS,m=cα+β|β, with 0.25cα+β|β<0.6 (1)
 - sample form: SingleCrystal (1)
 - measured range: 10-297 K (5th-95th pct of 12 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Pd Fm-3m (225) mp-2 [hull=0.000, icsd=20, PRIMARY]; Pd P6_3/mmc (194) mp-1186427 [hull=0.010]
@@ -87,6 +88,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 458 | 15 samples | 4 papers | 10 compositions
 - compositions: Si0.37B2.51C (4); B1.9Si0.53C (2); B1.08Si0.73C (2); Si0.76B0.95C (1); (Al2O3)0.02Si0.75B0.92C (1); (Al2O3)0.02Si0.36B2.44C (1)
 - dopant candidates (<5% at.): Al (4), O (2)
+- curator composition details (from the paper): mixture (4); SiC–70wt.%B4C (3); 30wt%B4C (1); 30wt%B4C(5wt%Al2O3) (1); 70wt%B4C (1)
 - sample form: Bulk (8)
 - solid-solution axis: C/(C+Si) spans 0.50-0.74 (median 0.57) over 10 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
@@ -116,6 +118,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: BiTeI (4); Bi2(Se0.07Te0.93)3I0.4 (3); (BiTeI)97.62(CuI)2.38 (2); (BiTeI)99.22(BiI3)0.78 (2); (BiTeI)81.85(Bi)18.15 (1); (BiTeI)90.02(Bi)9.98 (1)
 - dopant candidates (<5% at.): Se (3), Cu (2), Br (2)
 - seed hypothesis (confirm): bitei_polar
+- curator composition details (from the paper): Bi2(Se0.07Te0.93)3+0.08wt%TeI4 (3)
 - measured range: 15-570 K (5th-95th pct of 66 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BiTeI P3m1 (156) mp-22965 [hull=0.000, icsd=4, PRIMARY]; Bi2TeI R-3m (166) mp-23435 [hull=0.027, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1134/s1063782610120031 (Galvanomagnetic and thermoelectric properties of BiTeBr and BiTeI sing...) | https://doi.org/10.1134/s1063782611070128 (Thermoelectric properties of BiTeI with addition of BiI3, CuI, and ove...) | https://doi.org/10.3724/sp.j.1077.2010.00609 (Effects of Preparation Techniques on the Thermoelectric Properties and...)
@@ -144,6 +147,10 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 464 | 15 samples | 4 papers | 4 compositions
 - compositions: GdCoO3 (5); Gd0.9Ca0.1CoO3 (5); Gd0.8Ca0.2CoO3 (3); GdCo0.95Ni0.05O3 (2)
 - dopant candidates (<5% at.): Ca (8), Ni (2)
+- curator composition details (from the paper): The logarithmic values in Fig 1 were converted by making them exponents of 10
+original va... (2); The logarithmic values in Fig 2 were converted by making them exponents of e
+original val... (1); The logarithmic values in Fig 8 were converted by making them exponents of e
+original val... (1)
 - sample form: Bulk (2)
 - measured range: 92-1169 K (5th-95th pct of 19 curves; full span incl. outliers 92-1231 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GdCoO3 Pm-3m (221) mp-24863 [hull=0.180, icsd=1, PRIMARY]
@@ -162,6 +169,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Ho-O-Sr
 - rank 466 | 15 samples | 3 papers | 6 compositions
 - compositions: Ho0.33Sr0.67CoO2.71 (4); Ho0.33Sr0.67CoO2.80 (4); Ho0.33Sr0.67CoO2.67 (4); Sr1.65Ho0.35CoO3 (1); Sr1.6Ho0.4CoO3 (1); Ho0.35Sr0.65CoO3 (1)
+- curator composition details (from the paper): polycrystalline (2)
 - sample form: rod-shaped (1)
 - measured range: 10-394 K (5th-95th pct of 15 curves; full span incl. outliers 10-440 K)
 - papers: https://doi.org/10.1103/physrevb.76.134407 (Structural, transport, and magnetic properties of the cation-ordered c...) | https://doi.org/10.1063/1.2834238 (Magnetic and transport and structure properties of the room temperatur...) | https://doi.org/10.1134/s1063783411040226 (Effect of the spin and valence states of cobalt ions on the kinetic pr...)
@@ -225,6 +233,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Gd2Zr2O7 (8); (Gd2O3)48.5(ZrO2)51.5 (1); (Gd0.96Yb0.04)2Zr2O7 (1); (Gd0.94Yb0.06)2Zr2O7 (1); (Gd0.9Yb0.1)2Zr2O7 (1); (Gd0.98Yb0.02)2Zr2O7 (1)
 - dopant candidates (<5% at.): Yb (5)
 - seed hypothesis (confirm): pyrochlore
+- curator composition details (from the paper): pressureless-sintered(1600 C ,10h, in air) (1); Gd2Zr2O7(Phases present :Fluorite) (1); Gd2.58Zr1.57O7(Phases present :Fluorite) (1); Gd2Zr2O7(Phases present : Pyrochlore + Fluorite) (1)
 - sample form: Bulk (9); Powder (1)
 - measured range: 293-1473 K (5th-95th pct of 15 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Gd2Zr2O7 Fd-3m (227) mp-757233 [hull=0.007, icsd=1, PRIMARY]; Gd8Zr7O26 C2/m (12) mp-676108 [hull=0.105, PRIMARY]; GdZrO3 Pm-3m (221) mp-1184599 [hull=0.401, PRIMARY]; Gd2Zr2O7 P2_1/c (14) mp-780342 [hull=0.081]; Gd2Zr2O7 Pmna (53) mp-35735 [hull=0.087]
@@ -233,6 +242,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Sb-Se-Te
 - rank 474 | 15 samples | 3 papers | 13 compositions
 - compositions: Ge0.90Sb0.10Te0.88Se0.12 (3); (GeSe)0.92(Sb2Te3)0.08 (1); (GeSe)0.85(Sb2Te3)0.15 (1); Ge2Sb2Te4.5Se0.5 (1); (GeSe)0.9(Sb2Te3)0.1 (1); Ge2Sb2Te4Se (1)
+- curator composition details (from the paper): carrier concentration: 2.05E20 (1); carrier concentration: 2.03E20 (1); carrier concentration: 2.01E20 (1); carrier concentration: 2.06E20 (1); carrier concentration: 1.97E20 (1)
 - sample form: Polycrystal (8); Bulk (7)
 - solid-solution axis: Se/(Se+Te) spans 0.10-0.79 (median 0.14) over 13 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
@@ -263,6 +273,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Pb0.85La0.1(Zr0.65Ti0.35)O3 (2); Pb1.5La0.1(Zr0.65Ti0.35)O3 (2); Pb0.97La0.1(Zr0.65Ti0.35)O3 (2); Pb1.2La0.1(Zr0.65Ti0.35)O3 (2); Pb1.4La0.1(Zr0.65Ti0.35)O3 (2); Pb1.1La0.1(Zr0.65Ti0.35)O3 (2)
 - dopant candidates (<5% at.): La (15), Mn (3), Ca (2), Sr (1)
 - seed hypothesis (confirm): perovskite
+- curator composition details (from the paper): bulk (12); (PbZr0.52Ti0.48O3)2000(La0.65Ca0.35MnO3)100 (1)
 - measured range: 14-373 K (5th-95th pct of 15 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZrTi(PbO3)2 P4mm (99) mp-1079056 [hull=0.018, icsd=2, PRIMARY]; BaZr2Ti3Pb4O15 Pm (6) mp-1227980 [hull=0.027, PRIMARY]; Zr2Ti(PbO3)3 Cm (8) mp-1215944 [hull=0.026, PRIMARY, AMBIGUOUS]; Zr3Ti(PbO3)4 Pm (6) mp-1215936 [hull=0.028, PRIMARY, AMBIGUOUS]; Zr2Ti3(PbO3)5 Pmm2 (25) mp-1216039 [hull=0.025, PRIMARY]
 - papers: https://doi.org/10.1111/jace.14984 (High electrocaloric effect in hot-pressed Pb<sub>0.85</sub>\nLa<sub>0....) | https://doi.org/10.1063/1.3592660 (Effect of PbZr0.52Ti0.48O3 thin layer on structure, electronic and mag...)
@@ -347,6 +358,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 486 | 14 samples | 4 papers | 8 compositions
 - compositions: Al13Co4 (3); Al75Co22Ni3 (3); Al76Co22Ni2 (3); Al5(Co0.95Fe0.05)2 (1); Al5Co2 (1); Al5(Co0.99Fe0.01)2 (1)
 - dopant candidates (<5% at.): Ni (6), Fe (3)
+- curator composition details (from the paper): initial composition Al81.9Co14.5Ni3.6 (3)
 - sample form: Bulk (4)
 - measured range: 11-1082 K (5th-95th pct of 36 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): AlCo Pm-3m (221) mp-284 [hull=0.001, icsd=6, PRIMARY]; Al5Co2 P6_3/mmc (194) mp-196 [hull=0.000, icsd=3, PRIMARY]; AlCo3 Pm-3m (221) mp-1018101 [hull=0.122, icsd=2, PRIMARY]; Al13Co4 Pmn2_1 (31) mp-1198336 [hull=0.005, icsd=1, PRIMARY, AMBIGUOUS]; Al9Co2 P2_1/c (14) mp-16488 [hull=0.000, icsd=1, PRIMARY]
@@ -401,6 +413,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 492 | 14 samples | 4 papers | 4 compositions
 - compositions: SmBaMn2O6 (10); SmBaMn2O5 (2); Sm0.9La0.24Ba0.86Mn2O6 (1); Sm0.5Ba0.5MnO3 (1)
 - dopant candidates (<5% at.): La (1)
+- curator composition details (from the paper): polycrystalline (3)
 - sample form: SingleCrystal (10)
 - measured range: 10-398 K (5th-95th pct of 26 curves; full span incl. outliers 10-1172 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba5Sm8Mn4O21 I4/m (87) mp-19471 [hull=0.000, icsd=1, PRIMARY]

@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-La-Mn-O-Sr
 - rank 801 | 8 samples | 4 papers | 6 compositions
 - compositions: (La0.7Sr0.3MnO3)(La0.7Sr0.3FeO3) (3); SrLaFeMnO6 (1); Sr1.4La0.6FeMnO6 (1); Sr1.2La0.8FeMnO6 (1); La0.5Sr0.5Mn0.5Fe0.5O3 (1); La0.7Sr0.3Mn0.7Fe0.3O3 (1)
+- curator composition details (from the paper): polycrystalline (3)
 - measured range: 81-1125 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr3La7Mn7(FeO10)3 P1 (1) mp-706341 [hull=0.000, PRIMARY]; Sr3La7Mn8(FeO15)2 P1 (1) mp-705096 [hull=0.000, PRIMARY]; Sr3La7Mn9FeO30 C2 (5) mp-1173239 [hull=0.011, PRIMARY]; SrLaMnFeO6 Pc (7) mp-1218252 [hull=0.000, PRIMARY, AMBIGUOUS]; SrLaMnFeO6 P2/c (13) mp-705491 [hull=0.000]
 - papers: https://doi.org/10.1103/physrevb.93.104403 (Thickness dependence of exchange coupling in (111)-oriented perovskite...) | https://doi.org/10.1039/c8ta10061f (Electron doping of Sr<sub>2</sub>FeMoO<sub>6−δ</sub> as high performan...) | https://doi.org/10.1016/j.jallcom.2021.159185 (Effect of Fe and Co doping on structural and electrical properties of ...)
@@ -29,6 +30,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 802 | 8 samples | 8 papers | 8 compositions
 - compositions: Li0.45Zn0.1La0.04Fe2.41O4 (1); Li0.4Cd0.2Fe2.4O4 (1); Li0.4Zn0.2Fe2.4O4 (1); Mg0.1Al0.2Li0.45Fe2.25O4 (1); Li0.45Mg0.1Fe2.45O4 (1); Li0.6Ge0.2Fe2.2O4 (1)
 - dopant candidates (<5% at.): Zn (2), Mg (2), La (1), Cd (1), Al (1), Ge (1), Cu (1)
+- curator composition details (from the paper): polycrystalline (2); Li0.5–0.5xZnxLayFe2.5–0.5x−yO4 at 0.1 ≤ x ≤0.9; y = 0.04 (1); Li0.5–x/2CdxFe2.5–x/2O4 (1); (Li0.5Fe0.5)1−xCuxFe2O4 (1)
 - measured range: 197-1121 K (5th-95th pct of 10 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiFe5O8 P4_332 (212) mp-31768 [hull=0.040, icsd=13, PRIMARY]; LiFeO2 I4_1/amd (141) mp-18782 [hull=0.018, icsd=4, PRIMARY]; Li5FeO4 Pbca (61) mp-19511 [hull=0.000, icsd=1, PRIMARY]; Li(Fe2O3)4 Cc (9) mp-1178116 [hull=0.048, PRIMARY, AMBIGUOUS]; Li11(FeO3)4 Pm (6) mp-849463 [hull=0.125, PRIMARY]
 - papers: https://doi.org/10.1016/j.ceramint.2004.05.017 (Correlation of the physico chemical properties of Zn-substituted Li–La...) | https://doi.org/10.1002/crat.2170250820 (Electrical conductivity and thermoelectric power of lithium-cadmium fe...) | https://doi.org/10.1002/crat.2170250918 (Electrical Conductivity and Thermoelectric Power of LithiumZinc Ferrites)
@@ -86,6 +88,10 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 809 | 8 samples | 2 papers | 5 compositions
 - compositions: Gd0.8Sr0.2MnO3 (2); GdMnO3 (2); GdMn0.9Cr0.1O3 (2); GdMn0.8Cr0.2O3 (1); GdMn0.8Cr.2O3 (1)
 - dopant candidates (<5% at.): Cr (4), Sr (2)
+- curator composition details (from the paper): polycrystalline (3); fig.5 x:(1/K)^0.25 (3); The logarithmic values in Fig 1 were converted by making them exponents of 10
+original va... (2); The logarithmic values in Fig 2 were converted by making them exponents of 10
+original va... (2); The logarithmic values in Fig 3 were converted by making them exponents of 10
+original va... (1)
 - measured range: 12-301 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GdMnO3 Pnma (62) mp-1189827 [hull=0.323, icsd=4, PRIMARY]; GdMn2O5 Pbam (55) mp-703682 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.physb.2015.09.025 (Structural, electrical, magnetic and thermal properties of Gd1–xSrxMnO...) | https://doi.org/10.1016/j.jallcom.2015.05.022 (Structural, electrical and magnetic phase evolution of Cr substituted ...)
@@ -129,6 +135,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 814 | 8 samples | 4 papers | 6 compositions
 - compositions: KTaO3 (3); K0.9995Ba0.0005TaO3 (1); K0.9998Ba0.0002TaO3 (1); K0.9999Ba0.0001TaO3 (1); K0.9997Ba0.003TaO3 (1); K0.998Ba0.02TaO3 (1)
 - dopant candidates (<5% at.): Ba (5)
+- curator composition details (from the paper): y is approximately x/2; see Fig. 1(a) (3); y is approximately x=2; see Fig. 1(a) (2); thin film (1)
 - sample form: Polycrystal (1)
 - measured range: 10-374 K (5th-95th pct of 17 curves; full span incl. outliers 10-567 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): KTaO3 Pm-3m (221) mp-3614 [hull=0.000, icsd=7, PRIMARY]; K3TaO8 I-42m (121) mp-4690 [hull=0.015, icsd=2, PRIMARY]; K2LaTa5O15 P4/mbm (127) mp-1204933 [hull=0.000, icsd=1, PRIMARY]; KTa5O13 Pbcm (57) mp-27169 [hull=0.000, icsd=1, PRIMARY]; K2Ta4O11 R-3c (167) mp-1195471 [hull=0.000, icsd=1, PRIMARY]
@@ -138,6 +145,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 815 | 8 samples | 3 papers | 6 compositions
 - compositions: La2Mo2O7 (3); La1.85Sm0.15Mo1.85W0.15O9 (1); La1.80Sm0.20Mo1.80W0.20O9 (1); La2Mo2O9 (1); La1.95Sm0.05Mo1.95W0.05O9 (1); La1.90Sm0.10Mo1.90W0.10O9 (1)
 - dopant candidates (<5% at.): Sm (4), W (4)
+- curator composition details (from the paper): nanocrystalline film (4); bulk (1); bulk (pressed and sintered) (1)
 - sample form: Bulk (5); SingleCrystal (1)
 - measured range: 14-1273 K (5th-95th pct of 9 curves)
 - [ref 1] TEDesignLab / ICSD: La2MoO6 (121)
@@ -172,6 +180,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 819 | 8 samples | 3 papers | 7 compositions
 - compositions: Nd0.7Sr0.3NiO3 (2); Nd1.6Sr1.4Ni0.98Cu0.02O4 (1); Nd1.6Sr1.4NiO4 (1); Nd1.6Sr1.4Ni0.9Cu0.1O4 (1); Nd1.6Sr1.4Ni0.8Cu0.2O4 (1); Nd1.6Sr1.4Ni0.7Cu0.3O4 (1)
 - dopant candidates (<5% at.): Cu (4)
+- curator composition details (from the paper): sintering method (5)
 - measured range: 10-300 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SrNd3(NiO4)2 Amm2 (38) mp-1218171 [hull=0.022, PRIMARY]; SrNdNiO4 I4mm (107) mp-1217981 [hull=0.001, PRIMARY]; SrNdNiO4 Cmcm (63) mp-1218010 [hull=0.015]
 - papers: https://doi.org/10.1088/1742-6596/121/5/052013 (Pressure studies on the electrical properties in R2-xSrxNi1-yCuyO4+δ(R...) | https://doi.org/10.1016/j.ssc.2021.114420 (Structural, electrical, and magnetic properties of bulk Nd1-Sr NiO3 (x...) | https://doi.org/10.1038/s41586-019-1496-5 (Superconductivity in an infinite-layer nickelate)
@@ -197,6 +206,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 822 | 8 samples | 1 papers | 4 compositions
 - compositions: PbTi0.92Nb0.08O3 (2); PbTi0.96Nb0.04O3 (2); PbTi0.94Nb0.06O3 (2); PbTi0.88Nb0.12O3 (2)
 - dopant candidates (<5% at.): Nb (8)
+- curator composition details (from the paper): single crystal (2); polycrystalline (2)
 - measured range: 77-423 K (5th-95th pct of 8 curves)
 - [ref 1] TEDesignLab / ICSD: TiPbO3 P4mm (99) mp-20459 [hull=0.000, icsd=30, PRIMARY]; Ti3PbO7 (11) [PRIMARY]; TiPbO3 Pm-3m (221) mp-19845 [hull=0.040, icsd=10]; TiPbO3 I4/m (87) mp-1106215 [hull=0.002, icsd=3]; TiPbO3 (47)
 - [ref 2] MP, ranked by ICSD evidence: HfTi4(PbO3)5 Cm (8) mp-1224605 [hull=0.013, PRIMARY, AMBIGUOUS]; Ti10Bi(Pb3O10)3 P1 (1) mp-677372 [hull=0.021, PRIMARY]; MgTi3Pb5WO15 P4/nmm (129) mp-694933 [hull=0.054, PRIMARY]; Ti3TePb4O13 R3m (160) mp-1217292 [hull=0.001, PRIMARY]; HfTi4(PbO3)5 Pmm2 (25) mp-1224660 [hull=0.014]
@@ -206,6 +216,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 823 | 8 samples | 4 papers | 4 compositions
 - compositions: Pb2Sb6Te11 (4); PbSb2Te4.1I0.0006 (2); Pb0.9Sb0.1Te (1); Pb0.6Sb0.8Te1.8 (1)
 - dopant candidates (<5% at.): I (2)
+- curator composition details (from the paper): mixed according to the nominal eutectic composition of Pb2Sb6Te11 (4); PbSb2Te4(SbI3, Te) (1); PbSb2Te4〈SbI3, Te〉 (1)
 - sample form: Bulk (6); SingleCrystal (2)
 - measured range: 85-722 K (5th-95th pct of 30 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sb2Te4Pb R-3m (166) mp-31507 [hull=0.736, icsd=1, PRIMARY]; Sb4Te7Pb P-3m1 (164) mp-1209139 [hull=0.853, PRIMARY]
@@ -334,6 +345,10 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-La-O
 - rank 839 | 7 samples | 6 papers | 1 compositions
 - compositions: LaAlO3 (7)
+- curator composition details (from the paper): thin film (3); The logarithmic values in Fig 4 were converted by making them exponents of 10
+original va... (1); The logarithmic values in Fig 6a were converted by making them exponents of e
+original va... (1); The logarithmic values in Fig 3 were converted by making them exponents of 10
+original va... (1)
 - measured range: 10-356 K (5th-95th pct of 8 curves)
 - [ref 1] TEDesignLab / ICSD: LaAlO3 Pm-3m (221) mp-5304 [hull=0.007, icsd=69, PRIMARY]; LaAlO3 R-3c (167) mp-2920 [hull=0.000, icsd=33]; LaAlO3 I4/mcm (140) mp-1080080 [hull=0.001, icsd=2]; LaAlO3 Imma (74) mp-1080060 [hull=0.001, icsd=1]; LaAlO3 (15)
 - [ref 2] MP, ranked by ICSD evidence: La2Al4O9 Pbam (55) mp-768382 [hull=0.078, PRIMARY]; La3Al5O12 Ia-3d (230) mp-780432 [hull=0.034, PRIMARY]; La3AlO6 Cmc2_1 (36) mp-1178155 [hull=0.020, PRIMARY]; La3AlO Pm-3m (221) mp-1206996 [hull=0.000, PRIMARY]; La4Al6O15 C2/c (15) mp-1024042 [hull=0.071, PRIMARY, AMBIGUOUS]
@@ -407,6 +422,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 848 | 7 samples | 4 papers | 6 compositions
 - compositions: Bi1.8Ba2Rh1.9O8 (2); Bi1.7Ba2(Co0.2Rh0.8)2O8 (1); Bi1.7Ba2Rh2O8 (1); (Bi0.9Pb0.1)1.8Ba2Rh1.9O8 (1); (Bi0.8Pb0.2)1.8Ba2Rh1.9O8 (1); Bi1.8Ba2Rh1.6O8 (1)
 - dopant candidates (<5% at.): Pb (2), Co (1)
+- curator composition details (from the paper): (Bi1-xPbx)1.8Ba2Rh1.9Oy (3)
 - sample form: Bulk (3)
 - measured range: 10-301 K (5th-95th pct of 20 curves)
 - papers: https://doi.org/10.1063/1.3110060 (Thermoelectric properties of bismuth based cobalt-rhodium oxides with ...) | https://doi.org/10.1143/jpsj.74.1525 (Transport Properties and Electronic States in the Layered Thermoelectr...) | https://doi.org/10.1109/ict.2006.331305 (Thermoelectric properties of cobalt rhodium oxides: [Bi2Ba2O4]p(Co,Rh)O2)

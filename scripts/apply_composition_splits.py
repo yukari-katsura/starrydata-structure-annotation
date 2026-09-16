@@ -24,6 +24,7 @@ Usage:  python scripts/apply_composition_splits.py [--dry-run]
 import argparse
 import json
 import os
+import re
 
 import pandas as pd
 
@@ -185,6 +186,82 @@ RULES = {
 NOT_ACTUALLY_MIXED = {'Ba-Cu-O-Y'}
 
 
+# Phrases in the curator's composition_details that name a structure outright.
+#
+# Each rule is SCOPED to the chemistry it can apply to. Without that scope the
+# rule fires on second-phase additives and mislabels the host: a graphene
+# composite of SrTiO3 mentions "graphene", a CNT composite of MnSi1.75 mentions
+# "nanotube", and matching those as the host structure is nonsense. Scoping is
+# what makes this field usable at all.
+#
+# scope: (host_system or None, reduced_formula or None) -- both must match when set.
+DETAIL_RULES = [
+    (r'nanocrystalline diamond|\bdiamond\b|\bNDE\b|\bNCD\b|\bUNCD\b',
+     'diamond_cubic', 'high', ('C', None)),
+    (r'fulleride|\bC60\b|fullerene', 'fulleride_a3c60', 'high', ('C', None)),
+    (r'graphene|graphite|nanotube|\bCNT\b|carbon fib|soft carbon|hard carbon|'
+     r'rayon-based carbon|carbon black|glassy carbon',
+     'graphite_layered', 'high', ('C', None)),
+    (r'\banatase\b', 'anatase', 'high', (None, 'TiO2')),
+    (r'\brutile\b', 'rutile', 'high', (None, 'TiO2')),
+    (r'\bmagnetite\b', 'spinel', 'high', (None, 'Fe3O4')),
+    (r'\bmaghemite\b', 'spinel', 'high', (None, 'Fe2O3')),
+    (r'\bhematite\b', 'corundum', 'high', (None, 'Fe2O3')),
+    (r'\bbornite\b', 'unresolved_crystalline', 'medium', (None, 'Cu5FeS4')),
+    (r'\btetrahedrite\b', 'tetrahedrite', 'high', ('Cu-S-Sb', None)),
+    (r'quasicrystal|quasi-crystal|icosahedral phase', 'quasicrystal_approximant',
+     'high', (None, None)),
+]
+
+# Phases distinguishable only by a prefix that the composition string does not
+# carry. alpha-Fe2O3 is hematite (corundum) and gamma-Fe2O3 is maghemite
+# (spinel) -- same formula, different structure -- so this cannot be decided per
+# composition. Where a composition's samples disagree, it is flagged for
+# sample-level treatment rather than forced to one answer.
+POLYMORPH_PREFIX = {
+    'Fe2O3': [(r'(?:^|[^a-z])(?:γ|gamma)\s*-?\s*Fe2O3|maghemite', 'spinel'),
+              (r'(?:^|[^a-z])(?:α|alpha)\s*-?\s*Fe2O3|hematite', 'corundum')],
+}
+
+
+def detail_override(texts, host, formula, valid):
+    """Return (prototype, confidence, phrase) when the curator names a structure.
+
+    Returns None when the texts disagree, which is itself information: the
+    composition covers more than one phase and needs sample-level resolution.
+    """
+    # same formula, different polymorph named by prefix
+    for pat_list in [POLYMORPH_PREFIX.get(formula, [])]:
+        found = set()
+        phrase = None
+        for txt in texts:
+            if not isinstance(txt, str):
+                continue
+            for pat, proto in pat_list:
+                m = re.search(pat, txt, re.I)
+                if m:
+                    found.add(proto)
+                    phrase = m.group(0).strip()
+        if len(found) == 1:
+            p = found.pop()
+            return (p, 'high', phrase) if p in valid else None
+        if len(found) > 1:
+            return ('__AMBIGUOUS__', 'low', 'both polymorph prefixes present')
+
+    for txt in texts:
+        if not isinstance(txt, str) or not txt.strip():
+            continue
+        for pat, proto, conf, (sc_host, sc_form) in DETAIL_RULES:
+            if sc_host and host != sc_host:
+                continue
+            if sc_form and formula != sc_form:
+                continue
+            m = re.search(pat, txt, re.I)
+            if m and proto in valid:
+                return proto, conf, m.group(0).strip()
+    return None
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--dry-run', action='store_true')
@@ -201,15 +278,31 @@ def main():
     by_host = {r['host_system']: r for r in records}
     comp = pd.read_parquet(COMPS)
 
+    # curator free text, keyed by composition; overrides the ratio rules
+    det_path = os.path.join(_P, 'data', 'processed', 'df_composition_details.parquet')
+    details = {}
+    if os.path.exists(det_path):
+        dd = pd.read_parquet(det_path)
+        for c, t in zip(dd.composition, dd.composition_details):
+            details.setdefault(c, []).append(t)
+        print(f'curator composition details available for {len(details)} compositions')
+
     rows, per_host = [], {}
     for r in comp.itertuples():
         rule = RULES.get(r.host_system)
         if rule is None:
             continue
+        # The full composition, not just the host: Rb in Rb3C60 is 4.8 at.% and
+        # the 5% split strips it, yet it is exactly what makes the compound a
+        # fulleride rather than graphite. Element-presence tests must see it.
         try:
             f = json.loads(r.host_fracs) if r.host_fracs else {}
         except Exception:
             f = {}
+        try:
+            f = dict(f, **(json.loads(r.dopant_fracs) if r.dopant_fracs else {}))
+        except Exception:
+            pass
         rules, (fb_proto, fb_conf) = rule
         proto, conf, matched = fb_proto, fb_conf, 'fallback'
         for i, (pred, p, c) in enumerate(rules):
@@ -219,15 +312,30 @@ def main():
                     break
             except Exception:
                 continue
+        # A structure named in the paper beats a ratio inference.
+        phrase = None
+        ov = detail_override(details.get(r.composition, []), r.host_system,
+                             r.reduced_formula, valid)
+        if ov and ov[0] == '__AMBIGUOUS__':
+            phrase = ov[2]
+            matched = 'detail ambiguous - needs sample-level split'
+            conf = 'low'
+        elif ov:
+            proto, conf, phrase = ov
+            matched = 'curator detail'
         rows.append({'composition': r.composition, 'reduced_formula': r.reduced_formula,
                      'host_system': r.host_system, 'prototype_id': proto,
-                     'confidence': conf, 'matched': matched, 'n_samples': r.n_samples})
+                     'confidence': conf, 'matched': matched,
+                     'detail_phrase': phrase, 'n_samples': r.n_samples})
         per_host.setdefault(r.host_system, {}).setdefault(proto, 0)
         per_host[r.host_system][proto] += r.n_samples
 
     df = pd.DataFrame(rows)
+    nd = int((df.matched == 'curator detail').sum())
     print(f'{len(df)} compositions assigned across {df.host_system.nunique()} hosts '
           f'({int(df.n_samples.sum())} samples)')
+    print(f'  {nd} of them decided by a structure named in the paper, '
+          f'overriding the ratio rule')
     print('\nhosts where the split actually separated something:')
     for host, d in sorted(per_host.items(), key=lambda kv: -sum(kv[1].values())):
         if len(d) > 1:

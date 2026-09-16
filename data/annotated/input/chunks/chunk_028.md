@@ -50,6 +50,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1355 | 4 samples | 1 papers | 4 compositions
 - compositions: Ce0.92Sr0.08ZnSbO (1); CeZnSbO (1); Ce0.96Sr0.04ZnSbO (1); Ce0.9Sr0.1ZnSbO (1)
 - dopant candidates (<5% at.): Sr (3)
+- curator composition details (from the paper): Ce1−xSrxZnSbO (x = 0, 0.04, 0.08, 0.10) (4)
 - measured range: 330-730 K (5th-95th pct of 20 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeZnSbO P4/nmm (129) mp-22620 [hull=0.029, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2016.07.235 (Ce 1−x Sr x ZnSbO: New thermoelectric materials formed between interme...)
@@ -129,6 +130,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1365 | 4 samples | 3 papers | 3 compositions
 - compositions: Co (2); Rb3Co60 (1); K3Co60 (1)
 - dopant candidates (<5% at.): Rb (1), K (1)
+- curator composition details (from the paper): β-Co (8); Co, HfN (4); Co, CaO (1); randomly oriented Co nanowires synthesized with a Ru / Co molar ratio of 0.0% (1); randomly oriented Co nanowires synthesized with a Ru / Co molar ratio of 0.2% (1)
 - sample form: Bulk (1)
 - measured range: 14-762 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co P6_3/mmc (194) mp-54 [hull=0.000, icsd=10, PRIMARY]; Co Fm-3m (225) mp-102 [hull=0.019, icsd=10]; Co Fd-3m (227) mp-1072089 [hull=0.207, icsd=2]; Co P6_3mc (186) mp-669382 [hull=0.120, icsd=1]; Co P4_2/mnm (136) mp-1193227 [hull=0.130, icsd=1]
@@ -266,6 +268,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1382 | 4 samples | 1 papers | 4 compositions
 - compositions: Ca0.01NiCo2O4 (1); NiCo2O4 (1); Ca0.03NiCo2O4 (1); Ca0.05NiCo2O4 (1)
 - dopant candidates (<5% at.): Ca (3)
+- curator composition details (from the paper): 1mol%Ca doped NiCo2O4 (1); 3mol%Ca doped NiCo2O4 (1); 5mol%Ca doped NiCo2O4 (1)
 - sample form: Bulk (4)
 - measured range: 295-1074 K (5th-95th pct of 15 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Co(NiO2)2 Fd-3m (227) mp-769882 [hull=0.054, PRIMARY]; Co(NiO2)4 C2/m (12) mp-772058 [hull=0.014, PRIMARY]; Co2NiO4 Imma (74) mp-38683 [hull=0.000, PRIMARY]; Co2NiO6 Cmce (64) mp-761554 [hull=0.043, PRIMARY, AMBIGUOUS]; Co3NiO8 R-3m (166) mp-765866 [hull=0.071, PRIMARY, AMBIGUOUS]

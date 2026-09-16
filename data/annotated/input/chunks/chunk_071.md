@@ -63,6 +63,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Na-Ni-O-Ti
 - rank 3507 | 1 samples | 1 papers | 1 compositions
 - compositions: Na0.4Ni0.2Ti0.8O2 (1)
+- curator composition details (from the paper): NaxMx/2Ti1−x/2O2 (M=Co, Ni and Fe) (1)
 - measured range: 301-1075 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Na2TiNiO4 P2/m (10) mp-1221264 [hull=0.018, PRIMARY]
 - papers: https://doi.org/10.1016/s0272-8842(02)00050-0 (Thermoelectric characterization of NaxMx/2Ti1−x/2O2 (M=Co, Ni and Fe) ...)
@@ -70,6 +71,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Nb-O-Sr-V
 - rank 3508 | 1 samples | 1 papers | 1 compositions
 - compositions: SrV0.7Nb0.3O3 (1)
+- curator composition details (from the paper): The logarithmic values in Fig 5 were converted by making them exponents of 10
+original va... (1)
 - measured range: 614-1282 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1039/c5cp00069f (Structural and defect chemistry guidelines for Sr(V,Nb)O<sub>3</sub>-b...)
 
@@ -92,12 +95,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Nb-S-Sm
 - rank 3511 | 1 samples | 1 papers | 1 compositions
 - compositions: (Sm2S2)2NbS2 (1)
+- curator composition details (from the paper): We assigned the [NbS2] slab to subsystem 1 and the [Ln2S2] block to subsystem 2 (1)
 - measured range: 14-298 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1007/s11664-012-2443-5 (Crystal Structure and Thermoelectric Properties of Misfit-Layered Sulf...)
 
 ## Nb-S-Tm
 - rank 3512 | 1 samples | 1 papers | 1 compositions
 - compositions: (Tm2S2)2NbS2 (1)
+- curator composition details (from the paper): We assigned the [NbS2] slab to subsystem 1 and the [Ln2S2] block to subsystem 2 (1)
 - measured range: 10-297 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1007/s11664-012-2443-5 (Crystal Structure and Thermoelectric Properties of Misfit-Layered Sulf...)
 
@@ -307,6 +312,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ni-Sn-Th
 - rank 3540 | 1 samples | 1 papers | 1 compositions
 - compositions: ThNiSn (1)
+- curator composition details (from the paper): annealed at 800degC for 10days. (1)
 - sample form: Polycrystal (1)
 - measured range: 11-311 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ThNiSn F-43m (216) mp-22786 [hull=0.000, icsd=2, PRIMARY]; Th(NiSn)2 P4/nmm (129) mp-980110 [hull=0.000, icsd=1, PRIMARY]; Th3Ni3Sn4 I-43d (220) mp-1189639 [hull=0.000, icsd=1, PRIMARY]
@@ -372,6 +378,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## O-Os-Y
 - rank 3549 | 1 samples | 1 papers | 1 compositions
 - compositions: Y2Os2O7 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 25-302 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YOsO3 Pm-3m (221) mp-979436 [hull=0.734, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.93.134426 (Fragile singlet ground-state magnetism in the pyrochlore osmates<mml:m...)
@@ -380,6 +387,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3550 | 1 samples | 1 papers | 1 compositions
 - compositions: K1.2P4W8O32 (1)
 - dopant candidates (<5% at.): K (1)
+- curator composition details (from the paper): single crystal (1)
 - measured range: 12-289 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): PWO5 Pna2_1 (33) mp-32540 [hull=0.000, icsd=1, PRIMARY]; P2W2O11 Pnma (62) mp-19522 [hull=0.000, icsd=1, PRIMARY]; P2WO8 C2/m (12) mp-687234 [hull=0.000, icsd=1, PRIMARY, AMBIGUOUS]; P(W3O10)2 P2_12_12_1 (19) mp-652282 [hull=0.003, icsd=1, PRIMARY]; P3RuW2O15 C2/c (15) mp-1194833 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.93.235126 (Detailed investigation of the phase transition in<mml:math xmlns:mml=\...)

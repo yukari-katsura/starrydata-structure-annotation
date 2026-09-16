@@ -36,6 +36,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Mn-Mo-O-Sr
 - rank 2203 | 2 samples | 1 papers | 1 compositions
 - compositions: SrFe0.5Mn0.25Mo0.25O3 (2)
+- curator composition details (from the paper): The logarithmic values in Fig 4a were converted by making them exponents of 10
+original v... (2)
 - sample form: rod-shaped (2)
 - measured range: 311-887 K (5th-95th pct of 2 curves; full span incl. outliers 311-1085 K)
 - papers: https://doi.org/10.1149/2.0981509jes (Carbon Deposition and Sulfur Poisoning in SrFe<sub>0.75</sub>Mo<sub>0....)
@@ -52,6 +54,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2205 | 2 samples | 1 papers | 2 compositions
 - compositions: Nd2Fe2Se2O3 (1); Nd2(Fe0.875Mn0.125)2Se2O3 (1)
 - dopant candidates (<5% at.): Mn (1)
+- curator composition details (from the paper): Nd2(Fe1−xMnx)2Se2O3 (2)
 - measured range: 70-323 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nd2Fe2Se2O3 I4/mmm (139) mp-1078182 [hull=0.000, icsd=4, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2014.08.145 (Synthesis, structure and properties of new layered oxyselenides Nd2(Fe...)
@@ -96,6 +99,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Sn-U
 - rank 2211 | 2 samples | 1 papers | 1 compositions
 - compositions: U2Fe2Sn (2)
+- curator composition details (from the paper): as cast (1); Annealing : 900°C for 24 h in an argon atmosphere (1)
 - sample form: Bulk (2)
 - measured range: 15-237 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): U2Fe2Sn P4/mbm (127) mp-21357 [hull=0.000, icsd=2, PRIMARY]; UFe5Sn Pnma (62) mp-21701 [hull=0.063, icsd=1, PRIMARY]
@@ -227,6 +231,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2228 | 2 samples | 1 papers | 1 compositions
 - compositions: (Nd)0.05(Lu0.14Gd0.86)0.95VO4 (2)
 - dopant candidates (<5% at.): Lu (2), Nd (2)
+- curator composition details (from the paper): 5at% Nd dopant (2)
 - sample form: Polycrystal (2)
 - measured range: 302-553 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GdVO4 I4_1/amd (141) mp-25140 [hull=0.000, icsd=7, PRIMARY]; GdVO3 Pnma (62) mp-615979 [hull=0.015, icsd=1, PRIMARY]; Gd3YV4O16 C222 (21) mp-1224710 [hull=0.000, PRIMARY]; Gd2V2O7 Fd-3m (227) mp-773164 [hull=0.025, PRIMARY]; Gd2V2O7 P-1 (2) mp-769861 [hull=0.071]
@@ -326,6 +331,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-Sn
 - rank 2241 | 2 samples | 1 papers | 1 compositions
 - compositions: GeSn (2)
+- curator composition details (from the paper): GeSn layers deposited on SiO2/Si substrates (1)
 - sample form: Film (2)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 302-746 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sn3Ge I4/mmm (139) mp-1187030 [hull=0.147, PRIMARY]; SnGe P3m1 (156) mp-995181 [hull=0.489, PRIMARY]; SnGe3 I4/mmm (139) mp-979254 [hull=0.294, PRIMARY]; Sn3Ge Pm-3m (221) mp-1187023 [hull=0.178]; Sn3Ge Fm-3m (225) mp-1187027 [hull=0.227]

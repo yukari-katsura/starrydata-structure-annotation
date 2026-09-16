@@ -301,6 +301,35 @@ def split_host_dopants(fracs, threshold=DOPANT_THRESHOLD):
 FILM_FORMS = ('film', 'epitaxial', 'device', 'superlattice')
 
 
+def composition_details(df_parsed):
+    """composition -> the curator's free-text note about what the sample is.
+
+    A top-level column of the raw samples table, separate from sample_info and
+    not surfaced by the upstream flattening. It is transcribed from the paper,
+    so it is stronger evidence than an inference from stoichiometry: it names
+    carbon allotropes outright, and separates alpha-Fe2O3 (hematite, corundum)
+    from gamma-Fe2O3 (maghemite, spinel), which share a formula and cannot be
+    told apart by any element ratio.
+    """
+    path = os.path.join(_PROJECT_DIR, 'data', 'processed',
+                        'df_composition_details.parquet')
+    if not os.path.exists(path):
+        return {}
+    d = pd.read_parquet(path)
+    m = df_parsed.set_index('composition')['host_system'].to_dict()
+    out = {}
+    for comp, txt in zip(d.composition, d.composition_details):
+        h = m.get(comp)
+        if h is None or not isinstance(txt, str):
+            continue
+        out.setdefault(h, {})
+        t = txt.strip()
+        if len(t) > 90:
+            t = t[:90] + '...'
+        out[h][t] = out[h].get(t, 0) + 1
+    return out
+
+
 def sample_form(sample_information):
     """Pull the Form category out of the flattened sample_information."""
     if not isinstance(sample_information, str) or 'Form' not in sample_information:
@@ -501,6 +530,9 @@ def main():
     distort = distortion_series()
     print('  Computing measured temperature ranges ...')
     trange = measured_temperature_range(df_parsed)
+    print('  Loading curator composition details ...')
+    details = composition_details(df_parsed)
+    print(f'    free-text detail for {len(details)} host systems')
     print('  Detecting isoelectronic solid-solution axes ...')
     axes = alloy_axes(df_comp)
     print(f'    {len(axes)} host systems are solid-solution series')
@@ -594,6 +626,11 @@ def main():
             if h:
                 lines.append(f'- seed hypothesis (confirm): {", ".join(h)}'
                              + ('  <-- MIXED, split per composition' if len(h) > 1 else ''))
+            det = details.get(r.host_system)
+            if det:
+                top = sorted(det.items(), key=lambda kv: -kv[1])[:5]
+                lines.append('- curator composition details (from the paper): '
+                             + '; '.join(f'{t} ({n})' for t, n in top))
             if getattr(r, 'forms', None):
                 line = f'- sample form: {r.forms}'
                 if any(k in str(r.forms).lower() for k in FILM_FORMS):

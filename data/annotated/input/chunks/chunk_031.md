@@ -101,6 +101,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1511 | 3 samples | 1 papers | 3 compositions
 - compositions: Ag2.3Bi1.6Pb0.4Sr1.6Ca2Cu3O10 (1); AgBi1.6Pb0.4Sr1.6Ca2Cu3O10 (1); Ag9Bi1.6Pb0.4Sr1.6Ca2Cu3O10 (1)
 - dopant candidates (<5% at.): Pb (3)
+- curator composition details (from the paper): (Bi1.6Pb0.4Sr1.6Ca2Cu3Oy)-Ag20wt% (1); (Bi1.6Pb0.4Sr1.6Ca2Cu3Oy)-Ag10wt% (1); (Bi1.6Pb0.4Sr1.6Ca2Cu3Oy)-Ag50wt% (1)
 - sample form: Bulk (3)
 - measured range: 102-299 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1016/0921-4534(93)90779-p (Thermoelectric power studies on the BPSCCO system with silver addition)
@@ -172,6 +173,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-N-Ta
 - rank 1521 | 3 samples | 1 papers | 3 compositions
 - compositions: Ag0.3(TaN)0.7 (1); Ag0.27(TaN)0.73 (1); Ag0.25(TaN)0.75 (1)
+- curator composition details (from the paper): Ag 1.009W/cm2 (1); Ag 0.965W/cm2 (1); Ag 0.921W/cm2 (1)
 - measured range: 186-367 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.3938/jkps.54.2323 (Electrical Resistivities and TCR Behavior of Co-Sputtered TaN-(Ag, Cu)...)
 
@@ -275,6 +277,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Ga-Mn-Pd
 - rank 1536 | 3 samples | 1 papers | 3 compositions
 - compositions: Al64.9Pd20.7Mn8.4Ga6_IQC (1); Al62.9Pd20.7Mn8.4Ga8_IQC (1); Al60.9Pd20.7Mn8.4Ga10_IQC (1)
+- curator composition details (from the paper): intermetallic phases in addition to the icosahedral quasicrystals (2); nearly single phase face centred icosahedral phase (1)
 - measured range: 19-247 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2012.09.130 (Structural, tribological and resistivity studies of Ga substituted (Al...)
 
@@ -297,6 +300,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1539 | 3 samples | 3 papers | 3 compositions
 - compositions: SrLaAlO4 (1); LaSrAlO4 (1); (La0.7Sr0.3)(Al0.8Fe0.2)O3 (1)
 - dopant candidates (<5% at.): Fe (1)
+- curator composition details (from the paper): thin film (1)
 - sample form: disk (1)
 - measured range: 13-348 K (5th-95th pct of 3 curves; full span incl. outliers 13-1263 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2LaAlO5 Fmmm (69) mp-1218761 [hull=0.031, PRIMARY]; SrLa2Al2O7 I4/mmm (139) mp-1218238 [hull=0.020, PRIMARY]; SrLaAl3O7 Cmm2 (35) mp-1218220 [hull=0.000, PRIMARY]; SrLaAlO4 I4mm (107) mp-1218184 [hull=0.017, PRIMARY]
@@ -384,6 +388,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1550 | 3 samples | 1 papers | 3 compositions
 - compositions: K0.17Sr0.83Fe2As2 (1); K0.22Sr0.78Fe2As2 (1); K0.12Sr0.88Fe2As2 (1)
 - dopant candidates (<5% at.): K (3)
+- curator composition details (from the paper): seebeck coefficient:calculate from S/T (3)
 - sample form: Polycrystal (3)
 - measured range: 12-319 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr(FeAs)2 I4/mmm (139) mp-4488 [hull=0.000, icsd=6, PRIMARY]; NaSr4(FeAs)10 I4/m (87) mp-1221018 [hull=0.000, PRIMARY]

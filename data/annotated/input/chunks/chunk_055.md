@@ -30,6 +30,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2702 | 1 samples | 1 papers | 1 compositions
 - compositions: (Bi2Te3)88.56(C14H14O5S2)11.44 (1)
 - dopant candidates (<5% at.): S (1)
+- curator composition details (from the paper): P: PEDOT:PSS,  C14H14O5S2 ,name (Poly(3,4-ethylenedioxythiophene))(poly(styrenesulfonate))... (1)
 - sample form: cylinder (1)
 - measured range: 299-555 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1021/acsami.3c11235 (Selective Charge Carrier Transport and Bipolar Conduction in an Inorga...)
@@ -45,6 +46,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2704 | 1 samples | 1 papers | 1 compositions
 - compositions: Bi2Ca1.99Co1.44Al0.28O7I0.98 (1)
 - dopant candidates (<5% at.): Al (1)
+- curator composition details (from the paper): iodine intercalated (0.98:2 ratio of I to Bi) (1)
 - measured range: 20-301 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1109/ict.2005.1519878 (Structural features and transport properties of iodine intercalated mi...)
 
@@ -182,6 +184,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Cd-Te
 - rank 2724 | 1 samples | 1 papers | 1 compositions
 - compositions: Cd4Bi2Te7 (1)
+- curator composition details (from the paper): TeKα, BiLα, and CdLα in the EDX spectrum is 24.5 : 7.0 : 12.2, indicating that the ratio o... (1)
 - sample form: Bulk (1)
 - measured range: 201-299 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1039/c0cp00079e (Self-reorganization of CdTe nanoparticles into two-dimensional Bi2Te3/...)
@@ -209,6 +212,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Cl-K-Se
 - rank 2728 | 1 samples | 1 papers | 1 compositions
 - compositions: (K2Bi8Se13)68.33(BiCl3)31.67 (1)
+- curator composition details (from the paper): K2Bi8Se13 + 5% BiCl3 (1)
 - sample form: Bulk (1)
 - measured range: 303-874 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1021/jacs.6b09568 (Multiple Converged Conduction Bands in K2Bi8Se13: A Promising Thermoel...)

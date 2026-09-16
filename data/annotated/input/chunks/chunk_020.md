@@ -130,6 +130,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Cd-P
 - rank 964 | 6 samples | 1 papers | 6 compositions
 - compositions: Cd3(P0.4As0.6)2 (1); Cd3(P0.8As0.2)2 (1); Cd3(P0.2As0.8)2 (1); Cd3PAs (1); Cd3(P0.6As0.4)2 (1); Cd3(P0.7As0.3)2 (1)
+- curator composition details (from the paper): 40mol.%Cd3P2-60mol.%Cd3As2 (1); 80mol.%Cd3P2-20mol.%Cd3As2 (1); 20mol.%Cd3P2-80mol.%Cd3As2 (1); 50mol.%Cd3P2-50mol.%Cd3As2 (1); 60mol.%Cd3P2-40mol.%Cd3As2 (1)
 - solid-solution axis: As/(As+P) spans 0.20-0.80 (median 0.50) over 6 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 84-373 K (5th-95th pct of 6 curves)
@@ -204,6 +205,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 973 | 6 samples | 3 papers | 5 compositions
 - compositions: SmBaCuFeO5 (2); Sm0.6La0.4BaCuFeO5 (1); Sm0.8La0.2BaCuFeO5 (1); Sm0.7La0.3BaCuFeO5 (1); (SmBaCuFeO5)80(Ag)20 (1)
 - dopant candidates (<5% at.): La (3), Ag (1)
+- curator composition details (from the paper): polycrystalline (1)
 - sample form: Bulk (4)
 - measured range: 36-1035 K (5th-95th pct of 20 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaSmFeCuO5 P4mm (99) mp-1214324 [hull=0.000, PRIMARY]
@@ -247,6 +249,10 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 978 | 6 samples | 4 papers | 3 compositions
 - compositions: (Bi2Te3)92.95(C14H14O5S2)7.05 (4); (Bi2Te3)97.58(C14H14O5S2)2.42 (1); (Bi2Te2.7Se0.3)87.92(AgBi3S5)1.19(C4H2NH)10.89 (1)
 - dopant candidates (<5% at.): S (6), O (5), Se (1), N (1), Ag (1)
+- curator composition details (from the paper): P: PEDOT:PSS,  C14H14O5S2 ,name (Poly(3,4-ethylenedioxythiophene))(poly(styrenesulfonate))... (2); Bi2Te3 97wt% PEDOT:PPS 3wt%
+PEDOT:PSS	C14H14O5S2	(Poly(3,4-ethylenedioxythiophene))(poly(... (2); ABS:AgBi3S5
+Ppy:polypyrrole	CAS No.30604-81-0 C4H2NH (1); PT: PEDOT:PSS
+PEDOT:PSS	C14H14O5S2	(Poly(3,4-ethylenedioxythiophene))(poly(styrenesulfona... (1)
 - sample form: cylinder (4); pellets (1); Bulk (1)
 - measured range: 296-554 K (5th-95th pct of 30 curves)
 - papers: https://doi.org/10.1021/acsami.3c11235 (Selective Charge Carrier Transport and Bipolar Conduction in an Inorga...) | https://doi.org/10.1021/acsami.4c02032 (High Thermoelectric Performance of n-type BiTeSe-Based Composites Inco...) | https://doi.org/10.1063/5.0076952 (Energy filtering and phonon scattering effects in Bi2Te3–PEDOT:PSS com...)
@@ -350,6 +356,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 991 | 6 samples | 3 papers | 2 compositions
 - compositions: CaCu3Ru4O12 (4); CaCu3Ti0.5Ru3.5O12 (2)
 - dopant candidates (<5% at.): Ti (2)
+- curator composition details (from the paper): polycrystalline (2)
 - sample form: Bulk (1)
 - measured range: 11-298 K (5th-95th pct of 7 curves; full span incl. outliers 11-884 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CaCu3(RuO3)4 Im-3 (204) mp-6036 [hull=0.025, icsd=3, PRIMARY]
@@ -359,6 +366,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 992 | 6 samples | 3 papers | 2 compositions
 - compositions: CaCu3Ti4O12 (3); CaCu3Ti3.5Ru0.5O12 (3)
 - dopant candidates (<5% at.): Ru (3)
+- curator composition details (from the paper): polycrystalline (1)
 - sample form: Bulk (3)
 - measured range: 11-1072 K (5th-95th pct of 12 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CaTi4(CuO4)3 Im-3 (204) mp-22592 [hull=0.054, icsd=15, PRIMARY]; CaTiCuO4 P4/nmm (129) mp-1147567 [hull=0.124, PRIMARY]; CaTi4(CuO4)3 Im-3m (229) mp-647452 [hull=0.430, icsd=1]
@@ -383,6 +391,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-K-Nb-O
 - rank 995 | 6 samples | 1 papers | 1 compositions
 - compositions: KCa2Nb3O10 (6)
+- curator composition details (from the paper): standard solid-state reaction (6)
 - measured range: 11-293 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): KCa2Nb3O10 Cmc2_1 (36) mp-1223594 [hull=0.012, PRIMARY]
 - papers: https://doi.org/10.1016/s0921-4526(97)00052-5 (Transport properties of Li intercalated KCa2Nb3O10)

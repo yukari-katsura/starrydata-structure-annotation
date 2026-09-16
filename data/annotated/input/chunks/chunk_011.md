@@ -88,6 +88,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 508 | 14 samples | 7 papers | 7 compositions
 - compositions: W (8); W0.98Ta0.02 (1); (W)99.76(TiC)0.24 (1); (W)99.92(TiC)0.08 (1); (W)99.6(TiC)0.4 (1); (W)99.44(TiC)0.56 (1)
 - dopant candidates (<5% at.): Ti (5), C (5), Ta (1)
+- curator composition details (from the paper): These values were derived from the thermocouple calibration curves of total millivolt outp... (2); 1-2 (by volume), Th02 ; 0.01-0.1 Si; 0.001- 0.01 Cb, Fe; less than 0.001 AI, Cr, Cu, Mg, M... (1); unalloyed tungsten (1)
 - sample form: Bulk (1)
 - measured range: 10-1404 K (5th-95th pct of 16 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): W Im-3m (229) mp-91 [hull=0.000, icsd=14, PRIMARY]; W Fm-3m (225) mp-8641 [hull=0.480, icsd=1]; W Pbcm (57) mp-1065340 [hull=0.500, icsd=1]; W P2/m (10) mp-1191581 [hull=1.200, icsd=1]; W Pm-3n (223) mp-11334 [hull=0.090]
@@ -135,6 +136,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Al25.7Fe37.1Si37.1 (4); Al27.4Fe36.5Si36.1 (1); Al25.5Fe36.5Si38 (1); Al25.3Fe36.5Si38.2 (1); Al27.7Fe36.5Si35.8 (1); Al25.7Fe36.5Si38.2 (1)
 - dopant candidates (<5% at.): Mn (1)
 - seed hypothesis (confirm): quasicrystal_approximant
+- curator composition details (from the paper): Atmosphere in Milling/Mixing: Glove box (Ar) (4); Atmosphere in Milling/Mixing: Sealed with Ar gas in a nylon bag (1); Atmosphere in Milling/ Air (1)
 - sample form: tablet (6)
 - measured range: 300-856 K (5th-95th pct of 37 curves; full span incl. outliers 11-856 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Al2(FeSi)3 P-1 (2) mp-29110 [hull=0.000, icsd=2, PRIMARY]; Al2Fe3Si4 Cmcm (63) mp-29111 [hull=0.010, icsd=2, PRIMARY]; Al3Fe2Si3 P2_1/c (14) mp-29066 [hull=0.000, icsd=2, PRIMARY]; Al3Fe2Si Fd-3m (227) mp-1190708 [hull=0.000, icsd=1, PRIMARY]; Al3FeSi2 I4cm (108) mp-1228467 [hull=0.023, PRIMARY]
@@ -171,6 +173,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: SmFeAsO0.88F0.12 (3); SmFeAsO (2); SmFe0.95Co0.05AsO (1); SmFe0.9Co0.1AsO (1); SmFe0.85Co0.15AsO (1); SmFeAsO0.85 (1)
 - dopant candidates (<5% at.): F (4), Co (3), La (1)
 - seed hypothesis (confirm): zrcusias_1111
+- curator composition details (from the paper): polycrystalline (1)
 - sample form: Bulk (4)
 - measured range: 10-300 K (5th-95th pct of 18 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SmFeAsO P4/nmm (129) mp-1078897 [hull=0.205, icsd=5, PRIMARY]; Sm2Fe2As2O P-4m2 (115) mp-1219198 [hull=0.819, PRIMARY]; Sm2FeAs2O P4/mmm (123) mp-1208903 [hull=1.541, PRIMARY]
@@ -189,6 +192,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 519 | 13 samples | 5 papers | 3 compositions
 - compositions: UB4 (8); UB2 (4); UB12 (1)
 - seed hypothesis (confirm): ub12_boride
+- curator composition details (from the paper): 99.75% boron-10 (1); 99.52% boron-11 (1); natural boron (1); boron-10 80.2% boron-11 19.8% (1); boron-10 0.48% boron-11 99.52% (1)
 - sample form: Rod (3); SingleCrystal (2)
 - measured range: 12-1674 K (5th-95th pct of 27 curves; full span incl. outliers 10-1775 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): UB2 P6/mmm (191) mp-1514 [hull=0.000, icsd=9, PRIMARY]; UB12 Fm-3m (225) mp-22319 [hull=0.000, icsd=8, PRIMARY]; UB4 P4/mbm (127) mp-619 [hull=0.000, icsd=8, PRIMARY]
@@ -198,6 +202,10 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 520 | 13 samples | 7 papers | 11 compositions
 - compositions: La0.5Ba0.5FeO3 (3); La0.4Ba0.6Fe0.8Zn0.2O3 (1); La0.26Sm0.24Sr0.14Ba0.36FeO3 (1); La0.39Sm0.11Sr0.21Ba0.29FeO3 (1); La0.34Nd0.16Sr0.12Ba0.38FeO3 (1); Ba0.5La0.5FeO3 (1)
 - dopant candidates (<5% at.): Sr (3), Sm (2), Co (2), Zn (1), Nd (1), Ni (1)
+- curator composition details (from the paper): The logarithmic values in Fig 7 were converted by making them exponents of 10
+original va... (2); The logarithmic values in Fig 6 were converted by making them exponents of 10
+original va... (2); The logarithmic values in Fig 4a were converted by making them exponents of 10
+original v... (1)
 - sample form: rod-shaped (1)
 - measured range: 292-1175 K (5th-95th pct of 13 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2La(FeO3)3 P-3m1 (164) mp-1228521 [hull=0.000, PRIMARY]; BaLa(FeO3)2 Fm-3m (225) mp-1227910 [hull=0.029, PRIMARY]; BaLa2Fe2O7 I4/mmm (139) mp-1227917 [hull=0.000, PRIMARY]; BaLaFeO4 I4mm (107) mp-1227839 [hull=0.035, PRIMARY]
@@ -261,6 +269,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-O-Sr-Ti
 - rank 527 | 13 samples | 3 papers | 11 compositions
 - compositions: Sr0.7Ce0.3TiO2.9 (2); Sr0.6Ce0.4TiO2.9 (2); Sr0.5Ce0.5TiO2.9 (1); Sr0.5Ce05TiO2.9 (1); Sr0.7Ce0.3TiO3.0 (1); Sr0.6Ce0.4TiO3.0 (1)
+- curator composition details (from the paper): Sr1−xCexTiO3−δn/ (3)
 - sample form: Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 10-976 K (5th-95th pct of 17 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2Ce2Ti5O15 R-3m (166) mp-1218863 [hull=0.055, PRIMARY]
@@ -269,6 +278,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Hf-Sb-Sn-Ti-Zr
 - rank 528 | 13 samples | 3 papers | 5 compositions
 - compositions: Ti0.3Zr0.35Hf0.35CoSb0.8Sn0.2 (9); Ti0.3Zr0.35Hf0.35CoSb0.6Sn0.4 (1); Ti0.3Zr0.35Hf0.35CoSb0.5Sn0.5 (1); Ti0.3Zr0.35Hf0.35CoSb0.75Sn0.2 (1); Ti0.3Zr0.35Hf0.35CoSb0.7Sn0.3 (1)
+- curator composition details (from the paper): correct stoichiometry (1)
 - sample form: Bulk (1)
 - measured range: 16-883 K (5th-95th pct of 24 curves)
 - papers: https://doi.org/10.1002/ente.201500176 (Segmented Thermoelectric Oxide-Based Module for High-Temperature Waste...) | https://doi.org/10.1063/1.4916526 (Charge carrier concentration optimization of thermoelectric p-type hal...) | https://doi.org/10.1016/j.enconman.2015.03.112 (High performance p-type segmented leg of misfit-layered cobaltite and ...)
@@ -286,6 +296,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 530 | 13 samples | 2 papers | 10 compositions
 - compositions: Tl2Sr3Co3O9 (3); Tl0.4SrCoO3 (2); Tl0.6SrCoO4.1 (1); Tl0.6SrCoO3.7 (1); Tl0.6SrCoO4.28 (1); Tl0.54SrCoO3 (1)
 - dopant candidates (<5% at.): Bi (1)
+- curator composition details (from the paper): TlBi-misfit cobaltites (1); Tl-misfit cobaltites (1)
 - measured range: 10-299 K (5th-95th pct of 13 curves)
 - papers: https://doi.org/10.1021/cm0103850 (Large Thermopower in Metallic Misfit Cobaltites) | https://doi.org/10.1088/0953-8984/28/1/013001 (Searching for new thermoelectric materials: some examples among oxides...)
 
@@ -372,6 +383,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 540 | 13 samples | 3 papers | 6 compositions
 - compositions: Sn (8); Sb0.0000007Sn (1); Sb0.000007Sn (1); Sb0.0000003Sn (1); Sb0.000002Sn (1); Sb0.000003Sn (1)
 - dopant candidates (<5% at.): Sb (5)
+- curator composition details (from the paper): pure (1)
 - sample form: Bulk (1)
 - measured range: 10-434 K (5th-95th pct of 13 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sn I4_1/amd (141) mp-84 [hull=0.040, icsd=39, PRIMARY]; Sn I4/mmm (139) mp-55 [hull=0.055, icsd=41]; Sn Immm (71) mp-1056308 [hull=0.066, icsd=41]; Sn Im-3m (229) mp-7162 [hull=0.073, icsd=40]; Sn Fd-3m (227) mp-117 [hull=0.000, icsd=5]
@@ -381,6 +393,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 541 | 12 samples | 4 papers | 5 compositions
 - compositions: YbAgCu4 (8); YbCu4.3Ag0.7 (1); YbCu4.15Ag0.85 (1); YbCu4.5Ag0.5 (1); YbCu4Ag (1)
 - seed hypothesis (confirm): aube5
+- curator composition details (from the paper): melt-spinning the arc-melted ingots at 30 m/s (1); melt-spinning the arc-melted ingots at 30 m/s
+ spark-plasma-sintering (SPS):600 °C, 60 MP... (1); melt-spinning the arc-melted ingots at 40 m/s (1); melt-spinning the arc-melted ingots at 40 m/s spark-plasma-sintering (SPS):600 °C, 60 MPa,... (1)
 - sample form: Bulk (7); Ribbon (4); Polycrystal (1)
 - measured range: 10-301 K (5th-95th pct of 39 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbCu4Ag F-43m (216) mp-1077741 [hull=0.000, icsd=2, PRIMARY]
@@ -420,6 +434,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 545 | 12 samples | 3 papers | 6 compositions
 - compositions: MnAl (5); Al22.5Mn77.5 (3); Al14.3Mn85.7 (1); Al20Mn80 (1); Al6Mn (1); Al17.5Mn82.5 (1)
 - seed hypothesis (confirm): l10_tetragonal
+- curator composition details (from the paper): τ-MnAl (4); ε-MnAl (2)
 - measured range: 10-299 K (5th-95th pct of 12 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MnAl6 Cmcm (63) mp-173 [hull=0.000, icsd=5, PRIMARY]; MnAl P4/mmm (123) mp-771 [hull=0.000, icsd=3, PRIMARY]; Mn4Al11 P-1 (2) mp-2856 [hull=0.000, icsd=2, PRIMARY]; Mn14Al56Ge3 P-3 (147) mp-706448 [hull=0.000, icsd=1, PRIMARY]; Mn5Al8 R3m (160) mp-1194040 [hull=0.075, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1088/0305-4608/16/8/019 (Magnetic and electrical properties of icosahedral quasicrystalline Al-...) | https://doi.org/10.2320/matertrans1960.27.81 (Structural, Thermal and Electrical Properties of Al&ndash;Mn Quasicrys...) | https://doi.org/10.1038/ncomms10817 (Orbital two-channel Kondo effect in epitaxial ferromagnetic L10-MnAl f...)
@@ -428,6 +443,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 546 | 12 samples | 8 papers | 11 compositions
 - compositions: Al71Pd20Re4.05Ru4.95_IQC (2); Al72.9Pd22.9Mn4.2 (1); Al71Pd20Re4.05Ru4.95 (1); Al73Pd22.9Mn4.1 (1); Al72.7Pd23.2Mn4.1 (1); Al70Pd22.5(Re0.5Mn0.5)7.5 (1)
 - dopant candidates (<5% at.): Re (7), Mn (6), Ru (4), Fe (1), Co (1)
+- curator composition details (from the paper): as a reference, no detailed information avairable. (1)
 - sample form: Bulk (6)
 - measured range: 10-954 K (5th-95th pct of 33 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): AlPd Pm-3m (221) mp-829 [hull=0.033, icsd=3, PRIMARY]; Al21Pd8 I4_1/a (88) mp-1498 [hull=0.000, icsd=2, PRIMARY]; AlPd2 Pnma (62) mp-2824 [hull=0.000, icsd=2, PRIMARY]; Al2Pd Fm-3m (225) mp-16522 [hull=0.037, icsd=1, PRIMARY]; Al3Pd2 P-3m1 (164) mp-10901 [hull=0.000, icsd=1, PRIMARY]
@@ -454,6 +470,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 549 | 12 samples | 6 papers | 2 compositions
 - compositions: BP (11); B12P2 (1)
 - seed hypothesis (confirm): sphalerite
+- curator composition details (from the paper): BP/SiO2 glass substrate (1)
 - sample form: Film (2); Bulk (1); SingleCrystal (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 12-1068 K (5th-95th pct of 13 curves; full span incl. outliers 12-1384 K)
 - [ref 1] TEDesignLab / ICSD: BP F-43m (216) mp-1479 [hull=0.000, icsd=6, PRIMARY]
@@ -464,6 +481,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 550 | 12 samples | 3 papers | 10 compositions
 - compositions: LaBaCuFeO5 (2); LaBa(Cu0.5Fe0.5)1.9W0.1O5 (2);  LaBaCuFeO5 (1); La0.75Pr0.25BaCuFeO5 (1); LaBaCuFe0.95Zn0.05O5 (1); LaBaCu0.9Co0.1FeO5 (1)
 - dopant candidates (<5% at.): Co (2), W (2), Pr (1), Zn (1), Mn (1), Nb (1), Ni (1)
+- curator composition details (from the paper): La1−xPrxBaCuFeO5+δ (2)
 - measured range: 293-1077 K (5th-95th pct of 24 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2La2Fe2Cu2O11 P4mm (99) mp-706229 [hull=0.090, PRIMARY]; BaLaFe2Cu2O11 Pmm2 (25) mp-705604 [hull=0.281, PRIMARY]
 - papers: https://doi.org/10.1134/s1063783409020073 (Thermoelectric properties of layered ferrocuprates LnBaCuFeO5 + δ (Ln=...) | https://doi.org/10.1134/s1087659612020058 (Structure and properties of solid solutions of La1 − x Pr x BaCuFeO5 + δ) | https://doi.org/10.1134/s0020168508070157 (Effect of heterovalent substitutions in the Cu and Fe sites on the the...)

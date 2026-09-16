@@ -146,6 +146,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1918 | 2 samples | 1 papers | 1 compositions
 - compositions: (Fe57Cr15Nb4B20Si4)0.12(Y2O3)0.2(ZrO2)0.8 (2)
 - dopant candidates (<5% at.): Nb (2), Si (2), Y (2)
+- curator composition details (from the paper): composite coating(amorphous + ceramic) (1); amorphous coating (1)
 - sample form: Film (2)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 374-873 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1021/acsami.0c22868 (Novel Fe-Based Amorphous Composite Coating with a Unique Interfacial L...)
@@ -168,6 +169,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## B-F-H-O-P
 - rank 1921 | 2 samples | 2 papers | 1 compositions
 - compositions: PBFDO (2)
+- curator composition details (from the paper): poly(benzodifurandione) (1)
 - sample form: Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 10-482 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.1038/s41586-022-05295-8 (A solution-processed n-type conducting polymer with ultrahigh conducti...) | https://doi.org/10.1002/admt.202400968 (A Scalable Fully Printed Organic Thermoelectric Generator for Harsh En...)
@@ -295,6 +297,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Co-Fe-Nd-O
 - rank 1938 | 2 samples | 2 papers | 2 compositions
 - compositions: NdBaFeCoO5 (1); NdBaCoFeO5 (1)
+- curator composition details (from the paper): bulk (pressed and sintered) (1)
 - measured range: 300-1068 K (5th-95th pct of 3 curves; full span incl. outliers 300-1122 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2Nd2Fe(CoO4)3 Amm2 (38) mp-1228516 [hull=0.080, PRIMARY]; Ba2Nd2Fe3CoO12 P-4m2 (115) mp-1228604 [hull=0.090, PRIMARY]; BaNdFeCoO6 P4mm (99) mp-1227838 [hull=0.067, PRIMARY]
 - papers: https://doi.org/10.1134/s0020168513030084 (Synthesis and properties of LnBaFeCoO5 + δ (Ln = Nd, Sm, Gd)) | https://doi.org/10.1016/j.jallcom.2016.05.322 (Improved electrochemical performance and thermal expansion compatibili...)
@@ -303,6 +306,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1939 | 2 samples | 2 papers | 2 compositions
 - compositions: SmBaFeCoO5 (1); SmBa0.75Ca0.25CoFeO5 (1)
 - dopant candidates (<5% at.): Ca (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 146-1023 K (5th-95th pct of 3 curves; full span incl. outliers 146-1073 K)
 - papers: https://doi.org/10.1134/s0020168513030084 (Synthesis and properties of LnBaFeCoO5 + δ (Ln = Nd, Sm, Gd)) | https://doi.org/10.1016/j.jallcom.2016.12.065 (Ca and Fe co-doped SmBaCo2O5 +  layered perovskite as an efficient cat...)
 
@@ -310,6 +314,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1940 | 2 samples | 1 papers | 2 compositions
 - compositions: Y0.5Ca0.5BaCo3.2Ga0.8O7 (1); Y0.5Ca0.4In0.1BaCo3.2Ga0.8O7 (1)
 - dopant candidates (<5% at.): Y (2), Ca (2), In (1)
+- curator composition details (from the paper): bulk (pressed and sintered) (2)
 - measured range: 572-1172 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba6Ga2Co11O26 P-3m1 (164) mp-642047 [hull=0.076, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2016.04.028 (Phase stability and electrochemical performance of Y0.5Ca0.5−xInxBaCo3...)
@@ -326,6 +331,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1942 | 2 samples | 1 papers | 2 compositions
 - compositions: La0.2Ba0.8Co0.7Nb0.3O3 (1); La0.2Ba0.8Co0.6Nb0.4O3 (1)
 - dopant candidates (<5% at.): La (2)
+- curator composition details (from the paper): bulk (sintered pellet) (2)
 - measured range: 299-1177 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba3Nb2CoO9 P-3m1 (164) mp-600864 [hull=0.000, icsd=1, PRIMARY]; Ba2NbCoO6 Fm-3m (225) mp-1228382 [hull=0.066, PRIMARY]; Ba6Nb9CoO30 Cmm2 (35) mp-1228527 [hull=0.036, PRIMARY]; Ba8Nb6CoO24 P-3m1 (164) mp-640790 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.ssi.2016.12.016 (Effect of Nb5+ content on the high temperature properties of the mixed...)
@@ -333,6 +339,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Co-O-Sb
 - rank 1943 | 2 samples | 1 papers | 1 compositions
 - compositions: Ba3CoSb2O9 (2)
+- curator composition details (from the paper): Ba3CoSb2O9 ab-plane (1); Ba3CoSb2O9　e c-axis (1)
 - sample form: SingleCrystal (2)
 - measured range: 11-99 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba3CoSb2O9 P6_3/mmc (194) mp-19337 [hull=0.000, icsd=2, PRIMARY]

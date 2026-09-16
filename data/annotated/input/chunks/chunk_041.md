@@ -245,6 +245,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## C-N-Si
 - rank 2032 | 2 samples | 1 papers | 2 compositions
 - compositions: Si3N4C2 (1); Si3N4C0.5 (1)
+- curator composition details (from the paper): Si3N4 with 17vol%GNP (1); Si3N4 with 4vol%rGO (1)
 - sample form: Bulk (2)
 - measured range: 97-315 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Si(CN2)2 Pn-3m (224) mp-30160 [hull=0.029, icsd=1, PRIMARY]; SiCN F-43m (216) mp-8003 [hull=2.221, icsd=1, PRIMARY]; Si2CN4 Aea2 (41) mp-30161 [hull=0.000, icsd=1, PRIMARY]; LiZnSi3(C4N)4 P2_12_12_1 (19) mp-1182794 [hull=1.191, PRIMARY]; NdSi6(C6N)3 C2/c (15) mp-1180641 [hull=0.778, PRIMARY]
@@ -260,6 +261,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## C-O-Sr-Ti
 - rank 2034 | 2 samples | 1 papers | 2 compositions
 - compositions: SrTiO3C0.31 (1); SrTiO3C0.63 (1)
+- curator composition details (from the paper): C:graphene oxide (2)
 - sample form: Bulk (2)
 - measured range: 295-775 K (5th-95th pct of 12 curves)
 - papers: https://doi.org/10.1038/s41598-019-45162-7 (Grain Boundary Interfaces Controlled by Reduced Graphene Oxide in Nons...)

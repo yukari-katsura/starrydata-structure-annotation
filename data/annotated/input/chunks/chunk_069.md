@@ -151,6 +151,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3419 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.6Gd0.1Sr0.3Mn0.75Si0.25O3 (1)
 - dopant candidates (<5% at.): Gd (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 85-290 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1039/c8ra00037a (Electrical conductivity and dielectric behaviour of nanocrystalline La...)
 
@@ -179,6 +180,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-Nb-Ni-O
 - rank 3423 | 1 samples | 1 papers | 1 compositions
 - compositions: La3Ni2NbO9 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 376-1124 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La2NbNiO6 P2_1/c (14) mp-1211522 [hull=0.202, PRIMARY]
 - papers: https://doi.org/10.1016/j.matlet.2015.09.110 (Synthesis and electrical property study of La3Ni2MO9 (M=Nb and TA))
@@ -186,18 +188,21 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-Ni-O-Os
 - rank 3424 | 1 samples | 1 papers | 1 compositions
 - compositions: La2Ni1.19Os0.81O6 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 104-298 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1103/physrevb.97.184407 (Canted ferrimagnetism and giant coercivity in the nonstoichiometric do...)
 
 ## La-Ni-O-Os-Sr
 - rank 3425 | 1 samples | 1 papers | 1 compositions
 - compositions: SrLaNiOsO6 (1)
+- curator composition details (from the paper): polycrｙstalline (1)
 - measured range: 176-300 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.ssc.2016.06.008 (Synthesis, crystal structures, and magnetic properties of double perov...)
 
 ## La-Ni-O-Ta
 - rank 3426 | 1 samples | 1 papers | 1 compositions
 - compositions: La3Ni2TaO9 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 301-1126 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.matlet.2015.09.110 (Synthesis and electrical property study of La3Ni2MO9 (M=Nb and TA))
 

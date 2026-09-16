@@ -105,6 +105,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1411 | 4 samples | 1 papers | 4 compositions
 - compositions: LaCuOSe (1); La0.9Sr0.1CuOSe (1); La0.95Sr0.05CuOSe (1); La0.85Sr0.15CuOSe (1)
 - dopant candidates (<5% at.): Sr (3)
+- curator composition details (from the paper): thin film (2); polycrystalline (2)
 - sample form: Bulk (4)
 - measured range: 367-669 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La2Cu(SeO3)4 P2_1/c (14) mp-18267 [hull=0.000, icsd=1, PRIMARY]; La2CuSe2O P4/mmm (123) mp-1211335 [hull=1.516, PRIMARY]; La4Cu3SeO12 Im-3m (229) mp-1147534 [hull=0.110, PRIMARY]; LaCu2SeO2 P4/mmm (123) mp-1207265 [hull=1.085, PRIMARY]
@@ -220,6 +221,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1426 | 4 samples | 4 papers | 4 compositions
 - compositions: La(Fe0.40Mn0.60)O3 (1); La2FeMnO6 (1); LaFe0.25Mn0.75O3 (1); (La0.8Sr0.2)0.95Fe0.6Mn0.3Co0.1O3 (1)
 - dopant candidates (<5% at.): Sr (1), Co (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 152-1167 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La7SmMn2(Fe3O10)2 P1 (1) mp-1076418 [hull=0.071, PRIMARY]; La7SmMn2(FeO4)6 Cmm2 (35) mp-1076598 [hull=0.138, PRIMARY]; La7SmMn3(FeO4)5 P1 (1) mp-1076455 [hull=0.072, PRIMARY]; La7SmMn3Fe5O24 Cm (8) mp-1075984 [hull=0.119, PRIMARY]; La7SmMn4(FeO5)4 P1 (1) mp-1076172 [hull=0.074, PRIMARY]
 - papers: https://doi.org/10.1149/1.2358840 (Electrical, Thermoelectric, and Structural Properties of La(M[sub x]Fe...) | https://doi.org/10.1016/j.jallcom.2017.03.331 (Magnetic properties, resistivity and magnetoresistance effects of doub...) | https://doi.org/10.1016/j.electacta.2015.04.085 (Assessment of LaM0.25Mn0.75O3- (M = Fe, Co, Ni, Cu) as promising catho...)

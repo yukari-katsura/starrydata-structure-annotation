@@ -336,6 +336,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-In-O-V
 - rank 3093 | 1 samples | 1 papers | 1 compositions
 - compositions: Cu2In3VO9 (1)
+- curator composition details (from the paper): bulk (pressed and sintered) (2)
 - measured range: 308-580 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): VInCuO5 P2_1/c (14) mp-640894 [hull=0.033, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.ceramint.2016.11.040 (Semiconducting properties of Cu2In3VO9 ceramic material)

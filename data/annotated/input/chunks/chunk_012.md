@@ -22,6 +22,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 551 | 12 samples | 3 papers | 4 compositions
 - compositions: Bi0.5Sb1.5Te3C0.28 (9); Bi0.5Sb1.5Te3C0.4 (1); Bi0.4Sb1.6Te3C0.5 (1); Bi0.5Sb1.5Te3C0.34 (1)
 - seed hypothesis (confirm): composite_multiphase
+- curator composition details (from the paper): V/V % (1); 1%CNT/Bi0.4Sb1.6Te3 (1)
 - sample form: Bulk (11)
 - measured range: 25-576 K (5th-95th pct of 53 curves)
 - papers: https://doi.org/10.1002/pssa.201127075 (C60-doping of nanostructured Bi-Sb-Te thermoelectrics) | https://doi.org/10.1063/1.4834700 (Thermoelectric and mechanical properties of multi-walled carbon nanotu...) | https://doi.org/10.1002/adfm.202008851 (Significant Enhancement of Thermoelectric Figure of Merit in BiSbTe‐Ba...)
@@ -49,6 +50,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 554 | 12 samples | 4 papers | 11 compositions
 - compositions: CoSb3C0.5 (2); CoSb3C0.35 (1); CoSb3C0.46 (1); CoSb3C0.57 (1); CoSb3C0.8 (1); Ba0.25Co4Sb12.07(BaC60)0.03 (1)
 - dopant candidates (<5% at.): Ba (5), Ni (1), Te (1)
+- curator composition details (from the paper): CoSb3/G because the graphene content is estimated to be only 1.5 wt% (1); CoSb3/graphene mixture (CoSb3 + G) was obtained by grinding bare CoSb3 and graphene with a... (1)
 - sample form: Bulk (6)
 - measured range: 24-854 K (5th-95th pct of 59 curves)
 - papers: https://doi.org/10.1063/1.1687997 (Enhanced thermoelectric figure of merit of CoSb3 via large-defect scat...) | https://doi.org/10.1063/1.2811936 (Influence of fullerene dispersion on high temperature thermoelectric p...) | https://doi.org/10.1039/c3ta13202a (Enhanced thermoelectric properties of p-type CoSb3/graphene nanocomposite)
@@ -57,6 +59,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 555 | 12 samples | 2 papers | 7 compositions
 - compositions: CaCu3Ti2.5Ru1.5O12 (3); CaCu3Ti3RuO12 (2); CaCu3Ti2Ru2O12 (2); CaCu3Ti1.5Ru2.5O12 (2); CaCu3TiRu3O12 (1); CaCu3Ti3Ru1O12 (1)
 - seed hypothesis (confirm): cacu3ti4o12
+- curator composition details (from the paper): polycrystalline (5)
 - measured range: 11-298 K (5th-95th pct of 13 curves)
 - papers: https://doi.org/10.1016/j.progsolidstchem.2007.01.013 (Thermoelectric properties of the AA′3B4O12-type ordered perovskite oxides) | https://doi.org/10.1103/physrevb.95.195141 (Electronic phase transition between localized and itinerant states in ...)
 
@@ -146,6 +149,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 566 | 12 samples | 3 papers | 7 compositions
 - compositions: CsSnI2.99Cl0.01 (5); CsSnI3 (2); CsSn0.8Ge0.2I3 (1); CsSn0.9Ge0.1I3 (1); (CsSnI3)0.995(PbI2)0.005 (1); (CsSnI3)0.99(PbI2)0.01 (1)
 - dopant candidates (<5% at.): Cl (5), Pb (3), Ge (2)
+- curator composition details (from the paper): 1% mixed CsSnI3−xClx perovskite thin films (5)
 - sample form: Polycrystal (4); Bulk (3)
 - measured range: 293-522 K (5th-95th pct of 55 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CsSnI3 Pnma (62) mp-27381 [hull=0.000, icsd=2, PRIMARY, AMBIGUOUS]; Cs2SnI6 Fm-3m (225) mp-27636 [hull=0.000, icsd=2, PRIMARY]; CsSnI3 P4/mbm (127) mp-616378 [hull=0.003, icsd=2]; CsSnI3 Pm-3m (221) mp-614013 [hull=0.007, icsd=2]
@@ -174,6 +178,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Mn0.5Zn0.5La0.05Fe1.95O4 (1); Mn0.5Zn0.5Th0.05Fe1.95O4 (1); Mn0.5Zn0.5Tb0.05Fe1.95O4 (1); Mn0.5Zn0.5Ce0.05Fe1.95O4 (1); Mn0.4Zn0.6Fe2O4 (1); Mn0.4Zn0.6In0.035Fe1.965O4 (1)
 - dopant candidates (<5% at.): In (3), Ce (2), La (1), Th (1), Tb (1), Er (1), Gd (1)
 - seed hypothesis (confirm): spinel
+- curator composition details (from the paper): Mn0.58−x/2 Zn0.37−x/2 MxFe2.05O4 (1)
 - measured range: 300-613 K (5th-95th pct of 12 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mn3Zn(FeO2)8 R3m (160) mp-1221853 [hull=0.072, PRIMARY]; MnZn(FeO2)4 F-43m (216) mp-1221602 [hull=0.000, PRIMARY]; MnZn3(FeO2)8 P-4m2 (115) mp-1221586 [hull=0.015, PRIMARY]
 - papers: https://doi.org/10.1016/j.ceramint.2005.07.014 (Enhancement of the physical properties of rare-earth-substituted Mn–Zn...) | https://doi.org/10.1016/j.jmmm.2014.12.031 (Study of conduction phenomena in indium substituted Mn–Zn nano-ferrites) | https://doi.org/10.1023/a:1004571418384 ([])
@@ -182,6 +187,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 570 | 12 samples | 2 papers | 11 compositions
 - compositions: FeSb2Se4 (2); FeSb1.85Sn0.15Se4 (1); FeSb1.9Sn0.1Se4 (1); FeSb1.8Sn0.2Se4 (1); FeSb1.98Sn0.02Se4 (1); FeSb1.95In0.05Se4 (1)
 - dopant candidates (<5% at.): In (6), Sn (4)
+- curator composition details (from the paper): p-type Ferromagnetic semiconductors (FMSs) (5)
 - sample form: Polycrystal (12)
 - measured range: 15-699 K (5th-95th pct of 51 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): FeSbSe P2_1/c (14) mp-1103256 [hull=0.000, icsd=1, PRIMARY]
@@ -251,6 +257,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Pt-Sb-Y
 - rank 578 | 12 samples | 5 papers | 2 compositions
 - compositions: YPtSb (8); PtYSb (4)
+- curator composition details (from the paper): deposited at 500degC (1); deposited at 700degC (1); deposited at 800degC (1); deposited at 600degC (1)
 - sample form: Bulk (7)
 - measured range: 11-968 K (5th-95th pct of 20 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YSbPt F-43m (216) mp-4964 [hull=0.000, icsd=2, PRIMARY]; Y5SbPt2 I4/mcm (140) mp-1207703 [hull=0.000, PRIMARY]
@@ -365,6 +372,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Y3Al5O12 (6); (Y3Al5O12)14.66(Al2O3)85.34 (3); (Y2O3)58.35(Al2O3)41.15 (CeO2)0.5 (1); (Y2O3)30.61(Al2O3)68.89 (CeO2)0.5 (1)
 - dopant candidates (<5% at.): Ce (2)
 - seed hypothesis (confirm): garnet
+- curator composition details (from the paper): commercially available Ce-doped YAG + α-Al2O3 (3); commercially available Ce-doped YAG (1)
 - sample form: Bulk (7); Coating (4)
 - measured range: 293-1571 K (5th-95th pct of 11 curves)
 - [ref 1] TEDesignLab / ICSD: YAlO3 Pnma (62) mp-3792 [hull=0.019, icsd=17, PRIMARY]; YAlO3 P6_3/mmc (194) mp-7964 [hull=0.102, icsd=1]
@@ -381,6 +389,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 593 | 11 samples | 1 papers | 1 compositions
 - compositions: YbNi2B2C (11)
 - seed hypothesis (confirm): borocarbide_1221
+- curator composition details (from the paper): unannealed (3); annealing conditions: 950degC 150h (3); annealing conditions: 950degC 50h (2); annealing conditions: 950degC 20h (1); annealing conditions: 950degC 100h (1)
 - sample form: SingleCrystal (11)
 - measured range: 10-301 K (5th-95th pct of 11 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbNi2B2C I4/mmm (139) mp-6286 [hull=0.000, icsd=2, PRIMARY]
@@ -399,6 +408,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 595 | 11 samples | 6 papers | 3 compositions
 - compositions: GdBa2Cu3O7 (9); Gd1Ba2Cu3O7 (1); (GdBa2Cu3O7)0.8(Gd2O3)0.2 (1)
 - seed hypothesis (confirm): ybco_cuprate
+- curator composition details (from the paper): thin film (1)
 - sample form: Bulk (2)
 - measured range: 77-300 K (5th-95th pct of 11 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2GdCu3O7 Pmmm (47) mp-19813 [hull=0.018, icsd=3, PRIMARY]; BaGd2CuO5 Pnma (62) mp-1182677 [hull=0.030, icsd=2, PRIMARY]; Ba2Gd(CuO2)4 Cmmm (65) mp-1214720 [hull=0.000, PRIMARY]; Ba10Gd4Y(Cu3O7)5 Pmmm (47) mp-1229238 [hull=0.027, PRIMARY]; Ba4Gd(CuO3)3 Pm-3n (223) mp-1214933 [hull=0.000, PRIMARY]
@@ -425,6 +435,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 598 | 11 samples | 4 papers | 11 compositions
 - compositions: BiCuOTe (1); Bi0.99Pb0.01CuOTe (1); Bi0.96Pb0.04CuOTe (1); Bi0.94Pb0.06CuOTe (1); Bi0.98Pb0.02CuOTe (1); BiCuTeO (1)
 - dopant candidates (<5% at.): Pb (4)
+- curator composition details (from the paper): Bi1−xPbxCuOTe (4)
 - sample form: Bulk (10)
 - measured range: 296-723 K (5th-95th pct of 47 curves; full span incl. outliers 11-725 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CuBi2Te2O P4/mmm (123) mp-1213110 [hull=0.546, PRIMARY]
@@ -443,6 +454,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 600 | 11 samples | 7 papers | 8 compositions
 - compositions: (Bi0.5Sb1.5Te3)91.26(Sb2O3)8.74 (4); (Mg1.25Al0.75Si4O11H)0.03Bi0.42Sb1.58Te3 (1); (BiSbTe)87.89(RuO2)12.11 (1); (Bi0.5Sb1.5Te3)87.21(Sb2O3)12.79 (1); (Bi0.5Sb1.5Te3)94.06(Ta2O5)5.94 (1); (Bi0.5Sb1.5Te3)88.72(Nd2O3)11.28 (1)
 - dopant candidates (<5% at.): Si (1), Mg (1), H (1), Al (1), Ru (1), Ta (1), Nd (1), Y (1), Zr (1)
+- curator composition details (from the paper): BiSbTe/1.5wt% D-ATP (1); p-type Bi2Te3 + 75%Sb2Te3 (hereafter referred to as BiSbTe) alloy powder+ 4 wt%ZrO2 (1)
 - sample form: Bulk (8); Composite (1)
 - measured range: 299-550 K (5th-95th pct of 44 curves)
 - papers: https://doi.org/10.1039/c3ra23219k (Effect of dehydrated-attapulgite nanoinclusions on the thermoelectric ...) | https://doi.org/10.4028/www.scientific.net/kem.512-515.1651 (The Influence of RuO<sub>2</sub> Addition on the Thermoelectric Proper...) | https://doi.org/10.1039/c8ta08238c (Enhanced thermoelectric performance of Bi–Sb–Te/Sb2O3 nanocomposites b...)

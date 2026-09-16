@@ -306,6 +306,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3588 | 1 samples | 1 papers | 1 compositions
 - compositions: AgPb10Sb12 (1)
 - dopant candidates (<5% at.): Ag (1)
+- curator composition details (from the paper): AgPbmSbTe2+m (m = 10–18) (1)
 - sample form: Bulk (1)
 - measured range: 300-480 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sb3Pb P6_3/mmc (194) mp-973199 [hull=0.186, PRIMARY]; SbPb Fm-3m (225) mp-1206982 [hull=0.070, PRIMARY]; SbPb3 P-6m2 (187) mp-1219498 [hull=0.087, PRIMARY, AMBIGUOUS]; SbPb4 R-3m (166) mp-1219484 [hull=0.054, PRIMARY]; SbPb Cmmm (65) mp-1219460 [hull=0.133]

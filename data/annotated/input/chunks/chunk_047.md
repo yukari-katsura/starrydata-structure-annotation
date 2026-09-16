@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mn-O-Tm
 - rank 2301 | 2 samples | 1 papers | 1 compositions
 - compositions: TmMnO3 (2)
+- curator composition details (from the paper): TmMnO3 ab-plane (1); TmMnO3 c-axis (1)
 - sample form: SingleCrystal (2)
 - measured range: 13-184 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Tm2Mn2O7 Fd-3m (227) mp-769918 [hull=0.000, icsd=1, PRIMARY]; TmMn2O5 Pbam (55) mp-1207725 [hull=0.000, PRIMARY]
@@ -29,6 +30,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mo
 - rank 2302 | 2 samples | 2 papers | 1 compositions
 - compositions: Mo (2)
+- curator composition details (from the paper): 1-2 (by volume), Th02 ; 0.01-0.1 Fe, Si; 0.001-0.01 AI, Cb, Cu (1)
 - measured range: 12-277 K (5th-95th pct of 4 curves; full span incl. outliers 12-1080 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mo Im-3m (229) mp-129 [hull=0.000, icsd=16, PRIMARY]; Mo Fm-3m (225) mp-8637 [hull=0.428, icsd=1]; Mo P6_3/mmc (194) mp-1066523 [hull=0.448, icsd=1]; Mo P2/c (13) mp-1190217 [hull=0.479, icsd=1]; Mo P6/mmm (191) mp-1056004 [hull=0.908, icsd=1]
 - papers: https://doi.org/10.1063/1.1735807 (Low‐Temperature Transport Properties of Commercial Metals and Alloys. ...) | https://doi.org/10.1016/j.jnucmat.2008.01.033 (Microstructure and thermal conductivity of Mo–TiC cermets processed by...)
@@ -162,6 +164,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Nb-S-Yb
 - rank 2320 | 2 samples | 2 papers | 2 compositions
 - compositions: (Yb1.90S2)0.62NbS2 (1); (Yb2S2)2NbS2 (1)
+- curator composition details (from the paper): We assigned the [NbS2] slab to subsystem 1 and the [Ln2S2] block to subsystem 2 (1)
 - sample form: Bulk (1)
 - measured range: 10-301 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.1143/jjap.43.l1202 (Preparation and Thermoelectric Properties of Misfit-Layered Sulfide [Y...) | https://doi.org/10.1007/s11664-012-2443-5 (Crystal Structure and Thermoelectric Properties of Misfit-Layered Sulf...)
@@ -329,6 +332,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## O-Sr-Ta-Ti
 - rank 2342 | 2 samples | 1 papers | 2 compositions
 - compositions: Sr0.85Ti0.70Ta0.30O3 (1); SrTi0.70Ta0.30O3 (1)
+- curator composition details (from the paper): Sr0.85Ti0.70Ta0.30O3-d (1); SrTi0.70Ta0.30O3-d (1)
 - measured range: 369-1268 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr3Ta2Ti6O21 P6_3/mcm (193) mp-1208814 [hull=0.054, PRIMARY]; Sr3Ta4Ti4O21 C2/c (15) mp-1218665 [hull=0.030, PRIMARY]; Sr3Ta4TiO15 Pc (7) mp-1218658 [hull=0.037, PRIMARY]
 - papers: https://doi.org/10.1021/acs.chemmater.5b01389 (Boosting Thermoelectric Performance by Controlled Defect Chemistry Eng...)

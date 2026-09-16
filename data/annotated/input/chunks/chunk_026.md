@@ -70,6 +70,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-Ca-Co-O
 - rank 1257 | 4 samples | 1 papers | 4 compositions
 - compositions: Ag2Ca3Co4O9 (1); AgCa3Co4O9 (1); Ag1.6Ca3Co4O9 (1); Ag3.3Ca3Co4O9 (1)
+- curator composition details (from the paper): Ca3Co4O9-Ag10vol% (1); Ca3Co4O9-Ag5vol% (1); Ca3Co4O9-Ag7.5vol% (1); Ca3Co4O9-Ag15vol% (1)
 - sample form: Bulk (4)
 - measured range: 663-1034 K (5th-95th pct of 12 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2006.12.102 (Fabrication and thermoelectric properties of Ca3Co4O9/Ag composites)
@@ -78,6 +79,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1258 | 4 samples | 1 papers | 4 compositions
 - compositions: AgCr0.84Mg0.16O2 (1); AgCr0.88Mg0.12O2 (1); AgCr0.96Mg0.04O2 (1); AgCr0.92Mg0.08O2 (1)
 - dopant candidates (<5% at.): Mg (4)
+- curator composition details (from the paper): thin film (4)
 - measured range: 163-300 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CrAgO2 R-3m (166) mp-19378 [hull=0.000, icsd=2, PRIMARY]; Cr2Ag2O7 P-1 (2) mp-1172885 [hull=0.021, PRIMARY]; CrAgO4 Cmcm (63) mp-777097 [hull=0.000, PRIMARY]; CrAgO2 R3m (160) mp-1096875 [hull=0.092]; CrAgO4 P2_1/c (14) mp-850137 [hull=0.029]
 - papers: https://doi.org/10.1039/c6tc04848j (Facile chemical solution synthesis of p-type delafossite Ag-based tran...)
@@ -188,6 +190,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Cu-Fe-Si
 - rank 1273 | 4 samples | 2 papers | 4 compositions
 - compositions: Al53Cu25.5Fe12.5Si9 (1); Al65.9Cu7.5Fe17.0Si9.6 (1); Al65.2Cu8.0Fe17.0Si9.8 (1); Al64.5Cu8.0Fe17.1Si10.4 (1)
+- curator composition details (from the paper): nominal composition: Al67Cu7Fe17Si9 (1); nominal composition: Al66Cu7Fe17Si10 (1); nominal composition: Al65Cu7Fe17Si11 (1)
 - measured range: 10-294 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1109/ict.2007.4569499 (Low thermal conductivity of Al-based icosahedral quasicrystals and app...) | https://doi.org/10.1103/physrevb.74.054206 (Extremely small thermal conductivity of the Al-based Mackay-type<mml:m...)
 
@@ -209,6 +212,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Fe-Ni-O
 - rank 1276 | 4 samples | 1 papers | 4 compositions
 - compositions: NiAlFeO4 (1); NiAl0.4Fe1.6O4 (1); NiAl0.6Fe1.4O4 (1); NiAl0.8Fe1.2O4 (1)
+- curator composition details (from the paper): NiAlxFe2−xO4 (4)
 - measured range: 308-832 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1016/j.matlet.2006.03.139 (Electrical conduction in Ni–Al ferrites)
 
@@ -240,6 +244,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1280 | 4 samples | 2 papers | 4 compositions
 - compositions: Al67.2Si9.2Ru23.6 (1); Al67.63Si8.2Ru24.2_IAC_1_0 (1); Al67.5Si7.5Cu2Ru23_IAC_1_0 (1); Al65.6Si8.1Cu4.1Ru22.1_IAC_1_0 (1)
 - dopant candidates (<5% at.): Cu (2)
+- curator composition details (from the paper): Al67.6Si8.9Ru23.5 (nominal composition) (1)
 - measured range: 300-811 K (5th-95th pct of 13 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): AlSiRu2 Fm-3m (225) mp-862778 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1103/physrevmaterials.3.061601 (Experimental realization of a semiconducting quasicrystalline approxim...) | https://doi.org/10.1103/physrevmaterials.5.125401 (Effects of Cu doping on thermoelectric properties of Al–Si–Ru semicond...)
@@ -255,6 +260,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Y
 - rank 1282 | 4 samples | 4 papers | 2 compositions
 - compositions: YAl2 (3); YAl3 (1)
+- curator composition details (from the paper): raditional method of melting, quenching, annealing and SPS (1)
 - measured range: 10-499 K (5th-95th pct of 7 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YAl2 Fd-3m (227) mp-2322 [hull=0.000, icsd=18, PRIMARY]; YAl3 R-3m (166) mp-2451 [hull=0.002, icsd=7, PRIMARY]; Y3Al2 P4_2/mnm (136) mp-16723 [hull=0.005, icsd=4, PRIMARY]; YAl Cmcm (63) mp-1064953 [hull=0.008, icsd=3, PRIMARY]; Y2Al Pnma (62) mp-11230 [hull=0.000, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/s0921-4526(97)00157-9 (Transport phenomena in spin fluctuations systems) | https://doi.org/10.1088/0953-8984/7/33/008 (The transport properties of RCo2compounds) | https://doi.org/10.1016/0022-5088(85)90212-7 (Electrical resistivity, thermal conductivity and thermopower of nonmag...)
@@ -292,6 +298,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1287 | 4 samples | 2 papers | 4 compositions
 - compositions: K0.87Sr0.13Fe2As2 (1); Ba0.2K0.8Fe2As2 (1); Ba0.1K0.9Fe2As2 (1); KFe2As2 (1)
 - dopant candidates (<5% at.): Ba (2), Sr (1)
+- curator composition details (from the paper): seebeck coefficient:calculate from S/T (1)
 - sample form: SingleCrystal (3); Polycrystal (1)
 - measured range: 12-300 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): K(FeAs)2 I4/mmm (139) mp-675576 [hull=0.000, icsd=2, PRIMARY]; KFeAs2 I-4m2 (119) mp-1223459 [hull=0.268, PRIMARY]

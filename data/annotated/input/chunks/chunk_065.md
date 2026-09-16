@@ -226,6 +226,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Li-Ni-O
 - rank 3230 | 1 samples | 1 papers | 1 compositions
 - compositions: Li0.5Ni0.5Fe2O4 (1)
+- curator composition details (from the paper): LiNI (1)
 - measured range: 299-753 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Li10Fe3Ni7O20 P2/m (10) mp-771052 [hull=0.005, PRIMARY]; Li10FeNi9O20 P-1 (2) mp-769545 [hull=0.006, PRIMARY]; Li2Fe(NiO3)2 P-1 (2) mp-762917 [hull=0.046, PRIMARY]; Li2Fe2NiO6 C2/m (12) mp-762754 [hull=0.160, PRIMARY]; Li2Fe3NiO8 P4_332 (212) mp-776112 [hull=0.024, PRIMARY]
 - papers: https://doi.org/10.1179/1433075x13y.0000000117 (Thermoelectric performance of polyparaphenylene/Li0·5Ni0·5Fe2O4nanocom...)
@@ -242,6 +243,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3232 | 1 samples | 1 papers | 1 compositions
 - compositions: Sr1.6La0.4FeMnO6 (1)
 - dopant candidates (<5% at.): La (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 573-1125 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaSr7Mn2(Fe3O10)2 P1 (1) mp-1076181 [hull=0.025, PRIMARY]; BaSr7Mn2(FeO4)6 Amm2 (38) mp-1076408 [hull=0.016, PRIMARY]; Sr3MnFeO7 I4mm (107) mp-1218478 [hull=0.014, PRIMARY]; Sr5Mn(Fe2O5)2 Pmmm (47) mp-1218469 [hull=0.036, PRIMARY]; Sr6Mn3FeO14 Amm2 (38) mp-1218555 [hull=0.014, PRIMARY]
 - papers: https://doi.org/10.1039/c8ta10061f (Electron doping of Sr<sub>2</sub>FeMoO<sub>6−δ</sub> as high performan...)
@@ -249,6 +251,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Mo-O
 - rank 3233 | 1 samples | 1 papers | 1 compositions
 - compositions: Mo0.4Fe2.6O4 (1)
+- curator composition details (from the paper): thin film (1)
 - measured range: 100-180 K (5th-95th pct of 1 curves)
 - [ref 1] TEDesignLab / ICSD: FeMoO4 C2/m (12) mp-624662 [hull=0.056, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: Fe2(MoO4)3 P2_1/c (14) mp-705435 [hull=0.002, icsd=3, PRIMARY]; CsFe5(MoO4)7 P2_1/m (11) mp-1196710 [hull=0.013, icsd=1, PRIMARY]; Fe(MoO5)2 P-1 (2) mp-1181634 [hull=0.533, PRIMARY]; Fe2Mo4O7 Cm (8) mp-1181867 [hull=0.259, PRIMARY]; Fe2MoO4 Imma (74) mp-33537 [hull=0.019, PRIMARY]
@@ -279,6 +282,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Na-O-Ti
 - rank 3237 | 1 samples | 1 papers | 1 compositions
 - compositions: Na0.4Fe0.2Ti0.8O2 (1)
+- curator composition details (from the paper): NaxMx/2Ti1−x/2O2 (M=Co, Ni and Fe) (1)
 - measured range: 568-1047 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NaTiFeO4 Pnma (62) mp-648745 [hull=0.236, icsd=1, PRIMARY]; Na3CaTi3Fe5O16 Pm (6) mp-1173821 [hull=0.287, PRIMARY]; Na3TiFe3O8 P2/m (10) mp-1221213 [hull=0.014, PRIMARY]; NaTi3FeO8 Cm (8) mp-1220877 [hull=0.008, PRIMARY]; NaTiFeO4 Pmc2_1 (26) mp-1220922 [hull=0.007]
 - papers: https://doi.org/10.1016/s0272-8842(02)00050-0 (Thermoelectric characterization of NaxMx/2Ti1−x/2O2 (M=Co, Ni and Fe) ...)
@@ -299,6 +303,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Ni-O-Pr
 - rank 3240 | 1 samples | 1 papers | 1 compositions
 - compositions: PrNi0.4Fe0.6O3 (1)
+- curator composition details (from the paper): The logarithmic values in Fig 11a were converted by making them exponents of 10
+original ... (1)
 - measured range: 323-1173 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.3390/ma15062166 (Nickel-Containing Perovskites, PrNi0.4Fe0.6O3–δ and PrNi0.4Co0.6O3–δ, ...)
 

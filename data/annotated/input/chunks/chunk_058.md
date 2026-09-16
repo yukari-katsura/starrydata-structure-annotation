@@ -128,6 +128,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cd-Cu-Mn-Se-Sn
 - rank 2866 | 1 samples | 1 papers | 1 compositions
 - compositions: Cu2Cd0.5Mn0.5SnSe4 (1)
+- curator composition details (from the paper): Cu2Cd1−xMnxSnSe4 (1)
 - measured range: 300-722 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MnCdCu4(SnSe4)2 C2 (5) mp-1221832 [hull=0.004, PRIMARY]
 - papers: https://doi.org/10.1038/srep05774 (Enhanced Thermoelectric Performance of Cu2CdSnSe4 by Mn Doping: Experi...)

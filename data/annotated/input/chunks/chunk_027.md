@@ -45,6 +45,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1304 | 4 samples | 1 papers | 4 compositions
 - compositions: Ag0.09Bi1.6Pb0.4Ba2Ca2O10 (1); Ag0.15Bi1.6Pb0.4Ba2Ca2O10 (1); Bi1.6Pb0.4Ba2Ca2O10 (1); Ag0.03Bi1.6Pb0.4Ba2Ca2O10 (1)
 - dopant candidates (<5% at.): Pb (4), Ag (3)
+- curator composition details (from the paper): Bi1.6Pb0.4Ba2Co2O+3wt%Ag (1); Bi1.6Pb0.4Ba2Co2O+5wt%Ag (1); polycrystalline (1); Bi1.6Pb0.4Ba2Co2O+1wt%Ag (1)
 - measured range: 289-934 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2CaBiO6 Fm-3m (225) mp-1214698 [hull=0.025, PRIMARY]; Ba3CaBi2O9 Immm (71) mp-1228277 [hull=0.000, PRIMARY]; Ba4Ca(BiO4)3 Im-3m (229) mp-1147549 [hull=0.009, PRIMARY]
 - papers: https://doi.org/10.1016/j.ceramint.2016.08.202 (Improved thermoelectric performances in textured Bi1.6Pb0.4Ba2Co2Oy/Ag...)
@@ -60,6 +61,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1306 | 4 samples | 1 papers | 4 compositions
 - compositions: (NdBaCoFeO5)5.9(Ce0.8Sm0.2O1.9)4.1 (1); (NdBaCoFeO5)2.3(Ce0.8Sm0.2O1.9)2.7 (1); (NdBaCoFeO5)7(Ce0.8Sm0.2O1.9)13 (1); (NdBaCoFeO5)2.7(Ce0.8Sm0.2O1.9)7.3 (1)
 - dopant candidates (<5% at.): Sm (4)
+- curator composition details (from the paper): bulk (pressed and sintered) (4)
 - solid-solution axis: Ce/(Ce+Nd) spans 0.36-0.68 (median 0.60) over 4 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 522-1123 K (5th-95th pct of 4 curves)
@@ -69,6 +71,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1307 | 4 samples | 1 papers | 4 compositions
 - compositions: (PrBaCoFeO5)5.9(Ce0.8Sm0.2O1.9)4.1 (1); (PrBaCoFeO5)2.7(Ce0.8Sm0.2O1.9)7.3 (1); (PrBaCoFeO5)2.3(Ce0.8Sm0.2O1.9)2.7 (1); (PrBaCoFeO5)7(Ce0.8Sm0.2O1.9)13 (1)
 - dopant candidates (<5% at.): Sm (4)
+- curator composition details (from the paper): bulk (pressed and sintered) (4)
 - solid-solution axis: Ce/(Ce+Pr) spans 0.36-0.68 (median 0.60) over 4 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 523-1123 K (5th-95th pct of 4 curves)
@@ -100,6 +103,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1311 | 4 samples | 2 papers | 4 compositions
 - compositions: SmBaCo2O5 (1); SmBa0.75Ca0.25Co2O5 (1); SmBa0.9Sr0.1Co2O5 (1); SmBa0.7Sr0.3Co2O5 (1)
 - dopant candidates (<5% at.): Sr (2), Ca (1)
+- curator composition details (from the paper): polycrystalline (2); bulk (2)
 - measured range: 148-1072 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaSm(CoO3)2 Pmmm (47) mp-1188886 [hull=0.098, icsd=1, PRIMARY]; BaSm2(CoO3)2 Pnnm (58) mp-1214473 [hull=0.118, PRIMARY]; BaSm2CoO5 Immm (71) mp-19248 [hull=0.000, PRIMARY]; BaSm(CoO3)2 P4/mmm (123) mp-1205695 [hull=0.106]
 - papers: https://doi.org/10.1016/j.jallcom.2016.12.065 (Ca and Fe co-doped SmBaCo2O5 +  layered perovskite as an efficient cat...) | https://doi.org/10.1016/j.electacta.2016.04.069 (Electrical, thermal and electrochemical properties of SmBa1−xSrxCo2O5+...)
@@ -107,6 +111,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Cu-Fe-Gd-O
 - rank 1312 | 4 samples | 2 papers | 3 compositions
 - compositions: GdBaCuFeO5 (2); Gd0.6Ba0.4CuFeO5 (1); Gd0.5Ba0.5CuFeO5 (1)
+- curator composition details (from the paper): polycrystalline (3)
 - measured range: 293-2578 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaGdFeCuO5 P4mm (99) mp-1206575 [hull=0.710, PRIMARY]
 - papers: https://doi.org/10.1134/s1063783409020073 (Thermoelectric properties of layered ferrocuprates LnBaCuFeO5 + δ (Ln=...) | https://doi.org/10.1111/jace.13728 (Electrical and Thermal Conduction Behaviors in La‐Substituted GdBaCuFe...)
@@ -251,6 +256,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## C-Ge-Si
 - rank 1331 | 4 samples | 1 papers | 3 compositions
 - compositions: Si80Ge20C30 (2); Si80Ge20C6 (1); Si80Ge20C15 (1)
+- curator composition details (from the paper): 5-10wt% C (1)
 - measured range: 300-1088 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.1134/s1063783415030208 (Transport properties of nanocomposite thermoelectric materials based o...)
 

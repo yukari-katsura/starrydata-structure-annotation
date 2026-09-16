@@ -83,6 +83,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ga-In-Sb
 - rank 1209 | 5 samples | 2 papers | 4 compositions
 - compositions: In0.28Ga0.72Sb (2); In0.12Ga0.88Sb (1); In0.85Ga0.15Sb (1); In0.90Ga0.10Sb (1)
+- curator composition details (from the paper): Be 4*10-19cm-3 doped (3)
 - sample form: Bulk (2)
 - solid-solution axis: Ga/(Ga+In) spans 0.10-0.88 (median 0.72) over 4 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
@@ -102,6 +103,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1211 | 5 samples | 4 papers | 2 compositions
 - compositions: NdGaO3 (3); Nd3Ga5SiO14 (2)
 - dopant candidates (<5% at.): Si (2)
+- curator composition details (from the paper): Nd3Ga5SiO14 a-axis (1); Nd3Ga5SiO14 c-axis (1)
 - sample form: SingleCrystal (2)
 - measured range: 10-298 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NdGaO3 Pnma (62) mp-3196 [hull=0.033, icsd=21, PRIMARY]; Nd3GaO6 Cmc2_1 (36) mp-11773 [hull=0.000, icsd=2, PRIMARY]; Nd3Ga5O12 Ia-3d (230) mp-15239 [hull=0.000, icsd=1, PRIMARY]; Nd3Ga5SiO14 P3 (143) mp-1220307 [hull=0.020, PRIMARY]; NdGaO3 Pm-3m (221) mp-9834 [hull=1.467, icsd=1]
@@ -193,6 +195,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1223 | 5 samples | 3 papers | 3 compositions
 - compositions: SiGeO (3); (SiO2)80(GeO2)20B2.8 (1); Sr2.24Ti2.24O6.72Si80Ge20P1 (1)
 - dopant candidates (<5% at.): B (1), Sr (1), Ti (1), P (1)
+- curator composition details (from the paper): 4.92+/-0.75nmGe QD: T0.52 (1); 7.36+/-0.78nmGe QD: T1.48 (1); 6.32+/-0.85nmGe QD: T1.57 (1)
 - sample form: Film (3); Bulk (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 80-1050 K (5th-95th pct of 11 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SiGeO3 Pbca (61) mp-769171 [hull=0.106, PRIMARY]
@@ -259,6 +262,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1231 | 5 samples | 2 papers | 5 compositions
 - compositions: Sr1.8La0.2MnMoO6 (1); Sr1.7La0.3MnMoO6 (1); Sr2MnMoO6 (1); Sr1.9La0.1MnMoO6 (1); Sr3MnMo2O9 (1)
 - dopant candidates (<5% at.): La (3)
+- curator composition details (from the paper): polycrystalline (1)
 - sample form: Bulk (4)
 - measured range: 85-1246 K (5th-95th pct of 16 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2MnMoO6 P4_2/n (86) mp-705116 [hull=0.007, icsd=1, PRIMARY, AMBIGUOUS]; Sr2MnMoO6 I4/m (87) mp-1095141 [hull=0.008, icsd=1]
@@ -275,6 +279,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mo-O-Sr-V
 - rank 1233 | 5 samples | 3 papers | 5 compositions
 - compositions: Sr1.9VMoO6 (1); Sr2VMoO6 (1); Sr1.8VMoO6 (1); Sr(V0.5Mo0.5)O3 (1); SrV0.5Mo0.5O3 (1)
+- curator composition details (from the paper): bulk (sintered pellet) (3)
 - sample form: rod-shaped (1)
 - measured range: 300-1123 K (5th-95th pct of 5 curves; full span incl. outliers 300-1173 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2VMoO6 P4/mmm (123) mp-1218447 [hull=0.034, PRIMARY]
@@ -314,6 +319,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1238 | 5 samples | 3 papers | 5 compositions
 - compositions: Ti0.83Nb0.17(O0.955N0.045)2 (1); Nb0.2Ti0.8O2 (1); Ti0.80Nb0.20O2 (1); Ti0.60Nb0.40O2 (1); Ti0.40Nb0.60O2 (1)
 - dopant candidates (<5% at.): N (1)
+- curator composition details (from the paper): x = 0.17 (Ti0.83Nb0.17(O,N)2±δ, TNO17, and TNO17-12) surface atomic N/O was estimated to b... (1)
 - sample form: Bulk (4)
 - measured range: 102-1057 K (5th-95th pct of 18 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TiNb3O6 R-3 (148) mp-29699 [hull=0.000, icsd=1, PRIMARY]; Li2Ti7Nb6O30 P3 (143) mp-759382 [hull=0.055, PRIMARY]; Ti3NbO8 P-1 (2) mp-758428 [hull=0.032, PRIMARY, AMBIGUOUS]; Ti15NbO32 P-4m2 (115) mp-1099073 [hull=0.003, PRIMARY]; Ti5Nb2O14 Cmmm (65) mp-758324 [hull=0.033, PRIMARY]
@@ -337,6 +343,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1241 | 5 samples | 4 papers | 5 compositions
 - compositions: Pr2Ni0.75Cu0.25Ga0.05O4 (1); Pr0.82Sr0.18NiO3 (1); Pr0.82Sr0.18NiO2 (1); Pr4Ni3O10 (1); Pr2NiO4 (1)
 - dopant candidates (<5% at.): Sr (2), Cu (1), Ga (1)
+- curator composition details (from the paper): bulk (sintered pellet) (2)
 - measured range: 12-1123 K (5th-95th pct of 5 curves; full span incl. outliers 12-1532 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): PrNiO3 Pnma (62) mp-25590 [hull=0.000, icsd=14, PRIMARY]; Pr2NiO4 Cmce (64) mp-19434 [hull=0.048, icsd=1, PRIMARY]; Pr10Ni5O22 P1 (1) mp-1173634 [hull=0.458, PRIMARY]; Pr8Ni4O17 P1 (1) mp-1173645 [hull=0.203, PRIMARY]; PrNiO3 R-3c (167) mp-19170 [hull=0.004, icsd=2]
 - papers: https://doi.org/10.1016/j.ceramint.2015.06.028 (Electrochemical characterization of B-site cation-excess Pr2Ni0.75Cu0....) | https://doi.org/10.1038/s41467-022-32065-x (Pressure-induced monotonic enhancement of Tc to over 30 K in supercond...) | https://doi.org/10.1006/jssc.1995.1269 (Synthesis, Structure, and Properties of Ln4Ni3O10-δ (Ln = La, Pr, and Nd))

@@ -157,6 +157,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Nb-S
 - rank 2920 | 1 samples | 1 papers | 1 compositions
 - compositions: (Ce2S2)2NbS2 (1)
+- curator composition details (from the paper): We assigned the [NbS2] slab to subsystem 1 and the [Ln2S2] block to subsystem 2 (1)
 - measured range: 13-299 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1007/s11664-012-2443-5 (Crystal Structure and Thermoelectric Properties of Misfit-Layered Sulf...)
 
@@ -359,6 +360,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Cr-Fe-O-Zn
 - rank 2948 | 1 samples | 1 papers | 1 compositions
 - compositions: Co0.5Zn0.5Cr0.4Fe1.6O4 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 303-394 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.jmmm.2015.04.104 (Investigation of structural and temperature dependent electromagnetic ...)
 

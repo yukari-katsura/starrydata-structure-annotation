@@ -171,6 +171,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2271 | 2 samples | 2 papers | 2 compositions
 - compositions: La0.33Li0.08NbO3 (1); LaNb3O9 (1)
 - dopant candidates (<5% at.): Li (1)
+- curator composition details (from the paper): La1/3NbO3 (1)
 - sample form: Bulk (1)
 - measured range: 41-1022 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaNbO4 I4_1/a (88) mp-5295 [hull=0.000, icsd=17, PRIMARY]; La3NbO7 Cmcm (63) mp-12287 [hull=0.006, icsd=1, PRIMARY]; LaNb7O19 P321 (150) mp-28200 [hull=0.017, icsd=1, PRIMARY]; LaNb2O7 P4/mmm (123) mp-1079978 [hull=0.199, icsd=1, PRIMARY]; LaNb7O12 P2_1/c (14) mp-29183 [hull=0.000, icsd=1, PRIMARY]
@@ -193,6 +194,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## La-Ni-O-Ti
 - rank 2274 | 2 samples | 1 papers | 2 compositions
 - compositions: LaNi0.7Ti0.3O3 (1); LaNi0.5Ti0.5O3 (1)
+- curator composition details (from the paper): The logarithmic values in Fig 8 were converted by making them exponents of 10 
+original v... (2)
 - measured range: 77-302 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La2TiNiO6 Fm-3m (225) mp-1079373 [hull=0.103, icsd=1, PRIMARY]; La2Ti3NiO10 I-4m2 (119) mp-1223170 [hull=0.114, PRIMARY]; LaTiNiO4 P4/nmm (129) mp-1147531 [hull=0.308, PRIMARY]; La2TiNiO6 P2_1/c (14) mp-1211325 [hull=0.012]
 - papers: https://doi.org/10.3740/mrsk.2009.19.4.186 (Electrical Transport Properties of LaNi1-xTixO3(x∼0.5) Ceramics)
@@ -201,6 +204,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2275 | 2 samples | 1 papers | 2 compositions
 - compositions: La3OsO7 (1); La2.8Ca0.2OsO7 (1)
 - dopant candidates (<5% at.): Ca (1)
+- curator composition details (from the paper): polycrystalline (2)
 - measured range: 153-298 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): La3(OsO5)2 C2/m (12) mp-27330 [hull=0.000, icsd=1, PRIMARY]; La3OsO7 Cmcm (63) mp-31353 [hull=0.000, icsd=1, PRIMARY]; La5MnOs3O16 P-1 (2) mp-644707 [hull=0.005, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.92.134402 (Magnetic structure of the quasi-one-dimensionalLa3OsO7as determined by...)

@@ -105,6 +105,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Fe-N-O-Th
 - rank 1111 | 5 samples | 1 papers | 5 compositions
 - compositions: ThFeAsN0.7O0.3 (1); ThFeAsN0.6O0.4 (1); ThFeAsN0.4O0.6 (1); ThFeAsN0.8O0.2 (1); ThFeAsN0.5O0.5 (1)
+- curator composition details (from the paper): polycrystalline (5)
 - solid-solution axis: As/(As+N) spans 0.56-0.71 (median 0.62) over 5 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
 - measured range: 10-35 K (5th-95th pct of 5 curves)
@@ -113,6 +114,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## As-Fe-O-Sr-V
 - rank 1112 | 5 samples | 2 papers | 2 compositions
 - compositions: Sr2VFeAsO3 (4); SrVFeAsO3 (1)
+- curator composition details (from the paper): polycrystalline (5)
 - measured range: 11-297 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2VFeAsO3 P4/nmm (129) mp-1106248 [hull=0.087, icsd=3, PRIMARY]
 - papers: https://doi.org/10.1063/1.4800087 (Annealing induced superconductivity in perovskite-related iron-based m...) | https://doi.org/10.7567/1882-0786/ab55b2 (Superconducting critical current density enhanced to 285 A cm<sup>−2</...)
@@ -190,6 +192,12 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1122 | 5 samples | 1 papers | 5 compositions
 - compositions: Ba0.7La0.3Y0.02Zr0.38Mn0.2Fe0.2Co0.2O3 (1); Ba0.7La0.3Y0.06Zr0.34Mn0.2Fe0.2Co0.2O3 (1); Ba0.7La0.3Zr0.4Mn0.2Fe0.2Co0.2O3 (1); Ba0.7La0.3Y0.04Zr0.36Mn0.2Fe0.2Co0.2O3 (1); Ba0.7La0.3Y0.08Zr0.32Mn0.2Fe0.2Co0.2O3 (1)
 - dopant candidates (<5% at.): Mn (5), Fe (5), Co (5), Y (4)
+- curator composition details (from the paper): in the text
+(La0.5Ba0.5Co1/3Mn1/3Fe1/3O3)0.6(BaZr0.95Y0.05O3)0.4 (1); in the text
+(La0.5Ba0.5Co1/3Mn1/3Fe1/3O3)0.6(BaZr0.85Y0.15O3)0.4 (1); in the text
+(La0.5Ba0.5Co1/3Mn1/3Fe1/3O3)0.6(BaZrO3)0.4 (1); in the text
+(La0.5Ba0.5Co1/3Mn1/3Fe1/3O3)0.6(BaZr0.9Y0.1O3)0.4 (1); in the text
+(La0.5Ba0.5Co1/3Mn1/3Fe1/3O3)0.6(BaZr0.8Y0.2O3)0.4 (1)
 - sample form: rod-shaped (5)
 - measured range: 297-1073 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.3390/inorganics6030083 (High-Performance La0.5Ba0.5Co1/3Mn1/3Fe1/3O3−δ-BaZr1−zYzO3−δ Cathode C...)
@@ -212,6 +220,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-O-Si-Ti
 - rank 1125 | 5 samples | 1 papers | 1 compositions
 - compositions: Ba2TiSi2O8 (5)
+- curator composition details (from the paper): Ba2TiSi2O8 X-direction (2); Ba2TiSi2O8 Y-direction (1); Ba2TiSi2O8 ZXl50°(Z)-direction (1); Ba2TiSi2O8 Z-direction (1)
 - sample form: SingleCrystal (5)
 - measured range: 295-871 K (5th-95th pct of 5 curves)
 - [ref 1] TEDesignLab / ICSD: Ba2Ti(SiO4)2 P4bm (100) mp-6081 [hull=0.000, icsd=8, PRIMARY]; BaTi(SiO3)3 P-6c2 (188) mp-6661 [hull=0.000, icsd=7, PRIMARY]
@@ -356,6 +365,9 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1143 | 5 samples | 3 papers | 3 compositions
 - compositions: C10H14S (3); CsC24(C2H4)1.4 (1); (C42H62S4)(FeCl3)0.012 (1)
 - dopant candidates (<5% at.): S (4), Cs (1), Cl (1), Fe (1)
+- curator composition details (from the paper): P3HT,  C10H14S ,name Poly(3-hexylthiophene-2,5-diyl), CAS.No: 110134-47-9
+doped by Fe(TFS... (3); PBTTT:Poly[2,5-bis(3-tetradecylthiophen-2-yl)thieno[3,2- b ]thiophene]
+Chemical formula:... (1)
 - sample form: Film (4); Bulk (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 16-480 K (5th-95th pct of 11 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): HC2 P2_1/c (14) mp-603334 [hull=0.106, icsd=2, PRIMARY]; BH17C6NCl P2_1 (4) mp-1204476 [hull=0.124, icsd=1, PRIMARY]; AlBH15C4N Pnma (62) mp-1195069 [hull=0.180, icsd=1, PRIMARY]; CuSi2BiP3(H3C)15 Fdd2 (43) mp-1204513 [hull=0.056, icsd=1, PRIMARY]; GaH19C8 R-3c (167) mp-605088 [hull=0.092, icsd=1, PRIMARY]
@@ -372,6 +384,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1145 | 5 samples | 4 papers | 2 compositions
 - compositions: (C14H14O5S2)63.12(C2H6O2)36.88 (4); C6H7N(C7H8SO3)0.5 (1)
 - dopant candidates (<5% at.): S (5), N (1)
+- curator composition details (from the paper): PANI,  C6H7N ,name Polyaniline, CAS.No: 25233-30-1
+p-TSA,  C7H8O3S ,name p-Toluenesulfoni... (1); PEDOT-PSS,  C14H14O5S2 ,name (Poly(3,4-ethylenedioxythiophene))(poly(styrenesulfonate)), C... (1); PEDOT/PSS,  C14H14O5S2 ,name (Poly(3,4-ethylenedioxythiophene))(poly(styrenesulfonate)), C... (1); PEDOT:PSS,  C14H14O5S2 ,name (Poly(3,4-ethylenedioxythiophene))(poly(styrenesulfonate)), C... (1); PEDOT:PSS, C14H14O5S2 ,name (Poly(3,4-ethylenedioxythiophene))(poly(styrenesulfonate)), CA... (1)
 - sample form: pellets (3); Film (2)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 101-320 K (5th-95th pct of 16 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MnH9C4NO6 Pnma (62) mp-656241 [hull=0.101, icsd=7, PRIMARY]; H3CO3 P2_1/c (14) mp-1194227 [hull=0.063, icsd=3, PRIMARY]; CuH11C5NO6 C2/c (15) mp-698401 [hull=0.204, icsd=2, PRIMARY]; CoH9C4NO6 Pnma (62) mp-743542 [hull=0.115, icsd=2, PRIMARY]; CuH9C5NO5 P-1 (2) mp-1201220 [hull=0.218, icsd=2, PRIMARY]
@@ -403,6 +417,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1149 | 5 samples | 1 papers | 3 compositions
 - compositions: SiOC (3); (SiOC)97.77(BN)2.23 (1); (SiOC)89.37(BN)10.63 (1)
 - dopant candidates (<5% at.): B (2), N (2)
+- curator composition details (from the paper): SiOC ceramics containing 1 wt % h-BN (1); SiOC ceramics containing 5 wt % h-BN (1)
 - sample form: Powder (5)
 - measured range: 303-872 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Si17CO34 Fd-3m (227) mp-1204567 [hull=0.168, icsd=1, PRIMARY]; Si9C4NO18 C2 (5) mp-1203759 [hull=0.362, icsd=1, PRIMARY]; Si12CO24 Cm (8) mp-1219366 [hull=0.212, PRIMARY]; Si(CO)2 Immm (71) mp-1001082 [hull=1.492, PRIMARY]; Si3C10NO7 Pca2_1 (29) mp-1199602 [hull=0.785, PRIMARY]

@@ -129,6 +129,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1015 | 6 samples | 1 papers | 1 compositions
 - compositions: Ce0.09Fe0.67Co3.33Sb12(FeSb2.1Te)4 (6)
 - dopant candidates (<5% at.): Ce (6)
+- curator composition details (from the paper): Ce0.09Fe0.67Co3.33Sb12/FeSb2.1Te system composed of thin equidistant layers (6)
 - measured range: 310-465 K (5th-95th pct of 18 curves)
 - papers: https://doi.org/10.1016/j.tsf.2013.09.068 (Properties of thermoelectric Ce0.09Fe0.67Co3.33Sb12/FeSb2Te multi-laye...)
 
@@ -173,6 +174,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1021 | 6 samples | 3 papers | 6 compositions
 - compositions: (ZnO)9.6(In0.2Co4Sb12)5.3 (1); (ZnO)14(In0.2Co4Sb12)5 (1); (CoSb3)68.82(ZnO)31.18 (1); (CoSb3)58.46(ZnO)41.54 (1); (ZnO)0.5CoSb3 (1); (ZnO)0.7CoSb3 (1)
 - dopant candidates (<5% at.): In (2)
+- curator composition details (from the paper): mixture (2)
 - sample form: Bulk (2)
 - measured range: 10-799 K (5th-95th pct of 28 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Zn3Co4(SbO6)2 P-1 (2) mp-1216036 [hull=0.000, PRIMARY]
@@ -265,6 +267,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## F-O-P-U
 - rank 1033 | 6 samples | 1 papers | 3 compositions
 - compositions: (UO2.02)(FPO2.02) (4); (UO2)(FPO2) (1); (UO2.2)(FPO2.2) (1)
+- curator composition details (from the paper): FP=fission product (1)
 - measured range: 283-2090 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.1016/s0022-3115(97)00105-0 (The effects of oxidation on the thermal conductivity of (U, M)O2 pelle...)
 
@@ -272,6 +275,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1034 | 6 samples | 3 papers | 6 compositions
 - compositions: Gd0.33Sr0.67FeO3 (1); GdSrFeO4 (1); Gd0.9Sr1.1FeO4 (1); Gd0.8Sr1.2FeO4 (1); Gd0.7Sr1.3FeO4 (1); Gd0.5Sr0.5Fe0.8Cu0.2O3 (1)
 - dopant candidates (<5% at.): Cu (1)
+- curator composition details (from the paper): polycrystalline (4)
 - measured range: 124-389 K (5th-95th pct of 6 curves; full span incl. outliers 124-1122 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2Gd(FeO3)3 C2/c (15) mp-1218942 [hull=0.011, PRIMARY]; SrGd2(FeO3)3 P-3m1 (164) mp-1218646 [hull=0.121, PRIMARY]
 - papers: https://doi.org/10.1016/s0167-577x(02)00856-x (Non-adiabatic small polaron hopping conduction in Gd1/3Sr2/3FeO3) | https://doi.org/10.1016/j.ceramint.2016.11.182 (Effect of increasing Sr content on structural and physical properties ...) | https://doi.org/10.1007/s11581-019-03314-9 (Cobalt-free perovskite Ln0.5Sr0.5Fe0.8Cu0.2O3-δ (Ln = Pr, Nd, Sm, and ...)
@@ -279,6 +283,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Ge
 - rank 1035 | 6 samples | 2 papers | 5 compositions
 - compositions: FeGe1.52 (2); Fe39.81Ge60.19 (1); Fe39.53Ge60.47 (1); Fe39.67Ge60.33 (1); FeGe (1)
+- curator composition details (from the paper): γ = 1.52 (nearly equal to Fe39.7Ge60.3) (1)
 - sample form: Bulk (2)
 - measured range: 13-805 K (5th-95th pct of 12 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): FeGe2 I4/mcm (140) mp-1071018 [hull=0.020, icsd=9, PRIMARY]; FeGe P6/mmm (191) mp-22478 [hull=0.000, icsd=5, PRIMARY]; Fe3Ge P6_3/mmc (194) mp-1079030 [hull=0.006, icsd=4, PRIMARY, AMBIGUOUS]; Fe2Ge P6_3/mmc (194) mp-20432 [hull=0.077, icsd=4, PRIMARY]; Fe6Ge5 C2/m (12) mp-636946 [hull=0.030, icsd=2, PRIMARY]
@@ -288,6 +293,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1036 | 6 samples | 1 papers | 1 compositions
 - compositions: (Si0.8Ge0.2P0.02)0.9(FeSi2)0.1 (6)
 - dopant candidates (<5% at.): P (6)
+- curator composition details (from the paper): P-doped Si0.8Ge0.2 with 10 at.% of Fe0.98Co0.02Si2 (2)
 - sample form: Bulk (6)
 - measured range: 290-1177 K (5th-95th pct of 18 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): FeSiGe Cmce (64) mp-640075 [hull=0.149, icsd=1, PRIMARY]
@@ -297,6 +303,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1037 | 6 samples | 5 papers | 6 compositions
 - compositions: La0.05Sm0.45Sr0.32Ba0.18FeO3 (1); Sm0.6Sr0.4Co0.2Fe0.8O3 (1); Sm0.6Sr0.4FeO3 (1); Sm0.5Sr0.5Fe0.8Cu0.2O3 (1); Sm0.5Sr0.5FeO3 (1); Sm0.5Sr0.45K0.05FeO3 (1)
 - dopant candidates (<5% at.): Ba (1), La (1), Co (1), Cu (1), K (1)
+- curator composition details (from the paper): The logarithmic values in Fig 3c were converted by making them exponents of 10
+original v... (1)
 - sample form: rod-shaped (1)
 - measured range: 318-1173 K (5th-95th pct of 6 curves; full span incl. outliers 318-1223 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr3Sm(FeO4)2 Amm2 (38) mp-1218432 [hull=0.018, PRIMARY]
@@ -347,6 +355,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1043 | 6 samples | 3 papers | 6 compositions
 - compositions: (Gd2O3)50(TiO2)50 (1); (Gd2O3)45.5(TiO2)54.5 (1); (Gd2O3)15.8(TiO2)84.2 (1); GdTiO3 (1); Gd0.960Sr0.040TiO3 (1); Gd0.870Sr0.130TiO3 (1)
 - dopant candidates (<5% at.): Sr (2)
+- curator composition details (from the paper): thin film (1)
 - measured range: 105-1271 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Gd2Ti2O7 Fd-3m (227) mp-5302 [hull=0.008, icsd=7, PRIMARY]; Gd2TiO5 P2_1/c (14) mp-770065 [hull=0.050, PRIMARY, AMBIGUOUS]; Gd7Ti8O26 P1 (1) mp-685713 [hull=0.059, PRIMARY]; Gd2Ti2O7 C2/m (12) mp-686465 [hull=0.037]; Gd2TiO5 Pnma (62) mp-770189 [hull=0.058]
 - papers: https://doi.org/10.1016/j.jnucmat.2007.03.266 (Characteristics of GdxMyOz (M=Ti, Zr or Al) as a burnable absorber) | https://doi.org/10.1063/1.4899277 (Structural, magnetic, and electronic properties of GdTiO<sub>3</sub> M...) | https://doi.org/10.1016/j.tsf.2015.03.065 (Metal–insulator transitions in epitaxial Gd1−Sr TiO3 thin films grown ...)
@@ -377,6 +386,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1047 | 6 samples | 1 papers | 3 compositions
 - compositions: Ti0.4Hf0.6Ni1.005Sb0.975Sn0.025 (2); Ti0.4Hf0.6Ni1.03Sb0.975Sn0.025 (2); Ti0.4Hf0.6Ni1.01Sb0.975Sn0.025 (2)
 - dopant candidates (<5% at.): Sn (6)
+- curator composition details (from the paper): Ti0.4Hf0.6Ni1+zSn0.975Sb0.025 (1)
 - sample form: Bulk (6)
 - measured range: 302-776 K (5th-95th pct of 30 curves)
 - papers: https://doi.org/10.1039/c4ta00896k (Nanometer-scale interface engineering boosts the thermoelectric perfor...)

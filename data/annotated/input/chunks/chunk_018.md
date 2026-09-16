@@ -107,6 +107,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## C-Ge
 - rank 861 | 7 samples | 1 papers | 2 compositions
 - compositions: GeC0.12 (4); GeC0.06 (3)
+- curator composition details (from the paper): GeC0.06 (1)
 - measured range: 302-1085 K (5th-95th pct of 10 curves)
 - [ref 1] TEDesignLab / ICSD: GeC F-43m (216) mp-1002164 [hull=0.436, icsd=1, PRIMARY]
 - [ref 2] MP, ranked by ICSD evidence: Ge3C P6_3/mmc (194) mp-973155 [hull=1.393, PRIMARY]; GeC Fm-3m (225) mp-1002165 [hull=1.271, icsd=1]; GeC P6_3mc (186) mp-1184550 [hull=0.441]
@@ -116,6 +117,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 862 | 7 samples | 3 papers | 4 compositions
 - compositions: [C(NH2)3]Cu(HCOO)3 (3); Ni(C3H10N2)2NO2ClO4 (2); C6H7N(CH3COO)0.5 (1); [C(NH2)3]Zn(HCOO)3 (1)
 - dopant candidates (<5% at.): Cu (3), Ni (2), Cl (2), Zn (1)
+- curator composition details (from the paper): PANI,  C6H7N ,name Polyaniline, CAS.No: 25233-30-1 (1); spin-chain direction (kb) (1); vertical direction (kc) (1)
 - sample form: SingleCrystal (6); pellets (1)
 - measured range: 10-320 K (5th-95th pct of 10 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): H4CN2O P-42_1m (113) mp-23778 [hull=0.000, icsd=23, PRIMARY]; ErCoH8C6(N3O2)2 Cmcm (63) mp-1200936 [hull=0.224, icsd=5, PRIMARY]; H10C2N2O5 P2_12_12 (18) mp-697408 [hull=0.023, icsd=5, PRIMARY]; H2C(NO)2 P2_1/c (14) mp-24332 [hull=0.442, icsd=4, PRIMARY]; HCNO C2/c (15) mp-1190216 [hull=0.000, icsd=3, PRIMARY]
@@ -148,6 +150,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 866 | 7 samples | 3 papers | 7 compositions
 - compositions: Ca3Co3.2Cu0.8O9 (1); Ca1.93Pr0.07(Co1.23Cu0.77)O4(CoO2)1.60 (1); Ca1.80Pr0.20(Co1.10Cu0.90)O4(CoO2)1.60 (1); Ca2(Co1.3Cu0.7)O4(CoO2)1.59 (1); Ca1.73Pr0.27(Co1.03Cu0.97)O4(CoO2)1.60 (1); Ca1.7Pr0.3CoCuO4(CoO2)1.60 (1)
 - dopant candidates (<5% at.): Pr (4)
+- curator composition details (from the paper): [Ca1.93Pr0.07(Co1.23Cu0.77) O4][CoO2]1.60 (1); [Ca1.80Pr0.20(Co1.10Cu0.90) O4][CoO2]1.60 (1); [Ca2(Co1.3Cu0.7) O4][CoO2]1.59 (1); [Ca1.73Pr0.27(Co1.03Cu0.97O4)] [CoO2]1.60 (1)
 - measured range: 11-383 K (5th-95th pct of 19 curves)
 - papers: https://doi.org/10.1039/c2dt31346d (Enhanced electronic correlation and thermoelectric response by Cu-dopi...) | https://doi.org/10.1021/cm061163a (Double Modulation and Microstructure of the Thermoelectric Misfit Comp...) | https://doi.org/10.1109/ict.2002.1190298 (Development of new-type cobalt oxide thermoelectric materials)
 
@@ -162,6 +165,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 868 | 7 samples | 6 papers | 5 compositions
 - compositions: Sr1.9Ca1.2Y0.9Co4O10.5 (2); Ca2SrCo4O9 (2);  (Ca0.7Sr0.3)3Co4O9  (1); (Sr0.7Ca0.3)4Co3O9 (1); (Sr0.53Ca0.45)5Co4O12 (1)
 - dopant candidates (<5% at.): Y (2)
+- curator composition details (from the paper): Ca3−xSrxCo4O9+δ (x=0.0–1.0) (1)
 - sample form: Bulk (3)
 - solid-solution axis: Ca/(Ca+Sr) spans 0.30-0.70 (median 0.46) over 5 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
@@ -416,6 +420,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 899 | 7 samples | 2 papers | 7 compositions
 - compositions: La3Ga5.5Ta0.5O14 (1); La2Ga5SiO14 (1); (La0.85Sr0.15Ga0.8Mg0.2O2.825)91(Ce0.85Sm0.15O1.925)9.4 (1); (La0.85Sr0.15Ga0.8Mg0.2O2.825)97(Ce0.85Sm0.15O1.925)2.7 (1); La0.85Sr0.15Ga0.8Mg0.2O2.825 (1); (La0.85Sr0.15Ga0.8Mg0.2O2.825)8.7(Ce0.85Sm0.15O1.925)1.3 (1)
 - dopant candidates (<5% at.): Mg (5), Sr (5), Ce (4), Sm (4), Ta (1), Si (1)
+- curator composition details (from the paper): bulk (pressed and sintered) (5)
 - sample form: SingleCrystal (2)
 - measured range: 299-1073 K (5th-95th pct of 7 curves)
 - [ref 1] TEDesignLab / ICSD: LaGaO3 R-3c (167) mp-3336 [hull=0.038, icsd=24, PRIMARY]; La3Ga5SnO14 P321 (150) mp-6788 [hull=0.000, icsd=2, PRIMARY]; LaGaO3 Pnma (62) mp-5837 [hull=0.032, icsd=18]; LaGaO3 R3c (161) mp-1078871 [hull=0.038, icsd=7]

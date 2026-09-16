@@ -144,6 +144,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2117 | 2 samples | 2 papers | 2 compositions
 - compositions: (Mn0.5Co0.5)3O4 (1); Cu0.23Mn1.44Co1.32O4 (1)
 - dopant candidates (<5% at.): Cu (1)
+- curator composition details (from the paper): bulk (sintered pellet) (1)
 - sample form: Unknown (1)
 - measured range: 309-1067 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mn(CoO2)2 P1 (1) mp-767807 [hull=0.041, PRIMARY]; Mn(CoO2)4 C2/m (12) mp-773238 [hull=0.070, PRIMARY]; Mn(CoO3)2 C2/m (12) mp-763057 [hull=0.025, PRIMARY, AMBIGUOUS]; Mn2Co2O5 P4/mmm (123) mp-974861 [hull=0.522, PRIMARY]; Mn2Co5O12 C2 (5) mp-771625 [hull=0.106, PRIMARY]
@@ -152,6 +153,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Co-Mn-Si
 - rank 2118 | 2 samples | 2 papers | 1 compositions
 - compositions: Co2MnSi (2)
+- curator composition details (from the paper): Co2MnSi + x mol %SiC; x=0 (1)
 - sample form: Polycrystal (1)
 - measured range: 308-1026 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MnCoSi Pnma (62) mp-19809 [hull=0.005, icsd=7, PRIMARY]; MnCo2Si Fm-3m (225) mp-4492 [hull=0.000, icsd=6, PRIMARY]; Mn2CoSi F-43m (216) mp-13082 [hull=0.020, icsd=1, PRIMARY]; MnCoSi2 P2_1 (4) mp-1221669 [hull=0.035, PRIMARY]; MnCoSi P6_3/mmc (194) mp-10365 [hull=0.413, icsd=1]
@@ -208,6 +210,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2126 | 2 samples | 1 papers | 2 compositions
 - compositions: Ti1.1Al0.2Ta0.2Zr0.5NiCoSn0.5Sb1.5 (1); Ti0.6Al0.2Ta0.2ZrNiCoSn0.5Sb1.5 (1)
 - dopant candidates (<5% at.): Al (2), Ta (2)
+- curator composition details (from the paper): Ti2‑x−y−qAlxTayZrqNiCoSn0.5Sb1.5 (2)
 - sample form: pellets (2)
 - measured range: 294-875 K (5th-95th pct of 10 curves)
 - papers: https://doi.org/10.1021/acsaem.4c03382 (Entropy Engineering in the Off-Stoichiometric Ti<sub>2</sub>NiCoSn<sub...)
@@ -229,6 +232,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2129 | 2 samples | 1 papers | 2 compositions
 - compositions: (PbTe)0.24Co0.88Ni0.12Sb2.91Sn0.09 (1); (PbTe)0.48Co0.88Ni0.12Sb2.91Sn0.09 (1)
 - dopant candidates (<5% at.): Ni (2), Sn (2)
+- curator composition details (from the paper): X content of PbTe(mass percentage) (2)
 - measured range: 297-803 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1007/s10904-011-9514-6 (Effect of PbTe on Thermoelectric Properties of Co0.88Ni0.12Sb2.91Sn0.09)
 
@@ -321,6 +325,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cr-La-O-Sr
 - rank 2142 | 2 samples | 2 papers | 2 compositions
 - compositions: La0.75Sr0.25CrO3 (1); La0.6Sr0.4CrO3 (1)
+- curator composition details (from the paper): The logarithmic values in Fig 5a were converted by making them exponents of e
+original va... (1)
 - measured range: 151-348 K (5th-95th pct of 2 curves; full span incl. outliers 151-1123 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2LaCrO6 Fm-3m (225) mp-1079391 [hull=0.234, icsd=1, PRIMARY]; SrLa3Cr4O12 P2 (3) mp-1218265 [hull=0.027, PRIMARY]; SrLa4Cr5O15 C2/m (12) mp-1218283 [hull=0.070, PRIMARY]; SrLaCrO4 I4mm (107) mp-1218189 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1021/acs.chemmater.2c03831 (Chemical Synthesis of La<sub>0.75</sub>Sr<sub>0.25</sub>CrO<sub>3</sub...) | https://doi.org/10.1039/d2nj04357b (Enhanced CO<sub>2</sub> electrolysis through modulation of oxygen vaca...)
@@ -336,6 +342,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cr-N-V
 - rank 2144 | 2 samples | 1 papers | 2 compositions
 - compositions: Cr0.90V0.10N (1); Cr0.9V0.1N (1)
+- curator composition details (from the paper): ammonolysis and sintering (1)
 - sample form: Bulk (1)
 - measured range: 19-408 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): VCrN2 R-3m (166) mp-1216389 [hull=0.153, PRIMARY]

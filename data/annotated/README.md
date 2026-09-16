@@ -335,6 +335,37 @@ threshold calibrated on Ca-Co-O does not transfer. And Cu5FeS4 bornite is
 neither chalcopyrite nor tetrahedrite; it has no taxonomy entry and is parked in
 `unresolved_crystalline` rather than mislabelled.
 
+### The curator's composition_details
+
+`composition_details` is a top-level column of the raw samples table -- not a
+key inside `sample_info`, and not surfaced by the upstream flattening, which is
+why it was missed at first. 18,692 samples carry it, and it is transcribed from
+the paper, so it outranks an inference from stoichiometry.
+
+It is the only field that settles cases no element ratio can:
+
+| composition | what the ratio says | what the curator says |
+|---|---|---|
+| `C` | carbon | graphite, soft carbon, rayon-based carbon |
+| `B0.04C` | boron-doped carbon | boron-doped nanocrystalline diamond (NDE) |
+| `Fe2O3` | corundum, from O:Fe | *both* alpha-Fe2O3 and gamma-Fe2O3 appear |
+
+`data/processed/df_composition_details.parquet` ships it, chunk files show the
+distribution per host, and `apply_composition_splits.py` uses it to override the
+ratio rules.
+
+**Every phrase rule is scoped to a chemistry.** Unscoped, they fire on
+second-phase additives and mislabel the host: a graphene composite of SrTiO3
+mentions "graphene", a CNT composite of MnSi1.75 mentions "nanotube". An early
+version produced 15 such overrides, all wrong. Scoped, it produces 2, both
+right.
+
+**Fe2O3 shows the limit of composition-level work.** alpha-Fe2O3 is hematite
+(corundum) and gamma-Fe2O3 is maghemite (spinel) -- same formula, different
+structure -- so one composition string covers both. Rather than force an answer,
+that composition is flagged `detail ambiguous - needs sample-level split`.
+Resolving it properly means assigning per sample, not per composition.
+
 ### Checking an assignment against the paper
 
 Nothing here has been read out of a paper, so `experimentally_confirmed` is

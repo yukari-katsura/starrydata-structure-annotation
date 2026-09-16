@@ -96,6 +96,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Re-W
 - rank 3611 | 1 samples | 1 papers | 1 compositions
 - compositions: W74.25Re25.75 (1)
+- curator composition details (from the paper): tungsten–26 wt.% rhenium (1)
 - measured range: 270-1306 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Re2W P6_3/mmc (194) mp-1102921 [hull=0.202, icsd=1, PRIMARY]; Re3W I4/mmm (139) mp-974416 [hull=0.127, PRIMARY, AMBIGUOUS]; ReW2 Fmmm (69) mp-1219490 [hull=0.105, PRIMARY]; ReW3 Pm-3n (223) mp-1206445 [hull=0.060, PRIMARY]; ReW4 Fmmm (69) mp-1219494 [hull=0.068, PRIMARY]
 - papers: https://doi.org/10.1016/j.intermet.2003.09.007 (Electronic transport properties of liquid Ga–Zn alloys)
@@ -138,6 +139,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Rh-Sn-U
 - rank 3617 | 1 samples | 1 papers | 1 compositions
 - compositions: U2Rh2Sn (1)
+- curator composition details (from the paper): Annealing : 
+900°C for 24 h in an argon atmosphere (1)
 - sample form: Bulk (1)
 - measured range: 11-50 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): U2SnRh2 P4/mbm (127) mp-639876 [hull=0.000, icsd=3, PRIMARY]; USnRh P-62m (189) mp-1079696 [hull=0.000, icsd=3, PRIMARY]; U3Sn13Rh4 Pm-3n (223) mp-12717 [hull=0.040, icsd=1, PRIMARY]; USnRh2 Pnma (62) mp-1207880 [hull=0.000, PRIMARY]
@@ -207,6 +210,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## S-Th
 - rank 3626 | 1 samples | 1 papers | 1 compositions
 - compositions: ThS (1)
+- curator composition details (from the paper): Thorium Monosulfide (1)
 - measured range: 291-1250 K (5th-95th pct of 2 curves; full span incl. outliers 291-1337 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ThS2 Pnma (62) mp-1146 [hull=0.000, icsd=5, PRIMARY]; ThS Fm-3m (225) mp-503 [hull=0.000, icsd=5, PRIMARY]; Th2S5 Pbcn (60) mp-1666 [hull=0.000, icsd=3, PRIMARY]; Th2S3 Pnma (62) mp-20163 [hull=0.000, icsd=2, PRIMARY]; Th3S I4/mmm (139) mp-978993 [hull=0.751, PRIMARY, AMBIGUOUS]
 - papers: https://doi.org/10.1063/1.1702883 (Thermoelectric Properties of Uranium Monosulfide, Thorium Monosulfide,...)

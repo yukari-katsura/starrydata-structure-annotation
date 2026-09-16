@@ -29,6 +29,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Li-O
 - rank 1052 | 6 samples | 1 papers | 1 compositions
 - compositions: Li2O (6)
+- curator composition details (from the paper): bulk (1)
 - measured range: 377-969 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Li2O Fm-3m (225) mp-1960 [hull=0.000, icsd=11, PRIMARY]; Li2O2 P6_3/mmc (194) mp-841 [hull=0.000, icsd=3, PRIMARY]; LiO2 C2/m (12) mp-1094135 [hull=0.288, icsd=3, PRIMARY]; LiO3 Imm2 (44) mp-1001790 [hull=0.198, icsd=1, PRIMARY]; Li2O2 P4/mmm (123) mp-1097030 [hull=0.294, icsd=1]
 - papers: https://doi.org/10.1111/j.1151-2916.1988.tb05906.x (Effects of Fast Neutron Irradiation on Thermal Conductivity of Li2O an...)
@@ -44,6 +45,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1054 | 6 samples | 4 papers | 4 compositions
 - compositions: Y8.7Mg34.6Zn56.8_IQC (3); Y12Mg29Zn59 (1); Y8.6Mg34.6Zn56.8_IQC (1); Y6.03Tb2.97Mg42Zn57 (1)
 - dopant candidates (<5% at.): Tb (1)
+- curator composition details (from the paper): (Y1-xTbx)-Mg-Zn, Mg and Zn ratios are not specified Electron microprobe analysis of Tb-Mg-... (1)
 - sample form: Bulk (1)
 - measured range: 10-299 K (5th-95th pct of 7 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YMgZn P-62m (189) mp-6908 [hull=0.000, icsd=1, PRIMARY]; Y2Mg3Zn4 P6_3/mmc (194) mp-1207783 [hull=0.112, PRIMARY]; Y2(MgZn)3 R3m (160) mp-1216143 [hull=0.014, PRIMARY]; Y2MgZn Immm (71) mp-1097626 [hull=2.462, PRIMARY]; YMg14Zn Amm2 (38) mp-1028093 [hull=0.046, PRIMARY, AMBIGUOUS]
@@ -86,6 +88,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1059 | 6 samples | 1 papers | 1 compositions
 - compositions: (SiO272)3.47(Al2O3)4.14(Na2O)44.3(K2O)2.24(MgO)15.72(CaO)30.13 (6)
 - dopant candidates (<5% at.): Ca (6), Mg (6), Al (6), K (6), Si (6)
+- curator composition details (from the paper): clear float glass (1); BFL:bronze float glass (1); GFL:gray float glass (1); MFL:green float glass (1); clear float glass(CFL) (1)
 - sample form: Bulk (6)
 - measured range: 302-1173 K (5th-95th pct of 6 curves)
 - [ref 1] TEDesignLab / ICSD: Na2O Fm-3m (225) mp-2352 [hull=0.000, icsd=3, PRIMARY]; Na2O2 P-62m (189) mp-2340 [hull=0.000, icsd=2, PRIMARY]
@@ -135,6 +138,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ni-Sn-U
 - rank 1065 | 6 samples | 3 papers | 5 compositions
 - compositions: UNiSn (2); U2Ni2Sn (1); UNi4Sn (1); UNi2Sn (1); U3Ni3Sn4 (1)
+- curator composition details (from the paper): annealde at 800degC for (a) 30 days (1); annealde at 800degC for (b) 90days (1)
 - sample form: Polycrystal (6)
 - measured range: 10-308 K (5th-95th pct of 11 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): UNi4Sn F-43m (216) mp-22197 [hull=0.037, icsd=4, PRIMARY]; UNiSn F-43m (216) mp-21425 [hull=0.116, icsd=3, PRIMARY]; U2Ni2Sn P4/mbm (127) mp-22813 [hull=0.035, icsd=3, PRIMARY]; UNi2Sn Fm-3m (225) mp-672374 [hull=0.031, icsd=1, PRIMARY]; UNiSn C2/m (12) mp-1217516 [hull=0.000]
@@ -258,6 +262,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## S-Tb
 - rank 1080 | 6 samples | 3 papers | 3 compositions
 - compositions: Tb2S3 (3); TbS1.43 (2); TbS (1)
+- curator composition details (from the paper): Tb2S3-x x=0~0.33 (3)
 - sample form: Bulk (3)
 - measured range: 98-981 K (5th-95th pct of 15 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TbS2 P4/nmm (129) mp-7135 [hull=0.000, icsd=3, PRIMARY]; TbS Fm-3m (225) mp-1610 [hull=0.000, icsd=3, PRIMARY]; Tb2S3 Pnma (62) mp-9323 [hull=0.000, icsd=1, PRIMARY]; Tb5S7 C2/m (12) mp-1095641 [hull=0.000, icsd=1, PRIMARY]; Tb3S Pm-3m (221) mp-1187302 [hull=0.718, PRIMARY]
@@ -298,6 +303,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## U-Zr
 - rank 1085 | 6 samples | 2 papers | 6 compositions
 - compositions: U86Zr14 (1); U8.8Zr91.2 (1); U65.4Zr34.6 (1); U47.8Zr52.2 (1); U27.6Zr72.4 (1); U23.87Zr76.13 (1)
+- curator composition details (from the paper): weight ratio  U:Zr=45:55 (1)
 - sample form: Bulk (1)
 - measured range: 287-885 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Zr2U P-6m2 (187) mp-1215541 [hull=0.196, PRIMARY]; ZrU Cmmm (65) mp-1215193 [hull=0.237, PRIMARY]; ZrU3 I4/mmm (139) mp-1183047 [hull=0.385, PRIMARY]; Zr2U P6/mmm (191) mp-1206978 [hull=0.296]

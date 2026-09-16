@@ -149,6 +149,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Ba-Ir-O
 - rank 2419 | 1 samples | 1 papers | 1 compositions
 - compositions: Ba5AlIr2O11 (1)
+- curator composition details (from the paper): single crystal (1)
 - measured range: 79-739 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba5AlIr2O11 Pnma (62) mp-21742 [hull=0.000, icsd=1, PRIMARY]; Ba4Al(IrO5)2 Cmc2_1 (36) mp-1228412 [hull=0.030, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.91.235147 (Coexisting charge and magnetic orders in the dimer-chain iridate<mml:m...)
@@ -171,6 +172,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Bi-O-Sb-Te
 - rank 2422 | 1 samples | 1 papers | 1 compositions
 - compositions: (Al2O3)0.2Bi0.4Sb1.6Te3 (1)
+- curator composition details (from the paper): 3wt%r-Al2O3/Bi0.4Sb1.6Te3 (1)
 - measured range: 297-474 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.3390/en81112323 (Thermoelectric Properties of Alumina-Doped Bi0.4Sb1.6Te3 Nanocomposite...)
 
@@ -289,6 +291,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Co-Ni-Sb-Sn-Ta-Ti
 - rank 2438 | 1 samples | 1 papers | 1 compositions
 - compositions: Ti0.66Al0.67Ta0.67NiCoSn0.5Sb1.5 (1)
+- curator composition details (from the paper): Ti2‑x−yAlxTayNiCoSn0.5Sb1.5 (1)
 - sample form: pellets (1)
 - measured range: 297-825 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1021/acsaem.4c03382 (Entropy Engineering in the Off-Stoichiometric Ti<sub>2</sub>NiCoSn<sub...)
@@ -296,6 +299,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Co-Ni-Sb-Sn-Ta-Ti-Zr
 - rank 2439 | 1 samples | 1 papers | 1 compositions
 - compositions: Ti0.5Al0.5Ta0.5Zr0.5NiCoSn0.5Sb1.5 (1)
+- curator composition details (from the paper): Ti2‑x−y−qAlxTayZrqNiCoSn0.5Sb1.5 (1)
 - sample form: pellets (1)
 - measured range: 292-874 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1021/acsaem.4c03382 (Entropy Engineering in the Off-Stoichiometric Ti<sub>2</sub>NiCoSn<sub...)

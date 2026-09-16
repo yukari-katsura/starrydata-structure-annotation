@@ -144,6 +144,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3468 | 1 samples | 1 papers | 1 compositions
 - compositions: Y4.5Tb4.5Mg42Zn57 (1)
 - dopant candidates (<5% at.): Y (1), Tb (1)
+- curator composition details (from the paper): (Y12xTbx)-Mg-Zn, Mg and Zn ratios are not specified (1)
 - measured range: 14-292 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MgZn2 P6_3/mmc (194) mp-1124 [hull=0.000, icsd=8, PRIMARY]; Mg2Zn11 Pm-3 (200) mp-30784 [hull=0.000, icsd=1, PRIMARY]; Mg4Zn7 C2/m (12) mp-680671 [hull=0.000, icsd=1, PRIMARY]; Mg149Zn P-6m2 (187) mp-1185642 [hull=0.000, PRIMARY]; Mg2Zn Cmcm (63) mp-1094422 [hull=0.026, PRIMARY, AMBIGUOUS]
 - papers: https://doi.org/10.1103/physrevb.59.308 (Magnetic and transport properties of single-grainR−Mg−Znicosahedral qu...)
@@ -192,6 +193,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Mn-O-Sm
 - rank 3475 | 1 samples | 1 papers | 1 compositions
 - compositions: SmMnO3 (1)
+- curator composition details (from the paper): 2.3. Susceptibility, magnetization, and resistivity measurements
+... For temperatures T l... (1)
 - measured range: 320-1367 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SmMnO3 Pnma (62) mp-25026 [hull=0.000, icsd=5, PRIMARY]; SmMn2O5 Pbam (55) mp-19358 [hull=0.000, icsd=2, PRIMARY]; Sm2Mn2O7 Fd-3m (227) mp-769900 [hull=0.000, PRIMARY]; Sm2Mn2O5 Ima2 (46) mp-1076289 [hull=0.150, PRIMARY]; SmMnO3 Pm-3m (221) mp-1075973 [hull=0.212]
 - papers: https://doi.org/10.1016/j.jssc.2004.12.006 (Structural, transport, and magnetic properties of RMnO3 perovskites (R...)
@@ -200,12 +203,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3476 | 1 samples | 1 papers | 1 compositions
 - compositions: Sr0.85Pb0.15Mn0.75Sn0.25O3 (1)
 - dopant candidates (<5% at.): Pb (1)
+- curator composition details (from the paper): The logarithmic values in Fig 5a were converted by making them exponents of e original val... (1)
 - measured range: 303-423 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1007/s11664-022-09733-1 (Synthesis and Characterization of Sr0.85Pb0.15Mn1−xSnxO3 Perovskite Ma...)
 
 ## Mn-O-Sr-Ti
 - rank 3477 | 1 samples | 1 papers | 1 compositions
 - compositions: Sr0.7Ti0.3MnO3 (1)
+- curator composition details (from the paper): Sr0.7Ti0.3MnO3-δ (1)
 - measured range: 772-1073 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaSr7Ti5Mn3O20 P1 (1) mp-1100246 [hull=0.088, PRIMARY]; BaSr7Ti5Mn3O24 Cm (8) mp-1099624 [hull=0.016, PRIMARY]; BaSr7Ti6Mn2O20 P1 (1) mp-1076196 [hull=0.143, PRIMARY]; BaSr7Ti6Mn2O24 Amm2 (38) mp-1075988 [hull=0.012, PRIMARY]; Sr2TiMnO5 Ima2 (46) mp-1076627 [hull=0.043, PRIMARY]
 - papers: https://doi.org/10.1007/s13391-014-4237-9 (Structural and thermoelectric properties of n-type Sr1−x Ti x MnO3−δ p...)

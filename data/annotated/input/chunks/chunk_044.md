@@ -30,6 +30,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2152 | 2 samples | 1 papers | 2 compositions
 - compositions: (Nb0.9Ti0.1)Sr2EuCu2O8 (1); (Nb0.75Cu0.25)Sr2EuCu2O8 (1)
 - dopant candidates (<5% at.): Ti (1)
+- curator composition details (from the paper): polycrystalline (2)
 - measured range: 10-270 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2EuNb(CuO4)2 I4/mcm (140) mp-16786 [hull=0.022, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/j.jallcom.2015.06.001 (Structure and superconductivity in new Nb-based cuprates (Nb,Ti,Cu)Sr2...)
@@ -38,6 +39,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2153 | 2 samples | 1 papers | 2 compositions
 - compositions: Gd0.8Ba0.2CuFeO5 (1); Gd0.7Ba0.3CuFeO5 (1)
 - dopant candidates (<5% at.): Ba (2)
+- curator composition details (from the paper): polycrystalline (2)
 - measured range: 365-2577 K (5th-95th pct of 2 curves; full span incl. outliers 365-2641 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GdFe4(CuO4)3 Im-3 (204) mp-1188097 [hull=0.015, icsd=2, PRIMARY]
 - papers: https://doi.org/10.1111/jace.13728 (Electrical and Thermal Conduction Behaviors in La‐Substituted GdBaCuFe...)
@@ -186,6 +188,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cu-Ni-O-Si
 - rank 2172 | 2 samples | 1 papers | 2 compositions
 - compositions: (Ni0.47Cu0.53)(SiO2)0.11 (1); (Ni0.47Cu0.53)(SiO2)0.08 (1)
+- curator composition details (from the paper): 30vol.%SiO2 (1); 20vol.%SiO2 (1)
 - measured range: 292-1070 K (5th-95th pct of 8 curves)
 - papers: https://doi.org/10.1016/s0925-8388(03)00295-0 (Thermoelectric properties of constantan/spherical SiO2 and Al2O3 parti...)
 
@@ -391,6 +394,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Fe-Gd-O
 - rank 2199 | 2 samples | 1 papers | 1 compositions
 - compositions: GdFeO (2)
+- curator composition details (from the paper): GdFeO a-axis (1); GdFeO c-axis (1)
 - sample form: SingleCrystal (2)
 - measured range: 12-183 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GdFeO3 Pnma (62) mp-600862 [hull=0.000, icsd=16, PRIMARY]; Gd3FeO6 Cmc2_1 (36) mp-1189831 [hull=0.009, icsd=1, PRIMARY]

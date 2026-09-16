@@ -68,6 +68,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Fe-O-Sm
 - rank 1957 | 2 samples | 2 papers | 2 compositions
 - compositions: Sm1.875Ba3.125Fe5O15 (1); Sm0.5Ba0.5FeO3 (1)
+- curator composition details (from the paper): bulk (pressed and sintered) (1)
 - measured range: 316-1124 K (5th-95th pct of 2 curves; full span incl. outliers 316-1164 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba2Sm2Fe4O11 Cmmm (65) mp-704632 [hull=0.020, PRIMARY]
 - papers: https://doi.org/10.1016/j.ceramint.2016.03.174 (Cobalt-free quintuple perovskite Sm 1.875 Ba 3.125 Fe 5 O 15−δ as a no...) | https://doi.org/10.1016/j.ssi.2013.01.010 (Structure and properties of perovskites for SOFC cathodes as a functio...)
@@ -97,6 +98,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-O-Os
 - rank 1961 | 2 samples | 2 papers | 2 compositions
 - compositions: Ba3Os2O9 (1); BaOsO3 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 19-351 K (5th-95th pct of 2 curves; full span incl. outliers 19-395 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaOsO9 Pnma (62) mp-1203815 [hull=0.541, icsd=1, PRIMARY]; BaOsO3 Pm-3m (221) mp-781625 [hull=0.086, icsd=1, PRIMARY]; BaOsO2 I4_1/amd (141) mp-1214372 [hull=0.785, PRIMARY]; Ba2OsO4 I4/mmm (139) mp-1147775 [hull=0.076, PRIMARY]
 - papers: https://doi.org/10.1016/j.jssc.2017.02.012 (Synthesis, crystal structure, and magnetic properties of Ba 3 Os 2 O 9...) | https://doi.org/10.1021/ja4074408 (High-Pressure Synthesis of 5d Cubic Perovskite BaOsO<sub>3</sub> at 17...)
@@ -167,6 +169,10 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-C-H-N-Te
 - rank 1970 | 2 samples | 1 papers | 1 compositions
 - compositions: (Bi2Te3)67.58(C4H2NH)32.42 (2)
+- curator composition details (from the paper): Bi2Te3:12.7G PPy: 0.495g
+
+PPY:polypyrrole CAS No.:30604-81-0 C4H2NH
+sintered at 400 deg... (1)
 - sample form: Bulk (1)
 - measured range: 299-476 K (5th-95th pct of 10 curves)
 - papers: https://doi.org/10.3390/ma14113080 (Effects of the Interface between Inorganic and Organic Components in a...)
@@ -174,6 +180,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-C-Se-Te
 - rank 1971 | 2 samples | 2 papers | 2 compositions
 - compositions: Bi2(Se0.15Te0.85)3C0.6 (1); Bi2Te2.4Se0.6C0.3 (1)
+- curator composition details (from the paper): CNT/Bi2(Se,Te)3 (1); Bi2Te2.4Se0.6 + 0.5% CNT (1)
 - sample form: Bulk (1)
 - measured range: 296-545 K (5th-95th pct of 9 curves)
 - papers: https://doi.org/10.1155/2015/202415 (Fabrication Process and Thermoelectric Properties of CNT/Bi2(Se,Te)3Co...) | https://doi.org/10.1016/j.jallcom.2015.02.055 (On the effect of carbon nanotubes on the thermoelectric properties of ...)
@@ -205,6 +212,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Ca-Cu-La-O-Sr
 - rank 1975 | 2 samples | 1 papers | 2 compositions
 - compositions: Bi2Sr1.3La0.9Ca0.8Cu2O8 (1); Bi2Sr1.1La0.8CaCu2O8 (1)
+- curator composition details (from the paper): Bi:Sr:La:Ca:Cu = 2.0:1.3:0.9:0.8:2.0 (1); Bi:Sr:La:Ca:Cu = 2.0:1.1:0.8:1.0:2.0 (1)
 - sample form: SingleCrystal (2)
 - measured range: 12-210 K (5th-95th pct of 8 curves)
 - papers: https://doi.org/10.1088/0953-2048/23/6/065018 (In-plane thermoelectric properties of heavily underdoped high-temperat...)
@@ -260,6 +268,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Co-O
 - rank 1983 | 2 samples | 1 papers | 1 compositions
 - compositions: BiCoO3 (2)
+- curator composition details (from the paper): boron-undoped (1); boron-doped (1)
 - sample form: Bulk (2)
 - measured range: 10-295 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CoBiO3 Pnma (62) mp-1188346 [hull=0.117, icsd=1, PRIMARY]; Co(Bi3O5)4 I23 (197) mp-694906 [hull=0.019, PRIMARY]; Co(Bi5O8)5 C2 (5) mp-706332 [hull=0.030, PRIMARY, AMBIGUOUS]; Co(BiO3)2 P321 (150) mp-766738 [hull=0.000, PRIMARY]; Co3BiO8 P4_332 (212) mp-774284 [hull=0.048, PRIMARY, AMBIGUOUS]
@@ -368,6 +377,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Bi-Ga-Sb-Te
 - rank 1999 | 2 samples | 2 papers | 2 compositions
 - compositions: (Ga2Te3)0.2(Bi0.5Sb1.5Te3)0.8 (1); Ga0.4Bi0.5Sb1.1Te3 (1)
+- curator composition details (from the paper): GaxBi0.5Sb1.5−xTe3 (x = 0, 0.05, 0.1, 0.2, 0.4) (1)
 - sample form: Bulk (2)
 - measured range: 316-497 K (5th-95th pct of 6 curves; full span incl. outliers 316-556 K)
 - papers: https://doi.org/10.1016/j.intermet.2007.05.004 (Preparation and thermoelectric properties of p-type (Ga2Te3)x–(Bi0.5Sb...) | https://doi.org/10.1016/j.mseb.2006.08.040 (Microstructures and thermoelectric properties of p-type pseudo-binary ...)

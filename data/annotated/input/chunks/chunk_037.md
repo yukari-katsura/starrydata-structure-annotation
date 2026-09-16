@@ -222,6 +222,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ag-Mn-O-Pr-Sr
 - rank 1828 | 2 samples | 1 papers | 2 compositions
 - compositions: (Pr0.67Sr0.33MnO3)0.8(Ag2O)0.2 (1); (Pr0.67Sr0.33MnO3)0.7(Ag2O)0.3 (1)
+- curator composition details (from the paper): polycrystalline (2)
 - measured range: 10-312 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2014.08.216 (Near room temperature magneto-transport (TCR &amp; MR) and magnetocalo...)
 
@@ -342,6 +343,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-C-Si-Zr
 - rank 1845 | 2 samples | 1 papers | 2 compositions
 - compositions: Zr2(Al3.56Si0.44)4C5 (1); Zr3(Al3.56Si0.44)4C6 (1)
+- curator composition details (from the paper): Zr2[Al3.56Si0.44]4C5(denoted as Zr2[Al(Si)]4C5) (1); Zr3[Al3.56Si0.44]4C6(denoted as Zr3[Al(Si)]4C6) (1)
 - sample form: Bulk (2)
 - measured range: 470-1474 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1111/j.1551-2916.2008.02879.x (Mechanical and Thermophysical Properties of Zr-Al-Si-C Ceramics)

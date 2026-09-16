@@ -94,6 +94,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Cu-Ni-O
 - rank 1861 | 2 samples | 1 papers | 2 compositions
 - compositions: (Ni0.47Cu0.53)(Al2O3)0.038 (1); (Ni0.47Cu0.53)(Al2O3)0.07 (1)
+- curator composition details (from the paper): 20vol.%Al2O3 (1); 30vol.%Al2O3 (1)
 - measured range: 297-1076 K (5th-95th pct of 8 curves)
 - papers: https://doi.org/10.1016/s0925-8388(03)00295-0 (Thermoelectric properties of constantan/spherical SiO2 and Al2O3 parti...)
 
@@ -176,6 +177,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Ga-In-N
 - rank 1872 | 2 samples | 2 papers | 2 compositions
 - compositions: Al0.1In0.1Ga0.8N (1); Al0.26Ga0.44In0.30N (1)
+- curator composition details (from the paper): dopant:Er+Sr (1)
 - sample form: Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 297-1057 K (5th-95th pct of 8 curves)
 - papers: https://doi.org/10.1143/apex.4.051001 (Erbium-Doped AlInGaN Alloys as High-Temperature Thermoelectric Materials) | https://doi.org/10.1063/1.1560560 (Thermoelectric properties of Al1−xInxN and Al1−y−zGayInzN prepared by ...)
@@ -197,6 +199,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Gd-O
 - rank 1875 | 2 samples | 2 papers | 2 compositions
 - compositions: (Gd2O3)52.8(Al2O3)47.2 (1); GdAlO3 (1)
+- curator composition details (from the paper): The logarithmic values in Fig 12a were converted by making them exponents of 10
+original ... (1)
 - sample form: Powder (1)
 - measured range: 290-1272 K (5th-95th pct of 2 curves; full span incl. outliers 290-1373 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): GdAlO3 Pnma (62) mp-5223 [hull=0.009, icsd=10, PRIMARY]; Gd3Al5O12 Ia-3d (230) mp-14133 [hull=0.000, icsd=2, PRIMARY]; GdAlO3 Pm-3m (221) mp-1178268 [hull=0.086]

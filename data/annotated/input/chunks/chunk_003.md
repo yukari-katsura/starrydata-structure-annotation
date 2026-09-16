@@ -23,6 +23,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Ba2Co9O14 (11); BaCo0.7Fe0.2Nb0.1O3 (7); BaCo0.7Fe0.18Nb0.12O3 (5); BaCo0.7Fe0.22Nb0.08O3 (5); Ba0.8Sr0.2Co0.8Fe0.2O3 (4); Ba1.9La0.1Co9O14 (3)
 - dopant candidates (<5% at.): Fe (41), Nb (35), La (13), Bi (8), In (6), Y (6), Sr (5), Zr (4), Ta (4), Na (3), K (2), Cl (1)
 - seed hypothesis (confirm): perovskite
+- curator composition details (from the paper): bulk (sintered pellet) (6); The logarithmic values in Fig 5 were converted by making them exponents of e
+original val... (3); bulk (pressed and sintered) (2)
 - sample form: rod-shaped (14); Bulk (4); disk (3); disc (2)
 - measured range: 25-1223 K (5th-95th pct of 96 curves; full span incl. outliers 11-1342 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaCoO3 P6_3/mmc (194) mp-18965 [hull=0.000, icsd=4, PRIMARY]; Ba5Co5O14 P-3m1 (164) mp-24896 [hull=0.007, icsd=2, PRIMARY]; Ba12(CoO3)11 C2/c (15) mp-1195315 [hull=0.005, icsd=1, PRIMARY]; Ba2CoO4 Pnma (62) mp-19602 [hull=0.006, icsd=1, PRIMARY]; BaCoO2 P3_121 (152) mp-19086 [hull=0.000, icsd=1, PRIMARY]
@@ -41,6 +43,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: B4C (16); B13C2 (5); ErB22C2N (4); B9C (4); Y1.08B22.3C2N (3); B0.1C (2)
 - dopant candidates (<5% at.): N (17), Y (16), Er (5), O (3), Ti (3), Hf (1)
 - seed hypothesis (confirm): boron_carbide
+- curator composition details (from the paper): Y1-xB28.5C4 (2); boron-doped NCE prepared with 10% B4C (1); boron-doped NCE prepared with 20% B4C (1); B-doped xyleneMWCNTs (10:1) (1); B-doped xyleneMWCNTs (5:1) (1)
 - sample form: Bulk (20)
 - measured range: 31-1474 K (5th-95th pct of 143 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): B13C2 R-3m (166) mp-576 [hull=0.000, icsd=4, PRIMARY]; B4C R-3m (166) mp-696746 [hull=0.037, icsd=3, PRIMARY]; BC5 P3m1 (156) mp-1018649 [hull=0.268, icsd=2, PRIMARY]; BC7 P-4m2 (115) mp-1078935 [hull=0.207, icsd=1, PRIMARY]; B9C I4/mmm (139) mp-1182537 [hull=2.582, icsd=1, PRIMARY]
@@ -50,6 +53,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 104 | 77 samples | 11 papers | 43 compositions
 - compositions: GdBaCo2O5.5 (23); GdBaCo2O5 (6); GdBaCo2O5.165 (2); GdBaCo2O5.3 (2); BaGd1.8Ca0.2CoO5 (2); BaGd2CoO5 (2)
 - dopant candidates (<5% at.): Ca (8), La (4), Sr (4), Ce (4), Fe (2)
+- curator composition details (from the paper): GdBaCo2O5 (ab-plane) (1); GdBaCo2O5.5 (ab-plane) (1); GdBaCo2O5.3 (ab-plane) (1); GdBaCo2O5 (c-axis) (1); GdBaCo2O5.3 (c-axis) (1)
 - sample form: SingleCrystal (19); Bulk (13); rod-shaped (5); Polycrystal (5)
 - measured range: 12-1176 K (5th-95th pct of 108 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaGdCo2O5 Pmmm (47) mp-1079551 [hull=0.069, icsd=3, PRIMARY]; Ba2Gd2Co4O11 Pmmm (47) mp-1189405 [hull=0.111, icsd=1, PRIMARY]; Ba4CaGd3(Co4O11)2 Fmm2 (42) mp-1229195 [hull=0.094, PRIMARY]; BaGd(CoO3)2 P4/mmm (123) mp-1214665 [hull=0.197, PRIMARY]; BaGdCo2O5 P4/mmm (123) mp-1080062 [hull=0.170, icsd=2]
@@ -60,6 +64,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: SrFeO3 (13); Sr3Fe2O7 (4); Sr2.85Sm0.15Fe2O7 (4); SrFe0.9Mo0.1O3 (4); SrFe0.9Ti0.1O3 (3); Sr2.9Sm0.1Fe2O7 (3)
 - dopant candidates (<5% at.): Nb (10), Co (9), W (8), Sm (7), Mo (7), Cu (4), La (3), Ca (3), Ti (3), Bi (2), Ta (2), Hf (1), K (1)
 - seed hypothesis (confirm): perovskite
+- curator composition details (from the paper): Contains Sr3Fe2(OH)12, SrFe12O19 (1); polycrystalline (1)
 - sample form: Bulk (11); rod-shaped (10); pellets (6); Plate (4)
 - measured range: 21-1213 K (5th-95th pct of 86 curves; full span incl. outliers 12-1274 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2Fe2O5 Ima2 (46) mp-616640 [hull=0.000, icsd=15, PRIMARY]; Sr4Fe4O11 Cmmm (65) mp-24955 [hull=0.005, icsd=12, PRIMARY]; Sr2FeO4 I4/mmm (139) mp-19102 [hull=0.000, icsd=4, PRIMARY]; SrFeO2 P4/mmm (123) mp-24964 [hull=0.011, icsd=4, PRIMARY]; Sr8Fe8O23 I4/mmm (139) mp-19004 [hull=0.000, icsd=4, PRIMARY]
@@ -70,6 +75,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Ba8Al16Si30 (18); Ba8Al15Si31 (16); Ba8Al14Si31 (5); Ba7SrAl16Si30 (4); Ba7.7B0.1887Al14.8Si31.0 (3); Ba7.8B0.1699Al14.6Si31.2 (3)
 - dopant candidates (<5% at.): B (8), Ga (6), Sr (5), Eu (4), P (3)
 - seed hypothesis (confirm): clathrate_i
+- curator composition details (from the paper): Seebeck coefficient are also presented for different carrier concentrations in the Boltzma... (4); lattice contribution (1); electronic contribution (1)
 - sample form: Bulk (14); SingleCrystal (5)
 - measured range: 24-1250 K (5th-95th pct of 194 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba(AlSi)2 Pnma (62) mp-5506 [hull=0.000, icsd=3, PRIMARY]; Ba3(AlSi)2 Immm (71) mp-9578 [hull=0.000, icsd=1, PRIMARY]; BaAlSi P-6m2 (187) mp-13149 [hull=0.000, icsd=1, PRIMARY]; Ba(AlSi)2 I4/mmm (139) mp-12863 [hull=0.007, icsd=1]
@@ -80,6 +86,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: CuGaTe2 (34); Cu2Ga4Te7 (3); CuGa3Te5 (2); Cu3Ga5Te9 (2); CuGa0.99Zn0.01Te2 (2); CuGa0.99Gd0.01Te2 (1)
 - dopant candidates (<5% at.): Zn (6), Fe (5), Gd (3), Ag (3), Sb (3), Se (3), C (1), Mn (1)
 - seed hypothesis (confirm): chalcopyrite
+- curator composition details (from the paper): CuGa0.98Gd0.02Te2/0.7vol.%Te (2); CuGa0.99Gd0.01Te2/0.7vol.%Te (1); CuGaTe2/0.7 vol.%Te (1)
 - sample form: Bulk (69)
 - measured range: 17-968 K (5th-95th pct of 272 curves)
 - [ref 1] TEDesignLab / ICSD: GaCuTe2 I-42d (122) mp-3839 [hull=0.000, icsd=11, PRIMARY]
@@ -101,6 +108,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: (GeTe)85(AgSbTe2)15 (17); (AgSbTe2)15(GeTe)85 (9); (GeTe)85 (AgSbTe2 )15 (4); (GeTe)0.85(AgSbTe2)0.15 (3); Ge0.53Ag0.13Sb0.27Te (3); Ge0.61Ag0.11Sb0.22Te (3)
 - dopant candidates (<5% at.): Dy (4), Se (3), Yb (1), Ce (1)
 - seed hypothesis (confirm): gst_homologous
+- curator composition details (from the paper): TAGS-85 (1); TAGS85 (1)
 - sample form: Bulk (61); Polycrystal (1)
 - measured range: 20-775 K (5th-95th pct of 268 curves; full span incl. outliers 10-872 K)
   !! MEASUREMENT CROSSES A TRANSITION: gst_homologous -> rocksalt at ~420 K (Amorphous -> metastable cubic, ~420 K; cubic -> stable layered above ~500 K.)
@@ -111,6 +119,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 110 | 74 samples | 20 papers | 31 compositions
 - compositions: Ti0.5Zr0.5NiSn (20); Ti0.5Zr0.5NiSn0.98Sb0.02 (5); Zr0.7Ti0.2Nb0.1NiSn (4); Ti0.5Zr0.5NiSn0.99Sb0.01 (4); (Zr0.5Ti0.5NiSn0.994Sb0.006)98.24(HfO2)1.76 (4); Zr0.5Ti0.5NiSn (3)
 - dopant candidates (<5% at.): Sb (24), Nb (4), O (4), Hf (4), Ge (1)
+- curator composition details (from the paper): densification aid (DA) (3); mechanical alloying (1)
 - sample form: Bulk (24)
 - solid-solution axis: Ti/(Ti+Zr) spans 0.20-0.80 (median 0.50) over 31 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
@@ -141,6 +150,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Al62Cu25.5Fe12.5 (14); Al63Cu25Fe12 (9); Al70Cu20Fe10 (6); Al62.5Cu25Fe12.5_IQC (5); Al62.5Cu25Fe12.5 (5); Al63Cu24.5Fe12.5_IQC (4)
 - dopant candidates (<5% at.): Co (3), Pt (3), Au (2)
 - seed hypothesis (confirm): quasicrystal_approximant
+- curator composition details (from the paper): this data was taken from reference (3); with_defects (1); no detailed information, the figure is reprinted from reference. (1)
 - measured range: 10-972 K (5th-95th pct of 93 curves; full span incl. outliers 10-1756 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Al7FeCu2 P4/mnc (128) mp-4689 [hull=0.000, icsd=2, PRIMARY]; Al2FeCu Immm (71) mp-1096521 [hull=2.360, PRIMARY]; Al37(Fe6Cu)2 Cm (8) mp-1228719 [hull=0.000, PRIMARY]; Al39Fe7Cu24 Pm-3 (200) mp-31403 [hull=0.214, PRIMARY]
 - papers: https://doi.org/10.1103/physrevb.70.144202 (Thermoelectric properties ofAl82.6−xRe17.4Six(7⩽x⩽12)1∕1-cubic approxi...) | https://doi.org/10.1016/s0921-5093(00)01055-8 (Thermal and thermoelectric properties of icosahedral Al62Cu25.5Fe12.5 ...) | https://doi.org/10.1016/s0921-4526(01)00237-x (Modeling the electronic transport properties of Al–Cu–Fe phases)
@@ -161,6 +171,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Mo4O11 (19); Li0.9Mo6O17 (12); Mo8O23 (9); MoO2 (4); Rb0.15K0.15MoO3 (4); K0.05MoO2 (3)
 - dopant candidates (<5% at.): Li (12), K (10), Rb (4), La (2), Ce (2), Sm (2), Nd (2), Na (2), Pr (1), Bi (1), Tl (1), S (1)
 - seed hypothesis (confirm): reo3_wo3
+- curator composition details (from the paper): polycrystalline (2)
 - sample form: Bulk (14); SingleCrystal (1)
 - measured range: 10-1155 K (5th-95th pct of 105 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): MoO2 P4_2/mnm (136) mp-715476 [hull=0.012, icsd=7, PRIMARY]; Mo4O11 Pna2_1 (33) mp-622101 [hull=0.018, icsd=6, PRIMARY]; Mo8O23 P2/c (13) mp-19540 [hull=0.009, icsd=4, PRIMARY]; MoO3 P2_1/c (14) mp-18856 [hull=0.000, icsd=3, PRIMARY]; Mo3O10 Aea2 (41) mp-1180281 [hull=0.186, icsd=2, PRIMARY]
@@ -181,6 +192,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Bi2Ba2Co2O8 (13); Bi2Ba2O4(CoO2)2 (8); (Bi0.9Ba1.4O2)CoO2 (4); (Bi2Ba2O4)0.5CoO2 (4); Bi2Ba1.8Co2.2O8 (3); (Bi0.95Ba1.5O2)CoO2 (2)
 - dopant candidates (<5% at.): Pb (18), Na (5), C (4), Ag (3), Cu (2), Rh (1), La (1), Sr (1)
 - seed hypothesis (confirm): misfit_cobaltite
+- curator composition details (from the paper): hot-pressed (“HP”) (2); conventionally sintered (“CS”) (2); [Bi2Ba1.8Co0.2O4]RS[CoO2]2 RS:rocksalt type (1); [Bi2(Ca,Sr,Ba)2O4]RS [CoO2]q (1); Bi1.975Na0.025Ba2Co2O8+0.05 wt% carbon nanotubes (1)
 - sample form: Bulk (26); Polycrystal (1)
 - measured range: 11-951 K (5th-95th pct of 177 curves)
 - papers: https://doi.org/10.1179/1743676112y.0000000039 (Growth rate effect on microstructure and thermoelectric properties of ...) | https://doi.org/10.1063/1.3110060 (Thermoelectric properties of bismuth based cobalt-rhodium oxides with ...) | https://doi.org/10.1016/s1005-0302(11)60102-3 (High-temperature Thermoelectric Properties of Cu-substituted Bi2Ba2Co2...)
@@ -190,6 +202,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Mg2Si0.5Ge0.5 (10); Mg2Si0.6Ge0.4 (6); Mg2Si0.7Ge0.3 (4); Mg2Si0.3Ge0.7 (3); (Mg2Si)0.7(Ge)0.3 (2); (Mg2Si)0.3(Ge)0.7 (2)
 - dopant candidates (<5% at.): Bi (17), Sb (14), La (3), C (3), Ga (2), Ag (1)
 - seed hypothesis (confirm): antifluorite
+- curator composition details (from the paper): Mg2Si:Gax and Mg2Si0.6Ge0.4:Gax (x = 0.4% and 0.8%) (2)
 - sample form: Bulk (21); Powder (6)
 - solid-solution axis: Ge/(Ge+Si) spans 0.09-0.80 (median 0.41) over 44 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
@@ -202,6 +215,9 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: BaTiO3 (6); Ba0.8Eu0.2TiO3 (5); (BaTiO3)9(SrRuO3)3(BaTiO3)10 (4); La0.002Ba0.97Bi0.015Na0.015TiO3 (2); Ba0.9La0.1TiO3 (2); (Gd2O3)0.0020(BaTiO3)0.9980 (2)
 - dopant candidates (<5% at.): La (17), Bi (14), Gd (10), Na (10), Sr (6), Eu (6), Cr (5), Nb (5), Ru (5), Sm (4), Lu (4), Mn (4), Ho (3), Ni (3), Zn (3), Sb (2), Nd (1), Li (1), K (1), Fe (1), Co (1)
 - seed hypothesis (confirm): perovskite
+- curator composition details (from the paper): The logarithmic values in Fig 4 were converted by making them exponents of 10
+original va... (5); polycrystalline (4); bulk (pressed and sintered) (4); The logarithmic values in Fig 8 were converted by making them exponents of e original valu... (4); The logarithmic values in Fig 3 were converted by making them exponents of 10
+original va... (4)
 - sample form: Bulk (7); SingleCrystal (3); rod-shaped (2)
 - measured range: 10-1120 K (5th-95th pct of 79 curves; full span incl. outliers 10-1173 K)
 - [ref 1] TEDesignLab / ICSD: BaTiO3 Pm-3m (221) mp-2998 [hull=0.015, icsd=94, PRIMARY]; BaTi2O5 C2/m (12) mp-3943 [hull=0.022, icsd=4, PRIMARY]; BaTi4O9 Pmmn (59) mp-3175 [hull=0.009, icsd=3, PRIMARY]; Ba2TiO4 P2_1/c (14) mp-3397 [hull=0.000, icsd=2, PRIMARY]; BaTiO3 P4mm (99) mp-5986 [hull=0.003, icsd=47]
@@ -223,6 +239,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: CuFeO2 (12); CuFe0.99Ni0.01O2 (8); CuFe0.98Ni0.02O2 (3); CuFe2O4 (3); CuFe0.95Ni0.05O2 (2); CuFe0.96Ni0.04O2 (2)
 - dopant candidates (<5% at.): Ni (21), Sn (5), Li (5), Pt (4), Cr (4), Pd (3), Co (3), Zn (2), Gd (1), Mg (1), Ti (1), Mn (1), Cd (1)
 - seed hypothesis (confirm): delafossite
+- curator composition details (from the paper): Cu1−xPdxFeO2 (x=0.01, 0.03 and 0.05) (3); (Li0.5Fe0.5)1−xCuxFe2O4 (3); bulk (pressed) (1)
 - sample form: Bulk (38); Other (6); pellets (1)
 - measured range: 296-1159 K (5th-95th pct of 128 curves; full span incl. outliers 16-1174 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): FeCuO2 R-3m (166) mp-796603 [hull=0.000, icsd=9, PRIMARY]; Fe13Cu5O24 P-1 (2) mp-763652 [hull=0.098, PRIMARY]; Fe2CuO4 Fd-3m (227) mp-770107 [hull=0.065, PRIMARY, AMBIGUOUS]; Fe5CuO8 F-43m (216) mp-33300 [hull=0.067, PRIMARY]; Fe9Cu3O16 P-1 (2) mp-705842 [hull=0.102, PRIMARY]
@@ -232,6 +249,12 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 122 | 62 samples | 24 papers | 37 compositions
 - compositions: Ba0.5Sr0.5FeO3 (9); Ba0.5Sr0.5Co0.2Fe0.8O3 (9); Ba0.5Sr0.5Fe0.9Cu0.1O3 (4); Ba0.5Sr0.5Fe0.9Nb0.1O3 (3); Ba0.5Sr0.5Fe0.8Cu0.2O3 (3); Ba0.5Sr0.5Zn0.2Fe0.8O3 (2)
 - dopant candidates (<5% at.): Co (17), Cu (13), Mg (8), Mn (7), Zn (5), La (5), Ti (3), Ce (3), Nb (3), Al (3), Zr (1), Ni (1), Mo (1)
+- curator composition details (from the paper): bulk (calcined) (4); 1: MaterialFamily: Pero
+
+2: DataType: Experiment
+
+3: Form: rod-shaped, sintered bars w... (4); The logarithmic values in Fig 5 were converted by making them exponents of 10
+original va... (2)
 - sample form: rod-shaped (8); pellets (8)
 - measured range: 299-1223 K (5th-95th pct of 62 curves; full span incl. outliers 292-1273 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaSr(FeO2)4 P-31m (162) mp-24938 [hull=0.012, icsd=3, PRIMARY]; Ba4Sr(FeO3)5 P4/mmm (123) mp-1228328 [hull=0.003, PRIMARY]; BaSr(FeO3)2 P4/mmm (123) mp-1227735 [hull=0.003, PRIMARY]; BaSr4(FeO2)5 P4/mmm (123) mp-1227731 [hull=0.016, PRIMARY, AMBIGUOUS]; BaSr4(FeO3)5 Cmmm (65) mp-1227727 [hull=0.005, PRIMARY, AMBIGUOUS]
@@ -242,6 +265,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: CeCu6 (32); CeCu5.9Au0.1 (10); CeCu2 (7); Ce26Cu74 (6); CeCu5.8Au0.2 (2); Ce0.8La0.2Cu6 (1)
 - dopant candidates (<5% at.): Au (12), La (4)
 - seed hypothesis (confirm): cecu6
+- curator composition details (from the paper): Czochralski method (BN crusible) (3); Czochralski method (W crusible) (3); Czochralski method (3); prepared using different heat treatments. (2); annealed in an evacuated quartz tube at 700 "C for one week (1)
 - sample form: SingleCrystal (29); Bulk (10); Polycrystal (3)
 - measured range: 10-301 K (5th-95th pct of 90 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeCu5 P6/mmm (191) mp-761 [hull=0.026, icsd=10, PRIMARY]; CeCu6 Pnma (62) mp-21708 [hull=0.000, icsd=5, PRIMARY]; CeCu2 Imma (74) mp-2801 [hull=0.000, icsd=3, PRIMARY]; CeCu Pnma (62) mp-636198 [hull=0.074, icsd=2, PRIMARY]; Ce3Cu I4/mmm (139) mp-1183872 [hull=0.160, PRIMARY]
@@ -275,6 +299,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: NdNiO3 (37); Nd0.8Sr0.2NiO3 (5); Nd2Ni0.9Co0.1O4 (2); Nd2Ni0.9Cu0.1O4 (2); Nd0.9Sr0.1NiO3 (2); Nd2NiO4 (2)
 - dopant candidates (<5% at.): Sr (7), Cu (3), La (3), Co (2), Eu (1), Al (1), Mn (1), Fe (1)
 - seed hypothesis (confirm): perovskite
+- curator composition details (from the paper): bulk (pressed and sintered) (7); polycrystalline (2); thin film (1); bulk (sintered pellet) (1)
 - sample form: Bulk (1)
 - measured range: 11-1073 K (5th-95th pct of 58 curves; full span incl. outliers 10-1122 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NdNiO3 Pnma (62) mp-25591 [hull=0.000, icsd=14, PRIMARY]; Nd2NiO4 Cmce (64) mp-18737 [hull=0.062, icsd=4, PRIMARY]; Nd4Ni3O8 I4/mmm (139) mp-18738 [hull=0.242, icsd=3, PRIMARY]; Nd(NiO2)2 Cmce (64) mp-1210181 [hull=0.254, PRIMARY]; Nd2NiO4 I4/mmm (139) mp-19191 [hull=0.104, icsd=4]
@@ -305,6 +330,9 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: BiFeO3 (11); La0.05Bi0.95FeO3 (5); La0.1Bi0.9FeO3 (5); La0.15Bi0.85FeO3 (5); Bi0.91Nd0.09Fe0.91Mn0.09O3 (3); Bi0.91Ho0.09FeO3 (2)
 - dopant candidates (<5% at.): La (22), Mn (13), Nd (11), Co (4), Ho (4), Sr (3), Ba (2), Ca (2), Sb (1), Sm (1), Eu (1), Ti (1)
 - seed hypothesis (confirm): perovskite
+- curator composition details (from the paper): The logarithmic values in Fig 3a were converted by making them exponents of 10
+original v... (7); The logarithmic values in Fig 1 were converted by making them exponents of 10.original val... (2); polycrystalline (1); The logarithmic values in Fig 8 were converted by making them exponents of 10
+original va... (1)
 - sample form: rod-shaped (8); Unknown (3); Other (3)
 - measured range: 17-1092 K (5th-95th pct of 67 curves; full span incl. outliers 10-1210 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): FeBiO3 R3c (161) mp-24932 [hull=0.020, icsd=76, PRIMARY]; Fe4Bi2O9 Pnma (62) mp-1196085 [hull=0.036, icsd=2, PRIMARY]; Fe(Bi5O8)5 P23 (195) mp-765035 [hull=0.027, PRIMARY]; DyFe5Bi4O15 P1 (1) mp-1226261 [hull=0.035, PRIMARY]; Fe5Bi4O13F P4_22_12 (94) mp-1225422 [hull=0.017, PRIMARY]
@@ -324,6 +352,10 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 131 | 57 samples | 22 papers | 33 compositions
 - compositions: La0.8Sr0.2FeO3 (10); La0.8Sr0.2Co0.2Fe0.8O3 (5); La0.8Ca0.2Fe0.8Ni0.2O3 (4); La0.9Sr0.1FeO3 (3); LaFeO3 (3); La0.8Sr0.2Fe0.9Nb0.1O3 (2)
 - dopant candidates (<5% at.): Sr (34), Co (12), Ni (8), Ca (8), Al (4), Cu (3), Nb (2), Ta (2), Ba (2), Bi (2), Zn (1)
+- curator composition details (from the paper): The logarithmic values in Fig 6 were converted by making them exponents of 10
+original va... (2); The logarithmic values in Fig 5a were converted by making them exponents of 10
+original v... (2); The logarithmic values in Fig 4a were converted by making them exponents of 10
+original v... (1)
 - sample form: Bulk (7); rod-shaped (6); disk (2)
 - measured range: 216-1340 K (5th-95th pct of 83 curves; full span incl. outliers 170-1375 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LaFeO3 R-3c (167) mp-1078634 [hull=0.012, icsd=11, PRIMARY]; La3FeO6 Cmc2_1 (36) mp-1180667 [hull=0.000, icsd=1, PRIMARY]; LaFe12O19 P6_3/mmc (194) mp-642250 [hull=0.064, icsd=1, PRIMARY]; La4FeO8 Cmmm (65) mp-770617 [hull=0.078, PRIMARY]; La3Fe5O12 Ia-3d (230) mp-1212003 [hull=0.013, PRIMARY]
@@ -334,6 +366,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Cu (16); Cu99.91Cr0.09 (3); CuFe0.000115 (3); Be2.75Ni1.9Cu95.35 (3); Cu99.7Fe0.3 (3); Cu99.4Fe0.6 (2)
 - dopant candidates (<5% at.): Fe (11), Si (4), Mn (4), Pd (4), Pt (4), Ba (4), Y (4), Cr (3), Be (3), Ni (3), Bi (2), Sr (2), Ca (2)
 - seed hypothesis (confirm): solid_solution_alloy
+- curator composition details (from the paper): YBa2Cu307-x (3); Fe 115 at ppm (1)
 - sample form: Bulk (5); SingleCrystal (4)
 - measured range: 10-1112 K (5th-95th pct of 80 curves; full span incl. outliers 10-1311 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Cu Fm-3m (225) mp-30 [hull=0.000, icsd=18, PRIMARY]; Cu I4/mmm (139) mp-1010136 [hull=0.035, icsd=2]; Cu Im-3m (229) mp-998890 [hull=0.035, icsd=1]; Cu Cmcm (63) mp-1059259 [hull=0.150, icsd=1]; Cu P2/m (10) mp-1056079 [hull=1.942, icsd=1]
@@ -344,6 +377,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Fe1.05Nb0.75Ti0.25Sb (10); Nb0.8Ti0.2FeSb (7); FeNb0.8Ti0.2Sb (4); Nb0.8Ti0.2Fe1.02Sb (4); Nb0.75Ti0.25FeSb (3); Nb0.6Ti0.4FeSb0.95Sn0.05 (3)
 - dopant candidates (<5% at.): Bi (4), Sn (3), Ta (2), V (2)
 - seed hypothesis (confirm): half_heusler
+- curator composition details (from the paper): mechanical alloying (2); arc-melting (1); ball-milling (BM) (1); sintered at 1273 K  Grain size 400nm (1); sintered at 1123 K  Grain size 160nm (1)
 - sample form: Bulk (14); Polycrystal (6)
 - measured range: 293-1161 K (5th-95th pct of 230 curves; full span incl. outliers 10-1202 K)
 - papers: https://doi.org/10.1039/c4ee03042g (Band engineering of high performance p-type FeNbSb based half-Heusler ...) | https://doi.org/10.1039/c4ee02180k (NbFeSb-based p-type half-Heuslers for power generation applications) | https://doi.org/10.1073/pnas.1617663113 (Achieving high power factor and output power density in p-type half-He...)
@@ -365,6 +399,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: SrSi2 (15); Sr0.9Ca0.1Si2 (4); Sr0.85Ca0.15Si2 (3); Sr0.92Ca0.08Si2 (3); Sr0.93Ba0.07Si2 (3); Sr0.9Ba0.1Si2 (2)
 - dopant candidates (<5% at.): Ca (17), Ba (10), Y (5), Al (4), Ge (4)
 - seed hypothesis (confirm): srsi2_chiral
+- curator composition details (from the paper): Sr0.9-δCa0.1Si2 (2); CaSi2 structure (2); stoichiometric Si content of SrSi2 (1)
 - sample form: Bulk (12); Polycrystal (8); Film (2); Other (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 10-717 K (5th-95th pct of 159 curves; full span incl. outliers 10-1162 K)
 - [ref 1] TEDesignLab / ICSD: Sr2Si Pnma (62) mp-1106 [hull=0.000, icsd=4, PRIMARY]; Sr5Si3 I4/mcm (140) mp-746 [hull=0.000, icsd=4, PRIMARY]
@@ -386,6 +421,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: GeBi2Te4 (19); (GeTe) 0.937(Bi2Se0.2Te2.8)0.063 (9); GeBi4Te7 (4); GeBi3.6Sb0.4Te7 (1); Ge0.90Bi0.10Te (1); Cu0.001Ge0.92Bi4Te7 (1)
 - dopant candidates (<5% at.): Se (9), Cu (3), Fe (3), Sb (2), In (1)
 - seed hypothesis (confirm): homologous_tetradymite
+- curator composition details (from the paper): GeBi2Te4 (1)
 - sample form: Bulk (10)
 - measured range: 11-772 K (5th-95th pct of 125 curves; full span incl. outliers 10-850 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ge(BiTe2)2 R-3m (166) mp-27948 [hull=0.005, icsd=2, PRIMARY]; GeBi4Te7 P-3m1 (164) mp-29644 [hull=0.004, icsd=1, PRIMARY]; Ge2Bi2Te5 P-3m1 (164) mp-1206551 [hull=0.141, PRIMARY]; Ge2Bi2Te5 R3m (160) mp-1224417 [hull=0.157]
@@ -396,6 +432,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Li0.9CoO2 (5); Li0.75CoO2 (3); Li0.98CoO2 (3); LiCoO2 (3); Li0.60CoO2 (2); Li1.1Co0.85Ni0.15O2 (2)
 - dopant candidates (<5% at.): Mg (8), Ni (7), Ca (1), Na (1)
 - seed hypothesis (confirm): alpha_nafeo2_layered
+- curator composition details (from the paper): bulk (sintered pellet) (7)
 - sample form: Bulk (20); pellets (5)
 - measured range: 11-1174 K (5th-95th pct of 102 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiCoO2 R-3m (166) mp-24850 [hull=0.000, icsd=25, PRIMARY]; Li6CoO4 P4_2/nmc (137) mp-18925 [hull=0.000, icsd=1, PRIMARY]; Li8CoO6 P6_3cm (185) mp-31531 [hull=0.000, icsd=1, PRIMARY]; Li(CoO2)3 C2/m (12) mp-763697 [hull=0.045, PRIMARY]; Li(CoO2)2 P2_1 (4) mp-774082 [hull=0.000, PRIMARY]
@@ -406,6 +443,9 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Pr0.6Sr0.4FeO3 (6); Pr0.5Sr0.5FeO3 (5); Pr0.7Sr0.3FeO3 (4); Pr0.4Sr0.6FeO3 (4); Pr0.3Sr0.7FeO3 (4); Pr0.6Sr0.4Fe0.8Ni0.2O3 (2)
 - dopant candidates (<5% at.): Co (12), Cu (7), Ni (6), Mo (6), Nb (5), W (3), Nd (1), Ba (1), Ca (1), La (1)
 - seed hypothesis (confirm): perovskite
+- curator composition details (from the paper): bulk (sintered pellet) (4); The logarithmic values in Fig 5 were converted by making them exponents of e
+original val... (3); The logarithmic values in Fig 4 were converted by making them exponents of 10
+original va... (1)
 - sample form: pellets (1); rod-shaped (1)
 - measured range: 166-1174 K (5th-95th pct of 50 curves; full span incl. outliers 86-1238 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2Pr(FeO3)3 C2/m (12) mp-1218794 [hull=0.000, PRIMARY]; SrPr(FeO3)2 Pmn2_1 (31) mp-1218069 [hull=0.000, PRIMARY]; SrPr3(FeO3)4 Pm (6) mp-1218104 [hull=0.000, PRIMARY]
@@ -416,6 +456,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: FeSe (47); Fe0.89Se (3); FeSe2 (1); Fe1.98Y0.02Se2 (1)
 - dopant candidates (<5% at.): Y (1)
 - seed hypothesis (confirm): fese_pbo
+- curator composition details (from the paper): FeSe2-δ (1)
 - sample form: Bulk (5)
 - measured range: 11-554 K (5th-95th pct of 101 curves)
 - [ref 1] TEDesignLab / ICSD: FeSe P6_3/mmc (194) mp-1065506 [hull=0.195, icsd=36]; FeSe Pnma (62) mp-1078538 [hull=0.194, icsd=19]
@@ -427,6 +468,9 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Pr0.625Ca0.375MnO3 (5); Pr0.5Ca0.5MnO3 (5); Pr0.67Ca0.33MnO3 (4); Pr0.6Ca0.4MnO3 (4); Pr0.575Ca0.425MnO3 (4); Pr0.55Ca0.45MnO3 (4)
 - dopant candidates (<5% at.): La (9), Pb (2), Y (2), Sr (1), Ba (1), Co (1)
 - seed hypothesis (confirm): perovskite
+- curator composition details (from the paper): polycrystalline (3); The logarithmic values in Fig 9 were converted by making them exponents of e
+original val... (3); The logarithmic values in Fig 2 were converted by making them exponents of 10
+original va... (1)
 - sample form: Bulk (5)
 - measured range: 11-1273 K (5th-95th pct of 58 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ca6Pr6Mn11CrO36 P1 (1) mp-706248 [hull=0.000, PRIMARY]; CaPr2Mn3O9 P1 (1) mp-1147781 [hull=0.303, PRIMARY]; CaPrMn2O6 Pmn2_1 (31) mp-40630 [hull=0.002, PRIMARY]
@@ -450,6 +494,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Cd3As2 (49); Cd3(P0.1As0.8)2 (1)
 - dopant candidates (<5% at.): P (1)
 - seed hypothesis (confirm): cd3as2
+- curator composition details (from the paper): 10mol.%Cd3P2-90mol.%Cd3As2 (1)
 - sample form: SingleCrystal (48)
 - measured range: 11-500 K (5th-95th pct of 238 curves)
 - [ref 1] TEDesignLab / ICSD: CdAs2 I4_122 (98) mp-471 [hull=0.000, icsd=3, PRIMARY]; CdAs Pbca (61) mp-7373 [hull=0.015, icsd=1, PRIMARY]
@@ -471,6 +516,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: InSb (22); (InSb)91.48(MnSb)8.52 (4); Ga0.03In0.97Sb (3); (InSb)97.5(NiSb)2.5 (2); ZnIn18GeSb20 (2); (InSb)50Cu1 (1)
 - dopant candidates (<5% at.): Zn (8), Ga (4), Mn (4), Cu (3), Ni (3), Ge (2), Pb (1), I (1)
 - seed hypothesis (confirm): sphalerite
+- curator composition details (from the paper): InSb+MnSb eutectic (mixture of InSb with 6.5 wt % MnSb) (4); Te doped (1); undope (1); Zn dope (1); In4Se2.5 + M (0.8 at.%) from In (99.99%), Se (99.99%), Cu (99.99%), Pb (99.9%) and I2 (99.... (1)
 - sample form: Bulk (16); Film (14); Other (6); SingleCrystal (3)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 13-774 K (5th-95th pct of 140 curves; full span incl. outliers 10-1165 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): InSb F-43m (216) mp-20012 [hull=0.000, icsd=26, PRIMARY]; In5Sb3 I4/mcm (140) mp-1188565 [hull=0.121, icsd=1, PRIMARY]; In3Sb Pm-3m (221) mp-1021668 [hull=0.086, PRIMARY]; In2Sb P6_3/mmc (194) mp-1207221 [hull=0.089, PRIMARY]; InSb2 Pmmm (47) mp-1212332 [hull=1.522, PRIMARY]
@@ -491,6 +537,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: Al74.6Mn17.4Si8 (3); Al32Cr1.5Mn32.5Si34 (2); Al0.37Mn0.30Ru0.03Si0.3 (2); Al32CrMn33Si34 (2); Al71.6Mn17.4Si11 (2); Al73.6Mn17.4Si9 (2)
 - dopant candidates (<5% at.): Cr (19), In (5), Fe (2), Ru (2), W (1), Ta (1), F (1)
 - seed hypothesis (confirm): hms_chimney_ladder
+- curator composition details (from the paper): Al 71.6-x (Re or Mn)17.4 Six is written in the paper. But the total atoms are 89. The form... (4); mother ingot (1)
 - sample form: Bulk (18); SingleCrystal (3); Other (2)
 - measured range: 10-977 K (5th-95th pct of 135 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Mn3Al9Si P6_3/mmc (194) mp-15819 [hull=0.000, icsd=1, PRIMARY]; Mn3(Al2Si)2 C2 (5) mp-1221843 [hull=0.040, PRIMARY]
@@ -511,6 +558,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - compositions: YbAl3 (33); Yb1.05Al3B0.10 (1); Yb1.05Al3C0.10 (1); Yb1.05Al3 (1); Yb1.05Al3B0.05 (1); Yb1.05Al3C0.05 (1)
 - dopant candidates (<5% at.): O (4), Fe (4), B (2), C (2), Sn (2), Y (1), Sb (1)
 - seed hypothesis (confirm): cu3au_l12
+- curator composition details (from the paper): MQA-SPS-xHD and SHS-SPS-xHD, where the number of hot deformations and the diameter of the ... (6); self-propagating high-temperature synthesis (SHS) and spark plasma sintering (SPS) process (3); hot-pressed samples (2–4) with
+densities of 89% (2), 85% (3) and 70% (4). (3); directly melting followed by annealing and spark plasma sintering (SPS) (2); prepared with a traditional melting-quenching-annealing and spark plasma sintering (SPS) p... (1)
 - sample form: Bulk (18); Sheet (8); pellets (6); Film (6); Polycrystal (3)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 14-679 K (5th-95th pct of 215 curves; full span incl. outliers 10-750 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YbAl2 Fd-3m (227) mp-969 [hull=0.000, icsd=9, PRIMARY]; YbAl3 Pm-3m (221) mp-1259 [hull=0.088, icsd=7, PRIMARY]; Yb4Al Fd-3m (227) mp-1207597 [hull=0.522, PRIMARY]; Yb3Al Fm-3m (225) mp-1187947 [hull=0.084, PRIMARY]

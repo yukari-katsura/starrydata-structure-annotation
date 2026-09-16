@@ -196,12 +196,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-La-Mn-O-Sr
 - rank 2476 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.5Sr0.5Mn0.75Al0.25O3 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 70-297 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1088/0022-3727/49/3/035001 (Al<sup>3+</sup>doping effects and high-field phase diagram of La<sub>0...)
 
 ## Al-La-O-Sr-Ta
 - rank 2477 | 1 samples | 1 papers | 1 compositions
 - compositions: (La0.3Sr0.7)(Al0.65Ta0.35)O3 (1)
+- curator composition details (from the paper): thin film (1)
 - measured range: 28-400 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr3LaTaAl3O12 Cmmm (65) mp-1232343 [hull=0.023, PRIMARY]; Sr6La2Ta3Al5O24 R-3m (166) mp-676456 [hull=0.000, PRIMARY]; Sr3LaTaAl3O12 Amm2 (38) mp-1232342 [hull=0.035]
 - papers: https://doi.org/10.1088/1361-6463/ab3ddb (High-temperature ferromagnetic insulating phase in strained La<sub>0.8...)
@@ -237,6 +239,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Al-Mn-Pd-Si
 - rank 2482 | 1 samples | 1 papers | 1 compositions
 - compositions: Al67.0Pd11.5Mn14.6Si6.9 (1)
+- curator composition details (from the paper): Composition was evaluateb by EMPA.
+Nominal composition: Al67Pd11Mn14Si8 (1)
 - sample form: Bulk (1)
 - measured range: 369-956 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1524/zkri.2009.1061 (Thermoelectric performance of Al–Pd–Mn quasicrystals: comparison with ...)
@@ -245,6 +249,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2483 | 1 samples | 1 papers | 1 compositions
 - compositions: YSmSi10.45Al1.55O1.3N14.7 (1)
 - dopant candidates (<5% at.): O (1), Y (1), Sm (1)
+- curator composition details (from the paper): Y-Sm/α-SiAlON (1)
 - sample form: Bulk (1)
 - measured range: 299-1073 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YAl6Si18(N15O)2 P1 (1) mp-677127 [hull=0.092, PRIMARY]; YAl6Si30(N15O)3 P1 (1) mp-686618 [hull=0.066, PRIMARY]
@@ -261,6 +266,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2485 | 1 samples | 1 papers | 1 compositions
 - compositions: TiAl48Nb6 (1)
 - dopant candidates (<5% at.): Ti (1)
+- curator composition details (from the paper): Ti–48Al–6Nb (at.%) (1)
 - sample form: Bulk (1)
 - measured range: 299-1074 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nb3Al Pm-3n (223) mp-796 [hull=0.050, icsd=19, PRIMARY]; NbAl3 I4/mmm (139) mp-1842 [hull=0.000, icsd=10, PRIMARY]; Nb2Al P4_2/mnm (136) mp-18427 [hull=0.000, icsd=6, PRIMARY]; Nb4Al Fmmm (69) mp-1220481 [hull=0.119, PRIMARY]
@@ -278,6 +284,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2487 | 1 samples | 1 papers | 1 compositions
 - compositions: (Al2O3)20(MgO)15(TiO2)9(SiO2)56 (1)
 - dopant candidates (<5% at.): Mg (1), Ti (1)
+- curator composition details (from the paper): SiO2:56%, Al2O3:20%, MgO:15%, TiO2:9% (1)
 - sample form: Bulk (1)
 - measured range: 293-1273 K (5th-95th pct of 1 curves)
 - [ref 1] TEDesignLab / ICSD: Al2Si4O11 P-1 (2) mp-707135 [hull=0.033, icsd=2, PRIMARY]; Al2SiO5 C2/c (15) mp-9515 [hull=0.100, icsd=1]; Al2SiO5 Cmcm (63) mp-9516 [hull=0.109, icsd=1]

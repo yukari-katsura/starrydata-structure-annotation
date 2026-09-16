@@ -39,6 +39,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Gd-Mn-O
 - rank 2053 | 2 samples | 2 papers | 2 compositions
 - compositions: CaGdMnO3 (1); Gd0.3Ca0.7MnO3 (1)
+- curator composition details (from the paper): The logarithmic values in Fig 3 were converted by making them exponents of 10
+original va... (1)
 - sample form: Bulk (1)
 - measured range: 41-700 K (5th-95th pct of 3 curves)
 - papers: https://doi.org/10.1100/2012/149670 (Thermoelectric Properties of Ca1−xGdxMnO3−δ(0.00, 0.02, and 0.05) Systems) | https://doi.org/10.1016/j.jmmm.2009.07.054 (The effect of Gd-doping on the charge ordering state of Bi0.3−xGdxCa0....)
@@ -82,6 +84,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cd-Fe-Mn-O
 - rank 2059 | 2 samples | 1 papers | 2 compositions
 - compositions: Mn0.6Cd0.4Fe2O4 (1); Mn0.4Cd0.6Fe2O4 (1)
+- curator composition details (from the paper): Mn1-xCdxFe2O4 (2)
 - measured range: 310-599 K (5th-95th pct of 2 curves; full span incl. outliers 310-674 K)
 - papers: https://doi.org/10.1016/s0167-577x(00)00015-x (Thermoelectric power and electrical conductivity of cadmium-substitute...)
 
@@ -168,6 +171,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2071 | 2 samples | 1 papers | 2 compositions
 - compositions: La0.1Ce0.9FePO (1); CeFePO (1)
 - dopant candidates (<5% at.): La (1)
+- curator composition details (from the paper): polycrystalline (2)
 - measured range: 11-297 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce2FeP2O P4/mmm (123) mp-1213918 [hull=1.698, PRIMARY]
 - papers: https://doi.org/10.1209/0295-5075/123/57002 (Spin glass, single-ion and dense Kondo effects in La\n                ...)
@@ -204,6 +208,9 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Mn-O-Sr
 - rank 2076 | 2 samples | 2 papers | 1 compositions
 - compositions: Sr0.7Ce0.3MnO3 (2)
+- curator composition details (from the paper): The logarithmic values in Fig 2 were converted by making them exponents of 10
+original va... (1); The logarithmic values in Fig 9 were converted by making them exponents of 10
+original va... (1)
 - sample form: pellets (1)
 - measured range: 320-1270 K (5th-95th pct of 2 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr2CeMn3O9 C2/m (12) mp-1218910 [hull=0.024, PRIMARY]; Sr3CeMn4O12 Im-3m (229) mp-1218514 [hull=0.032, PRIMARY]; Sr4CeMn5O15 C2/m (12) mp-1218672 [hull=0.026, PRIMARY]
@@ -242,6 +249,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2081 | 2 samples | 2 papers | 2 compositions
 - compositions: (ZrO2)0.5(Ce02)0.5 (1); (Nd0.2Ce0.8)2Zr2O7.8 (1)
 - dopant candidates (<5% at.): Nd (1)
+- curator composition details (from the paper): ZrO2-50mol%Ce02 (1)
 - sample form: Powder (1); Bulk (1)
 - measured range: 290-973 K (5th-95th pct of 2 curves; full span incl. outliers 290-1808 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeZrO4 P2_13 (198) mp-4843 [hull=0.062, icsd=3, PRIMARY]; Ce3Zr5O16 C222 (21) mp-1019589 [hull=0.046, icsd=1, PRIMARY]; Ce7ZrO16 P4/mmm (123) mp-1191683 [hull=0.022, icsd=1, PRIMARY]; Ce5Zr3O16 C222 (21) mp-1019595 [hull=0.040, icsd=1, PRIMARY]; CeZr3O8 C2/c (15) mp-1019600 [hull=0.045, icsd=1, PRIMARY]

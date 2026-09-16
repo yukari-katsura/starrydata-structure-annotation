@@ -21,6 +21,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## C-Cl-H-N
 - rank 2801 | 1 samples | 1 papers | 1 compositions
 - compositions: C6H7NCl (1)
+- curator composition details (from the paper): PANI,  C6H7N ,name Polyaniline, CAS.No: 25233-30-1 (1)
 - sample form: pellets (1)
 - measured range: 280-320 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): FeH12C2(NCl2)2 P4_2/ncm (138) mp-1194613 [hull=0.050, icsd=19, PRIMARY]; Sb2H30C9(NCl3)3 Pc (7) mp-709030 [hull=0.065, icsd=4, PRIMARY]; HgH20C6(NCl2)2 P2_1/c (14) mp-1197209 [hull=0.082, icsd=2, PRIMARY]; H24PdC8(NCl2)2 P4_2/mnm (136) mp-707284 [hull=0.095, icsd=2, PRIMARY]; FeH16C4(NCl2)2 P2_1/c (14) mp-709074 [hull=0.060, icsd=2, PRIMARY]
@@ -95,6 +96,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## C-H-I-P
 - rank 2811 | 1 samples | 1 papers | 1 compositions
 - compositions: PCDIPT (1)
+- curator composition details (from the paper): PCDIPT:poly[4-(4,4-dihexadecyl-4H-cyclopenta[1,2-b:5,4-b′]dithiophen-2-yl)-alt-[1,2,5]thia... (1)
 - sample form: Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 293-403 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): P2H19C6I7N P-1 (2) mp-1196394 [hull=0.000, icsd=1, PRIMARY]
@@ -110,6 +112,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## C-H-O-S-Se
 - rank 2813 | 1 samples | 1 papers | 1 compositions
 - compositions: (C4H2Se)(C6H4O2S) (1)
+- curator composition details (from the paper): poly-SE,  C4H2Se ,name polyselenophene, CAS.No: 
+PEDOT,  C6H4O2S ,name Poly(3,4-ethylened... (1)
 - sample form: Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 145-305 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1007/s11664-016-5197-7 (Thermoelectric Properties of Poly(selenophene-co-3, 4-ethylenedioxythi...)
@@ -118,6 +122,9 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2814 | 1 samples | 1 papers | 1 compositions
 - compositions: (C4H2Se)2(C6H4O2S) (1)
 - dopant candidates (<5% at.): S (1)
+- curator composition details (from the paper): poly-SE,  C4H2Se ,name polyselenophene, CAS.No: 
+PEDOT,  C6H4O2S
+ ,name Poly(3,4-ethylen... (1)
 - sample form: Film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 145-305 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): H6C2SeO P-1 (2) mp-1189850 [hull=0.258, icsd=1, PRIMARY]; U2H18C4Se3N2O17 P2_12_12_1 (19) mp-1195410 [hull=0.324, icsd=1, PRIMARY]
@@ -127,6 +134,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2815 | 1 samples | 1 papers | 1 compositions
 - compositions: (HSC6H4OH)39.14(Sb2Te3)60.86 (1)
 - dopant candidates (<5% at.): S (1), O (1)
+- curator composition details (from the paper): 4MP(0.7nm)/Sb2te3(6nm) superlattice
+4MP:4-mercaptophenolCAS No:637-89-8 (1)
 - sample form: multilayer film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 298-499 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.1002/sstr.202400201 (An Organic–Inorganic Superlattice with Nanocrystal‐Amorphous Composite...)
@@ -315,12 +324,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ca-Fe-O-Ru
 - rank 2842 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca2FeRuO6 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 110-299 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1103/physrevb.98.224423 (Reentrant magnetism at the borderline between long-range antiferromagn...)
 
 ## Ca-Fe-O-Ru-Sr
 - rank 2843 | 1 samples | 1 papers | 1 compositions
 - compositions: CaSrFeRuO6 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 71-298 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1103/physrevb.98.224423 (Reentrant magnetism at the borderline between long-range antiferromagn...)
 
@@ -364,6 +375,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 2849 | 1 samples | 1 papers | 1 compositions
 - compositions: Ca0.9Gd0.1MnO3(K2CO3)0.2 (1)
 - dopant candidates (<5% at.): C (1), Gd (1)
+- curator composition details (from the paper): Ca0.9Gd0.1MnO3+15wt%K2CO3 (1)
 - measured range: 328-1069 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1007/s10853-018-3058-x (Improvement of thermoelectric properties of Ca0.9Gd0.1MnO3 by powder e...)
 

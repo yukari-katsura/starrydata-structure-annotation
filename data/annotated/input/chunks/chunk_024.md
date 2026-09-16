@@ -67,6 +67,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cd-Fe-Ni-O
 - rank 1157 | 5 samples | 2 papers | 3 compositions
 - compositions: Cd0.6Ni0.4Fe2O4 (2); Cd0.4Ni0.6Fe2O4 (2); Cd0.5Ni0.5Fe2O4 (1)
+- curator composition details (from the paper): Cd1−xNixFe2O4 (2)
 - measured range: 298-931 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CdFe4NiO8 R3m (160) mp-1226789 [hull=0.066, PRIMARY]
 - papers: https://doi.org/10.1007/bf02745227 (DC resistivity and thermoelectric power in Ni-Cd ferrites) | https://doi.org/10.1023/a:1013790129045 ([])
@@ -128,6 +129,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1165 | 5 samples | 2 papers | 4 compositions
 - compositions: CeTiGe (2); CeTi1Ge3 (1); CeTi0.9Ni0.1Ge3 (1); CeTi0.8Ni0.2Ge3 (1)
 - dopant candidates (<5% at.): Ni (2)
+- curator composition details (from the paper): anneal: 1180 K 210h (from ref.16) (1); anneal: 1373 K 1h (1)
 - sample form: Polycrystal (2)
 - measured range: 10-299 K (5th-95th pct of 8 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CeTiGe P4/nmm (129) mp-19860 [hull=0.008, icsd=1, PRIMARY]; CeTiGe3 P6_3/mmc (194) mp-1205531 [hull=0.000, PRIMARY]; CeTiGe I4/mmm (139) mp-1077736 [hull=0.028, icsd=1]
@@ -170,6 +172,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ce-Ru-Sb
 - rank 1170 | 5 samples | 4 papers | 1 compositions
 - compositions: CeRu4Sb12 (5)
+- curator composition details (from the paper): skuterudite-type heavy fermion (1)
 - sample form: SingleCrystal (2)
 - measured range: 11-844 K (5th-95th pct of 10 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ce(Sb3Ru)4 Im-3 (204) mp-1189811 [hull=0.000, icsd=1, PRIMARY]
@@ -186,12 +189,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1172 | 5 samples | 1 papers | 5 compositions
 - compositions: Sr2Cu2CoO2S2 (1); Sr1.7Cu2CoO2S2 (1); Sr1.5Cu2CoO2S2 (1); Sr1.6Ca0.4Cu2CoO2S2 (1); Sr1.9Cu2CoO2S2 (1)
 - dopant candidates (<5% at.): Ca (1)
+- curator composition details (from the paper): polycrystalline (5)
 - measured range: 22-296 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1063/1.2173638 (Electronic nature of layered oxysulfide Sr2−xCaxCu2CoO2S2 with CoO2 pl...)
 
 ## Co-Fe-Nd-O-Sr
 - rank 1173 | 5 samples | 2 papers | 5 compositions
 - compositions: Nd0.7Sr0.3Fe0.7Co0.3O3 (1); Nd0.5Sr0.5Fe0.7Co0.3O3 (1); Nd0.3Sr0.7Fe0.7Co0.3O3 (1); Nd0.7Sr0.3Fe0.6Co0.4O3 (1); Nd0.7Sr0.3Fe0.4Co0.6O3 (1)
+- curator composition details (from the paper): bulk (pressed and sintered) (3)
 - sample form: rod-shaped (5)
 - measured range: 297-1358 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1016/j.ssi.2016.08.005 (Crystal structure, oxygen nonstoichiometry, thermal expansion and cond...) | https://doi.org/10.1016/s0921-5107(02)00058-2 (Crystal structure, thermal expansion and electrical conductivity of Nd...)
@@ -261,6 +266,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Cr-Fe-La-O-Sr
 - rank 1182 | 5 samples | 3 papers | 4 compositions
 - compositions: La0.3Sr0.7Fe0.7Cr0.3O3 (2); La0.6Sr0.4Cr0.5Fe0.5O3 (1); La0.6Sr0.4Cr0.25Fe0.75O3 (1); La0.6Sr0.4Cr0.75Fe0.25O3 (1)
+- curator composition details (from the paper): The logarithmic values in Fig 5a were converted by making them exponents of e
+original va... (3)
 - sample form: disk (1)
 - measured range: 423-1173 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Sr4LaCrFe4O15 Cm (8) mp-1218634 [hull=0.039, PRIMARY]
@@ -299,6 +306,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1187 | 5 samples | 1 papers | 2 compositions
 - compositions: (W)73.32(Cr)25.92(Hf)0.76 (4); (W)88.76(Cr)9.41(Hf)1.83 (1)
 - dopant candidates (<5% at.): Hf (5)
+- curator composition details (from the paper): The overall milling time for a W-10Cr-1Hf (wt%) alloy was 28 h at a speed of 240 rpm. (4); “low” alloyed tungsten (W-3Cr- 2HfC) sintered at similar conditions. (1)
 - sample form: Bulk (5)
 - measured range: 19-1299 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): CrW Cmmm (65) mp-1226162 [hull=0.124, PRIMARY]
@@ -352,6 +360,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1193 | 5 samples | 3 papers | 5 compositions
 - compositions: PbTe(Cu2Se)0.09 (1); (PbTe)81Sb2Te3Sb0.6(Cu2Te)5 (1); (PbTe)94.68(Cu2Te)5.32 (1); (PbTe)92.89(Cu2Te)7.11 (1); (PbTe)91.63(Cu2Te)8.37 (1)
 - dopant candidates (<5% at.): Se (1), Sb (1)
+- curator composition details (from the paper): 95.9%PbTe + 4.1%Cu2Te (1); 94.5%PbTe + 5.5%Cu2Te (1); 93.5%PbTe + 6.5%Cu2Te (1)
 - sample form: Bulk (5)
 - measured range: 299-874 K (5th-95th pct of 21 curves)
 - papers: https://doi.org/10.1088/0022-3727/49/6/065302 (Thermoelectric transport properties of PbTe-based composites incorpora...) | https://doi.org/10.1002/adfm.202007340 (Coherent Sb/CuTe Core/Shell Nanostructure with Large Strain Contrast B...) | https://doi.org/10.1021/jacs.7b11662 (Remarkable Roles of Cu To Synergistically Optimize Phonon and Carrier ...)
@@ -408,6 +417,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1200 | 5 samples | 3 papers | 4 compositions
 - compositions: EuMnO3 (2); Eu0.8Sr0.2MnO3 (1); Dy0.2Eu0.8MnO3 (1); Dy0.0Eu1.0MnO3 (1)
 - dopant candidates (<5% at.): Sr (1), Dy (1)
+- curator composition details (from the paper): 2.3. Susceptibility, magnetization, and resistivity measurements
+... For temperatures T l... (1)
 - sample form: Bulk (1)
 - measured range: 12-298 K (5th-95th pct of 5 curves; full span incl. outliers 12-1364 K)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): EuMnO3 Pnma (62) mp-25667 [hull=0.000, icsd=3, PRIMARY]; EuMn2O5 Pbam (55) mp-622520 [hull=0.000, icsd=2, PRIMARY]; Eu2Mn2O7 Fd-3m (227) mp-769834 [hull=0.000, PRIMARY]; Eu2Mn2O5 Ima2 (46) mp-1099747 [hull=0.000, PRIMARY]; EuMnO3 Pm-3m (221) mp-1099619 [hull=0.046]

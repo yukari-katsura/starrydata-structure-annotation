@@ -60,6 +60,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 706 | 9 samples | 2 papers | 9 compositions
 - compositions: (Bi0.8La0.2FeO3)0.57(PbTiO3)0.43 (1); (Bi0.8La0.2FeO3)0.57(PbTiO3)0.43(Fe2O3)0.025 (1); (Bi0.8La0.2FeO3)0.57(PbTiO3)0.43(Fe2O3)0.05 (1); (Bi0.8La0.2FeO3)0.57(PbTiO3)0.43(Fe2O3)0.125 (1); (Bi0.8La0.2FeO3)0.57(PbTiO3)0.43(Fe2O3)0.25 (1); (BiFeO3)0.6(PbTiO3)0.27Ba0.13(Zr0.5Ti0.5)0.13O0.39 (1)
 - dopant candidates (<5% at.): La (5), Ba (4), Zr (4)
+- curator composition details (from the paper): Composition Details
+The logarithmic values in Fig 6c were converted by making them expone... (1)
 - measured range: 322-854 K (5th-95th pct of 9 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ti2Fe3Bi3Pb2O15 Cmm2 (35) mp-1101108 [hull=0.021, PRIMARY]; Ti4FeBiPb4O15 Cmm2 (35) mp-1217456 [hull=0.004, PRIMARY]; TiFe2Bi2PbO9 Cmm2 (35) mp-1216956 [hull=0.022, PRIMARY, AMBIGUOUS]; TiFe3Bi3PbO12 P1 (1) mp-1217154 [hull=0.024, PRIMARY]; TiFeBiPbO6 Imm2 (44) mp-1216981 [hull=0.020, PRIMARY]
 - papers: https://doi.org/10.1111/jace.18613 (Enhanced insulation and piezoelectric properties of 0.57(Bi\n         ...) | https://doi.org/10.1111/jace.17904 (High‐temperature BiFeO\n            <sub>3</sub>\n            –PbTiO\n...)
@@ -100,6 +102,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 711 | 9 samples | 3 papers | 8 compositions
 - compositions: C@PbTe (2); PbTeC0.28 (1); PbTeC1.4 (1); PbTeC0.84 (1); PbTeC2 (1); PbTeC2.8 (1)
 - dopant candidates (<5% at.): I (2)
+- curator composition details (from the paper): PbTe–graphene nanocomposites (5)
 - sample form: Bulk (7)
 - solid-solution axis: C/(C+Pb) spans 0.10-0.74 (median 0.50) over 8 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
@@ -150,6 +153,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 717 | 9 samples | 3 papers | 5 compositions
 - compositions: SrEuCoO4 (3); Eu2SrCo1.5Fe0.5O7 (3); Eu0.75Sr1.25CoO4 (1); EuSrCoO4 (1); Eu1.25Sr0.75CoO4 (1)
 - dopant candidates (<5% at.): Fe (3)
+- curator composition details (from the paper): polycrystalline (6)
 - measured range: 12-1173 K (5th-95th pct of 9 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): SrEu(CoO3)2 P4/mmm (123) mp-1218310 [hull=0.123, PRIMARY]; SrEuCoO4 I4mm (107) mp-1218291 [hull=0.041, PRIMARY]
 - papers: https://doi.org/10.1088/0022-3727/41/4/045404 (Studies of structural, magnetic, electrical and thermal properties in ...) | https://doi.org/10.1063/1.2830797 (Dielectric, magnetic, and magnetotransport properties in Sr doped two-...) | https://doi.org/10.1039/c8ta11254a (Eu<sub>2</sub>SrCo<sub>1.5</sub>Fe<sub>0.5</sub>O<sub>7</sub> a new pr...)
@@ -158,6 +162,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 718 | 9 samples | 1 papers | 5 compositions
 - compositions: Fe0.241Co0.063Si0.686Ge0.06Cu0.014P0.03 (5); Fe0.241Co0.063Si0.686Ge0.06Cu0.013P0.04 (1); Fe0.241Co0.063Si0.686Ge0.06Cu0.013P0.05 (1); Fe0.241Co0.063Si0.686Ge0.06Cu0.007P0.03Sb0.01 (1); Fe0.241Co0.063Si0.686Ge0.06Cu0.007P0.03Sb0.02 (1)
 - dopant candidates (<5% at.): P (9), Cu (9), Sb (2)
+- curator composition details (from the paper): (((Fe0.95Co0.05)0.294Si0.706)0.95Ge0.05)0.9868Cu0.0132P0.029604 (1); (((Fe0.95Co0.05)0.27Si0.73)0.94Ge0.06)0.9868Cu0.0132P0.029604 (1); (((Fe0.95Co0.05)0.27Si0.73)0.94Ge0.06)0.9868Cu0.0132P0.039472 (1); (((Fe0.95Co0.05)0.27Si0.73)0.94Ge0.06)0.9868Cu0.0132P0.04934 (1); (((Fe0.95Co0.05)0.27Si0.73)0.94Ge0.06)0.9934Cu0.0066P0.029802Sb0.009934 (1)
 - sample form: Bulk (9)
 - measured range: 303-1073 K (5th-95th pct of 37 curves)
 - papers: https://doi.org/10.1002/adfm.201903157 (Improved Thermoelectric Performance of Eco‐Friendly β‐FeSi\n          ...)
@@ -310,6 +315,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 736 | 9 samples | 3 papers | 5 compositions
 - compositions: Zr0.5Hf0.5Ni0.8Pd0.2Sn0.99Sb0.01 (4);  Zr0.5Hf0.5Ni0.8Pd0.2Sn0.99Sb0.01 (2); Zr0.5Hf0.5Ni0.5Pd0.5Sn0.99Sb0.01 (1); (Zr0.5Hf0.5Ni0.8Pd0.2Sn0.99Sb0.01)92.9(HfO2)7.1 (1); (Zr0.5Hf0.5Ni0.8Pd0.2Sn0.99Sb0.01)97.03(HfO2)2.97 (1)
 - dopant candidates (<5% at.): Sb (9), O (2)
+- curator composition details (from the paper): containing 6 vol % ZrO2 nanoinclusions (1); containing 9 vol % ZrO2 nanoinclusions (1); containing 3 vol % ZrO2 nanoinclusions (1)
 - sample form: Bulk (4)
 - measured range: 296-1001 K (5th-95th pct of 42 curves)
 - papers: https://doi.org/10.1063/1.2180432 (The high temperature thermoelectric performances of Zr0.5Hf0.5Ni0.8Pd0...) | https://doi.org/10.1063/1.1425459 (Effects of partial substitution of Ni by Pd on the thermoelectric prop...) | https://doi.org/10.1557/proc-1267-dd06-12 (Structure and Thermoelectric Properties Correlation in half-Heusler Zr...)
@@ -333,6 +339,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## In-Sb-Zn
 - rank 739 | 9 samples | 3 papers | 6 compositions
 - compositions: Zn5Sb4In1.85 (4); (ZnSb)60(InSb)40 (1); (ZnSb)50(InSb)50 (1); (ZnSb)80(InSb)20 (1); (ZnSb)70(InSb)30 (1); (ZnSb)90(InSb)10 (1)
+- curator composition details (from the paper): Zn5Sb4In2-x (1)
 - sample form: Other (5); Bulk (1)
 - measured range: 10-623 K (5th-95th pct of 24 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Zn9(InSb3)2 P2_12_12_1 (19) mp-1202823 [hull=0.046, icsd=2, PRIMARY]
@@ -364,6 +371,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 743 | 9 samples | 5 papers | 4 compositions
 - compositions: Nd2Zr2O7 (6); (Nd)2Zr2O7 (1); (Nd0.8Yb0.2)2Zr2O7 (1); (Nd0.8Ce0.2)2Zr2O7.2 (1)
 - dopant candidates (<5% at.): Yb (1), Ce (1)
+- curator composition details (from the paper): Nd2Zr2O7(Phases present : Pyrochlore + Fluorite) (1)
 - sample form: Bulk (3)
 - measured range: 293-1470 K (5th-95th pct of 9 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Nd2Zr2O7 Fd-3m (227) mp-5977 [hull=0.000, icsd=8, PRIMARY]; Nd16Zr16O49 P1 (1) mp-675021 [hull=0.071, PRIMARY]; Nd2Zr8O19 Pmm2 (25) mp-675068 [hull=0.117, PRIMARY]; Nd3GdZr4O14 R-3m (166) mp-1220577 [hull=0.364, PRIMARY]; Nd3HoZr4O14 R-3m (166) mp-1220266 [hull=0.034, PRIMARY]
@@ -372,6 +380,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ni-Sn-Zn
 - rank 744 | 9 samples | 2 papers | 5 compositions
 - compositions: ZnNiSn (5); Zn27.0Ni40.4Sn32.6 (1); Zn29.5Ni38.2Sn32.3 (1); Zn27.7Ni39.1Sn33.2 (1); Zn29.6Ni37.5Sn32.8 (1)
+- curator composition details (from the paper): short-duration microgravity (3); solidified in normal gravity (1-g) (2)
 - sample form: Film (4)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 300-1001 K (5th-95th pct of 24 curves)
 - papers: https://doi.org/10.1007/s11664-014-3610-7 (Thermoelectric Properties of Amorphous Zr-Ni-Sn Thin Films Deposited b...) | https://doi.org/10.1088/1742-6596/327/1/012008 (Preparation of ZrNiSn half-Heusler compounds with crystalline alignmen...)

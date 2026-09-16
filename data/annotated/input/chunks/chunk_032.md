@@ -84,6 +84,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## B-C-O-Y
 - rank 1560 | 3 samples | 1 papers | 1 compositions
 - compositions: YBCO (3)
+- curator composition details (from the paper): YBCO (1)
 - sample form: SingleCrystal (2); Polycrystal (1)
 - measured range: 30-140 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): YBCO7 Pbca (61) mp-1197370 [hull=0.560, icsd=1, PRIMARY]
@@ -93,6 +94,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1561 | 3 samples | 2 papers | 3 compositions
 - compositions: (TiB2)73.61(SiC)11.27(C)15.12 (1); (TiB2)0.1(C)0.9 (1); (TiB2)0.2(C)0.8 (1)
 - dopant candidates (<5% at.): Si (1)
+- curator composition details (from the paper): 10mol% TiB2-doped graphites (1); TiB2-doped graphites (1)
 - sample form: SingleCrystal (2)
 - measured range: 298-1016 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TiBC P6_3/mmc (194) mp-1232377 [hull=0.307, PRIMARY]
@@ -131,6 +133,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1566 | 3 samples | 3 papers | 2 compositions
 - compositions: ErB12 (2); Er1.12B17.64CN (1)
 - dopant candidates (<5% at.): C (1), N (1)
+- curator composition details (from the paper): 8% ErB6 and 4% ErB4 was added to ErB17CN (1)
 - measured range: 11-1037 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ErB4 P4/mbm (127) mp-2847 [hull=0.000, icsd=5, PRIMARY]; ErB6 Pm-3m (221) mp-1296 [hull=0.054, icsd=4, PRIMARY]; ErB2 P6/mmm (191) mp-1774 [hull=0.000, icsd=3, PRIMARY]; ErB12 Fm-3m (225) mp-1104598 [hull=0.000, icsd=1, PRIMARY]; Ca(Er2B15)2 P4/mmm (123) mp-1227415 [hull=0.051, PRIMARY]
 - papers: https://doi.org/10.1109/ict.2007.4569503 (Doping effect in N-type rare earth boron carbonitrides) | https://doi.org/10.1016/0925-8388(94)05070-8 (Transition and rare earth element dodecaborides) | https://doi.org/10.1007/bf01164105 (Thermal conductivity of metal dodecaborides with a UB12 structure)
@@ -208,6 +211,8 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1576 | 3 samples | 1 papers | 3 compositions
 - compositions: BaBiO3 (1); BaBi0.9Sb0.1O3 (1); BaBi0.8Sb0.2O3 (1)
 - dopant candidates (<5% at.): Sb (2)
+- curator composition details (from the paper): The logarithmic values in Fig 10A were converted by making them exponents of 10
+original ... (1)
 - measured range: 417-971 K (5th-95th pct of 3 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): BaBiO3 C2/m (12) mp-22942 [hull=0.000, icsd=10, PRIMARY]; Ba2Bi2O5 P2_1/c (14) mp-28670 [hull=0.000, icsd=1, PRIMARY]; Ba13Bi11O36 P-1 (2) mp-758120 [hull=0.000, PRIMARY]; Ba10Ce(Bi3O10)3 P-1 (2) mp-1228865 [hull=0.000, PRIMARY]; Ba2Bi6O11 C2/m (12) mp-674537 [hull=0.242, PRIMARY]
 - papers: https://doi.org/10.1016/j.ssc.2012.02.025 (Electrical conduction and thermoelectric properties of perovskite-type...)
@@ -222,6 +227,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-C-Co-O
 - rank 1578 | 3 samples | 1 papers | 1 compositions
 - compositions: Ba3Co2O6(CO3)0.7 (3)
+- curator composition details (from the paper): single crystal (1)
 - sample form: Bulk (2)
 - measured range: 298-1109 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1063/1.3174428 (Thermoelectric properties of Ba3Co2O6(CO3)0.7 containing one-dimension...)
@@ -237,6 +243,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Co-Fe-Sb
 - rank 1580 | 3 samples | 2 papers | 3 compositions
 - compositions: Ba0.9Fe2Co2Sb12 (1); BaFe3Co1Sb12 (1); Ba0.86Fe3CoSb12 (1)
+- curator composition details (from the paper): see Fig. 1 (2)
 - sample form: Bulk (1)
 - measured range: 15-493 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1143/jjap.45.4025 (Effects of Co Substitution on Magnetic and Thermoelectric Properties o...) | https://doi.org/10.1016/j.physb.2006.03.078 (Magnetic and thermoelectric properties of BayFe4−xCoxSb12)
@@ -258,6 +265,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1583 | 3 samples | 2 papers | 2 compositions
 - compositions: PrBaCuFeO5 (2); La0.25Pr0.75BaCuFeO5 (1)
 - dopant candidates (<5% at.): La (1)
+- curator composition details (from the paper): La1−xPrxBaCuFeO5+δ (2)
 - measured range: 294-1085 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba4Pr4Fe4Cu4O21 I4/mmm (139) mp-1228619 [hull=0.021, PRIMARY]; BaPrFeCuO5 P4mm (99) mp-1206136 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1134/s1063783409020073 (Thermoelectric properties of layered ferrocuprates LnBaCuFeO5 + δ (Ln=...) | https://doi.org/10.1134/s1087659612020058 (Structure and properties of solid solutions of La1 − x Pr x BaCuFeO5 + δ)

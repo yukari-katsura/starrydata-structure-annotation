@@ -147,6 +147,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ge-O-Sb-Ta-Te
 - rank 3318 | 1 samples | 1 papers | 1 compositions
 - compositions: (Ge2Sb2Te3)80.8(Ta2O5)19.2 (1)
+- curator composition details (from the paper): thin film (1)
 - measured range: 305-571 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1063/1.3544432 (Stress reduction and performance improvement of phase change memory ce...)
 
@@ -154,6 +155,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3319 | 1 samples | 1 papers | 1 compositions
 - compositions: (Ge2Sb2Te3)83.9(Ta2O5)16.1 (1)
 - dopant candidates (<5% at.): Ta (1)
+- curator composition details (from the paper): thin film (1)
 - measured range: 305-570 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1063/1.3544432 (Stress reduction and performance improvement of phase change memory ce...)
 
@@ -297,6 +299,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## H-Li-O-P
 - rank 3338 | 1 samples | 1 papers | 1 compositions
 - compositions: LiH2PO4 (1)
+- curator composition details (from the paper): polycrystalline (1)
 - measured range: 149-399 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): LiPH2O3 Pna2_1 (33) mp-23931 [hull=0.000, icsd=3, PRIMARY]; LiP(HO2)2 Pna2_1 (33) mp-24610 [hull=0.000, icsd=3, PRIMARY]; Li2PH3O4 P2_1/c (14) mp-1198271 [hull=0.009, icsd=2, PRIMARY]; LiP(HO)2 C2/m (12) mp-642650 [hull=0.015, icsd=2, PRIMARY]; Li4P5HO15 P-1 (2) mp-765567 [hull=0.002, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1063/1.3605245 (Nuclear magnetic resonance study of the superprotonic conduction in Li...)
@@ -311,6 +314,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## H-O-P-V
 - rank 3340 | 1 samples | 1 papers | 1 compositions
 - compositions: VPO5(H2O)2 (1)
+- curator composition details (from the paper): vanadyl phosphate dihydrate (1)
 - measured range: 201-413 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): V2NiP2(H4O7)2 I4/m (87) mp-25608 [hull=0.008, icsd=2, PRIMARY]; V2CoP2(H4O7)2 I4/m (87) mp-25478 [hull=0.009, icsd=2, PRIMARY]; VPH5O7 P2_1/c (14) mp-1195952 [hull=0.007, icsd=2, PRIMARY]; KV2P2H4O13 P-1 (2) mp-643841 [hull=0.114, icsd=1, PRIMARY]; V2P2H2O11 Pmmn (59) mp-1198775 [hull=0.055, icsd=1, PRIMARY]
 - papers: https://doi.org/10.1016/0025-5408(94)90126-0 (Thermomechanical and thermoelectrical properties of vanadyl phosphate ...)
@@ -341,6 +345,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 3344 | 1 samples | 1 papers | 1 compositions
 - compositions: TiS2(C6H16N)0.025 (1)
 - dopant candidates (<5% at.): C (1), N (1)
+- curator composition details (from the paper): HA:Hexylammonium C6H16N (1)
 - sample form: multilayer film (1)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 299-413 K (5th-95th pct of 5 curves)
 - papers: https://doi.org/10.1038/s41467-017-01149-4 (Ultrahigh thermoelectric power factor in flexible hybrid inorganic-org...)
@@ -348,6 +353,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## H-U-Zr
 - rank 3345 | 1 samples | 1 papers | 1 compositions
 - compositions: U23.87(ZrH1.6)76.13 (1)
+- curator composition details (from the paper): hydrided 45% U-Zr (1)
 - sample form: Bulk (1)
 - measured range: 292-766 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/s0022-3115(01)00444-5 (Thermal properties of hydride fuel 45% U–ZrH1.6)

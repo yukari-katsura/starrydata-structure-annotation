@@ -37,6 +37,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1453 | 4 samples | 1 papers | 4 compositions
 - compositions: In12Ti10Al2MgO42 (1); In12Ti10Al2ZnO42 (1); In12Ti10Ga2MgO42 (1); In12Ti10Ga2ZnO42 (1)
 - dopant candidates (<5% at.): Al (2), Mg (2), Zn (2), Ga (2)
+- curator composition details (from the paper): bulk (pressed and sintered) (8)
 - measured range: 297-845 K (5th-95th pct of 4 curves)
 - papers: https://doi.org/10.1111/jace.15920 (Phase stability, microstructure, and dielectric properties of quaterna...)
 
@@ -44,6 +45,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1454 | 4 samples | 3 papers | 4 compositions
 - compositions: In4Se0.5Te2.5 (1); In2(Te0.90Se0.10)5 (1); Fe0.05In1.95(Te0.90Se0.10)5 (1); In4(Se0.83Te0.17)3 (1)
 - dopant candidates (<5% at.): Fe (1)
+- curator composition details (from the paper): wt% (1)
 - sample form: Bulk (2); SingleCrystal (2)
 - solid-solution axis: Se/(Se+Te) spans 0.10-0.83 (median 0.17) over 4 compositions
      ISOELECTRONIC SERIES: the parent compound depends on the composition, not on this host. Near either end the minor element is a dilute substituent; in the middle it is a genuine alloy. Record the axis, not one parent -- and note the 5% split used the whole formula, not the sublattice, so its cut lands at a different level on each site.
@@ -53,6 +55,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ir-Na-O
 - rank 1455 | 4 samples | 1 papers | 2 compositions
 - compositions: Na3Ir3O8 (2); Na3.6Ir3O8 (2)
+- curator composition details (from the paper): Na3.6Ir3O8 (1)
 - sample form: SingleCrystal (2)
 - measured range: 11-291 K (5th-95th pct of 4 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Na2IrO3 C2/m (12) mp-754844 [hull=0.000, icsd=1, PRIMARY]; Na4IrO4 I4/m (87) mp-28698 [hull=0.000, icsd=1, PRIMARY]; NaIrO3 Cmcm (63) mp-1079568 [hull=0.000, icsd=1, PRIMARY]
@@ -143,6 +146,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1467 | 4 samples | 2 papers | 4 compositions
 - compositions: MgTi2O5(TiN)0.359 (1); MgTi2O5 (1); MgTi2.67O6.34(TiN)0.455 (1); Ti0.73Mg0.27O (1)
 - dopant candidates (<5% at.): N (2)
+- curator composition details (from the paper): laser-ablating (1)
 - sample form: Bulk (3)
 - measured range: 11-973 K (5th-95th pct of 16 curves)
 - [ref 1] TEDesignLab / ICSD: MgTiO3 R-3 (148) mp-3771 [hull=0.000, icsd=30, PRIMARY]; MgTi2O4 P4_12_12 (92) mp-1194382 [hull=0.017, icsd=1, PRIMARY, AMBIGUOUS]
@@ -163,6 +167,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1469 | 4 samples | 2 papers | 2 compositions
 - compositions: Tb8.7Mg34.6Zn56.8_IQC (3); Y1.08Tb7.92Mg42Zn57 (1)
 - dopant candidates (<5% at.): Y (1)
+- curator composition details (from the paper): (Y12xTbx)-Mg-Zn, Mg and Zn ratios are not specified (1)
 - measured range: 10-297 K (5th-95th pct of 5 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): TbMgZn2 Fm-3m (225) mp-1187349 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1080/13642819808206407 (Growth of large-grain R-Mg-Zn quasicrystals from the ternary melt (R =...) | https://doi.org/10.1103/physrevb.59.308 (Magnetic and transport properties of single-grainR−Mg−Znicosahedral qu...)
@@ -251,6 +256,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1479 | 4 samples | 2 papers | 2 compositions
 - compositions: NbON0.17 (2); Nb0.36Ru0.04O0.52N0.07 (2)
 - dopant candidates (<5% at.): Ru (2)
+- curator composition details (from the paper): 46 at.% Nb, 46 at.% O, 8 at.% N (1); Combinatorial reactive sputtering (1)
 - sample form: Film (2)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 333-1277 K (5th-95th pct of 6 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): NbNO P2_1/c (14) mp-7596 [hull=0.000, icsd=3, PRIMARY]; Nb10N11O Pc (7) mp-1173557 [hull=0.040, PRIMARY]; Nb40(NO)17 R3m (160) mp-676894 [hull=0.459, PRIMARY]; Nb27N37O3 Cm (8) mp-1173578 [hull=0.109, PRIMARY]; Nb40N21O16 P1 (1) mp-685674 [hull=0.408, PRIMARY]
@@ -259,6 +265,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## N-Nb-O-Ru
 - rank 1480 | 4 samples | 1 papers | 2 compositions
 - compositions: Nb0.38Ru0.06O0.48N0.07 (2); Nb0.29Ru0.07O0.58N0.06 (2)
+- curator composition details (from the paper): Combinatorial reactive sputtering (2)
 - sample form: Film (2)   <-- film/epitaxial samples present: a metastable polymorph may be reachable here that never forms in bulk
 - measured range: 334-927 K (5th-95th pct of 6 curves)
 - papers: https://doi.org/10.1016/j.physb.2015.10.001 (Enhanced thermoelectric performance of amorphous Nb based oxynitrides)
@@ -381,6 +388,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 - rank 1496 | 4 samples | 1 papers | 1 compositions
 - compositions: (Zn0.993Al0.007O)85.86(ZrO2)14.14 (4)
 - dopant candidates (<5% at.): Al (4)
+- curator composition details (from the paper): TZ (Tosoh zirconia) was prepared based on Tosoh grade TZ- 0 ZrO2 with a particle size of 2... (1); ZN was used ZrO2 nanopowder provided by Sigma-Aldrich with a particle size below 100 nm. (1)
 - sample form: Bulk (2)
 - measured range: 423-1223 K (5th-95th pct of 12 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): ZrZnO3 Pm-3m (221) mp-1016883 [hull=0.759, PRIMARY]

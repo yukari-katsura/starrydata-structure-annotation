@@ -288,12 +288,14 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Co-Fe-O-Pr
 - rank 2638 | 1 samples | 1 papers | 1 compositions
 - compositions: PrBaCoFeO5 (1)
+- curator composition details (from the paper): bulk (pressed and sintered) (1)
 - measured range: 523-1123 K (5th-95th pct of 1 curves)
 - papers: https://doi.org/10.1016/j.jallcom.2016.05.322 (Improved electrochemical performance and thermal expansion compatibili...)
 
 ## Ba-Co-La-O-Sr
 - rank 2639 | 1 samples | 1 papers | 1 compositions
 - compositions: LaBa0.5Sr0.5Co2O5 (1)
+- curator composition details (from the paper): bulk (sintered pellet) (1)
 - measured range: 673-1072 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba4Sr2La2Co4O15 Cc (9) mp-1228696 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1039/c7ra00125h (Oxygen permeation, thermal expansion behavior and electrochemical prop...)
@@ -301,6 +303,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Co-O-Sm-Sr
 - rank 2640 | 1 samples | 1 papers | 1 compositions
 - compositions: SmBa0.5Sr0.5Co2O5 (1)
+- curator composition details (from the paper): bulk (1)
 - measured range: 574-1071 K (5th-95th pct of 1 curves)
 - [ref 2] MP, ranked by ICSD evidence (no TEDesignLab entry): Ba4Sr2Sm2Co4O15 P1 (1) mp-1228582 [hull=0.000, PRIMARY]
 - papers: https://doi.org/10.1016/j.electacta.2016.04.069 (Electrical, thermal and electrochemical properties of SmBa1−xSrxCo2O5+...)
@@ -348,6 +351,7 @@ Both references describe which phases EXIST in a chemistry, not which phase this
 ## Ba-Cu-Fe-La-O-Pr
 - rank 2647 | 1 samples | 1 papers | 1 compositions
 - compositions: La0.5Pr0.5BaCuFeO5 (1)
+- curator composition details (from the paper): La1−xPrxBaCuFeO5+δ (1)
 - measured range: 305-1057 K (5th-95th pct of 2 curves)
 - papers: https://doi.org/10.1134/s1087659612020058 (Structure and properties of solid solutions of La1 − x Pr x BaCuFeO5 + δ)
 
