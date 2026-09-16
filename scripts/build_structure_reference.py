@@ -339,8 +339,13 @@ def main():
     def ground_states(g):
         """Lowest-hull entry for each of the best-attested formulas."""
         out = []
-        order = (g.groupby('reduced_formula')['n_icsd'].sum()
-                  .sort_values(ascending=False).index)
+        # Ties are common -- most formulas have zero ICSD references -- and a
+        # groupby's order for tied values is not stable across pandas versions.
+        # Break ties on the formula name so the output is reproducible whatever
+        # interpreter builds it.
+        _s = g.groupby('reduced_formula')['n_icsd'].sum().reset_index()
+        order = (_s.sort_values(['n_icsd', 'reduced_formula'],
+                                ascending=[False, True])['reduced_formula'].tolist())
         for f in list(order)[:4]:
             sub = g[g.reduced_formula == f].sort_values('e_above_hull', na_position='last')
             if sub.empty:
@@ -373,8 +378,13 @@ def main():
 
     cands = []
     for host, g in matched.groupby('host_system'):
-        order = (g.groupby('reduced_formula')['n_icsd'].sum()
-                  .sort_values(ascending=False).index)
+        # Ties are common -- most formulas have zero ICSD references -- and a
+        # groupby's order for tied values is not stable across pandas versions.
+        # Break ties on the formula name so the output is reproducible whatever
+        # interpreter builds it.
+        _s = g.groupby('reduced_formula')['n_icsd'].sum().reset_index()
+        order = (_s.sort_values(['n_icsd', 'reduced_formula'],
+                                ascending=[False, True])['reduced_formula'].tolist())
         for formula in list(order)[:6]:
             t = tdl_by_formula.get(formula)
             m = mp_by_formula.get(formula)

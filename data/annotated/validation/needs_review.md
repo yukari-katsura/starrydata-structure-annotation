@@ -133,7 +133,7 @@ notes:
 **`Bi2Te2Se`** — 13 samples, 8 papers
 - [How to Measure Thermoelectric Properties Reliably](https://doi.org/10.1016/j.joule.2018.10.020) (2018) — 6 samples
 - [Point Defect Engineering of High-Performance Bismuth-Telluride-Based Thermoelectric Materials](https://doi.org/10.1002/adfm.201400474) (2014) — 1 samples
-- [Thermoelectric properties of Bi2Te3microwires](https://doi.org/10.1002/pssc.201300202) (2014) — 1 samples
+- [Improved thermoelectric performance of Bi2Se3 alloyed Bi2Te3 thin films via low pressure chemic...](https://doi.org/10.1016/j.jallcom.2020.156523) (2020) — 1 samples
 
 **Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
 
@@ -177,8 +177,8 @@ notes:
 
 **`Mg2Si0.98Bi0.02`** — 7 samples, 4 papers
 - [Sb- and Bi-doped Mg2Si: location of the dopants, micro- and nanostructures, electronic structur...](https://doi.org/10.1039/c4dt01177e) (2014) — 4 samples
-- [Thermoelectric Properties and Electronic Structure of Bi- and Ag-Doped Mg2Si1−x Ge x Compounds](https://doi.org/10.1007/s11664-009-0735-1) (2009) — 1 samples
 - [Effect of Bi-doping and Mg-excess on the thermoelectric properties of Mg2Si materials](https://doi.org/10.1016/j.jpcs.2014.04.008) (2014) — 1 samples
+- [Thermoelectric Properties and Electronic Structure of Bi- and Ag-Doped Mg2Si1−x Ge x Compounds](https://doi.org/10.1007/s11664-009-0735-1) (2009) — 1 samples
 
 **Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
 
@@ -438,17 +438,17 @@ notes:
 **`La0.9Sr0.1CoO3`** — 18 samples, 13 papers
 - [Thermoelectric properties of p-type perovskite compounds LaCoO3systems containing the A-site va...](https://doi.org/10.1088/1757-899x/18/14/142005) (2011) — 5 samples
 - [Fabrication and thermoelectric properties of perovskite-type oxide La1−xSrxCoO3 (x=0, 0.1)](https://doi.org/10.1016/j.jallcom.2005.12.127) (2008) — 2 samples
-- [Thermoelectric properties of perovskite oxides La1−x Sr x CoO3 prepared by polymerlized complex...](https://doi.org/10.1007/s10853-007-2365-4) (2008) — 1 samples
+- [Synthesis, sintering, and thermoelectric properties of the solid solution La1–xSrxCoO3±δ (0 ≤ x...](https://doi.org/10.1007/s40145-018-0267-3) (2018) — 1 samples
 
 **`La0.8Sr0.2CoO3`** — 14 samples, 12 papers
 - [Exploring the thermoelectric behavior of intrinsic and defect induced LaCoO3 with selected alka...](https://doi.org/10.1016/j.jallcom.2020.157507) (2021) — 3 samples
-- [Thermoelectric properties of perovskite oxides La1−x Sr x CoO3 prepared by polymerlized complex...](https://doi.org/10.1007/s10853-007-2365-4) (2008) — 1 samples
-- [Properties of oxides for high temperature solid electrolyte fuel cell](https://doi.org/10.1016/0167-2738(83)90122-4) (1983) — 1 samples
+- [Thermal Expansion and Electrical Conductivity of Perovskite Oxide (Ln1-xSrx)CoO3-.DELTA. (Ln=La...](https://doi.org/10.2109/jcersj.112.342) (2004) — 1 samples
+- [The Thermoelectric Power of La[sub 1−x]Sr[sub x]CoO[sub 3−y]](https://doi.org/10.1149/1.2128803) (1979) — 1 samples
 
 **`La0.95Sr0.05CoO3`** — 9 samples, 7 papers
 - [Simple chemical solution deposition and thermoelectric properties of epitaxial La0.95Sr0.05CoO3...](https://doi.org/10.1016/j.matlet.2011.03.014) (2011) — 3 samples
 - [Thermoelectric properties of perovskite oxides La1−x Sr x CoO3 prepared by polymerlized complex...](https://doi.org/10.1007/s10853-007-2365-4) (2008) — 1 samples
-- [Synthesis, sintering, and thermoelectric properties of the solid solution La1–xSrxCoO3±δ (0 ≤ x...](https://doi.org/10.1007/s40145-018-0267-3) (2018) — 1 samples
+- [Thermoelectric and transport properties of La0.95Sr0.05CoO3](https://doi.org/10.1016/j.jcrysgro.2005.09.021) (2006) — 1 samples
 
 **Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
 
@@ -492,8 +492,8 @@ notes:
 
 **`SnSe2`** — 5 samples, 4 papers
 - [Interface tuning charge transport and enhanced thermoelectric properties in flower-like SnSe2 h...](https://doi.org/10.1016/j.apsusc.2020.145478) (2020) — 2 samples
+- [Cu-Embedded SnSe2 with a High Figure of Merit at Ecofriendly Temperature](https://doi.org/10.1021/acsomega.0c01160) (2020) — 1 samples
 - [Cu Intercalation and Br Doping to Thermoelectric SnSe\n            2\n            Lead to Ultra...](https://doi.org/10.1002/adfm.201908405) (2019) — 1 samples
-- [Phase structure, phase transition and thermoelectric properties of pristine and Br doped SnSe2](https://doi.org/10.1016/j.jssc.2020.121468) (2020) — 1 samples
 
 **Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
 
@@ -576,7 +576,7 @@ notes:
 **`SrCoO3`** — 20 samples, 17 papers
 - [Anomalous Hall effect and spin fluctuations in ionic liquid gated \n<mml:math xmlns:mml=\"http:...](https://doi.org/10.1103/physrevb.97.184433) (2018) — 3 samples
 - [Relationship between transport properties and phase transformations in mixed-conducting oxides](https://doi.org/10.1016/j.jssc.2005.10.027) (2006) — 2 samples
-- [Phosphorus‐Doped Perovskite Oxide as Highly Efficient Water Oxidation Electrocatalyst in Alkali...](https://doi.org/10.1002/adfm.201601902) (2016) — 1 samples
+- [Super‐Exchange Interaction Induced Overall Optimization in Ferromagnetic Perovskite Oxides Enab...](https://doi.org/10.1002/smll.201903120) (2019) — 1 samples
 
 **`SrCo0.9Nb0.1O3`** — 13 samples, 8 papers
 - [Bulk Properties of the Oxygen Reduction Catalyst SrCo<sub>0.9</sub>Nb<sub>0.1</sub>O<sub>3−δ</sub>](https://doi.org/10.1021/acs.chemmater.5b04783) (2016) — 5 samples
@@ -586,12 +586,12 @@ notes:
 **`SrCo0.8Fe0.2O3`** — 11 samples, 8 papers
 - [Phase equilibrium and electrical conductivity of SrCo0.8Fe0.2O3−δ](https://doi.org/10.1016/j.jssc.2004.03.026) (2004) — 3 samples
 - [Effect of La3+ doping on the perovskite-to-brownmillerite transformation in Sr1−xLaxCo0.8Fe0.2O...](https://doi.org/10.1016/j.ssi.2003.12.006) (2004) — 2 samples
-- [Electrical conductivity and structural stability of SrCo1−xFexO3−δ](https://doi.org/10.1016/j.jpcs.2010.10.084) (2011) — 1 samples
+- [SrAl2O4-improved SrCo0.8Fe0.2O3−δ mixed-conducting membrane for effective production of hydroge...](https://doi.org/10.1016/j.memsci.2009.01.023) (2009) — 1 samples
 
 **`Sr6Co5O15`** — 10 samples, 4 papers
 - [Controlling independently the electric and thermal properties by shrinking the particle size do...](https://doi.org/10.1103/physrevb.82.085110) (2010) — 6 samples
 - [Electrical resistivity and Seebeck coefficient of Sr6Co5O15](https://doi.org/10.1016/j.jallcom.2004.01.060) (2004) — 2 samples
-- [A new thermoelectric misfit cobaltite: [Sr2CoO3][CoO2]1.8](https://doi.org/10.1016/j.solidstatesciences.2003.12.004) (2004) — 1 samples
+- [Electrical Conductivity and Seebeck Coefficient of Sr6Co5O14.3Single Crystal](https://doi.org/10.1143/jjap.46.256) (2007) — 1 samples
 
 **Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
 
@@ -761,18 +761,18 @@ notes:
 
 **`La0.67Ca0.33MnO3`** — 10 samples, 9 papers
 - [Magnetization dynamics in La<sub>0.67</sub>Ca<sub>0.33</sub>MnO<sub>3</sub> epitaxial films pro...](https://doi.org/10.1063/1.4905262) (2015) — 2 samples
-- [Charge-carrier density collapse in and epitaxial thin films](https://doi.org/10.1007/s100510051059) (2000) — 1 samples
-- [Effects of V doping in La0.67Ca0.33MnO3: Resistivity, magnetization, thermoelectric power and t...](https://doi.org/10.1016/j.jallcom.2009.04.068) (2009) — 1 samples
+- [Large temperature coefficient of resistivity (TCR) of La1-Ca MnO3 films prepared by spin-coatin...](https://doi.org/10.1016/j.jallcom.2021.161788) (2022) — 1 samples
+- [Characterization of transport and magnetic properties in thin film La0.67(CaxSr1−x)0.33MnO3 mix...](https://doi.org/10.1063/1.370162) (1999) — 1 samples
 
 **`La0.5Ca0.5MnO3`** — 9 samples, 7 papers
 - [Influence of Te doping on the perovskite manganite La0.5Ca0.5MnO3](https://doi.org/10.1016/j.ssc.2006.04.021) (2006) — 3 samples
+- [Effects of Fe doping on the thermal hysteresis of the La0.5Ca0.5MnO3 system](https://doi.org/10.1039/c6ra27974k) (2017) — 1 samples
 - [B-site bismuth doping effect on structural, magnetic and magnetotransport properties of La0.5Ca...](https://doi.org/10.1016/j.ceramint.2014.10.163) (2015) — 1 samples
-- [Microstructural and magnetotransport properties of La1−xCaxMnO3 (0.45≤x≤0.60) thin films](https://doi.org/10.1016/j.jallcom.2012.03.111) (2012) — 1 samples
 
 **`La0.625Ca0.375MnO3`** — 6 samples, 3 papers
 - [Thermal and Electronic Transport Properties and Two-Phase Mixtures inLa5/8−xPrxCa3/8MnO3](https://doi.org/10.1103/physrevlett.84.2961) (2000) — 4 samples
-- [Large temperature coefficient of resistivity (TCR) of La1-Ca MnO3 films prepared by spin-coatin...](https://doi.org/10.1016/j.jallcom.2021.161788) (2022) — 1 samples
 - [Competition between coexisting phases in (La,Pr)CaMnO3 manganites](https://doi.org/10.1063/1.2786570) (2007) — 1 samples
+- [Large temperature coefficient of resistivity (TCR) of La1-Ca MnO3 films prepared by spin-coatin...](https://doi.org/10.1016/j.jallcom.2021.161788) (2022) — 1 samples
 
 **Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
 
@@ -803,8 +803,8 @@ notes:
 
 **`Pb0.6Sn0.4Te`** — 9 samples, 3 papers
 - [Pressure-induced band cross-over in Pb1−x Sn x Te](https://doi.org/10.1007/bf02744293) (1987) — 7 samples
-- [Tailoring of Electronic Structure and Thermoelectric Properties of a Topological Crystalline In...](https://doi.org/10.1002/anie.201508492) (2015) — 1 samples
 - [Electronic structure modulation of Pb0.6Sn0.4Te via zinc doping and its effect on the thermoele...](https://doi.org/10.1016/j.jallcom.2021.159681) (2021) — 1 samples
+- [Tailoring of Electronic Structure and Thermoelectric Properties of a Topological Crystalline In...](https://doi.org/10.1002/anie.201508492) (2015) — 1 samples
 
 **`Pb0.73Sn0.27Te`** — 6 samples, 1 papers
 - [Increase in the thermoelectric power produced by mechanically alloyed Pb1−x Snx Te due to the p...](https://doi.org/10.1063/1.3651173) (2011) — 6 samples
@@ -972,18 +972,18 @@ notes:
 
 **`In4Se2.35`** — 7 samples, 5 papers
 - [Peierls distortion as a route to high thermoelectric performance in In4Se3-δ crystals](https://doi.org/10.1038/nature08088) (2009) — 3 samples
+- [Improvement in the thermoelectric performance of the crystals of halogen-substituted In4Se3−xH0...](https://doi.org/10.1039/c2jm16369a) (2012) — 1 samples
 - [Thermoelectric Properties of Indium-Selenium Nanocomposites Prepared by Mechanical Alloying and...](https://doi.org/10.1007/s11664-012-1940-x) (2012) — 1 samples
-- [Preparation and Thermoelectric Properties of Polycrystalline In4Sn3−x by Mechanical Alloying an...](https://doi.org/10.1007/s11664-012-1948-2) (2012) — 1 samples
 
 **`InSe`** — 5 samples, 4 papers
 - [Enhanced thermoelectric transport properties of n-type InSe due to the emergence of the flat ba...](https://doi.org/10.1039/c9qi00210c) (2019) — 2 samples
-- [Optical and low-temperature thermoelectric properties of phase-pure p-type InSe thin films](https://doi.org/10.1007/s00339-015-9237-6) (2015) — 1 samples
 - [Thermoelectric Properties of Indium-Selenium Nanocomposites Prepared by Mechanical Alloying and...](https://doi.org/10.1007/s11664-012-1940-x) (2012) — 1 samples
+- [Optical and low-temperature thermoelectric properties of phase-pure p-type InSe thin films](https://doi.org/10.1007/s00339-015-9237-6) (2015) — 1 samples
 
 **`In4Se2.5`** — 4 samples, 4 papers
-- [Enhancement of the Thermoelectric Performance of Polycrystalline In4Se2.5by Copper Intercalatio...](https://doi.org/10.1002/aenm.201300599) (2013) — 1 samples
-- [Multiple heteroatom induced carrier engineering and hierarchical nanostructures for high thermo...](https://doi.org/10.1039/c4ta05508j) (2015) — 1 samples
+- [Effect of selenium deficiency on the thermoelectric properties ofn-type In4Se3−xcompounds](https://doi.org/10.1103/physrevb.83.115201) (2011) — 1 samples
 - [Thermoelectric properties and anisotropic electronic band structure on the In4Se3−x compounds](https://doi.org/10.1063/1.3266579) (2009) — 1 samples
+- [Enhancement of the Thermoelectric Performance of Polycrystalline In4Se2.5by Copper Intercalatio...](https://doi.org/10.1002/aenm.201300599) (2013) — 1 samples
 
 **Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
 
@@ -1103,9 +1103,9 @@ notes:
 - [Thermal Conductivity of Boron and Some Boron Compounds](https://doi.org/10.1103/physrevb.4.1714) (1971) — 2 samples
 
 **`B`** — 11 samples, 8 papers
-- [Thermoelectric Properties of Boron and Boron Phosphide CVD Wafers](https://doi.org/10.1006/jssc.1997.7493) (1997) — 2 samples
-- [Seebeck Coefficient and Power Factor of Single-Crystalline Boron Nanobelts](https://doi.org/10.1143/apex.4.041201) (2011) — 2 samples
 - [Effects of Metal Doping on Thermoelectric Properties of Arc-Melted and Hot-Pressed &beta;-Rhomb...](https://doi.org/10.2320/matertrans.e-mra2007890) (2008) — 2 samples
+- [Seebeck Coefficient and Power Factor of Single-Crystalline Boron Nanobelts](https://doi.org/10.1143/apex.4.041201) (2011) — 2 samples
+- [Thermoelectric Properties of Boron and Boron Phosphide CVD Wafers](https://doi.org/10.1006/jssc.1997.7493) (1997) — 2 samples
 
 **`V1.5B105`** — 4 samples, 2 papers
 - [Effects of Metal Doping on Thermoelectric Properties of Arc-Melted and Hot-Pressed &beta;-Rhomb...](https://doi.org/10.2320/matertrans.e-mra2007890) (2008) — 2 samples
@@ -1150,7 +1150,7 @@ notes:
 **`La0.6Sr0.4FeO3`** — 12 samples, 10 papers
 - [Electrical Properties of La<sub>0.6</sub>Sr<sub>0.4</sub>Co<sub>1–<i>y</i></sub>Fe<sub><i>y</i>...](https://doi.org/10.1021/acs.jpcc.5b09696) (2015) — 2 samples
 - [Doping Effects of Pentavalent Metal Ions (Nb<sup>5+</sup> or Ta<sup>5+</sup>) on the Redox Stab...](https://doi.org/10.1002/bkcs.12068) (2020) — 2 samples
-- [Structure and mixed electronic-ionic conducting properties of La0.6Sr0.4Co1−y Fe y O3(y=0−1.0) ...](https://doi.org/10.1007/s11595-006-1080-3) (2008) — 1 samples
+- [Enhanced CO<sub>2</sub> electrolysis with synergistic doping in perovskite cathode materials](https://doi.org/10.1039/d1nj05033h) (2022) — 1 samples
 
 **`La0.5Sr0.5Al0.2Fe0.8O3`** — 11 samples, 3 papers
 - [Grain size dependent electrical conductivity, chemical surface exchange and bulk diffusion coef...](https://doi.org/10.1016/j.jallcom.2019.152831) (2020) — 8 samples
@@ -1243,8 +1243,8 @@ notes:
 
 **`La0.5Sr0.5CoO3`** — 9 samples, 8 papers
 - [Transport and Magnetic Properties of R1-xAxCoO3(R = La, Pr and Nd; A = Ba, Sr and Ca)](https://doi.org/10.1143/jpsj.72.873) (2003) — 2 samples
-- [Properties of oxides for high temperature solid electrolyte fuel cell](https://doi.org/10.1016/0167-2738(83)90122-4) (1983) — 1 samples
-- [Doping- and Strain-Dependent Electrolyte-Gate-Induced Perovskite to Brownmillerite Transformati...](https://doi.org/10.1021/acsami.1c13828) (2021) — 1 samples
+- [Evaluation of High-temperature Electronic and Electrochemical Properties of the Strained La1^|^...](https://doi.org/10.5796/electrochemistry.82.884) (2014) — 1 samples
+- [New Ceramic Electrode for Piezoelectric Buzzer](https://doi.org/10.7567/jjaps.24s2.736) (1985) — 1 samples
 
 **Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
 
@@ -1275,12 +1275,12 @@ notes:
 **`WO3`** — 15 samples, 12 papers
 - [Thermoelectric properties of Bi2O3-added WO3 ceramics](https://doi.org/10.1016/j.ceramint.2018.09.151) (2019) — 3 samples
 - [Photo-controllable thermoelectric properties with reversibility and photo-thermoelectric effect...](https://doi.org/10.1063/1.4900852) (2014) — 2 samples
-- [Thermoelectric properties of WO3-based ceramics doped with Co2O3](https://doi.org/10.1007/s10854-011-0574-8) (2011) — 1 samples
+- [Microstructure and thermoelectric properties of tungsten trioxide ceramics doped with a low amo...](https://doi.org/10.1007/s10854-013-1353-5) (2013) — 1 samples
 
 **`WO2.90`** — 11 samples, 4 papers
 - [SPS-assisted preparation of the Magnéli phase WO2.90 for thermoelectric applications](https://doi.org/10.1039/c3ta12145c) (2013) — 7 samples
 - [Towards higher zT in early transition metal oxides: optimizing the charge carrier concentration...](https://doi.org/10.1016/j.matpr.2017.12.271) (2018) — 2 samples
-- [Using crystallographic shear to reduce lattice thermal conductivity: high temperature thermoele...](https://doi.org/10.1039/c3cp52361f) (2013) — 1 samples
+- [Enhanced thermoelectric properties of the n-type Magnéli phase WO2.90: reduced thermal conducti...](https://doi.org/10.1039/c4ta01395f) (2014) — 1 samples
 
 **`W0.95Ti0.05O3`** — 6 samples, 1 papers
 - [The disordering effect of Ti observed in the microstructure and electrical properties of W0.95T...](https://doi.org/10.1063/1.3496473) (2010) — 6 samples
@@ -1317,7 +1317,7 @@ notes:
 **`Cu1.8S`** — 13 samples, 9 papers
 - [Synthesis and transport property of Cu1.8S as a promising thermoelectric compound](https://doi.org/10.1039/c1cc16368j) (2011) — 5 samples
 - [Size effect of SiO2on enhancing thermoelectric properties of Cu1.8S](https://doi.org/10.1002/pssa.201330185) (2013) — 1 samples
-- [Enhanced thermoelectric properties of Cu1.8Se1−xSx alloys prepared by mechanical alloying and s...](https://doi.org/10.1016/j.jallcom.2016.04.140) (2016) — 1 samples
+- [Enhanced thermoelectric properties of Cu1.8S by Ti-doping induced secondary phase](https://doi.org/10.1016/j.jallcom.2017.09.305) (2018) — 1 samples
 
 **`Cu1.97S`** — 12 samples, 3 papers
 - [High thermoelectric and mechanical performance in highly dense Cu2−xS bulks prepared by a melt-...](https://doi.org/10.1039/c5ta01667c) (2015) — 10 samples
@@ -1326,8 +1326,8 @@ notes:
 
 **`Cu2S`** — 12 samples, 5 papers
 - [High thermoelectric and mechanical performance in highly dense Cu2−xS bulks prepared by a melt-...](https://doi.org/10.1039/c5ta01667c) (2015) — 8 samples
-- [High Thermoelectric Performance in Non-Toxic Earth-Abundant Copper Sulfide](https://doi.org/10.1002/adma.201400515) (2014) — 1 samples
 - [Electrical and thermoelectric properties of Cu2Se and Cu2S](https://doi.org/10.1016/0025-5408(81)90119-7) (1981) — 1 samples
+- [Economical and Facile Route to Produce Gram-Scale and Phase-Selective Copper Sulfides for Therm...](https://doi.org/10.1021/acssuschemeng.0c05698) (2020) — 1 samples
 
 **`(Cu2S)0.90(Cu5FeS4)0.10`** — 5 samples, 1 papers
 - [Structural, thermoelectric and stability studies of Fe-doped copper sulfide](https://doi.org/10.1016/j.ssi.2020.115322) (2020) — 5 samples
@@ -1375,8 +1375,8 @@ notes:
 
 **`Sr1.8La0.2Nb2O7`** — 5 samples, 3 papers
 - [Large anisotropic thermoelectricity in perovskite related layered structure: SrnNbnO3n+2 (n=4,5)](https://doi.org/10.1063/1.3510585) (2010) — 3 samples
-- [Semiconducting large bandgap oxides as potential thermoelectric materials for high-temperature ...](https://doi.org/10.1007/s00339-014-8515-z) (2014) — 1 samples
 - [Thermoelectric Responses in Layered Strontium-Niobates Via Two Ways of Charge Carrier Control T...](https://doi.org/10.1111/j.1551-2916.2012.05169.x) (2012) — 1 samples
+- [Semiconducting large bandgap oxides as potential thermoelectric materials for high-temperature ...](https://doi.org/10.1007/s00339-014-8515-z) (2014) — 1 samples
 
 **Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
 
@@ -1415,7 +1415,7 @@ notes:
 **`CuAl0.9Fe0.1O2`** — 11 samples, 4 papers
 - [Figures of Merit of Low-Cost CuAl<sub>0.9</sub>Fe<sub>0.1</sub>O<sub>2</sub> Thermoelectric Mat...](https://doi.org/10.4028/www.scientific.net/kem.659.185) (2015) — 8 samples
 - [Effects of mechanical milling on preparation and properties of CuAl1−xFexO2 thermoelectric cera...](https://doi.org/10.1016/j.ceramint.2011.12.079) (2012) — 1 samples
-- [Improvement in thermoelectric properties of CuAlO2 by adding Fe2O3](https://doi.org/10.1016/j.jallcom.2006.07.067) (2007) — 1 samples
+- [Figure of merit improvement of delafossite CuAlO2 with the addition of Fe and graphene](https://doi.org/10.1016/j.jpcs.2019.05.032) (2019) — 1 samples
 
 **`Ca(CuAlO2)99`** — 5 samples, 1 papers
 - [Synergetic improvement strategy on thermoelectric performance of CuAlO2 compacts](https://doi.org/10.1016/j.ceramint.2018.12.004) (2019) — 5 samples
@@ -1465,9 +1465,9 @@ notes:
 - [High Thermoelectric Performance of Bornite through Control of the Cu(II) Content and Vacancy Co...](https://doi.org/10.1021/acs.chemmater.7b04436) (2018) — 1 samples
 
 **`Cu0.95Fe1.05S2`** — 4 samples, 4 papers
-- [Possible Enhancement of Thermoelectric Properties by Use of a Magnetic Semiconductor: Carrier-D...](https://doi.org/10.1007/s11664-013-2485-3) (2013) — 1 samples
 - [Thermoelectric transport properties of diamond-like Cu1−xFe1+xS2 tetrahedral compounds](https://doi.org/10.1063/1.4902849) (2014) — 1 samples
-- [Research Update: Cu–S based synthetic minerals as efficient thermoelectric materials at medium ...](https://doi.org/10.1063/1.4955398) (2016) — 1 samples
+- [High Thermoelectric Power Factor in a Carrier-Doped Magnetic Semiconductor CuFeS2](https://doi.org/10.7567/apex.6.043001) (2013) — 1 samples
+- [Possible Enhancement of Thermoelectric Properties by Use of a Magnetic Semiconductor: Carrier-D...](https://doi.org/10.1007/s11664-013-2485-3) (2013) — 1 samples
 
 **Your finding** — fill in, then run `python scripts/apply_review_findings.py`:
 
@@ -1547,8 +1547,8 @@ notes:
 
 **`Yb14MnSb11`** — 18 samples, 14 papers
 - [High Temperature Thermoelectric Properties of Yb14MnSb11Prepared from Reaction of MnSb with the...](https://doi.org/10.1021/acs.chemmater.5b02446) (2015) — 5 samples
-- [Traversing the Metal-Insulator Transition in a Zintl Phase: Rational Enhancement of Thermoelect...](https://doi.org/10.1002/adfm.200800298) (2008) — 1 samples
 - [Achieving zT > 1 in Inexpensive Zintl Phase Ca9\nZn4+\n                        \n              ...](https://doi.org/10.1002/adfm.201606361) (2017) — 1 samples
+- [Preparation and thermoelectric properties of polycrystalline nonstoichiometric Yb14MnSb11 Zintl...](https://doi.org/10.1002/pssr.201004193) (2010) — 1 samples
 
 **`Yb14MgSb11`** — 7 samples, 3 papers
 - [Yb14MgSb11and Ca14MgSb11—New Mg-Containing Zintl Compounds and Their Structures, Bonding, and T...](https://doi.org/10.1021/cm504059t) (2015) — 5 samples
@@ -1634,8 +1634,8 @@ notes:
 
 **`Ge0.87Pb0.13Te`** — 10 samples, 4 papers
 - [Controlling Metallurgical Phase Separation Reactions of the Ge0.87Pb0.13Te Alloy for High Therm...](https://doi.org/10.1002/aenm.201200970) (2013) — 7 samples
-- [A Comparison Between the Mechanical and Thermoelectric Properties of Three Highly Efficient p-T...](https://doi.org/10.1007/s11664-012-2316-y) (2012) — 1 samples
 - [Stacking Fault-Induced Minimized Lattice Thermal Conductivity in the High-Performance GeTe-Base...](https://doi.org/10.1021/acsami.9b04984) (2019) — 1 samples
+- [Origin of the High Performance in GeTe-Based Thermoelectric Materials upon Bi2Te3Doping](https://doi.org/10.1021/ja504896a) (2014) — 1 samples
 
 **`Ge0.76Sb0.08Pb0.12Te`** — 8 samples, 1 papers
 - [Vacancy Manipulation for Thermoelectric Enhancements in GeTe Alloys](https://doi.org/10.1021/jacs.8b09375) (2018) — 8 samples
@@ -1769,8 +1769,8 @@ notes:
 
 **`Cu4Sn7S16`** — 6 samples, 4 papers
 - [Low thermal conductivity in ternary Cu4Sn7S16 compound](https://doi.org/10.1016/j.actamat.2015.06.046) (2015) — 3 samples
-- [Crystal structure, electronic structure and thermoelectric properties of Cu4Sn7S16](https://doi.org/10.1016/j.jallcom.2005.09.030) (2006) — 1 samples
 - [Improved thermoelectric performance of solid solution Cu4Sn7.5S16 through isoelectronic substit...](https://doi.org/10.1038/s41598-018-26362-z) (2018) — 1 samples
+- [Crystal structure, electronic structure and thermoelectric properties of Cu4Sn7S16](https://doi.org/10.1016/j.jallcom.2005.09.030) (2006) — 1 samples
 
 **`Cu24Zn2V2Sn6S32`** — 2 samples, 2 papers
 - [Tunable electronic properties and low thermal conductivity in synthetic colusites Cu26−xZnxV2M6...](https://doi.org/10.1063/1.4892593) (2014) — 1 samples
