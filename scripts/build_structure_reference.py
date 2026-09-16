@@ -93,8 +93,12 @@ def build_tedl_entries(t):
     degeneracy, lattice thermal conductivity, mobility, the beta quality
     factor, bulk modulus, coordination number and Grueneisen parameter.
 
-    The ICSD collection code is unique across the 2,701 rows, so tedl_id is
-    TEDL-<icsd> and is stable for as long as the source sheet is.
+    tedl_id is "<row>-<compound>-<icsd>", e.g. 1-La1O4V1-8294. Each part earns
+    its place: the row number is what you scroll to in the downloaded
+    spreadsheet, the compound makes the id readable without a lookup, and the
+    ICSD collection code is the part that survives the sheet being re-sorted or
+    re-issued. row is the 1-based DATA row, so it is Excel row - 1 (row 1 of the
+    file is the header).
 
     Paired columns arrive as "valence,conduction" strings; they are split into
     separate numeric columns so they can be used as features directly.
@@ -115,8 +119,10 @@ def build_tedl_entries(t):
             return None
 
     rows = []
-    for r in t.itertuples():
-        d = {'tedl_id': f'TEDL-{int(r.icsd)}',
+    for n, r in enumerate(t.itertuples(), start=1):
+        d = {'tedl_id': f'{n}-{r.compound}-{int(r.icsd)}',
+             'tedl_row': n,
+             'tedl_excel_row': n + 1,
              'icsd_id': int(r.icsd),
              'tedl_compound': str(r.compound),
              'spacegroup_number': int(r.sg) if r.sg == r.sg else None,
@@ -132,7 +138,9 @@ def build_tedl_entries(t):
             d[a] = num(v[0]) if len(v) > 0 else None
             d[b] = num(v[1]) if len(v) > 1 else None
         rows.append(d)
-    return pd.DataFrame(rows)
+    df = pd.DataFrame(rows)
+    # id first, so it is the leftmost column wherever the table is opened
+    return df[['tedl_id'] + [c for c in df.columns if c != 'tedl_id']]
 
 
 def main():

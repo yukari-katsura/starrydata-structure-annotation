@@ -316,8 +316,22 @@ data/annotated/input/df_tedl_entries.parquet    2,701 entries x 18 features
 data/annotated/df_tedl_linked_samples.parquet   10,420 samples carrying one
 ```
 
-`tedl_id` is `TEDL-<icsd>`; the ICSD collection code is unique across all 2,701
-rows. Paired columns arrive as "valence,conduction" strings and are split into
+`tedl_id` is `<row>-<compound>-<icsd>`, e.g. `1133-Pb1Te1-648608`, and is the
+first column of the table. Each part earns its place: the row number is what you
+scroll to in the downloaded spreadsheet, the compound makes the id readable
+without a lookup, and the ICSD collection code is what survives the sheet being
+re-sorted or re-issued.
+
+`tedl_row` is the 1-based **data** row; `tedl_excel_row` is the number in
+Excel's row gutter, which is one higher because row 1 is the header. Both are
+kept so neither has to be worked out.
+
+Row numbers are only meaningful for the file they came from.
+`scripts/fetch_reference_data.py` records the SHA-256 of the copy these outputs
+were built from and warns if a fresh download differs -- if it does, re-run
+`build_structure_reference.py` before trusting a row number.
+
+Paired columns arrive as "valence,conduction" strings and are split into
 separate numeric columns so they can be used as features directly.
 
 **The link runs through the host system, not the composition.** Starrydata
