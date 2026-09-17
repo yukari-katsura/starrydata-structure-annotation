@@ -48,6 +48,11 @@ QUOTA_STOP=${QUOTA_STOP:-0.85}
 # for runs meant to span days. The seven-day window is never waited on: it
 # recovers over days, not hours, so exhausting it ends the run.
 QUOTA_MODE=${QUOTA_MODE:-stop}
+# Ceiling used when deciding whether the NEXT chunk fits. The stop threshold
+# alone is decided after a chunk has already run, so it both overshoots (chunk
+# 018 ended at 0.93 against a 0.85 threshold) and can start a chunk that will
+# not fit -- which is what made chunk 007 stall for 49 minutes waiting mid-run.
+QUOTA_CEILING=${QUOTA_CEILING:-0.95}
 QUOTA_7D_STOP=${QUOTA_7D_STOP:-0.90}
 # optional wall-clock deadline, e.g. MAX_HOURS=36
 MAX_HOURS=${MAX_HOURS:-0}
@@ -160,10 +165,27 @@ PYEOF
     fi
   fi
 
+  # Track what a chunk actually costs, so the decision below is about whether
+  # the NEXT one fits rather than about a fixed threshold.
+  if [ "$UTIL" != "-1" ] && [ "${PREV_UTIL:-}" != "" ]; then
+    COST=$($PY -c "
+u,p=float('$UTIL'),float('$PREV_UTIL')
+d=u-p
+print(f'{d:.4f}' if d>0 else '')")
+    [ -n "$COST" ] && MAX_COST=$($PY -c "print(max(float('${MAX_COST:-0}'), float('$COST')))")
+  fi
+  PREV_UTIL=$UTIL
+
   # Stop before the window empties rather than dying partway through a chunk.
-  if [ "$UTIL" != "-1" ] && $PY -c "import sys; sys.exit(0 if float('$UTIL')>=float('$QUOTA_STOP') else 1)"; then
+  if [ "$UTIL" != "-1" ] && $PY -c "
+import sys
+u=float('$UTIL'); c=float('${MAX_COST:-0}') or 0.16
+# stop if this chunk already passed the threshold, or if the next one would
+# not fit under the ceiling
+sys.exit(0 if (u>=float('$QUOTA_STOP') or u+c>float('$QUOTA_CEILING')) else 1)"; then
     if [ "$QUOTA_MODE" != "wait" ]; then
-      say "  quota window at ${UTIL} (stop threshold $QUOTA_STOP) -- stopping cleanly after chunk $CH."
+      say "  quota window at ${UTIL}, a chunk costs up to ${MAX_COST:-?} -- next one"\
+          "would not fit under $QUOTA_CEILING. Stopping cleanly after chunk $CH."
       say "  Resume later with: ./run_chunks.sh $((n+1)) $TO"
       exit 0
     fi
@@ -173,7 +195,7 @@ PYEOF
     target=$(( ${RESETS:-0} + 120 ))
     if [ "$target" -le "$now" ]; then target=$(( now + 900 )); fi
     wait_s=$(( target - now ))
-    say "  quota window at ${UTIL}; waiting $(( wait_s / 60 )) min for it to reset "\
+    say "  quota window at ${UTIL} (chunk cost up to ${MAX_COST:-?}); waiting $(( wait_s / 60 )) min for it to reset "\
         "($(date -r "$target" +%H:%M 2>/dev/null || date -d "@$target" +%H:%M))"
     while [ "$(date +%s)" -lt "$target" ]; do
       sleep 300
