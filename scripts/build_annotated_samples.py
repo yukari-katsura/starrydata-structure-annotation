@@ -126,8 +126,13 @@ def main():
     tax = {p['id']: p for p in json.load(open(TAX))['prototypes']}
     print(f'Ledger: {len(led)} host systems annotated')
 
-    comp = pd.read_parquet(COMPS)
-    comp = comp[comp.host_system.isin(led)].copy()
+    comp_all = pd.read_parquet(COMPS)
+    ro_by_host = {}
+    _ro = ANN + 'annotations/reference_only_hosts.parquet'
+    if os.path.exists(_ro):
+        ro_by_host = {r.host_system: r._asdict()
+                      for r in pd.read_parquet(_ro).itertuples()}
+    comp = comp_all[comp_all.host_system.isin(led)].copy()
     print(f'Compositions under an annotated host: {len(comp)} / 27456')
 
     rows = []
@@ -203,6 +208,36 @@ def main():
     print(f'  {n_t} compositions link to a TEDesignLab entry '
           f'({n_ex} on host+spacegroup)')
     print(f'  -> df_annotated_compositions.parquet  ({len(dfc)} rows)')
+
+    # --- reference-only hosts ------------------------------------------------
+    # Hosts with a structure reference but no family assignment. They carry an
+    # mp_id and possibly a tedl_id, and prototype_id stays null: a reference is
+    # not a classification and must not be joined as though it were.
+    ro_path = ANN + 'annotations/reference_only_hosts.parquet'
+    if os.path.exists(ro_path):
+        ro = pd.read_parquet(ro_path)
+        ro_rows = []
+        for r in comp_all[comp_all.host_system.isin(ro.host_system)].itertuples():
+            b = ro_by_host.get(r.host_system)
+            if b is None:
+                continue
+            ro_rows.append({
+                'composition': r.composition, 'reduced_formula': r.reduced_formula,
+                'host_system': r.host_system, 'prototype_id': None,
+                'prototype_name': None, 'structural_class': None,
+                'spacegroup_number': b['spacegroup_number'], 'mp_id': b['mp_id'],
+                'tedl_id': b['tedl_id'], 'tedl_match': b['tedl_match'],
+                'confidence': None, 'record_type': 'reference_only',
+                'determined_at': 'not_assigned', 'is_authoritative': False,
+                'n_samples': r.n_samples, 'n_papers': r.n_papers,
+                'holdout_hand_label': r.holdout_hand_label,
+                'form': getattr(r, 'form', None),
+            })
+        if ro_rows:
+            dfc = pd.concat([dfc.assign(record_type='assignment'),
+                             pd.DataFrame(ro_rows)], ignore_index=True)
+            print(f'  + {len(ro_rows)} reference-only compositions '
+                  f'({len(ro)} hosts, no prototype assigned)')
 
     # --- sample level --------------------------------------------------------
     smp = pd.read_parquet(SAMPLES, columns=['SID', 'sample_id', 'sample_name',
