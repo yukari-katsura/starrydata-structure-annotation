@@ -2,7 +2,7 @@
 
 **How to use this file.** Each entry says what is uncertain, what to look for in the paper, and links the papers reporting the compositions in question. Fill in the ```finding``` block at the end of an entry and run `python scripts/apply_review_findings.py` to write it into the ledger. Entries you skip are left alone, so you can work through this a few at a time. Nothing is overwritten without a decision.
 
-239 of 500 annotated host systems, 16027 samples. Ordered by sample count, so working top-down resolves the most data per paper read.
+360 of 750 annotated host systems, 17341 samples. Ordered by sample count, so working top-down resolves the most data per paper read.
 
 Every assignment here was made from composition and materials knowledge; none has been read out of a paper. The links below go to the specific papers reporting the compositions in question.
 
@@ -1791,4 +1791,4 @@ notes:
 
 ---
 
-*199 further hosts are in `needs_review.parquet`; re-run with `--top` to include them.*
+*320 further hosts are in `needs_review.parquet`; re-run with `--top` to include them.*
