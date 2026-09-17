@@ -20,3 +20,16 @@ annotating chunks 6..10
 === chunk 010  20:33  (ledger: 450) ===
   claude rc=0 subtype=success  quota: 5h=0.37 7d=0.14
   +50 records
+  committed
+239 / 500 host systems need a paper (16027 samples)
+  -> /Users/yukarikatsura/python/starrydata-structure-annotation/data/annotated/validation/needs_review.md  (top 40 written)
+  -> /Users/yukarikatsura/python/starrydata-structure-annotation/data/annotated/validation/needs_review.parquet
+
+  most common reasons:
+     147  medium confidence
+     126  MIXED
+      63  structure reference cannot separate two polymorphs
+      18  transition
+       6  taxonomy issue recorded
+       6  low confidence
+done 20:52. Committed locally, nothing pushed.
