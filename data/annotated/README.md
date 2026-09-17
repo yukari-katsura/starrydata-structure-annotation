@@ -541,12 +541,26 @@ Four guards, each from something that actually went wrong in a dry run:
 | guard | why |
 |---|---|
 | `< /dev/null` on the `claude -p` call | it otherwise stalls 3s per chunk waiting for stdin that never arrives |
-| `--output-format stream-json` | output is buffered until exit, so a hung chunk and a working one look identical for twenty minutes |
+| `--output-format stream-json`, piped through `stream_progress.py` | output is buffered until exit, so a hung chunk and a working one look identical for twenty minutes. The terminal now shows each tool call, each message, the quota reading and a heartbeat when idle |
 | ledger must grow by >=40 records | a quota limit, a refusal and a crash all look the same from outside: the ledger did not grow. Without this the loop runs every remaining chunk doing nothing and reports success |
 | stop at 85% of the five-hour quota window | `stream-json` reports `rate_limit_event` utilisation per chunk. A chunk takes ~20 minutes, so starting one at 95% means it dies partway rather than not starting |
 
 On a quota stop it exits 0 and prints the resume command, since that is an
 orderly end rather than a failure.
+
+The terminal shows progress as it goes:
+
+```
+    0:12  Read     chunk_010.md
+    1:03  » Now let me load the taxonomy id list and the schema.
+    2:41  Bash     grep -n -A 12 '"id": "alb2"' prototypes_seed_v3.json
+    4:15  [quota: five-hour window 29% used]
+   18:52  done — 33 tool calls, 8 messages, 18.9 min
+```
+
+Under `nohup`, that lands in whatever you redirected to, so
+`tail -f queued.out` gives the same view. The raw stream is kept per chunk for
+later inspection.
 
 Two things it still cannot do: notice that a whole chunk is subtly wrong in a
 way no invariant covers, and verify anything in a host with no structure

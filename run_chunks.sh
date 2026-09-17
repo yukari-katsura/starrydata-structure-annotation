@@ -58,8 +58,8 @@ for n in $(seq "$FROM" "$TO"); do
   say "=== chunk $CH  $(date +%H:%M)  (ledger: $before) ==="
 
   # stdin redirected: without it claude -p waits 3s for input that never comes.
-  # stream-json so the log grows during the chunk -- otherwise a hung run and a
-  # working one look identical for twenty minutes.
+  # stream-json is piped through stream_progress.py so the terminal shows what
+  # it is doing as it goes; the raw stream is kept by tee for later inspection.
   claude -p "Annotate chunk $CH following the process in data/annotated/README.md.
 Read data/annotated/input/chunks/chunk_$CH.md, assign a structure prototype to
 every host system in it, and append one record per host to
@@ -74,8 +74,10 @@ Rules:
 - Stop and report if the chunk file is missing or already annotated." \
     --permission-mode acceptEdits \
     --output-format stream-json --verbose \
-    < /dev/null > "$RAW" 2>&1
-  rc=$?
+    < /dev/null 2>&1 | tee "$RAW" | "$PY" scripts/stream_progress.py
+  # tee and the filter are the last commands in the pipeline, so $? is theirs.
+  # PIPESTATUS[0] is what claude actually returned.
+  rc=${PIPESTATUS[0]}
 
   # what the run reported about itself
   eval "$($PY - "$RAW" <<'PYEOF'
