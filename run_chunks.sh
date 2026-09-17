@@ -44,6 +44,14 @@ cd "$REPO"
 # takes ~20 minutes, so starting one at 95% means it dies partway rather than
 # not starting.
 QUOTA_STOP=${QUOTA_STOP:-0.85}
+# stop | wait. "wait" sleeps until the five-hour window resets and carries on,
+# for runs meant to span days. The seven-day window is never waited on: it
+# recovers over days, not hours, so exhausting it ends the run.
+QUOTA_MODE=${QUOTA_MODE:-stop}
+QUOTA_7D_STOP=${QUOTA_7D_STOP:-0.90}
+# optional wall-clock deadline, e.g. MAX_HOURS=36
+MAX_HOURS=${MAX_HOURS:-0}
+STARTED=$(date +%s)
 MIN_RECORDS=${MIN_RECORDS:-40}   # a chunk is 50 hosts; well short means it failed
 
 say() { echo "$*" | tee -a "$LOG"; }
@@ -82,7 +90,7 @@ Rules:
   # what the run reported about itself
   eval "$($PY - "$RAW" <<'PYEOF'
 import json, sys
-util=util7=None; ok=None; err=None
+util=util7=None; ok=None; err=None; resets=None
 for line in open(sys.argv[1], errors='replace'):
     line=line.strip()
     if not line.startswith('{'): continue
@@ -92,10 +100,12 @@ for line in open(sys.argv[1], errors='replace'):
         w=d.get('rate_limit_info',{}).get('unifiedWindows',{})
         util=w.get('five_hour',{}).get('utilization', util)
         util7=w.get('seven_day',{}).get('utilization', util7)
+        resets=w.get('five_hour',{}).get('resetsAt', resets)
     if d.get('type')=='result':
         ok = not d.get('is_error'); err=d.get('subtype')
 print(f'UTIL={util if util is not None else -1}')
 print(f'UTIL7={util7 if util7 is not None else -1}')
+print(f'RESETS={resets or 0}')
 print(f'OK={1 if ok else 0}')
 print(f'SUBTYPE={err or "none"}')
 PYEOF
@@ -134,12 +144,47 @@ PYEOF
 
   git add -A && git commit -q -m "Annotate chunk $CH (unattended run)" && say "  committed"
 
-  # Stop before the window empties rather than dying partway through a chunk.
-  if [ "$UTIL" != "-1" ] && $PY -c "import sys; sys.exit(0 if float('$UTIL')>=float('$QUOTA_STOP') else 1)"; then
-    say "  quota window at ${UTIL} (stop threshold $QUOTA_STOP) -- stopping cleanly after chunk $CH."
+  # The seven-day window recovers over days; there is no point waiting on it.
+  if [ "$UTIL7" != "-1" ] && $PY -c "import sys; sys.exit(0 if float('$UTIL7')>=float('$QUOTA_7D_STOP') else 1)"; then
+    say "  seven-day window at ${UTIL7} -- stopping. It recovers over days, not hours."
     say "  Resume later with: ./run_chunks.sh $((n+1)) $TO"
     exit 0
   fi
+
+  if [ "$MAX_HOURS" != "0" ]; then
+    elapsed_h=$(( ($(date +%s) - STARTED) / 3600 ))
+    if [ "$elapsed_h" -ge "$MAX_HOURS" ]; then
+      say "  reached MAX_HOURS=$MAX_HOURS -- stopping after chunk $CH."
+      say "  Resume later with: ./run_chunks.sh $((n+1)) $TO"
+      exit 0
+    fi
+  fi
+
+  # Stop before the window empties rather than dying partway through a chunk.
+  if [ "$UTIL" != "-1" ] && $PY -c "import sys; sys.exit(0 if float('$UTIL')>=float('$QUOTA_STOP') else 1)"; then
+    if [ "$QUOTA_MODE" != "wait" ]; then
+      say "  quota window at ${UTIL} (stop threshold $QUOTA_STOP) -- stopping cleanly after chunk $CH."
+      say "  Resume later with: ./run_chunks.sh $((n+1)) $TO"
+      exit 0
+    fi
+    now=$(date +%s)
+    # +120s of slack: resuming exactly on the boundary tends to find the window
+    # not yet credited.
+    target=$(( ${RESETS:-0} + 120 ))
+    if [ "$target" -le "$now" ]; then target=$(( now + 900 )); fi
+    wait_s=$(( target - now ))
+    say "  quota window at ${UTIL}; waiting $(( wait_s / 60 )) min for it to reset "\
+        "($(date -r "$target" +%H:%M 2>/dev/null || date -d "@$target" +%H:%M))"
+    while [ "$(date +%s)" -lt "$target" ]; do
+      sleep 300
+      left=$(( (target - $(date +%s)) / 60 ))
+      [ "$left" -gt 0 ] && echo "    …$left min until the window resets" || true
+    done
+    say "  window reset -- continuing with chunk $((n+1))"
+  fi
+
+  # Raw streams are 5-10 MB each; a long run would otherwise fill the disk.
+  gzip -f "$RAW" 2>/dev/null || true
 done
 
 $PY scripts/build_review_queue.py | tee -a "$LOG"

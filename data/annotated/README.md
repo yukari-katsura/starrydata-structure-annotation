@@ -548,6 +548,26 @@ Four guards, each from something that actually went wrong in a dry run:
 On a quota stop it exits 0 and prints the resume command, since that is an
 orderly end rather than a failure.
 
+### Runs that span days
+
+```bash
+QUOTA_MODE=wait caffeinate -i ./run_chunks.sh 19 73
+```
+
+`QUOTA_MODE=wait` sleeps until the five-hour window resets and carries on,
+instead of stopping. Measured rates: **~11 points of the five-hour window per
+chunk** (7-8 chunks per window) and **~1 point of the seven-day window per
+chunk**. So a full run of the remaining chunks is roughly 7-8 windows, about
+40 hours wall clock, of which ~18 hours is actual work.
+
+The seven-day window is never waited on -- it recovers over days, not hours, so
+`QUOTA_7D_STOP` (default 0.90) ends the run instead. `MAX_HOURS=36` adds a
+wall-clock deadline. Raw streams are gzipped after each chunk; at 5-10 MB each a
+55-chunk run would otherwise leave half a gigabyte behind.
+
+Everything else still applies: it commits per chunk, never pushes, and stops
+outright on a gate failure or a chunk that does not grow the ledger.
+
 The terminal shows progress as it goes:
 
 ```
