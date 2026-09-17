@@ -1,0 +1,4587 @@
+{
+ "version": "v3",
+ "created": "2026-09-16",
+ "supersedes": [
+  "prototypes_seed_v2.json (135 prototypes)",
+  "data/dict/thermoelectric_structure_ontology_v0.2.json (51 structures)"
+ ],
+ "axis": "crystal structure prototype",
+ "scope": {
+  "n_samples": 52027,
+  "n_samples_with_legacy_material_family": 19133,
+  "n_legacy_material_family_labels": 188
+ },
+ "principles": [
+  "Separate chemistry/material family from crystallographic structure family.",
+  "Treat prototype space group as reference metadata, not proof of the structure of an individual sample.",
+  "Composition-based assignment creates a candidate structure unless explicit paper evidence confirms it.",
+  "Do not infer dopant site, antisite disorder, vacancy, phase fraction, or secondary phase from nominal composition alone.",
+  "Allow multiple candidate structures when composition is not unique.",
+  "Represent amorphous, quasicrystalline, modulated, misfit, and polymeric materials without forcing a periodic crystal prototype.",
+  "Use composition rules to refine broad legacy labels; use PDF evidence later to confirm actual sample structure.",
+  "Keep structure references separate from formal composition endmembers.",
+  "The hand-entered MaterialFamily labels are held out, not used as an assignment basis. They are kept in validation/legacy_label_map.json and in df_host_systems.parquet solely to validate the finished classification.",
+  "Every label names a structure prototype, never a chemical class (Oxide, Telluride) and never a specific compound (Bi2Te3, PbTe)."
+ ],
+ "sample_structure_assignment_schema": {
+  "structure_candidate_id": "ontology structure id",
+  "assignment_basis": [
+   "legacy_label",
+   "composition",
+   "llm_materials_knowledge",
+   "paper_evidence",
+   "database_match"
+  ],
+  "confidence": "0-1 or categorical",
+  "experimentally_confirmed": "boolean",
+  "evidence": "optional source text/page/figure",
+  "structure_database_candidates": "optional list of MP/AFLOW/ICSD identifiers"
+ },
+ "composition_refinement_rules": [
+  {
+   "rule_id": "zintl_Mg3Pn2_CaAl2Si2",
+   "target_structure": "CaAl2Si2_type",
+   "description": "Mg3(Sb,Bi)2 and related 1-2-2 layered Zintl compositions.",
+   "basis": "composition_pattern + materials knowledge",
+   "human_review_if": "strong deviation or additional framework-forming elements"
+  },
+  {
+   "rule_id": "zintl_14_1_11",
+   "target_structure": "Zintl_14_1_11",
+   "description": "A14MPn11 compositions such as Yb14MnSb11.",
+   "basis": "composition_pattern + materials knowledge",
+   "human_review_if": "formula cannot be reduced to 14:1:11-like host"
+  },
+  {
+   "rule_id": "zintl_5_2_6",
+   "target_structure": "Zintl_5_2_6",
+   "description": "A5M2Pn6 compositions such as Ca5Al2Sb6.",
+   "basis": "composition_pattern + materials knowledge",
+   "human_review_if": "unknown structure or mixed phase"
+  },
+  {
+   "rule_id": "zintl_3_1_3",
+   "target_structure": "Zintl_3_1_3",
+   "description": "A3MPn3 compositions such as Ca3AlSb3 or Sr3GaSb3.",
+   "basis": "composition_pattern + materials knowledge",
+   "human_review_if": "unknown structure or mixed phase"
+  },
+  {
+   "rule_id": "zintl_9_4_9",
+   "target_structure": "Zintl_9_4_9",
+   "description": "A9M4-4.5Pn9 compositions such as Yb9Mn4.2Sb9.",
+   "basis": "composition_pattern + materials knowledge",
+   "human_review_if": "occupancy-rich or nonstoichiometric variants"
+  },
+  {
+   "rule_id": "Mo3Sb7",
+   "target_structure": "Mo3Sb7_Ir3Ge7_type",
+   "description": "Mo3Sb7-rich compositions.",
+   "basis": "composition_pattern",
+   "human_review_if": "large substitution or secondary phases"
+  },
+  {
+   "rule_id": "PbX_rocksalt",
+   "target_structure": "rocksalt_B1",
+   "description": "Pb/Sn-rich IV-VI AB compositions with Te/Se/S.",
+   "basis": "composition_pattern + family knowledge",
+   "human_review_if": "GeTe-rich or layered SnSe/SnS-like composition"
+  },
+  {
+   "rule_id": "GeTe_distorted_rocksalt",
+   "target_structure": "GeTe_rhombohedral",
+   "description": "GeTe-rich compositions.",
+   "basis": "composition_pattern + family knowledge",
+   "human_review_if": "high-temperature phase or superlattice"
+  },
+  {
+   "rule_id": "SnSe_layered",
+   "target_structure": "SnSe_Pnma",
+   "description": "SnSe/SnS-rich AB compositions.",
+   "basis": "composition_pattern + family knowledge",
+   "human_review_if": "high-temperature polymorph explicitly reported"
+  }
+ ],
+ "dopant_threshold": 0.05,
+ "structural_classes": [
+  "layered van der Waals",
+  "rocksalt-derived",
+  "tetrahedral diamond-like",
+  "close-packed intermetallic",
+  "cage compound",
+  "perovskite-derived",
+  "misfit / incommensurate",
+  "chain / low-dimensional",
+  "cluster compound",
+  "framework oxide",
+  "Zintl polyanion",
+  "disordered / non-crystalline",
+  "molecular / organic"
+ ],
+ "phase_policy": "A host system may need more than one prototype: transport is measured across a wide temperature window (median 302-740 K; 58% of curves pass 700 K) and many thermoelectrics transform inside it. Where a prototype carries phase_transitions, record every phase the measurement spans, each with its temperature range, rather than one label. Transition temperatures here are approximate and composition-dependent -- confirm against the paper.",
+ "mp_id_policy": "structure_database_candidates stays empty until resolved against Materials Project / AFLOW / ICSD in stage 2. Never fill it in from memory.",
+ "prototypes": [
+  {
+   "id": "tetradymite",
+   "display_name": "Bi2Te3-type tetradymite",
+   "prototype": "Bi2Te3 (tetradymite, C33)",
+   "exemplar": "Bi2Te3",
+   "formula_archetype": "A2B3",
+   "typical_space_group": "R-3m (166)",
+   "dimensionality": "layered_3D_crystal",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [
+    "Bi2Te3",
+    "Sb2Te3",
+    "Bi2Se3"
+   ],
+   "example_host_systems": [
+    "Bi-Te",
+    "Bi-Sb-Te",
+    "Bi-Se-Te",
+    "Sb-Te",
+    "Bi-Se",
+    "Bi-Sb-Se-Te",
+    "As-Te",
+    "Sb-Se-Te"
+   ],
+   "discriminate_from": {
+    "homologous_tetradymite": "A2B3 exactly; once a rocksalt MTe block is interleaved (SnBi2Te4, GeBi4Te7) it is a homologue",
+    "stibnite": "Bi2S3 and Sb2Se3 are ribbon-like Pnma, not layered R-3m"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Quintuple Te-Bi-Te-Bi-Te layers with a van der Waals gap. Covers the whole (Bi,Sb)2(Te,Se)3 solid solution.",
+    "Composition compatibility alone does not prove the tetradymite structure."
+   ],
+   "merged_from": [
+    "v2:tetradymite",
+    "v0.2:tetradymite_Bi2Te3_type"
+   ]
+  },
+  {
+   "id": "homologous_tetradymite",
+   "display_name": "(MX)n(Bi2Te3)m homologous series",
+   "prototype": "(MX)n(Bi2Te3)m homologous series",
+   "exemplar": "GeBi2Te4",
+   "formula_archetype": "MBi2nTe(3n+1) and relatives",
+   "typical_space_group": "R-3m (166) / P-3m1 (164), member-dependent",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Bi-Ge-Te",
+    "Bi-Sn-Te",
+    "Bi-Pb-Te"
+   ],
+   "discriminate_from": {
+    "tetradymite": "presence of a rocksalt MTe block between quintuple layers",
+    "rocksalt": "rocksalt is the n->infinity end member with no vdW gap"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Natural superlattices of rocksalt MTe slabs and Bi2Te3 quintuple layers: GeBi2Te4, GeBi4Te7, SnBi2Te4, SnBi4Te7, PbBi2Te4, PbBi4Te7. Record the (n,m) member -- each is a distinct MP entry."
+   ],
+   "merged_from": [
+    "v2:homologous_tetradymite"
+   ]
+  },
+  {
+   "id": "gst_homologous",
+   "display_name": "(GeTe)n(Sb2Te3)m",
+   "prototype": "(GeTe)n(Sb2Te3)m",
+   "exemplar": "Ge2Sb2Te5",
+   "formula_archetype": "GenSb2Te(n+3)",
+   "typical_space_group": "R-3m / Fm-3m (metastable cubic)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ge-Sb-Te",
+    "Ag-Ge-Sb-Te",
+    "Ge-Sb-Sn-Te"
+   ],
+   "discriminate_from": {
+    "homologous_tetradymite": "Sb2Te3 rather than Bi2Te3 blocks, with GeTe slabs",
+    "rocksalt": "the metastable quenched phase IS disordered rocksalt -- annotate by the phase measured"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "GST phase-change compositions and TAGS (Te-Ag-Ge-Sb). Stable phase is layered; the as-quenched phase is cubic rocksalt with vacancies. Flag which."
+   ],
+   "phase_transitions": [
+    {
+     "to": "rocksalt",
+     "T_K": 420,
+     "exemplar": "Ge2Sb2Te5",
+     "note": "Amorphous -> metastable cubic, ~420 K; cubic -> stable layered above ~500 K."
+    }
+   ],
+   "merged_from": [
+    "v2:gst_homologous"
+   ]
+  },
+  {
+   "id": "rocksalt",
+   "display_name": "Rock-salt / NaCl-type",
+   "prototype": "NaCl (B1)",
+   "exemplar": "PbTe",
+   "formula_archetype": "AB 1:1",
+   "typical_space_group": "Fm-3m (225)",
+   "dimensionality": "3D",
+   "structural_class": "rocksalt-derived",
+   "representative_materials": [
+    "PbTe",
+    "PbSe",
+    "PbS",
+    "SnTe"
+   ],
+   "example_host_systems": [
+    "Pb-Te",
+    "Pb-Se",
+    "Pb-S",
+    "Sn-Te",
+    "Pb-Se-Te",
+    "Pb-Sn-Te",
+    "Pb-S-Te",
+    "Ag-Sb-Te",
+    "Ag-Sb-Se",
+    "Ag-Bi-Se",
+    "Se-Sn-Te",
+    "Pb-S-Se-Te",
+    "S-Sm",
+    "Eu-O",
+    "Mg-O",
+    "F-Li"
+   ],
+   "discriminate_from": {
+    "layered_ges": "SnSe and SnS are orthorhombic Pnma; SnTe is rocksalt -- the anion decides",
+    "gete_rhombohedral": "GeTe is rhombohedrally distorted below ~700 K",
+    "rocksalt_nitride_carbide": "transition-metal N/C kept separate for navigation"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Also disordered ternaries AgSbTe2, AgSbSe2, AgBiSe2 where cations share one site. MgO, EuO, SmS, LiF belong here too."
+   ],
+   "merged_from": [
+    "v2:rocksalt",
+    "v0.2:rocksalt_B1"
+   ]
+  },
+  {
+   "id": "rocksalt_nitride_carbide",
+   "display_name": "NaCl (B1), interstitial",
+   "prototype": "NaCl (B1), interstitial",
+   "exemplar": "CrN",
+   "formula_archetype": "MX 1:1, often substoichiometric",
+   "typical_space_group": "Fm-3m (225)",
+   "dimensionality": "3D",
+   "structural_class": "rocksalt-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cr-N",
+    "N-Zr",
+    "N-Ta",
+    "N-U",
+    "C-Ti"
+   ],
+   "discriminate_from": {
+    "rocksalt": "same prototype; separated only so the interstitial nitrides/carbides shard together"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Wide non-stoichiometry (TaN0.89, ZrN, UN) -- the vacancy level is the carrier knob for stage 3, not an impurity."
+   ],
+   "merged_from": [
+    "v2:rocksalt_nitride_carbide"
+   ]
+  },
+  {
+   "id": "gete_rhombohedral",
+   "display_name": "Rhombohedral GeTe-type",
+   "prototype": "GeTe (rhombohedral)",
+   "exemplar": "GeTe",
+   "formula_archetype": "AB 1:1",
+   "typical_space_group": "R3m (160)",
+   "dimensionality": "3D",
+   "structural_class": "rocksalt-derived",
+   "representative_materials": [
+    "GeTe"
+   ],
+   "example_host_systems": [
+    "Ge-Te",
+    "Ge-Pb-Te",
+    "Ge-Mn-Te",
+    "Ge-Sn-Te"
+   ],
+   "discriminate_from": {
+    "rocksalt": "cubic above ~700 K; annotate the phase the paper measures"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Ferroelectric rhombohedral distortion of rocksalt.",
+    "GeTe approaches a rocksalt-like phase at high temperature."
+   ],
+   "phase_transitions": [
+    {
+     "to": "rocksalt",
+     "T_K": 700,
+     "exemplar": "GeTe",
+     "note": "R3m -> Fm-3m, ~700 K; shifts with Ge vacancy content and doping."
+    }
+   ],
+   "merged_from": [
+    "v2:gete_rhombohedral",
+    "v0.2:GeTe_rhombohedral"
+   ]
+  },
+  {
+   "id": "layered_ges",
+   "display_name": "Orthorhombic SnSe-type",
+   "prototype": "GeS / SnS (B16)",
+   "exemplar": "SnSe",
+   "formula_archetype": "AB 1:1",
+   "typical_space_group": "Pnma (62)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [
+    "SnSe",
+    "SnS"
+   ],
+   "example_host_systems": [
+    "Se-Sn",
+    "S-Sn",
+    "S-Se-Sn"
+   ],
+   "discriminate_from": {
+    "rocksalt": "SnTe is cubic rocksalt while SnSe/SnS are orthorhombic layered",
+    "cdi2_1t": "SnS2 is a 1T dichalcogenide, SnS is not"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Puckered layers; transforms to Cmcm above ~800 K, which is where the high ZT is reported. Record the phase.",
+    "High-temperature structural variants should be recorded separately when reported."
+   ],
+   "phase_transitions": [
+    {
+     "to": "cmcm_snse_ht",
+     "T_K": 800,
+     "exemplar": "SnSe",
+     "note": "Pnma -> Cmcm, ~800 K for SnSe and ~880 K for SnS; the high-ZT regime."
+    }
+   ],
+   "merged_from": [
+    "v2:layered_ges",
+    "v0.2:SnSe_Pnma"
+   ]
+  },
+  {
+   "id": "stibnite",
+   "display_name": "Bi2S3 (stibnite)",
+   "prototype": "Bi2S3 (stibnite)",
+   "exemplar": "Bi2S3",
+   "formula_archetype": "A2B3",
+   "typical_space_group": "Pnma (62)",
+   "dimensionality": "chain_or_network",
+   "structural_class": "chain / low-dimensional",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Bi-S",
+    "Bi-S-Se",
+    "Bi-Sb-Se"
+   ],
+   "discriminate_from": {
+    "tetradymite": "same A2B3 stoichiometry but ribbon-like Pnma, not layered R-3m -- sulfides and selenides of Bi/Sb take this, tellurides take tetradymite"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Bi2S3, Sb2S3, Sb2Se3."
+   ],
+   "merged_from": [
+    "v2:stibnite"
+   ]
+  },
+  {
+   "id": "cu2se_superionic",
+   "display_name": "Cu2Se (antifluorite-like, superionic)",
+   "prototype": "Cu2Se (antifluorite-like, superionic)",
+   "exemplar": "Cu2Se",
+   "formula_archetype": "A2B",
+   "typical_space_group": "Fm-3m (225) high-T",
+   "dimensionality": "3D",
+   "structural_class": "rocksalt-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cu-Se",
+    "Cu-Te",
+    "Ag-Cu-Se",
+    "Ag-Cu-Te"
+   ],
+   "discriminate_from": {
+    "ag2se_naumannite": "Ag2Se is orthorhombic below ~406 K",
+    "antifluorite": "Mg2Si is a true ordered antifluorite; Cu2Se has liquid-like mobile Cu"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Rigid Se sublattice with liquid-like Cu. Low-T phase is a complex monoclinic superstructure. Cu2-xSe non-stoichiometry is the carrier knob."
+   ],
+   "phase_transitions": [
+    {
+     "to": "cu2se_superionic",
+     "T_K": 400,
+     "exemplar": "Cu2Se",
+     "note": "Ordered low-T superstructure -> cubic superionic, ~400 K. Cu2S transforms near ~376 K."
+    }
+   ],
+   "merged_from": [
+    "v2:cu2se_superionic"
+   ]
+  },
+  {
+   "id": "ag2se_naumannite",
+   "display_name": "Ag2Se (naumannite)",
+   "prototype": "Ag2Se (naumannite)",
+   "exemplar": "Ag2Se",
+   "formula_archetype": "A2B",
+   "typical_space_group": "P212121 (19) beta",
+   "dimensionality": "3D",
+   "structural_class": "rocksalt-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ag-Se",
+    "Ag-Te",
+    "Ag-S-Te"
+   ],
+   "discriminate_from": {
+    "cu2se_superionic": "Cu analogue; Ag2Te is monoclinic P21/c at room temperature"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "bcc superionic above ~406 K. Ag2Te (hessite) is monoclinic -- same shard, note the difference."
+   ],
+   "phase_transitions": [
+    {
+     "to": "bcc_superionic",
+     "T_K": 406,
+     "exemplar": "Ag2Se",
+     "note": "P212121 -> bcc superionic, ~406 K. Ag2Te transforms near ~418 K."
+    }
+   ],
+   "merged_from": [
+    "v2:ag2se_naumannite"
+   ]
+  },
+  {
+   "id": "tetrahedrite",
+   "display_name": "Tetrahedrite",
+   "prototype": "Cu12Sb4S13 (tetrahedrite)",
+   "exemplar": "Cu12Sb4S13",
+   "formula_archetype": "A12B4X13",
+   "typical_space_group": "I-43m (217)",
+   "dimensionality": "3D",
+   "structural_class": "cluster compound",
+   "representative_materials": [
+    "Cu12Sb4S13"
+   ],
+   "example_host_systems": [
+    "Cu-S-Sb",
+    "Cu-S-Sb-Se"
+   ],
+   "discriminate_from": {
+    "famatinite": "Cu3SbS4 is tetragonal famatinite, a different phase in the same Cu-Sb-S system -- check stoichiometry carefully"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Includes tennantite (As) and Zn/Fe/Ni/Mn-substituted natural series."
+   ],
+   "merged_from": [
+    "v2:tetrahedrite",
+    "v0.2:tetrahedrite_Cu12Sb4S13"
+   ]
+  },
+  {
+   "id": "chalcopyrite",
+   "display_name": "Chalcopyrite",
+   "prototype": "CuFeS2 (chalcopyrite, E11)",
+   "exemplar": "CuInTe2",
+   "formula_archetype": "ABX2",
+   "typical_space_group": "I-42d (122)",
+   "dimensionality": "3D",
+   "structural_class": "tetrahedral diamond-like",
+   "representative_materials": [
+    "CuInTe2",
+    "CuGaTe2"
+   ],
+   "example_host_systems": [
+    "Cu-Fe-S",
+    "Cu-Ga-Te",
+    "Cu-In-Te",
+    "Cu-Ga-In-Te",
+    "Ag-Cu-In-Te",
+    "Ag-Ga-Te",
+    "Ag-In-Se",
+    "Ag-Cu-Ga-Te"
+   ],
+   "discriminate_from": {
+    "sphalerite": "ordered cation superstructure doubles the c axis",
+    "stannite_kesterite": "quaternary A2BCX4, not ternary ABX2"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "I-III-VI2 ordered zincblende superstructure."
+   ],
+   "merged_from": [
+    "v2:chalcopyrite",
+    "v0.2:chalcopyrite_CuFeS2"
+   ]
+  },
+  {
+   "id": "stannite_kesterite",
+   "display_name": "Stannite",
+   "prototype": "Cu2ZnSnS4 (stannite / kesterite)",
+   "exemplar": "Cu2ZnSnSe4",
+   "formula_archetype": "A2BCX4",
+   "typical_space_group": "I-42m (121) stannite / I-4 (82) kesterite",
+   "dimensionality": "3D",
+   "structural_class": "tetrahedral diamond-like",
+   "representative_materials": [
+    "Cu2FeSnS4"
+   ],
+   "example_host_systems": [
+    "Cu-Se-Sn-Zn",
+    "Cu-S-Sn-Zn",
+    "Cd-Cu-Se-Sn",
+    "Cu-In-Te-Zn"
+   ],
+   "discriminate_from": {
+    "chalcopyrite": "quaternary with two distinct divalent/tetravalent cations",
+    "famatinite": "A3BX4 not A2BCX4"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Stannite and kesterite differ only in cation ordering; record which if stated."
+   ],
+   "merged_from": [
+    "v2:stannite_kesterite",
+    "v0.2:stannite"
+   ]
+  },
+  {
+   "id": "famatinite",
+   "display_name": "Cu3SbSe4 (famatinite)",
+   "prototype": "Cu3SbSe4 (famatinite)",
+   "exemplar": "Cu3SbSe4",
+   "formula_archetype": "A3BX4",
+   "typical_space_group": "I-42m (121)",
+   "dimensionality": "3D",
+   "structural_class": "tetrahedral diamond-like",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cu-Sb-Se"
+   ],
+   "discriminate_from": {
+    "tetrahedrite": "Cu12Sb4S13 is cubic I-43m with a very different Cu:Sb ratio",
+    "skinnerite_cu3sbse3": "Cu3SbSe3 is orthorhombic Pnma -- check the anion count"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Also Cu3SbS4. The Cu-Sb-Se system contains both Cu3SbSe4 and Cu3SbSe3; separate by stoichiometry."
+   ],
+   "merged_from": [
+    "v2:famatinite"
+   ]
+  },
+  {
+   "id": "skinnerite_cu3sbse3",
+   "display_name": "Cu3SbSe3 (skinnerite)",
+   "prototype": "Cu3SbSe3 (skinnerite)",
+   "exemplar": "Cu3SbSe3",
+   "formula_archetype": "A3BX3",
+   "typical_space_group": "Pnma (62)",
+   "dimensionality": "cluster_3D",
+   "structural_class": "cluster compound",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cu-Sb-Se"
+   ],
+   "discriminate_from": {
+    "famatinite": "anion count: X3 orthorhombic vs X4 tetragonal"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Shares the Cu-Sb-Se host system with famatinite -- this host is genuinely mixed and must be split per composition."
+   ],
+   "merged_from": [
+    "v2:skinnerite_cu3sbse3"
+   ]
+  },
+  {
+   "id": "argyrodite",
+   "display_name": "Argyrodite",
+   "prototype": "Ag8GeSe6 (argyrodite)",
+   "exemplar": "Ag8SnSe6",
+   "formula_archetype": "A8BX6",
+   "typical_space_group": "F-43m (216) high-T / Pna21 (33) low-T",
+   "dimensionality": "3D_framework",
+   "structural_class": "cluster compound",
+   "representative_materials": [
+    "Cu7PSe6"
+   ],
+   "example_host_systems": [
+    "Ag-Se-Sn"
+   ],
+   "discriminate_from": {
+    "cu2se_superionic": "ordered framework with a defined A8BX6 stoichiometry"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Cu/Ag superionic conductors: Ag8SnSe6, Ag8GeSe6, Cu7PSe6.",
+    "Multiple argyrodite subtypes exist; sample-level verification is required."
+   ],
+   "phase_transitions": [
+    {
+     "to": "argyrodite",
+     "T_K": 330,
+     "exemplar": "Ag8GeSe6",
+     "note": "Order-disorder transition to the cubic superionic phase, ~320-350 K."
+    }
+   ],
+   "merged_from": [
+    "v2:argyrodite",
+    "v0.2:argyrodite"
+   ]
+  },
+  {
+   "id": "cdi2_1t",
+   "display_name": "CdI2 (C6) / 1T dichalcogenide",
+   "prototype": "CdI2 (C6) / 1T dichalcogenide",
+   "exemplar": "TiS2",
+   "formula_archetype": "MX2",
+   "typical_space_group": "P-3m1 (164)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [],
+   "example_host_systems": [
+    "S-Ti",
+    "Se-Ti",
+    "S-Se-Ti"
+   ],
+   "discriminate_from": {
+    "mos2_2h": "1T has octahedral metal coordination (TiS2, TiSe2); 2H has trigonal prismatic (MoS2, NbSe2, MoTe2)",
+    "pyrite": "PtSb2/FeS2 are cubic, not layered"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Intercalatable: MxTiS2. Intercalant level is a doping variable for stage 3, not an impurity."
+   ],
+   "merged_from": [
+    "v2:cdi2_1t"
+   ]
+  },
+  {
+   "id": "mos2_2h",
+   "display_name": "MoS2 (2H, C7)",
+   "prototype": "MoS2 (2H, C7)",
+   "exemplar": "MoS2",
+   "formula_archetype": "MX2",
+   "typical_space_group": "P63/mmc (194)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Mo-S",
+    "Mo-Te",
+    "Nb-Se"
+   ],
+   "discriminate_from": {
+    "cdi2_1t": "trigonal prismatic coordination, two layers per cell"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Group 5/6 dichalcogenides. NbSe2 and TaS2 are 2H; note the polytype when stated."
+   ],
+   "merged_from": [
+    "v2:mos2_2h"
+   ]
+  },
+  {
+   "id": "nbse3_chain",
+   "display_name": "NbSe3",
+   "prototype": "NbSe3",
+   "exemplar": "NbSe3",
+   "formula_archetype": "MX3",
+   "typical_space_group": "P21/m (11)",
+   "dimensionality": "chain_or_network",
+   "structural_class": "chain / low-dimensional",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Nb-Se"
+   ],
+   "discriminate_from": {
+    "mos2_2h": "MX3 trigonal-prismatic chains, not MX2 layers"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Charge-density-wave chain compound. Shares the Nb-Se host with NbSe2 -- split per composition."
+   ],
+   "merged_from": [
+    "v2:nbse3_chain"
+   ]
+  },
+  {
+   "id": "zrte5_hfte5",
+   "display_name": "ZrTe5 / HfTe5",
+   "prototype": "ZrTe5 / HfTe5",
+   "exemplar": "HfTe5",
+   "formula_archetype": "MX5",
+   "typical_space_group": "Cmcm (63)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Hf-Te"
+   ],
+   "discriminate_from": {
+    "cdi2_1t": "MX5 prismatic chains linked into layers"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Quasi-2D topological semimetal."
+   ],
+   "merged_from": [
+    "v2:zrte5_hfte5"
+   ]
+  },
+  {
+   "id": "misfit_layered_chalcogenide",
+   "display_name": "(MX)1+x(TX2)n misfit",
+   "prototype": "(MX)1+x(TX2)n misfit",
+   "exemplar": "(SnS)1.2(TiS2)2",
+   "formula_archetype": "(MX)1+x(TX2)n",
+   "typical_space_group": "incommensurate composite (two monoclinic/orthorhombic subsystems)",
+   "dimensionality": "composite_modulated",
+   "structural_class": "misfit / incommensurate",
+   "representative_materials": [],
+   "example_host_systems": [
+    "S-Sn-Ti",
+    "Bi-S-Ti",
+    "La-Nb-S"
+   ],
+   "discriminate_from": {
+    "cdi2_1t": "a rocksalt MX slab is interleaved with the dichalcogenide layer",
+    "misfit_cobaltite": "chalcogenide analogue of the same misfit principle"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Incommensurate: no single MP entry. Stage 2 must map the rocksalt subsystem and the dichalcogenide subsystem separately."
+   ],
+   "confidence_note": "Composition strings like (SnS)1.2(TiS2)2 encode the misfit ratio -- preserve it.",
+   "merged_from": [
+    "v2:misfit_layered_chalcogenide"
+   ]
+  },
+  {
+   "id": "tl5te3",
+   "display_name": "Tl5Te3",
+   "prototype": "Tl5Te3",
+   "exemplar": "Tl9BiTe6",
+   "formula_archetype": "Tl5-xMxTe3",
+   "typical_space_group": "I4/mcm (140)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Bi-Te-Tl",
+    "Sn-Te-Tl",
+    "Te-Tl"
+   ],
+   "discriminate_from": {
+    "rocksalt": "TlBiTe2 and TlSbTe2 ARE rocksalt-derived; Tl9BiTe6 and Tl4SnTe3 are Tl5Te3-type -- split by stoichiometry"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Tl9BiTe6, Tl4SnTe3, Tl2Te. The Te-Tl and Sb-Te-Tl hosts contain both this and rocksalt ternaries."
+   ],
+   "merged_from": [
+    "v2:tl5te3"
+   ]
+  },
+  {
+   "id": "sphalerite",
+   "display_name": "ZnS (sphalerite, B3)",
+   "prototype": "ZnS (sphalerite, B3)",
+   "exemplar": "InSb",
+   "formula_archetype": "AB 1:1",
+   "typical_space_group": "F-43m (216)",
+   "dimensionality": "3D",
+   "structural_class": "tetrahedral diamond-like",
+   "representative_materials": [],
+   "example_host_systems": [
+    "In-Sb",
+    "As-Ga",
+    "As-In",
+    "As-Ga-In",
+    "Te-Zn",
+    "Al-As-Ga-In",
+    "B-P",
+    "Cu-I"
+   ],
+   "discriminate_from": {
+    "wurtzite": "cubic vs hexagonal stacking of the same tetrahedral net",
+    "chalcopyrite": "ordered ternary superstructure"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "III-V and II-VI binaries and their alloys."
+   ],
+   "merged_from": [
+    "v2:sphalerite"
+   ]
+  },
+  {
+   "id": "wurtzite",
+   "display_name": "Wurtzite ZnO-type",
+   "prototype": "ZnO (wurtzite, B4)",
+   "exemplar": "ZnO",
+   "formula_archetype": "AB 1:1",
+   "typical_space_group": "P63mc (186)",
+   "dimensionality": "3D",
+   "structural_class": "tetrahedral diamond-like",
+   "representative_materials": [
+    "ZnO"
+   ],
+   "example_host_systems": [
+    "O-Zn",
+    "Al-O-Zn",
+    "Co-O-Zn",
+    "Al-N",
+    "Ga-N"
+   ],
+   "discriminate_from": {
+    "sphalerite": "hexagonal stacking",
+    "homologous_inmo3_zno": "once In or Ga enters as ordered layers it becomes a homologous superlattice, not doped ZnO"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "ZnO with Al/Ga donors, AlN, GaN, CdS."
+   ],
+   "merged_from": [
+    "v2:wurtzite",
+    "v0.2:wurtzite_ZnO"
+   ]
+  },
+  {
+   "id": "nias",
+   "display_name": "NiAs (B8_1)",
+   "prototype": "NiAs (B8_1)",
+   "exemplar": "MnTe",
+   "formula_archetype": "AB 1:1",
+   "typical_space_group": "P63/mmc (194)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Mn-Te",
+    "Cr-Se"
+   ],
+   "discriminate_from": {
+    "rocksalt": "hexagonal with trigonal-prismatic anion coordination",
+    "marcasite": "AB2 not AB"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "alpha-MnTe is an antiferromagnetic semiconductor; Cr-Se hosts Cr2Se3 defect variants."
+   ],
+   "merged_from": [
+    "v2:nias"
+   ]
+  },
+  {
+   "id": "marcasite",
+   "display_name": "FeS2 (marcasite, C18)",
+   "prototype": "FeS2 (marcasite, C18)",
+   "exemplar": "FeSb2",
+   "formula_archetype": "MX2",
+   "typical_space_group": "Pnnm (58)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cr-Sb",
+    "Fe-Sb",
+    "Ru-Sb",
+    "Nb-Sb"
+   ],
+   "discriminate_from": {
+    "pyrite": "same MX2 with X-X dimers but orthorhombic, not cubic -- FeSb2/CrSb2 are marcasite, PtSb2/FeS2 are pyrite",
+    "skutterudite": "MX3 with square X4 rings"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "FeSb2 is the colossal-Seebeck marcasite. The Fe-Sb host also contains FeSb2 and skutterudite-related phases -- split per composition."
+   ],
+   "merged_from": [
+    "v2:marcasite"
+   ]
+  },
+  {
+   "id": "pyrite",
+   "display_name": "Pyrite-type",
+   "prototype": "FeS2 (pyrite, C2)",
+   "exemplar": "PtSb2",
+   "formula_archetype": "MX2",
+   "typical_space_group": "Pa-3 (205)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [
+    "FeS2",
+    "RuSe2"
+   ],
+   "example_host_systems": [
+    "Pt-Sb"
+   ],
+   "discriminate_from": {
+    "marcasite": "cubic polymorph of the same MX2 dianion structure"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "PtSb2, PdSb2, FeS2."
+   ],
+   "strukturbericht": "C2",
+   "merged_from": [
+    "v2:pyrite",
+    "v0.2:pyrite_C2"
+   ]
+  },
+  {
+   "id": "layered_in2se3",
+   "display_name": "In2Se3 / InSe",
+   "prototype": "In2Se3 / InSe",
+   "exemplar": "In2Se3",
+   "formula_archetype": "A2B3 or AB",
+   "typical_space_group": "R3m (160) and polytypes",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [],
+   "example_host_systems": [
+    "In-Se"
+   ],
+   "discriminate_from": {
+    "tetradymite": "In2Se3 has quintuple-like layers but a different stacking and many polytypes"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "alpha/beta/gamma polytypes; record which when stated."
+   ],
+   "merged_from": [
+    "v2:layered_in2se3"
+   ]
+  },
+  {
+   "id": "inte_tlse",
+   "display_name": "TlSe (B37)",
+   "prototype": "TlSe (B37)",
+   "exemplar": "InTe",
+   "formula_archetype": "AB 1:1, mixed valence",
+   "typical_space_group": "I4/mcm (140)",
+   "dimensionality": "chain_or_network",
+   "structural_class": "chain / low-dimensional",
+   "representative_materials": [],
+   "example_host_systems": [
+    "In-Te"
+   ],
+   "discriminate_from": {
+    "sphalerite": "mixed-valence In(I)In(III)Te2 chains, not a tetrahedral net"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "In+ rattlers give very low thermal conductivity. In4Te3 is a different, related phase in the same host."
+   ],
+   "merged_from": [
+    "v2:inte_tlse"
+   ]
+  },
+  {
+   "id": "bitei_polar",
+   "display_name": "BiTeI",
+   "prototype": "BiTeI",
+   "exemplar": "BiTeI",
+   "formula_archetype": "ABX",
+   "typical_space_group": "P3m1 (156)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Bi-I-Te"
+   ],
+   "discriminate_from": {
+    "tetradymite": "polar three-atom layer stacking with a halide"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Giant Rashba splitting; polar layer sequence."
+   ],
+   "merged_from": [
+    "v2:bitei_polar"
+   ]
+  },
+  {
+   "id": "csbi4te6",
+   "display_name": "CsBi4Te6",
+   "prototype": "CsBi4Te6",
+   "exemplar": "CsBi4Te6",
+   "formula_archetype": "AB4X6",
+   "typical_space_group": "C2/m (12)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Bi-Cs-Te"
+   ],
+   "discriminate_from": {
+    "tetradymite": "anionic Bi4Te6 slabs with Bi-Bi bonds, separated by Cs"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Low-temperature thermoelectric."
+   ],
+   "merged_from": [
+    "v2:csbi4te6"
+   ]
+  },
+  {
+   "id": "bi_chalcogenide_complex",
+   "display_name": "K2Bi8Se13 and related complex bismuth chalcogenides",
+   "prototype": "K2Bi8Se13 and related complex bismuth chalcogenides",
+   "exemplar": "K2Bi8Se13",
+   "formula_archetype": "AxBiyXz, large cells",
+   "typical_space_group": "P21/m (11) and relatives",
+   "dimensionality": "chain_or_network",
+   "structural_class": "chain / low-dimensional",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Bi-K-Se",
+    "Bi-K-S-Se",
+    "Ag-Bi-S",
+    "Bi-Pb-Se",
+    "Bi-Cu-S"
+   ],
+   "discriminate_from": {
+    "tetradymite": "NaCl-type and Bi2Te3-type modules assembled into large low-symmetry cells"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Module-built bismuth chalcogenides: K2Bi8Se13, AgBi3S5, Pb5Bi6Se14, Cu4Bi4S9. Each composition is effectively its own structure -- resolve individually in stage 2."
+   ],
+   "merged_from": [
+    "v2:bi_chalcogenide_complex"
+   ]
+  },
+  {
+   "id": "fese_pbo",
+   "display_name": "PbO (anti-litharge, B10)",
+   "prototype": "PbO (anti-litharge, B10)",
+   "exemplar": "FeSe",
+   "formula_archetype": "AB 1:1",
+   "typical_space_group": "P4/nmm (129)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Fe-Se",
+    "Fe-Se-Te"
+   ],
+   "discriminate_from": {
+    "zrcusias_1111": "the same FeSe layer, but 1111 inserts an LaO spacer layer",
+    "thcr2si2_122": "122 inserts a Ba layer between FeAs slabs"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "The '11' iron-based superconductor. Tetragonal above ~90 K."
+   ],
+   "merged_from": [
+    "v2:fese_pbo"
+   ]
+  },
+  {
+   "id": "bis2_layered",
+   "display_name": "CeOBiS2 / LaOBiS2",
+   "prototype": "CeOBiS2 / LaOBiS2",
+   "exemplar": "PrO0.5F0.5BiS2",
+   "formula_archetype": "REO1-xFxBiS2",
+   "typical_space_group": "P4/nmm (129)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Bi-F-O-Pr-S"
+   ],
+   "discriminate_from": {
+    "zrcusias_1111": "closely related stacking; BiS2 bilayer instead of a pnictide square net"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "F-for-O substitution is the doping variable, not an impurity -- important for stage 3."
+   ],
+   "merged_from": [
+    "v2:bis2_layered"
+   ]
+  },
+  {
+   "id": "cd3as2",
+   "display_name": "Cd3As2 (antifluorite-derived)",
+   "prototype": "Cd3As2 (antifluorite-derived)",
+   "exemplar": "Cd3As2",
+   "formula_archetype": "A3B2",
+   "typical_space_group": "I41/acd (142)",
+   "dimensionality": "3D",
+   "structural_class": "tetrahedral diamond-like",
+   "representative_materials": [],
+   "example_host_systems": [
+    "As-Cd"
+   ],
+   "discriminate_from": {
+    "antifluorite": "ordered-vacancy superstructure of antifluorite"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Dirac semimetal with very high mobility."
+   ],
+   "merged_from": [
+    "v2:cd3as2"
+   ]
+  },
+  {
+   "id": "cucrs2_layered",
+   "display_name": "CuCrS2",
+   "prototype": "CuCrS2",
+   "exemplar": "CuCrS2",
+   "formula_archetype": "ABX2",
+   "typical_space_group": "R3m (160)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cr-Cu-S"
+   ],
+   "discriminate_from": {
+    "delafossite": "CuCrO2 is the oxide delafossite; CuCrS2 has a different Cu coordination",
+    "cdi2_1t": "ordered Cu between CrS2 layers"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Layered sulfide with mobile Cu."
+   ],
+   "merged_from": [
+    "v2:cucrs2_layered"
+   ]
+  },
+  {
+   "id": "cu2gese3",
+   "display_name": "Cu2GeSe3",
+   "prototype": "Cu2GeSe3",
+   "exemplar": "Cu2GeSe3",
+   "formula_archetype": "A2BX3",
+   "typical_space_group": "Cmc2_1 (36)",
+   "dimensionality": "3D",
+   "structural_class": "tetrahedral diamond-like",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cu-Ge-Se",
+    "Cu-Ge-S"
+   ],
+   "discriminate_from": {
+    "stannite_kesterite": "ternary A2BX3, one cation fewer"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Orthorhombic diamond-like ternary."
+   ],
+   "merged_from": [
+    "v2:cu2gese3"
+   ]
+  },
+  {
+   "id": "cosbs_paracostibite",
+   "display_name": "CoSbS (paracostibite)",
+   "prototype": "CoSbS (paracostibite)",
+   "exemplar": "CoSbS",
+   "formula_archetype": "MXY",
+   "typical_space_group": "Pbca (61)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Co-S-Sb"
+   ],
+   "discriminate_from": {
+    "marcasite": "ordered ternary analogue of the marcasite/arsenopyrite family"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Also the related CoAsS cobaltite mineral."
+   ],
+   "merged_from": [
+    "v2:cosbs_paracostibite"
+   ]
+  },
+  {
+   "id": "shandite",
+   "display_name": "Ni3Pb2S2 (shandite)",
+   "prototype": "Ni3Pb2S2 (shandite)",
+   "exemplar": "Co3Sn2S2",
+   "formula_archetype": "A3B2X2",
+   "typical_space_group": "R-3m (166)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Co-In-S-Sn"
+   ],
+   "discriminate_from": {
+    "nias": "kagome metal layers with a distinct A3B2X2 stoichiometry"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Co3Sn2S2 magnetic Weyl semimetal; In substitutes on the Sn site."
+   ],
+   "merged_from": [
+    "v2:shandite"
+   ]
+  },
+  {
+   "id": "skutterudite",
+   "display_name": "Skutterudite CoAs3-type",
+   "prototype": "CoAs3 (skutterudite, D0_2)",
+   "exemplar": "CoSb3",
+   "formula_archetype": "MX3 / RM4X12 filled",
+   "typical_space_group": "Im-3 (204)",
+   "dimensionality": "3D_framework",
+   "structural_class": "cage compound",
+   "representative_materials": [
+    "CoSb3",
+    "FeSb3"
+   ],
+   "example_host_systems": [
+    "Co-Sb",
+    "Co-Fe-Sb",
+    "Fe-Sb",
+    "Ce-Fe-Sb",
+    "Fe-Ni-Sb",
+    "Fe-Sb-Yb",
+    "Ca-Fe-Sb",
+    "Ir-Sb",
+    "Co-Ni-Sb",
+    "Co-Sb-Te",
+    "Ce-Co-Fe-Sb"
+   ],
+   "discriminate_from": {
+    "marcasite": "MX3 with planar X4 rings, not MX2 dimers",
+    "znsb_cdsb": "different stoichiometry entirely"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Binary CoSb3 and filled RxCo4Sb12 / RFe4Sb12. Fillers (Yb, Ba, In, Ce, La) occupy the icosahedral void -- record them as CAGE FILLERS in stage 3, never as substitutional dopants. Te/Ge/Sn on the Sb site are substitutional."
+   ],
+   "merged_from": [
+    "v2:skutterudite",
+    "v0.2:skutterudite_CoAs3"
+   ]
+  },
+  {
+   "id": "half_heusler",
+   "display_name": "Half-Heusler C1b / MgAgAs-type",
+   "prototype": "MgAgAs (C1b)",
+   "exemplar": "TiNiSn",
+   "formula_archetype": "XYZ 1:1:1",
+   "typical_space_group": "F-43m (216)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [
+    "TiNiSn",
+    "ZrNiSn",
+    "HfNiSn"
+   ],
+   "example_host_systems": [
+    "Ni-Sn-Ti",
+    "Ni-Sn-Zr",
+    "Hf-Ni-Sn-Zr",
+    "Hf-Ni-Sn-Ti-Zr",
+    "Fe-Nb-Sb",
+    "Co-Sb-Ti",
+    "Co-Nb-Sn",
+    "Fe-Nb-Sb-Ti",
+    "Fe-Sb-V",
+    "Hf-Ni-Sn",
+    "Co-Sb-Zr",
+    "Co-Nb-Sb",
+    "Co-Sb-V",
+    "Fe-Sb-Ta",
+    "Ni-Sb-Sc",
+    "Co-Hf-Sb",
+    "Co-Hf-Sb-Sn-Zr",
+    "Co-Sb-Ti-Zr",
+    "Fe-Sb-Ti-V"
+   ],
+   "discriminate_from": {
+    "full_heusler": "X2YZ 2:1:1 fills the second tetrahedral site -- check whether the transition metal is doubled",
+    "mgagsb_alpha": "MgAgSb is a distorted half-Heusler variant, not cubic C1b"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "18-electron semiconductors. Sn-for-Sb and Ti-for-Zr are the usual substitutions; the 1:1:1 site occupancies matter for stage 3."
+   ],
+   "strukturbericht": "C1b",
+   "merged_from": [
+    "v2:half_heusler",
+    "v0.2:half_Heusler_C1b"
+   ]
+  },
+  {
+   "id": "full_heusler",
+   "display_name": "Full-Heusler L21",
+   "prototype": "Cu2MnAl (L21)",
+   "exemplar": "Fe2VAl",
+   "formula_archetype": "X2YZ 2:1:1",
+   "typical_space_group": "Fm-3m (225)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [
+    "Fe2VAl",
+    "Co2MnSi"
+   ],
+   "example_host_systems": [
+    "Al-Fe-V",
+    "Fe-Sn-Ti",
+    "Fe-Ga-V",
+    "Al-Fe-Mo-V",
+    "Al-Fe-Si-V",
+    "Co-Fe-Si",
+    "In-Mn-Ni",
+    "Fe-Si-V"
+   ],
+   "discriminate_from": {
+    "half_heusler": "the 2:1:1 ratio; Fe2VAl vs FeVSb"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Fe2VAl pseudogap thermoelectrics and Ni-Mn-In shape-memory Heuslers.",
+    "B2/A2 disorder should be recorded as sample-level structural state, not a different nominal family."
+   ],
+   "strukturbericht": "L21",
+   "merged_from": [
+    "v2:full_heusler",
+    "v0.2:full_Heusler_L21"
+   ]
+  },
+  {
+   "id": "mgagsb_alpha",
+   "display_name": "alpha-MgAgSb",
+   "prototype": "alpha-MgAgSb",
+   "exemplar": "MgAgSb",
+   "formula_archetype": "XYZ 1:1:1",
+   "typical_space_group": "I-4c2 (120)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ag-Mg-Sb"
+   ],
+   "discriminate_from": {
+    "half_heusler": "distorted, tetragonal -- a Ag-deficient half-Heusler derivative, not cubic"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "High ZT near room temperature; the alpha phase is the thermoelectric one."
+   ],
+   "merged_from": [
+    "v2:mgagsb_alpha"
+   ]
+  },
+  {
+   "id": "clathrate_i",
+   "display_name": "Type-I clathrate",
+   "prototype": "Clathrate type I (Ba8Ga16Ge30)",
+   "exemplar": "Ba8Ga16Ge30",
+   "formula_archetype": "A8E46",
+   "typical_space_group": "Pm-3n (223)",
+   "dimensionality": "3D_cage_framework",
+   "structural_class": "cage compound",
+   "representative_materials": [
+    "Ba8Ga16Ge30"
+   ],
+   "example_host_systems": [
+    "Ba-Ga-Ge",
+    "Ba-Ga-Sn",
+    "Al-Ba-Si",
+    "Ba-Cu-Si",
+    "Ba-Cu-Ge",
+    "Ba-Cu-Ge-Si",
+    "Au-Ba-Si",
+    "Ba-Ge-Ni",
+    "Ga-Ge-Sr",
+    "Au-Ba-Ge",
+    "Ba-Ga-Si",
+    "Al-Ba-Ge",
+    "Ba-Ga-Ge-Zn",
+    "Ba-Ni-Si",
+    "Al-Ba-Ga-Ge",
+    "Ba-Ga-Ge-Si",
+    "Ba-Ga-Ge-Sn",
+    "Al-Ga-Si-Sr"
+   ],
+   "discriminate_from": {
+    "clathrate_ii": "type II has 16 large hexakaidecahedral cages, formula A24E136",
+    "clathrate_iii_ix": "Ba8Ge43 and Ba24Ge100 are different cage topologies",
+    "clathrate_viii": "beta-Ba8Ga16Sn30 is type VIII; the Ba-Ga-Sn host holds both polymorphs"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Guest atoms rattle in dodecahedral and tetrakaidecahedral cages. Framework substitution (Ga, Al, Cu, Au, Zn for Ge/Si) sets the electron count -- a framework variable, not a dopant.",
+    "v2 filed Ba-Ga-Sn under type I alone; v3 co-cites it with clathrate_viii."
+   ],
+   "merged_from": [
+    "v2:clathrate_i",
+    "v0.2:clathrate_type_I"
+   ]
+  },
+  {
+   "id": "clathrate_ii",
+   "display_name": "Clathrate type II (Na24Si136)",
+   "prototype": "Clathrate type II (Na24Si136)",
+   "exemplar": "Na24Si136",
+   "formula_archetype": "A24E136",
+   "typical_space_group": "Fd-3m (227)",
+   "dimensionality": "3D_cage_framework",
+   "structural_class": "cage compound",
+   "representative_materials": [],
+   "example_host_systems": [],
+   "discriminate_from": {
+    "clathrate_i": "larger cages, often only partially filled"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Rare in this dataset; kept for completeness."
+   ],
+   "merged_from": [
+    "v2:clathrate_ii"
+   ]
+  },
+  {
+   "id": "clathrate_iii_ix",
+   "display_name": "Clathrate type III / IX (Ba8Ge43, Ba24Ge100)",
+   "prototype": "Clathrate type III / IX (Ba8Ge43, Ba24Ge100)",
+   "exemplar": "Ba24Ge100",
+   "formula_archetype": "A24E100 / A8E43",
+   "typical_space_group": "P4132 (213) type IX",
+   "dimensionality": "3D_cage_framework",
+   "structural_class": "cage compound",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ba-Ge"
+   ],
+   "discriminate_from": {
+    "clathrate_i": "different cage topology and framework vacancy ordering"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Ba8Ge43 has ordered framework vacancies."
+   ],
+   "merged_from": [
+    "v2:clathrate_iii_ix"
+   ]
+  },
+  {
+   "id": "cecr2al20_cage",
+   "display_name": "CeCr2Al20",
+   "prototype": "CeCr2Al20",
+   "exemplar": "YbIr2Zn20",
+   "formula_archetype": "AB2C20",
+   "typical_space_group": "Fd-3m (227)",
+   "dimensionality": "3D_cage_framework",
+   "structural_class": "cage compound",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ir-Zn"
+   ],
+   "discriminate_from": {
+    "clathrate_i": "intermetallic cage of a different topology, rare-earth guest"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Heavy-fermion cage compounds, YbT2Zn20."
+   ],
+   "merged_from": [
+    "v2:cecr2al20_cage"
+   ]
+  },
+  {
+   "id": "zn4sb3",
+   "display_name": "beta-Zn4Sb3",
+   "prototype": "beta-Zn4Sb3",
+   "exemplar": "Zn4Sb3",
+   "formula_archetype": "Zn4Sb3, disordered interstitials",
+   "typical_space_group": "R-3c (167)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Sb-Zn"
+   ],
+   "discriminate_from": {
+    "znsb_cdsb": "ZnSb 1:1 is orthorhombic CdSb-type -- check stoichiometry; the Sb-Zn host contains both"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Disordered interstitial Zn gives glass-like thermal conductivity."
+   ],
+   "merged_from": [
+    "v2:zn4sb3"
+   ]
+  },
+  {
+   "id": "znsb_cdsb",
+   "display_name": "CdSb",
+   "prototype": "CdSb",
+   "exemplar": "ZnSb",
+   "formula_archetype": "AB 1:1",
+   "typical_space_group": "Pbca (61)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Sb-Zn",
+    "Cd-Sb"
+   ],
+   "discriminate_from": {
+    "zn4sb3": "1:1 rather than 4:3"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Shares the Sb-Zn host with beta-Zn4Sb3."
+   ],
+   "merged_from": [
+    "v2:znsb_cdsb"
+   ]
+  },
+  {
+   "id": "caal2si2_zintl",
+   "display_name": "CaAl2Si2-type layered Zintl",
+   "prototype": "CaAl2Si2",
+   "exemplar": "Mg3Sb2",
+   "formula_archetype": "AB2X2 (1-2-2)",
+   "typical_space_group": "P-3m1 (164)",
+   "dimensionality": "layered",
+   "structural_class": "Zintl polyanion",
+   "representative_materials": [
+    "Mg3Sb2",
+    "Mg3Bi2",
+    "CaZn2Sb2",
+    "YbZn2Sb2"
+   ],
+   "example_host_systems": [
+    "Bi-Mg-Sb",
+    "Mg-Sb",
+    "Sb-Yb-Zn",
+    "Eu-Sb-Zn",
+    "Cd-Sb-Yb",
+    "Ca-Sb-Zn",
+    "Cd-Eu-Sb",
+    "Bi-Ca-Mg",
+    "Mg-Sb-Zn",
+    "Cd-Sb-Yb-Zn",
+    "Al-Si-Sr",
+    "Ba-Cd-Sb"
+   ],
+   "discriminate_from": {
+    "thcr2si2_122": "also 1-2-2 but tetragonal I4/mmm -- CaAl2Si2 is trigonal P-3m1",
+    "zintl_11_6_12": "different polyanion stoichiometry"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Mg3Sb2, Mg3Bi2 and the Mg3(Sb,Bi)2 solid solution; AZn2Sb2 and ACd2Sb2 with A = Ca, Sr, Eu, Yb."
+   ],
+   "merged_from": [
+    "v2:caal2si2_zintl",
+    "v0.2:CaAl2Si2_type"
+   ]
+  },
+  {
+   "id": "thcr2si2_122",
+   "display_name": "ThCr2Si2 (122)",
+   "prototype": "ThCr2Si2 (122)",
+   "exemplar": "CeCu2Si2",
+   "formula_archetype": "AB2X2",
+   "typical_space_group": "I4/mmm (139)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ce-Cu-Si",
+    "Ce-Ge-Ni",
+    "Ce-Ru-Si",
+    "Ce-Cu-Ge",
+    "Ce-Ge-Ru",
+    "Ru-Si-U",
+    "As-Ba-Fe",
+    "As-Ba-Fe-K",
+    "Cu-Si-Yb",
+    "Cu-Ge-Si-Yb",
+    "Ce-Ni-Pd-Si",
+    "Ce-Cu-La-Si",
+    "Cu-La-Si"
+   ],
+   "discriminate_from": {
+    "caal2si2_zintl": "tetragonal I4/mmm vs trigonal P-3m1 for the same 1-2-2 ratio",
+    "fese_pbo": "122 pnictides insert an A layer between the FeAs slabs"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Heavy-fermion superconductors (CeCu2Si2, URu2Si2) and the 122 iron pnictides (BaFe2As2, Ba1-xKxFe2As2). K-for-Ba is the doping variable."
+   ],
+   "merged_from": [
+    "v2:thcr2si2_122"
+   ]
+  },
+  {
+   "id": "yb14mnsb11_zintl",
+   "display_name": "14-1-11 Zintl",
+   "prototype": "Ca14AlSb11 / Yb14MnSb11",
+   "exemplar": "Yb14MnSb11",
+   "formula_archetype": "A14MX11",
+   "typical_space_group": "I41/acd (142)",
+   "dimensionality": "3D_complex",
+   "structural_class": "Zintl polyanion",
+   "representative_materials": [
+    "Yb14MnSb11",
+    "Ca14AlSb11"
+   ],
+   "example_host_systems": [],
+   "discriminate_from": {
+    "caal2si2_zintl": "very large cell with isolated Sb3- and Sb3(7-) units"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Yb14MnSb11 and Ca14AlSb11.",
+    "Space group intentionally left unset pending prototype-database verification."
+   ],
+   "merged_from": [
+    "v2:yb14mnsb11_zintl",
+    "v0.2:Zintl_14_1_11"
+   ]
+  },
+  {
+   "id": "zintl_9_4_9",
+   "display_name": "9-4-9 Zintl",
+   "prototype": "Ca9Zn4.5Sb9",
+   "exemplar": "Yb9Zn4.2Sb9",
+   "formula_archetype": "A9M4+xX9",
+   "typical_space_group": "Pbam (55)",
+   "dimensionality": "complex",
+   "structural_class": "Zintl polyanion",
+   "representative_materials": [
+    "Yb9Mn4.2Sb9"
+   ],
+   "example_host_systems": [
+    "Sb-Yb-Zn",
+    "Ca-Sb-Zn"
+   ],
+   "discriminate_from": {
+    "caal2si2_zintl": "shares the same hosts as the 1-2-2 phases -- split by stoichiometry"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Partially occupied interstitial site sets the carrier count."
+   ],
+   "merged_from": [
+    "v2:zintl_9_4_9",
+    "v0.2:Zintl_9_4_9"
+   ]
+  },
+  {
+   "id": "zintl_11_6_12",
+   "display_name": "Sr11Cd6Sb12",
+   "prototype": "Sr11Cd6Sb12",
+   "exemplar": "Eu11Cd6Sb12",
+   "formula_archetype": "A11M6X12",
+   "typical_space_group": "Pbam (55)",
+   "dimensionality": "3D",
+   "structural_class": "Zintl polyanion",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cd-Eu-Sb",
+    "Cd-Eu-Sb-Zn"
+   ],
+   "discriminate_from": {
+    "caal2si2_zintl": "same Eu-Cd-Sb host contains EuCd2Sb2; split by stoichiometry"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Ribbon polyanion Zintl."
+   ],
+   "merged_from": [
+    "v2:zintl_11_6_12"
+   ]
+  },
+  {
+   "id": "zintl_5_2_6",
+   "display_name": "5-2-6 Zintl",
+   "prototype": "Ca5Al2Sb6",
+   "exemplar": "Ca5Al2Sb6",
+   "formula_archetype": "A5M2X6",
+   "typical_space_group": "Pbam (55)",
+   "dimensionality": "chain_or_network",
+   "structural_class": "Zintl polyanion",
+   "representative_materials": [
+    "Ca5Al2Sb6"
+   ],
+   "example_host_systems": [
+    "Al-Ca-Sb",
+    "Eu-In-Sb"
+   ],
+   "discriminate_from": {
+    "zintl_9_4_9": "corner-sharing MX4 chains, different polyanion"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Ca5Al2Sb6, Ca5In2Sb6, Eu5In2Sb6. Na-for-Ca is the carrier knob."
+   ],
+   "merged_from": [
+    "v2:zintl_5_2_6",
+    "v0.2:Zintl_5_2_6"
+   ]
+  },
+  {
+   "id": "y3au3sb4",
+   "display_name": "Y3Au3Sb4",
+   "prototype": "Y3Au3Sb4",
+   "exemplar": "Ce3Bi4Pd3",
+   "formula_archetype": "A3M3X4",
+   "typical_space_group": "I-43d (220)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Bi-Ce-Pd",
+    "Ni-Sb-Zr"
+   ],
+   "discriminate_from": {
+    "th3p4": "same I-43d framework family but a filled ternary ordering"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Ce3Bi4Pd3 Kondo insulator; Zr3Ni3Sb4."
+   ],
+   "merged_from": [
+    "v2:y3au3sb4"
+   ]
+  },
+  {
+   "id": "th3p4",
+   "display_name": "Th3P4 (D7_3)",
+   "prototype": "Th3P4 (D7_3)",
+   "exemplar": "La3Te4",
+   "formula_archetype": "A3-xX4",
+   "typical_space_group": "I-43d (220)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "La-S"
+   ],
+   "discriminate_from": {
+    "y3au3sb4": "binary with cation vacancies rather than an ordered ternary"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "La3-xTe4 / LaS1.4-1.5. The cation vacancy level IS the carrier concentration -- central for stage 3, not an impurity."
+   ],
+   "merged_from": [
+    "v2:th3p4"
+   ]
+  },
+  {
+   "id": "ir3ge7",
+   "display_name": "Mo3Sb7 / Ir3Ge7-type",
+   "prototype": "Ir3Ge7",
+   "exemplar": "Mo3Sb7",
+   "formula_archetype": "A3X7",
+   "typical_space_group": "Im-3m (229)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [
+    "Mo3Sb7"
+   ],
+   "example_host_systems": [
+    "Mo-Sb",
+    "Mo-Sb-Te"
+   ],
+   "discriminate_from": {
+    "skutterudite": "different cage topology and A:X ratio"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Mo3Sb7 and Te-substituted Mo3Sb7-xTex.",
+    "Not all authors classify this family identically within Zintl chemistry."
+   ],
+   "merged_from": [
+    "v2:ir3ge7",
+    "v0.2:Mo3Sb7_Ir3Ge7_type"
+   ]
+  },
+  {
+   "id": "fega3",
+   "display_name": "FeGa3 / CoGa3",
+   "prototype": "FeGa3 / CoGa3",
+   "exemplar": "RuIn3",
+   "formula_archetype": "MX3",
+   "typical_space_group": "P-42m (111) / P4n2",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Fe-Ga",
+    "Ga-Ru",
+    "In-Ru"
+   ],
+   "discriminate_from": {
+    "skutterudite": "MX3 but a tetragonal narrow-gap semiconductor, not a cubic cage"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Narrow-gap intermetallic semiconductors."
+   ],
+   "merged_from": [
+    "v2:fega3"
+   ]
+  },
+  {
+   "id": "b20_fesi",
+   "display_name": "B20 FeSi/CoSi-type",
+   "prototype": "FeSi (B20)",
+   "exemplar": "CoSi",
+   "formula_archetype": "AB 1:1",
+   "typical_space_group": "P213 (198)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [
+    "CoSi",
+    "FeSi"
+   ],
+   "example_host_systems": [
+    "Co-Si",
+    "Fe-Si",
+    "Co-Fe-Si"
+   ],
+   "discriminate_from": {
+    "beta_fesi2": "1:1 rather than 1:2 -- the Fe-Si host contains both FeSi and beta-FeSi2"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Chiral cubic FeSi, CoSi, MnSi. CoSi is a topological semimetal thermoelectric."
+   ],
+   "merged_from": [
+    "v2:b20_fesi",
+    "v0.2:B20_FeSi_type"
+   ]
+  },
+  {
+   "id": "beta_fesi2",
+   "display_name": "beta-FeSi2",
+   "prototype": "beta-FeSi2",
+   "exemplar": "FeSi2",
+   "formula_archetype": "MX2",
+   "typical_space_group": "Cmce (64)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Fe-Si",
+    "B-Fe-Si-Ti"
+   ],
+   "discriminate_from": {
+    "b20_fesi": "stoichiometry 1:2",
+    "crsi2_c40": "orthorhombic, not hexagonal C40"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "The semiconducting beta phase; the metallic alpha phase (P4/mmm) is distinct."
+   ],
+   "merged_from": [
+    "v2:beta_fesi2"
+   ]
+  },
+  {
+   "id": "crsi2_c40",
+   "display_name": "CrSi2 (C40)",
+   "prototype": "CrSi2 (C40)",
+   "exemplar": "CrSi2",
+   "formula_archetype": "MX2",
+   "typical_space_group": "P6222 (180)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cr-Si"
+   ],
+   "discriminate_from": {
+    "beta_fesi2": "hexagonal C40 vs orthorhombic"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "CrSi2, VSi2, NbSi2."
+   ],
+   "merged_from": [
+    "v2:crsi2_c40"
+   ]
+  },
+  {
+   "id": "hms_chimney_ladder",
+   "display_name": "Higher manganese silicide / Nowotny chimney-ladder",
+   "prototype": "Nowotny chimney-ladder (higher manganese silicide)",
+   "exemplar": "MnSi1.75",
+   "formula_archetype": "MSi~1.75",
+   "typical_space_group": "tetragonal, incommensurate composite",
+   "dimensionality": "composite_modulated",
+   "structural_class": "misfit / incommensurate",
+   "representative_materials": [
+    "Mn4Si7",
+    "Mn11Si19",
+    "Mn15Si26",
+    "Mn27Si47"
+   ],
+   "example_host_systems": [
+    "Mn-Si",
+    "Fe-Mn-Si",
+    "Al-Mn-Si"
+   ],
+   "discriminate_from": {
+    "crsi2_c40": "Si:M ratio near 1.75, not 2",
+    "b20_fesi": "MnSi is B20; MnSi1.75 is the chimney ladder -- the Mn-Si host contains both"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Mn4Si7, Mn11Si19, Mn15Si26, Mn27Si47. Incommensurate: MP has only the commensurate approximants.",
+    "Treat as a modulated/composite structural family rather than forcing one commensurate prototype."
+   ],
+   "confidence_note": "Stage 2 must pick an approximant and say which.",
+   "merged_from": [
+    "v2:hms_chimney_ladder",
+    "v0.2:HMS_Nowotny_chimney_ladder"
+   ]
+  },
+  {
+   "id": "antifluorite",
+   "display_name": "Antifluorite Mg2X-type",
+   "prototype": "CaF2 antitype (C1)",
+   "exemplar": "Mg2Si",
+   "formula_archetype": "A2B",
+   "typical_space_group": "Fm-3m (225)",
+   "dimensionality": "3D",
+   "structural_class": "rocksalt-derived",
+   "representative_materials": [
+    "Mg2Si",
+    "Mg2Ge",
+    "Mg2Sn"
+   ],
+   "example_host_systems": [
+    "Mg-Si",
+    "Mg-Si-Sn",
+    "Mg-Sn",
+    "Ge-Mg-Si",
+    "Ge-Mg-Sn",
+    "Ge-Mg"
+   ],
+   "discriminate_from": {
+    "cu2se_superionic": "ordered and stoichiometric, no mobile cations",
+    "fluorite_oxide": "the anion/cation roles are inverted"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Mg2Si, Mg2Ge, Mg2Sn and the full Mg2(Si,Sn) solid solution. Interstitial Mg matters for stage 3."
+   ],
+   "merged_from": [
+    "v2:antifluorite",
+    "v0.2:antifluorite_Mg2X"
+   ]
+  },
+  {
+   "id": "srsi2_chiral",
+   "display_name": "SrSi2",
+   "prototype": "SrSi2",
+   "exemplar": "SrSi2",
+   "formula_archetype": "AB2",
+   "typical_space_group": "P4332 (212)",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Si-Sr"
+   ],
+   "discriminate_from": {
+    "crsi2_c40": "chiral cubic three-connected Si net"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Chiral cubic narrow-gap semiconductor."
+   ],
+   "merged_from": [
+    "v2:srsi2_chiral"
+   ]
+  },
+  {
+   "id": "diamond_cubic",
+   "display_name": "Diamond-type",
+   "prototype": "Diamond (A4)",
+   "exemplar": "Si",
+   "formula_archetype": "elemental / A1-xBx",
+   "typical_space_group": "Fd-3m (227)",
+   "dimensionality": "3D",
+   "structural_class": "tetrahedral diamond-like",
+   "representative_materials": [
+    "Si",
+    "Ge",
+    "SiGe"
+   ],
+   "example_host_systems": [
+    "Si",
+    "Ge-Si",
+    "Ge"
+   ],
+   "discriminate_from": {
+    "sphalerite": "single element on both sublattices"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Si, Ge and the full Si-Ge solid solution."
+   ],
+   "merged_from": [
+    "v2:diamond_cubic",
+    "v0.2:diamond_A4"
+   ]
+  },
+  {
+   "id": "sic_polytype",
+   "display_name": "SiC polytype family",
+   "prototype": "SiC polytypes",
+   "exemplar": "SiC",
+   "formula_archetype": "AB 1:1",
+   "typical_space_group": "F-43m (216) 3C / P63mc 4H, 6H",
+   "dimensionality": "3D",
+   "structural_class": "tetrahedral diamond-like",
+   "representative_materials": [
+    "3C-SiC",
+    "4H-SiC",
+    "6H-SiC"
+   ],
+   "example_host_systems": [
+    "C-Si"
+   ],
+   "discriminate_from": {
+    "sphalerite": "3C-SiC IS zincblende; separated so polytypes shard together"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Record the polytype (3C/4H/6H) when stated.",
+    "Exact polytype requires explicit structural evidence."
+   ],
+   "merged_from": [
+    "v2:sic_polytype",
+    "v0.2:SiC_polytype"
+   ]
+  },
+  {
+   "id": "a7_rhombohedral",
+   "display_name": "alpha-As (A7)",
+   "prototype": "alpha-As (A7)",
+   "exemplar": "Bi",
+   "formula_archetype": "elemental / alloy",
+   "typical_space_group": "R-3m (166)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Bi",
+    "Bi-Sb"
+   ],
+   "discriminate_from": {
+    "solid_solution_alloy": "puckered-layer semimetal structure, not close-packed"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Bi, Sb, As and Bi1-xSbx topological alloys."
+   ],
+   "phase_transitions": [
+    {
+     "to": null,
+     "T_K": 544,
+     "exemplar": "Bi",
+     "note": "Bi melts at ~544 K; Bi-Sb alloys melt higher."
+    }
+   ],
+   "merged_from": [
+    "v2:a7_rhombohedral"
+   ]
+  },
+  {
+   "id": "trigonal_te",
+   "display_name": "Se/Te (A8)",
+   "prototype": "Se/Te (A8)",
+   "exemplar": "Te",
+   "formula_archetype": "elemental",
+   "typical_space_group": "P3121 (152)",
+   "dimensionality": "chain_or_network",
+   "structural_class": "chain / low-dimensional",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Te",
+    "Se-Te"
+   ],
+   "discriminate_from": {
+    "a7_rhombohedral": "helical chains rather than puckered layers"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Helical chain elemental semiconductor."
+   ],
+   "phase_transitions": [
+    {
+     "to": null,
+     "T_K": 723,
+     "exemplar": "Te",
+     "note": "Melts at ~723 K, inside the range of many high-T runs."
+    }
+   ],
+   "merged_from": [
+    "v2:trigonal_te"
+   ]
+  },
+  {
+   "id": "alb2",
+   "display_name": "AlB2 (C32)",
+   "prototype": "AlB2 (C32)",
+   "exemplar": "MgB2",
+   "formula_archetype": "AB2",
+   "typical_space_group": "P6/mmm (191)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "B-Mg",
+    "B-Zr"
+   ],
+   "discriminate_from": {
+    "cab6_hexaboride": "graphite-like B layers, not a B6 octahedral framework"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "MgB2 superconductor, ZrB2, TiB2 ceramics."
+   ],
+   "merged_from": [
+    "v2:alb2"
+   ]
+  },
+  {
+   "id": "cab6_hexaboride",
+   "display_name": "CaB6 (D2_1)",
+   "prototype": "CaB6 (D2_1)",
+   "exemplar": "CeB6",
+   "formula_archetype": "AB6",
+   "typical_space_group": "Pm-3m (221)",
+   "dimensionality": "3D_cage_framework",
+   "structural_class": "cage compound",
+   "representative_materials": [],
+   "example_host_systems": [
+    "B-Ce",
+    "B-Yb",
+    "B-Ca"
+   ],
+   "discriminate_from": {
+    "alb2": "B6 octahedra in a CsCl-like arrangement",
+    "ub12_boride": "B12 cuboctahedra, AB12"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "CeB6, YbB6, CaB6, LaB6 electron emitters and Kondo systems."
+   ],
+   "merged_from": [
+    "v2:cab6_hexaboride"
+   ]
+  },
+  {
+   "id": "ub12_boride",
+   "display_name": "UB12 (D2_f)",
+   "prototype": "UB12 (D2_f)",
+   "exemplar": "UB4",
+   "formula_archetype": "AB12 / AB4",
+   "typical_space_group": "Fm-3m (225) for AB12",
+   "dimensionality": "3D_cage_framework",
+   "structural_class": "cage compound",
+   "representative_materials": [],
+   "example_host_systems": [
+    "B-U"
+   ],
+   "discriminate_from": {
+    "cab6_hexaboride": "higher boron content and a different polyhedral framework"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "UB4 is tetragonal P4/mbm; UB12 cubic. Split by stoichiometry."
+   ],
+   "merged_from": [
+    "v2:ub12_boride"
+   ]
+  },
+  {
+   "id": "boron_carbide",
+   "display_name": "B4C (icosahedral boron)",
+   "prototype": "B4C (icosahedral boron)",
+   "exemplar": "B4C",
+   "formula_archetype": "B~4C, wide homogeneity",
+   "typical_space_group": "R-3m (166)",
+   "dimensionality": "cluster_3D",
+   "structural_class": "cluster compound",
+   "representative_materials": [],
+   "example_host_systems": [
+    "B",
+    "B-C",
+    "Al-B"
+   ],
+   "discriminate_from": {
+    "cab6_hexaboride": "B12 icosahedra with intericosahedral chains, no metal cation"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "beta-rhombohedral boron and B4C-B13C2. The C content within the homogeneity range is the carrier knob."
+   ],
+   "merged_from": [
+    "v2:boron_carbide"
+   ]
+  },
+  {
+   "id": "borocarbide_1221",
+   "display_name": "LuNi2B2C",
+   "prototype": "LuNi2B2C",
+   "exemplar": "YbNi2B2C",
+   "formula_archetype": "RM2B2C",
+   "typical_space_group": "I4/mmm (139)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "B-C-Ni-Yb"
+   ],
+   "discriminate_from": {
+    "thcr2si2_122": "ThCr2Si2 with a carbon inserted into the R layer"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Rare-earth nickel borocarbide superconductors."
+   ],
+   "merged_from": [
+    "v2:borocarbide_1221"
+   ]
+  },
+  {
+   "id": "antiperovskite",
+   "display_name": "Inverse perovskite",
+   "prototype": "Antiperovskite (Ca3SnO / Co3SnC)",
+   "exemplar": "SnCCo3",
+   "formula_archetype": "M3XY",
+   "typical_space_group": "Pm-3m (221)",
+   "dimensionality": "3D",
+   "structural_class": "perovskite-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "C-Co-Sn"
+   ],
+   "discriminate_from": {
+    "perovskite": "cation and anion roles inverted -- metal at the octahedral corner, main-group at the A site"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Co3SnC and related metallic antiperovskites."
+   ],
+   "merged_from": [
+    "v2:antiperovskite",
+    "v0.2:inverse_perovskite"
+   ]
+  },
+  {
+   "id": "laves_phase",
+   "display_name": "MgCu2 (C15) / MgZn2 (C14)",
+   "prototype": "MgCu2 (C15) / MgZn2 (C14)",
+   "exemplar": "LaAl2",
+   "formula_archetype": "AB2",
+   "typical_space_group": "Fd-3m (227) C15 / P63/mmc C14",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Al-La"
+   ],
+   "discriminate_from": {
+    "alb2": "tetrahedrally close-packed, not layered",
+    "cu3au_l12": "AB2 not AB3"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Record C14/C15/C36 when stated."
+   ],
+   "merged_from": [
+    "v2:laves_phase"
+   ]
+  },
+  {
+   "id": "cu3au_l12",
+   "display_name": "Cu3Au (L1_2)",
+   "prototype": "Cu3Au (L1_2)",
+   "exemplar": "YbAl3",
+   "formula_archetype": "AB3",
+   "typical_space_group": "Pm-3m (221)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Al-Yb",
+    "Ce-Pd"
+   ],
+   "discriminate_from": {
+    "solid_solution_alloy": "ordered AB3 superstructure of fcc rather than a random solid solution",
+    "laves_phase": "AB3 not AB2"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "YbAl3, CePd3 intermediate-valence compounds."
+   ],
+   "merged_from": [
+    "v2:cu3au_l12"
+   ]
+  },
+  {
+   "id": "cacu5",
+   "display_name": "CaCu5 (D2_d)",
+   "prototype": "CaCu5 (D2_d)",
+   "exemplar": "YbCu4.5",
+   "formula_archetype": "AB5",
+   "typical_space_group": "P6/mmm (191)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cu-Yb",
+    "Ce-Ni"
+   ],
+   "discriminate_from": {
+    "cu3au_l12": "AB5 hexagonal"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "YbCu5, CeNi5 and the AuBe5-type YbAgCu4 derivative."
+   ],
+   "merged_from": [
+    "v2:cacu5"
+   ]
+  },
+  {
+   "id": "aube5",
+   "display_name": "AuBe5 (C15b)",
+   "prototype": "AuBe5 (C15b)",
+   "exemplar": "YbAgCu4",
+   "formula_archetype": "AB C4",
+   "typical_space_group": "F-43m (216)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ag-Cu-Yb"
+   ],
+   "discriminate_from": {
+    "cacu5": "cubic ordered derivative"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "YbAgCu4 valence-fluctuation compound."
+   ],
+   "merged_from": [
+    "v2:aube5"
+   ]
+  },
+  {
+   "id": "cecu6",
+   "display_name": "CeCu6",
+   "prototype": "CeCu6",
+   "exemplar": "CeCu6",
+   "formula_archetype": "AB6",
+   "typical_space_group": "Pnma (62)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ce-Cu"
+   ],
+   "discriminate_from": {
+    "cacu5": "AB6 orthorhombic, a distinct heavy-fermion structure"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Archetypal heavy-fermion compound; the Ce-Cu host also holds CeCu2."
+   ],
+   "merged_from": [
+    "v2:cecu6"
+   ]
+  },
+  {
+   "id": "crb_feb_chain",
+   "display_name": "CrB (B33) / FeB (B27)",
+   "prototype": "CrB (B33) / FeB (B27)",
+   "exemplar": "CeNiSn",
+   "formula_archetype": "AB or ABX",
+   "typical_space_group": "Cmcm (63) / Pnma (62)",
+   "dimensionality": "chain_or_network",
+   "structural_class": "chain / low-dimensional",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ce-Ni-Sn",
+    "La-Ni",
+    "Ce-La-Ni",
+    "Ce-Rh-Sn"
+   ],
+   "discriminate_from": {
+    "half_heusler": "orthorhombic zigzag chains rather than the cubic C1b net"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "CeNiSn Kondo semiconductor, LaNi, CeRhSn."
+   ],
+   "confidence_note": "The Ce-Ni-Sn host holds both CeNiSn (epsilon-TiNiSi type) and CeNi2Sn2 (ThCr2Si2) -- split per composition.",
+   "merged_from": [
+    "v2:crb_feb_chain"
+   ]
+  },
+  {
+   "id": "b2_cscl",
+   "display_name": "CsCl (B2)",
+   "prototype": "CsCl (B2)",
+   "exemplar": "TiNi",
+   "formula_archetype": "AB 1:1",
+   "typical_space_group": "Pm-3m (221)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ni-Ti"
+   ],
+   "discriminate_from": {
+    "solid_solution_alloy": "ordered 1:1 rather than random substitution",
+    "l10_tetragonal": "cubic rather than tetragonally distorted"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "TiNi shape-memory alloy (austenite); martensite is monoclinic B19'."
+   ],
+   "merged_from": [
+    "v2:b2_cscl"
+   ]
+  },
+  {
+   "id": "l10_tetragonal",
+   "display_name": "AuCu (L1_0)",
+   "prototype": "AuCu (L1_0)",
+   "exemplar": "MnAl",
+   "formula_archetype": "AB 1:1",
+   "typical_space_group": "P4/mmm (123)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Al-Mn"
+   ],
+   "discriminate_from": {
+    "b2_cscl": "tetragonal layered ordering of fcc, not bcc-based"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "tau-MnAl permanent magnet."
+   ],
+   "merged_from": [
+    "v2:l10_tetragonal"
+   ]
+  },
+  {
+   "id": "cual2_c16",
+   "display_name": "CuAl2 (C16)",
+   "prototype": "CuAl2 (C16)",
+   "exemplar": "CoZr2",
+   "formula_archetype": "AB2",
+   "typical_space_group": "I4/mcm (140)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Co-Zr",
+    "Co-Ni-Zr"
+   ],
+   "discriminate_from": {
+    "laves_phase": "tetragonal, not tetrahedrally close-packed"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "CoZr2, NiZr2."
+   ],
+   "merged_from": [
+    "v2:cual2_c16"
+   ]
+  },
+  {
+   "id": "quasicrystal_approximant",
+   "display_name": "Quasicrystalline",
+   "prototype": "icosahedral quasicrystal and its approximants",
+   "exemplar": "Al-Pd-Re",
+   "formula_archetype": "Al-rich ternary",
+   "typical_space_group": "aperiodic; approximants have large cubic cells",
+   "dimensionality": "aperiodic",
+   "structural_class": "misfit / incommensurate",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Al-Pd-Re",
+    "Al-Mn-Pd",
+    "Al-Cu-Fe",
+    "Al-Re-Si",
+    "Al-Co-Ni",
+    "Al-Fe",
+    "Al-Cu-Ru",
+    "Al-Fe-Si",
+    "Al-Pd-Ru",
+    "Al-Au-Gd"
+   ],
+   "discriminate_from": {
+    "solid_solution_alloy": "icosahedral or decagonal long-range order -- composition strings often carry an _IQC suffix"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "No periodic MP structure exists for the true quasicrystal. Map to the nearest approximant (e.g. Al13Fe4) and flag it.",
+    "Do not force a periodic space-group prototype."
+   ],
+   "confidence_note": "Al-Fe and Al-Fe-Si hosts contain both approximants and ordinary intermetallics -- split per composition.",
+   "merged_from": [
+    "v2:quasicrystal_approximant",
+    "v0.2:quasicrystal"
+   ]
+  },
+  {
+   "id": "high_entropy_alloy",
+   "display_name": "multi-principal-element solid solution",
+   "prototype": "multi-principal-element solid solution",
+   "exemplar": "Al2CrCoFeNi",
+   "formula_archetype": "5+ elements in near-equal fractions",
+   "typical_space_group": "Fm-3m (225) fcc / Im-3m (229) bcc",
+   "dimensionality": "3D",
+   "structural_class": "disordered / non-crystalline",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Al-Co-Cr-Fe-Ni"
+   ],
+   "discriminate_from": {
+    "solid_solution_alloy": "no single majority element -- the 5 at.% host/dopant split does not apply meaningfully here"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Also high-entropy oxides (e.g. the five-A-site manganites in the Mn-O host). Stage 3 doping analysis does not apply; record configurational disorder instead."
+   ],
+   "merged_from": [
+    "v2:high_entropy_alloy"
+   ]
+  },
+  {
+   "id": "solid_solution_alloy",
+   "display_name": "Cu (A1) / W (A2) / Mg (A3)",
+   "prototype": "Cu (A1) / W (A2) / Mg (A3)",
+   "exemplar": "Cu-Ni",
+   "formula_archetype": "random substitution",
+   "typical_space_group": "Fm-3m (225) / Im-3m (229) / P63/mmc (194)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cu",
+    "Ni",
+    "Fe",
+    "Cr",
+    "Mg",
+    "Ag",
+    "Au",
+    "Al",
+    "Nb",
+    "Th",
+    "Cu-Ni",
+    "Cr-Fe",
+    "Cr-Ni",
+    "Ag-Pd"
+   ],
+   "discriminate_from": {
+    "b2_cscl": "no chemical ordering",
+    "high_entropy_alloy": "one clear majority element"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Use only when there is genuinely no ordered prototype. Record the lattice (fcc/bcc/hcp). Elemental metals and dilute alloys land here."
+   ],
+   "merged_from": [
+    "v2:solid_solution_alloy"
+   ]
+  },
+  {
+   "id": "metallic_glass",
+   "display_name": "amorphous metal",
+   "prototype": "amorphous metal",
+   "exemplar": "Fe80B20",
+   "formula_archetype": "glass-forming eutectic",
+   "typical_space_group": null,
+   "dimensionality": "amorphous",
+   "structural_class": "disordered / non-crystalline",
+   "representative_materials": [],
+   "example_host_systems": [
+    "B-Fe",
+    "B-Fe-Ni-Si"
+   ],
+   "discriminate_from": {
+    "amorphous": "metallic rather than covalent/oxide glass"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "No MP assignment. Fe-B, Fe-Ni-B-Si ribbons."
+   ],
+   "merged_from": [
+    "v2:metallic_glass"
+   ]
+  },
+  {
+   "id": "interstitial_hydride",
+   "display_name": "metal hydride",
+   "prototype": "metal hydride",
+   "exemplar": "PdH0.66",
+   "formula_archetype": "MHx",
+   "typical_space_group": "Fm-3m (225)",
+   "dimensionality": "3D",
+   "structural_class": "rocksalt-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "H-Pd"
+   ],
+   "discriminate_from": {
+    "solid_solution_alloy": "H occupies octahedral interstices of the fcc metal"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "x is the doping variable for stage 3."
+   ],
+   "merged_from": [
+    "v2:interstitial_hydride"
+   ]
+  },
+  {
+   "id": "perovskite",
+   "display_name": "Perovskite ABO3 archetype",
+   "prototype": "Perovskite (CaTiO3, E2_1)",
+   "exemplar": "SrTiO3",
+   "formula_archetype": "ABO3",
+   "typical_space_group": "Pm-3m (221) aristotype; Pnma (62) and R-3c (167) tilt variants",
+   "dimensionality": "3D",
+   "structural_class": "perovskite-derived",
+   "representative_materials": [
+    "SrTiO3",
+    "CaMnO3",
+    "LaCoO3"
+   ],
+   "example_host_systems": [
+    "O-Sr-Ti",
+    "Ca-Mn-O",
+    "La-Mn-O",
+    "Co-La-O",
+    "La-Mn-O-Sr",
+    "Co-O-Sr",
+    "Nb-O-Sr",
+    "Ba-Fe-O",
+    "Fe-La-O-Sr",
+    "Ba-Co-O",
+    "La-Ni-O",
+    "Ca-La-Mn-O",
+    "Ba-Co-O-Sr",
+    "Ba-O-Ti",
+    "Ir-O-Sr",
+    "Fe-O-Sr",
+    "Cr-La-O",
+    "Eu-O-Ti",
+    "Bi-Fe-O",
+    "Nd-Ni-O",
+    "Ca-Mn-O-Pr",
+    "Fe-O-Pr-Sr",
+    "Mn-O-Pr-Sr",
+    "Ba-La-Mn-O",
+    "La-O-Ti",
+    "Mn-O-Sr",
+    "O-Pb-Sr",
+    "Ca-O-V",
+    "Ba-O-Pb",
+    "O-Sn-Sr",
+    "Ba-O-Sn",
+    "O-Sr-V",
+    "Mo-O-Sr",
+    "Ca-Ir-O",
+    "O-Pb-Ti-Zr",
+    "Cr-O-Y",
+    "La-O-V",
+    "Co-O-Sm",
+    "Mn-Nd-O"
+   ],
+   "discriminate_from": {
+    "double_perovskite": "B-site ordering doubles the cell -- A2BB'O6",
+    "ruddlesden_popper": "an extra AO rocksalt layer every n perovskite blocks",
+    "post_perovskite": "CaIrO3 adopts the post-perovskite Cmcm layered structure, not the 3D corner-sharing net",
+    "brownmillerite": "ordered oxygen vacancies at ABO2.5",
+    "antiperovskite": "inverted cation/anion roles"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "The single largest family here. Record the tilt system when the paper states it. A-site substitution (La for Sr, Sr for La) is the usual carrier knob and must be treated as doping, not as a new host, in stage 3.",
+    "Prototype space group is the ideal cubic parent; real samples may be distorted."
+   ],
+   "phase_transitions": [
+    {
+     "to": "perovskite",
+     "T_K": 393,
+     "compound_specific": true,
+     "exemplar": "BaTiO3",
+     "note": "Ferroelectric tilt/polarisation transitions are compound-specific: BaTiO3 tetragonal -> cubic ~393 K; SrTiO3 antiferrodistortive ~105 K, below the measured range."
+    }
+   ],
+   "merged_from": [
+    "v2:perovskite",
+    "v0.2:perovskite_ABO3"
+   ]
+  },
+  {
+   "id": "double_perovskite",
+   "display_name": "Double perovskite",
+   "prototype": "Elpasolite / Sr2FeMoO6",
+   "exemplar": "Sr2FeMoO6",
+   "formula_archetype": "A2BB'O6",
+   "typical_space_group": "Fm-3m (225) / I4/m (87) / P21/n",
+   "dimensionality": "3D",
+   "structural_class": "perovskite-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Fe-Mo-O-Sr",
+    "Fe-O-Sr-Ti",
+    "Ca-Fe-Mo-O",
+    "Cd-O-Te"
+   ],
+   "discriminate_from": {
+    "perovskite": "rock-salt ordering of two different B cations",
+    "layered_double_perovskite": "A-site rather than B-site ordering"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Sr2FeMoO6 half-metal.",
+    "Actual symmetry frequently lower than the ideal prototype."
+   ],
+   "merged_from": [
+    "v2:double_perovskite",
+    "v0.2:double_perovskite"
+   ]
+  },
+  {
+   "id": "layered_double_perovskite",
+   "display_name": "A-site ordered double perovskite (LnBaCo2O5+d)",
+   "prototype": "A-site ordered double perovskite (LnBaCo2O5+d)",
+   "exemplar": "NdBaCo2O5.5",
+   "formula_archetype": "LnBaB2O5+d",
+   "typical_space_group": "P4/mmm (123) / Pmmm (47)",
+   "dimensionality": "layered",
+   "structural_class": "perovskite-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ba-Co-Nd-O",
+    "Ba-Co-La-O",
+    "Ba-Co-O-Pr"
+   ],
+   "discriminate_from": {
+    "double_perovskite": "the ordering is on the A site, with oxygen vacancies ordered in the Ln layer",
+    "ybco_cuprate": "same A-site ordering principle; YBCO is the cuprate member"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "The 5+delta oxygen content is the doping variable."
+   ],
+   "merged_from": [
+    "v2:layered_double_perovskite"
+   ]
+  },
+  {
+   "id": "swedenborgite",
+   "display_name": "YBaCo4O7 (swedenborgite)",
+   "prototype": "YBaCo4O7 (swedenborgite)",
+   "exemplar": "YBaCo4O7",
+   "formula_archetype": "RBaCo4O7",
+   "typical_space_group": "P63mc (186)",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ba-Co-O-Y",
+    "Ba-Co-O-Yb"
+   ],
+   "discriminate_from": {
+    "layered_double_perovskite": "corner-sharing CoO4 tetrahedra, not octahedra"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Geometrically frustrated kagome-triangular cobaltite."
+   ],
+   "merged_from": [
+    "v2:swedenborgite"
+   ]
+  },
+  {
+   "id": "post_perovskite",
+   "display_name": "CaIrO3 (post-perovskite)",
+   "prototype": "CaIrO3 (post-perovskite)",
+   "exemplar": "CaIrO3",
+   "formula_archetype": "ABO3",
+   "typical_space_group": "Cmcm (63)",
+   "dimensionality": "layered",
+   "structural_class": "perovskite-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ca-Ir-O"
+   ],
+   "discriminate_from": {
+    "perovskite": "edge-sharing octahedral layers rather than a 3D corner-sharing net"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Layered ABO3 polymorph."
+   ],
+   "merged_from": [
+    "v2:post_perovskite"
+   ]
+  },
+  {
+   "id": "brownmillerite",
+   "display_name": "Ca2Fe2O5 (brownmillerite)",
+   "prototype": "Ca2Fe2O5 (brownmillerite)",
+   "exemplar": "Ca2Fe2O5",
+   "formula_archetype": "A2B2O5 (ABO2.5)",
+   "typical_space_group": "Pnma (62) / Icmm",
+   "dimensionality": "3D",
+   "structural_class": "perovskite-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ca-Fe-O",
+    "Co-Fe-O-Sr"
+   ],
+   "discriminate_from": {
+    "perovskite": "one sixth of the oxygen removed in ordered rows, alternating octahedral and tetrahedral layers"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Oxygen-deficient perovskite. SrCoO2.5 and SrFeO2.5. Oxygen content is the key variable."
+   ],
+   "merged_from": [
+    "v2:brownmillerite"
+   ]
+  },
+  {
+   "id": "ruddlesden_popper",
+   "display_name": "K2NiF4 / Ruddlesden-Popper",
+   "prototype": "K2NiF4 / Ruddlesden-Popper",
+   "exemplar": "La2CuO4",
+   "formula_archetype": "An+1BnO3n+1",
+   "typical_space_group": "I4/mmm (139)",
+   "dimensionality": "layered",
+   "structural_class": "perovskite-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cu-La-O",
+    "Cu-Nd-O",
+    "La-Ni-O-Sr",
+    "Co-Nd-O-Sr",
+    "Ca-O-Ru",
+    "O-Rh-Sr",
+    "Cu-La-O-Sr",
+    "Co-O-Pr-Sr",
+    "Cu-O-Pr"
+   ],
+   "discriminate_from": {
+    "perovskite": "n = infinity is plain perovskite; record n",
+    "cuprate_chain": "Sr2CuO3 has CuO chains, not CuO2 planes"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "n=1 K2NiF4 (La2CuO4, La2NiO4, Sr2RuO4, Sr2RhO4), n=2 (Ca3Ru2O7). Nd2CuO4 and Pr2CuO4 are the T'-variant -- same id, note the variant. Sr-for-La and Ce-for-Nd are the doping knobs."
+   ],
+   "merged_from": [
+    "v2:ruddlesden_popper"
+   ]
+  },
+  {
+   "id": "ybco_cuprate",
+   "display_name": "YBa2Cu3O7 (123)",
+   "prototype": "YBa2Cu3O7 (123)",
+   "exemplar": "YBa2Cu3O7",
+   "formula_archetype": "RBa2Cu3O6+d",
+   "typical_space_group": "Pmmm (47)",
+   "dimensionality": "layered",
+   "structural_class": "perovskite-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ba-Cu-O-Y",
+    "Ba-Cu-Eu-O",
+    "Ba-Cu-O-Pr",
+    "Ba-Cu-Nd-O",
+    "Ba-Cu-O-Sm",
+    "Ba-Cu-Dy-O",
+    "Ba-Cu-La-O",
+    "Ba-Cu-O",
+    "Ba-Cu-Gd-O"
+   ],
+   "discriminate_from": {
+    "bscco_cuprate": "Bi-based homologous series with BiO double layers",
+    "ruddlesden_popper": "123 has CuO chains plus CuO2 planes"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Oxygen content 6+delta is THE doping variable -- treat it as doping level, never as an impurity, in stage 3. Orthorhombic when doped, tetragonal when O-depleted."
+   ],
+   "merged_from": [
+    "v2:ybco_cuprate"
+   ]
+  },
+  {
+   "id": "bscco_cuprate",
+   "display_name": "Bi2Sr2Can-1CunO2n+4",
+   "prototype": "Bi2Sr2Can-1CunO2n+4",
+   "exemplar": "Bi2Sr2CaCu2O8",
+   "formula_archetype": "Bi2Sr2Can-1CunO2n+4",
+   "typical_space_group": "I4/mmm (139) / Bbmb",
+   "dimensionality": "layered",
+   "structural_class": "perovskite-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Bi-Ca-Cu-O-Sr",
+    "Bi-Cu-O-Sr"
+   ],
+   "discriminate_from": {
+    "ybco_cuprate": "BiO double layers instead of CuO chains"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Bi-2201 / 2212 / 2223; record the member. Pb-for-Bi and cation substitution tune the doping."
+   ],
+   "merged_from": [
+    "v2:bscco_cuprate"
+   ]
+  },
+  {
+   "id": "ruthenocuprate",
+   "display_name": "RuSr2RCu2O8",
+   "prototype": "RuSr2RCu2O8",
+   "exemplar": "RuSr2GdCu2O8",
+   "formula_archetype": "RuSr2RCu2O8",
+   "typical_space_group": "P4/mmm (123)",
+   "dimensionality": "3D",
+   "structural_class": "perovskite-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cu-Gd-O-Ru-Sr"
+   ],
+   "discriminate_from": {
+    "ybco_cuprate": "RuO2 layer replaces the CuO chain layer"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Magnetic superconductor intergrowth."
+   ],
+   "merged_from": [
+    "v2:ruthenocuprate"
+   ]
+  },
+  {
+   "id": "cuprate_chain",
+   "display_name": "Sr2CuO3 / SrCuO2 chain cuprate",
+   "prototype": "Sr2CuO3 / SrCuO2 chain cuprate",
+   "exemplar": "Sr2CuO3",
+   "formula_archetype": "A2CuO3 / ACuO2",
+   "typical_space_group": "Immm (71) / Cmcm",
+   "dimensionality": "chain_or_network",
+   "structural_class": "chain / low-dimensional",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cu-O-Sr"
+   ],
+   "discriminate_from": {
+    "ruddlesden_popper": "corner-sharing CuO4 chains rather than CuO2 planes",
+    "infinite_layer_cuprate": "SrCuO2 infinite-layer is a distinct planar phase"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "1D spin-chain cuprates."
+   ],
+   "merged_from": [
+    "v2:cuprate_chain"
+   ]
+  },
+  {
+   "id": "misfit_cobaltite",
+   "display_name": "Misfit-layered cobaltite",
+   "prototype": "[Ca2CoO3][CoO2]x misfit",
+   "exemplar": "Ca3Co4O9",
+   "formula_archetype": "[rocksalt block][CoO2]x",
+   "typical_space_group": "incommensurate composite, C2/m subsystems",
+   "dimensionality": "misfit_layered",
+   "structural_class": "misfit / incommensurate",
+   "representative_materials": [
+    "Ca3Co4O9"
+   ],
+   "example_host_systems": [
+    "Ca-Co-O",
+    "Bi-Co-O-Sr",
+    "Bi-Ca-Co-O",
+    "Ba-Bi-Co-O",
+    "Ca-Co-H-O",
+    "Ba-Bi-Co-O-Rh"
+   ],
+   "discriminate_from": {
+    "naxcoo2_layered": "a rocksalt block replaces the alkali layer between CoO2 sheets",
+    "ca3co2o6_chain": "Ca3Co2O6 is a 1D chain compound in the same Ca-Co-O host -- split by stoichiometry",
+    "perovskite": "not a corner-sharing octahedral net at all"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Incommensurate: no single MP entry. Stage 2 must map the rocksalt subsystem and the CdI2-type CoO2 subsystem separately.",
+    "Use paper structure information for exact subsystem symmetry."
+   ],
+   "confidence_note": "The Ca-Co-O host contains Ca3Co4O9, Ca3Co2O6 and Ca2Co2O5 -- genuinely mixed, split per composition.",
+   "merged_from": [
+    "v2:misfit_cobaltite",
+    "v0.2:misfit_cobaltite"
+   ]
+  },
+  {
+   "id": "naxcoo2_layered",
+   "display_name": "Layered cobaltate",
+   "prototype": "gamma-NaxCoO2 (P2-type)",
+   "exemplar": "NaCo2O4",
+   "formula_archetype": "AxMO2",
+   "typical_space_group": "P63/mmc (194)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [
+    "NaCo2O4"
+   ],
+   "example_host_systems": [
+    "Co-Na-O",
+    "K-O-Rh",
+    "Co-Fe-Na-O"
+   ],
+   "discriminate_from": {
+    "alpha_nafeo2_layered": "P2 prismatic alkali site vs O3 octahedral (LiCoO2)",
+    "misfit_cobaltite": "a simple alkali layer, not a rocksalt block"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "x is a compositional variable setting the Co valence -- a doping level, not an impurity."
+   ],
+   "merged_from": [
+    "v2:naxcoo2_layered",
+    "v0.2:layered_cobaltate"
+   ]
+  },
+  {
+   "id": "alpha_nafeo2_layered",
+   "display_name": "alpha-NaFeO2 (O3-type)",
+   "prototype": "alpha-NaFeO2 (O3-type)",
+   "exemplar": "LiCoO2",
+   "formula_archetype": "AMO2",
+   "typical_space_group": "R-3m (166)",
+   "dimensionality": "layered",
+   "structural_class": "rocksalt-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Co-Li-O"
+   ],
+   "discriminate_from": {
+    "naxcoo2_layered": "octahedral alkali coordination, ordered rocksalt derivative",
+    "delafossite": "delafossite has linear O-Cu-O dumbbells"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "LiCoO2; Li content sets the Co valence."
+   ],
+   "phase_transitions": [
+    {
+     "to": "alpha_nafeo2_layered",
+     "T_K": null,
+     "exemplar": "LiCoO2",
+     "note": "Order-disorder on the Li sublattice depends on Li content, not temperature alone."
+    }
+   ],
+   "merged_from": [
+    "v2:alpha_nafeo2_layered"
+   ]
+  },
+  {
+   "id": "ca3co2o6_chain",
+   "display_name": "Ca3Co2O6",
+   "prototype": "Ca3Co2O6",
+   "exemplar": "Ca3Co2O6",
+   "formula_archetype": "A3B2O6",
+   "typical_space_group": "R-3c (167)",
+   "dimensionality": "chain_or_network",
+   "structural_class": "chain / low-dimensional",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ca-Co-O"
+   ],
+   "discriminate_from": {
+    "misfit_cobaltite": "1D face-sharing chains, not misfit layers -- shares the Ca-Co-O host"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Frustrated Ising chain magnet."
+   ],
+   "merged_from": [
+    "v2:ca3co2o6_chain"
+   ]
+  },
+  {
+   "id": "delafossite",
+   "display_name": "Delafossite",
+   "prototype": "CuFeO2 (delafossite)",
+   "exemplar": "CuAlO2",
+   "formula_archetype": "ABO2",
+   "typical_space_group": "R-3m (166) 3R / P63/mmc 2H",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [
+    "CuFeO2",
+    "CuAlO2"
+   ],
+   "example_host_systems": [
+    "Al-Cu-O",
+    "Cr-Cu-O",
+    "Cu-Fe-O",
+    "Co-O-Pd",
+    "Cu-O-Rh"
+   ],
+   "discriminate_from": {
+    "alpha_nafeo2_layered": "linear O-Cu-O dumbbells rather than octahedral A sites",
+    "cucrs2_layered": "sulfide analogue with different Cu coordination"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Transparent p-type oxides; PdCoO2 is the ultra-high-conductivity metallic member.",
+    "Polytypes may occur."
+   ],
+   "merged_from": [
+    "v2:delafossite",
+    "v0.2:delafossite"
+   ]
+  },
+  {
+   "id": "infinite_layer_cuprate",
+   "display_name": "SrCuO2 infinite layer",
+   "prototype": "SrCuO2 infinite layer",
+   "exemplar": "Sr0.9La0.1CuO2",
+   "formula_archetype": "ACuO2",
+   "typical_space_group": "P4/mmm (123)",
+   "dimensionality": "3D",
+   "structural_class": "perovskite-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cu-O-Sr"
+   ],
+   "discriminate_from": {
+    "cuprate_chain": "planar CuO2 sheets with no apical oxygen -- shares the Cu-O-Sr host"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Electron-doped by La-for-Sr."
+   ],
+   "merged_from": [
+    "v2:infinite_layer_cuprate"
+   ]
+  },
+  {
+   "id": "rutile",
+   "display_name": "TiO2 (rutile, C4)",
+   "prototype": "TiO2 (rutile, C4)",
+   "exemplar": "TiO2",
+   "formula_archetype": "MO2",
+   "typical_space_group": "P42/mnm (136)",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [],
+   "example_host_systems": [
+    "O-Ti",
+    "O-Sn",
+    "O-V",
+    "O-Ru"
+   ],
+   "discriminate_from": {
+    "anatase": "a different TiO2 polymorph -- annotate only when the paper identifies it",
+    "magneli_phase": "reduced TinO2n-1 shear structures",
+    "vo2_monoclinic": "VO2 is monoclinic M1 below ~340 K and rutile above"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "TiO2, SnO2, RuO2, VO2 (high-T)."
+   ],
+   "merged_from": [
+    "v2:rutile"
+   ]
+  },
+  {
+   "id": "anatase",
+   "display_name": "TiO2 (anatase)",
+   "prototype": "TiO2 (anatase)",
+   "exemplar": "TiO2",
+   "formula_archetype": "MO2",
+   "typical_space_group": "I41/amd (141)",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [],
+   "example_host_systems": [
+    "O-Ti"
+   ],
+   "discriminate_from": {
+    "rutile": "shares the O-Ti host; use only when the polymorph is stated"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Metastable TiO2 polymorph."
+   ],
+   "merged_from": [
+    "v2:anatase"
+   ]
+  },
+  {
+   "id": "vo2_monoclinic",
+   "display_name": "VO2 (M1)",
+   "prototype": "VO2 (M1)",
+   "exemplar": "VO2",
+   "formula_archetype": "MO2",
+   "typical_space_group": "P21/c (14)",
+   "dimensionality": "chain_or_network",
+   "structural_class": "chain / low-dimensional",
+   "representative_materials": [],
+   "example_host_systems": [
+    "O-V"
+   ],
+   "discriminate_from": {
+    "rutile": "V-V dimerised insulating phase below the ~340 K transition"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Metal-insulator transition; annotate the phase measured. The O-V host also contains V2O5."
+   ],
+   "phase_transitions": [
+    {
+     "to": "rutile",
+     "T_K": 340,
+     "exemplar": "VO2",
+     "note": "M1 -> rutile metal-insulator transition, ~340 K."
+    }
+   ],
+   "merged_from": [
+    "v2:vo2_monoclinic"
+   ]
+  },
+  {
+   "id": "magneli_phase",
+   "display_name": "Magneli TinO2n-1",
+   "prototype": "Magneli TinO2n-1",
+   "exemplar": "Ti4O7",
+   "formula_archetype": "MnO2n-1",
+   "typical_space_group": "triclinic / monoclinic homologous series",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [],
+   "example_host_systems": [
+    "O-Ti",
+    "Nb-O"
+   ],
+   "discriminate_from": {
+    "rutile": "crystallographic shear planes accommodate oxygen loss; record n"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Common in oxygen-deficient titanate and niobate papers."
+   ],
+   "merged_from": [
+    "v2:magneli_phase"
+   ]
+  },
+  {
+   "id": "block_shear_niobate",
+   "display_name": "Nb2O5 / Nb-W-O block structures",
+   "prototype": "Nb2O5 / Nb-W-O block structures",
+   "exemplar": "Nb12O29",
+   "formula_archetype": "block ReO3 fragments",
+   "typical_space_group": "large-cell monoclinic/orthorhombic",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Nb-O",
+    "Nb-O-W"
+   ],
+   "discriminate_from": {
+    "magneli_phase": "ReO3-derived blocks rather than rutile shear",
+    "reo3_wo3": "the parent untruncated ReO3 net"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Nb12O29, Nb8W9O47. Each block size is its own structure."
+   ],
+   "merged_from": [
+    "v2:block_shear_niobate"
+   ]
+  },
+  {
+   "id": "reo3_wo3",
+   "display_name": "ReO3 / WO3",
+   "prototype": "ReO3 / WO3",
+   "exemplar": "WO3",
+   "formula_archetype": "MO3",
+   "typical_space_group": "Pm-3m (221) aristotype, distorted monoclinic",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [],
+   "example_host_systems": [
+    "O-W",
+    "Mo-O"
+   ],
+   "discriminate_from": {
+    "perovskite": "the A site is empty",
+    "tungsten_bronze": "once the A site is partly filled it becomes a bronze"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Corner-sharing octahedra with a vacant A site."
+   ],
+   "phase_transitions": [
+    {
+     "to": "reo3_wo3",
+     "T_K": 603,
+     "exemplar": "WO3",
+     "note": "gamma (P2_1/n) -> beta (Pbcn), ~603 K. First step of the WO3 distortion series inside a typical measurement window."
+    },
+    {
+     "to": "reo3_wo3",
+     "T_K": 1013,
+     "exemplar": "WO3",
+     "note": "beta (Pbcn) -> alpha (P4/ncc), ~1013 K."
+    },
+    {
+     "to": "reo3_wo3",
+     "T_K": 290,
+     "exemplar": "WO3",
+     "note": "delta (P-1) -> gamma (P2_1/n), ~290 K; relevant only to runs starting near or below room temperature."
+    }
+   ],
+   "distortion_series": {
+    "compound": "WO3",
+    "applies_to_hosts": [
+     "O-W"
+    ],
+    "note": "The cubic ReO3 aristotype is essentially never observed for WO3 at ambient pressure below the melt; every measured tungsten trioxide is a tilt-distorted variant. A transport run from room temperature to 1200 K passes through three of these steps.",
+    "steps": [
+     {
+      "label": "epsilon",
+      "spacegroup_symbol": "Pc",
+      "spacegroup_number": 7,
+      "t_min_K": null,
+      "t_max_K": 230,
+      "note": "Ferroelectric, monoclinic."
+     },
+     {
+      "label": "delta",
+      "spacegroup_symbol": "P-1",
+      "spacegroup_number": 2,
+      "t_min_K": 230,
+      "t_max_K": 290,
+      "note": "Triclinic."
+     },
+     {
+      "label": "gamma",
+      "spacegroup_symbol": "P2_1/n",
+      "spacegroup_number": 14,
+      "t_min_K": 290,
+      "t_max_K": 603,
+      "mp_id": "mp-619461",
+      "note": "The room-temperature phase; P2_1/n is a non-standard setting of P2_1/c."
+     },
+     {
+      "label": "beta",
+      "spacegroup_symbol": "Pbcn",
+      "spacegroup_number": 60,
+      "t_min_K": 603,
+      "t_max_K": 1013,
+      "note": "Orthorhombic."
+     },
+     {
+      "label": "alpha",
+      "spacegroup_symbol": "P4/ncc",
+      "spacegroup_number": 130,
+      "t_min_K": 1013,
+      "t_max_K": 1170,
+      "note": "Tetragonal; P4/nmm is also reported in the literature."
+     },
+     {
+      "label": "cubic",
+      "spacegroup_symbol": "Pm-3m",
+      "spacegroup_number": 221,
+      "t_min_K": 1170,
+      "t_max_K": null,
+      "note": "The ReO3 aristotype itself; approached only near the melt and rarely reported."
+     }
+    ]
+   },
+   "merged_from": [
+    "v2:reo3_wo3"
+   ]
+  },
+  {
+   "id": "tungsten_bronze",
+   "display_name": "Tetragonal tungsten bronze (TTB)",
+   "prototype": "tetragonal tungsten bronze / AxMO3 bronze",
+   "exemplar": "Sr0.5Ba0.5Nb2O6",
+   "formula_archetype": "AxMO3 / A5M10O30",
+   "typical_space_group": "P4bm (100) TTB; Pm-3m cubic bronze",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [
+    "Nb5W12O47",
+    "Nb4W13O47"
+   ],
+   "example_host_systems": [
+    "Ba-Nb-O-Sr",
+    "Mo-O-Rb"
+   ],
+   "discriminate_from": {
+    "reo3_wo3": "partially filled tunnels/A sites",
+    "perovskite": "pentagonal and triangular tunnels, not a simple cubic A site"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "SBN relaxor ferroelectric and Rb0.3MoO3 blue bronze. x is the doping variable.",
+    "Several symmetry variants exist; keep prototype-level assignment until paper verification."
+   ],
+   "merged_from": [
+    "v2:tungsten_bronze",
+    "v0.2:tetragonal_tungsten_bronze"
+   ]
+  },
+  {
+   "id": "vanadium_bronze",
+   "display_name": "beta-AxV2O5 / V4O11 bronze",
+   "prototype": "beta-AxV2O5 / V4O11 bronze",
+   "exemplar": "NaV2O5",
+   "formula_archetype": "AxV2O5",
+   "typical_space_group": "Pmmn (59) and relatives",
+   "dimensionality": "chain_or_network",
+   "structural_class": "chain / low-dimensional",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Na-O-V",
+    "Cu-O-V",
+    "Li-O-V"
+   ],
+   "discriminate_from": {
+    "v2o5_layered": "alkali/Cu insertion into the V2O5 framework",
+    "spinel": "LiV2O4 is a spinel, not a bronze -- check the Li-O-V host per composition"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Quasi-1D conductors. LiV2O4 in the Li-O-V host is a heavy-fermion spinel instead."
+   ],
+   "merged_from": [
+    "v2:vanadium_bronze"
+   ]
+  },
+  {
+   "id": "v2o5_layered",
+   "display_name": "V2O5",
+   "prototype": "V2O5",
+   "exemplar": "V2O5",
+   "formula_archetype": "M2O5",
+   "typical_space_group": "Pmmn (59)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [],
+   "example_host_systems": [
+    "O-V",
+    "Bi-O-V"
+   ],
+   "discriminate_from": {
+    "vanadium_bronze": "no intercalated cation"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Layered pentoxide."
+   ],
+   "merged_from": [
+    "v2:v2o5_layered"
+   ]
+  },
+  {
+   "id": "aurivillius",
+   "display_name": "Aurivillius (Bi2An-1BnO3n+3)",
+   "prototype": "Aurivillius (Bi2An-1BnO3n+3)",
+   "exemplar": "Bi2VO5.5",
+   "formula_archetype": "(Bi2O2)(perovskite block)",
+   "typical_space_group": "A2_1am / I4/mmm aristotype",
+   "dimensionality": "layered",
+   "structural_class": "perovskite-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Bi-O-V"
+   ],
+   "discriminate_from": {
+    "ruddlesden_popper": "Bi2O2 fluorite-like spacer instead of a rocksalt AO layer",
+    "bi2o2se_layered": "the same Bi2O2 layer, but with a perovskite block rather than Se"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "BIMEVOX oxide-ion conductors; oxygen vacancy content is the variable."
+   ],
+   "merged_from": [
+    "v2:aurivillius"
+   ]
+  },
+  {
+   "id": "bi2o2se_layered",
+   "display_name": "Bi2O2Se",
+   "prototype": "Bi2O2Se",
+   "exemplar": "Bi2O2Se",
+   "formula_archetype": "Bi2O2X",
+   "typical_space_group": "I4/mmm (139)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Bi-O-Se"
+   ],
+   "discriminate_from": {
+    "zrcusias_1111": "no Cu layer; Se sits directly between Bi2O2 slabs",
+    "aurivillius": "Se layer rather than a perovskite block"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "High-mobility layered semiconductor."
+   ],
+   "merged_from": [
+    "v2:bi2o2se_layered"
+   ]
+  },
+  {
+   "id": "zrcusias_1111",
+   "display_name": "BiCuSeO / ZrCuSiAs-type layered oxychalcogenide",
+   "prototype": "ZrCuSiAs (1111)",
+   "exemplar": "BiCuSeO",
+   "formula_archetype": "ABXO (1111)",
+   "typical_space_group": "P4/nmm (129)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [
+    "BiCuSeO"
+   ],
+   "example_host_systems": [
+    "Bi-Cu-O-Se",
+    "As-Fe-La-O",
+    "As-Fe-Nd-O",
+    "Cu-La-O-S",
+    "As-Co-Fe-La-O",
+    "As-Fe-O-Sm",
+    "Bi-Cu-O-Se-Y",
+    "Bi-Cu-O-Se-Te",
+    "As-Ce-Fe-O",
+    "Bi-Cu-O-S",
+    "Nd-O-Sb-Zn",
+    "As-Fe-La-O-Ru",
+    "As-Ce-F-Fe-O-Y"
+   ],
+   "discriminate_from": {
+    "bi2o2se_layered": "an intervening Cu (or Fe/Zn) layer is present",
+    "fese_pbo": "1111 inserts an oxide spacer between the pnictide layers"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Alternating oxide and chalcogenide/pnictide layers. Covers BiCuSeO thermoelectrics AND LaFeAsO iron-based superconductors -- the clearest case where prototype classification beats chemistry class. F-for-O is the doping variable in the pnictides."
+   ],
+   "merged_from": [
+    "v2:zrcusias_1111",
+    "v0.2:BiCuSeO_ZrCuSiAs_type"
+   ]
+  },
+  {
+   "id": "pyrochlore",
+   "display_name": "Pyrochlore (A2B2O7)",
+   "prototype": "Pyrochlore (A2B2O7)",
+   "exemplar": "Gd2Zr2O7",
+   "formula_archetype": "A2B2O7",
+   "typical_space_group": "Fd-3m (227)",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Gd-O-Zr",
+    "La-O-Zr",
+    "Ir-O-Y",
+    "Mn-O-Tl"
+   ],
+   "discriminate_from": {
+    "fluorite_oxide": "an ordered, oxygen-deficient fluorite superstructure",
+    "spinel": "different cation coordination and stoichiometry"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Tl2Mn2O7 CMR pyrochlore, Y2Ir2O7 topological candidate, Gd2Zr2O7 thermal-barrier oxide."
+   ],
+   "merged_from": [
+    "v2:pyrochlore"
+   ]
+  },
+  {
+   "id": "fluorite_oxide",
+   "display_name": "CaF2 (fluorite, C1)",
+   "prototype": "CaF2 (fluorite, C1)",
+   "exemplar": "CeO2",
+   "formula_archetype": "MO2",
+   "typical_space_group": "Fm-3m (225)",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [],
+   "example_host_systems": [
+    "O-Zr",
+    "O-Th",
+    "O-Y-Zr",
+    "O-U"
+   ],
+   "discriminate_from": {
+    "pyrochlore": "disordered rather than ordered vacancy arrangement",
+    "antifluorite": "cation and anion roles inverted"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "YSZ and doped ceria ionic conductors; the aliovalent dopant creates the oxygen vacancies."
+   ],
+   "merged_from": [
+    "v2:fluorite_oxide"
+   ]
+  },
+  {
+   "id": "bixbyite",
+   "display_name": "Bixbyite",
+   "prototype": "Mn2O3 (bixbyite, C-type sesquioxide)",
+   "exemplar": "In2O3",
+   "formula_archetype": "M2O3",
+   "typical_space_group": "Ia-3 (206)",
+   "dimensionality": "3D",
+   "structural_class": "framework oxide",
+   "representative_materials": [
+    "In2O3"
+   ],
+   "example_host_systems": [
+    "In-O",
+    "In-O-Sn"
+   ],
+   "discriminate_from": {
+    "corundum": "cubic vacancy-ordered fluorite derivative rather than hcp-based",
+    "homologous_inmo3_zno": "once ZnO layers order in, it becomes a homologous superlattice"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "In2O3 and ITO. In4Sn3O12 in the In-O-Sn host is a distinct rhombohedral phase."
+   ],
+   "confidence_note": "Split In-O-Sn per composition: ITO solid solution vs In4Sn3O12.",
+   "merged_from": [
+    "v2:bixbyite",
+    "v0.2:bixbyite"
+   ]
+  },
+  {
+   "id": "homologous_inmo3_zno",
+   "display_name": "InMO3(ZnO)n homologous",
+   "prototype": "InMO3(ZnO)n homologous",
+   "exemplar": "InGaZnO4",
+   "formula_archetype": "InMO3(ZnO)n",
+   "typical_space_group": "R-3m (166) / P63/mmc (194)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [],
+   "example_host_systems": [
+    "In-O-Zn",
+    "Ga-In-O-Zn",
+    "Ga-O-Zn"
+   ],
+   "discriminate_from": {
+    "wurtzite": "ordered InO2 layers interleave the ZnO wurtzite blocks",
+    "bixbyite": "layered rather than a 3D sesquioxide net"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "IGZO natural superlattices; n sets the layer period and the thermal conductivity."
+   ],
+   "merged_from": [
+    "v2:homologous_inmo3_zno"
+   ]
+  },
+  {
+   "id": "corundum",
+   "display_name": "Al2O3 (corundum, D5_1)",
+   "prototype": "Al2O3 (corundum, D5_1)",
+   "exemplar": "Al2O3",
+   "formula_archetype": "M2O3",
+   "typical_space_group": "R-3c (167)",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Al-O",
+    "Fe-O"
+   ],
+   "discriminate_from": {
+    "bixbyite": "hcp oxygen with 2/3 octahedral sites filled",
+    "spinel": "Fe3O4 is spinel while Fe2O3 is corundum -- the Fe-O host holds both"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "alpha-Al2O3, hematite Fe2O3, Cr2O3, Ti2O3."
+   ],
+   "merged_from": [
+    "v2:corundum"
+   ]
+  },
+  {
+   "id": "spinel",
+   "display_name": "Spinel",
+   "prototype": "MgAl2O4 (spinel, H1_1)",
+   "exemplar": "CoFe2O4",
+   "formula_archetype": "AB2O4",
+   "typical_space_group": "Fd-3m (227)",
+   "dimensionality": "3D",
+   "structural_class": "framework oxide",
+   "representative_materials": [
+    "MgAl2O4"
+   ],
+   "example_host_systems": [
+    "Co-Fe-O",
+    "Fe-Mn-O",
+    "Fe-Ni-O",
+    "Fe-O-Zn",
+    "Li-Mn-O",
+    "Mn-O-V",
+    "Cd-Fe-O",
+    "Fe-Mg-O",
+    "Fe-Mn-O-Zn",
+    "Co-O-V",
+    "Li-O-V"
+   ],
+   "discriminate_from": {
+    "corundum": "AB2O4 with both tetrahedral and octahedral cations",
+    "pyrochlore": "different stoichiometry"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Normal and inverse ferrite spinels, LiMn2O4, LiV2O4 heavy-fermion spinel. Record normal vs inverse when stated."
+   ],
+   "merged_from": [
+    "v2:spinel",
+    "v0.2:spinel"
+   ]
+  },
+  {
+   "id": "rocksalt_oxide",
+   "display_name": "NaCl (B1) oxide",
+   "prototype": "NaCl (B1) oxide",
+   "exemplar": "NiO",
+   "formula_archetype": "MO",
+   "typical_space_group": "Fm-3m (225)",
+   "dimensionality": "3D",
+   "structural_class": "rocksalt-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cd-O",
+    "Ni-O",
+    "Co-Mg-O"
+   ],
+   "discriminate_from": {
+    "rocksalt": "same prototype; separated so the monoxides shard together",
+    "tenorite": "CuO is monoclinic, not rocksalt"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "NiO, CdO, CoO, MnO. Li-for-Ni is the classic acceptor doping."
+   ],
+   "merged_from": [
+    "v2:rocksalt_oxide"
+   ]
+  },
+  {
+   "id": "tenorite",
+   "display_name": "CuO (tenorite)",
+   "prototype": "CuO (tenorite)",
+   "exemplar": "CuO",
+   "formula_archetype": "MO",
+   "typical_space_group": "C2/c (15)",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cu-O"
+   ],
+   "discriminate_from": {
+    "rocksalt_oxide": "square-planar Cu(II), monoclinic",
+    "cuprite": "Cu2O is cubic Pn-3m -- check the oxidation state; the Cu-O host holds both"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "CuO and Cu2O both occur in the Cu-O host."
+   ],
+   "merged_from": [
+    "v2:tenorite"
+   ]
+  },
+  {
+   "id": "cuprite",
+   "display_name": "Cu2O (cuprite, C3)",
+   "prototype": "Cu2O (cuprite, C3)",
+   "exemplar": "Cu2O",
+   "formula_archetype": "M2O",
+   "typical_space_group": "Pn-3m (224)",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Cu-O"
+   ],
+   "discriminate_from": {
+    "tenorite": "Cu(I) linear coordination, interpenetrating networks"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "p-type transparent oxide."
+   ],
+   "merged_from": [
+    "v2:cuprite"
+   ]
+  },
+  {
+   "id": "garnet",
+   "display_name": "Garnet (Y3Al5O12)",
+   "prototype": "Garnet (Y3Al5O12)",
+   "exemplar": "Y3Al5O12",
+   "formula_archetype": "A3B2C3O12",
+   "typical_space_group": "Ia-3d (230)",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Al-O-Y"
+   ],
+   "discriminate_from": {
+    "pyrochlore": "different framework topology and stoichiometry"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "YAG."
+   ],
+   "merged_from": [
+    "v2:garnet"
+   ]
+  },
+  {
+   "id": "mayenite",
+   "display_name": "Ca12Al14O33 (mayenite)",
+   "prototype": "Ca12Al14O33 (mayenite)",
+   "exemplar": "Ca12Al14O33",
+   "formula_archetype": "Ca12Al14O33",
+   "typical_space_group": "I-43d (220)",
+   "dimensionality": "3D_cage_framework",
+   "structural_class": "cage compound",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Al-Ca-O"
+   ],
+   "discriminate_from": {
+    "garnet": "cage framework with extra-framework anions that can be replaced by electrons"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "C12A7 electride -- the free-electron concentration is the doping variable."
+   ],
+   "merged_from": [
+    "v2:mayenite"
+   ]
+  },
+  {
+   "id": "cacu3ti4o12",
+   "display_name": "CaCu3Ti4O12 (A-site ordered perovskite)",
+   "prototype": "CaCu3Ti4O12 (A-site ordered perovskite)",
+   "exemplar": "CaCu3Ti4O12",
+   "formula_archetype": "AA'3B4O12",
+   "typical_space_group": "Im-3 (204)",
+   "dimensionality": "3D",
+   "structural_class": "perovskite-derived",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Ca-Cu-O-Ru-Ti"
+   ],
+   "discriminate_from": {
+    "perovskite": "ordered Cu on three quarters of the A sites, with heavily tilted octahedra"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Colossal dielectric constant."
+   ],
+   "merged_from": [
+    "v2:cacu3ti4o12"
+   ]
+  },
+  {
+   "id": "amorphous",
+   "display_name": "amorphous / glassy",
+   "prototype": "amorphous / glassy",
+   "exemplar": null,
+   "formula_archetype": null,
+   "typical_space_group": null,
+   "dimensionality": "amorphous",
+   "structural_class": "disordered / non-crystalline",
+   "representative_materials": [],
+   "example_host_systems": [
+    "Se-Te"
+   ],
+   "discriminate_from": {
+    "metallic_glass": "oxide or chalcogenide glass rather than metallic"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "No periodic structure -- stage 2 skips these. Chalcogenide glasses and oxide glasses."
+   ],
+   "merged_from": [
+    "v2:amorphous"
+   ]
+  },
+  {
+   "id": "composite_multiphase",
+   "display_name": "deliberate two-phase composite",
+   "prototype": "deliberate two-phase composite",
+   "exemplar": null,
+   "formula_archetype": "(A)x(B)y written as a mixture",
+   "typical_space_group": null,
+   "dimensionality": "composite_multiphase",
+   "structural_class": "disordered / non-crystalline",
+   "representative_materials": [],
+   "example_host_systems": [
+    "B-O-Sr-Ti",
+    "B-Fe-Si-Ti",
+    "Cu-O-Ti",
+    "Bi-C-Sb-Te",
+    "Bi-C-Te"
+   ],
+   "discriminate_from": {
+    "high_entropy_alloy": "distinct phases coexisting, not one disordered lattice"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Composition strings of the form (X)a(Y)b with large a,b signal a composite. Record the matrix prototype and the inclusion prototype separately rather than forcing one label."
+   ],
+   "merged_from": [
+    "v2:composite_multiphase"
+   ]
+  },
+  {
+   "id": "organic_polymer",
+   "display_name": "Polymer / organic non-crystalline or semicrystalline",
+   "prototype": "molecular / polymeric organic",
+   "exemplar": "PEDOT:PSS",
+   "formula_archetype": "C,H,N,O,S formulas",
+   "typical_space_group": null,
+   "dimensionality": "molecular_polymer",
+   "structural_class": "molecular / organic",
+   "representative_materials": [],
+   "example_host_systems": [
+    "C-H-O-S",
+    "C-H-N"
+   ],
+   "discriminate_from": {
+    "graphite_layered": "molecular or polymeric rather than an extended carbon net"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "PEDOT:PSS, polyaniline. Mostly out of scope for this inorganic TE set -- the organic project has its own table.",
+    "Requires a different representation from inorganic crystal prototypes."
+   ],
+   "merged_from": [
+    "v2:organic_polymer",
+    "v0.2:polymer_noncrystalline"
+   ]
+  },
+  {
+   "id": "graphite_layered",
+   "display_name": "Graphitic / graphene",
+   "prototype": "Graphite (A9)",
+   "exemplar": "C",
+   "formula_archetype": "elemental carbon",
+   "typical_space_group": "P63/mmc (194)",
+   "dimensionality": "2D",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [
+    "graphene",
+    "graphite"
+   ],
+   "example_host_systems": [
+    "C"
+   ],
+   "discriminate_from": {
+    "organic_polymer": "extended sp2 carbon net",
+    "diamond_cubic": "sp2 layers, not sp3"
+   },
+   "structure_database_candidates": [],
+   "notes": [
+    "Graphite, graphene, CNT, reduced graphene oxide and intercalation compounds. Morphology is a separate attribute, not a different prototype."
+   ],
+   "merged_from": [
+    "v2:graphite_layered",
+    "v0.2:graphite_graphene"
+   ]
+  },
+  {
+   "id": "unresolved",
+   "display_name": "Noncrystalline or structure unknown",
+   "prototype": null,
+   "exemplar": null,
+   "formula_archetype": null,
+   "typical_space_group": null,
+   "dimensionality": null,
+   "structural_class": null,
+   "representative_materials": [],
+   "example_host_systems": [],
+   "discriminate_from": {},
+   "structure_database_candidates": [],
+   "notes": [
+    "Use when the host system is genuinely ambiguous or the composition string is malformed. Always give a reason in basis."
+   ],
+   "merged_from": [
+    "v2:unresolved",
+    "v0.2:noncrystalline_or_unknown"
+   ]
+  },
+  {
+   "id": "inverse_heusler",
+   "display_name": "Inverse Heusler (Hg2CuTi-type)",
+   "prototype": "Hg2CuTi",
+   "strukturbericht": "X_a",
+   "exemplar": "Ti2NiSn",
+   "formula_archetype": "X2YZ",
+   "typical_space_group": "F-43m (216)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [
+    "Ti2NiSn",
+    "Mn2CoAl"
+   ],
+   "example_host_systems": [],
+   "discriminate_from": {
+    "full_heusler": "the two X atoms are inequivalent; F-43m rather than Fm-3m",
+    "half_heusler": "X2YZ not XYZ"
+   },
+   "notes": [
+    "Spin-gapless semiconductors."
+   ],
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v0.2:inverse_Heusler"
+   ]
+  },
+  {
+   "id": "quaternary_heusler",
+   "display_name": "Quaternary Heusler (LiMgAuSn-type)",
+   "prototype": "LiMgAuSn",
+   "exemplar": "CoFeMnSi",
+   "formula_archetype": "XX'YZ",
+   "typical_space_group": "F-43m (216)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [
+    "CoFeMnSi",
+    "NiCoMnSb"
+   ],
+   "example_host_systems": [
+    "Fe-Ni-Sb-Ti",
+    "Mn-Ni-Sb-Ti"
+   ],
+   "discriminate_from": {
+    "full_heusler": "four distinct elements in an ordered 1:1:1:1 arrangement",
+    "half_heusler": "the vacant site is occupied by a fourth element"
+   },
+   "notes": [
+    "The Fe-Ni-Sb-Ti host contains Ti2FeNiSb2, which may be a quaternary Heusler or a half-Heusler solid solution."
+   ],
+   "confidence_note": "Composition alone does not distinguish an ordered quaternary Heusler from a disordered half-Heusler alloy -- needs paper evidence.",
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v0.2:quaternary_Heusler"
+   ]
+  },
+  {
+   "id": "filled_skutterudite",
+   "display_name": "Filled skutterudite",
+   "prototype": "LaFe4P12",
+   "exemplar": "Yb0.3Co4Sb12",
+   "formula_archetype": "RyM4X12",
+   "typical_space_group": "Im-3 (204)",
+   "dimensionality": "3D_cage_framework",
+   "structural_class": "cage compound",
+   "representative_materials": [
+    "Yb0.3Co4Sb12",
+    "Ba0.3In0.2Co4Sb12",
+    "CeFe4Sb12",
+    "YbFe4Sb12"
+   ],
+   "example_host_systems": [
+    "Co-Sb",
+    "Ce-Fe-Sb",
+    "Fe-Sb-Yb",
+    "Ca-Fe-Sb",
+    "Fe-Ni-Sb",
+    "Ce-Co-Fe-Sb"
+   ],
+   "discriminate_from": {
+    "skutterudite": "the icosahedral void is occupied by a rare-earth/alkaline-earth guest; y > 0 distinguishes it from binary MX3"
+   },
+   "notes": [
+    "Split from binary skutterudite because the filled and unfilled frameworks are different Materials Project entries.",
+    "The filler fraction y is a compositional variable that sets the carrier count -- treat as filling level, never as a substitutional dopant."
+   ],
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v0.2:filled_skutterudite"
+   ]
+  },
+  {
+   "id": "clathrate_viii",
+   "display_name": "Clathrate type VIII",
+   "prototype": "Ba8Ga16Sn30 (type VIII)",
+   "exemplar": "Ba8Ga16Sn30",
+   "formula_archetype": "A8E46",
+   "typical_space_group": "I-43m (217)",
+   "dimensionality": "3D_cage_framework",
+   "structural_class": "cage compound",
+   "representative_materials": [
+    "Ba8Ga16Sn30"
+   ],
+   "example_host_systems": [
+    "Ba-Ga-Sn"
+   ],
+   "discriminate_from": {
+    "clathrate_i": "a single cage type (distorted pentagonal dodecahedra) rather than the two cage types of type I; beta-Ba8Ga16Sn30 is type VIII while the alpha phase is type I"
+   },
+   "notes": [
+    "Corrects v2, which filed Ba-Ga-Sn under type I alone."
+   ],
+   "confidence_note": "The Ba-Ga-Sn host contains both the type-I (alpha) and type-VIII (beta) polymorphs -- split per composition and per paper.",
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v0.2:clathrate_type_VIII"
+   ]
+  },
+  {
+   "id": "zintl_3_1_3",
+   "display_name": "Zintl 3-1-3 (Ca3AlSb3-type)",
+   "prototype": "Ca3AlSb3",
+   "exemplar": "Ca3AlSb3",
+   "formula_archetype": "A3MPn3",
+   "typical_space_group": "Pnma (62)",
+   "dimensionality": "chain_or_network",
+   "structural_class": "Zintl polyanion",
+   "representative_materials": [
+    "Ca3AlSb3",
+    "Sr3GaSb3"
+   ],
+   "example_host_systems": [],
+   "discriminate_from": {
+    "zintl_5_2_6": "isolated MPn3 chains rather than corner-sharing MPn4 double chains"
+   },
+   "notes": [],
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v0.2:Zintl_3_1_3"
+   ]
+  },
+  {
+   "id": "mn5si3_d88",
+   "display_name": "Mn5Si3-type (D8_8)",
+   "prototype": "Mn5Si3",
+   "strukturbericht": "D8_8",
+   "exemplar": "Mn5Si3",
+   "formula_archetype": "A5B3",
+   "typical_space_group": "P63/mcm (193)",
+   "dimensionality": "3D",
+   "structural_class": "close-packed intermetallic",
+   "representative_materials": [
+    "Mn5Si3",
+    "Ti5Ga3"
+   ],
+   "example_host_systems": [],
+   "discriminate_from": {
+    "hms_chimney_ladder": "A5B3 rather than MSi~1.75",
+    "b20_fesi": "different stoichiometry"
+   },
+   "notes": [
+    "Can host interstitial atoms in the octahedral chain void."
+   ],
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v0.2:Mn5Si3_D88"
+   ]
+  },
+  {
+   "id": "chevrel",
+   "display_name": "Chevrel phase",
+   "prototype": "Mo6S8",
+   "exemplar": "Mo6Se8",
+   "formula_archetype": "AxMo6X8",
+   "typical_space_group": "R-3 (148)",
+   "dimensionality": "cluster_3D",
+   "structural_class": "cluster compound",
+   "representative_materials": [
+    "Mo6Se8",
+    "PbMo6S8",
+    "Cu2Mo6S8"
+   ],
+   "example_host_systems": [],
+   "discriminate_from": {
+    "ir3ge7": "Mo6 octahedral clusters with intercalated cations"
+   },
+   "notes": [
+    "Restored from v1; dropped in error from v2.",
+    "The intercalated cation content x is the doping variable."
+   ],
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v0.2:chevrel"
+   ]
+  },
+  {
+   "id": "hollandite",
+   "display_name": "Hollandite",
+   "prototype": "BaMn8O16",
+   "exemplar": "K2Cr8O16",
+   "formula_archetype": "AxM8O16",
+   "typical_space_group": "I4/m (87)",
+   "dimensionality": "tunnel",
+   "structural_class": "framework oxide",
+   "representative_materials": [
+    "K2Cr8O16",
+    "BaMn8O16"
+   ],
+   "example_host_systems": [],
+   "discriminate_from": {
+    "tungsten_bronze": "2x2 edge-sharing octahedral tunnels",
+    "rutile": "the tunnel framework is built from rutile-like chains but is not rutile"
+   },
+   "notes": [
+    "Tunnel cation content sets the mixed valence."
+   ],
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v0.2:hollandite"
+   ]
+  },
+  {
+   "id": "fresnoite",
+   "display_name": "Fresnoite",
+   "prototype": "Ba2TiSi2O8",
+   "exemplar": "Ba2TiSi2O8",
+   "formula_archetype": "A2BC2O8",
+   "typical_space_group": "P4bm (100)",
+   "dimensionality": "layered",
+   "structural_class": "framework oxide",
+   "representative_materials": [
+    "Ba2TiSi2O8",
+    "Sr2TiSi2O8"
+   ],
+   "example_host_systems": [],
+   "discriminate_from": {
+    "tungsten_bronze": "silicate framework, polar tetragonal"
+   },
+   "notes": [
+    "Polar piezoelectric oxide; enters via the dielectric/piezoelectric projects."
+   ],
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v0.2:fresnoite"
+   ]
+  },
+  {
+   "id": "langasite",
+   "display_name": "Langasite",
+   "prototype": "La3Ga5SiO14",
+   "exemplar": "La3Ga5SiO14",
+   "formula_archetype": "A3BC3D2O14",
+   "typical_space_group": "P321 (150)",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [
+    "La3Ga5SiO14",
+    "Ca3Ga2Ge4O14"
+   ],
+   "example_host_systems": [],
+   "discriminate_from": {
+    "langatate": "langatate is the Ta-substituted member La3Ga5.5Ta0.5O14",
+    "fresnoite": "trigonal P321 framework with four distinct cation sites"
+   },
+   "notes": [
+    "Piezoelectric crystal family."
+   ],
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v0.2:langasite"
+   ]
+  },
+  {
+   "id": "langatate",
+   "display_name": "Langatate",
+   "prototype": "La3Ga5.5Ta0.5O14",
+   "exemplar": "La3Ga5.5Ta0.5O14",
+   "formula_archetype": "langasite-related",
+   "typical_space_group": "P321 (150)",
+   "dimensionality": "3D_framework",
+   "structural_class": "framework oxide",
+   "representative_materials": [
+    "La3Ga5.5Ta0.5O14",
+    "La3Ga5.5Nb0.5O14"
+   ],
+   "example_host_systems": [],
+   "discriminate_from": {
+    "langasite": "Ta/Nb on the tetrahedral site instead of Si"
+   },
+   "notes": [
+    "Kept separate from langasite because the substituted member is a distinct database entry."
+   ],
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v0.2:langatate"
+   ]
+  },
+  {
+   "id": "amorphous_igzo",
+   "display_name": "Amorphous In-Ga-Zn-O",
+   "prototype": null,
+   "exemplar": "a-InGaZnO",
+   "formula_archetype": "In-Ga-Zn-O",
+   "typical_space_group": null,
+   "dimensionality": "amorphous",
+   "structural_class": "disordered / non-crystalline",
+   "representative_materials": [
+    "a-IGZO"
+   ],
+   "example_host_systems": [],
+   "discriminate_from": {
+    "homologous_inmo3_zno": "the crystalline homologous superlattice of the same chemistry -- only paper evidence separates them",
+    "amorphous": "named separately because a-IGZO is a large, well-defined thin-film class"
+   },
+   "notes": [
+    "No MP assignment."
+   ],
+   "confidence_note": "Composition cannot distinguish a-IGZO from crystalline InGaZnO4 -- requires paper evidence.",
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v0.2:amorphous_IGZO"
+   ]
+  },
+  {
+   "id": "cmcm_snse_ht",
+   "display_name": "High-temperature Cmcm SnSe",
+   "prototype": "SnSe (Cmcm, high-T)",
+   "exemplar": "SnSe",
+   "formula_archetype": "AB",
+   "typical_space_group": "Cmcm (63)",
+   "dimensionality": "layered",
+   "structural_class": "layered van der Waals",
+   "representative_materials": [
+    "SnSe",
+    "SnS"
+   ],
+   "example_host_systems": [
+    "Se-Sn",
+    "S-Sn"
+   ],
+   "discriminate_from": {
+    "layered_ges": "the Pnma phase below the transition; same material, different phase"
+   },
+   "notes": [
+    "The phase in which SnSe's record ZT is reported. Reached above ~800 K, inside the measured range of most SnSe papers."
+   ],
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v3 (high-temperature phase, added as a transition target)"
+   ]
+  },
+  {
+   "id": "bcc_superionic",
+   "display_name": "bcc superionic (alpha-Ag2Se type)",
+   "prototype": "alpha-Ag2Se",
+   "exemplar": "Ag2Se",
+   "formula_archetype": "A2B",
+   "typical_space_group": "Im-3m (229)",
+   "dimensionality": "3D",
+   "structural_class": "rocksalt-derived",
+   "representative_materials": [
+    "Ag2Se",
+    "Ag2S",
+    "Ag2Te"
+   ],
+   "example_host_systems": [
+    "Ag-Se",
+    "Ag-Te"
+   ],
+   "discriminate_from": {
+    "ag2se_naumannite": "the ordered orthorhombic phase below ~406 K; same material, different phase"
+   },
+   "notes": [
+    "Liquid-like Ag sublattice. Most Ag2Se transport data spans the transition."
+   ],
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v3 (high-temperature phase, added as a transition target)"
+   ]
+  },
+  {
+   "id": "fulleride_a3c60",
+   "display_name": "Alkali fulleride (A3C60)",
+   "prototype": "K3C60",
+   "exemplar": "Rb3C60",
+   "formula_archetype": "A3C60",
+   "typical_space_group": "Fm-3m (225)",
+   "dimensionality": "molecular_3D",
+   "structural_class": "molecular / organic",
+   "representative_materials": [
+    "K3C60",
+    "Rb3C60",
+    "Cs3C60"
+   ],
+   "example_host_systems": [
+    "C"
+   ],
+   "discriminate_from": {
+    "graphite_layered": "an fcc packing of C60 molecules with alkali metals in the octahedral and tetrahedral voids, not an extended sp2 sheet",
+    "organic_polymer": "a crystalline molecular solid, not a polymer",
+    "diamond_cubic": "molecular rather than a continuous sp3 network"
+   },
+   "notes": [
+    "Proposed during chunk-001 annotation and accepted: the C host contains Rb3C60 and K3C60, which share no structural feature with graphite.",
+    "The alkali content is a filling level setting the t1u band occupancy, not dilute doping -- A3C60 is the half-filled metallic composition.",
+    "Air-sensitive; transport data are usually on sealed or thin-film samples."
+   ],
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v3 (proposed in chunk 001, accepted by the user)"
+   ]
+  },
+  {
+   "id": "colusite",
+   "display_name": "Colusite",
+   "prototype": "Cu26V2Sn6S32",
+   "exemplar": "Cu26V2Sn6S32",
+   "formula_archetype": "Cu26A2B6S32",
+   "typical_space_group": "P-43n (218)",
+   "dimensionality": "3D_framework",
+   "structural_class": "cluster compound",
+   "representative_materials": [
+    "Cu26V2Sn6S32",
+    "Cu26V2Ge6S32",
+    "Cu26Nb2Sn6S32",
+    "Cu26Ta2Sn6S32"
+   ],
+   "example_host_systems": [
+    "Cu-S-Sn",
+    "Cu-Ge-S"
+   ],
+   "discriminate_from": {
+    "tetrahedrite": "a different Cu-S sulfosalt: colusite has a larger cubic cell with a dedicated transition-metal framework site and no Sb lone pair",
+    "cu2gese3": "Cu2SnS3 is the simple diamond-like ternary; colusite has a much larger cell",
+    "stannite_kesterite": "not a diamond-like superstructure",
+    "famatinite": "different framework and cation count"
+   },
+   "notes": [
+    "Proposed during chunk-002 annotation and accepted: Cu26V2Sn6S32 is the largest composition in the Cu-S-Sn host and had no taxonomy entry.",
+    "Cu content and the V/Nb/Ta framework site are the carrier-tuning variables; the sulfur sublattice is a rigid tetrahedral framework.",
+    "Sometimes described as a derivative of the sphalerite net, but the supercell ordering makes it a distinct prototype for structure lookup."
+   ],
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v3 (proposed in chunk 002, accepted by the user)"
+   ]
+  },
+  {
+   "id": "in4se3",
+   "display_name": "In4Se3",
+   "prototype": "In4Se3",
+   "exemplar": "In4Se3",
+   "formula_archetype": "A4B3",
+   "typical_space_group": "Pnnm (58)",
+   "dimensionality": "chain_or_network",
+   "structural_class": "Zintl polyanion",
+   "representative_materials": [
+    "In4Se3",
+    "In4Te3"
+   ],
+   "example_host_systems": [
+    "In-Se",
+    "In-Te"
+   ],
+   "discriminate_from": {
+    "layered_in2se3": "In2Se3 and InSe are simple layered polytypes of divalent-like In; In4Se3 is a distinct mixed-valence phase built from (In3)5+ cluster chains plus In+ cations, and is not a member of that polytype family",
+    "inte_tlse": "InTe is the TlSe-type mixed-valence chain compound; In4Te3 is the 4-3 phase and belongs here -- separate by stoichiometry",
+    "sphalerite": "not a tetrahedral net"
+   },
+   "notes": [
+    "Filed as an independent structure at the user's direction: In4Se3-delta is one of the well-known high-ZT systems (ZT ~1.5 near 700 K), and filing it under layered_in2se3 misdescribes both the bonding and the transport anisotropy.",
+    "Quasi-one-dimensional and strongly anisotropic; the reported figures of merit are direction-dependent, so the measurement axis matters when comparing samples.",
+    "Se deficiency (In4Se3-delta) is the carrier-concentration variable, not an impurity."
+   ],
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v3 (added during chunk-002 annotation, accepted by the user)"
+   ]
+  },
+  {
+   "id": "unresolved_crystalline",
+   "display_name": "Unresolved but crystalline",
+   "prototype": null,
+   "exemplar": null,
+   "formula_archetype": "variable",
+   "typical_space_group": null,
+   "dimensionality": "3D",
+   "structural_class": null,
+   "representative_materials": [],
+   "example_host_systems": [],
+   "discriminate_from": {
+    "unresolved": "use this when the sample is known to be crystalline but the prototype cannot be pinned down",
+    "amorphous": "crystallinity is established here"
+   },
+   "notes": [
+    "Distinct from `unresolved`, which also covers malformed composition strings and unknown crystallinity."
+   ],
+   "structure_database_candidates": [],
+   "merged_from": [
+    "v0.2:unresolved_crystalline"
+   ]
+  }
+ ]
+}
