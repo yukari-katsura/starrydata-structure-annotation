@@ -216,10 +216,19 @@ def main():
     ro_path = ANN + 'annotations/reference_only_hosts.parquet'
     if os.path.exists(ro_path):
         ro = pd.read_parquet(ro_path)
+        # reference_only_hosts.parquet is a snapshot: a host listed there may
+        # have been classified by a later chunk. A composition that now carries
+        # an assignment must not also appear as reference-only, or it is counted
+        # twice and every sample of it is duplicated in the sample-level join.
+        assigned = set(dfc.composition)
         ro_rows = []
+        skipped = 0
         for r in comp_all[comp_all.host_system.isin(ro.host_system)].itertuples():
             b = ro_by_host.get(r.host_system)
             if b is None:
+                continue
+            if r.composition in assigned:
+                skipped += 1
                 continue
             ro_rows.append({
                 'composition': r.composition, 'reduced_formula': r.reduced_formula,
@@ -238,6 +247,9 @@ def main():
                              pd.DataFrame(ro_rows)], ignore_index=True)
             print(f'  + {len(ro_rows)} reference-only compositions '
                   f'({len(ro)} hosts, no prototype assigned)')
+        if skipped:
+            print(f'    {skipped} compositions dropped from the reference-only '
+                  f'pass: they have since been assigned')
 
     # --- sample level --------------------------------------------------------
     smp = pd.read_parquet(SAMPLES, columns=['SID', 'sample_id', 'sample_name',
